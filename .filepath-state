@@ -1799,12 +1799,6 @@
   "7d6e1d818c8eb4f6d2e4e7d320e44c7f159eabb4": [
     "Azure-RMSDocs\\get-started\\terminology.md"
   ],
-  "b3a05a159e9ed8fbd58f409223572b2a383115b9": [
-    "Azure-RMSDocs\\get-started\\terminology.md"
-  ],
-  "968c0f1b7269170c4e12aa574b5aef30ac9cb22a": [
-    "Azure-RMSDocs\\get-started\\terminology.md"
-  ],
   "c56c4248ac8754c48b6f411a58c6ba93559aed7f": [
     "Azure-RMSDocs\\plan-design\\thales-hsm.md"
   ],
@@ -1995,15 +1989,6 @@
     "Azure-RMSDocs\\deploy-use\\configure-office-apps.md"
   ],
   "e0f90105bf168f4a3334a042acadc0b72052b601": [
-    "Azure-RMSDocs\\deploy-use\\configure-servers-rms-connector.md"
-  ],
-  "2654fe41a53ace0006af6e78b424c56ee991c81b": [
-    "Azure-RMSDocs\\deploy-use\\configure-servers-rms-connector.md"
-  ],
-  "312ff87f75a3b6d989ed2fbdfa5c063d9083576b": [
-    "Azure-RMSDocs\\deploy-use\\configure-servers-rms-connector.md"
-  ],
-  "2cd6930d3ff3061b3b897598e87034a297ae0a6a": [
     "Azure-RMSDocs\\deploy-use\\configure-servers-rms-connector.md"
   ],
   "d3f923cf6f140c2caa75b7b0c8ac90a42be962a7": [
@@ -2516,16 +2501,7 @@
   "d130be044beecd4c876d660fea25a9169b3ae75e": [
     "Azure-RMSDocs\\rms-client\\client-deployment-notes.md"
   ],
-  "609e0e108ffcb0cf77e447ee2450ecca4b8dcfa2": [
-    "Azure-RMSDocs\\rms-client\\client-deployment-notes.md"
-  ],
-  "0798863f1aa38a2a4fb755f4cb74e75be07b9b6d": [
-    "Azure-RMSDocs\\rms-client\\client-deployment-notes.md"
-  ],
   "8643e856a5de08be4fbe423d92b7d2619b47d3dd": [
-    "Azure-RMSDocs\\rms-client\\configure-fci.md"
-  ],
-  "6d807da4dd8cf52a7ae42c60149058512af7cedc": [
     "Azure-RMSDocs\\rms-client\\configure-fci.md"
   ],
   "a1771c37bffa2af60773a5befdd35c14f684c942": [
@@ -2757,12 +2733,6 @@
     "Azure-RMSDocs\\understand-explore\\sharing-app-support.md"
   ],
   "6283b1be421a2ffb6261f4921d973df7a1270d08": [
-    "Azure-RMSDocs\\understand-explore\\what-admins-users-see.md"
-  ],
-  "e14b3adf04e68a8710fadea07920f002c2fdf2ed": [
-    "Azure-RMSDocs\\understand-explore\\what-admins-users-see.md"
-  ],
-  "72ef7fb746eec2264f7443f894aa35611696bf9b": [
     "Azure-RMSDocs\\understand-explore\\what-admins-users-see.md"
   ],
   "6fe5759a790a728da7a16453e5b3ab5d523bb9fd": [
