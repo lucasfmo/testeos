@@ -434,21 +434,6 @@
   "6a1b3f8b458622aabffd205d26c546a80a7c3f11": [
     "Azure-RMSDocs\\get-started\\scenario-fci.md"
   ],
-  "d389703c62ff99bbfc12267750a83d689d7d201b": [
-    "Azure-RMSDocs\\get-started\\scenario-fci.md"
-  ],
-  "ac5858ca49dbc7fae5d5b50967ae15cf5d32664d": [
-    "Azure-RMSDocs\\get-started\\scenario-fci.md"
-  ],
-  "b6cbe510fdcf5d31e0121f40591b771d80f305f6": [
-    "Azure-RMSDocs\\get-started\\scenario-fci.md"
-  ],
-  "60aed3eb1f2eebd8cf0d4830ffd036e311ac3018": [
-    "Azure-RMSDocs\\get-started\\scenario-fci.md"
-  ],
-  "6046cb90425a615535ae9ec5cd9d2193f3020f9b": [
-    "Azure-RMSDocs\\get-started\\scenario-fci.md"
-  ],
   "cb028afcbfd9b59f134539c434f4f49efc5e9092": [
     "Azure-RMSDocs\\get-started\\scenario-sharepoint.md"
   ],
@@ -492,21 +477,6 @@
     "Azure-RMSDocs\\get-started\\scenario-company-confidential-email.md"
   ],
   "e3afa3dc5cdac07add2e8c1c927692067c2659f0": [
-    "Azure-RMSDocs\\get-started\\scenario-company-confidential-email.md"
-  ],
-  "9fb0ebe82da3c4022a032a62391c2fbb2ea2abed": [
-    "Azure-RMSDocs\\get-started\\scenario-company-confidential-email.md"
-  ],
-  "5badc0b730b95673ba9ed56eaa581e92641426a3": [
-    "Azure-RMSDocs\\get-started\\scenario-company-confidential-email.md"
-  ],
-  "e3e31b9849655868791b4721606ef7d2725f920a": [
-    "Azure-RMSDocs\\get-started\\scenario-company-confidential-email.md"
-  ],
-  "2a4c17841c14090247bd059e48256a7e14d83687": [
-    "Azure-RMSDocs\\get-started\\scenario-company-confidential-email.md"
-  ],
-  "45b492f3f1f1601acfd83422aadfb03143031182": [
     "Azure-RMSDocs\\get-started\\scenario-company-confidential-email.md"
   ],
   "500701acb03aa9f049cc995f14e544e07556bc4f": [
@@ -696,30 +666,6 @@
     "Azure-RMSDocs\\get-started\\scenario-share-office-file-externally.md"
   ],
   "ee2e1535156736f6cbed96711d7044451aa5ef95": [
-    "Azure-RMSDocs\\develop\\release-notes-rtm.md"
-  ],
-  "1b77ae8f102c021a322824d1c60a9934e8717cab": [
-    "Azure-RMSDocs\\develop\\release-notes-rtm.md"
-  ],
-  "a3de6001c5be3b3ee01529dc8105e0c8298f2104": [
-    "Azure-RMSDocs\\develop\\release-notes-rtm.md"
-  ],
-  "54d515914f6ccdad6dd508e11221cb474e3ca25d": [
-    "Azure-RMSDocs\\develop\\release-notes-rtm.md"
-  ],
-  "5df7f34d53b8ca60ea51bc628ee53bade6cbdbdf": [
-    "Azure-RMSDocs\\develop\\release-notes-rtm.md"
-  ],
-  "1b0647090b5b1e5b530471b7b3bac533b0cdbaf8": [
-    "Azure-RMSDocs\\develop\\release-notes-rtm.md"
-  ],
-  "cd063a000e27fc016bfec1e1337c16b7c02024ec": [
-    "Azure-RMSDocs\\develop\\release-notes-rtm.md"
-  ],
-  "f524bad20838888a5a4112d791dc806e6b1d69fd": [
-    "Azure-RMSDocs\\develop\\release-notes-rtm.md"
-  ],
-  "3447ab4fcdf560acb37dc64ad5cfe18fbbb21e08": [
     "Azure-RMSDocs\\develop\\release-notes-rtm.md"
   ],
   "434a43bf96bd24502c796d0d6c05fef2b2471bde": [
@@ -2072,12 +2018,6 @@
   "4595cb16b84c29d67fa28524ee12386fbf09ab4a": [
     "Azure-RMSDocs\\deploy-use\\install-configure-rms-connector.md"
   ],
-  "2a39e2928191df505f92bc94573a31aa1dacd8bb": [
-    "Azure-RMSDocs\\deploy-use\\install-configure-rms-connector.md"
-  ],
-  "5efa739d300c13b5e2583b67531acc11e04f7523": [
-    "Azure-RMSDocs\\deploy-use\\install-configure-rms-connector.md"
-  ],
   "590148218fdd10e88ba764b2dc523a2213e2c8bb": [
     "Azure-RMSDocs\\deploy-use\\install-powershell.md"
   ],
@@ -2088,9 +2028,6 @@
     "Azure-RMSDocs\\deploy-use\\log-analyze-usage.md"
   ],
   "d71cdbe5d6faae000947dd665552547d44e8fbb9": [
-    "Azure-RMSDocs\\deploy-use\\log-analyze-usage.md"
-  ],
-  "03b533bcddec5268e5865777e4993a22cb2206c6": [
     "Azure-RMSDocs\\deploy-use\\log-analyze-usage.md"
   ],
   "496edca2e2323e17216858e2ab4844fdb0aa1fb0": [
@@ -2286,21 +2223,6 @@
     "Azure-RMSDocs\\get-started\\scenario-work-folders.md"
   ],
   "3a9dc382d400caa4db25a477695b16833b530d87": [
-    "Azure-RMSDocs\\get-started\\scenario-work-folders.md"
-  ],
-  "c01122f8c81aec8bf51e5a9df9ea46cdb2523e5d": [
-    "Azure-RMSDocs\\get-started\\scenario-work-folders.md"
-  ],
-  "907ec85c00fa4bb059df33c0524f20fc114b67d1": [
-    "Azure-RMSDocs\\get-started\\scenario-work-folders.md"
-  ],
-  "2b2cee81133eb39b176d887041ed7c0597718a96": [
-    "Azure-RMSDocs\\get-started\\scenario-work-folders.md"
-  ],
-  "963758ccac4b40951aa0a1383142b2acabd483cb": [
-    "Azure-RMSDocs\\get-started\\scenario-work-folders.md"
-  ],
-  "abd97e1d34155199b4b915b8c2509f74770f9949": [
     "Azure-RMSDocs\\get-started\\scenario-work-folders.md"
   ],
   "6d34b9e40fd6eb58f5e9fe1fd242a8aa36c091c1": [
@@ -2696,9 +2618,6 @@
   "c6c0e2e3afa416f343f23613db4b3ca228426c01": [
     "Azure-RMSDocs\\understand-explore\\office-apps-services-support.md"
   ],
-  "b175da37dc70d18428d073ab2461a18951600c86": [
-    "Azure-RMSDocs\\understand-explore\\office-apps-services-support.md"
-  ],
   "6a27d5a2a1bad24521a551465fd9324f2a826376": [
     "Azure-RMSDocs\\understand-explore\\rms-for-individuals.md"
   ],
@@ -2721,9 +2640,6 @@
     "Azure-RMSDocs\\understand-explore\\rms-for-individuals-take-control.md"
   ],
   "19252180802c69d6e5d6bf22c71ff3bcba96fb36": [
-    "Azure-RMSDocs\\understand-explore\\rms-for-individuals-user-sign-up.md"
-  ],
-  "5698fb3a007647adf28192885d54b3c9c53857bd": [
     "Azure-RMSDocs\\understand-explore\\rms-for-individuals-user-sign-up.md"
   ],
   "02f1cf60bdafe748f16d9defa1c8b0cc8a61efb0": [
