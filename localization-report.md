@@ -2454,11 +2454,11 @@
 * Handoff File: [84421bf7f4ba657e685239fb27f4798a46485f71.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/84421bf7f4ba657e685239fb27f4798a46485f71.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\DeployUse\Sample.md, Azure-RMSDocs\PlanDesign\Sample.md, Azure-RMSDocs\Troubleshoot\Sample.md, Azure-RMSDocs\Understand\Sample.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\DeployUse\Sample.md, Azure-RMSDocs\PlanDesign\Sample.md, Azure-RMSDocs\Troubleshoot\Sample.md, Azure-RMSDocs\Understand\Sample.md
 * [Back to Top](#report-top)
 
 ##### <a name='a88e0dacb05ee102cc7a0aed64ac5032d1bd9f3d166'></a> Source: [Azure-RMSDocs\media\4d269a30-a873-45c5-87de-30ee6558e7b0.gif](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/4d269a30-a873-45c5-87de-30ee6558e7b0.gif)
@@ -2467,11 +2467,11 @@
 * Handoff File: [a88e0dacb05ee102cc7a0aed64ac5032d1bd9f3d.gif](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/a88e0dacb05ee102cc7a0aed64ac5032d1bd9f3d.gif)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\how-to-safely-share-a-document-by-email.md, Azure-RMSDocs\scenario-configure-work-folders-for-persistent-protection.md, Azure-RMSDocs\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\GetStarted\scenario-configure-work-folders-for-persistent-protection.md, Azure-RMSDocs\GetStarted\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\GetStarted\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\GetStarted\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\GetStarted\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\GetStarted\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\GetStarted\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\get-started\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-configure-work-folders-for-persistent-protection.md, Azure-RMSDocs\get-started\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\get-started\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\get-started\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\get-started\scenario-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-executives-email.md, Azure-RMSDocs\get-started\scenario-fci.md, Azure-RMSDocs\get-started\scenario-secure-most-valuable-files.md, Azure-RMSDocs\get-started\scenario-share-office-file-externally.md, Azure-RMSDocs\get-started\scenario-sharepoint.md, Azure-RMSDocs\get-started\scenario-work-folders.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\how-to-safely-share-a-document-by-email.md, Azure-RMSDocs\scenario-configure-work-folders-for-persistent-protection.md, Azure-RMSDocs\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\GetStarted\scenario-configure-work-folders-for-persistent-protection.md, Azure-RMSDocs\GetStarted\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\GetStarted\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\GetStarted\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\GetStarted\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\GetStarted\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\GetStarted\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\get-started\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-configure-work-folders-for-persistent-protection.md, Azure-RMSDocs\get-started\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\get-started\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\get-started\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\get-started\scenario-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-executives-email.md, Azure-RMSDocs\get-started\scenario-fci.md, Azure-RMSDocs\get-started\scenario-secure-most-valuable-files.md, Azure-RMSDocs\get-started\scenario-share-office-file-externally.md, Azure-RMSDocs\get-started\scenario-sharepoint.md, Azure-RMSDocs\get-started\scenario-work-folders.md
 * [Back to Top](#report-top)
 
 ##### <a name='9617b96490e5d0b51f112cacd7403cec29f5782c167'></a> Source: [Azure-RMSDocs\media\AddAnAppPick.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/6775f218b66e4f6dd8092d1b287ee76f9c594e6f/Azure-RMSDocs/media/AddAnAppPick.png)
@@ -2528,11 +2528,11 @@
 * Handoff File: [e46ef9487910113bda49dfcfa5e3d3e5798432b0.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/e46ef9487910113bda49dfcfa5e3d3e5798432b0.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md, Azure-RMSDocs\develop\how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md, Azure-RMSDocs\develop\how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md
 * [Back to Top](#report-top)
 
 ##### <a name='e0d5b3dc765e34dd1337a26021fec5ad2c15ee3f172'></a> Source: [Azure-RMSDocs\media\ADRMS_MSRMSApp_AccessKeys.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/ADRMS_MSRMSApp_AccessKeys.png)
@@ -2541,11 +2541,11 @@
 * Handoff File: [e0d5b3dc765e34dd1337a26021fec5ad2c15ee3f.png](https://github.com/Microsoft/EM.handoff/blob/2273542a37ba27c9052bebc37add45266a213433/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/e0d5b3dc765e34dd1337a26021fec5ad2c15ee3f.png)
 * Handoff Datetime: 2016-03-08 05:20:24
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\use-keyboard-shortcuts-in-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\use-keyboard-shortcuts-in-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-keyboard-shortcuts.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\use-keyboard-shortcuts-in-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\use-keyboard-shortcuts-in-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-keyboard-shortcuts.md
 * [Back to Top](#report-top)
 
 ##### <a name='abfc58ece506a50ac01a4ab5befab366e51fcaf0173'></a> Source: [Azure-RMSDocs\media\ADRMS_MSRMSApp_EmailMessage.PNG](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/ADRMS_MSRMSApp_EmailMessage.PNG)
@@ -2554,11 +2554,11 @@
 * Handoff File: [abfc58ece506a50ac01a4ab5befab366e51fcaf0.PNG](https://github.com/Microsoft/EM.handoff/blob/2273542a37ba27c9052bebc37add45266a213433/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/abfc58ece506a50ac01a4ab5befab366e51fcaf0.PNG)
 * Handoff Datetime: 2016-03-08 05:20:24
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\protect-a-file-that-you-share-by-email-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\protect-a-file-that-you-share-by-email-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-protect-by-email.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\protect-a-file-that-you-share-by-email-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\protect-a-file-that-you-share-by-email-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-protect-by-email.md
 * [Back to Top](#report-top)
 
 ##### <a name='f7232165f1435faeee2789a436761a793d19649d174'></a> Source: [Azure-RMSDocs\media\ADRMS_MSRMSApp_ExplorerTrackUsage.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/ADRMS_MSRMSApp_ExplorerTrackUsage.png)
@@ -2567,11 +2567,11 @@
 * Handoff File: [f7232165f1435faeee2789a436761a793d19649d.png](https://github.com/Microsoft/EM.handoff/blob/2273542a37ba27c9052bebc37add45266a213433/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/f7232165f1435faeee2789a436761a793d19649d.png)
 * Handoff Datetime: 2016-03-08 05:20:24
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\track-and-revoke-your-documents-when-you-use-the-rms-sharing-application.md, Azure-RMSDocs\rms-client\track-and-revoke-your-documents-when-you-use-the-rms-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-track-revoke.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\track-and-revoke-your-documents-when-you-use-the-rms-sharing-application.md, Azure-RMSDocs\rms-client\track-and-revoke-your-documents-when-you-use-the-rms-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-track-revoke.md
 * [Back to Top](#report-top)
 
 ##### <a name='43d58b12a759c2bb702d4cbfa5cb0914355a908b175'></a> Source: [Azure-RMSDocs\media\ADRMS_MSRMSApp_OfficeToolbarTrackUsage.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/ADRMS_MSRMSApp_OfficeToolbarTrackUsage.png)
@@ -2580,11 +2580,11 @@
 * Handoff File: [43d58b12a759c2bb702d4cbfa5cb0914355a908b.png](https://github.com/Microsoft/EM.handoff/blob/2273542a37ba27c9052bebc37add45266a213433/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/43d58b12a759c2bb702d4cbfa5cb0914355a908b.png)
 * Handoff Datetime: 2016-03-08 05:20:24
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\track-and-revoke-your-documents-when-you-use-the-rms-sharing-application.md, Azure-RMSDocs\rms-client\track-and-revoke-your-documents-when-you-use-the-rms-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-track-revoke.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\track-and-revoke-your-documents-when-you-use-the-rms-sharing-application.md, Azure-RMSDocs\rms-client\track-and-revoke-your-documents-when-you-use-the-rms-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-track-revoke.md
 * [Back to Top](#report-top)
 
 ##### <a name='d9a1fc03a569ad08df142c73b01a99e4fd38b428176'></a> Source: [Azure-RMSDocs\media\ADRMS_MSRMSApp_OutlookMessageTrackUsage.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/ADRMS_MSRMSApp_OutlookMessageTrackUsage.png)
@@ -2593,11 +2593,11 @@
 * Handoff File: [d9a1fc03a569ad08df142c73b01a99e4fd38b428.png](https://github.com/Microsoft/EM.handoff/blob/2273542a37ba27c9052bebc37add45266a213433/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/d9a1fc03a569ad08df142c73b01a99e4fd38b428.png)
 * Handoff Datetime: 2016-03-08 05:20:24
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\track-and-revoke-your-documents-when-you-use-the-rms-sharing-application.md, Azure-RMSDocs\rms-client\track-and-revoke-your-documents-when-you-use-the-rms-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-track-revoke.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\track-and-revoke-your-documents-when-you-use-the-rms-sharing-application.md, Azure-RMSDocs\rms-client\track-and-revoke-your-documents-when-you-use-the-rms-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-track-revoke.md
 * [Back to Top](#report-top)
 
 ##### <a name='102cb170f5a005428addaa17f2e0db1e5aaf014f177'></a> Source: [Azure-RMSDocs\media\ADRMS_MSRMSApp_OutlookTrackUsage.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/ADRMS_MSRMSApp_OutlookTrackUsage.png)
@@ -2606,11 +2606,11 @@
 * Handoff File: [102cb170f5a005428addaa17f2e0db1e5aaf014f.png](https://github.com/Microsoft/EM.handoff/blob/2273542a37ba27c9052bebc37add45266a213433/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/102cb170f5a005428addaa17f2e0db1e5aaf014f.png)
 * Handoff Datetime: 2016-03-08 05:20:24
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\track-and-revoke-your-documents-when-you-use-the-rms-sharing-application.md, Azure-RMSDocs\rms-client\track-and-revoke-your-documents-when-you-use-the-rms-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-track-revoke.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\track-and-revoke-your-documents-when-you-use-the-rms-sharing-application.md, Azure-RMSDocs\rms-client\track-and-revoke-your-documents-when-you-use-the-rms-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-track-revoke.md
 * [Back to Top](#report-top)
 
 ##### <a name='5f6737d70c74ca955eded6ff567eded8ba1d270d178'></a> Source: [Azure-RMSDocs\media\ADRMS_MSRMSApp_Pfile.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/ADRMS_MSRMSApp_Pfile.png)
@@ -2619,11 +2619,11 @@
 * Handoff File: [5f6737d70c74ca955eded6ff567eded8ba1d270d.png](https://github.com/Microsoft/EM.handoff/blob/2273542a37ba27c9052bebc37add45266a213433/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/5f6737d70c74ca955eded6ff567eded8ba1d270d.png)
 * Handoff Datetime: 2016-03-08 05:20:24
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\protect-a-file-on-a-device-protect-in-place-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\protect-a-file-on-a-device-protect-in-place-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-protect-in-place.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\protect-a-file-on-a-device-protect-in-place-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\protect-a-file-on-a-device-protect-in-place-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-protect-in-place.md
 * [Back to Top](#report-top)
 
 ##### <a name='b1830be97e731a023e8772c68efbbb97a1992d91179'></a> Source: [Azure-RMSDocs\media\ADRMS_MSRMSApp_PfilePermission.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/ADRMS_MSRMSApp_PfilePermission.png)
@@ -2632,11 +2632,11 @@
 * Handoff File: [b1830be97e731a023e8772c68efbbb97a1992d91.png](https://github.com/Microsoft/EM.handoff/blob/2273542a37ba27c9052bebc37add45266a213433/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/b1830be97e731a023e8772c68efbbb97a1992d91.png)
 * Handoff Datetime: 2016-03-08 05:20:24
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\view-and-use-files-that-have-been-protected-by-rights-management.md, Azure-RMSDocs\rms-client\view-and-use-files-that-have-been-protected-by-rights-management.md, Azure-RMSDocs\rms-client\sharing-app-view-use-files.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\view-and-use-files-that-have-been-protected-by-rights-management.md, Azure-RMSDocs\rms-client\view-and-use-files-that-have-been-protected-by-rights-management.md, Azure-RMSDocs\rms-client\sharing-app-view-use-files.md
 * [Back to Top](#report-top)
 
 ##### <a name='a92b83706a626411ae959ebe0be5e55d78fe7446180'></a> Source: [Azure-RMSDocs\media\ADRMS_MSRMSApp_ProtectCustom.gif](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/6775f218b66e4f6dd8092d1b287ee76f9c594e6f/Azure-RMSDocs/media/ADRMS_MSRMSApp_ProtectCustom.gif)
@@ -2657,11 +2657,11 @@
 * Handoff File: [66482e461455df133678a4383174853a0cae0374.png](https://github.com/Microsoft/EM.handoff/blob/2273542a37ba27c9052bebc37add45266a213433/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/66482e461455df133678a4383174853a0cae0374.png)
 * Handoff Datetime: 2016-03-08 05:20:24
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\remove-protection-from-a-file-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\remove-protection-from-a-file-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-remove-protection.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\remove-protection-from-a-file-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\remove-protection-from-a-file-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-remove-protection.md
 * [Back to Top](#report-top)
 
 ##### <a name='71fccc1bc786ef0bbc1b31a296d4eb7e0a128996182'></a> Source: [Azure-RMSDocs\media\ADRMS_MSRMSApp_RestrictedAccess.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/ADRMS_MSRMSApp_RestrictedAccess.png)
@@ -2670,11 +2670,11 @@
 * Handoff File: [71fccc1bc786ef0bbc1b31a296d4eb7e0a128996.png](https://github.com/Microsoft/EM.handoff/blob/2273542a37ba27c9052bebc37add45266a213433/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/71fccc1bc786ef0bbc1b31a296d4eb7e0a128996.png)
 * Handoff Datetime: 2016-03-08 05:20:24
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\view-and-use-files-that-have-been-protected-by-rights-management.md, Azure-RMSDocs\rms-client\view-and-use-files-that-have-been-protected-by-rights-management.md, Azure-RMSDocs\rms-client\sharing-app-view-use-files.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\view-and-use-files-that-have-been-protected-by-rights-management.md, Azure-RMSDocs\rms-client\view-and-use-files-that-have-been-protected-by-rights-management.md, Azure-RMSDocs\rms-client\sharing-app-view-use-files.md
 * [Back to Top](#report-top)
 
 ##### <a name='e9aeaad866a1fa39ce2e552c38508228b875f16a183'></a> Source: [Azure-RMSDocs\media\ADRMS_MSRMSApp_ShareProtectedMenu.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/ADRMS_MSRMSApp_ShareProtectedMenu.png)
@@ -2683,11 +2683,11 @@
 * Handoff File: [e9aeaad866a1fa39ce2e552c38508228b875f16a.png](https://github.com/Microsoft/EM.handoff/blob/2273542a37ba27c9052bebc37add45266a213433/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/e9aeaad866a1fa39ce2e552c38508228b875f16a.png)
 * Handoff Datetime: 2016-03-08 05:20:24
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\protect-a-file-that-you-share-by-email-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\protect-a-file-that-you-share-by-email-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-protect-by-email.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\protect-a-file-that-you-share-by-email-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\protect-a-file-that-you-share-by-email-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-protect-by-email.md
 * [Back to Top](#report-top)
 
 ##### <a name='9899efd36ea2f4c1cbeacecf1db2ee8d5a9e73e7184'></a> Source: [Azure-RMSDocs\media\ADRMS_MSRMSApp_SP_CompanyDefined.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/ADRMS_MSRMSApp_SP_CompanyDefined.png)
@@ -2696,11 +2696,11 @@
 * Handoff File: [9899efd36ea2f4c1cbeacecf1db2ee8d5a9e73e7.png](https://github.com/Microsoft/EM.handoff/blob/2273542a37ba27c9052bebc37add45266a213433/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/9899efd36ea2f4c1cbeacecf1db2ee8d5a9e73e7.png)
 * Handoff Datetime: 2016-03-08 05:20:24
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\protect-a-file-on-a-device-protect-in-place-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\protect-a-file-on-a-device-protect-in-place-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-protect-in-place.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\protect-a-file-on-a-device-protect-in-place-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\protect-a-file-on-a-device-protect-in-place-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-protect-in-place.md
 * [Back to Top](#report-top)
 
 ##### <a name='5d2f20557a431bdb26e178ad24039f7b432438a3185'></a> Source: [Azure-RMSDocs\media\ADRMS_MSRMSApp_SP_ConsumePfile.gif](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/6775f218b66e4f6dd8092d1b287ee76f9c594e6f/Azure-RMSDocs/media/ADRMS_MSRMSApp_SP_ConsumePfile.gif)
@@ -2721,11 +2721,11 @@
 * Handoff File: [ff2686fba49b43c16be4995de55336fe6902f101.png](https://github.com/Microsoft/EM.handoff/blob/2273542a37ba27c9052bebc37add45266a213433/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/ff2686fba49b43c16be4995de55336fe6902f101.png)
 * Handoff Datetime: 2016-03-08 05:20:24
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\protect-a-file-that-you-share-by-email-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\protect-a-file-that-you-share-by-email-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-protect-by-email.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\protect-a-file-that-you-share-by-email-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\protect-a-file-that-you-share-by-email-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-protect-by-email.md
 * [Back to Top](#report-top)
 
 ##### <a name='604b4b57e41714f7dc0dbe098f6c8432d9cbc7a7187'></a> Source: [Azure-RMSDocs\media\ADRMS_MSRMSApp_SP_OutlookToolbar.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/ADRMS_MSRMSApp_SP_OutlookToolbar.png)
@@ -2734,11 +2734,11 @@
 * Handoff File: [604b4b57e41714f7dc0dbe098f6c8432d9cbc7a7.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/604b4b57e41714f7dc0dbe098f6c8432d9cbc7a7.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\how-to-safely-share-a-document-by-email.md, Azure-RMSDocs\protect-a-file-that-you-share-by-email-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\protect-a-file-that-you-share-by-email-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-protect-by-email.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\how-to-safely-share-a-document-by-email.md, Azure-RMSDocs\protect-a-file-that-you-share-by-email-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\protect-a-file-that-you-share-by-email-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-protect-by-email.md
 * [Back to Top](#report-top)
 
 ##### <a name='e844e87bb3ce8f1a1b152255ca75ea567b2fb1b9188'></a> Source: [Azure-RMSDocs\media\ADRMS_MSRMSAPP_SP_ShareProtected.gif](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/6775f218b66e4f6dd8092d1b287ee76f9c594e6f/Azure-RMSDocs/media/ADRMS_MSRMSAPP_SP_ShareProtected.gif)
@@ -2771,11 +2771,11 @@
 * Handoff File: [02716e5c86a0b0774062c9cc80fa4e0a0f15327f.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/02716e5c86a0b0774062c9cc80fa4e0a0f15327f.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\android-sdk.md, Azure-RMSDocs\develop\android-sdk.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\android-sdk.md, Azure-RMSDocs\develop\android-sdk.md
 * [Back to Top](#report-top)
 
 ##### <a name='bc27005fbd3730e7bf5a7bf0cab72c8efe4f27ba191'></a> Source: [Azure-RMSDocs\media\Android-setup-02a.jpg](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/Android-setup-02a.jpg)
@@ -2784,11 +2784,11 @@
 * Handoff File: [bc27005fbd3730e7bf5a7bf0cab72c8efe4f27ba.jpg](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/bc27005fbd3730e7bf5a7bf0cab72c8efe4f27ba.jpg)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\android-sdk.md, Azure-RMSDocs\develop\android-sdk.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\android-sdk.md, Azure-RMSDocs\develop\android-sdk.md
 * [Back to Top](#report-top)
 
 ##### <a name='c3477a01883ae5af469d03da3d9dca8a31aac3a4192'></a> Source: [Azure-RMSDocs\media\Android-setup-03.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/Android-setup-03.png)
@@ -2797,11 +2797,11 @@
 * Handoff File: [c3477a01883ae5af469d03da3d9dca8a31aac3a4.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/c3477a01883ae5af469d03da3d9dca8a31aac3a4.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\android-sdk.md, Azure-RMSDocs\develop\android-sdk.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\android-sdk.md, Azure-RMSDocs\develop\android-sdk.md
 * [Back to Top](#report-top)
 
 ##### <a name='ffcdbf5aa9c1bc8a8378a3df2173f8c9dc4d58e1193'></a> Source: [Azure-RMSDocs\media\Android-setup-04.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/Android-setup-04.png)
@@ -2810,11 +2810,11 @@
 * Handoff File: [ffcdbf5aa9c1bc8a8378a3df2173f8c9dc4d58e1.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/ffcdbf5aa9c1bc8a8378a3df2173f8c9dc4d58e1.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\android-sdk.md, Azure-RMSDocs\develop\android-sdk.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\android-sdk.md, Azure-RMSDocs\develop\android-sdk.md
 * [Back to Top](#report-top)
 
 ##### <a name='20e013ebc998587d659bba6021c2a5301f5b6c63194'></a> Source: [Azure-RMSDocs\media\Android-setup-05a.jpg](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/Android-setup-05a.jpg)
@@ -2823,11 +2823,11 @@
 * Handoff File: [20e013ebc998587d659bba6021c2a5301f5b6c63.jpg](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/20e013ebc998587d659bba6021c2a5301f5b6c63.jpg)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\android-sdk.md, Azure-RMSDocs\develop\android-sdk.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\android-sdk.md, Azure-RMSDocs\develop\android-sdk.md
 * [Back to Top](#report-top)
 
 ##### <a name='5aa1bbc0ae83b0cf80e429de9d5afc38856b400a195'></a> Source: [Azure-RMSDocs\media\Android-setup-06.jpg](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/Android-setup-06.jpg)
@@ -2836,11 +2836,11 @@
 * Handoff File: [5aa1bbc0ae83b0cf80e429de9d5afc38856b400a.jpg](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/5aa1bbc0ae83b0cf80e429de9d5afc38856b400a.jpg)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\android-sdk.md, Azure-RMSDocs\develop\android-sdk.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\android-sdk.md, Azure-RMSDocs\develop\android-sdk.md
 * [Back to Top](#report-top)
 
 ##### <a name='4b4904b690a72d0d076c1cb2dd668258cab85cef196'></a> Source: [Azure-RMSDocs\media\Android-setup-07.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/Android-setup-07.png)
@@ -2849,11 +2849,11 @@
 * Handoff File: [4b4904b690a72d0d076c1cb2dd668258cab85cef.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/4b4904b690a72d0d076c1cb2dd668258cab85cef.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\android-sdk.md, Azure-RMSDocs\develop\android-sdk.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\android-sdk.md, Azure-RMSDocs\develop\android-sdk.md
 * [Back to Top](#report-top)
 
 ##### <a name='01a093bf5777bc03006159eb3ca69293279cd1ce197'></a> Source: [Azure-RMSDocs\media\Android-setup-08c.jpg](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/Android-setup-08c.jpg)
@@ -2862,11 +2862,11 @@
 * Handoff File: [01a093bf5777bc03006159eb3ca69293279cd1ce.jpg](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/01a093bf5777bc03006159eb3ca69293279cd1ce.jpg)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\android-sdk.md, Azure-RMSDocs\develop\android-sdk.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\android-sdk.md, Azure-RMSDocs\develop\android-sdk.md
 * [Back to Top](#report-top)
 
 ##### <a name='f5ca191c7e3d5e2e49196be0275cef537d32e4a5198'></a> Source: [Azure-RMSDocs\media\Android-setup-09.jpg](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/Android-setup-09.jpg)
@@ -2875,11 +2875,11 @@
 * Handoff File: [f5ca191c7e3d5e2e49196be0275cef537d32e4a5.jpg](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/f5ca191c7e3d5e2e49196be0275cef537d32e4a5.jpg)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\android-sdk.md, Azure-RMSDocs\develop\android-sdk.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\android-sdk.md, Azure-RMSDocs\develop\android-sdk.md
 * [Back to Top](#report-top)
 
 ##### <a name='c85517b4a962ccae160ae18f732dadbf6e894558199'></a> Source: [Azure-RMSDocs\media\Android-setup-10b.jpg](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/Android-setup-10b.jpg)
@@ -2888,11 +2888,11 @@
 * Handoff File: [c85517b4a962ccae160ae18f732dadbf6e894558.jpg](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/c85517b4a962ccae160ae18f732dadbf6e894558.jpg)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\android-sdk.md, Azure-RMSDocs\develop\android-sdk.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\android-sdk.md, Azure-RMSDocs\develop\android-sdk.md
 * [Back to Top](#report-top)
 
 ##### <a name='088241f1cbdc80b1c54b186b463457a7c1c848a9200'></a> Source: [Azure-RMSDocs\media\Android-setup-11d.jpg](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/Android-setup-11d.jpg)
@@ -2901,11 +2901,11 @@
 * Handoff File: [088241f1cbdc80b1c54b186b463457a7c1c848a9.jpg](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/088241f1cbdc80b1c54b186b463457a7c1c848a9.jpg)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\android-sdk.md, Azure-RMSDocs\develop\android-sdk.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\android-sdk.md, Azure-RMSDocs\develop\android-sdk.md
 * [Back to Top](#report-top)
 
 ##### <a name='d5706ab02931b13cbbdf38ac6e75703617dc7a08201'></a> Source: [Azure-RMSDocs\media\AzRMS.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS.png)
@@ -2914,11 +2914,11 @@
 * Handoff File: [d5706ab02931b13cbbdf38ac6e75703617dc7a08.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/d5706ab02931b13cbbdf38ac6e75703617dc7a08.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\how-does-it-work.md, Azure-RMSDocs\Understand\how-does-it-work.md, Azure-RMSDocs\understand-explore\how-does-it-work.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\how-does-it-work.md, Azure-RMSDocs\Understand\how-does-it-work.md, Azure-RMSDocs\understand-explore\how-does-it-work.md
 * [Back to Top](#report-top)
 
 ##### <a name='85d8a30438b9ceb52778cbbb45140659fd4699bf202'></a> Source: [Azure-RMSDocs\media\AzRMS_AdminBanner.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_AdminBanner.png)
@@ -2927,11 +2927,11 @@
 * Handoff File: [85d8a30438b9ceb52778cbbb45140659fd4699bf.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/85d8a30438b9ceb52778cbbb45140659fd4699bf.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\scenario-configure-work-folders-for-persistent-protection.md, Azure-RMSDocs\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\GetStarted\scenario-configure-work-folders-for-persistent-protection.md, Azure-RMSDocs\GetStarted\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\GetStarted\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\GetStarted\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\GetStarted\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\GetStarted\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\GetStarted\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\get-started\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-configure-work-folders-for-persistent-protection.md, Azure-RMSDocs\get-started\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\get-started\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\get-started\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\get-started\scenario-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-executives-email.md, Azure-RMSDocs\get-started\scenario-fci.md, Azure-RMSDocs\get-started\scenario-secure-most-valuable-files.md, Azure-RMSDocs\get-started\scenario-share-office-file-externally.md, Azure-RMSDocs\get-started\scenario-sharepoint.md, Azure-RMSDocs\get-started\scenario-work-folders.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\scenario-configure-work-folders-for-persistent-protection.md, Azure-RMSDocs\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\GetStarted\scenario-configure-work-folders-for-persistent-protection.md, Azure-RMSDocs\GetStarted\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\GetStarted\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\GetStarted\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\GetStarted\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\GetStarted\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\GetStarted\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\get-started\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-configure-work-folders-for-persistent-protection.md, Azure-RMSDocs\get-started\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\get-started\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\get-started\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\get-started\scenario-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-executives-email.md, Azure-RMSDocs\get-started\scenario-fci.md, Azure-RMSDocs\get-started\scenario-secure-most-valuable-files.md, Azure-RMSDocs\get-started\scenario-share-office-file-externally.md, Azure-RMSDocs\get-started\scenario-sharepoint.md, Azure-RMSDocs\get-started\scenario-work-folders.md
 * [Back to Top](#report-top)
 
 ##### <a name='b6e964b1fb44e8e046ccfb2b26736ab9bfbdaf24203'></a> Source: [Azure-RMSDocs\media\AzRMS_DLPExample.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/1748cb866705a4ddee75a3587969798a15e77403/Azure-RMSDocs/media/AzRMS_DLPExample.png)
@@ -2940,11 +2940,11 @@
 * Handoff File: [b6e964b1fb44e8e046ccfb2b26736ab9bfbdaf24.png](https://github.com/Microsoft/EM.handoff/blob/c63479085bd371910f8087aca692c5333821c0b7/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/b6e964b1fb44e8e046ccfb2b26736ab9bfbdaf24.png)
 * Handoff Datetime: 2016-03-04 08:50:13
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\full-screen-picture-configuring-dlp-for-azure-rms.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\full-screen-picture-configuring-dlp-for-azure-rms.md
 * [Back to Top](#report-top)
 
 ##### <a name='f8a298c17ec101549cfe56f629ea97ec6c8ff9d6204'></a> Source: [Azure-RMSDocs\media\AzRMS_DLPExample1.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_DLPExample1.png)
@@ -2953,11 +2953,11 @@
 * Handoff File: [f8a298c17ec101549cfe56f629ea97ec6c8ff9d6.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/f8a298c17ec101549cfe56f629ea97ec6c8ff9d6.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * [Back to Top](#report-top)
 
 ##### <a name='a8e817c884c0d979d45e2298ad42bd5062539919205'></a> Source: [Azure-RMSDocs\media\AzRMS_DLPProtectedEmail.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/1748cb866705a4ddee75a3587969798a15e77403/Azure-RMSDocs/media/AzRMS_DLPProtectedEmail.png)
@@ -2966,11 +2966,11 @@
 * Handoff File: [a8e817c884c0d979d45e2298ad42bd5062539919.png](https://github.com/Microsoft/EM.handoff/blob/c63479085bd371910f8087aca692c5333821c0b7/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/a8e817c884c0d979d45e2298ad42bd5062539919.png)
 * Handoff Datetime: 2016-03-04 08:50:13
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\full-screen-picture-an-external-email-protected-by-dlp-and-azure-rms.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\full-screen-picture-an-external-email-protected-by-dlp-and-azure-rms.md
 * [Back to Top](#report-top)
 
 ##### <a name='d87bff2cac2de89c29a985f581f8f06825e9d3ef206'></a> Source: [Azure-RMSDocs\media\AzRMS_DLPProtectedEmail_small.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_DLPProtectedEmail_small.png)
@@ -2979,11 +2979,11 @@
 * Handoff File: [d87bff2cac2de89c29a985f581f8f06825e9d3ef.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/d87bff2cac2de89c29a985f581f8f06825e9d3ef.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * [Back to Top](#report-top)
 
 ##### <a name='4c492dd50cca6146ed856fec32c0b41c246c6e36207'></a> Source: [Azure-RMSDocs\media\AzRMS_DLPUnprotectedEmail.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/1748cb866705a4ddee75a3587969798a15e77403/Azure-RMSDocs/media/AzRMS_DLPUnprotectedEmail.png)
@@ -2992,11 +2992,11 @@
 * Handoff File: [4c492dd50cca6146ed856fec32c0b41c246c6e36.png](https://github.com/Microsoft/EM.handoff/blob/c63479085bd371910f8087aca692c5333821c0b7/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/4c492dd50cca6146ed856fec32c0b41c246c6e36.png)
 * Handoff Datetime: 2016-03-04 08:50:13
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\full-screen-picture-an-unprotected-email-internal-.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\full-screen-picture-an-unprotected-email-internal-.md
 * [Back to Top](#report-top)
 
 ##### <a name='598b7c77c9a58aed13a184d90a6b97452c34df88208'></a> Source: [Azure-RMSDocs\media\AzRMS_DLPUnprotectedEmail_small.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_DLPUnprotectedEmail_small.png)
@@ -3005,11 +3005,11 @@
 * Handoff File: [598b7c77c9a58aed13a184d90a6b97452c34df88.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/598b7c77c9a58aed13a184d90a6b97452c34df88.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * [Back to Top](#report-top)
 
 ##### <a name='a746e6008cd387c7f2f02d9d94a500f24eb11238209'></a> Source: [Azure-RMSDocs\media\AzRMS_documentconsumption1.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_documentconsumption1.png)
@@ -3018,11 +3018,11 @@
 * Handoff File: [a746e6008cd387c7f2f02d9d94a500f24eb11238.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/a746e6008cd387c7f2f02d9d94a500f24eb11238.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\how-does-it-work.md, Azure-RMSDocs\Understand\how-does-it-work.md, Azure-RMSDocs\understand-explore\how-does-it-work.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\how-does-it-work.md, Azure-RMSDocs\Understand\how-does-it-work.md, Azure-RMSDocs\understand-explore\how-does-it-work.md
 * [Back to Top](#report-top)
 
 ##### <a name='846f4d6f8cfb0d10dd8efd727bc448e98ac05847210'></a> Source: [Azure-RMSDocs\media\AzRMS_documentconsumption2.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_documentconsumption2.png)
@@ -3031,11 +3031,11 @@
 * Handoff File: [846f4d6f8cfb0d10dd8efd727bc448e98ac05847.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/846f4d6f8cfb0d10dd8efd727bc448e98ac05847.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\how-does-it-work.md, Azure-RMSDocs\Understand\how-does-it-work.md, Azure-RMSDocs\understand-explore\how-does-it-work.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\how-does-it-work.md, Azure-RMSDocs\Understand\how-does-it-work.md, Azure-RMSDocs\understand-explore\how-does-it-work.md
 * [Back to Top](#report-top)
 
 ##### <a name='ee87649e2f4ae0dd7763fccba39e5b03135b3727211'></a> Source: [Azure-RMSDocs\media\AzRMS_documentconsumption3.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_documentconsumption3.png)
@@ -3044,11 +3044,11 @@
 * Handoff File: [ee87649e2f4ae0dd7763fccba39e5b03135b3727.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/ee87649e2f4ae0dd7763fccba39e5b03135b3727.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\how-does-it-work.md, Azure-RMSDocs\Understand\how-does-it-work.md, Azure-RMSDocs\understand-explore\how-does-it-work.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\how-does-it-work.md, Azure-RMSDocs\Understand\how-does-it-work.md, Azure-RMSDocs\understand-explore\how-does-it-work.md
 * [Back to Top](#report-top)
 
 ##### <a name='986217abbb839c9f70c816adf1dd68f27b935bfc212'></a> Source: [Azure-RMSDocs\media\AzRMS_documentprotection1.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_documentprotection1.png)
@@ -3057,11 +3057,11 @@
 * Handoff File: [986217abbb839c9f70c816adf1dd68f27b935bfc.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/986217abbb839c9f70c816adf1dd68f27b935bfc.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\how-does-it-work.md, Azure-RMSDocs\Understand\how-does-it-work.md, Azure-RMSDocs\understand-explore\how-does-it-work.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\how-does-it-work.md, Azure-RMSDocs\Understand\how-does-it-work.md, Azure-RMSDocs\understand-explore\how-does-it-work.md
 * [Back to Top](#report-top)
 
 ##### <a name='54707c22d09b4cdf9e74e29523f2655f647f8ed0213'></a> Source: [Azure-RMSDocs\media\AzRMS_documentprotection2.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_documentprotection2.png)
@@ -3070,11 +3070,11 @@
 * Handoff File: [54707c22d09b4cdf9e74e29523f2655f647f8ed0.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/54707c22d09b4cdf9e74e29523f2655f647f8ed0.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\how-does-it-work.md, Azure-RMSDocs\Understand\how-does-it-work.md, Azure-RMSDocs\understand-explore\how-does-it-work.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\how-does-it-work.md, Azure-RMSDocs\Understand\how-does-it-work.md, Azure-RMSDocs\understand-explore\how-does-it-work.md
 * [Back to Top](#report-top)
 
 ##### <a name='4d6d2119a062eef6dbfc3ea94d03c030e07f6701214'></a> Source: [Azure-RMSDocs\media\AzRMS_documentprotection3.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_documentprotection3.png)
@@ -3083,11 +3083,11 @@
 * Handoff File: [4d6d2119a062eef6dbfc3ea94d03c030e07f6701.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/4d6d2119a062eef6dbfc3ea94d03c030e07f6701.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\how-does-it-work.md, Azure-RMSDocs\Understand\how-does-it-work.md, Azure-RMSDocs\understand-explore\how-does-it-work.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\how-does-it-work.md, Azure-RMSDocs\Understand\how-does-it-work.md, Azure-RMSDocs\understand-explore\how-does-it-work.md
 * [Back to Top](#report-top)
 
 ##### <a name='7cbc08e4b635e579cddd06662f5ee409e3577934215'></a> Source: [Azure-RMSDocs\media\AzRMS_elements.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_elements.png)
@@ -3096,11 +3096,11 @@
 * Handoff File: [7cbc08e4b635e579cddd06662f5ee409e3577934.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/7cbc08e4b635e579cddd06662f5ee409e3577934.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\what-is-azure-rights-management.md, Azure-RMSDocs\Understand\what-is-azure-rights-management.md, Azure-RMSDocs\scratch.md, Azure-RMSDocs\test\scratch.md, Azure-RMSDocs\understand-explore\what-is-azure-rights-management.md, Azure-RMSDocs\template.md, Azure-RMSDocs\understand-explore\what-is-azure-rms.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\what-is-azure-rights-management.md, Azure-RMSDocs\Understand\what-is-azure-rights-management.md, Azure-RMSDocs\scratch.md, Azure-RMSDocs\test\scratch.md, Azure-RMSDocs\understand-explore\what-is-azure-rights-management.md, Azure-RMSDocs\template.md, Azure-RMSDocs\understand-explore\what-is-azure-rms.md
 * [Back to Top](#report-top)
 
 ##### <a name='5ba00fbdb71ba324ed3f4802d5092003b80ddc7c216'></a> Source: [Azure-RMSDocs\media\AzRMS_ExampleBanner.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_ExampleBanner.png)
@@ -3109,11 +3109,11 @@
 * Handoff File: [5ba00fbdb71ba324ed3f4802d5092003b80ddc7c.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/5ba00fbdb71ba324ed3f4802d5092003b80ddc7c.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\rapid-deployment-guide-for-azure-rights-management.md, Azure-RMSDocs\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\GetStarted\rapid-deployment-guide-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\GetStarted\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\GetStarted\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\GetStarted\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\GetStarted\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\GetStarted\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\rapid-deployment-guide-for-azure-rights-management.md, Azure-RMSDocs\get-started\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\get-started\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\get-started\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\get-started\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\get-started\scenario-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-executives-email.md, Azure-RMSDocs\get-started\scenario-fci.md, Azure-RMSDocs\get-started\scenario-secure-most-valuable-files.md, Azure-RMSDocs\get-started\scenario-share-office-file-externally.md, Azure-RMSDocs\get-started\scenario-sharepoint.md, Azure-RMSDocs\get-started\rapid-deployment-guide.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\rapid-deployment-guide-for-azure-rights-management.md, Azure-RMSDocs\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\GetStarted\rapid-deployment-guide-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\GetStarted\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\GetStarted\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\GetStarted\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\GetStarted\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\GetStarted\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\rapid-deployment-guide-for-azure-rights-management.md, Azure-RMSDocs\get-started\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\get-started\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\get-started\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\get-started\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\get-started\scenario-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-executives-email.md, Azure-RMSDocs\get-started\scenario-fci.md, Azure-RMSDocs\get-started\scenario-secure-most-valuable-files.md, Azure-RMSDocs\get-started\scenario-share-office-file-externally.md, Azure-RMSDocs\get-started\scenario-sharepoint.md, Azure-RMSDocs\get-started\rapid-deployment-guide.md
 * [Back to Top](#report-top)
 
 ##### <a name='3be0bd8b442d0ded6a4cbeee5f5fe32f18282cc2217'></a> Source: [Azure-RMSDocs\media\AzRMS_ExampleFCI_Configuration.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/1748cb866705a4ddee75a3587969798a15e77403/Azure-RMSDocs/media/AzRMS_ExampleFCI_Configuration.png)
@@ -3122,11 +3122,11 @@
 * Handoff File: [3be0bd8b442d0ded6a4cbeee5f5fe32f18282cc2.png](https://github.com/Microsoft/EM.handoff/blob/c63479085bd371910f8087aca692c5333821c0b7/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/3be0bd8b442d0ded6a4cbeee5f5fe32f18282cc2.png)
 * Handoff Datetime: 2016-03-04 08:50:13
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\full-screen-picture-configuring-fci-for-the-marketing-classification.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\full-screen-picture-configuring-fci-for-the-marketing-classification.md
 * [Back to Top](#report-top)
 
 ##### <a name='b7853afd1130f448ec02af8cd0da2066817d3d9b218'></a> Source: [Azure-RMSDocs\media\AzRMS_ExampleFCI_ConfigurationSmall.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_ExampleFCI_ConfigurationSmall.png)
@@ -3135,11 +3135,11 @@
 * Handoff File: [b7853afd1130f448ec02af8cd0da2066817d3d9b.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/b7853afd1130f448ec02af8cd0da2066817d3d9b.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * [Back to Top](#report-top)
 
 ##### <a name='9ea9bb7453b6a38284e6c2be11d762c092a15be3219'></a> Source: [Azure-RMSDocs\media\AzRMS_FCI_Connector.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/1748cb866705a4ddee75a3587969798a15e77403/Azure-RMSDocs/media/AzRMS_FCI_Connector.png)
@@ -3148,11 +3148,11 @@
 * Handoff File: [9ea9bb7453b6a38284e6c2be11d762c092a15be3.png](https://github.com/Microsoft/EM.handoff/blob/c63479085bd371910f8087aca692c5333821c0b7/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/9ea9bb7453b6a38284e6c2be11d762c092a15be3.png)
 * Handoff Datetime: 2016-03-04 08:50:13
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\full-screen-picture-installing-and-configuring-the-rms-connector-for-fci.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\full-screen-picture-installing-and-configuring-the-rms-connector-for-fci.md
 * [Back to Top](#report-top)
 
 ##### <a name='e400ccd5bef4f6a29cddd1e635de0b1780b9c0f4220'></a> Source: [Azure-RMSDocs\media\AzRMS_FCI_ConnectorSmall.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_FCI_ConnectorSmall.png)
@@ -3161,11 +3161,11 @@
 * Handoff File: [e400ccd5bef4f6a29cddd1e635de0b1780b9c0f4.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/e400ccd5bef4f6a29cddd1e635de0b1780b9c0f4.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * [Back to Top](#report-top)
 
 ##### <a name='e84f67759d59796d1911f31826f7386555d4f414221'></a> Source: [Azure-RMSDocs\media\AzRMS_FCI_Email.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/1748cb866705a4ddee75a3587969798a15e77403/Azure-RMSDocs/media/AzRMS_FCI_Email.png)
@@ -3174,11 +3174,11 @@
 * Handoff File: [e84f67759d59796d1911f31826f7386555d4f414.png](https://github.com/Microsoft/EM.handoff/blob/c63479085bd371910f8087aca692c5333821c0b7/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/e84f67759d59796d1911f31826f7386555d4f414.png)
 * Handoff Datetime: 2016-03-04 08:50:13
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\full-screen-picture-confidential-report-accidentally-sent-to-wrong-person.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\full-screen-picture-confidential-report-accidentally-sent-to-wrong-person.md
 * [Back to Top](#report-top)
 
 ##### <a name='d428fefc476a310b740b7ee6147c68d701a472cd222'></a> Source: [Azure-RMSDocs\media\AzRMS_FCI_EmailSmall.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_FCI_EmailSmall.png)
@@ -3187,11 +3187,11 @@
 * Handoff File: [d428fefc476a310b740b7ee6147c68d701a472cd.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/d428fefc476a310b740b7ee6147c68d701a472cd.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * [Back to Top](#report-top)
 
 ##### <a name='d9bbc4b67c324d7376ad179ee942e17c9811e6e6223'></a> Source: [Azure-RMSDocs\media\AzRMS_OutlookTemplate.PNG](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_OutlookTemplate.PNG)
@@ -3200,11 +3200,11 @@
 * Handoff File: [d9bbc4b67c324d7376ad179ee942e17c9811e6e6.PNG](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/d9bbc4b67c324d7376ad179ee942e17c9811e6e6.PNG)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\GetStarted\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-company-confidential-email.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\GetStarted\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-company-confidential-email.md
 * [Back to Top](#report-top)
 
 ##### <a name='b1306874f8f145e3ef13170e7418a6047ba42651224'></a> Source: [Azure-RMSDocs\media\AzRMS_OWATemplate.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_OWATemplate.png)
@@ -3213,11 +3213,11 @@
 * Handoff File: [b1306874f8f145e3ef13170e7418a6047ba42651.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/b1306874f8f145e3ef13170e7418a6047ba42651.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\GetStarted\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-company-confidential-email.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\GetStarted\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-company-confidential-email.md
 * [Back to Top](#report-top)
 
 ##### <a name='cfd5dda9867fc4ef0ed6f1bab4a86f37f1e0dcf1225'></a> Source: [Azure-RMSDocs\media\AzRMS_QuickStartSteps1.PNG](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_QuickStartSteps1.PNG)
@@ -3226,11 +3226,11 @@
 * Handoff File: [cfd5dda9867fc4ef0ed6f1bab4a86f37f1e0dcf1.PNG](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/cfd5dda9867fc4ef0ed6f1bab4a86f37f1e0dcf1.PNG)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rms-quickstart-step1.md, Azure-RMSDocs\includes\rms-quickstart-step1-include.md, Azure-RMSDocs\get-started\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\get-started\rms-quickstart-step1.md, Azure-RMSDocs\get-started\tutorial-step1.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rms-quickstart-step1.md, Azure-RMSDocs\includes\rms-quickstart-step1-include.md, Azure-RMSDocs\get-started\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\get-started\rms-quickstart-step1.md, Azure-RMSDocs\get-started\tutorial-step1.md
 * [Back to Top](#report-top)
 
 ##### <a name='b320daf88943e05e2fd9cbbe6ae27d5458f0c903226'></a> Source: [Azure-RMSDocs\media\AzRMS_QuickStartSteps2.PNG](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_QuickStartSteps2.PNG)
@@ -3239,11 +3239,11 @@
 * Handoff File: [b320daf88943e05e2fd9cbbe6ae27d5458f0c903.PNG](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/b320daf88943e05e2fd9cbbe6ae27d5458f0c903.PNG)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rms-quickstart-step2.md, Azure-RMSDocs\includes\rms-quickstart-step2-include.md, Azure-RMSDocs\get-started\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\get-started\rms-quickstart-step2.md, Azure-RMSDocs\get-started\tutorial-step2.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rms-quickstart-step2.md, Azure-RMSDocs\includes\rms-quickstart-step2-include.md, Azure-RMSDocs\get-started\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\get-started\rms-quickstart-step2.md, Azure-RMSDocs\get-started\tutorial-step2.md
 * [Back to Top](#report-top)
 
 ##### <a name='b3d271a96a9471b035600c9d2bfad12e4b05862e227'></a> Source: [Azure-RMSDocs\media\AzRMS_QuickStartSteps3.PNG](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_QuickStartSteps3.PNG)
@@ -3252,11 +3252,11 @@
 * Handoff File: [b3d271a96a9471b035600c9d2bfad12e4b05862e.PNG](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/b3d271a96a9471b035600c9d2bfad12e4b05862e.PNG)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rms-quickstart-step3.md, Azure-RMSDocs\includes\rms-quickstart-step3-include.md, Azure-RMSDocs\get-started\quick-start-tutorial-for-azure-rights-management.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rms-quickstart-step3.md, Azure-RMSDocs\includes\rms-quickstart-step3-include.md, Azure-RMSDocs\get-started\quick-start-tutorial-for-azure-rights-management.md
 * [Back to Top](#report-top)
 
 ##### <a name='da8a2ad9efac2ab15d948213b44d73961c5d5337228'></a> Source: [Azure-RMSDocs\media\AzRMS_QuickStartSteps4.PNG](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_QuickStartSteps4.PNG)
@@ -3265,11 +3265,11 @@
 * Handoff File: [da8a2ad9efac2ab15d948213b44d73961c5d5337.PNG](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/da8a2ad9efac2ab15d948213b44d73961c5d5337.PNG)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rms-quickstart-step4.md, Azure-RMSDocs\includes\rms-quickstart-step4-include.md, Azure-RMSDocs\get-started\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\get-started\rms-quickstart-step4.md, Azure-RMSDocs\get-started\tutorial-step4.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rms-quickstart-step4.md, Azure-RMSDocs\includes\rms-quickstart-step4-include.md, Azure-RMSDocs\get-started\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\get-started\rms-quickstart-step4.md, Azure-RMSDocs\get-started\tutorial-step4.md
 * [Back to Top](#report-top)
 
 ##### <a name='9fbe0ab200bd0fc7a6a402f2dbb37eaa4fef02ba229'></a> Source: [Azure-RMSDocs\media\AzRMS_QuickStartSteps5.PNG](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_QuickStartSteps5.PNG)
@@ -3278,11 +3278,11 @@
 * Handoff File: [9fbe0ab200bd0fc7a6a402f2dbb37eaa4fef02ba.PNG](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/9fbe0ab200bd0fc7a6a402f2dbb37eaa4fef02ba.PNG)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rms-quickstart-step5.md, Azure-RMSDocs\includes\rms-quickstart-step5-include.md, Azure-RMSDocs\get-started\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\get-started\rms-quickstart-step5.md, Azure-RMSDocs\get-started\tutorial-step5.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rms-quickstart-step5.md, Azure-RMSDocs\includes\rms-quickstart-step5-include.md, Azure-RMSDocs\get-started\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\get-started\rms-quickstart-step5.md, Azure-RMSDocs\get-started\tutorial-step5.md
 * [Back to Top](#report-top)
 
 ##### <a name='8d942d4f95ec61aba329a044fabbe354f2cbe9d4230'></a> Source: [Azure-RMSDocs\media\AzRMS_QuickStartStepsAll.PNG](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_QuickStartStepsAll.PNG)
@@ -3291,11 +3291,11 @@
 * Handoff File: [8d942d4f95ec61aba329a044fabbe354f2cbe9d4.PNG](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/8d942d4f95ec61aba329a044fabbe354f2cbe9d4.PNG)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rms-quickstart-intro.md, Azure-RMSDocs\includes\rms-quickstart-intro-include.md, Azure-RMSDocs\get-started\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\get-started\quick-start-tutorial.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rms-quickstart-intro.md, Azure-RMSDocs\includes\rms-quickstart-intro-include.md, Azure-RMSDocs\get-started\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\get-started\quick-start-tutorial.md
 * [Back to Top](#report-top)
 
 ##### <a name='66482e461455df133678a4383174853a0cae0374231'></a> Source: [Azure-RMSDocs\media\AzRMS_RemoveProtection_PriceList.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/6775f218b66e4f6dd8092d1b287ee76f9c594e6f/Azure-RMSDocs/media/AzRMS_RemoveProtection_PriceList.png)
@@ -3304,11 +3304,11 @@
 * Handoff File: [66482e461455df133678a4383174853a0cae0374.png](https://github.com/Microsoft/EM.handoff/blob/2273542a37ba27c9052bebc37add45266a213433/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/66482e461455df133678a4383174853a0cae0374.png)
 * Handoff Datetime: 2016-03-08 05:20:24
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\remove-protection-from-a-file-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\remove-protection-from-a-file-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-remove-protection.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\remove-protection-from-a-file-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\remove-protection-from-a-file-by-using-the-rights-management-sharing-application.md, Azure-RMSDocs\rms-client\sharing-app-remove-protection.md
 * [Back to Top](#report-top)
 
 ##### <a name='d6c391372decd8a5697f2ce2c4d5faa08bd302a8232'></a> Source: [Azure-RMSDocs\media\AzRMS_RemoveProtectionWorkFolders.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/6775f218b66e4f6dd8092d1b287ee76f9c594e6f/Azure-RMSDocs/media/AzRMS_RemoveProtectionWorkFolders.png)
@@ -3329,11 +3329,11 @@
 * Handoff File: [7f4eac77d7cc3ea6f7769710ca483467345339f3.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/7f4eac77d7cc3ea6f7769710ca483467345339f3.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\how-does-it-work.md, Azure-RMSDocs\Understand\how-does-it-work.md, Azure-RMSDocs\understand-explore\how-does-it-work.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\how-does-it-work.md, Azure-RMSDocs\Understand\how-does-it-work.md, Azure-RMSDocs\understand-explore\how-does-it-work.md
 * [Back to Top](#report-top)
 
 ##### <a name='0923462fb2b122cfcbc6a6445ab17d9636388376234'></a> Source: [Azure-RMSDocs\media\AzRMS_SharedProtected_CoAuthor.PNG](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/fc1e8c0b2adae9f08127c4fcfc7fa6b34b4e322c/Azure-RMSDocs/media/AzRMS_SharedProtected_CoAuthor.PNG)
@@ -3342,11 +3342,11 @@
 * Handoff File: [0923462fb2b122cfcbc6a6445ab17d9636388376.PNG](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/0923462fb2b122cfcbc6a6445ab17d9636388376.PNG)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\how-to-safely-share-a-document-by-email.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\how-to-safely-share-a-document-by-email.md
 * [Back to Top](#report-top)
 
 ##### <a name='bf1efb06537530a62379abe6ac4bf8c47580794f235'></a> Source: [Azure-RMSDocs\media\AzRMS_SharedProtected_Confidential.PNG](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/fc1e8c0b2adae9f08127c4fcfc7fa6b34b4e322c/Azure-RMSDocs/media/AzRMS_SharedProtected_Confidential.PNG)
@@ -3355,11 +3355,11 @@
 * Handoff File: [bf1efb06537530a62379abe6ac4bf8c47580794f.PNG](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/bf1efb06537530a62379abe6ac4bf8c47580794f.PNG)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\how-to-safely-share-a-document-by-email.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\how-to-safely-share-a-document-by-email.md
 * [Back to Top](#report-top)
 
 ##### <a name='6ad2f7dca685152de062bb90247bb045b9c0a05d236'></a> Source: [Azure-RMSDocs\media\AzRMS_SharedProtected_EmailMe.PNG](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_SharedProtected_EmailMe.PNG)
@@ -3368,11 +3368,11 @@
 * Handoff File: [6ad2f7dca685152de062bb90247bb045b9c0a05d.PNG](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/6ad2f7dca685152de062bb90247bb045b9c0a05d.PNG)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\how-to-safely-share-a-document-by-email.md, Azure-RMSDocs\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\GetStarted\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-share-office-file-externally.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\how-to-safely-share-a-document-by-email.md, Azure-RMSDocs\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\GetStarted\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-share-office-file-externally.md
 * [Back to Top](#report-top)
 
 ##### <a name='894f2bf008907c047f1e1b96dad75bf7ea84d524237'></a> Source: [Azure-RMSDocs\media\AzRMS_SharedProtected_GenericProtection.PNG](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/fc1e8c0b2adae9f08127c4fcfc7fa6b34b4e322c/Azure-RMSDocs/media/AzRMS_SharedProtected_GenericProtection.PNG)
@@ -3381,11 +3381,11 @@
 * Handoff File: [894f2bf008907c047f1e1b96dad75bf7ea84d524.PNG](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/894f2bf008907c047f1e1b96dad75bf7ea84d524.PNG)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\how-to-safely-share-a-document-by-email.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\how-to-safely-share-a-document-by-email.md
 * [Back to Top](#report-top)
 
 ##### <a name='b819619a52f184fe06857f9ea6946fcf93aae852238'></a> Source: [Azure-RMSDocs\media\AzRMS_SharedProtected_HighlyConfidental.PNG](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/fc1e8c0b2adae9f08127c4fcfc7fa6b34b4e322c/Azure-RMSDocs/media/AzRMS_SharedProtected_HighlyConfidental.PNG)
@@ -3394,11 +3394,11 @@
 * Handoff File: [b819619a52f184fe06857f9ea6946fcf93aae852.PNG](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/b819619a52f184fe06857f9ea6946fcf93aae852.PNG)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\how-to-safely-share-a-document-by-email.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\how-to-safely-share-a-document-by-email.md
 * [Back to Top](#report-top)
 
 ##### <a name='cf83b194146d981b27cef11a22c7771536a46aee239'></a> Source: [Azure-RMSDocs\media\AzRMS_SharedProtected_InstantRevoke.PNG](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_SharedProtected_InstantRevoke.PNG)
@@ -3407,11 +3407,11 @@
 * Handoff File: [cf83b194146d981b27cef11a22c7771536a46aee.PNG](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/cf83b194146d981b27cef11a22c7771536a46aee.PNG)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\how-to-safely-share-a-document-by-email.md, Azure-RMSDocs\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\GetStarted\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-share-office-file-externally.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\how-to-safely-share-a-document-by-email.md, Azure-RMSDocs\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\GetStarted\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-share-office-file-externally.md
 * [Back to Top](#report-top)
 
 ##### <a name='800305bed8139193087c39cde47e65f9c9b5490b240'></a> Source: [Azure-RMSDocs\media\AzRMS_SharedProtected_Internal.PNG](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/fc1e8c0b2adae9f08127c4fcfc7fa6b34b4e322c/Azure-RMSDocs/media/AzRMS_SharedProtected_Internal.PNG)
@@ -3420,11 +3420,11 @@
 * Handoff File: [800305bed8139193087c39cde47e65f9c9b5490b.PNG](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/800305bed8139193087c39cde47e65f9c9b5490b.PNG)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\how-to-safely-share-a-document-by-email.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\how-to-safely-share-a-document-by-email.md
 * [Back to Top](#report-top)
 
 ##### <a name='e27d510656d463d6ba3e45004b814c84c2d8122d241'></a> Source: [Azure-RMSDocs\media\AzRMS_SharedProtected_ViewerOnly.PNG](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_SharedProtected_ViewerOnly.PNG)
@@ -3433,11 +3433,11 @@
 * Handoff File: [e27d510656d463d6ba3e45004b814c84c2d8122d.PNG](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/e27d510656d463d6ba3e45004b814c84c2d8122d.PNG)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\how-to-safely-share-a-document-by-email.md, Azure-RMSDocs\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\GetStarted\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-share-office-file-externally.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\how-to-safely-share-a-document-by-email.md, Azure-RMSDocs\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\GetStarted\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-share-office-file-externally.md
 * [Back to Top](#report-top)
 
 ##### <a name='291203a2ca2e494d5ccc5206af3f44d628c20e97242'></a> Source: [Azure-RMSDocs\media\AzRMS_SharePointConnector.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_SharePointConnector.png)
@@ -3446,11 +3446,11 @@
 * Handoff File: [291203a2ca2e494d5ccc5206af3f44d628c20e97.png](https://github.com/Microsoft/EM.handoff/blob/ad41e26e391cad11feacab686528baf00e905ee8/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/291203a2ca2e494d5ccc5206af3f44d628c20e97.png)
 * Handoff Datetime: 2016-03-21 23:28:07
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\deploying-the-azure-rights-management-connector.md, Azure-RMSDocs\DeployUse\deploying-the-azure-rights-management-connector.md, Azure-RMSDocs\deploy-use\deploying-the-azure-rights-management-connector.md, Azure-RMSDocs\deploy-use\configure-servers-for-the-rms-connector.md, Azure-RMSDocs\deploy-use\configure-servers-rms-connector.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\deploying-the-azure-rights-management-connector.md, Azure-RMSDocs\DeployUse\deploying-the-azure-rights-management-connector.md, Azure-RMSDocs\deploy-use\deploying-the-azure-rights-management-connector.md, Azure-RMSDocs\deploy-use\configure-servers-for-the-rms-connector.md, Azure-RMSDocs\deploy-use\configure-servers-rms-connector.md
 * [Back to Top](#report-top)
 
 ##### <a name='d4c5b0f5fa25f156128c8207806dd315c77ea413243'></a> Source: [Azure-RMSDocs\media\AzRMS_ShareProtected_SendNow.PNG](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/fc1e8c0b2adae9f08127c4fcfc7fa6b34b4e322c/Azure-RMSDocs/media/AzRMS_ShareProtected_SendNow.PNG)
@@ -3459,11 +3459,11 @@
 * Handoff File: [d4c5b0f5fa25f156128c8207806dd315c77ea413.PNG](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/d4c5b0f5fa25f156128c8207806dd315c77ea413.PNG)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\how-to-safely-share-a-document-by-email.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\how-to-safely-share-a-document-by-email.md
 * [Back to Top](#report-top)
 
 ##### <a name='0c772653ab722c6d9921310918f8adce63f92bfd244'></a> Source: [Azure-RMSDocs\media\AzRMS_StoryboardActivate.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/1748cb866705a4ddee75a3587969798a15e77403/Azure-RMSDocs/media/AzRMS_StoryboardActivate.png)
@@ -3472,11 +3472,11 @@
 * Handoff File: [0c772653ab722c6d9921310918f8adce63f92bfd.png](https://github.com/Microsoft/EM.handoff/blob/c63479085bd371910f8087aca692c5333821c0b7/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/0c772653ab722c6d9921310918f8adce63f92bfd.png)
 * Handoff Datetime: 2016-03-04 08:50:13
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\full-screen-picture-activating-rights-management.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\full-screen-picture-activating-rights-management.md
 * [Back to Top](#report-top)
 
 ##### <a name='6bbb0d50bf03ad546b7dcdb93056e6baff055654245'></a> Source: [Azure-RMSDocs\media\AzRMS_StoryboardActivate_small1.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_StoryboardActivate_small1.png)
@@ -3485,11 +3485,11 @@
 * Handoff File: [6bbb0d50bf03ad546b7dcdb93056e6baff055654.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/6bbb0d50bf03ad546b7dcdb93056e6baff055654.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * [Back to Top](#report-top)
 
 ##### <a name='26e0480009dcace82a652c37f5daebf3cc01f1a4246'></a> Source: [Azure-RMSDocs\media\AzRMS_StoryboardEmail_small1.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_StoryboardEmail_small1.png)
@@ -3498,11 +3498,11 @@
 * Handoff File: [26e0480009dcace82a652c37f5daebf3cc01f1a4.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/26e0480009dcace82a652c37f5daebf3cc01f1a4.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * [Back to Top](#report-top)
 
 ##### <a name='9b6ad83c5458f4f6e30201e99ebc75b83c83e070247'></a> Source: [Azure-RMSDocs\media\AzRMS_StoryboardEmail_small2.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_StoryboardEmail_small2.png)
@@ -3511,11 +3511,11 @@
 * Handoff File: [9b6ad83c5458f4f6e30201e99ebc75b83c83e070.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/9b6ad83c5458f4f6e30201e99ebc75b83c83e070.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * [Back to Top](#report-top)
 
 ##### <a name='81c23a2acf1cce321bf1aa29973272c1ad37b292248'></a> Source: [Azure-RMSDocs\media\AzRMS_StoryboardEmail_small3.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_StoryboardEmail_small3.png)
@@ -3524,11 +3524,11 @@
 * Handoff File: [81c23a2acf1cce321bf1aa29973272c1ad37b292.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/81c23a2acf1cce321bf1aa29973272c1ad37b292.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * [Back to Top](#report-top)
 
 ##### <a name='d8d408182f1382d7be1c9a509b14ee76f75cc38d249'></a> Source: [Azure-RMSDocs\media\AzRMS_StoryboardEmail_small4.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_StoryboardEmail_small4.png)
@@ -3537,11 +3537,11 @@
 * Handoff File: [d8d408182f1382d7be1c9a509b14ee76f75cc38d.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/d8d408182f1382d7be1c9a509b14ee76f75cc38d.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * [Back to Top](#report-top)
 
 ##### <a name='787d5feed4aa1de7c61bda74db542271389b6f2c250'></a> Source: [Azure-RMSDocs\media\AzRMS_StoryboardEmaill1.PNG](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/1748cb866705a4ddee75a3587969798a15e77403/Azure-RMSDocs/media/AzRMS_StoryboardEmaill1.PNG)
@@ -3550,11 +3550,11 @@
 * Handoff File: [787d5feed4aa1de7c61bda74db542271389b6f2c.PNG](https://github.com/Microsoft/EM.handoff/blob/c63479085bd371910f8087aca692c5333821c0b7/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/787d5feed4aa1de7c61bda74db542271389b6f2c.PNG)
 * Handoff Datetime: 2016-03-04 08:50:13
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\full-screen-picture-alice-shares-protected-attachment.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\full-screen-picture-alice-shares-protected-attachment.md
 * [Back to Top](#report-top)
 
 ##### <a name='8182786658a5308cb246c5780b235e5de0a1f648251'></a> Source: [Azure-RMSDocs\media\AzRMS_StoryboardEmaill2.PNG](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/1748cb866705a4ddee75a3587969798a15e77403/Azure-RMSDocs/media/AzRMS_StoryboardEmaill2.PNG)
@@ -3563,11 +3563,11 @@
 * Handoff File: [8182786658a5308cb246c5780b235e5de0a1f648.PNG](https://github.com/Microsoft/EM.handoff/blob/c63479085bd371910f8087aca692c5333821c0b7/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/8182786658a5308cb246c5780b235e5de0a1f648.PNG)
 * Handoff Datetime: 2016-03-04 08:50:13
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\full-screen-picture-bob-sees-the-email-on-his-ipad.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\full-screen-picture-bob-sees-the-email-on-his-ipad.md
 * [Back to Top](#report-top)
 
 ##### <a name='d9f0314d5243503acd00df238ce5d315b513633d252'></a> Source: [Azure-RMSDocs\media\AzRMS_StoryboardEmaill3.PNG](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/1748cb866705a4ddee75a3587969798a15e77403/Azure-RMSDocs/media/AzRMS_StoryboardEmaill3.PNG)
@@ -3576,11 +3576,11 @@
 * Handoff File: [d9f0314d5243503acd00df238ce5d315b513633d.PNG](https://github.com/Microsoft/EM.handoff/blob/c63479085bd371910f8087aca692c5333821c0b7/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/d9f0314d5243503acd00df238ce5d315b513633d.PNG)
 * Handoff Datetime: 2016-03-04 08:50:13
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\full-screen-picture-bob-opens-the-attachment-on-his-ipad.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\full-screen-picture-bob-opens-the-attachment-on-his-ipad.md
 * [Back to Top](#report-top)
 
 ##### <a name='8db60d8f88bdd42a9df19a80d84f93e8bc57eb04253'></a> Source: [Azure-RMSDocs\media\AzRMS_StoryboardEmaill4.PNG](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/1748cb866705a4ddee75a3587969798a15e77403/Azure-RMSDocs/media/AzRMS_StoryboardEmaill4.PNG)
@@ -3589,11 +3589,11 @@
 * Handoff File: [8db60d8f88bdd42a9df19a80d84f93e8bc57eb04.PNG](https://github.com/Microsoft/EM.handoff/blob/c63479085bd371910f8087aca692c5333821c0b7/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/8db60d8f88bdd42a9df19a80d84f93e8bc57eb04.PNG)
 * Handoff Datetime: 2016-03-04 08:50:13
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\full-screen-picture-alice-gets-email-notification.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\full-screen-picture-alice-gets-email-notification.md
 * [Back to Top](#report-top)
 
 ##### <a name='dd1e218c9f2e427c5a3cb153d76478f09a1c2bb2254'></a> Source: [Azure-RMSDocs\media\AzRMS_StoryboardSPO_1.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/1748cb866705a4ddee75a3587969798a15e77403/Azure-RMSDocs/media/AzRMS_StoryboardSPO_1.png)
@@ -3602,11 +3602,11 @@
 * Handoff File: [dd1e218c9f2e427c5a3cb153d76478f09a1c2bb2.png](https://github.com/Microsoft/EM.handoff/blob/c63479085bd371910f8087aca692c5333821c0b7/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/dd1e218c9f2e427c5a3cb153d76478f09a1c2bb2.png)
 * Handoff Datetime: 2016-03-04 08:50:13
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\full-screen-picture-enabling-irm-on-sharepoint-online.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\full-screen-picture-enabling-irm-on-sharepoint-online.md
 * [Back to Top](#report-top)
 
 ##### <a name='49c6dacd36a7ead895f9089118cf60cacdb26d8f255'></a> Source: [Azure-RMSDocs\media\AzRMS_StoryboardSPO_2.PNG](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/1748cb866705a4ddee75a3587969798a15e77403/Azure-RMSDocs/media/AzRMS_StoryboardSPO_2.PNG)
@@ -3615,11 +3615,11 @@
 * Handoff File: [49c6dacd36a7ead895f9089118cf60cacdb26d8f.PNG](https://github.com/Microsoft/EM.handoff/blob/c63479085bd371910f8087aca692c5333821c0b7/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/49c6dacd36a7ead895f9089118cf60cacdb26d8f.PNG)
 * Handoff Datetime: 2016-03-04 08:50:13
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\full-screen-picture-enabling-irm-for-a-library.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\full-screen-picture-enabling-irm-for-a-library.md
 * [Back to Top](#report-top)
 
 ##### <a name='8e00c7c29ea4034042f2ab548619f141e659804e256'></a> Source: [Azure-RMSDocs\media\AzRMS_StoryboardSPO_3.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/1748cb866705a4ddee75a3587969798a15e77403/Azure-RMSDocs/media/AzRMS_StoryboardSPO_3.png)
@@ -3628,11 +3628,11 @@
 * Handoff File: [8e00c7c29ea4034042f2ab548619f141e659804e.png](https://github.com/Microsoft/EM.handoff/blob/c63479085bd371910f8087aca692c5333821c0b7/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/8e00c7c29ea4034042f2ab548619f141e659804e.png)
 * Handoff Datetime: 2016-03-04 08:50:13
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\full-screen-picture-a-sharepoint-protected-document.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\full-screen-picture-a-sharepoint-protected-document.md
 * [Back to Top](#report-top)
 
 ##### <a name='a7be1d4be635df3f97197c34b5ec6e18d3c7bbd1257'></a> Source: [Azure-RMSDocs\media\AzRMS_StoryboardSPO_small1.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_StoryboardSPO_small1.png)
@@ -3641,11 +3641,11 @@
 * Handoff File: [a7be1d4be635df3f97197c34b5ec6e18d3c7bbd1.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/a7be1d4be635df3f97197c34b5ec6e18d3c7bbd1.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * [Back to Top](#report-top)
 
 ##### <a name='d755cfb48974698b324dc51a3605cf1ad6eefa8b258'></a> Source: [Azure-RMSDocs\media\AzRMS_StoryboardSPO_small2.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_StoryboardSPO_small2.png)
@@ -3654,11 +3654,11 @@
 * Handoff File: [d755cfb48974698b324dc51a3605cf1ad6eefa8b.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/d755cfb48974698b324dc51a3605cf1ad6eefa8b.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * [Back to Top](#report-top)
 
 ##### <a name='61256524f27787ec5e4aef7cc584058ec3d56402259'></a> Source: [Azure-RMSDocs\media\AzRMS_StoryboardSPO_small3.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_StoryboardSPO_small3.png)
@@ -3667,11 +3667,11 @@
 * Handoff File: [61256524f27787ec5e4aef7cc584058ec3d56402.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/61256524f27787ec5e4aef7cc584058ec3d56402.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * [Back to Top](#report-top)
 
 ##### <a name='df64a7d340fab235878695b48dfea7f58e4b468d260'></a> Source: [Azure-RMSDocs\media\AzRMS_TemplatesPortal.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/1748cb866705a4ddee75a3587969798a15e77403/Azure-RMSDocs/media/AzRMS_TemplatesPortal.png)
@@ -3680,11 +3680,11 @@
 * Handoff File: [df64a7d340fab235878695b48dfea7f58e4b468d.png](https://github.com/Microsoft/EM.handoff/blob/c63479085bd371910f8087aca692c5333821c0b7/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/df64a7d340fab235878695b48dfea7f58e4b468d.png)
 * Handoff Datetime: 2016-03-04 08:50:13
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\full-screen-picture-rms-templates-in-the-azure-management-portal.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\full-screen-picture-rms-templates-in-the-azure-management-portal.md
 * [Back to Top](#report-top)
 
 ##### <a name='a7d52d881e293f35c8dfe37fa65f4d021dc0ec93261'></a> Source: [Azure-RMSDocs\media\AzRMS_TemplatesPortal_ExplorerWord.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/1748cb866705a4ddee75a3587969798a15e77403/Azure-RMSDocs/media/AzRMS_TemplatesPortal_ExplorerWord.png)
@@ -3693,11 +3693,11 @@
 * Handoff File: [a7d52d881e293f35c8dfe37fa65f4d021dc0ec93.png](https://github.com/Microsoft/EM.handoff/blob/c63479085bd371910f8087aca692c5333821c0b7/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/a7d52d881e293f35c8dfe37fa65f4d021dc0ec93.png)
 * Handoff Datetime: 2016-03-04 08:50:13
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\full-screen-picture-select-rms-templates-in-applications,-such-as-file-explorer-and-word.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\full-screen-picture-select-rms-templates-in-applications,-such-as-file-explorer-and-word.md
 * [Back to Top](#report-top)
 
 ##### <a name='59b659ee2f0f1557406e05b2fd11feee830de55a262'></a> Source: [Azure-RMSDocs\media\AzRMS_TemplatesPortal_ExplorerWord3.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_TemplatesPortal_ExplorerWord3.png)
@@ -3706,11 +3706,11 @@
 * Handoff File: [59b659ee2f0f1557406e05b2fd11feee830de55a.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/59b659ee2f0f1557406e05b2fd11feee830de55a.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * [Back to Top](#report-top)
 
 ##### <a name='cbf014f54667d2a5218b36be4f560415f29e061a263'></a> Source: [Azure-RMSDocs\media\AzRMS_TemplatesPortal_small.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_TemplatesPortal_small.png)
@@ -3719,11 +3719,11 @@
 * Handoff File: [cbf014f54667d2a5218b36be4f560415f29e061a.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/cbf014f54667d2a5218b36be4f560415f29e061a.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * [Back to Top](#report-top)
 
 ##### <a name='5ec639eaaf1c2288b242edcd3755f4329dbc4b86264'></a> Source: [Azure-RMSDocs\media\AzRMS_TemplatesSettings.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/1748cb866705a4ddee75a3587969798a15e77403/Azure-RMSDocs/media/AzRMS_TemplatesSettings.png)
@@ -3732,11 +3732,11 @@
 * Handoff File: [5ec639eaaf1c2288b242edcd3755f4329dbc4b86.png](https://github.com/Microsoft/EM.handoff/blob/c63479085bd371910f8087aca692c5333821c0b7/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/5ec639eaaf1c2288b242edcd3755f4329dbc4b86.png)
 * Handoff Datetime: 2016-03-04 08:50:13
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\full-screen-picture-available-settings-for-rms-templates.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\full-screen-picture-available-settings-for-rms-templates.md
 * [Back to Top](#report-top)
 
 ##### <a name='013060de59f3814245151184a2e0af8e6e6466bb265'></a> Source: [Azure-RMSDocs\media\AzRMS_TemplatesSettings3.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_TemplatesSettings3.png)
@@ -3745,11 +3745,11 @@
 * Handoff File: [013060de59f3814245151184a2e0af8e6e6466bb.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/013060de59f3814245151184a2e0af8e6e6466bb.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\what-do-admins-users-see.md, Azure-RMSDocs\Understand\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-do-admins-users-see.md, Azure-RMSDocs\understand-explore\what-admins-users-see.md
 * [Back to Top](#report-top)
 
 ##### <a name='ff6cfad88db7d2e6e0026232d4d397e2de8ced37266'></a> Source: [Azure-RMSDocs\media\AzRMS_Tutorial_1_Screenshots.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_Tutorial_1_Screenshots.png)
@@ -3758,11 +3758,11 @@
 * Handoff File: [ff6cfad88db7d2e6e0026232d4d397e2de8ced37.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/ff6cfad88db7d2e6e0026232d4d397e2de8ced37.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rms-quickstart-step1.md, Azure-RMSDocs\includes\rms-quickstart-step1-include.md, Azure-RMSDocs\get-started\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\get-started\rms-quickstart-step1.md, Azure-RMSDocs\get-started\tutorial-step1.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rms-quickstart-step1.md, Azure-RMSDocs\includes\rms-quickstart-step1-include.md, Azure-RMSDocs\get-started\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\get-started\rms-quickstart-step1.md, Azure-RMSDocs\get-started\tutorial-step1.md
 * [Back to Top](#report-top)
 
 ##### <a name='38472b7d61e3808cdc0f65a378be5cb1a5be2707267'></a> Source: [Azure-RMSDocs\media\AzRMS_Tutorial_1Draft.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/6775f218b66e4f6dd8092d1b287ee76f9c594e6f/Azure-RMSDocs/media/AzRMS_Tutorial_1Draft.png)
@@ -3807,11 +3807,11 @@
 * Handoff File: [6920708cdf154d659afe01079401cbcc1c1c6ab1.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/6920708cdf154d659afe01079401cbcc1c1c6ab1.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rms-quickstart-step2.md, Azure-RMSDocs\includes\rms-quickstart-step2-include.md, Azure-RMSDocs\get-started\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\get-started\rms-quickstart-step2.md, Azure-RMSDocs\get-started\tutorial-step2.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rms-quickstart-step2.md, Azure-RMSDocs\includes\rms-quickstart-step2-include.md, Azure-RMSDocs\get-started\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\get-started\rms-quickstart-step2.md, Azure-RMSDocs\get-started\tutorial-step2.md
 * [Back to Top](#report-top)
 
 ##### <a name='0a855d29a709c18e0819ac5a4afd097f3d1f6f3d271'></a> Source: [Azure-RMSDocs\media\AzRMS_Tutorial_3_Final2.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/6775f218b66e4f6dd8092d1b287ee76f9c594e6f/Azure-RMSDocs/media/AzRMS_Tutorial_3_Final2.png)
@@ -3832,11 +3832,11 @@
 * Handoff File: [579a3f016f81fe1213d1bcfbd23a7f94d9d8bcf7.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/579a3f016f81fe1213d1bcfbd23a7f94d9d8bcf7.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rms-quickstart-step3.md, Azure-RMSDocs\includes\rms-quickstart-step3-include.md, Azure-RMSDocs\get-started\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\get-started\rms-quickstart-step3.md, Azure-RMSDocs\get-started\tutorial-step3.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rms-quickstart-step3.md, Azure-RMSDocs\includes\rms-quickstart-step3-include.md, Azure-RMSDocs\get-started\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\get-started\rms-quickstart-step3.md, Azure-RMSDocs\get-started\tutorial-step3.md
 * [Back to Top](#report-top)
 
 ##### <a name='37d25df05bcdb63fef2c9d3b2e04370f527f22ba273'></a> Source: [Azure-RMSDocs\media\AzRMS_Tutorial_4_Screenshots.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_Tutorial_4_Screenshots.png)
@@ -3845,11 +3845,11 @@
 * Handoff File: [37d25df05bcdb63fef2c9d3b2e04370f527f22ba.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/37d25df05bcdb63fef2c9d3b2e04370f527f22ba.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rms-quickstart-step4.md, Azure-RMSDocs\includes\rms-quickstart-step4-include.md, Azure-RMSDocs\get-started\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\get-started\rms-quickstart-step4.md, Azure-RMSDocs\get-started\tutorial-step4.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rms-quickstart-step4.md, Azure-RMSDocs\includes\rms-quickstart-step4-include.md, Azure-RMSDocs\get-started\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\get-started\rms-quickstart-step4.md, Azure-RMSDocs\get-started\tutorial-step4.md
 * [Back to Top](#report-top)
 
 ##### <a name='05d619a0282fd3ce88a1126d991e2641ef801f0e274'></a> Source: [Azure-RMSDocs\media\AzRMS_Tutorial_5_Screenshots.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_Tutorial_5_Screenshots.png)
@@ -3858,11 +3858,11 @@
 * Handoff File: [05d619a0282fd3ce88a1126d991e2641ef801f0e.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/05d619a0282fd3ce88a1126d991e2641ef801f0e.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\rapid-deployment-guide-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rapid-deployment-guide-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rms-quickstart-step5.md, Azure-RMSDocs\includes\rms-quickstart-step5-include.md, Azure-RMSDocs\get-started\rapid-deployment-guide-for-azure-rights-management.md, Azure-RMSDocs\get-started\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\get-started\rms-quickstart-step5.md, Azure-RMSDocs\get-started\tutorial-step5.md, Azure-RMSDocs\get-started\rapid-deployment-guide.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\rapid-deployment-guide-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rapid-deployment-guide-for-azure-rights-management.md, Azure-RMSDocs\GetStarted\rms-quickstart-step5.md, Azure-RMSDocs\includes\rms-quickstart-step5-include.md, Azure-RMSDocs\get-started\rapid-deployment-guide-for-azure-rights-management.md, Azure-RMSDocs\get-started\quick-start-tutorial-for-azure-rights-management.md, Azure-RMSDocs\get-started\rms-quickstart-step5.md, Azure-RMSDocs\get-started\tutorial-step5.md, Azure-RMSDocs\get-started\rapid-deployment-guide.md
 * [Back to Top](#report-top)
 
 ##### <a name='c8abedb0b383003138792715518ae11ce3406ef4275'></a> Source: [Azure-RMSDocs\media\AzRMS_useractivation2.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_useractivation2.png)
@@ -3871,11 +3871,11 @@
 * Handoff File: [c8abedb0b383003138792715518ae11ce3406ef4.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/c8abedb0b383003138792715518ae11ce3406ef4.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\how-does-it-work.md, Azure-RMSDocs\Understand\how-does-it-work.md, Azure-RMSDocs\understand-explore\how-does-it-work.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\how-does-it-work.md, Azure-RMSDocs\Understand\how-does-it-work.md, Azure-RMSDocs\understand-explore\how-does-it-work.md
 * [Back to Top](#report-top)
 
 ##### <a name='d922db6b88e858d53fb28e5847ef58ab4d042ffc276'></a> Source: [Azure-RMSDocs\media\AzRMS_UsersBanner.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMS_UsersBanner.png)
@@ -3884,11 +3884,11 @@
 * Handoff File: [d922db6b88e858d53fb28e5847ef58ab4d042ffc.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/d922db6b88e858d53fb28e5847ef58ab4d042ffc.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\GetStarted\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\GetStarted\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\GetStarted\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\GetStarted\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\GetStarted\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\GetStarted\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\get-started\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\get-started\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\get-started\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\get-started\scenario-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-executives-email.md, Azure-RMSDocs\get-started\scenario-fci.md, Azure-RMSDocs\get-started\scenario-secure-most-valuable-files.md, Azure-RMSDocs\get-started\scenario-share-office-file-externally.md, Azure-RMSDocs\get-started\scenario-sharepoint.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\GetStarted\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\GetStarted\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\GetStarted\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\GetStarted\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\GetStarted\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\GetStarted\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-secure-your-most-few-valuable-files.md, Azure-RMSDocs\get-started\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-executives-securely-exchange-privileged-information.md, Azure-RMSDocs\get-started\scenario-send-a-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-protect-files-on-a-file-server-share.md, Azure-RMSDocs\get-started\scenario-retain-control-of-documents-stored-in-sharepoint.md, Azure-RMSDocs\get-started\scenario-company-confidential-email.md, Azure-RMSDocs\get-started\scenario-executives-email.md, Azure-RMSDocs\get-started\scenario-fci.md, Azure-RMSDocs\get-started\scenario-secure-most-valuable-files.md, Azure-RMSDocs\get-started\scenario-share-office-file-externally.md, Azure-RMSDocs\get-started\scenario-sharepoint.md
 * [Back to Top](#report-top)
 
 ##### <a name='05f9ef9a3f6258fb49f39f034e84c773dad451b6277'></a> Source: [Azure-RMSDocs\media\AzRMSUserInstructions_ShareProtectedRibbon2013.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/AzRMSUserInstructions_ShareProtectedRibbon2013.png)
@@ -3897,11 +3897,11 @@
 * Handoff File: [05f9ef9a3f6258fb49f39f034e84c773dad451b6.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/05f9ef9a3f6258fb49f39f034e84c773dad451b6.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\GetStarted\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-share-office-file-externally.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\GetStarted\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-share-an-office-file-with-users-in-another-organization.md, Azure-RMSDocs\get-started\scenario-share-office-file-externally.md
 * [Back to Top](#report-top)
 
 ##### <a name='5a66474a88d4cf8dcdd482a1d9166770e48c7e3d280'></a> Source: [Azure-RMSDocs\media\AzureADPick.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/6775f218b66e4f6dd8092d1b287ee76f9c594e6f/Azure-RMSDocs/media/AzureADPick.png)
@@ -4054,11 +4054,11 @@
 * Handoff File: [1ac71872262d857f7508d5e230a26d2d8cea1806.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/1ac71872262d857f7508d5e230a26d2d8cea1806.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md, Azure-RMSDocs\develop\how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md, Azure-RMSDocs\develop\how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md
 * [Back to Top](#report-top)
 
 ##### <a name='e5823513769530a55cf0bc07742ba64360a988c7291'></a> Source: [Azure-RMSDocs\media\hololens.gif](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/052d96a2d489c6b4aafd4534ea3f36847de03e75/Azure-RMSDocs/media/hololens.gif)
@@ -4067,11 +4067,11 @@
 * Handoff File: [e5823513769530a55cf0bc07742ba64360a988c7.gif](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/e5823513769530a55cf0bc07742ba64360a988c7.gif)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\scratch.md, Azure-RMSDocs\test\scratch.md, Azure-RMSDocs\template.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\scratch.md, Azure-RMSDocs\test\scratch.md, Azure-RMSDocs\template.md
 * [Back to Top](#report-top)
 
 ##### <a name='ae5a9e53a652ac3217bca982910f309e63cbc110292'></a> Source: [Azure-RMSDocs\media\hub-azure-rms.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/6775f218b66e4f6dd8092d1b287ee76f9c594e6f/Azure-RMSDocs/media/hub-azure-rms.png)
@@ -4248,11 +4248,11 @@
 * Handoff File: [a4087526082ea63ca87d755ebbadef292f9eddb0.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/a4087526082ea63ca87d755ebbadef292f9eddb0.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md, Azure-RMSDocs\develop\how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md, Azure-RMSDocs\develop\how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md
 * [Back to Top](#report-top)
 
 ##### <a name='d26028e746a512ad8f690b8b3773fced8def6f61307'></a> Source: [Azure-RMSDocs\media\ios-add-dependencies-01a.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/ios-add-dependencies-01a.png)
@@ -4261,11 +4261,11 @@
 * Handoff File: [d26028e746a512ad8f690b8b3773fced8def6f61.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/d26028e746a512ad8f690b8b3773fced8def6f61.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\ios-sdk.md, Azure-RMSDocs\develop\ios-sdk.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\ios-sdk.md, Azure-RMSDocs\develop\ios-sdk.md
 * [Back to Top](#report-top)
 
 ##### <a name='9c0c574873e915e61846adbab067c2c53306a5a4308'></a> Source: [Azure-RMSDocs\media\iOS-add-libraries.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/iOS-add-libraries.png)
@@ -4274,11 +4274,11 @@
 * Handoff File: [9c0c574873e915e61846adbab067c2c53306a5a4.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/9c0c574873e915e61846adbab067c2c53306a5a4.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\ios-sdk.md, Azure-RMSDocs\develop\ios-sdk.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\ios-sdk.md, Azure-RMSDocs\develop\ios-sdk.md
 * [Back to Top](#report-top)
 
 ##### <a name='f97647a9eb12bcd946f9c491e2593d00fdf88168309'></a> Source: [Azure-RMSDocs\media\iOS-add-resource-bundle-02a.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/iOS-add-resource-bundle-02a.png)
@@ -4287,11 +4287,11 @@
 * Handoff File: [f97647a9eb12bcd946f9c491e2593d00fdf88168.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/f97647a9eb12bcd946f9c491e2593d00fdf88168.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\ios-sdk.md, Azure-RMSDocs\develop\ios-sdk.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\ios-sdk.md, Azure-RMSDocs\develop\ios-sdk.md
 * [Back to Top](#report-top)
 
 ##### <a name='40c53d64e64cbfb0cb9ddd22049a0866497705a4310'></a> Source: [Azure-RMSDocs\media\iOS-create-groups.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/iOS-create-groups.png)
@@ -4300,11 +4300,11 @@
 * Handoff File: [40c53d64e64cbfb0cb9ddd22049a0866497705a4.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/40c53d64e64cbfb0cb9ddd22049a0866497705a4.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\ios-sdk.md, Azure-RMSDocs\develop\ios-sdk.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\ios-sdk.md, Azure-RMSDocs\develop\ios-sdk.md
 * [Back to Top](#report-top)
 
 ##### <a name='d57cbae27ffd084b9b0b89b49094554a07845ae7311'></a> Source: [Azure-RMSDocs\media\iOS-linker-flags.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/iOS-linker-flags.png)
@@ -4313,11 +4313,11 @@
 * Handoff File: [d57cbae27ffd084b9b0b89b49094554a07845ae7.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/d57cbae27ffd084b9b0b89b49094554a07845ae7.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\ios-sdk.md, Azure-RMSDocs\develop\ios-sdk.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\ios-sdk.md, Azure-RMSDocs\develop\ios-sdk.md
 * [Back to Top](#report-top)
 
 ##### <a name='e579b2fc408332bb3af80b4d1b3357c180d3a538313'></a> Source: [Azure-RMSDocs\media\iOS-Project.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/iOS-Project.png)
@@ -4326,11 +4326,11 @@
 * Handoff File: [e579b2fc408332bb3af80b4d1b3357c180d3a538.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/e579b2fc408332bb3af80b4d1b3357c180d3a538.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\ios-sdk.md, Azure-RMSDocs\develop\ios-sdk.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\ios-sdk.md, Azure-RMSDocs\develop\ios-sdk.md
 * [Back to Top](#report-top)
 
 ##### <a name='0cd0f81f405bca6d85e0a930d89361f42a0a23f0312'></a> Source: [Azure-RMSDocs\media\iOS-project-options.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/iOS-project-options.png)
@@ -4339,11 +4339,11 @@
 * Handoff File: [0cd0f81f405bca6d85e0a930d89361f42a0a23f0.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/0cd0f81f405bca6d85e0a930d89361f42a0a23f0.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\ios-sdk.md, Azure-RMSDocs\develop\ios-sdk.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\ios-sdk.md, Azure-RMSDocs\develop\ios-sdk.md
 * [Back to Top](#report-top)
 
 ##### <a name='19600cf41ab84b1e9783e612be2b8a0e3355188d314'></a> Source: [Azure-RMSDocs\media\iOS-verify-setup-01a.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/iOS-verify-setup-01a.png)
@@ -4352,11 +4352,11 @@
 * Handoff File: [19600cf41ab84b1e9783e612be2b8a0e3355188d.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/19600cf41ab84b1e9783e612be2b8a0e3355188d.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\ios-sdk.md, Azure-RMSDocs\develop\ios-sdk.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\ios-sdk.md, Azure-RMSDocs\develop\ios-sdk.md
 * [Back to Top](#report-top)
 
 ##### <a name='c10699685d8b075407c6040a718425e35b523f98315'></a> Source: [Azure-RMSDocs\media\library_directories.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/library_directories.png)
@@ -4365,11 +4365,11 @@
 * Handoff File: [c10699685d8b075407c6040a718425e35b523f98.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/c10699685d8b075407c6040a718425e35b523f98.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md, Azure-RMSDocs\develop\how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md, Azure-RMSDocs\develop\how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md
 * [Back to Top](#report-top)
 
 ##### <a name='5948032ee31022cc1498928eeb8a57cf00f633ad316'></a> Source: [Azure-RMSDocs\media\linkcss.js](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/6775f218b66e4f6dd8092d1b287ee76f9c594e6f/Azure-RMSDocs/media/linkcss.js)
@@ -4390,11 +4390,11 @@
 * Handoff File: [c986d43dce083a29712ecb2755e9789a4cb4008a.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/c986d43dce083a29712ecb2755e9789a4cb4008a.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md, Azure-RMSDocs\develop\how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md, Azure-RMSDocs\develop\how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md
 * [Back to Top](#report-top)
 
 ##### <a name='43c0f8328d31f0d6a8fe0056bbe9a66891be5794318'></a> Source: [Azure-RMSDocs\media\PermissionsToOtherBtn.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/6775f218b66e4f6dd8092d1b287ee76f9c594e6f/Azure-RMSDocs/media/PermissionsToOtherBtn.png)
@@ -4439,11 +4439,11 @@
 * Handoff File: [88e697641696002884880857174a50a15d094640.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/88e697641696002884880857174a50a15d094640.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\planning-and-implementing-your-azure-rights-management-tenant-key.md, Azure-RMSDocs\PlanDesign\planning-and-implementing-your-azure-rights-management-tenant-key.md, Azure-RMSDocs\plan-design\planning-and-implementing-your-azure-rights-management-tenant-key.md, Azure-RMSDocs\plan-design\plan-implement-tenant-key.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\planning-and-implementing-your-azure-rights-management-tenant-key.md, Azure-RMSDocs\PlanDesign\planning-and-implementing-your-azure-rights-management-tenant-key.md, Azure-RMSDocs\plan-design\planning-and-implementing-your-azure-rights-management-tenant-key.md, Azure-RMSDocs\plan-design\plan-implement-tenant-key.md
 * [Back to Top](#report-top)
 
 ##### <a name='61ce88571236a26e129e79ae8af9b3ed238459a3322'></a> Source: [Azure-RMSDocs\media\RMS_BYOK_noExchange.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/RMS_BYOK_noExchange.png)
@@ -4452,11 +4452,11 @@
 * Handoff File: [61ce88571236a26e129e79ae8af9b3ed238459a3.png](https://github.com/Microsoft/EM.handoff/blob/dbefc5cc8d49449e3d38e9acacc4f32d63105a99/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/61ce88571236a26e129e79ae8af9b3ed238459a3.png)
 * Handoff Datetime: 2016-04-04 21:23:57
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\planning-and-implementing-your-azure-rights-management-tenant-key.md, Azure-RMSDocs\plan-design\byok-pricing-and-restrictions.md, Azure-RMSDocs\plan-design\byok-price-restrictions.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\planning-and-implementing-your-azure-rights-management-tenant-key.md, Azure-RMSDocs\plan-design\byok-pricing-and-restrictions.md, Azure-RMSDocs\plan-design\byok-price-restrictions.md
 * [Back to Top](#report-top)
 
 ##### <a name='cc30bb9a04aba3747282a3aba9ab8d668e263c0b323'></a> Source: [Azure-RMSDocs\media\RMS_BYOK_onprem.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/RMS_BYOK_onprem.png)
@@ -4465,11 +4465,11 @@
 * Handoff File: [cc30bb9a04aba3747282a3aba9ab8d668e263c0b.png](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/cc30bb9a04aba3747282a3aba9ab8d668e263c0b.png)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\planning-and-implementing-your-azure-rights-management-tenant-key.md, Azure-RMSDocs\PlanDesign\planning-and-implementing-your-azure-rights-management-tenant-key.md, Azure-RMSDocs\plan-design\planning-and-implementing-your-azure-rights-management-tenant-key.md, Azure-RMSDocs\plan-design\plan-implement-tenant-key.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\planning-and-implementing-your-azure-rights-management-tenant-key.md, Azure-RMSDocs\PlanDesign\planning-and-implementing-your-azure-rights-management-tenant-key.md, Azure-RMSDocs\plan-design\planning-and-implementing-your-azure-rights-management-tenant-key.md, Azure-RMSDocs\plan-design\plan-implement-tenant-key.md
 * [Back to Top](#report-top)
 
 ##### <a name='c91e5ca163103359c297261b768403f061f66ec9324'></a> Source: [Azure-RMSDocs\media\RMS_connector.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/RMS_connector.png)
@@ -4478,11 +4478,11 @@
 * Handoff File: [c91e5ca163103359c297261b768403f061f66ec9.png](https://github.com/Microsoft/EM.handoff/blob/6170b4b98d74d971d09d8b90359101d686d12f3e/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/c91e5ca163103359c297261b768403f061f66ec9.png)
 * Handoff Datetime: 2016-03-21 20:57:08
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\deploying-the-azure-rights-management-connector.md, Azure-RMSDocs\DeployUse\deploying-the-azure-rights-management-connector.md, Azure-RMSDocs\deploy-use\deploying-the-azure-rights-management-connector.md, Azure-RMSDocs\deploy-use\deploy-rms-connector.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\deploying-the-azure-rights-management-connector.md, Azure-RMSDocs\DeployUse\deploying-the-azure-rights-management-connector.md, Azure-RMSDocs\deploy-use\deploying-the-azure-rights-management-connector.md, Azure-RMSDocs\deploy-use\deploy-rms-connector.md
 * [Back to Top](#report-top)
 
 ##### <a name='585821560e111abdc47ef6167126b34c4c81cd34325'></a> Source: [Azure-RMSDocs\media\RMS_Logging.gif](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/RMS_Logging.gif)
@@ -4491,11 +4491,11 @@
 * Handoff File: [585821560e111abdc47ef6167126b34c4c81cd34.gif](https://github.com/Microsoft/EM.handoff/blob/a1a0eba39305fb82bfc61b1f60b9358cefde41d0/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/585821560e111abdc47ef6167126b34c4c81cd34.gif)
 * Handoff Datetime: 2016-03-11 00:51:39
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\planning-and-implementing-your-azure-rights-management-tenant-key.md, Azure-RMSDocs\PlanDesign\planning-and-implementing-your-azure-rights-management-tenant-key.md, Azure-RMSDocs\plan-design\planning-and-implementing-your-azure-rights-management-tenant-key.md, Azure-RMSDocs\plan-design\plan-implement-tenant-key.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\planning-and-implementing-your-azure-rights-management-tenant-key.md, Azure-RMSDocs\PlanDesign\planning-and-implementing-your-azure-rights-management-tenant-key.md, Azure-RMSDocs\plan-design\planning-and-implementing-your-azure-rights-management-tenant-key.md, Azure-RMSDocs\plan-design\plan-implement-tenant-key.md
 * [Back to Top](#report-top)
 
 ##### <a name='5ec8158a0d9121b891829dd679c211115d7c001c326'></a> Source: [Azure-RMSDocs\media\RMTab.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/6775f218b66e4f6dd8092d1b287ee76f9c594e6f/Azure-RMSDocs/media/RMTab.png)
@@ -4540,11 +4540,11 @@
 * Handoff File: [cb4c1f48a6689d260b479437f66a250a5bf5d7fd.gif](https://github.com/Microsoft/EM.handoff/blob/d0f4636e450178aa1e752f95c4a1d776c28fa303/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/cb4c1f48a6689d260b479437f66a250a5bf5d7fd.gif)
 * Handoff Datetime: 2016-04-14 18:43:54
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\develop\obtaining-a-production-license.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\develop\obtaining-a-production-license.md
 * [Back to Top](#report-top)
 
 ##### <a name='5cba9445eb2765e5ad9d922bb9915967bfbab725330'></a> Source: [Azure-RMSDocs\media\windows.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/6775f218b66e4f6dd8092d1b287ee76f9c594e6f/Azure-RMSDocs/media/windows.png)
@@ -4577,11 +4577,11 @@
 * Handoff File: [5039decc4e09387eb1b73bcea0b198fe6780f01a.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/5039decc4e09387eb1b73bcea0b198fe6780f01a.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\winrt-sdk.md, Azure-RMSDocs\develop\winrt-sdk.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\winrt-sdk.md, Azure-RMSDocs\develop\winrt-sdk.md
 * [Back to Top](#report-top)
 
 ##### <a name='ec22a076e6fb8592a1569726e65c9992725b72f1333'></a> Source: [Azure-RMSDocs\media\winrtsetup-newproj.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/winrtsetup-newproj.png)
@@ -4590,11 +4590,11 @@
 * Handoff File: [ec22a076e6fb8592a1569726e65c9992725b72f1.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/ec22a076e6fb8592a1569726e65c9992725b72f1.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\winrt-sdk.md, Azure-RMSDocs\develop\winrt-sdk.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\winrt-sdk.md, Azure-RMSDocs\develop\winrt-sdk.md
 * [Back to Top](#report-top)
 
 ##### <a name='7e814b7e842dbb8681c96c078746634b8ea59d29334'></a> Source: [Azure-RMSDocs\media\winrtsetup-refmngr.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/winrtsetup-refmngr.png)
@@ -4603,11 +4603,11 @@
 * Handoff File: [7e814b7e842dbb8681c96c078746634b8ea59d29.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/7e814b7e842dbb8681c96c078746634b8ea59d29.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\winrt-sdk.md, Azure-RMSDocs\develop\winrt-sdk.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\winrt-sdk.md, Azure-RMSDocs\develop\winrt-sdk.md
 * [Back to Top](#report-top)
 
 ##### <a name='d5abf6672cbcfc8349a2ce6467ffdc57a4b3cb45335'></a> Source: [Azure-RMSDocs\media\wpsetup-addref.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/wpsetup-addref.png)
@@ -4616,11 +4616,11 @@
 * Handoff File: [d5abf6672cbcfc8349a2ce6467ffdc57a4b3cb45.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/d5abf6672cbcfc8349a2ce6467ffdc57a4b3cb45.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\windows-phone-apps.md, Azure-RMSDocs\develop\windows-phone-apps.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\windows-phone-apps.md, Azure-RMSDocs\develop\windows-phone-apps.md
 * [Back to Top](#report-top)
 
 ##### <a name='6e00024ec5eefc8da90b458bb6ea62aacf08e7bc336'></a> Source: [Azure-RMSDocs\media\wpsetup-newproj.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/wpsetup-newproj.png)
@@ -4629,11 +4629,11 @@
 * Handoff File: [6e00024ec5eefc8da90b458bb6ea62aacf08e7bc.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/6e00024ec5eefc8da90b458bb6ea62aacf08e7bc.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\windows-phone-apps.md, Azure-RMSDocs\develop\windows-phone-apps.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\windows-phone-apps.md, Azure-RMSDocs\develop\windows-phone-apps.md
 * [Back to Top](#report-top)
 
 ##### <a name='530aed5439b0c6bce77de3010dfd9c63a1435002337'></a> Source: [Azure-RMSDocs\media\wpsetup-refmngr.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/wpsetup-refmngr.png)
@@ -4642,11 +4642,11 @@
 * Handoff File: [530aed5439b0c6bce77de3010dfd9c63a1435002.png](https://github.com/Microsoft/EM.handoff/blob/b8df3eb1bca2c278b110e055c6b9415c9a0b40b3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/530aed5439b0c6bce77de3010dfd9c63a1435002.png)
 * Handoff Datetime: 2016-04-05 19:09:42
 * Handoff Reason: IsDependency
+* Dependency From: Azure-RMSDocs\Develop\windows-phone-apps.md, Azure-RMSDocs\develop\windows-phone-apps.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: Azure-RMSDocs\Develop\windows-phone-apps.md, Azure-RMSDocs\develop\windows-phone-apps.md
 * [Back to Top](#report-top)
 
 ##### <a name='34d5ed8ca9f5b4556429a081718fc70a789590aa338'></a> Source: [Azure-RMSDocs\plan-design\byok-price-restrictions.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/0f355da35dff62ecee111737eb1793ae286dc93e/Azure-RMSDocs/plan-design/byok-price-restrictions.md)
