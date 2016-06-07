@@ -1937,6 +1937,9 @@
   "2c85bfd42ed72d3919ef87a02558caee98fe587d": [
     "Azure-RMSDocs\\deploy-use\\configure-applications.md"
   ],
+  "26afa04c5041d0b8c952d3d6b3da5a2215acda87": [
+    "Azure-RMSDocs\\deploy-use\\configure-custom-templates.md"
+  ],
   "5619e5845625a1b2503aebb965df651d69cb14e5": [
     "Azure-RMSDocs\\deploy-use\\configure-custom-templates.md"
   ],
@@ -1981,6 +1984,9 @@
   ],
   "6ad2d769bc4cde86db5322df0ba5f87f00ade7d5": [
     "Azure-RMSDocs\\deploy-use\\configure-templates-with-powershell.md"
+  ],
+  "a48cc696447f76127d5433ac5691ceb8790c1c89": [
+    "Azure-RMSDocs\\deploy-use\\configure-usage-rights.md"
   ],
   "0c24d253e3f1ab3a87852c69c15c5211d17b4333": [
     "Azure-RMSDocs\\deploy-use\\configure-usage-rights.md"
@@ -2098,6 +2104,9 @@
   ],
   "2c1ccf4690b09dcf6b91a9f9ba328da1db96fb99": [
     "Azure-RMSDocs\\deploy-use\\verify.md"
+  ],
+  "f7c946f6d20805f4cfe7385fa6eedbf3a1f7e097": [
+    "Azure-RMSDocs\\get-started\\faqs.md"
   ],
   "0e909b0f972fd597e60abea04b476d9a956886f3": [
     "Azure-RMSDocs\\get-started\\faqs.md"
