@@ -6,7 +6,7 @@ description:
 keywords:
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 05/20/2016
 ms.topic: get-started-article
 ms.prod: azure
 ms.service: rights-management
@@ -59,7 +59,7 @@ Ahhoz, hogy a forgatókönyv utasításai működjenek, az alábbiaknak kell tel
 |Előkészítette a fiókokat és a csoportokat az Office 365 vagy az Azure Active Directory számára|[Az Azure Rights Management előkészítése](https://technet.microsoft.com/library/jj585029.aspx)|
 |Az Azure Rights Management-bérlőkulcsát a Microsoft felügyeli; nem a BYOK módot használja|[Planning and implementing your Azure Rights Management tenant key (Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása)](https://technet.microsoft.com/library/dn440580.aspx)|
 |Az Azure Rights Management aktiválása megtörtént|[Az Azure Rights Management aktiválása](https://technet.microsoft.com/library/jj658941.aspx)|
-|A következők egyike:<br /><br />Az Exchange Online engedélyezve van az Azure Rights Managementhez<br /><br />Az RMS-összekötő telepítve és konfigurálva van a helyszíni Exchange-hez|Az Exchange Online esetében lásd a [Configuring Applications for Azure Rights Management (Alkalmazások konfigurálása az Azure Rights Managementhez)](https://technet.microsoft.com/library/jj585031.aspx) című témakör **Exchange Online: IRM Configuration (Exchange Online: IRM konfiguráció)** szakaszát.<br /><br />Helyszíni Exchange esetében: [Deploying the Azure Rights Management connector (Az Azure Rights Management-összekötő üzembe helyezése)](https://technet.microsoft.com/library/dn375964.aspx)|
+|A következők egyike:<br /><br />– Az Exchange Online engedélyezve van az Azure Rights Managementhez<br /><br />– Az RMS-összekötő telepítve és konfigurálva van a helyszíni Exchange-hez|Az Exchange Online esetében lásd a [Configuring Applications for Azure Rights Management (Alkalmazások konfigurálása az Azure Rights Managementhez)](https://technet.microsoft.com/library/jj585031.aspx) című témakör **Exchange Online: IRM Configuration (Exchange Online: IRM konfiguráció)** szakaszát.<br /><br />Helyszíni Exchange esetében: [Deploying the Azure Rights Management connector (Az Azure Rights Management-összekötő üzembe helyezése)](https://technet.microsoft.com/library/dn375964.aspx)|
 |Nem archiválta a **&lt;szervezet&gt; - Bizalmas** alapértelmezett Azure Rights Management sablont. Másik megoldás, hogy erre a célra konfigurált egy egyéni sablont, mert szigorúbb beállításokra volt szüksége, illetve a szervezet felhasználóinak csak egy kis csoportja olvashatja a védett e-maileket.|[Az Azure Rights Management egyéni sablonok konfigurálása](https://technet.microsoft.com/library/dn642472.aspx)<br /><br />Tipp: Ha szigorúbb használati házirendre vonatkozó beállításokra van szüksége, amely a szervezet minden felhasználójára vonatkozik, egy teljesen új sablon létrehozása helyett másolja, majd szerkessze az alapértelmezett sablonokat.<br /><br />Ebben a forgatókönyvben a frissített sablonok nem frissülnek azonnal az e-mail ügyfélprogramokban. További információkat a sablonok konfigurálását ismertető cikk [Sablonok frissítése a felhasználók számára](https://technet.microsoft.com/library/dn642472.aspx) című szakaszában találhat.|
 |A védett e-maileket küldő felhasználók a következők egyikével rendelkeznek: Outlook 2013, Outlook 2016 vagy Outlook Web Access.<br /><br />Az e-mail címzettjei az Azure Rights Managementet támogató e-mail ügyfélprogrammal rendelkeznek.|Használhatja az Outlook 2010 programot is, de [telepítenie kell a Windows Rights Management megosztóalkalmazását](https://technet.microsoft.com/library/dn339003.aspx), és ennek megfelelően kell módosítania a felhasználói utasításokat.<br /><br />Az Azure Rights Managementet támogató e-mail ügyfélprogramok listájáért tekintse meg az [Azure Rights Management követelményei](https://technet.microsoft.com/library/dn655136.aspx) szakasz [Ügyféleszközök képességei](https://technet.microsoft.com/library/dn655136.aspx) táblázatának **E-mail** oszlopát.|
 
@@ -163,6 +163,6 @@ Az e-mail címzettjei továbbküldhetik az üzenetet másoknak, de csak a VanArs
 
 
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=May16_HO3-->
 
 

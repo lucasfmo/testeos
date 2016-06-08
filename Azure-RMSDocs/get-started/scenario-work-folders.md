@@ -6,7 +6,7 @@ description:
 keywords:
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 05/20/2016
 ms.topic: get-started-article
 ms.prod: azure
 ms.service: rights-management
@@ -60,7 +60,7 @@ Ahhoz, hogy a forgatókönyv utasításai működjenek, az alábbiaknak kell tel
 |---------------|--------------------------------|
 |Az Azure Rights Management aktiválása megtörtént|[Az Azure Rights Management aktiválása](https://technet.microsoft.com/library/jj658941.aspx)|
 |Szinkronizálta a helyszíni Active Directory felhasználói fiókokat az Azure Active Directory vagy az Office 365 szolgáltatással, az e-mail címeket is beleértve. Ez minden Munkahelyi mappákat használó felhasználó esetében szükséges.|[Az Azure Rights Management előkészítése](https://technet.microsoft.com/library/jj585029.aspx)|
-|A következők egyike:<br /><br />Alapértelmezett sablon használata az összes felhasználó esetében, amely nem teszi lehetővé számukra egy új jogházirend létrehozását: Nem archiválta a **&lt;szervezet neve&gt; – Bizalmas** alapértelmezett sablon.<br /><br />Alapértelmezett sablon használata, amely lehetővé teszi a felhasználók számára egy új jogházirend létrehozását: Az egyéni sablon létrehozásához használja az alábbi utasításokat|[Az Azure Rights Management egyéni sablonok konfigurálása](https://technet.microsoft.com/library/dn642472.aspx)|
+|A következők egyike:<br /><br />– Alapértelmezett sablon használata az összes felhasználó esetében, amely nem teszi lehetővé számukra egy új jogházirend létrehozását: Nem archiválta a **&lt;szervezet neve&gt; – Bizalmas** alapértelmezett sablont.<br /><br />– Alapértelmezett sablon használata, amely lehetővé teszi a felhasználók számára egy új jogházirend létrehozását: Az egyéni sablon létrehozásához használja az alábbi utasításokat.|[Az Azure Rights Management egyéni sablonok konfigurálása](https://technet.microsoft.com/library/dn642472.aspx)|
 |Megtörtént a Rights Management-összekötő telepítése, a Windows Server számítógéphez való hitelesítése és az **FCI-kiszolgálóhoz** való konfigurálása.|[Deploying the Azure Rights Management connector (Az Azure Rights Management-összekötő üzembe helyezése)](https://technet.microsoft.com/library/dn375964.aspx)|
 |A Windows Microsoft Rights Management megosztóalkalmazás üzembe lett helyezve a felhasználók Windows rendszerű számítógépén.|[A Microsoft Rights Management megosztóalkalmazás automatikus központi telepítése](https://technet.microsoft.com/library/dn339003%28v=ws.10%29.aspx)|
 
@@ -128,6 +128,6 @@ Ha a forgatókönyvben leírtak szerint konfigurálta az egyéni sablont, akkor 
 
 
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=May16_HO3-->
 
 

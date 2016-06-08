@@ -6,7 +6,7 @@ description:
 keywords:
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 05/13/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -42,8 +42,7 @@ Az RMS-ügyfél szabadon terjeszthető és mellékelhető más alkalmazásokhoz 
 ## Az RMS-ügyfél telepítése
 Az RMS-ügyfelet egy **setup_msipc_***<arch>***.exe** nevű végrehajtható telepítőfájl tartalmazza, ahol a *<arch>* értéke **x86** (32 bites ügyfélszámítógépek esetén) vagy **x64** (64 bites ügyfélszámítógépek esetén). A 64 bites (x64) telepítőcsomag egyaránt telepít egy 32 bites futtatási környezetű végrehajtható fájt a 64 bites operációs rendszeren futó 32 bites alkalmazásokkal való kompatibilitás érdekében, valamint egy 64 bites futtatási környezetű végrehajtható fájlt a natív 64 bites alkalmazások támogatásához. A 32 bites (x86) telepítő nem fog futni egy 64 bites Windows telepítés alatt.
 
-> [!NOTE]
-> Az RMS-ügyfél telepítéséhez emelt szintű jogosultságok szükségesek, például a helyi számítógépen a Rendszergazdák csoport tagjának kell lennie.
+> [!NOTE]Az RMS-ügyfél telepítéséhez emelt szintű jogosultságok szükségesek, például a helyi számítógépen a Rendszergazdák csoport tagjának kell lennie.
 
 Az RMS-ügyfelet az alábbi módokon telepítheti:
 
@@ -72,7 +71,7 @@ Az RMS-ügyfelet a következő operációs rendszerek támogatják:
 Az RMS-ügyfelet az x86- és x64-platformok is támogatják.
 
 ### Hova lesz telepítve az RMS-ügyfél?
-Alapértelmezés szerint az RMS-ügyfél a %ProgramFiles%\Active Directory Rights Management Services Client 2 mappába lesz telepítve.<minor version number>.
+Alapértelmezés szerint az RMS-ügyfél a %ProgramFiles%\Active Directory Rights Management Services Client 2.<minor version number> mappába lesz telepítve.
 
 ### Mely kiegészítő fájlok tartoznak az RMS-ügyfélszoftverhez?
 A következő fájlok lesznek telepítve a számítógépre az RMS-ügyfélszoftver részeként:
@@ -117,10 +116,10 @@ Az RMS-ügyfél néhány beállításának megadása vagy módosítása Windows-
 |--------|------------|
 |Csak AD RMS esetén: Ügyfélszámítógép vállalati szolgáltatási helyszínének frissítése|Frissítse a következő beállításkulcsokat:<br /><br />HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\ServiceLocation\EnterpriseCertification<br />REG_SZ: default<br /><br />**Érték:**<http or https>:// *RMS_fürt_neve*/_wmcs/Certification<br /><br />HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\ServiceLocation\EnterprisePublishing<br />REG_SZ: default<br /><br />**Érték:** <http or https>:// *RMS_fürt_neve*/_wmcs/Licensing|
 |Nyomkövetés engedélyezése és letiltása|Frissítse a következő beállításkulcsot:<br /><br />HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC<br />REG_DWORD: Trace<br /><br />**Érték:** 1 a nyomkövetés engedélyezéséhez, 0 a nyomkövetés letiltásához (alapértelmezett)|
-|A sablonok napokban mért frissítési gyakoriságának megváltoztatása|A következő beállításértékek határozták meg, hogy a sablonok milyen gyakran frissülnek a felhasználó számítógépén, ha a TemplateUpdateFrequencyInSeconds érték nincs megadva.  Ha ezen értékek egyike sincs megadva, az alapértelmezett frissítési gyakoriság a sablonok letöltésére az RMS-ügyfelet (1.0.1784.0-s verzió) használó alkalmazások esetében 1 nap. Az ennél korábbi verziók esetében az alapértelmezett gyakoriság 7 nap.<br /><br />**Ügyfélmód:**<br /><br />HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\MSIPC<br />REG_DWORD: TemplateUpdateFrequency<br /><br />**Érték:** Egész szám, amely meghatározza a letöltések között eltelt napok számát (legalább 1).<br /><br />**Kiszolgáló üzemmód:**<br /><br />HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\*<SID>*<br />REG_DWORD: TemplateUpdateFrequency<br /><br />**Érték:** Egész szám, amely meghatározza a letöltések között eltelt napok számát (legalább 1).|
-|A sablonok másodpercekben mért frissítési gyakoriságának módosítása<br /><br />Fontos: Ha ez az érték meg van adva, a rendszer a sablonok frissítésének napokban megadott értékét figyelmen kívül hagyja. A kettő közül csak az egyiket adja meg.|A következő beállításértékek határozzák meg, hogy a sablonok milyen gyakran frissülnek a felhasználó számítógépén. Ha sem ezen érték, sem a napokban megadott érték (TemplateUpdateFrequency) nincs megadva, az alapértelmezett frissítési gyakoriság a sablonok letöltésére az RMS-ügyfelet (1.0.1784.0 verzió) használó alkalmazások esetében 1 nap. Az ennél korábbi verziók esetében az alapértelmezett gyakoriság 7 nap.<br /><br />**Ügyfélmód:**<br /><br />HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\MSIPC<br />REG_DWORD: TemplateUpdateFrequencyInSeconds<br /><br />**Érték:** Egész szám, amely meghatározza a letöltések között eltelt másodpercek számát (legalább 1).<br /><br />**Kiszolgáló üzemmód:**<br /><br />HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\*<SID>*<br />REG_DWORD: TemplateUpdateFrequencyInSeconds<br /><br />**Érték:** Egész szám, amely meghatározza a letöltések között eltelt másodpercek számát (legalább 1).|
-|Csak AD RMS esetén: A sablonok azonnali letöltése a következő közzétételi kérelemkor|A tesztelés és értékelés során hasznos, ha az RMS-ügyfelet úgy állítja be, hogy a lehető leghamarabb letöltse a sablonokat. Ehhez távolítsa el a következő beállításkulcsot, és az RMS-ügyfél a TemplateUpdateFrequency beállításban megadott időtartam kivárása helyett a következő közzétételi kérelemkor azonnal le fogja tölteni a sablonokat:<br /><br />HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\MSIPC\<kiszolgáló_neve>\Template<br /><br />**Megjegyzés**: <Server Name> Rendelkezhet külső (corprights.contoso.com) és belső (corprights) URL-címekkel, ezáltal két külön bejegyzéssel is.|
-|Csak AD RMS esetén: Az összevont hitelesítés támogatásának engedélyezése|Ha az RMS-ügyfélszámítógép egy AD RMS-fürthöz összevont megbízhatóság használatával csatlakozik, be kell állítania az összevonási kezdőtartományt.<br /><br />HKEY_LOCAL_MACHINE\Software\Microsoft\MSIPC\Federation<br />REG_SZ: FederationHomeRealm<br /><br />**Érték:** Ez a beállításjegyzékbeli bejegyzésérték az összevonási szolgáltatás egységes erőforrás-azonosítója (URI-ja; például „https://fs-01.contoso.com”).|
+|A sablonok napokban mért frissítési gyakoriságának megváltoztatása|A következő beállításértékek határozták meg, hogy a sablonok milyen gyakran frissülnek a felhasználó számítógépén, ha a TemplateUpdateFrequencyInSeconds érték nincs megadva.  Ha ezen értékek egyike sincs megadva, az alapértelmezett frissítési gyakoriság a sablonok letöltésére az RMS-ügyfelet (1.0.1784.0-s verzió) használó alkalmazások esetében 1 nap. Az ennél korábbi verziók esetében az alapértelmezett gyakoriság 7 nap.<br /><br />**Ügyfélmód:**<br /><br />HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\MSIPC<br />REG_DWORD: TemplateUpdateFrequency<br /><br />**Érték:** Egész szám, amely meghatározza a letöltések között eltelt napok számát (legalább 1).<br /><br />**Kiszolgáló üzemmód:**<br /><br />HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\\*\<SID\>\*<br />REG_DWORD: TemplateUpdateFrequency<br /><br />**Érték:** Egész szám, amely meghatározza a letöltések között eltelt napok számát (legalább 1).|
+|A sablonok másodpercekben mért frissítési gyakoriságának módosítása<br /><br />Fontos: Ha ez az érték meg van adva, a rendszer a sablonok frissítésének napokban megadott értékét figyelmen kívül hagyja. A kettő közül csak az egyiket adja meg.|A következő beállításértékek határozzák meg, hogy a sablonok milyen gyakran frissülnek a felhasználó számítógépén. Ha sem ezen érték, sem a napokban megadott érték (TemplateUpdateFrequency) nincs megadva, az alapértelmezett frissítési gyakoriság a sablonok letöltésére az RMS-ügyfelet (1.0.1784.0-s verzió) használó alkalmazások esetében 1 nap. Az ennél korábbi verziók esetében az alapértelmezett gyakoriság 7 nap.<br /><br />**Ügyfélmód:**<br /><br />HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\MSIPC<br />REG_DWORD: TemplateUpdateFrequencyInSeconds<br /><br />**Érték:** Egész szám, amely meghatározza a letöltések között eltelt másodpercek számát (legalább 1).<br /><br />**Kiszolgáló üzemmód:**<br /><br />HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\\*\<SID\>\*<br />REG_DWORD: TemplateUpdateFrequencyInSeconds<br /><br />**Érték:** Egész szám, amely meghatározza a letöltések között eltelt másodpercek számát (legalább 1).|
+|Csak AD RMS esetén: A sablonok azonnali letöltése a következő közzétételi kérelemkor|A tesztelés és értékelés során hasznos, ha az RMS-ügyfelet úgy állítja be, hogy a lehető leghamarabb letöltse a sablonokat. Ehhez távolítsa el a következő beállításkulcsot, és az RMS-ügyfél a TemplateUpdateFrequency beállításban megadott időtartam kivárása helyett a következő közzétételi kérelemkor azonnal le fogja tölteni a sablonokat:<br /><br />HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\MSIPC\<<kiszolgáló_neve>\Template<br /><br />**Megjegyzés:** A <Server Name> rendelkezhet külső (corprights.contoso.com) és belső (corprights) URL-címekkel, ezáltal két külön bejegyzéssel is.|
+|Csak AD RMS esetén: Az összevont hitelesítés támogatásának engedélyezése|Ha az RMS-ügyfélszámítógép egy AD RMS-fürthöz összevont megbízhatóság használatával csatlakozik, be kell állítania az összevonási kezdőtartományt.<br /><br />HKEY_LOCAL_MACHINE\Software\Microsoft\MSIPC\Federation<br />REG_SZ: FederationHomeRealm<br /><br />**Érték:** Ez a beállításjegyzékbeli bejegyzésérték az összevonási szolgáltatás egységes erőforrás-azonosítója (URI-ja; például „http://TreyADFS.trey.net/adfs/services/trust”).<br /><br /> **Megjegyzés:** Fontos, hogy ennél az értéknél a http kifejezést kell megadnia, és nem a https-t. Továbbá, ha az ön 32 bites MSIPC-alapú alkalmazása a Windows egy 64 bites verzióján fut, annak helye a következő lesz: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\MSIPC\Federation. A konfigurációra egy mintát [Az Active Directory összevonási szolgáltatásokat használó Active Directory tartalomvédelmi szolgáltatások telepítése](https://technet.microsoft.com/library/dn758110.aspx) című szakaszban találhat.|
 |Csak AD RMS esetén: A felhasználói adatbevitelhez űrlapalapú hitelesítést igénylő partner összevonási kiszolgálók támogatása|Alapértelmezés szerint az RMS-ügyfél csendes módban működik, és nincs szükség felhasználói adatbevitelre. Azonban lehetséges, hogy a partner összevonási kiszolgálók a konfigurációjuk szerint felhasználói adatbevitelt kérnek, például űrlapalapú adatbevitel formájában. Ez esetben az RMS-ügyfelet a csendes mód figyelmen kívül hagyására kell beállítania, hogy az összevont hitelesítési űrlap megjelenjen egy böngészőablakban, és a felhasználónak hitelesítenie kelljen magát.<br /><br />HKEY_LOCAL_MACHINE\Software\Microsoft\MSIPC\Federation<br />REG_DWORD: EnableBrowser<br /><br />**Megjegyzés**: Ha az összevonási kiszolgáló az űrlapalapú hitelesítés használatára van konfigurálva, akkor a kulcs mindenképpen szükséges. Ha az összevonási kiszolgáló a Windows beépített hitelesítés használatára van konfigurálva, akkor a kulcs nem szükséges.|
 |Csak AD RMS esetén: Az ILS-szolgáltatás adatfelhasználásának letiltása|Alapértelmezés szerint az RMS-ügyfél engedélyezi az ILS-szolgáltatás által védett tartalmak felhasználását, de a következő beállításkulccsal az ügyfél e szolgáltatás blokkolására is beállítható. Ha a beállításkulcs az ILS-szolgáltatás blokkolására van beállítva, az ILS-szolgáltatás által védett tartalom megnyitására vagy használatára tett bármilyen kísérlet a következő hibaüzenetet eredményezi:<br />HRESULT_FROM_WIN32(ERROR_ACCESS_DISABLED_BY_POLICY)<br /><br />HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\MSIPC<br />REG_DWORD: **DisablePassportCertification**<br /><br />**Érték**: 1 az ILS-használat blokkolásához, 0 az ILS-használat engedélyezéséhez (alapértelmezett)|
 
@@ -129,7 +128,7 @@ A sablonok megkönnyítik a felhasználók és a rendszergazdák számára a Rig
 
 **Ügyfélmód:** %localappdata%\Microsoft\MSIPC\UnmanagedTemplates
 
-**Kiszolgáló üzemmód:** %allusersprofile%\Microsoft\MSIPC\Server\UnmanagedTemplates\*<SID>*
+**Kiszolgáló üzemmód:** %allusersprofile%\Microsoft\MSIPC\Server\UnmanagedTemplates\\*\<SID\>\*
 
 Amikor ezt a mappát használja, semmilyen különleges elnevezési kikötés nincs azon túlmenően, hogy a sablonokat az RMS-kiszolgálónak vagy RMS-szolgáltatásnak kell kiállítania, és .xml kiterjesztéssel kell rendelkezniük. Például mind a Contoso-Confidential.xml, mind a Contoso-ReadOnly.xml érvényes nevek.
 
@@ -170,17 +169,17 @@ Az AD RMS telepítése után a következő eljárással regisztrálhat és tör�
 
 1.  Nyissa meg az Active Directory Management Services kezelőpultját az AD RMS-kiszolgálón:
 
-    -   Ha Windows Server 2008 R2 vagy Windows Server 2008 rendszert használ, kattintson a **Start** gombra, a **Felügyeleti eszközök**, majd az **Active Directory Rights Management Services** elemre..
+    -   Ha Windows Server 2008 R2 vagy Windows Server 2008 rendszert használ, kattintson a **Start** gombra, a **Felügyeleti eszközök**, majd az **Active Directory Rights Management Services** elemre.
 
-    -   Ha Windows Server 2012 R2 vagy Windows Server 2012 rendszert használ, a Kiszolgálókezelőben kattintson az **Eszközök**, majd az **Active Directory Rights Management Services** elemre..
+    -   Ha Windows Server 2012 R2 vagy Windows Server 2012 rendszert használ, a Kiszolgálókezelőben kattintson az **Eszközök**, majd az **Active Directory Rights Management Services** elemre.
 
-2.  Az AD RMS konzolon kattintson a jobb gombbal az AD RMS-fürtre, majd kattintson a **Tulajdonságok** elemre..
+2.  Az AD RMS konzolon kattintson a jobb gombbal az AD RMS-fürtre, majd kattintson a **Tulajdonságok** elemre.
 
 3.  Kattintson a **Szolgáltatáskapcsolódási pont** lapra.
 
 4.  Jelölje be a **Szolgáltatáskapcsolódási pont módosítása** jelölőnégyzetet.
 
-5.  Válassza a **Szolgáltatáskapcsolódási pont beállítása a jelenlegi tanúsítási fürtre** lehetőséget, majd kattintson az **OK** gombra..
+5.  Válassza a **Szolgáltatáskapcsolódási pont beállítása a jelenlegi tanúsítási fürtre** lehetőséget, majd kattintson az **OK** gombra.
 
 ### Az ügyféloldali szolgáltatásészlelés engedélyezése a Windows beállításjegyzékkel
 Az SCP használatának alternatívájaként, illetve létező SCP hiányában az ügyfélszámítógép beállításjegyzékét is beállíthatja úgy, hogy az RMS-ügyfél megtalálja a saját AD RMS-kiszolgálóját.
@@ -193,19 +192,17 @@ Az SCP használatának alternatívájaként, illetve létező SCP hiányában az
 
 2.  A Beállításszerkesztőben keresse meg a következőt: **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC**.
 
-    > [!IMPORTANT]
-    > Ha 32 bites alkalmazást futtat egy 64 bites számítógépen, az elérési út a következő lesz: 
-    > **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\MSIPC**
+    > [!IMPORTANT] Ha 32 bites alkalmazást futtat egy 64 bites számítógépen, az elérési út a következő lesz: **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\MSIPC**
 
-3.  A ServiceLocation alkulcs létrehozásához kattintson a jobb gombbal az **MSIPC** elemre, vigye a mutatót az **Új** elemre, kattintson a **Kulcs** lehetőségre, majd írja be a **ServiceLocation** kifejezést..
+3.  A ServiceLocation alkulcs létrehozásához kattintson a jobb gombbal az **MSIPC** elemre, vigye a mutatót az **Új** elemre, kattintson a **Kulcs** lehetőségre, majd írja be a **ServiceLocation** kifejezést.
 
-4.  Az EnterpriseCertification alkulcs létrehozásához kattintson a jobb gombbal a **ServiceLocaton** elemre, vigye a mutatót az **Új** elemre, kattintson a **Kulcs** lehetőségre, majd írja be az **EnterpriseCertification** kifejezést..
+4.  Az EnterpriseCertification alkulcs létrehozásához kattintson a jobb gombbal a **ServiceLocaton** elemre, vigye a mutatót az **Új** elemre, kattintson a **Kulcs** lehetőségre, majd írja be az **EnterpriseCertification** kifejezést.
 
-5.  A vállalati tanúsítvány URL-címének beállításához kattintson duplán az **(Alapértelmezett)** értékre az **EnterpriseCertification** alkulcs alatt, majd amikor megjelenik a **Karakterlánc szerkesztése** párbeszédpanel, az **Érték** mezőbe írja be a következőt: <http or https>://*AD RMS_fürt_neve*/_wmcs/Certification, majd kattintson az **OK** gombra..
+5.  A vállalati tanúsítvány URL-címének beállításához kattintson duplán az **(Alapértelmezett)** értékre az **EnterpriseCertification** alkulcs alatt, majd amikor megjelenik a **Karakterlánc szerkesztése** párbeszédpanel, az **Érték** mezőbe írja be a következőt: <http or https>://*AD RMS_fürt_neve*/_wmcs/Certification, majd kattintson az **OK** gombra.
 
 6.  Az EnterprisePublishing alkulcs létrehozásához kattintson a jobb gombbal a **ServiceLocaton** elemre, vigye a mutatót az **Új** elemre, kattintson a **Kulcs** lehetőségre, majd írja be az EnterprsePublishing kifejezést.
 
-7.  A vállalati közzététel URL-címének beállításához kattintson duplán az **(Alapértelmezett)** értékre az **EnterprisePublishing** alkulcs alatt, majd amikor megjelenik a **Karakterlánc szerkesztése** párbeszédablak, az **Érték** mezőbe írja be a következőt: <http or https>://*AD RMS_fürt_neve*/_wmcs/Licensing, majd kattintson az **OK** gombra..
+7.  A vállalati tanúsítvány URL-címének beállításához kattintson duplán az **(Alapértelmezett)** értékre az **EnterprisePublishing** alkulcs alatt, majd amikor megjelenik a **Karakterlánc szerkesztése** párbeszédpanel, az **Érték** mezőbe írja be a következőt: <http or https>://*AD RMS_fürt_neve*/_wmcs/Licensing, majd kattintson az **OK** gombra.
 
 8.  Zárja be a Beállításszerkesztőt.
 
@@ -226,7 +223,7 @@ Bizonyos esetekben a szolgáltatás észlelése alatt szükség lehet a forgalom
 
     -   Egy x64-platformon futó 32 bites Office esetén: HKLM\SOFTWARE\Wow6432Node\Microsoft\MSIPC\Servicelocation
 
-3.  Hozzon létre egy LicensingRedirection alkulcsot. Ehhez kattintson a jobb gombbal a **ServiceLocaton** elemre, vigye a mutatót az **Új** elemre, kattintson a **Kulcs** lehetőségre, majd írja be a **LicensingRedirection** kifejezést..
+3.  Hozzon létre egy LicensingRedirection alkulcsot. Ehhez kattintson a jobb gombbal a **ServiceLocaton** elemre, vigye a mutatót az **Új** elemre, kattintson a **Kulcs** lehetőségre, majd írja be a **LicensingRedirection** kifejezést.
 
 4.  A licencátirányítás beállításához kattintson a jobb gombbal a **LicensingRedirection** alkulcsra, vigye a mutatót az **Új** elemre, majd válassza a **Karakterlánc** lehetőséget.  A **Név** mezőben adja meg az előző kiszolgálólicencelési URL-címet, az **Érték** mezőben pedig az új kiszolgálólicencelési URL-címet.
 
@@ -236,8 +233,7 @@ Bizonyos esetekben a szolgáltatás észlelése alatt szükség lehet a forgalom
 
     **Érték:** https://fabrikam.com/_wmcs/licensing
 
-    > [!NOTE]
-    > Ha a régi licencelési kiszolgáló intranetes és extranetes URL-címekkel is rendelkezik, akkor a LicensingRedirection kulcsnál mindkét URL-címhez új név-érték megfeleltetést kell beállítani.
+    > [!NOTE]Ha a régi licencelési kiszolgáló intranetes és extranetes URL-címekkel is rendelkezik, akkor a LicensingRedirection kulcsnál mindkét URL-címhez új név-érték megfeleltetést kell beállítani.
 
 5.  Ismételje meg az előző lépést az összes átirányítani kívánt kiszolgálónál.
 
@@ -245,6 +241,6 @@ Bizonyos esetekben a szolgáltatás észlelése alatt szükség lehet a forgalom
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=May16_HO3-->
 
 

@@ -6,7 +6,7 @@ description:
 keywords:
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 05/20/2016
 ms.topic: get-started-article
 ms.prod: azure
 ms.service: rights-management
@@ -53,7 +53,7 @@ Ahhoz, hogy a forgatókönyv utasításai működjenek, az alábbiaknak kell tel
 |---------------|--------------------------------|
 |Az Azure Rights Management aktiválása megtörtént|[Az Azure Rights Management aktiválása](https://technet.microsoft.com/library/jj658941.aspx)|
 |Szinkronizálta a helyszíni Active Directory felhasználói fiókokat az Azure Active Directory vagy az Office 365 szolgáltatással, az e-mail címeket is beleértve. Ez minden olyan felhasználó esetében kötelező, akiknek valószínűleg hozzá kell majd férniük az FCI vagy az Azure Rights Management által védett fájlokhoz.|[Az Azure Rights Management előkészítése](https://technet.microsoft.com/library/jj585029.aspx)|
-|A következők egyike:<br /><br />Alapértelmezett sablon használata az összes felhasználóra vonatkozóan: nem archiválta a &lt;szervezet neve&gt; – Bizalmas alapértelmezett sablont.<br /><br />Ha egyéni sablont kíván használni adott felhasználókra vonatkozóan: létrehozta és közzétette ezt az egyéni sablont.|[Az Azure Rights Management egyéni sablonok konfigurálása](https://technet.microsoft.com/library/dn642472.aspx)|
+|A következők egyike:<br /><br />– Alapértelmezett sablon használata az összes felhasználóra vonatkozóan: nem archiválta a &lt;szervezet neve&gt; – Bizalmas alapértelmezett sablont.<br /><br />– Ha egyéni sablont kíván használni adott felhasználókra vonatkozóan: létrehozta és közzétette ezt az egyéni sablont.|[Az Azure Rights Management egyéni sablonok konfigurálása](https://technet.microsoft.com/library/dn642472.aspx)|
 |A Windows Microsoft Rights Management megosztóalkalmazás üzembe lett helyezve a felhasználók Windows rendszerű számítógépén.|[A Microsoft Rights Management megosztóalkalmazás automatikus központi telepítése](https://technet.microsoft.com/library/dn339003%28v=ws.10%29.aspx)|
 |Letöltötte az RMS Protection eszközt, és konfigurálta az Azure RMS-hez kapcsolódó előfeltételeket.|Az eszköz letöltésével és az előfeltételekkel kapcsolatos utasítások: [RMS Protection Cmdlets](https://msdn.microsoft.com/library/mt433195.aspx) (RMS Protection-parancsmagok).<br /><br />Az Azure RMS további előfeltételeinek, például az egyszerű szolgáltatásfiók konfigurálása: [about_RMSProtection_AzureRMS](https://msdn.microsoft.com/library/mt433202.aspx)|
 
@@ -161,6 +161,6 @@ A fájlt a rendszer rendszeresen újra ellátja védelemmel, aminek során ismé
 
 
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=May16_HO3-->
 
 

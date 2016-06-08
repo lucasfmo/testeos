@@ -6,7 +6,7 @@ description:
 keywords:
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 05/20/2016
 ms.topic: get-started-article
 ms.prod: azure
 ms.service: rights-management
@@ -55,7 +55,7 @@ Ehhez a forgatókönyvhöz az alábbiaknak kell teljesülniük:
 
 |Követelmény|Ha további információra van szüksége|
 |---------------|--------------------------------|
-|Előkészítette a fiókokat és a csoportokat az Office 365 vagy az Azure Active Directory számára:<br /><br />Az **Emelt szintű hozzáférés** nevű levelezési csoport, amely azt a néhány személyt tartalmazza, akik hozzáférhetnek a szigorúan bizalmas dokumentumokhoz.<br /><br />Az **Informatikai megfelelőségi kezelők** nevű levelezési csoport, amely az elektronikus felderítés, figyelés és naplózás feladatokkal megbízott személyeket tartalmazza.<br /><br />Az **RMS-rendszergazdák** nevű levelezési csoport, amelynek az Azure RMS konfigurálását végző összes rendszergazda a tagja.|[Az Azure Rights Management előkészítése](https://technet.microsoft.com/library/jj585029.aspx)|
+|Előkészítette a fiókokat és a csoportokat az Office 365 vagy az Azure Active Directory számára:<br /><br />– Az **Emelt szintű hozzáférés** nevű levelezési csoport, amely azt a néhány személyt tartalmazza, akik hozzáférhetnek a szigorúan bizalmas dokumentumokhoz.<br /><br />– Az **Informatikai megfelelőségi kezelők** nevű levelezési csoport, amely az elektronikus felderítés, figyelés és naplózás feladatokkal megbízott személyeket tartalmazza.<br /><br />– Az **RMS-rendszergazdák** nevű levelezési csoport, amelynek az Azure RMS konfigurálását végző összes rendszergazda a tagja.|[Az Azure Rights Management előkészítése](https://technet.microsoft.com/library/jj585029.aspx)|
 |Az Azure Rights Management aktiválása megtörtént|[Az Azure Rights Management aktiválása](https://technet.microsoft.com/library/jj658941.aspx)|
 |Konfigurált egy egyéni sablont az alábbiakban leírtak alapján.|[Az Azure Rights Management egyéni sablonok konfigurálása](https://technet.microsoft.com/library/dn642472.aspx)|
 |A Rights Management megosztóalkalmazás üzembe lett helyezve a Windows rendszerű számítógépen, így helyben láthatja el védelemmel a fájlokat az alábbi szakaszban leírt módon.|[A Rights Management megosztóalkalmazás letöltése és telepítése](https://technet.microsoft.com/library/dn574734%28v=ws.10%29.aspx)|
@@ -152,6 +152,6 @@ Az alábbi fájlokat nagyon magas szintű védelemmel látták el, ezért csak a
 
 
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=May16_HO3-->
 
 
