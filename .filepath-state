@@ -434,6 +434,9 @@
   "c213769a07c78aded5404c663e3b5cbbe89e253a": [
     "Azure-RMSDocs\\template.md"
   ],
+  "6bf11174aad9b6e54becf682e0b684c407c03439": [
+    "Azure-RMSDocs\\deploy-use\\TOC.md"
+  ],
   "901f71014afe03d87f0ed2bbff37567cff764a3c": [
     "Azure-RMSDocs\\deploy-use\\TOC.md"
   ],
@@ -1760,6 +1763,9 @@
   "53693922fe4acaeab515439c88f5c340aac21903": [
     "Azure-RMSDocs\\deploy-use\\configure-office-apps.md"
   ],
+  "79171b5931b69ca18d2a2cbe321d5d5887903da2": [
+    "Azure-RMSDocs\\deploy-use\\configure-servers-rms-connector.md"
+  ],
   "e0f90105bf168f4a3334a042acadc0b72052b601": [
     "Azure-RMSDocs\\deploy-use\\configure-servers-rms-connector.md"
   ],
@@ -1786,6 +1792,9 @@
   ],
   "6ad2d769bc4cde86db5322df0ba5f87f00ade7d5": [
     "Azure-RMSDocs\\deploy-use\\configure-templates-with-powershell.md"
+  ],
+  "ec5c5616f65422834bdc81a3da4040621ed75c23": [
+    "Azure-RMSDocs\\deploy-use\\configure-usage-rights.md"
   ],
   "033f9afbfe5dc037fd2554d1d131012982652440": [
     "Azure-RMSDocs\\deploy-use\\configure-usage-rights.md"
@@ -1831,6 +1840,9 @@
   ],
   "6b9b3b039ba2de0de174a134768afd763d26b5dd": [
     "Azure-RMSDocs\\deploy-use\\deploy-rms-connector.md"
+  ],
+  "d48616cb638522e6cda61e7ae96db9480fc14099": [
+    "Azure-RMSDocs\\deploy-use\\help-users.md"
   ],
   "599ac94ccfa2d6c9613a7a691ed79648a298a240": [
     "Azure-RMSDocs\\deploy-use\\help-users.md"
@@ -2014,6 +2026,9 @@
   ],
   "6cd80e56178e15a3ec1003b59e9cfa21d704c08a": [
     "Azure-RMSDocs\\get-started\\requirements-servers.md"
+  ],
+  "5e68ba6942b479e9dcbf0e9ac0a3bed0c2d1869d": [
+    "Azure-RMSDocs\\get-started\\requirements-subscriptions.md"
   ],
   "cccbaa8e691ed152d74f7b9f279018e00a7316db": [
     "Azure-RMSDocs\\get-started\\requirements-subscriptions.md"
@@ -2479,5 +2494,8 @@
   ],
   "839094716fa39957fbcbcdc4812d99fd742e4393": [
     "Azure-RMSDocs\\develop\\install-the-rms-sdk.md"
+  ],
+  "ebaa8aad463bebe7cc2691bddac4cc7ace3c8991": [
+    "Azure-RMSDocs\\deploy-use\\monitor-rms-connector.md"
   ]
 }
