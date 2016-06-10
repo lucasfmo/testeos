@@ -972,9 +972,9 @@
 * Archive Datetime: 2016-06-09 02:46:04
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [Azure-RMSDocs\develop\ad-rms-client.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/9ec863b2872e951e342e198db6a544ee13c8486f/Azure-RMSDocs/develop/ad-rms-client.md)
-* Current Handback File: [ad-rms-client.11dca0848083258df6dedace95b6817391b6833e.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/bbaedac9075cd0b6e53619667765067cad0a5eb4/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/ad-rms-client.11dca0848083258df6dedace95b6817391b6833e.hu-hu.xlf)
-* Current Handback Datetime: 2016-06-10 16:48:00
+* Current Target File: [Azure-RMSDocs\develop\ad-rms-client.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/f189f1296f3858311508272a47f6b4f084ba02ce/Azure-RMSDocs/develop/ad-rms-client.md)
+* Current Handback File: [ad-rms-client.11dca0848083258df6dedace95b6817391b6833e.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/fe202d0dce96b43cf2d7b3ae7b57599a8b4b2d93/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/ad-rms-client.11dca0848083258df6dedace95b6817391b6833e.hu-hu.xlf)
+* Current Handback Datetime: 2016-06-10 17:16:44
 * [Back to Top](#report-top)
 
 ##### <a name='4183dfdb17479baf3e4494bd3566d7a8cf68eb0841'></a> Source: [Azure-RMSDocs\develop\ad-rms-overview.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/563028055e6e8ecec2a229712adda9ba4cf474b6/Azure-RMSDocs/develop/ad-rms-overview.md)
@@ -987,9 +987,9 @@
 * Archive Datetime: 2016-06-09 02:46:04
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [Azure-RMSDocs\develop\ad-rms-overview.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/9ec863b2872e951e342e198db6a544ee13c8486f/Azure-RMSDocs/develop/ad-rms-overview.md)
-* Current Handback File: [ad-rms-overview.da33ed4cf79ed381a6c86754c03e4ed7bc62077a.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/bbaedac9075cd0b6e53619667765067cad0a5eb4/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/ad-rms-overview.da33ed4cf79ed381a6c86754c03e4ed7bc62077a.hu-hu.xlf)
-* Current Handback Datetime: 2016-06-10 16:48:00
+* Current Target File: [Azure-RMSDocs\develop\ad-rms-overview.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/f189f1296f3858311508272a47f6b4f084ba02ce/Azure-RMSDocs/develop/ad-rms-overview.md)
+* Current Handback File: [ad-rms-overview.da33ed4cf79ed381a6c86754c03e4ed7bc62077a.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/fe202d0dce96b43cf2d7b3ae7b57599a8b4b2d93/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/ad-rms-overview.da33ed4cf79ed381a6c86754c03e4ed7bc62077a.hu-hu.xlf)
+* Current Handback Datetime: 2016-06-10 17:16:44
 * [Back to Top](#report-top)
 
 ##### <a name='685079958d71d8c681d9150aadcbbc4bfedd15ad42'></a> Source: [Azure-RMSDocs\develop\ad-rms-server.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/bb6927bb82f1bbfcd63b5b8d02d7aa6c7feee8cd/Azure-RMSDocs/develop/ad-rms-server.md)
@@ -1002,9 +1002,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [Azure-RMSDocs\develop\ad-rms-server.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/9ec863b2872e951e342e198db6a544ee13c8486f/Azure-RMSDocs/develop/ad-rms-server.md)
-* Current Handback File: [ad-rms-server.fa059ee846c5974ee9338f46379d36401b59c9e4.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/bbaedac9075cd0b6e53619667765067cad0a5eb4/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/ad-rms-server.fa059ee846c5974ee9338f46379d36401b59c9e4.hu-hu.xlf)
-* Current Handback Datetime: 2016-06-10 16:48:00
+* Current Target File: [Azure-RMSDocs\develop\ad-rms-server.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/f189f1296f3858311508272a47f6b4f084ba02ce/Azure-RMSDocs/develop/ad-rms-server.md)
+* Current Handback File: [ad-rms-server.fa059ee846c5974ee9338f46379d36401b59c9e4.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/fe202d0dce96b43cf2d7b3ae7b57599a8b4b2d93/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/ad-rms-server.fa059ee846c5974ee9338f46379d36401b59c9e4.hu-hu.xlf)
+* Current Handback Datetime: 2016-06-10 17:16:44
 * [Back to Top](#report-top)
 
 ##### <a name='acd0692102c43baff0a92360e0ddbe1259ad9b4f45'></a> Source: [Azure-RMSDocs\develop\android-code.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/acc140931b5f834ce1d70c851d90c334a03010dc/Azure-RMSDocs/develop/android-code.md)
@@ -1077,9 +1077,9 @@
 * Archive Datetime: 2016-06-09 02:46:04
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [Azure-RMSDocs\develop\application-types.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/9ec863b2872e951e342e198db6a544ee13c8486f/Azure-RMSDocs/develop/application-types.md)
-* Current Handback File: [application-types.5529d6304d7ccf1da4927e0cf8d7dde13087edd5.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/bbaedac9075cd0b6e53619667765067cad0a5eb4/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/application-types.5529d6304d7ccf1da4927e0cf8d7dde13087edd5.hu-hu.xlf)
-* Current Handback Datetime: 2016-06-10 16:48:00
+* Current Target File: [Azure-RMSDocs\develop\application-types.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/f189f1296f3858311508272a47f6b4f084ba02ce/Azure-RMSDocs/develop/application-types.md)
+* Current Handback File: [application-types.5529d6304d7ccf1da4927e0cf8d7dde13087edd5.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/fe202d0dce96b43cf2d7b3ae7b57599a8b4b2d93/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/application-types.5529d6304d7ccf1da4927e0cf8d7dde13087edd5.hu-hu.xlf)
+* Current Handback Datetime: 2016-06-10 17:16:44
 * [Back to Top](#report-top)
 
 ##### <a name='261abdeaa0aa70ae7240b6ceddc9d09440f0b48e51'></a> Source: [Azure-RMSDocs\develop\authentication-integration.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/6b5bc9612ac17a2d6905200383d9b8df4c504efe/Azure-RMSDocs/develop/authentication-integration.md)
@@ -1335,9 +1335,9 @@
 * Archive Datetime: 2016-06-09 02:46:04
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [Azure-RMSDocs\develop\how-to-set-up-your-test-environment.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/9ec863b2872e951e342e198db6a544ee13c8486f/Azure-RMSDocs/develop/how-to-set-up-your-test-environment.md)
-* Current Handback File: [how-to-set-up-your-test-environment.0a9b490dabfbf18dc8469adacd9e4e4ea5def722.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/bbaedac9075cd0b6e53619667765067cad0a5eb4/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/how-to-set-up-your-test-environment.0a9b490dabfbf18dc8469adacd9e4e4ea5def722.hu-hu.xlf)
-* Current Handback Datetime: 2016-06-10 16:48:00
+* Current Target File: [Azure-RMSDocs\develop\how-to-set-up-your-test-environment.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/f189f1296f3858311508272a47f6b4f084ba02ce/Azure-RMSDocs/develop/how-to-set-up-your-test-environment.md)
+* Current Handback File: [how-to-set-up-your-test-environment.0a9b490dabfbf18dc8469adacd9e4e4ea5def722.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/fe202d0dce96b43cf2d7b3ae7b57599a8b4b2d93/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/how-to-set-up-your-test-environment.0a9b490dabfbf18dc8469adacd9e4e4ea5def722.hu-hu.xlf)
+* Current Handback Datetime: 2016-06-10 17:16:44
 * [Back to Top](#report-top)
 
 ##### <a name='0513f183df2ca950cbee89d451f1532f8569aad771'></a> Source: [Azure-RMSDocs\develop\how-to-use-adal-authentication.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/bb6927bb82f1bbfcd63b5b8d02d7aa6c7feee8cd/Azure-RMSDocs/develop/how-to-use-adal-authentication.md)
@@ -1587,9 +1587,9 @@
 * Archive Datetime: 2016-06-09 02:46:04
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [Azure-RMSDocs\develop\supported-file-formats.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/9ec863b2872e951e342e198db6a544ee13c8486f/Azure-RMSDocs/develop/supported-file-formats.md)
-* Current Handback File: [supported-file-formats.83f465b683a3a9e84807ca6c767af23e8ab9a55f.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/bbaedac9075cd0b6e53619667765067cad0a5eb4/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/supported-file-formats.83f465b683a3a9e84807ca6c767af23e8ab9a55f.hu-hu.xlf)
-* Current Handback Datetime: 2016-06-10 16:48:00
+* Current Target File: [Azure-RMSDocs\develop\supported-file-formats.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/f189f1296f3858311508272a47f6b4f084ba02ce/Azure-RMSDocs/develop/supported-file-formats.md)
+* Current Handback File: [supported-file-formats.83f465b683a3a9e84807ca6c767af23e8ab9a55f.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/fe202d0dce96b43cf2d7b3ae7b57599a8b4b2d93/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/supported-file-formats.83f465b683a3a9e84807ca6c767af23e8ab9a55f.hu-hu.xlf)
+* Current Handback Datetime: 2016-06-10 17:16:44
 * [Back to Top](#report-top)
 
 ##### <a name='baf08d04f836e5aa406f125a7029bc43297f5df191'></a> Source: [Azure-RMSDocs\develop\supported-platforms.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/6b5bc9612ac17a2d6905200383d9b8df4c504efe/Azure-RMSDocs/develop/supported-platforms.md)
@@ -1626,9 +1626,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [Azure-RMSDocs\develop\TOC.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/9ec863b2872e951e342e198db6a544ee13c8486f/Azure-RMSDocs/develop/TOC.md)
-* Current Handback File: [TOC.13a398ad10575ec470dbe9e6b9feae83865839a4.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/bbaedac9075cd0b6e53619667765067cad0a5eb4/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/TOC.13a398ad10575ec470dbe9e6b9feae83865839a4.hu-hu.xlf)
-* Current Handback Datetime: 2016-06-10 16:48:00
+* Current Target File: [Azure-RMSDocs\develop\TOC.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/f189f1296f3858311508272a47f6b4f084ba02ce/Azure-RMSDocs/develop/TOC.md)
+* Current Handback File: [TOC.13a398ad10575ec470dbe9e6b9feae83865839a4.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/fe202d0dce96b43cf2d7b3ae7b57599a8b4b2d93/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/TOC.13a398ad10575ec470dbe9e6b9feae83865839a4.hu-hu.xlf)
+* Current Handback Datetime: 2016-06-10 17:16:44
 * [Back to Top](#report-top)
 
 ##### <a name='2d2cbe580349e1615371a6a76e78140f6577e89094'></a> Source: [Azure-RMSDocs\develop\understanding-usage-restrictions.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/872bb0c20db2ef8d661d321598a2b1fe61d69316/Azure-RMSDocs/develop/understanding-usage-restrictions.md)

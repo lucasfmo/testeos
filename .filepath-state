@@ -494,16 +494,10 @@
   "c54f32c21d311673682e9cf0b79cd10f16c4cb45": [
     "Azure-RMSDocs\\develop\\ad-rms-client.md"
   ],
-  "2560325d140ebc4cd06db318c4e0676ee8151b8f": [
-    "Azure-RMSDocs\\develop\\ad-rms-client.md"
-  ],
   "4183dfdb17479baf3e4494bd3566d7a8cf68eb08": [
     "Azure-RMSDocs\\develop\\ad-rms-overview.md"
   ],
   "beeb394fbd5972168a76fc9836278fb315ceea78": [
-    "Azure-RMSDocs\\develop\\ad-rms-overview.md"
-  ],
-  "8471f0f2682a721d839a18bf1bbc3b937c2d113e": [
     "Azure-RMSDocs\\develop\\ad-rms-overview.md"
   ],
   "685079958d71d8c681d9150aadcbbc4bfedd15ad": [
@@ -513,9 +507,6 @@
     "Azure-RMSDocs\\develop\\ad-rms-server.md"
   ],
   "52c2ec7f89a72e375a3431ec5cb5b638cfb10a94": [
-    "Azure-RMSDocs\\develop\\ad-rms-server.md"
-  ],
-  "906c83731188838ca516b8159581b64c60a4a42e": [
     "Azure-RMSDocs\\develop\\ad-rms-server.md"
   ],
   "acd0692102c43baff0a92360e0ddbe1259ad9b4f": [
@@ -558,9 +549,6 @@
     "Azure-RMSDocs\\develop\\application-types.md"
   ],
   "199c1fde9b9f317da4e5f942e80485e6ab6178e8": [
-    "Azure-RMSDocs\\develop\\application-types.md"
-  ],
-  "1500714b36a1c3881d158e31e87cec39f99cd7f7": [
     "Azure-RMSDocs\\develop\\application-types.md"
   ],
   "261abdeaa0aa70ae7240b6ceddc9d09440f0b48e": [
@@ -762,9 +750,6 @@
     "Azure-RMSDocs\\develop\\how-to-set-up-your-test-environment.md"
   ],
   "60e6147e99131f14a2a29061c31e8f9302a0aaea": [
-    "Azure-RMSDocs\\develop\\how-to-set-up-your-test-environment.md"
-  ],
-  "c8f9dbb6579fa029d650f5be254c6bffd9c3eecd": [
     "Azure-RMSDocs\\develop\\how-to-set-up-your-test-environment.md"
   ],
   "e8b2d466224fcbf431859eebed04866544633402": [
@@ -995,9 +980,6 @@
   "28d4c2d709f91fc2e82e7404747ed757a1899e3b": [
     "Azure-RMSDocs\\develop\\supported-file-formats.md"
   ],
-  "906ca8a8bb04400d74b5e7b48924300756cd630b": [
-    "Azure-RMSDocs\\develop\\supported-file-formats.md"
-  ],
   "baf08d04f836e5aa406f125a7029bc43297f5df1": [
     "Azure-RMSDocs\\develop\\supported-platforms.md"
   ],
@@ -1023,9 +1005,6 @@
     "Azure-RMSDocs\\develop\\TOC.md"
   ],
   "0053e83abdbd6fa2dd2397d81d69fe7811a22f25": [
-    "Azure-RMSDocs\\develop\\TOC.md"
-  ],
-  "b13332332d87b1ea70d34add80e13fedd595e7b1": [
     "Azure-RMSDocs\\develop\\TOC.md"
   ],
   "61321eaaeac31fec827fcf9f350211728eaf630a": [
