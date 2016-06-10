@@ -23,7 +23,7 @@ ms.suite: ems
 #ms.custom:
 
 ---
-
+** Ez az SDK-tartalom nem naprakész. Ideiglenesen arra kérjük, keresse fel az MSDN webhelyén található dokumentáció [aktuális verzióját](https://msdn.microsoft.com/library/windows/desktop/hh535290(v=vs.85).aspx). **
 # Ügyfél
 
 Ez a témakör ismerteti az Active Directory Rights Management Services Client 2.1 célját és funkcióját.
@@ -51,6 +51,6 @@ További információ: [TechNet documentation on the RMS Client 2.0 (Az RMS Clie
 
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 

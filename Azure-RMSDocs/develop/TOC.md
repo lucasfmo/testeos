@@ -54,7 +54,7 @@
 #### [Az alkalmazás aláírása éles üzemmódhoz](signing-your-application-for-production.md)
 #### [Az alkalmazás üzembe helyezése](deploying-your-application.md)
 ### [Megjegyzések fejlesztők számára](Developer-notes.md)
-####[ADAL-hitelesítés RMS-kompatiblis alkalmazásokhoz](ADAL-authentication.md)
+####[ADAL-hitelesítés RMS-kompatiblis alkalmazásokhoz](adal-auth.md)
 #### [Add explicit owner rights (Explicit tulajdonosi jogosultságok hozzáadása)](add-explicit-owner-rights.md)
 #### [Gyakori hibaállapotok és a megoldások](common-error-conditions-and-solutions.md)
 #### [E-mail-értesítések engedélyezése](how-to-enable-email-notification.md)

@@ -23,7 +23,7 @@ ms.suite: ems
 #ms.custom:
 
 ---
-
+** Ez az SDK-tartalom nem naprakész. Ideiglenesen arra kérjük, keresse fel az MSDN webhelyén található dokumentáció [aktuális verzióját](https://msdn.microsoft.com/library/windows/desktop/hh535290(v=vs.85).aspx). **
 # Támogatott fájlformátumok
 
 A fájl API támogatja a natív és a PFile formátumokat.
@@ -49,6 +49,6 @@ A rendszergazdák beállításkulcsok beállításával konfigurálhatják, hogy
 
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 

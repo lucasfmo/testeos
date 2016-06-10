@@ -23,9 +23,9 @@ ms.suite: ems
 #ms.custom:
 
 ---
+** Ez az SDK-tartalom nem naprakész. Ideiglenesen arra kérjük, keresse fel az MSDN webhelyén található dokumentáció [aktuális verzióját](https://msdn.microsoft.com/library/windows/desktop/hh535290(v=vs.85).aspx). **
 
 # AD RMS-kiszolgáló
-
 Ez a témakör az RMS-kiszolgáló célját és funkcióit ismerteti.
 
 A Rights Management Services (RMS) kiszolgáló-összetevőt számos, a [Microsoft Internet Information Services](http://www.iis.net/overview) (IIS) szolgáltatásban futó webes szolgáltatás megvalósítja. Ezenkívül a felhőalapú megvalósítást is használhatja az Azure RMS szolgáltatásai révén. További információ az Azure Rights Management szolgáltatás használatáról: [Enable your service application to work with cloud based RMS](how-to-use-file-api-with-aadrm-cloud.md) (A szolgáltatásalkalmazás alkalmassá tétele a felhőalapú RMS használatára).
@@ -65,6 +65,6 @@ Ez a szolgáltatás a legfelső színtű tanúsítási kiszolgálón fut.
  
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 
