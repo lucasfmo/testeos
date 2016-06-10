@@ -5,11 +5,11 @@
  -------- | ----- 
  Total Files | 395
 [ Handoff Failed Files ](#handoff-failed-list)| 0
-[ Handoff Success Files ](#handoff-success-list)| 130
+[ Handoff Success Files ](#handoff-success-list)| 129
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 3
 [ Handback Failed Files ](#handback-failed-list)| 0
-[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 48
+[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 49
 [ In Sync Handback Files ](#insync-handback-success-list)| 148
 [ Ignored Files ](#ignored-list)| 66
 
@@ -22,7 +22,6 @@
  [Azure-RMSDocs\develop\developer-notes.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/91d16ec6e9f9bb359a76562dee7fcb81aac2b44d/Azure-RMSDocs/develop/developer-notes.md) | HandedOffSuccess | [Details](#2f2323f32327324611df2b2e8a8824e6896546aa58)
  [Azure-RMSDocs\develop\developing-your-application.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/bb6927bb82f1bbfcd63b5b8d02d7aa6c7feee8cd/Azure-RMSDocs/develop/developing-your-application.md) | HandedOffSuccess | [Details](#db38a01984b5a59d5ac50db1f3c198b99d45cac960)
  [Azure-RMSDocs\develop\how-to-use-adal-authentication.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/bb6927bb82f1bbfcd63b5b8d02d7aa6c7feee8cd/Azure-RMSDocs/develop/how-to-use-adal-authentication.md) | HandedOffSuccess | [Details](#0513f183df2ca950cbee89d451f1532f8569aad771)
- [Azure-RMSDocs\develop\tracking-content.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/bd1f65d206f75265dfe02290ed652c5e12b2fd3e/Azure-RMSDocs/develop/tracking-content.md) | HandedOffSuccess | [Details](#ecea78cf6eb31e1a3a3a512e6bb19dc769d1766c94)
  [Azure-RMSDocs\media\150x150.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/81ec5ddf5acf3de78d77c01ed95631e44d37fe6e/Azure-RMSDocs/media/150x150.png) | HandedOffSuccess | [Details](#84421bf7f4ba657e685239fb27f4798a46485f71156)
  [Azure-RMSDocs\media\4d269a30-a873-45c5-87de-30ee6558e7b0.gif](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/c1cd5adccb8ed07dac9a0535654f21a970575a78/Azure-RMSDocs/media/4d269a30-a873-45c5-87de-30ee6558e7b0.gif) | HandedOffSuccess | [Details](#a88e0dacb05ee102cc7a0aed64ac5032d1bd9f3d157)
  [Azure-RMSDocs\media\additional_dependencies.png](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/998316566fb9dc8269a543e6dd322cfd8eef45ef/Azure-RMSDocs/media/additional_dependencies.png) | HandedOffSuccess | [Details](#e46ef9487910113bda49dfcfa5e3d3e5798432b0162)
@@ -195,6 +194,7 @@
  [Azure-RMSDocs\develop\setting-the-api-security-mode-api-mode.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/11b998addd14fdde0592ed948b956ddb2ed6e570/Azure-RMSDocs/develop/setting-the-api-security-mode-api-mode.md) | OutofSyncHandedBackSuccess | [Details](#2be40c9caf33f391f8be9fe116d3473ce995613b88)
  [Azure-RMSDocs\develop\supported-file-formats.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/b5fbbf637a34371a676a6cba169cc0268ce5e541/Azure-RMSDocs/develop/supported-file-formats.md) | OutofSyncHandedBackSuccess | [Details](#58efe60d6066f2e9761aea8d66d83711e68ab64290)
  [Azure-RMSDocs\develop\TOC.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/91d16ec6e9f9bb359a76562dee7fcb81aac2b44d/Azure-RMSDocs/develop/TOC.md) | OutofSyncHandedBackSuccess | [Details](#be6146447e6fadd79d6c10f241566febc1f3d78493)
+ [Azure-RMSDocs\develop\tracking-content.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/bd1f65d206f75265dfe02290ed652c5e12b2fd3e/Azure-RMSDocs/develop/tracking-content.md) | OutofSyncHandedBackSuccess | [Details](#ecea78cf6eb31e1a3a3a512e6bb19dc769d1766c94)
  [Azure-RMSDocs\develop\understanding-usage-restrictions.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/872bb0c20db2ef8d661d321598a2b1fe61d69316/Azure-RMSDocs/develop/understanding-usage-restrictions.md) | OutofSyncHandedBackSuccess | [Details](#2d2cbe580349e1615371a6a76e78140f6577e89095)
  [Azure-RMSDocs\develop\usage-restriction-reference.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/2acf8095764e2c222881240985df8bccf8a64173/Azure-RMSDocs/develop/usage-restriction-reference.md) | OutofSyncHandedBackSuccess | [Details](#9788b067f9395b9e078e76994a2a8a79e95baf0696)
  [Azure-RMSDocs\develop\working-with-encryption.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/29e856e3e9990f81a791c533ddad5a332093d5d3/Azure-RMSDocs/develop/working-with-encryption.md) | OutofSyncHandedBackSuccess | [Details](#82903eff43ee2dee7ef64e618171225a06013d9999)
@@ -1660,7 +1660,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='ecea78cf6eb31e1a3a3a512e6bb19dc769d1766c94'></a> Source: [Azure-RMSDocs\develop\tracking-content.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/bd1f65d206f75265dfe02290ed652c5e12b2fd3e/Azure-RMSDocs/develop/tracking-content.md)
-* Status: HandedOffSuccess
+* Status: OutofSyncHandedBackSuccess
 * Target File: 
 * Handoff File: [tracking-content.96d55d65b4f5f5acd451c4e31ff2f07f2aa6fceb.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/ec47eb79da5d75b10f89912ce014624ad8e54a43/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/tracking-content.96d55d65b4f5f5acd451c4e31ff2f07f2aa6fceb.hu-hu.xlf)
 * Handoff Datetime: 2016-06-10 20:42:15
@@ -1669,6 +1669,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [Azure-RMSDocs\develop\tracking-content.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/5dd4984f51196b7a8e1494904a7dfb33bd989ba3/Azure-RMSDocs/develop/tracking-content.md)
+* Current Handback File: [tracking-content.96d55d65b4f5f5acd451c4e31ff2f07f2aa6fceb.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/483db73605656bc1f9d2281d43e068606610cd4b/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/tracking-content.96d55d65b4f5f5acd451c4e31ff2f07f2aa6fceb.hu-hu.xlf)
+* Current Handback Datetime: 2016-06-10 20:57:32
 * [Back to Top](#report-top)
 
 ##### <a name='2d2cbe580349e1615371a6a76e78140f6577e89095'></a> Source: [Azure-RMSDocs\develop\understanding-usage-restrictions.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/872bb0c20db2ef8d661d321598a2b1fe61d69316/Azure-RMSDocs/develop/understanding-usage-restrictions.md)

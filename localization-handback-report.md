@@ -1,11 +1,29 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [Azure-RMSDocs\develop\tracking-content.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/bd1f65d206f75265dfe02290ed652c5e12b2fd3e/Azure-RMSDocs/develop/tracking-content.md) | OutofSyncHandedBackSuccess | [Details](#ecea78cf6eb31e1a3a3a512e6bb19dc769d1766c94)
 
 ## Item Details
+##### <a name='ecea78cf6eb31e1a3a3a512e6bb19dc769d1766c94'></a> Source: [Azure-RMSDocs\develop\tracking-content.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/bd1f65d206f75265dfe02290ed652c5e12b2fd3e/Azure-RMSDocs/develop/tracking-content.md)
+* Status: OutofSyncHandedBackSuccess
+* Target File: 
+* Handoff File: [tracking-content.96d55d65b4f5f5acd451c4e31ff2f07f2aa6fceb.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/ec47eb79da5d75b10f89912ce014624ad8e54a43/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/tracking-content.96d55d65b4f5f5acd451c4e31ff2f07f2aa6fceb.hu-hu.xlf)
+* Handoff Datetime: 2016-06-10 20:42:15
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [Azure-RMSDocs\develop\tracking-content.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/5dd4984f51196b7a8e1494904a7dfb33bd989ba3/Azure-RMSDocs/develop/tracking-content.md)
+* Current Handback File: [tracking-content.96d55d65b4f5f5acd451c4e31ff2f07f2aa6fceb.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/483db73605656bc1f9d2281d43e068606610cd4b/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/tracking-content.96d55d65b4f5f5acd451c4e31ff2f07f2aa6fceb.hu-hu.xlf)
+* Current Handback Datetime: 2016-06-10 20:57:32
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
