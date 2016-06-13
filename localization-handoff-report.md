@@ -1,23 +1,21 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 5
+ Total Files | 3
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [Azure-RMSDocs\develop\developer-notes.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/91d16ec6e9f9bb359a76562dee7fcb81aac2b44d/Azure-RMSDocs/develop/developer-notes.md) | HandedOffSuccess | [Details](#2f2323f32327324611df2b2e8a8824e6896546aa58)
- [Azure-RMSDocs\develop\how-to-use-document-tracking.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/ca4982cc86d9c006486540055de7c165adca21da/Azure-RMSDocs/develop/how-to-use-document-tracking.md) | OutofSyncHandedBackSuccess | [Details](#9872317c2d5f5f56f28ed2683d7ebc9743041a3772)
- [Azure-RMSDocs\develop\release-notes-rtm.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/91d16ec6e9f9bb359a76562dee7fcb81aac2b44d/Azure-RMSDocs/develop/release-notes-rtm.md) | OutofSyncHandedBackSuccess | [Details](#c90b1d2257bcf3fd355e810e5f9654683c69345484)
- [Azure-RMSDocs\develop\TOC.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/91d16ec6e9f9bb359a76562dee7fcb81aac2b44d/Azure-RMSDocs/develop/TOC.md) | OutofSyncHandedBackSuccess | [Details](#be6146447e6fadd79d6c10f241566febc1f3d78493)
- [Azure-RMSDocs\develop\tracking-content.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/bd1f65d206f75265dfe02290ed652c5e12b2fd3e/Azure-RMSDocs/develop/tracking-content.md) | HandedOffSuccess | [Details](#ecea78cf6eb31e1a3a3a512e6bb19dc769d1766c94)
+ [Azure-RMSDocs\develop\api-reference-2-1.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/969fde93eb05a0ced8fe6ceb407c3c2a046926a8/Azure-RMSDocs/develop/api-reference-2-1.md) | HandedOffSuccess | [Details](#4f1eeb2beb74b3ca23184c5826b109bb517a98d748)
+ [Azure-RMSDocs\develop\TOC.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/aa4b1b0aee246b32d5214e2587ac5d291a682fe7/Azure-RMSDocs/develop/TOC.md) | OutofSyncHandedBackSuccess | [Details](#338b23f924caeb1511fc8d8f5a66464f1cd5729a94)
+ [Azure-RMSDocs\develop\tracking-content.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/aa4b1b0aee246b32d5214e2587ac5d291a682fe7/Azure-RMSDocs/develop/tracking-content.md) | OutofSyncHandedBackSuccess | [Details](#61f70a7b4a85c0ab6f0a2732fcf9d314a230e76995)
 
 ## Item Details
-##### <a name='2f2323f32327324611df2b2e8a8824e6896546aa58'></a> Source: [Azure-RMSDocs\develop\developer-notes.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/91d16ec6e9f9bb359a76562dee7fcb81aac2b44d/Azure-RMSDocs/develop/developer-notes.md)
+##### <a name='4f1eeb2beb74b3ca23184c5826b109bb517a98d748'></a> Source: [Azure-RMSDocs\develop\api-reference-2-1.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/969fde93eb05a0ced8fe6ceb407c3c2a046926a8/Azure-RMSDocs/develop/api-reference-2-1.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [developer-notes.ea2fa661b8042fcb35d82351408f0e24b8841d69.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/ec47eb79da5d75b10f89912ce014624ad8e54a43/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/developer-notes.ea2fa661b8042fcb35d82351408f0e24b8841d69.hu-hu.xlf)
-* Handoff Datetime: 2016-06-10 20:42:15
+* Handoff File: [api-reference-2-1.b098ba5a484c74e19759fdb28557981fa99c2b0a.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/a354303a3f31fcc19bcab47b4302ea0bb4aaaeb3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/api-reference-2-1.b098ba5a484c74e19759fdb28557981fa99c2b0a.hu-hu.xlf)
+* Handoff Datetime: 2016-06-13 20:45:20
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -25,41 +23,11 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='9872317c2d5f5f56f28ed2683d7ebc9743041a3772'></a> Source: [Azure-RMSDocs\develop\how-to-use-document-tracking.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/ca4982cc86d9c006486540055de7c165adca21da/Azure-RMSDocs/develop/how-to-use-document-tracking.md)
+##### <a name='338b23f924caeb1511fc8d8f5a66464f1cd5729a94'></a> Source: [Azure-RMSDocs\develop\TOC.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/aa4b1b0aee246b32d5214e2587ac5d291a682fe7/Azure-RMSDocs/develop/TOC.md)
 * Status: OutofSyncHandedBackSuccess
 * Target File: 
-* Handoff File: [how-to-use-document-tracking.9b499b3eda30f41dbea9c7eb5f63a725fe4cbdcf.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/ec47eb79da5d75b10f89912ce014624ad8e54a43/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/how-to-use-document-tracking.9b499b3eda30f41dbea9c7eb5f63a725fe4cbdcf.hu-hu.xlf)
-* Handoff Datetime: 2016-06-10 20:42:15
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [Azure-RMSDocs\develop\how-to-use-document-tracking.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/b2cf916c45e451d6979f09d3f9477645fd335747/Azure-RMSDocs/develop/how-to-use-document-tracking.md)
-* Current Handback File: [how-to-use-document-tracking.9b499b3eda30f41dbea9c7eb5f63a725fe4cbdcf.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/ef99a649680f7cbc3c5c93e044529ea4a468f312/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/how-to-use-document-tracking.9b499b3eda30f41dbea9c7eb5f63a725fe4cbdcf.hu-hu.xlf)
-* Current Handback Datetime: 2016-06-10 17:56:54
-* [Back to Top](#report-top)
-
-##### <a name='c90b1d2257bcf3fd355e810e5f9654683c69345484'></a> Source: [Azure-RMSDocs\develop\release-notes-rtm.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/91d16ec6e9f9bb359a76562dee7fcb81aac2b44d/Azure-RMSDocs/develop/release-notes-rtm.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
-* Handoff File: [release-notes-rtm.bc511e4b6981ff54f9feec8388e0594bf79d6770.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/ec47eb79da5d75b10f89912ce014624ad8e54a43/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/release-notes-rtm.bc511e4b6981ff54f9feec8388e0594bf79d6770.hu-hu.xlf)
-* Handoff Datetime: 2016-06-10 20:42:15
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [Azure-RMSDocs\develop\release-notes-rtm.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/fdd4e3dff7799cef12129457fd065cc21b706cb2/Azure-RMSDocs/develop/release-notes-rtm.md)
-* Current Handback File: [release-notes-rtm.bc511e4b6981ff54f9feec8388e0594bf79d6770.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/e3a693274edd3709ea256fb5bde09203e9b68c9f/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/release-notes-rtm.bc511e4b6981ff54f9feec8388e0594bf79d6770.hu-hu.xlf)
-* Current Handback Datetime: 2016-06-08 16:05:15
-* [Back to Top](#report-top)
-
-##### <a name='be6146447e6fadd79d6c10f241566febc1f3d78493'></a> Source: [Azure-RMSDocs\develop\TOC.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/91d16ec6e9f9bb359a76562dee7fcb81aac2b44d/Azure-RMSDocs/develop/TOC.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
-* Handoff File: [TOC.13a398ad10575ec470dbe9e6b9feae83865839a4.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/ec47eb79da5d75b10f89912ce014624ad8e54a43/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/TOC.13a398ad10575ec470dbe9e6b9feae83865839a4.hu-hu.xlf)
-* Handoff Datetime: 2016-06-10 20:42:15
+* Handoff File: [TOC.13a398ad10575ec470dbe9e6b9feae83865839a4.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/a354303a3f31fcc19bcab47b4302ea0bb4aaaeb3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/TOC.13a398ad10575ec470dbe9e6b9feae83865839a4.hu-hu.xlf)
+* Handoff Datetime: 2016-06-13 20:45:20
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -70,16 +38,19 @@
 * Current Handback Datetime: 2016-06-10 17:16:44
 * [Back to Top](#report-top)
 
-##### <a name='ecea78cf6eb31e1a3a3a512e6bb19dc769d1766c94'></a> Source: [Azure-RMSDocs\develop\tracking-content.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/bd1f65d206f75265dfe02290ed652c5e12b2fd3e/Azure-RMSDocs/develop/tracking-content.md)
-* Status: HandedOffSuccess
+##### <a name='61f70a7b4a85c0ab6f0a2732fcf9d314a230e76995'></a> Source: [Azure-RMSDocs\develop\tracking-content.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/aa4b1b0aee246b32d5214e2587ac5d291a682fe7/Azure-RMSDocs/develop/tracking-content.md)
+* Status: OutofSyncHandedBackSuccess
 * Target File: 
-* Handoff File: [tracking-content.96d55d65b4f5f5acd451c4e31ff2f07f2aa6fceb.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/ec47eb79da5d75b10f89912ce014624ad8e54a43/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/tracking-content.96d55d65b4f5f5acd451c4e31ff2f07f2aa6fceb.hu-hu.xlf)
-* Handoff Datetime: 2016-06-10 20:42:15
+* Handoff File: [tracking-content.96d55d65b4f5f5acd451c4e31ff2f07f2aa6fceb.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/a354303a3f31fcc19bcab47b4302ea0bb4aaaeb3/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/tracking-content.96d55d65b4f5f5acd451c4e31ff2f07f2aa6fceb.hu-hu.xlf)
+* Handoff Datetime: 2016-06-13 20:45:20
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [Azure-RMSDocs\develop\tracking-content.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/5dd4984f51196b7a8e1494904a7dfb33bd989ba3/Azure-RMSDocs/develop/tracking-content.md)
+* Current Handback File: [tracking-content.96d55d65b4f5f5acd451c4e31ff2f07f2aa6fceb.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/483db73605656bc1f9d2281d43e068606610cd4b/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/tracking-content.96d55d65b4f5f5acd451c4e31ff2f07f2aa6fceb.hu-hu.xlf)
+* Current Handback Datetime: 2016-06-10 20:57:32
 * [Back to Top](#report-top)
 
 
