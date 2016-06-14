@@ -1,11 +1,39 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 2
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [Azure-RMSDocs\includes\rms-quickstart-intro-include.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/5b56229ad5e234663a23812b09a7f934d6738e5a/Azure-RMSDocs/includes/rms-quickstart-intro-include.md) | InSyncHandedBackSuccess | [Details](#20715a7298d29bcf817ddbfc809eb84ead8d97ef146)
+ [Azure-RMSDocs\scratch.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/4aa72824efd231285a1941ff1335437d24c83233/Azure-RMSDocs/scratch.md) | InSyncHandedBackSuccess | [Details](#47e2d48aeba95aba232a1c8a7f02df31d2604a6e372)
 
 ## Item Details
+##### <a name='20715a7298d29bcf817ddbfc809eb84ead8d97ef146'></a> Source: [Azure-RMSDocs\includes\rms-quickstart-intro-include.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/5b56229ad5e234663a23812b09a7f934d6738e5a/Azure-RMSDocs/includes/rms-quickstart-intro-include.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [Azure-RMSDocs\includes\rms-quickstart-intro-include.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/1e0eb2bfed13ef78da675f5947667fc0f91f5098/Azure-RMSDocs/includes/rms-quickstart-intro-include.md)
+* Handoff File: [rms-quickstart-intro-include.31997a23f9b8ff765da303310452d81dda7d65b4.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/b7b26863aa61c3556ee7728d9daee2b8c02c8b27/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/rms-quickstart-intro-include.31997a23f9b8ff765da303310452d81dda7d65b4.hu-hu.xlf)
+* Handoff Datetime: 2016-04-20 23:04:03
+* Handoff Reason: Include
+* Archive File: [rms-quickstart-intro-include.31997a23f9b8ff765da303310452d81dda7d65b4.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/b466ea8018d51ad26b7221d547bf5aa30a366d7c/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/archive/rms-quickstart-intro-include.31997a23f9b8ff765da303310452d81dda7d65b4.hu-hu.xlf)
+* Archive Datetime: 2016-05-12 01:42:12
+* Handback File: [rms-quickstart-intro-include.31997a23f9b8ff765da303310452d81dda7d65b4.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/00829349fc1c17321470746143f62871086de84c/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/rms-quickstart-intro-include.31997a23f9b8ff765da303310452d81dda7d65b4.hu-hu.xlf)
+* Handback Datetime: 2016-06-14 16:03:41
+* [Back to Top](#report-top)
+
+##### <a name='47e2d48aeba95aba232a1c8a7f02df31d2604a6e372'></a> Source: [Azure-RMSDocs\scratch.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/4aa72824efd231285a1941ff1335437d24c83233/Azure-RMSDocs/scratch.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [Azure-RMSDocs\scratch.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/1e0eb2bfed13ef78da675f5947667fc0f91f5098/Azure-RMSDocs/scratch.md)
+* Handoff File: [scratch.fa4cad53100d924953d6bbe13ddd392558d629de.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/bb0c4337523c761a634148751f4867971c01bb46/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/scratch.fa4cad53100d924953d6bbe13ddd392558d629de.hu-hu.xlf)
+* Handoff Datetime: 2016-04-27 21:49:41
+* Handoff Reason: Include
+* Archive File: [scratch.fa4cad53100d924953d6bbe13ddd392558d629de.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/93b6fb05c40a53ab3efc45f51fedb740d3c2c356/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/archive/scratch.fa4cad53100d924953d6bbe13ddd392558d629de.hu-hu.xlf)
+* Archive Datetime: 2016-05-12 01:47:06
+* Handback File: [scratch.fa4cad53100d924953d6bbe13ddd392558d629de.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/00829349fc1c17321470746143f62871086de84c/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/scratch.fa4cad53100d924953d6bbe13ddd392558d629de.hu-hu.xlf)
+* Handback Datetime: 2016-06-14 16:03:41
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
