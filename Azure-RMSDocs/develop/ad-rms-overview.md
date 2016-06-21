@@ -23,14 +23,16 @@ ms.suite: ems
 #ms.custom:
 
 ---
-** Ez az SDK-tartalom nem naprakész. Ideiglenesen arra kérjük, keresse fel az MSDN webhelyén található dokumentáció [aktuális verzióját](https://msdn.microsoft.com/library/windows/desktop/hh535290(v=vs.85).aspx). **
+
 # Áttekintés
 
-A Rights Management Services (RMS) egy információvédelmi technológia, amely segítségével megakadályozhatja a digitális adatok jogosulatlan használatát. A tartalomvédelemmel kompatibilis alkalmazása segítségével a tartalmak tulajdonosai meghatározhatják, ki nyithatja meg, szerkesztheti, nyomtathatja ki, továbbíthatja a tartalmaikat, vagy végezhet velük bármilyen más műveletet.
+A Rights Management Services (RMS) egy információvédelmi technológia, amely segítségével megakadályozhatja a digitális adatok jogosulatlan használatát. A tartalomvédelemmel kompatibilis alkalmazás segítségével a tartalmak tulajdonosai meghatározhatják, ki nyithatja meg, szerkesztheti, nyomtathatja ki, továbbíthatja a tartalmaikat, vagy végezhet velük bármilyen más műveletet.
 
 ## Áttekintés
 
-Az AD RMS [kiszolgáló-](ad-rms-server.md) és [ügyféloldali](ad-rms-client.md) összetevőkből áll. A kiszolgálóoldali összetevők olyan webes szolgáltatásokat foglalnak magukban, amelyek egy Windows Serveren, például a Windows Server 2008 R2-n, vagy a felhőben, az Azure RMS webes szolgáltatásain futnak. Az ügyféloldali összetevők mind az ügyfél, mind a kiszolgáló operációs rendszerén futtathatók, és olyan funkciókat tartalmaznak, amelyek lehetővé teszik az alkalmazások számára a tartalmak titkosítását és visszafejtését, sablonok és a visszavont tanúsítványok listáinak lekérését, licencek és tanúsítványok beszerzését a kiszolgálóról, valamint az egyéb kapcsolódó tartalomvédelmi feladatok elvégzését.
+Az AD RMS [kiszolgáló-](ad-rms-server.md) és [ügyféloldali](ad-rms-client.md) összetevőkből áll. A kiszolgáló Azure vagy Windows Servert futtat, és több webszolgáltatásból áll.
+
+Az [ügyféloldali](ad-rms-client.md) összetevők mind az ügyfél, mind a kiszolgáló operációs rendszerén futtathatók, és olyan funkciókat tartalmaznak, amelyek lehetővé teszik az alkalmazások számára a tartalmak titkosítását és visszafejtését, sablonok és a visszavont tanúsítványok listáinak lekérését, licencek és tanúsítványok beszerzését a kiszolgálóról, valamint az egyéb kapcsolódó tartalomvédelmi feladatok elvégzését.
 
 További információ: [Application types](application-types.md) (Alkalmazástípusok).
 
@@ -42,26 +44,28 @@ Az alábbiakban néhány olyan forgatókönyv látható, amelyben a Rights Manag
 -   Egy online dokumentumkönyvtár tulajdonosai a felhasználó személyazonossága alapján szeretnék engedélyezni a dokumentumok megtekintését, nyomtatását és szerkesztését.
 -   Egy vállalat szeretne bizalmas alkalmazotti információkat közzétenni egy belső webhelyen, amely bizonyos felhasználókra korlátozza a megtekintési és szerkesztési jogosultságot.
 
-Az AD RMS-kiszolgálóval, az AD RMS-ügyféllel és azok funkcióival kapcsolatos további információért lásd [az AD RMS informatikai szakembereknek szóló dokumentációját](https://TechNet.Microsoft.Com/en-us/library/cc771234.aspx) a TechNeten.
+Az AD RMS-kiszolgálóról, az AD RMS-ügyfélről és azok funkcióiról további információt a TechNet [az AD RMS informatikai szakembereknek szóló dokumentációjában](https://TechNet.Microsoft.Com/en-us/library/cc771234.aspx) találhat.
 
-Az első lépésekért lásd: [Getting started](getting-started-with-ad-rms-2-0.md) (Első lépések).
+A szakasz többi témaköre az RMS-architektúrával és annak üzembe helyezésével foglalkozik.
+
+## A szakasz tartalma
+
+| Témakör | Leírás |
+|-------|-------------|
+|[Ügyfél](ad-rms-client.md) |Ez a témakör a Rights Management Services-ügyfél 2.1-es verziójának célját és funkcióját ismerteti |
+|[Kiszolgáló](ad-rms-server.md) | Ez a témakör az RMS-kiszolgáló célját és funkcióit ismerteti az Azure-ra és a Windows Serverre vonatkozóan.|
+
 
 ## Kapcsolódó témakörök
 
-* [Az AD RMS-sel kapcsolatos fogalmak](application-types.md)
-* [Az AD RMS és az AD RMS 2.1 közötti különbségek](differences-between-ad-rms-and-ad-rms-2-0.md)
+* [Az RMS-sel kapcsolatos fogalmak](application-types.md)
 * [Első lépések](getting-started-with-ad-rms-2-0.md)
 * [Az AD RMS informatikai szakembereknek szóló dokumentációja](https://TechNet.Microsoft.Com/en-us/library/cc771234.aspx)
-* [kiszolgáló](ad-rms-server.md)
-* [ügyfél](ad-rms-client.md)
  
 
  
 
 
-
-
-
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

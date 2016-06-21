@@ -23,34 +23,29 @@ ms.suite: ems
 #ms.custom:
 
 ---
-** Ez az SDK-tartalom nem naprakész. Ideiglenesen arra kérjük, keresse fel az MSDN webhelyén található dokumentáció [aktuális verzióját](https://msdn.microsoft.com/library/windows/desktop/hh535290(v=vs.85).aspx). **
+
 # Ügyfél
 
-Ez a témakör ismerteti az Active Directory Rights Management Services Client 2.1 célját és funkcióját.
+Ez a témakör a Rights Management Services-ügyfél 2.1-es verziójának célját és funkcióját ismerteti.
 
-Az AD RMS-ügyfél 2.1 szoftvert az ügyfélszámítógépek számára tervezték, hogy segítséget nyújtson azon információk elérésének és használatának védelméhez, amelyek az RMS-t használó, a helyszínen vagy egy Microsoft adatközpontba telepített alkalmazásokon áramolnak át.
+Az RMS-ügyfél 2.1-es verziója ügyfélszámítógépeken való használatra készült, hogy segítséget nyújtson a helyszíni vagy Microsoft-adatközpontba telepített, tartalomvédelmet használó alkalmazásokon áthaladó információk elérésének és használatának védelméhez. Választható letöltésként érhető el, amely a hozzá tartozó licencszerződés tudomásul vétele és elfogadása után ingyenesen terjeszthető a harmadik felek szoftvereivel, hogy az ügyfelek hozzáférhessenek a környezetben található RMS-kiszolgálók használata és telepítése által tartalomvédelemmel ellátott tartalmakhoz.
 
-Az AD RMS-ügyfél 2.1-es verziója nem a Windows operációs rendszer összetevője. Választható letöltésként érhető el, amely a hozzá tartozó licencszerződés tudomásul vétele és elfogadása után ingyenesen terjeszthető a harmadik felek szoftvereivel, hogy az ügyfelek hozzáférhessenek a környezetben található RMS-kiszolgálók használata és telepítése által tartalomvédett tartalmakhoz.
+Az RMS-ügyfél 2.1-es verziója olyan funkciókkal rendelkezik, amelyek lehetővé teszik a felhasználók számára védett (titkosított) tartalmak létrehozását, közzétételét és felhasználását. Pontosabban, az RMS-kompatibilis alkalmazások a végfelhasználói hardveren telepített ügyfélprogramot használják azon tartalomvédelmi feladatok elvégzéséhez, amelyhez azokat készítették.
 
-Az AD RMS Client 2.1 olyan funkciókkal rendelkezik, amely lehetővé teszi a felhasználók számára védett (titkosított) tartalmak létrehozását, közzétételét és felhasználását. Pontosabban, az RMS-kompatibilis alkalmazások a végfelhasználói hardveren telepített ügyfélprogramot használják azon tartalomvédelmi feladatok elvégzéséhez, amelyhez azokat készítették.
+A Rights Management Services SDK 2.1 az AD RMS-ügyfél 2.1-es verziójával használható. Az RMS SDK 2.1-es verziójával készített tartalomvédelem-kompatibilis alkalmazásokhoz az AD RMS-ügyfél 2.1-es verzióját kell használni.
 
-A Rights Management Services SDK 2.1 használható az AD RMS Client 2.1 ügyféllel. Az RMS SDK 2.1-es verziójával készített tartalomvédelem-kompatibilis alkalmazásokhoz az AD RMS Client 2.1 ügyfelet kell használni.
-
-További információ: [TechNet documentation on the RMS Client 2.0 (Az RMS Client 2.0-ás verziójának TechNet dokumentációja)](https://TechNet.Microsoft.Com/en-us/library/jj159267(WS.10).aspx).
+További információ: [Az RMS-ügyfél 2.1-es verziójának TechNet-dokumentációja](https://TechNet.Microsoft.Com/en-us/library/jj159267(WS.10).aspx).
 
 ## Kapcsolódó témakörök
 
 * [Áttekintés](ad-rms-overview.md)
 * [A szolgáltatásalkalmazás alkalmassá tétele a felhőalapú RMS használatára](how-to-use-file-api-with-aadrm-cloud.md)
-* [TechNet documentation on the RMS Client 2.0 (Az RMS Client 2.0-ás verziójának TechNet dokumentációja)](https://TechNet.Microsoft.Com/en-us/library/jj159267(WS.10).aspx)
+* [Az RMS-ügyfél 2.1-es verziójának TechNet-dokumentációja](https://TechNet.Microsoft.Com/en-us/library/jj159267(WS.10).aspx)
  
 
  
 
 
-
-
-
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

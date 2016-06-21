@@ -1,8 +1,8 @@
 ---
 # required metadata
 
-title: A tesztkörnyezet beállítása | Azure RMS
-description: A tartalomvédelemmel kompatibilis alkalmazás különböző kiszolgálóbeállításokkal tesztelhető.
+title: Az alkalmazás tesztelése | Azure RMS
+description: Útmutatás az alkalmazás tesztelésének előkészítéséhez.
 keywords:
 author: bruceperlerms
 manager: mbaldwin
@@ -23,48 +23,42 @@ ms.suite: ems
 #ms.custom:
 
 ---
-** Ez az SDK-tartalom nem naprakész. Ideiglenesen arra kérjük, keresse fel az MSDN webhelyén található dokumentáció [aktuális verzióját](https://msdn.microsoft.com/library/windows/desktop/hh535290(v=vs.85).aspx). **
-# A tesztkörnyezet beállítása
 
-A tartalomvédelemmel kompatibilis alkalmazás különböző kiszolgálóbeállításokkal tesztelhető.
+# Az alkalmazás tesztelése
 
-**Fontos** Először ajánlott a Rights Management Services SDK 2.1 alkalmazás az éles üzem előtti AD RMS környezetben egy AD RMS-kiszolgálóval tesztelni. Ha ezután azt szeretné, hogy az ügyfél használhassa az alkalmazást az Azure RMS szolgáltatással, folytassa a tesztelést ezzel a környezettel. További információ: [Enable your service application to work with cloud based RMS](how-to-use-file-api-with-aadrm-cloud.md) (A szolgáltatásalkalmazás alkalmassá tétele a felhőalapú RMS használatára).
+Ez a témakör az alkalmazás tesztelésének előkészítéséhez ad útmutatást.
 
- 
+## Utasítások
 
-### Előfeltételek
+### 1. lépés: A tesztelés előkészítése
 
--   [Az SDK telepítése](create-your-first-rights-aware-application.md)
+A tesztelést az Azure RMS szolgáltatással vagy egy Windows Serveren futó tartalomvédelmi kiszolgálóval is végezheti. Azt javasoljuk, hogy az Azure RMS szolgáltatással kezdje a tesztelést, majd (amennyiben az üzembe helyezés ezt megköveteli) ez után térjen át a tartalomvédelmi kiszolgálón való tesztelésre.
 
-Utasítások
+1. Az Azure RMS szolgáltatással való tesztelés leírását itt tekintheti meg: [Útmutató: az ADAL-hitelesítés használata](how-to-use-adal-authentication,md).
+2. A tartalomvédelmi kiszolgálóval való tesztelés leírását itt tekintheti meg: [Útmutató: a tartalomvédelmi kiszolgáló telepítése és konfigurálása](how-to-install-and-configure-an-rms-server.md).
+3. Az alábbiakban a fejlesztői futtatókörnyezet telepítésének leírását tekintheti meg.
 
-### 1. lépés: A tesztkörnyezet beállítása
+   A tartalomvédelmi szolgáltatás ügyfélprogramja 2.1-es verziójának telepítve kell lennie azon a számítógépen, ahol tesztelni fogja az alkalmazását.
+   - Ha az alkalmazást nem a fejlesztési számítógépen teszteli, az [RMS-ügyfélprogram letöltési oldaláról](http://www.microsoft.com/en-us/download/details.aspx?id=38396) telepítheti az adott számítógépen az ügyfélprogram 2.1-es verzióját.
+   - Ha az alkalmazást a fejlesztési számítógépen teszteli, ahhoz telepítenie kell a Rights Management Services SDK 2.1-es verzióját. Az RMS-ügyfélprogram 2.1-es verziója ezzel beavatkozás nélkül települ.
 
-A tartalomvédelemmel kompatibilis alkalmazást a tesztelés során az éles üzem előtti használathoz konfigurált RMS-kiszolgálóval kell futtatnia. Az éles üzem előtti RMS-kiszolgáló az éles üzem előtti/ISV tanúsítványhierarchiával titkosítja és fejti vissza a fájlokat.
+    További információt az RMS SDK 2.1 telepítéséről [Az SDK telepítése](create-your-first-rights-aware-application.md) című cikkben találhat.
 
-Az AD RMS tanúsítványhierarchiáról további információért lásd: [Understanding certificate chains](understanding-certificate-chains.md) (A tanúsítványláncok megértése).
+## Megjegyzések
 
-Két lehetőség érhető el az alkalmazás RMS-kiszolgálón való teszteléséhez:
+A témakörben található ismertetés nem teljes körű. Részletes információt az RMS-ügyfélprogram 2.1-es verziójának konfigurálásával kapcsolatban [Az RMS 2.1-s ügyfelének üzembe helyezésével kapcsolatos megjegyzések](https://technet.microsoft.com/en-us/library/jj159267(WS.10).aspx) című cikkben találhat.
 
--   **Az alkalmazást a 1-box AD RMS ISV környezeten futtathatja**. Ha a Windows Server 2012, Windows Server 2008 R2 vagy Windows Server 2008 rendszert futtatja és telepítve van a Hyper-V, üzembe helyezheti a 1-box AD RMS ISV környezetet, ha virtuális gépet épít az AD RMS 1-box VHD-vel. A 1-box AD RMS ISV környezet éles üzem előtti használathoz konfigurált RMS-kiszolgálót nyújt, és tartalmazza az Active Directory Rights Management Services Client 2.1 alkalmazást. Az RMS-kiszolgáló és ügyfél beállításjegyzékbeli beállításai már konfigurálva vannak. Az alkalmazás teszteléséhez futtassa azt azon virtuális gépen, amelyen a 1-box környezet üzembe van helyezve.
--   **Az alkalmazást az éles üzem előtti használathoz konfigurált és a hálózat üzembe helyezett RMS-kiszolgálóval futtathatja**. Ebben az esetben az AD RMS Client 2.1 verziót is telepítenie kell a számítógépre, ahol az alkalmazást futtatja. Információ ennek elvégzéséről: [Ügyfél konfigurálása](how-to-configure-the-ad-rms-client-2-0.md). Az RMS-kiszolgálók üzembe helyezéséről és az éles üzem előtti használathoz végzett konfigurálásáról további információkért lásd: [A kiszolgáló telepítése és konfigurálása](how-to-install-and-configure-an-rms-server.md).
+### Kapcsolódó témakörök
 
-## Kapcsolódó témakörök
-
-* [Használati útmutató](how-to-use-msipc.md)
-* [AD RMS SDK Webinar collateral letöltési oldal](https://connect.microsoft.com/site1170/Downloads/DownloadDetails.aspx?DownloadID=42440)
-* [Ügyfél konfigurálása](how-to-configure-the-ad-rms-client-2-0.md)
+* [Útmutató az RMS-kiszolgáló telepítéséhez és konfigurálásához](how-to-install-and-configure-an-rms-server.md)
+* [Útmutató: az ADAL-hitelesítés használata](how-to-use-adal-authentication,md)
 * [Az SDK telepítése](create-your-first-rights-aware-application.md)
-* [A kiszolgáló telepítése és konfigurálása](how-to-install-and-configure-an-rms-server.md)
-* [A tanúsítványláncok megértése](understanding-certificate-chains.md)
+* [Az RMS-ügyfélprogram 2.1-es verziójának üzembe helyezésével kapcsolatos megjegyzések](https://technet.microsoft.com/en-us/library/jj159267(WS.10).aspx)
  
 
  
 
 
-
-
-
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

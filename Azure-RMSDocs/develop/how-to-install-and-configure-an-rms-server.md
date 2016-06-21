@@ -1,71 +1,33 @@
 ---
-# required metadata
+# kötelező metaadatok
 
-title: Install and configure the server (A kiszolgáló telepítése és konfigurálása) | Azure RMS
-description: Telepítse és konfigurálja az RMS-kiszolgálót a tartalomvédelemmel kompatibilis alkalmazás teszteléséhez.
-keywords:
-author: bruceperlerms
-manager: mbaldwin
-ms.date: 04/28/2016
-ms.topic: article
-ms.prod: azure
-ms.service: rights-management
-ms.technology: techgroup-identity
-ms.assetid: 32C7F387-CF7E-4CE0-AFC9-4C63FE1E134A
-# optional metadata
+cím: Útmutató: telepítés, konfigurálás és tesztelés az RMS-kiszolgálóval | Az Azure RMS leírása: Telepítse és konfigurálja az RMS-kiszolgálót a tartalomvédelemmel kompatibilis alkalmazás teszteléséhez.
+keywords: author: bruceperlerms manager: mbaldwin ms.date: 04/28/2016 ms.topic: article ms.prod: azure ms.service: rights-management ms.technology: techgroup-identity ms.assetid: 32C7F387-CF7E-4CE0-AFC9-4C63FE1E134A
+# opcionális metaadatok
 
 #ROBOTS:
 audience: developer
 #ms.devlang:
-ms.reviewer: shubhamp
-ms.suite: ems
+ms.reviewer: shubhamp ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
 
 ---
 
-# A kiszolgáló telepítése és konfigurálása
+# Útmutató: telepítés, konfigurálás és tesztelés az RMS-kiszolgálóval
 
-Ez a témakör az RMS-kiszolgáló telepítésének és konfigurálásának lépéseit tartalmazza a tartalomvédelemmel kompatibilis alkalmazás teszteléséhez.
-
-**Fontos**: Ha az alkalmazást az alkalmazás futtatásával teszteli az 1 keretes RMS ISV-környezetben, nem szükséges telepítenie az RMS-kiszolgálót, mert az már telepítve és konfigurálva van az 1 keretes környezetben.
-További információt a 1 keretes AD RMS ISV-környezetről a [Set up the test environment](how-to-set-up-your-test-environment.md) (A tesztelési környezet létrehozása) című témakörben talál.
-
+Ez a témakör az RMS-kiszolgálóhoz vagy az Azure RMS-hez való csatlakozás lépéseit tartalmazza a tartalomvédelemmel kompatibilis alkalmazás teszteléséhez.
  
-
 ## Utasítások
 
 ### 1. lépés: Állítsa be az RMS-kiszolgálót
 
 A következő lépések segítségével beállíthatja az RMS-kiszolgálót:
 
--   A beállításjegyzék konfigurálása
 -   A kiszolgáló telepítése
 -   A kiszolgáló beléptetése
 
-1.  **A beállításjegyzék konfigurálása**
-
-    Annak megadásához, hogy az éles üzem előtti tanúsítványhierarchiát használja, állítsa be a következő beállításazonosítókat.
-
-    **Megjegyzés**: Ha Windows Server 2008 R2 vagy Windows Server 2008 operációs rendszert használ, állítsa be a beállításazonosítókat az AD RMS szolgáltatás telepítése előtt.
-
-    Ha Windows Server 2008 R2 operációs rendszeren használja az AD RMS szolgáltatást, állítsa be az alábbi **REG\_DWORD** értéket. Az éles hierarchiára való váltáshoz állítsa ezt az értéket nullára (0).
-
-    **Computer**\\**HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**DRMS**\\**Hierarchy** = 0x00000001
-
-    Ha Windows Server 2008 R2 operációs rendszeren használja az AD RMS szolgáltatást, és egy másik AD RMS szolgáltatás már telepítve van az Active Directoryban éles üzem előtti szolgáltatásként, adja hozzá a következő üres karakterláncértéket a beállításjegyzékhez.
-
-    **Computer**\\**HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**DRMS**\\**GICURL** = ""
-
-    Ha Windows Server 2008 operációs rendszeren használja az AD RMS szolgáltatást, állítsa be az alábbi **REG\_DWORD** értéket. Az éles hierarchiára való váltáshoz állítsa ezt az értéket nullára (0).
-
-    **Computer**\\**HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**DRMS**\\**2.0**\\**Hierarchy** = 0x00000001
-
-    Ha Windows Server 2008 operációs rendszeren használja az AD RMS szolgáltatást, és egy másik AD RMS szolgáltatás már telepítve van az Active Directoryban éles üzem előtti szolgáltatásként, adja hozzá a következő üres karakterláncértéket a beállításjegyzékhez.
-
-    **Computer**\\**HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**DRMS**\\**2.0**\\**GICURL** = ""
-
-2.  **A kiszolgáló telepítése**
+1.  **A kiszolgáló telepítése**
 
     Az Active Directory Rights Management Services (AD RMS) külön ügyfél- és kiszolgáló-összetevőkből áll. A kiszolgáló-összetevő megvalósítása webszolgáltatásként történik, amely az RMS-infrastruktúra felügyeletéhez, a fogyasztók és a közzétevők számára licencek, illetve a számítógépek és a felhasználók számára tanúsítványok kibocsátásához használható.
 
@@ -73,35 +35,57 @@ A következő lépések segítségével beállíthatja az RMS-kiszolgálót:
 
     -   [RMS Server v1.0 SP2](http://go.microsoft.com/fwlink/p/?linkid=73722)
 
-    A kiszolgáló-összetevő Windows Server 2008 operációs rendszeren való konfigurálásához telepítenie kell az AD RMS szerepkört. Előtte azonban konfigurálnia kell a beállításjegyzéket annak megadásához, hogy az éles üzem előtti tanúsítványhierarchiát fogja használni az éles hierarchia helyett. Ha azonban egy korábbi kiszolgáló operációs rendszeren fejleszt alkalmazásokat, konfigurálja a beállításjegyzéket az 1.0-s verziójú RMS-kiszolgáló SP2 telepítése után, de még az RMS-kiszolgáló üzembe helyezése előtt.
+    A kiszolgáló-összetevő Windows Server 2008 operációs rendszeren való konfigurálásához telepítenie kell az AD RMS szerepkört. Ha egy korábbi kiszolgáló operációs rendszeren fejleszt alkalmazásokat, konfigurálja a beállításjegyzéket az 1.0-s verziójú RMS-kiszolgáló SP2 telepítése után, de még az RMS-kiszolgáló üzembe helyezése előtt.
 
-    További információkért tekintse meg az előző lépést (1. lépés: A beállításjegyzék konfigurálása).
+2.  **A kiszolgáló beléptetése**
 
-3.  **A kiszolgáló beléptetése**
-
-    A Rights Management Services (RMS) kiszolgálót az éles üzem előtti vagy éles hierarchiában való azonosításukhoz be kell léptetnie. A beléptetési folyamat egy kiszolgálólicenc-tanúsítványt helyez el a kiszolgáló számítógépen. Ez a tanúsítvány a Microsoft bizalomforrásához kötődik. A kiszolgáló beléptetésének módja az RMS használt verziójától függ.
+    A Rights Management Services (RMS) kiszolgálót az éles üzem előtti vagy éles hierarchiában való azonosításhoz be kell léptetnie. A beléptetési folyamat egy kiszolgálólicenc-tanúsítványt helyez el a kiszolgáló számítógépen. Ez a tanúsítvány a Microsoft bizalomforrásához kötődik. A kiszolgáló beléptetésének módja az RMS verziójától függ.
 
     -   **Önbeléptetés**
 
         A Windows Server 2008 óta anélkül léptetheti be az RMS-kiszolgálót a megfelelő hierarchiába, hogy információkat küldene a Microsoftnak. Az RMS szerepkör telepítésekor a rendszer telepíti az önbeléptetési tanúsítványt és a titkos kulcsot is. Ezek segítéségével a kiszolgálólicenc-tanúsítvány automatikusan létrehozható. A rendszer nem küld információkat a Microsoftnak.
 
-    -   **Online beléptetés**: Ha az 1.0-s verziójú AD RMS SP2-t használja, online is beléptetheti a kiszolgálót. A beléptetés a háttérben történik az üzembe helyezési folyamat során, azonban szükség van internetkapcsolatra, és meg kell adnia a megfelelő beállításazonosítót, hogy kiválaszthassa, melyik hierarchiába lépteti be a kiszolgálót. Az éles üzem előtti hierarchiába való beléptetéshez adja hozzá a következő **REG\_SZ** értéket, és helyezze üzembe a kiszolgálót. Az éles hierarchiába való beléptetéshez törölje ezt az értéket, és helyezze üzembe a kiszolgálót.
+    -   **Online beléptetés**
 
-        További információkért tekintse meg az előző lépést (1. lépés: A beállításjegyzék konfigurálása).
+        Ha az 1.0-s verziójú AD RMS SP2-t használja, online is beléptetheti a kiszolgálót. A beléptetés az üzembe helyezési folyamat alatt a háttérben történik, de kizárólag működő internetkapcsolat esetén.
 
         **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**DRMS**\\**1.0**\\**UddiProvider** = 0e3d9bb8-b765-4a68-a329-51548685fed3
 
-## Kapcsolódó témakörök
+3. **Tesztelés az RMS-kiszolgálóval**
 
-* [Használati útmutató](how-to-use-msipc.md)
+    Az RMS-kiszolgálóval való teszteléshez konfigurálja a kiszolgálóoldali vagy az ügyféloldali észlelést, hogy a Rights Management Service ügyfélprogram 2.1-es verziója felderítse és létrehozza a kommunikációt az RMS-kiszolgálóval.
+
+    >![MEGJEGYZÉS] Az Azure RMS-szel való tesztelés nem igényel felderítési konfigurációt.
+
+  - A kiszolgálóoldali felderítés során egy rendszergazda regisztrál egy szolgáltatáskapcsolati pontot (SCP) az Active Directoryban az RMS-gyökérfürthöz, az ügyfél pedig az Active Directoryt lekérdezve észlelheti az SCP-t és hozhat létre kapcsolatot a kiszolgálóval.
+  - Ügyféloldali felderítés esetén annak a számítógépnek a beállításjegyzékben kell konfigurálni az RMS szolgáltatásészlelés beállításait, ahol az RMS-ügyfélprogram 2.1-es verziója fut. Ezek a beállítások adják meg az RMS-kiszolgáló számára, hogy az RMS-ügyfélprogram 2.1-es verzióját használja. Ha ezek meg vannak adva, a rendszer nem végez kiszolgálóoldali felderítést.
+
+  Az ügyféloldali felderítés konfigurálásához beállíthatja a következő beállításkulcsokat, hogy azok az éles az RMS-kiszolgálóra mutassanak. A kiszolgálóoldali felderítés konfigurálásáról további információt [Az RMS 2.0-s ügyfelének üzembe helyezésével kapcsolatos megjegyzések](https://technet.microsoft.com/en-us/library/jj159267(WS.10).aspx) című témakörben találhat.
+
+1. **EnterpriseCertification**
+        HKEY_LOCAL_MACHINE        SOFTWARE          Microsoft            MSIPC              ServiceLocation                EnterpriseCertification
+
+  **Érték**: (alapértelmezett): [**http|https**]://RMSClusterName/**_wmcs/Certification**
+
+2. **EnterprisePublishing**
+        HKEY_LOCAL_MACHINE        SOFTWARE          Microsoft            MSIPC              ServiceLocation                EnterprisePublishing **Érték**: (alapértelmezett): [**http|https**]://RMSClusterName/**_wmcs/Licensing**
+
+>[!NOTE] Alapértelmezés szerint ezek a kulcsok nem szerepelnek a beállításjegyzékben, és létre kell őket hozni.
+
+>[!IMPORTANT] Ha egy 32 bites alkalmazást futtat egy 64 bites Windows-verzión, meg kell adnia ezeket a kulcsokat a következő kulcshelyen:<p>
+  ```    
+  HKEY_LOCAL_MACHINE
+    SOFTWARE
+      Wow6432Node
+        Microsoft
+          MSIPC
+            ```
+
  
 
  
 
 
-
-
-
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO2-->
 
 

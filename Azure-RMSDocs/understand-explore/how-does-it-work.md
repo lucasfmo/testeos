@@ -6,7 +6,7 @@ description:
 keywords:
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 06/02/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -66,7 +66,7 @@ A titkosítási kulcsok tárolásának és védelmének módja:
 
 - A tartalomkulcsot a szervezet RSA-kulcsa („Azure RMS-bérlőkulcs”) védi a dokumentum házirendjének részeként, amelyen a dokumentum szerzőjének aláírása is szerepel. Ez a bérlőkulcs azonos a szervezet Azure RMS által védett dokumentumai és e-mailjei esetében. A kulcsot csak egy Azure RMS-rendszergazda módosíthatja, ha a szervezet ügyfél által felügyelt bérlőkulcsot használ („saját kulcs használata”, más néven BYOK). 
 
-    Ez a Microsoft online szolgáltatásaiban védett bérlőkulcs ellenőrzött környezetben, szigorú felügyelet alatt áll. Ha ügyfél által felügyelt bérlőkulcsot (BYOK) használ, a biztonságot tovább fokozza a fejlett hardveres biztonsági modulok (HSM-ek) használata az egyes Azure-régiókban, a kulcsok bármilyen körülmények között történő kinyerésének, exportálásának vagy megosztásának képessége nélkül. További információk a bérlőkulcsról és a BYOK-ról: [Planning and implementing your Azure Rights Management tenant key (Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása)](../plan-design/plan-implement-tenant-key.md).
+    Ez a Microsoft online szolgáltatásaiban védett bérlőkulcs ellenőrzött környezetben, szigorú felügyelet alatt áll. Ha ügyfél által felügyelt bérlőkulcsot (BYOK) használ, a biztonságot tovább fokozza a fejlett hardveres biztonsági modulok (HSM-ek) használata az egyes Azure-régiókban, a kulcsok bármilyen körülmények között történő kinyerésének, exportálásának vagy megosztásának képessége nélkül. További információ a bérlőkulcsról és a BYOK-ról: [Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása](../plan-design/plan-implement-tenant-key.md).
 
 - A Windows rendszerű eszközre küldött licencek és tanúsítványok védelmét az ügyfél eszközéhez tartozó titkos kulcs látja el, amelyet a rendszer akkor hoz létre, amikor először használják az Azure RMS szolgáltatást az eszközön. A titkos kulcsot pedig az ügyfélen található DPAPI védi, amely egy, a felhasználó jelszavából származtatott kulcs használatával őrzi a titkos adatokat. A mobileszközökön a rendszer csak egyszer használja a kulcsokat, és mivel ezeket nem tárolják az ügyfeleken, az eszközön nem szükséges védelemmel ellátni őket. 
 
@@ -77,8 +77,7 @@ Az Azure RMS működésének pontosabb megértéséhez tekintse át az [Azure RM
 
 A felhasználói környezet inicializálását követően a felhasználó védelemmel láthatja el a dokumentumokat, vagy felhasználhatja a védett dokumentumok tartalmát az adott számítógépen.
 
-> [!NOTE]
-> Ha a felhasználó egy másik Windows-számítógépet kezd el használni, vagy ha egy másik felhasználó használja ugyanazt a Windows-számítógépet, az inicializálási folyamatot meg kell ismételni.
+> [!NOTE] Ha a felhasználó egy másik Windows-számítógépet kezd el használni, vagy ha egy másik felhasználó használja ugyanazt a Windows-számítógépet, az inicializálási folyamatot meg kell ismételni.
 
 ### A felhasználói környezet inicializálása
 Mielőtt a felhasználó egy Windows-számítógépen védelemmel láthatja el a tartalmakat, vagy védett tartalmakat használhat fel, elő kell készíteni a felhasználói környezetet az eszközön. Ez egy egyszeri folyamat, amely automatikusan, felhasználói beavatkozás nélkül megy végbe, amikor a felhasználó tartalomvédelem végrehajtására vagy védett tartalom felhasználására tesz kísérletet.
@@ -87,7 +86,7 @@ Mielőtt a felhasználó egy Windows-számítógépen védelemmel láthatja el a
 
 **Mi történik az 1. lépésben?** A számítógépen található RMS-ügyfél először csatlakozik az Azure RMS szolgáltatáshoz, majd a felhasználó Azure Active Directory-fiókját használva elvégzi a hitelesítését.
 
-Ha a elhasználó fiókja össze van vonva az Azure Active Directoryval, a hitelesítés automatikusan végbemegy, és a felhasználónak nem kell megadnia hitelesítő adatokat.|
+Ha a felhasználó fiókja össze van vonva az Azure Active Directoryval, a hitelesítés automatikusan végbemegy, és a felhasználónak nem kell megadnia hitelesítő adatokat.
 
 ![RMS-ügyfél aktiválása – 2. lépés](../media/AzRMS_useractivation2.png)
 
@@ -106,7 +105,7 @@ Amikor a felhasználó védelemmel lát el egy dokumentumot, az RMS-ügyfél a k
 
 **Mi történik a 2. lépésben?** Az RMS-ügyfél ezután sablon alapján vagy dokumentumspecifikus jogosultságokat megadva létrehoz egy, a dokumentumhoz tartozó házirendet tartalmazó tanúsítványt. Ez a házirend tartalmazza a különböző felhasználók vagy csoportok jogosultságait, valamint az esetleges további korlátozásokat (pl. lejárati dátum).
 
-Az RMS-ügyfél ezután a felhasználói környezet inicializálásakor kapott szervezeti kulccsal titkosítja a házirendet és a szimmetrikus tartalomkulcsot. Továbbá az RMS-ügyfél aláírja a házirendet a felhasználói környezet inicializálásakor kapott felhasználói tanúsítvány felhasználásával.|
+Az RMS-ügyfél ezután a felhasználói környezet inicializálásakor kapott szervezeti kulccsal titkosítja a házirendet és a szimmetrikus tartalomkulcsot. Az RMS-ügyfél emellett alá is írja a házirendet a felhasználói környezet inicializálásakor kapott felhasználói tanúsítvánnyal.
 
 ![RMS-dokumentumvédelem – 3. lépés](../media/AzRMS_documentprotection3.png)
 
@@ -148,14 +147,13 @@ A fenti bemutatók a szokásos forgatókönyvet ismertetik, ennek azonban több 
 
 Az Azure RMS-ről a **Megismerés és felfedezés** szakaszban találhat további információkat. A [Hogyan támogatják a különböző alkalmazások az Azure Rights Managementet](applications-support.md) című cikkből például megtudhatja, hogyan biztosíthatnak tartalomvédelmi megoldást a meglévő alkalmazásai az Azure RMS-sel integrálva. 
 
-[Az Azure Rights Management terminológiája](../get-started/terminology.md) cikket áttekintve megismerheti az Azure RMS konfigurálása és használata során előkerülő fogalmakat, és a telepítés megkezdése előtt mindenképp érdemes megtekinteni [Az Azure Rights Management követelményei](../get-started/requirements-azure-rms.md) című fejezetet is. Ha fejest ugrana, és kipróbálná a szolgáltatást, használja a [Quick start tutorial for Azure Rights Management](../get-started/quick-start-tutorial.md) (Azure Rights Management gyors üzembe helyezési oktatóanyag) forrásanyagot..
+[Az Azure Rights Management terminológiája](../get-started/terminology.md) cikket áttekintve megismerheti az Azure RMS konfigurálása és használata során előkerülő fogalmakat, és a telepítés megkezdése előtt mindenképp érdemes megtekinteni [Az Azure Rights Management követelményei](../get-started/requirements-azure-rms.md) című fejezetet is. Ha rögtön kipróbálná a szolgáltatást, használja az [Azure Rights Management gyors üzembe helyezési oktatóanyagot](../get-started/quick-start-tutorial.md).
 
 Ha készen áll az Azure RMS központi telepítésére a szervezeténél, az [Azure Rights Management deployment roadmap](../plan-design/deployment-roadmap.md) (Azure Rights Management üzembe helyezési menetrend) felkeresésével megismerheti a telepítés lépéseit, valamint ugyanitt megtalálja az útmutatókra mutató hivatkozásokat is.
 
-> [!TIP]
-> További információért és segítségért használja az [Information and support for Azure Rights Management](../get-started/information-support.md) (Azure Rights Management – információ és támogatás) című szakaszban található forrásanyagokat és hivatkozásokat..
+> [!TIP] További információért és segítségért használja az [Azure Rights Management – információ és támogatás](../get-started/information-support.md) című szakaszban található forrásanyagokat és hivatkozásokat.
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 

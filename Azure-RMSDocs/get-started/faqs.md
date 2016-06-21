@@ -6,7 +6,7 @@ description:
 keywords:
 author: cabailey
 manager: mbaldwin
-ms.date: 05/13/2016
+ms.date: 06/07/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -70,9 +70,9 @@ Az Azure RMS a felhasználók hitelesítéséhez mindig egy Azure Active Directo
 A fiókok hitelesítési módszere változó lehet attól függően, hogy a másik szervezet rendszergazdája hogyan konfigurálta az Azure Active Directory-fiókokat. Használhatnak például a fiókokhoz létrehozott jelszavakat, többtényezős hitelesítést (MFA), összevonást, vagy az Active Directory tartományi szolgáltatásokban létrehozott, majd az Azure Active Directoryval szinkronizált jelszavakat.
 
 ## A vállalatomon kívülről is hozzáadhatok felhasználókat egyéni sablonokhoz?
-Igen.  A végfelhasználók (és rendszergazdák) által alkalmazásokból kiválasztható egyéni sablonok létrehozásával az előre megadott házirendek megadása révén gyorssá és egyszerűvé teheti számukra az információvédelem alkalmazását. A sablonok egyik beállítása arra vonatkozik, hogy ki férhet hozzá a tartalomhoz, valamint megadhat felhasználókat és csoportokat a szervezetén belülről, és felhasználókat a szervezetén kívülről.
+Igen. A végfelhasználók (és rendszergazdák) által alkalmazásokból kiválasztható egyéni sablonok létrehozásával az előre megadott házirendek megadása révén gyorssá és egyszerűvé teheti számukra az információvédelem alkalmazását. A sablonok egyik beállítása arra vonatkozik, hogy ki férhet hozzá a tartalomhoz, valamint megadhat felhasználókat és csoportokat a szervezetén belülről, és felhasználókat a szervezetén kívülről.
 
-Felhasználók szervezeten kívülről való hozzáadásához használja [az Azure Rights Managementhez készült Windows PowerShell-modult](../deploy-use/install-powershell.md):
+A szervezeten kívüli felhasználók megadásához vegye fel őket névjegyként egy olyan csoportba, amelyet a klasszikus Azure-portálon választott ki a sablonok konfigurálásakor; vagy lásd: [Az Azure Rights Managementhez készült Windows PowerShell](../deploy-use/install-powershell.md):
 
 -   **Jogosultság-definíciós objektum használata sablon létrehozásához vagy frissítéséhez**.    Adja meg a külső e-mail-címeket és a jogaikat egy jogosultság-definíciós objektumban, amelyet a későbbiekben a sablon létrehozására vagy frissítésére használ majd. A jogosultság-definíciós objektumot úgy adhatja meg, ha a [New-AadrmRightsDefinition](https://msdn.microsoft.com/library/azure/dn727080.aspx) parancsmaggal létrehoz egy változót, majd megadja ezt a változót a -RightsDefinition paraméternek az [Add-AadrmTemplate](https://msdn.microsoft.com/library/azure/dn727075.aspx) parancsmaggal (új sablon esetében) vagy a [Set-AadrmTemplateProperty](https://msdn.microsoft.com/library/azure/dn727076.aspx) parancsmaggal (ha egy létező sablont módosít). Ha viszont ezeket a felhasználókat egy létező sablonhoz adja, a sablon létező csoportjaihoz is meg kell határoznia jogosultság-definíciós objektumokat, nem csak a külső felhasználókhoz.
 
@@ -140,6 +140,11 @@ A képernyőképek rögzítésének tiltása segít megakadályozni titkos vagy 
 
 Ahogyan azt ezek a példák is mutatják, még ha minden platform és minden szoftver támogatná is a Rights Management API-kat a képernyőképek rögzítésének blokkolásában, a technológia önmagában kevés ahhoz, hogy megakadályozza a felhasználókat azon adatok megosztásában, amelyeket nem szabad továbbadniuk. A Rights Management segít biztonságossá tenni a fontos adatokat hitelesítés és használati házirendek segítségével, de ezen nagyvállalati tartalomkezelési megoldás mellé más szabályozásokra is szükség van. Implementálhat például fizikai biztonsági megoldásokat, gondosan szűrheti és megfigyelheti azokat, akik jogosultak hozzáférni a szervezet adataihoz, és képzéseket biztosíthat a felhasználók számára, hogy tisztában legyenek azzal, milyen adatokat nem szabad megosztaniuk.
 
+## Mi a különbség a között, ha a felhasználó egy e-mail számára a „Nem továbbítandó” jelzéssel vagy a Továbbítási jogot nem tartalmazó sablonnal biztosít védelmet?
+
+Neve és megjelenése ellenére a **Nem továbbítandó** nem a Továbbítási jog ellentéte, és nem is sablon. Ez egy olyan jogosultságkészlet, amely az e-mailek továbbítása mellett a mellékletek másolását, nyomtatását és mentését is korlátozza. A jogosultságokat nem a rendszergazda osztja ki statikusan, hanem a rendszer alkalmazza dinamikusan a felhasználókra a választott címzetteken keresztül. További információért lásd [A „Nem továbbítandó” beállítás e-mailekhez](../deploy-use/configure-usage-rights.md#do-not-forward-option-for-emails) című szakaszt a [Használati jogosultságok konfigurálása az Azure Rights Managementhez](../deploy-use/configure-usage-rights.md) című témakörben.
+
+
 ## Hol találok támogatási információkat az Azure RMS-hez – például a jogi tudnivalókat, a megfelelőségi információkat és a szolgáltatásszint-szerződéseket?
 Az Azure RMS támogatja a többi szolgáltatást, és maga is más szolgáltatásokra támaszkodik. Ha az Azure RMS-hez kapcsolódó, de nem az Azure RMS szolgáltatás használatára vonatkozó információkat keres, tekintse meg az alábbi forrásanyagokat.
 
@@ -191,6 +196,6 @@ Ez a gyakori kérdéseket tartalmazó oldal rendszeresen frissül. Az új elemek
 
 
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO2-->
 
 

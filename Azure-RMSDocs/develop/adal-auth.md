@@ -1,8 +1,8 @@
 ---
 # required metadata
 
-title: ADAL-hitelesítés RMS-kompatiblis alkalmazásokhoz | Azure RMS
-description: Az ADAL hitelesítési folyamatának ismertetése
+title: Az Azure RMS beállítása az ADAL-hitelesítéshez | Azure RMS
+description: Az Azure ADAL alapú hitelesítés konfigurálási lépéseinek ismertetése
 keywords: authentication, RMS, ADAL
 author: bruceperlerms
 manager: mbaldwin
@@ -24,37 +24,19 @@ ms.suite: ems
 #ms.custom:
 
 ---
-** Ez az SDK-tartalom nem naprakész. Ideiglenesen arra kérjük, keresse fel az MSDN webhelyén található dokumentáció [aktuális verzióját](https://msdn.microsoft.com/library/windows/desktop/hh535290(v=vs.85).aspx). **
-# ADAL-hitelesítés RMS-kompatiblis alkalmazásokhoz
 
-Az RMS-ügyfél 2.1-es verziója mostantól magában foglalja az Azure ADAL-t használó alkalmazások Azure RMS-sel történő hitelesítésének lehetőségét.
+# Az Azure RMS beállítása az ADAL-hitelesítéshez
 
-Az alkalmazásnak a Microsoft Online bejelentkezési segéd helyett az ADAL-hitelesítés használatára való frissítésével Ön és ügyfelei az alábbiakra lesznek képesek:
+Ez a témakör az Azure ADAL-alapú hitelesítés konfigurálásának lépéseit ismerteti.
 
-- Többtényezős hitelesítés használata.
-- Az RMS 2.1 ügyfél telepítése rendszergazdai jogosultságok nélkül a számítógépen.
-- Az alkalmazás tanúsítása a Windows 10-re.
-
-## A hitelesítési folyamat két megközelítése
-
-Ez a témakör a hitelesítési folyamat két megközelítését ismerteti, a megfelelő programkódpéldákkal kiegészítve.
-
-- **Belső hitelesítés** – Az RMS SDK által kezelt OAuth-hitelesítés. Ezt a megközelítést akkor használja, ha azt szeretné, hogy az RMS-ügyfél egy ADAL-hitelesítési üzenetet jelenítsen meg, ha hitelesítésre van szükség. Az alkalmazás konfigurálásával kapcsolatos további részleteket a „Belső hitelesítés” című szakaszban találja.
-
-> [!NOTE] Ha az Ön alkalmazása jelenleg a bejelentkezési segéddel kiegészített AD RMS SDK 2.1-et használja, az alkalmazás áttelepítési útvonalaként a belső hitelesítési módszer használatát ajánljuk.
-
-- **Külső hitelesítés** – Az alkalmazás által kezelt OAuth-hitelesítés. Ezt a megközelítést akkor használja, ha azt szeretné, hogy az alkalmazása kezelje az OAuth-hitelesítést. Ezzel a megközelítéssel az RMS-ügyfél egy, az alkalmazás által meghatározott visszahívást intéz, ha hitelesítésre van szükség. Részletes példákat a „Külső hitelesítés” című szakaszban talál, a jelen témakör végén.
-
-> [!NOTE] A külső hitelesítés nem feltétlenül jelenti a felhasználóváltás lehetőségét is: az RMS-ügyfél ugyanis mindig az alapértelmezett felhasználót veszi alapul egy adott RMS-bérlő esetében.
-
-### Belső hitelesítés
+## Belső hitelesítés
 
 A következőkre lesz szüksége:
 
 - Egy [Microsoft Azure-előfizetés](https://azure.microsoft.com/en-us/) (az ingyenes próbaverzió is elegendő).
 - Egy Microsoft Azure Rights Management-előfizetés (az [egyéni RMS-felhasználók](https://technet.microsoft.com/en-us/library/dn592127.aspx) ingyenes fiókja is elegendő).
 
-> [!NOTE] Érdeklődjön informatikai rendszergazdájánál, hogy rendelkezik-e Microsoft Azure Rights Management-előfizetéssel, és kérje meg a rendszergazdáját az alábbi lépések végrehajtására. Amennyiben az Ön szervezte nem rendelkezik előfizetéssel, kérje meg informatikai rendszergazdáját egy előfizetés létrehozására. Továbbá ajánlatos, hogy informatikai rendszergazdája egy munkahelyi vagy iskolai fiókkal végezze el a regisztrációt Microsoft-fiók (pl. Hotmail-fiók) használata helyett.
+> [!NOTE] Érdeklődjön informatikai rendszergazdájánál, hogy rendelkezik-e Microsoft Azure Rights Management-előfizetéssel, és kérje meg a rendszergazdáját az alábbi lépések végrehajtására. Amennyiben az Ön szervezte nem rendelkezik előfizetéssel, kérje meg informatikai rendszergazdáját egy előfizetés létrehozására. Továbbá ajánlatos, hogy informatikai rendszergazdája egy *munkahelyi vagy iskolai fiókkal* végezze el a regisztrációt, és ne *Microsoft-fiókot* (például Hotmail-fiókot) használjon.
 
 A Microsoft Azure-regisztrációt követő lépések:
 
@@ -78,7 +60,7 @@ A Microsoft Azure-regisztrációt követő lépések:
 
 ![ALKALMAZÁSOK kiválasztása](../media/CreateNativeApp.png)
 
-- Majd kattintson a portál aljának közepén található **HOZZÁADÁS** gombra.
+- Majd kattintson a portál aljának közepén található **Hozzáadás** gombra.
 
 ![A HOZZÁADÁS kiválasztása](../media/AddAppBtn.png)
 
@@ -90,7 +72,8 @@ A Microsoft Azure-regisztrációt követő lépések:
 
 ![Az alkalmazás elnevezése](../media/TellUsInput.png)
 
-- Adjon hozzá egy átirányítási URI azonosítót, és kattintson a Tovább gombra. Az átirányítási URI azonosítónak érvényesnek és egyedinek kell lennie a címtár esetében. Használhat például egy, a következőhöz hasonló azonosítót: `com.mycompany.myapplication://authorize`.
+- Adjon hozzá egy átirányítási URI azonosítót, és kattintson a Tovább gombra.
+  Az átirányítási URI azonosítónak érvényesnek és egyedinek kell lennie a címtár esetében. Használhat például egy, a következőhöz hasonló azonosítót: `com.mycompany.myapplication://authorize`.
 
 ![Átirányítási URI hozzáadása](../media/RedirectURI.png)
 
@@ -102,13 +85,15 @@ A Microsoft Azure-regisztrációt követő lépések:
 
 - Görgessen az alkalmazásbeállítások aljára, és kattintson az **Alkalmazás hozzáadása** gombra az **egyéb alkalmazások engedélyei** pont alatt.
 
+>[!NOTE] A Windows Azure Active Directory esetében látható **delegált engedélyek** alapértelmezés szerint helyesek – csak egy beállítást szabad kiválasztani, és ez a beállítás a **Beléptetés és felhasználói profil olvasása**.
+
 ![Az Alkalmazás hozzáadása kiválasztása](../media/PermissionsToOtherBtn.png)
 
 - Ezután adja hozzá a `00000012-0000-0000-c000-000000000000` GUID azonosítót a **KEZDŐÉRTÉK** szerkesztési mezőhöz, és kattintson az Ellenőrzés gombra.
 
 ![A GUID azonosító hozzáadása](../media/AddGUID.png)
 
-- Kattintson a **Microsoft Rights Management** mellett található Plusz (+) gombra.
+- Kattintson a **Microsoft Rights Management** mellett található plusz gombra.
 
 ![A + gomb kiválasztása](../media/ChoosePlusBtn.png)
 
@@ -120,70 +105,11 @@ A Microsoft Azure-regisztrációt követő lépések:
 
 ![Engedélyek beállítása](../media/AddDependency.png)
 
-- A változtatások megőrzéséhez mentse az alkalmazást a portál aljának közepén található **MENTÉS** ikon kiválasztásával.
+- A változtatások megőrzéséhez mentse az alkalmazást a portál aljának közepén található **Mentés** ikon kiválasztásával.
 
 ![A MENTÉS kiválasztása](../media/SaveApplication.png)
 
-- Ezt követően már készen áll alkalmazása az RMS SDK 2.1 által biztosított belső ADAL-hitelesítés használatához történő konfigurálására. Az RMS-ügyfél konfiguráláshoz rögtön az [IpcInitialize](/rights-management/sdk/2.1/api/win/IpcInitialize) hívása után adjon hozzá egy [IpcSetGlobalProperty](/rights-management/sdk/2.1/api/win/IpcSetGlobalProperty)-hívást. A következő kódrészletet mintaként használhatja.
 
-
-    IpcInitialize();
-
-    IPC_AAD_APPLICATION_ID applicationId = { 0 };   applicationId.cbSize = sizeof(IPC_AAD_APPLICATION_ID);   applicationId.wszClientId = L"az-AAD-által-az-alkalmazásához-megadott-GUID-(zárójelek-nélkül)";   applicationId.wszRedirectUri = L"az-AAD-által-az-alkalmazásához-megadott-URI://authorize";
-
-    HRESULT hr = IpcSetGlobalProperty(IPC_EI_APPLICATION_ID, &amp;applicationId);
-
-    if (FAILED(hr)) {    //hibakezelés   }
-
-### Külső hitelesítés
-
-- A saját hitelesítési tokenek kezeléséhez az alábbi programkódot használhatja mintaként.
-
-
-    extern HRESULT GetADALToken(LPVOID pContext, const IPC_NAME_VALUE_LIST&amp; Parameters, __out wstring wstrToken) throw();
-
-    HRESULT GetLicenseKey(PCIPC_BUFFER pvLicense, __in LPVOID pContextForAdal, __out IPC_KEY_HANDLE &amp;hKey) { IPC_OAUTH2_CALLBACK pfGetADALToken =         [](LPVOID pvContext, PIPC_NAME_VALUE_LIST pParameters, IPC_AUTH_TOKEN_HANDLE* phAuthToken) -&gt; HRESULT { wstring wstrToken; HRESULT hr = GetADALToken(pvContext, *pParameters, wstrToken); return SUCCEEDED(hr) ? IpcCreateOAuth2Token(wstrToken.c_str(), OUT phAuthToken) : hr; };
-
-      IPC_OAUTH2_CALLBACK_INFO callbackCredentialContext =
-      {
-          sizeof(IPC_OAUTH2_CALLBACK_INFO),
-          pfGetADALToken,
-          pContextForAdal
-      };
-
-      IPC_CREDENTIAL credentialContext =
-      {
-          IPC_CREDENTIAL_TYPE_OAUTH2,
-          NULL
-      };
-      credentialContext.pcOAuth2 = &amp;callbackCredentialContext;
-
-      IPC_PROMPT_CTX promptContext =
-      {
-        sizeof(IPC_PROMPT_CTX),
-        NULL,
-        IPC_PROMPT_FLAG_SILENT | IPC_PROMPT_FLAG_HAS_USER_CONSENT,
-        NULL,
-        &amp;credentialContext
-      };
-
-      hKey = 0L;
-      return IpcGetKey(pvLicense, 0, &amp;promptContext, NULL, &amp;hKey);
-  }
-
-### Kapcsolódó témakörök
-- [Adattípusok](/rights-management/sdk/2.1/api/win/Data%20types)
-- [Környezet tulajdonságai](/rights-management/sdk/2.1/api/win/Environment%20properties)
-- [IpcCreateOAuth2Token](/rights-management/sdk/2.1/api/win/IpcCreateOAuth2Token)
-- [IpcGetKey](/rights-management/sdk/2.1/api/win/IpcGetKey)
-- [IpcInitialize](/rights-management/sdk/2.1/api/win/IpcInitialize)
-- [IPC_CREDENTIAL](/rights-management/sdk/2.1/api/win/IPC\_CREDENTIAL)
-- [IPC_NAME_VALUE_LIST](/rights-management/sdk/2.1/api/win/IPC\_NAME\_VALUE\_LIST)
-- [IPC_OAUTH2_CALLBACK_INFO](/rights-management/sdk/2.1/api/win/IPC\_OAUTH2\_CALLBACK\_INFO)
-- [IPC_PROMPT_CTX](/rights-management/sdk/2.1/api/win/IPC\_PROMPT\_CTX)
-- [IPC_AAD_APPLICATION_ID](/rights-management/sdk/2.1/api/win/IPC\_AAD\_APPLICATION\_ID)
-
-
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

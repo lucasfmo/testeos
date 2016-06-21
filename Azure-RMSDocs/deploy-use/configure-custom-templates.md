@@ -6,7 +6,7 @@ description:
 keywords:
 author: cabailey
 manager: mbaldwin
-ms.date: 05/23/2016
+ms.date: 06/03/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -43,7 +43,7 @@ Miután [aktiválta az Azure Rights Management](activate-service.md) (Azure RMS)
 
     -   Konkrét engedélyek: Tartalom megtekintése, fájl mentése, tartalom szerkesztése, hozzárendelt jogosultságok megtekintése, makrók engedélyezése, továbbítás, válasz, válasz mindenkinek
 
-Emellett az [RMS megosztóalkalmazás](../rms-client/sharing-app-windows.md) lehetővé teszi a felhasználók számára, hogy meghatározzák a saját engedélykészletüket. Emellett az Outlook-ügyfélben és az Outlook Web Accessben a felhasználók az e-mailekhez kiválaszthatják a **Nem továbbítandó** lehetőséget.
+Emellett az [RMS megosztóalkalmazás](../rms-client/sharing-app-windows.md) lehetővé teszi a felhasználók számára, hogy meghatározzák a saját engedélykészletüket. Továbbá az Outlook-ügyfélprogramban és az Outlook Web Accessben a felhasználók kiválaszthatják a [Nem továbbítandó](../deploy-use/configure-usage-rights.md#do-not-forward-option-for-emails) lehetőséget.
 
 A legtöbb szervezet számára az alapértelmezett sablonok valószínűleg elegendőek. Ha azonban szeretné létrehozni a saját egyéni jogmegadási sablonjait, azt is megteheti. Az egyéni sablonok létrehozásának több oka is lehet, például:
 
@@ -67,11 +67,11 @@ A következő információk segítséget nyújtanak az egyéni sablonok konfigur
 
 -   [Sablonok frissítése a felhasználók számára](refresh-templates.md)
 
--   [Sablonok kezelése a PowerShell-lel](configure-templates-with-powershell.md)
+-   [Sablonok kezelése a PowerShellel](configure-templates-with-powershell.md)
 
 
 
 
-<!--HONumber=May16_HO5-->
+<!--HONumber=Jun16_HO1-->
 
 

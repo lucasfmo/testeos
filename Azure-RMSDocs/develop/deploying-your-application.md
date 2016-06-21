@@ -2,7 +2,7 @@
 # required metadata
 
 title: Az alkalmazás központi telepítése | Azure RMS
-description: Ez a témakör ismerteti a tartalomvédelemmel kompatibilis alkalmazás üzembe helyezési lehetőségeit, és végig is vezeti Önt rajtuk
+description: Ez a témakör ismerteti a tartalomvédelemmel kompatibilis alkalmazás üzembe helyezési lehetőségeit, és részletesen le is írja a folyamatokat.
 keywords:
 author: bruceperlerms
 manager: mbaldwin
@@ -24,64 +24,102 @@ ms.suite: ems
 
 ---
 
-# Az alkalmazás üzembe helyezése
+# Üzembe helyezés üzem előtti környezetben
 
 
-Ez a témakör ismerteti a tartalomvédelemmel kompatibilis alkalmazás üzembe helyezési lehetőségeit, és végig is vezeti Önt rajtuk.
+Ez a témakör ismerteti a tartalomvédelemmel kompatibilis alkalmazás üzembe helyezési lehetőségeit, és részletesen le is írja a folyamatokat.
 
-> [!IMPORTANT]
-> Először ajánlott a Rights Management Services SDK 2.1 alkalmazás az éles üzem előtti RMS környezetben egy RMS-kiszolgálóval tesztelni. Ha ezt követően azt szeretné, hogy az ügyfél használhassa az alkalmazást az Azure RMS szolgáltatással, a tesztelést abban a környezetben folytassa. További információ: [Enable your service application to work with cloud based RMS](how-to-use-file-api-with-aadrm-cloud.md) (A szolgáltatásalkalmazás alkalmassá tétele a felhőalapú RMS használatára).
+## Üzemi használatra szóló licencszerződés kérése
 
- 
-
-## Az Active Directory Rights Management Services 2.1-es verziójú ügyfelének telepítési beállításai
-
-Miután létrehozta a jegyzékfájlt éles tanúsítvánnyal, az alkalmazás készen áll az üzembe helyezésre. Az RMS SDK 2.1 használata miatt a végfelhasználó gépére telepíteni kell az Active Directory Rights Management Services ügyfelének 2.1-es verzióját.
-
-### AD RMS-ügyfél 2.1
-
-Az AD RMS-ügyfél 2.1 szoftvert az ügyfélszámítógépek számára tervezték, hogy segítséget nyújtson azon információk elérésének és használatának védelméhez, amelyek az RMS-t használó, a helyszínen vagy egy Microsoft adatközpontba telepített alkalmazásokon áramolnak át.
-
-Az AD RMS-ügyfél 2.1-es verziója nem a Windows operációs rendszer összetevője. Az AD RMS-ügyfél 2.1-es verziója választható letöltésként érhető el, amely a hozzá tartozó licencszerződés tudomásul vétele és elfogadása után ingyenesen terjeszthető a harmadik felek szoftvereivel, hogy az ügyfelek hozzáférhessenek a környezetben található RMS-kiszolgálók használata és telepítése által védett tartalmakhoz.
+ Mielőtt kiadna egy, a Rights Management Services SDK 2.1 segítségével létrehozott alkalmazást, üzemi használatra szóló licencszerződést kell kötnie üzemi környezetben is használható tanúsítvány beszerzéséhez.
 
 > [!IMPORTANT]
-> Az AD RMS-ügyfél 2.1-es verziója architektúrafüggő, és meg kell egyeznie a cél operációs rendszer architektúrájával.
+> Ha az ügyfélalkalmazást Azure-alapú RMS rendszerrel szeretné futtatni, saját bérlőket kell létrehoznia. További információért lásd: [Azure RMS-követelmények: Az Azure RMS-t támogató felhőalapú előfizetések](../get-started/requirements-subscriptions.md).
+> További információ az Azure RMS futtatásáról: [A szolgáltatásalkalmazás alkalmassá tétele a felhőalapú RMS használatára](how-to-use-file-api-with-aadrm-cloud.md).
+
+A tanúsítványt üzemi használatra szóló licencszerződés igénylésével szerezheti meg.
+
+Írjon az [RMLA@microsoft.com](mailto:rmla@microsoft.com) címre egy e-mail-üzenetet a következő információkkal:
+
+- A vállalat teljes neve
+- A vállalat fizikai címe (beleértve a város, az állam, az ország, illetve a régió nevét, valamint az irányítószámot)
+- A vállalat postacíme (beleértve a város, az állam, az ország, illetve a régió nevét, valamint az irányítószámot)
+- A vállalat telefon- és faxszáma
+- A vállalat URL-címe
+- Ország vagy régió, amelyben a céget bejegyezték
+- Az alkalmazás vagy termék neve
+- A kérelmet benyújtó személy vezetékneve és keresztneve
+- A kérelmet benyújtó személy címe vagy beosztása
+- A kérelmet benyújtó személy e-mail-címe
+
+Az e-mail-fiók megadása nem kötelező, azonban a jelentkezési folyamat jellemzően e-mailben folytatott kommunikációval zajlik. A Microsoft Outlook.com webhelyen ingyenes e-mail-fiókot hozhat létre. Ha nem rendelkezik fiókkal, és nem is szeretne létrehozni egyet, akkor a következő címre küldheti el géppel írt jelentkezését:
+
+      Active Directory Rights Management License Agreements (ADRMLA)
+
+      Microsoft Corporation
+
+      One Microsoft Way
+
+      Redmond, WA 98052-6399
+
+A szerződés kérelmezésekor a következőket tegye:
+- Az adatokat angolul adja meg, úgy, ahogy a szerződésben kell megjelenniük.
+- Minden szükséges adatot küldjön el. A hiányzó vagy hiányos adatok késleltethetik a kérelem feldolgozását.
+
+Az Active Directory tartalomvédelmi szolgáltatások licencszerződéseivel (ADRMLA) foglalkozó csapat három munkanapon belül válaszol az e-mailben elküldött kérelmekre. Ha a kérelmet postai úton küldte el, hosszabb időt vesz igénybe. A válasz tartalmazza a licencszerződési űrlapot és a további utasításokat. A szerződés minden oldalát olvassa el, írja alá és juttassa vissza az ADRMLA csapatnak. Ne módosítsa a betűtípust és ne formázza újra a licencszerződés bekezdéseit.
+
+Kövesse az ADRMLA csapat által megadott utasításokat. Az utasítások felsorolják, hogy milyen digitális információk szükségesek a tanúsítvány kérelmezéséhez. Ha pontosan követi az utasításokat, azzal elkerülheti a késedelmeket.
+
+Ha elkészült a tanúsítvány, az ADRMLA csapat továbbítja azt Önnek. Kérjük, vegye figyelembe, hogy akár 15 munkanapot is igénybe vehet, amíg az ADRMLA csapat elküldi Önnek e-mailben a tanúsítványt, ha pedig a kommunikáció postai úton történik, akkor még többet.
 
 
-## Az AD RMS-ügyfél 2.1-es verziójával kapcsolatos telepítési döntések
+## A Rights Management Services-ügyfél 2.1-es verziójának telepítési lehetőségei és követelményei
 
--   **Az AD RMS-ügyfél 2.1-es verziójának terjesztése**
+Az RMS SDK 2.1 használata miatt a végfelhasználó gépére telepíteni kell az Active Directory Rights Management Services ügyfelének 2.1-es verzióját.
+
+### RMS-ügyfél 2.1
+
+Az RMS-ügyfél 2.1-es verziója ügyfélszámítógépeken való használatra készült, hogy segítséget nyújtson a helyszíni vagy Microsoft-adatközpontba telepített, tartalomvédelmet használó alkalmazásokon áthaladó információk elérésének és használatának védelméhez.
+
+Az RMS-ügyfél 2.1-es verziója nem összetevője a Windows operációs rendszernek. Az RMS-ügyfél 2.1-es verziója választható letöltésként érhető el, amely a hozzá tartozó licencszerződés tudomásul vétele és elfogadása után ingyenesen terjeszthető a harmadik felek szoftvereivel, hogy az ügyfelek hozzáférhessenek a környezetben található RMS-kiszolgálók használata és telepítése által védett tartalmakhoz.
+
+
+> [!IMPORTANT] Az AD RMS-ügyfél 2.1-es verziója architektúrafüggő, és meg kell egyeznie a cél operációs rendszer architektúrájával.
+
+
+## Az RMS-ügyfél 2.1-es verziójával kapcsolatos telepítési döntések
+
+-   **Az RMS-ügyfél 2.1-es verziójának terjesztése**
 
     Az ajánlott módszer az RMS-ügyfél telepítőcsomagjának mellékelése az alkalmazáshoz vagy megoldáshoz a kívánt telepítési technológiával. Az RMS-ügyfél szabadon terjeszthető és mellékelhető más alkalmazásokhoz vagy IT-megoldásokhoz.
 
-    Választhatja az AD RMS-ügyfél 2.1-es verziójának interaktív telepítését az AD RMS-ügyfél 2.1 telepítőjének indításával, vagy telepítheti beavatkozás nélkül is. Az integráció lépései a következők:
+    Az RMS-ügyfél 2.1-es verziója a hozzá tartozó telepítővel interaktív módon, illetve beavatkozás nélkül is telepíthető. Az integráció lépései a következők:
 
     -   Az AD RMS-ügyfél 2.1 telepítőjének letöltése
-    -   Az AD RMS-ügyfél 2.1 telepítőjének integrálása az alkalmazástelepítőbe
+    -   Az RMS-ügyfél 2.1 telepítőjének integrálása az alkalmazástelepítőbe
 
-    Két jó példa az AD RMS-ügyfél 2.1-es verziójának alkalmazásba való integrálására az RMS SDK 2.1 telepítőcsomag és a jogvédett mappák kezelőcsomagja. A módszer megértéséhez próbálja meg telepíteni őket.
+    Két jó példa az RMS-ügyfél 2.1-es verziójának alkalmazásba való integrálására az RMS SDK 2.1 telepítőcsomag és a jogvédett mappák kezelőcsomagja. A módszer megismeréséhez próbálja meg önállóan telepíteni őket.
 
--   **Az AD RMS-ügyfél 2.1-es verziójának meghatározása a saját alkalmazása telepítési előfeltételeként**
+-   **Az RMS-ügyfél 2.1-es verziójának meghatározása saját alkalmazás telepítési előfeltételeként**
 
-    Ebben az esetben olyan előfeltételt hoz létre, amely az alkalmazás sikertelen telepítését okozza, ha a végfelhasználó gépén nem található meg az AD RMS-ügyfél 2.1-es verziója.
+    Ebben az esetben olyan előfeltételt hoz létre, amellyel az alkalmazás telepítése meghiúsul, ha a végfelhasználó gépén nem található meg az RMS-ügyfél 2.1-es verziója.
 
-    Ha az ügyfél nem található, megjelenik egy hibaüzenet, amely tájékoztatja a felhasználót, hogy honnan töltheti le az AD RMS-ügyfél 2.1-es verzióját
+    Ha az ügyfél nem található, megjelenik egy hibaüzenet, amely tájékoztatja a felhasználót, hogy honnan töltheti le az RMS-ügyfél 2.1-es verzióját.
 
     Ha az ügyfél megtalálható, folytatódhat az alkalmazás telepítése.
 
 ## Az Azure Rights Management szolgáltatások engedélyezése az alkalmazással
 
 > [!NOTE]
-> Ha a hitelesítéshez áttelepíttette az alkalmazást az új ADAL modellre, akkor nem kell telepítenie az SIA-t. További információ: ADAL-hitelesítés RMS-kompatiblis alkalmazásokhoz.
+> Ha a hitelesítéshez áttelepíttette az alkalmazást az új ADAL-modellre, akkor nem kell telepítenie a bejelentkezési segédet. További információ: [ADAL-hitelesítés RMS-kompatibilis alkalmazásokhoz](adal-auth.md).
+> Igény szerint **tanúsíthatja is alkalmazását a Windows 10-hez** – Ha a Microsoft Online bejelentkezési segéd helyett az alkalmazást az ADAL-hitelesítés használatára szeretné beállítani, akkor Ön és felhasználói: – Többtényezős hitelesítést vehetnek igénybe – Rendszergazdai jogosultságok nélkül telepíthetik az RMS-ügyfél 2.1-es verzióját a számítógépen
 
-- **Az alkalmazás tanúsítása a Windows 10-re**: Az alkalmazásnak a Microsoft Online bejelentkezési segéd helyett az ADAL-hitelesítés használatára való frissítésével Ön és ügyfelei az alábbiakra lesznek képesek:
-  - Többtényezős hitelesítés használata.
-  - Az RMS 2.1 ügyfél telepítése rendszergazdai jogosultságok nélkül a számítógépen.
- 
-  Ahhoz, hogy a végfelhasználó használni tudja az Azure Rights Management szolgáltatások előnyeit, telepítenie kell az *Online Services bejelentkezési segédet*. Az alkalmazás fejlesztőjeként nem tudhatja, hogy a végfelhasználó az RMS-t (helyszíni) vagy az Azure Rights Management szolgáltatásokat (felhőszolgáltatás) fogja-e használni.
+
+Ahhoz, hogy a végfelhasználó használni tudja az Azure Rights Management szolgáltatások előnyeit, telepítenie kell az *Online Services bejelentkezési segédet*. Az alkalmazás fejlesztőjeként nem tudhatja, hogy a végfelhasználó az RMS-t (helyszíni) vagy az Azure Rights Management szolgáltatásokat (felhőszolgáltatás) fogja-e használni.
+
 
 > [!IMPORTANT]
-> Az RMS SDK 2.1 ügyfélalkalmazás Azure RMS-sel történő futtatásához Azure RMS-bérlőt kell kérnie. Küldjön egy e-mailt az <rmcstbeta@microsoft.com> címre a bérlőkéréssel.
+> Ha az RMS SDK 2.1 ügyfélalkalmazását az Azure RMS szolgáltatással szeretné futtatni, saját bérlőket kell létrehoznia. További információért lásd: [Azure RMS-követelmények: Az Azure RMS-t támogató felhőalapú előfizetések](../get-started/requirements-subscriptions.md).
 
 -   Töltse le a [Microsoft Online Services bejelentkezési segédet](http://www.microsoft.com/en-us/download/details.aspx?id=28177) a Microsoft letöltőközpontjából.
 -   Győződjön meg arról, hogy a tartalomvédelemmel kompatibilis alkalmazás telepítője ellenőrzi a szolgáltatás előfeltételeinek teljesülését.
@@ -91,7 +129,6 @@ További információk az alkalmazás alkalmassá tételéről az RMS használat
 
 ## Kapcsolódó témakörök
 
-* [Használati útmutató](how-to-use-msipc.md)
 * [Microsoft Online Services bejelentkezési segéd](http://www.microsoft.com/en-us/download/details.aspx?id=28177)
 * [Configuring Rights Management (A Rights Management konfigurálása)](https://TechNet.Microsoft.Com/en-us/library/jj585002.aspx)
 * [Enable your application to work with cloud based RMS (Az alkalmazás alkalmassá tétele a felhőalapú RMS használatára)](how-to-use-file-api-with-aadrm-cloud.md)
@@ -100,9 +137,6 @@ További információk az alkalmazás alkalmassá tételéről az RMS használat
  
 
 
-
-
-
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO2-->
 
 

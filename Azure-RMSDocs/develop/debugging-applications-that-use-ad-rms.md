@@ -1,30 +1,20 @@
 ---
-# required metadata
+# kötelező metaadatok
 
-title: Tartalomvédelemmel kompatibilis alkalmazások hibakeresése | Azure RMS
-description: A következő témakör az alkalmazások hibakeresésének és a Windows Eseménynapló használatának módját ismerteti.
-keywords:
-author: bruceperlerms
-manager: mbaldwin
-ms.date: 04/28/2016
-ms.topic: article
-ms.prod: azure
-ms.service: rights-management
-ms.technology: techgroup-identity
-ms.assetid: 6F6C7651-6A6E-45DD-A0C5-F036F803249B
-# optional metadata
+title: Útmutató: Tartalomvédelemmel kompatibilis alkalmazások hibakeresése | Azure RMS description: A következő témakör az alkalmazás hibakeresését és a Windows eseménynaplójának használatát ismerteti.
+keywords: author: bruceperlerms manager: mbaldwin ms.date: 04/28/2016 ms.topic: article ms.prod: azure ms.service: rights-management ms.technology: techgroup-identity ms.assetid: 6F6C7651-6A6E-45DD-A0C5-F036F803249B
+# opcionális metaadatok
 
 #ROBOTS:
 audience: developer
 #ms.devlang:
-ms.reviewer: shubhamp
-ms.suite: ems
+ms.reviewer: shubhamp ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
 
 ---
 
-# Tartalomvédelemmel kompatibilis alkalmazások hibakeresése
+# Útmutató: Tartalomvédelemmel kompatibilis alkalmazások hibakeresése
 
 A következő témakör az alkalmazások hibakeresésének és a Windows Eseménynapló használatának módját ismerteti.
 
@@ -33,6 +23,7 @@ A következő témakör az alkalmazások hibakeresésének és a Windows Esemén
 A Rights Management Services SDK 2.1-es verziójában a fejlesztői verzió hibakeresést kizáró, futásidejű ellenőrzései le vannak tiltva.
 
 Az alábbi beállításkulcs használatával kapcsolhatja be a hibakeresési nyomkövetést. (A hibakeresési nyomkövetés kikapcsolásához állítsa ezt az értéket 0-ra.) A jelen kiadásban semmi másra nincs szükség a hibakereséshez.
+
 
 ```
 HKEY_LOCAL_MACHINE
@@ -48,7 +39,7 @@ HKEY_LOCAL_MACHINE
 
 Az eseménynapló neve: „Microsoft-RMS-MSIPC/Debug”. A Windows eseménynaplójában tehát a napló a következőképpen jelenik meg: „Alkalmazás- és szolgáltatásnaplók\\Microsoft\\RMS\\MSIPC\\Debug”.
 
-**Megjegyzés** A napló alapértelmezés szerint engedélyezett, és 3. részletességi szintre van állítva.
+**Megjegyzés**: A napló alapértelmezés szerint engedélyezett, és 3. részletességi szintre van állítva.
 
  
 
@@ -72,15 +63,11 @@ Az alábbi paranccsal például engedélyezhető az MSIPC eseménynaplózás, il
 
 ## Kapcsolódó témakörök
 
-* [Használati útmutató](how-to-use-msipc.md)
  
 
  
 
 
-
-
-
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO2-->
 
 

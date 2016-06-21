@@ -42,7 +42,7 @@ Egy felhasználó adott dokumentumra vonatkozó engedélyei lekérhetők az [**I
 
     A *használattal kapcsolatos korlátozások kényszerítési pontja* egy olyan hely az alkalmazás vezérlési folyamatában, ahol ki kell kényszerítenie egy használattal kapcsolatos korlátozást. A [Használattal kapcsolatos korlátozások – referencia](usage-restriction-reference.md) című témakör számos példát biztosít a tipikus kényszerítési pontokra.
 
-    Értékelje az alkalmazását, hogy meghatározhassa, melyik használattal kapcsolatos korlátozási kényszerítési pontot kell alkalmaznia.
+    Vizsgálja meg az alkalmazását, hogy meghatározhassa, melyik használattal kapcsolatos korlátozási kényszerítési pontot kell alkalmaznia.
 
     Előfordulhat, hogy az alkalmazásában nem lesz szükség az összes, a [Használattal kapcsolatos korlátozások – referencia](usage-restriction-reference.md) szakaszban leírt kényszerítési pontra. Ha például az alkalmazása nem engedélyezi a felhasználók számára tartalom nyomtatását, nem kell ellenőriznie az **IPC\_GENERIC\_PRINT** jogosultságot.
 
@@ -52,7 +52,6 @@ Egy felhasználó adott dokumentumra vonatkozó engedélyei lekérhetők az [**I
 
 ## Kapcsolódó témakörök
 
-* [Fejlesztői fogalmak](ad-rms-concepts-nav.md)
 * [**IpcAccessCheck**](/rights-management/sdk/2.1/api/win/functions#msipc_ipcaccesscheck)
 * [Használattal kapcsolatos korlátozások – referencia](usage-restriction-reference.md)
  
@@ -60,9 +59,6 @@ Egy felhasználó adott dokumentumra vonatkozó engedélyei lekérhetők az [**I
  
 
 
-
-
-
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO2-->
 
 

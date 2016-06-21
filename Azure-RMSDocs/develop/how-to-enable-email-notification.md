@@ -24,15 +24,14 @@ ms.suite: ems
 
 ---
 
-# E-mail-értesítések engedélyezése
+# Útmutató: Az e-mailes értesítés engedélyezése
 
 Az e-mail-értesítések lehetővé teszik, hogy a védett tartalom tulajdonosa értesítést kapjon, ha hozzáfértek tartalmához.
 
-Az adott licenchez tartozó e-mail-értesítések beállításához használja az [**IpcSetLicenseProperty**](/rights-management/sdk/2.1/api/win/functions#msipc_ipcsetlicenseproperty) parancsmagot úgy, hogy a *dwPropID* tulajdonságtípus-paraméter formátuma [**IPC\_LI\_APP\_SPECIFIC\_DATA**](/rights-management/sdk/2.1/api/win/License%20property%20types#msipc_license_property_types_IPC_LI_APP_SPECIFIC_DATA), az alkalmazás adatmezőinek formátuma pedig [**IPC\_NAME\_VALUE\_LIST**](/rights-management/sdk/2.1/api/win/structures#msipc_ipc_name_value_list).
+Az adott licenchez tartozó e-mail-értesítések beállításához használja az [**IpcSetLicenseProperty**](/rights-management/sdk/2.1/api/win/functions#msipc_ipcsetlicenseproperty) parancsmagot úgy, hogy a *dwPropID* tulajdonságtípus-paraméter formátuma [**IPC\_LI\_APP\_SPECIFIC\_DATA**](/rights-management/sdk/2.1/api/win/License%20property%20types#msipc_license_property_types_IPC_LI_APP_SPECIFIC_DATA), az alkalmazás adatmezőinek formátuma pedig [**IPC\_NAME\_VALUE\_LIST**](/rights-management/sdk/2.1/api/win/structures#msipc_ipc_name_value_list) legyen.
 
-## C++
+    C++
 
-    ...
     int numDataPairs = 3;
 
     IPC_NAME_VALUE propertyValuePairs [numDataPairs];
@@ -46,7 +45,7 @@ Az adott licenchez tartozó e-mail-értesítések beállításához használja a
     IPC_NAME_VALUE_LIST emailNotificationAppData = {numDataPairs, propertyValuePairs};
 
     result = IpcSetLicenseProperty( licenseHandle, FALSE, IPC_LI_APP_SPECIFIC_DATA, emailNotificationAppData);
-    ...    
+        
 
 Az RMS e-mail-értesítéshez tartozó alkalmazásadat-mezőket, tulajdonságnév- és értékpárokat az alábbi táblázat tartalmazza.
 
@@ -57,8 +56,8 @@ Az RMS e-mail-értesítéshez tartozó alkalmazásadat-mezőket, tulajdonságné
 |MS.Notify.Enabled|karakterlánc|„igaz” és „hamis”|Ha az érték „igaz”, a közzétételi licenc tulajdonosa minden alkalommal e-mail-értesítést kap, ha valaki egy végfelhasználói licenc beszerzéséhez megkísérli használni azt.|
 |MS.Notify.Culture|karakterlánc|„hu-HU”| **Forrás:** System.Globalization.CultureInfo.CurrentUICulture.Name <br><br>Ez az érték az értesítő e-mail honosított nyelvét, valamint az e-mail-üzenetben használatos dátum-/időbeállítást és számformázást határozza meg.<br><br>Az értéket annak a gépnek a felhasználói beállításai alapján kell megadni, amelyen a közzétételi licencet létrehozták, vagy a közzétételi licenc tulajdonosának előnyben részesített kulturális környezete alapján.|
 |MS.Notify.TZID|karakterlánc|„Csendes-óceáni téli idő”|**Forrás:** TimeZoneInfo.Local.Id – Windows-időzóna azonosítója.<br><br>Ez az érték a Microsoft Windows operációs rendszer időzóna-azonosítója, amely az adott időzóna és annak jellemzői leírására használatos.|
-|MS.Notify.TZO|karakterlánc|“-480”|Ez a közzétételi licenc tulajdonosának időzóna-eltolódása az UTC szerinti időhöz képest, percben kifejezve.<br><br>Érvényes TZID-érték megadásakor a rendszer az általa megadott időzóna-eltolódást használja, ez az érték pedig figyelmen kívül lesz hagyva.<br><br>Több mint valószínű, hogy azok a nem Windows-alapú közzétételi platformok ezt az értéket használják, amelyek nem rendelkeznek hozzáféréssel a Windows operációs rendszer időzóna-azonosítóinak értékeit tartalmazó listához.<br><br>Ha nem áll rendelkezésre TZID-érték, a rendszer ezt az értéket használja az értesítési üzenetekben alkalmazott időeltolódás kiszámításához, a TZSN-értéket pedig az időzóna nevének megjelenítéséhez használja (az időzóna értékétől függetlenül). Ezzel az időzóna értéke rögzített lesz, és azokban az esetekben, ahol alkalmazható, a nyári időszámítás szerint nem frissül.<br><br>Példa:<br><br>Ha a TXID értéke nincs megadva, a TZ0 értéke „-420”, a TZSN értéke pedig „Csendes-óceáni nyári idő”, az értesítési e-mailben megjelenített összes érték a „Csendes-óceáni nyári idő” szerint lesz beállítva és megjelenítve, még abban az esetben is, ha a nyári időszámítás aktuálisan már nincs használatban.<br><br>Ha azonban a TZSN és a TZDN mellett a TZID értéke is meg van adva, az értesítési e-mailben megadott időpontok annak megfelelően lesznek beállítva és megjelenítve, hogy a dátumnak és az időnek Nyári időszámítás szerinti vagy Téli dőszámítás szerinti üzemmódban kell-e megjelennie.|
-|MS.Notify.TZSN|karakterlánc|„Csendes-óceáni téli idő”|**Forrás:** TimeZoneInfo.Local.StandardName – Szabványos időzóna neve.<br><br>Ez az érték az adott időzóna szabványos időzónanevének honosított neve.|
+|MS.Notify.TZO|karakterlánc|“-480”|Ez a közzétételi licenc tulajdonosának időzóna-eltolódása az UTC szerinti időhöz képest, percben kifejezve.<br><br>Érvényes TZID-érték megadásakor a rendszer az általa megadott időzóna-eltolódást használja, ez az érték pedig figyelmen kívül lesz hagyva.<br><br>Több mint valószínű, hogy azok a nem Windows-alapú közzétételi platformok, amelyek nem rendelkeznek hozzáféréssel a Windows operációs rendszer időzóna-azonosítóinak értékeit tartalmazó listához, ezt az értéket használják.<br><br>Ha nem áll rendelkezésre TZID-érték, a rendszer ezt az értéket használja az értesítési üzenetekben alkalmazott időeltolódás kiszámításához, a TZSN-értéket pedig az időzóna nevének megjelenítéséhez használja (az időzóna értékétől függetlenül). Ezzel az időzóna értéke rögzített lesz, és azokban az esetekben, ahol alkalmazható, a nyári időszámítás szerint nem frissül.<br><br>Példa:<br><br>Ha a TXID értéke nincs megadva, a TZ0 értéke „-420”, a TZSN értéke pedig „Csendes-óceáni nyári idő”, az értesítési e-mailben megjelenített összes érték a „Csendes-óceáni nyári idő” szerint lesz beállítva és megjelenítve, még abban az esetben is, ha a nyári időszámítás aktuálisan már nincs használatban.<br><br>Ha azonban a TZSN és a TZDN mellett a TZID értéke is meg van adva, az értesítési e-mailben megadott időpontok annak megfelelően lesznek beállítva és megjelenítve, hogy a dátumnak és az időnek Nyári időszámítás szerinti vagy Téli időszámítás szerinti üzemmódban kell-e megjelennie.|
+|MS.Notify.TZSN|karakterlánc|„Csendes-óceáni téli idő”|**Forrás:** TimeZoneInfo.Local.StandardName – Téli időzóna neve.<br><br>Ez az érték az adott időzóna szabványos időzónanevének honosított neve.|
 |MS.Notify.TZDN|karakterlánc|„Csendes-óceáni nyári idő”|**Forrás:** TimeZoneInfo.Local.DaylightName – Nyári időzóna neve.<br><br>Ez az érték az adott időzóna nyári időszámítás szerinti nevének honosított neve. Ha az adott időzóna nem támogatja a nyári időszámítást, ez megegyezhet a normál névvel.|
 
 ## Kapcsolódó témakörök
@@ -71,6 +70,6 @@ Az RMS e-mail-értesítéshez tartozó alkalmazásadat-mezőket, tulajdonságné
  
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO2-->
 
 

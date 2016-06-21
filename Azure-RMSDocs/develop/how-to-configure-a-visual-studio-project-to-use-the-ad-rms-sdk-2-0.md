@@ -1,8 +1,8 @@
 ---
 # required metadata
 
-title: Configure Visual Studio | Azure RMS
-description: Visual Studio projektek az RMS SDK 2.1 használatához való konfigurálására vonatkozó utasítások.
+title: A Visual Studio konfigurálása | Azure RMS
+description: Visual Studio projekteknek az RMS SDK 2.1 használatára való konfigurálására vonatkozó utasítások.
 keywords:
 author: bruceperlerms
 manager: mbaldwin
@@ -26,11 +26,11 @@ ms.suite: ems
 
 # A Visual Studio konfigurálása
 
-Ez a témakör a Visual Studio-projektek a Rights Management Services SDK 2.1 használatára való konfigurálásával kapcsolatos utasításokat tartalmaz.
+Ez a témakör a Visual Studio-projekteknek a Rights Management Services SDK 2.1 használatára való konfigurálásával kapcsolatos utasításokat tartalmaz.
 
 ## Előfeltételek
 
--   [Az SDK telepítése](create-your-first-rights-aware-application.md)
+-   [Az SDK telepítése](install-the-rms-sdk.md)
 
 **Utasítások**
 
@@ -44,7 +44,7 @@ Ezek az utasítások natív 32 bites alkalmazások összeállítására vonatkoz
 
     A **Configuration Properties** (Konfigurációs tulajdonságok) menüben válassza a **VC++ Directories** (VC++ könyvtárak) lehetőséget, és adja hozzá az RMS SDK 2.1-es verzióját tartalmazó **$(MSIPCSDKDIR)\\inc** könyvtárat az **Include Directories** (Belefoglalt könyvárak) mezőhöz.
 
-    ![A Configuration Properties (Konfigurációs tulajdonságok) menü include directories (Belefoglalt könyvárak) mezője](../media/include_directories.png)
+    ![A Configuration Properties (Konfigurációs tulajdonságok) menü Include directories (Belefoglalt könyvárak) mezője](../media/include_directories.png)
 
 2.  Adja az RMS SDK 2.1 könyvtárat a Visual Studio 2010-projekthez.
 
@@ -53,13 +53,13 @@ Ezek az utasítások natív 32 bites alkalmazások összeállítására vonatkoz
     -   Win32 esetén használja a következőt: **$(MSIPCSDKDIR)\\lib**
     -   x64 esetén használja a következőt: **$(MSIPCSDKDIR)\\lib\\x64**
 
-    ![A Configuration Properties (Konfigurációs tulajdonságok) menü library directories (Könyvtárak) mezője](../media/library_directories.png)
+    ![A Configuration Properties (Konfigurációs tulajdonságok) menü Library directories (Könyvtárak) mezője](../media/library_directories.png)
 
 3.  Adja hozzá az RMS SDK 2.1 könyvtárban lévő fájlokat Visual Studio 2010-függőségekként.
 
     A **Linker** (Kötéskészítő) mezőben válassza az **Input** (Bevitel) lehetőséget, és adja hozzá az RMS SDK 2.1 könyvtárban lévő fájlokat, valamint az **Msipc.lib** és az **Msipc\_s.lib** fájlt az **Additional Dependencies** (További függőségek) mezőhöz.
 
-    ![A Linker (Kötéskészítő) könyvtár dependencies (függőségek) mezője](../media/additional_dependencies.png)
+    ![A Linker (Kötéskészítő) könyvtár Dependencies (Függőségek) mezője](../media/additional_dependencies.png)
 
 4.  Adja hozzá az RMS SDK 2.1 dinamikus csatolású kódtárat (DLL-t) késleltetett betöltésű DLL-ként.
 
@@ -75,16 +75,12 @@ Ezek az utasítások natív 32 bites alkalmazások összeállítására vonatkoz
 
 ## Kapcsolódó témakörök
 
-* [Használati útmutató](how-to-use-msipc.md)
-* [Az SDK telepítése](create-your-first-rights-aware-application.md)
+* [Az SDK telepítése](install-the-rms-sdk.md)
  
 
  
 
 
-
-
-
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO2-->
 
 
