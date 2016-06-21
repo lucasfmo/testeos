@@ -23,12 +23,12 @@ ms.suite: ems
 #ms.custom:
 
 ---
-** Ez az SDK-tartalom nem naprakész. Ideiglenesen arra kérjük, keresse fel az MSDN webhelyén található dokumentáció [aktuális verzióját](https://msdn.microsoft.com/library/windows/desktop/hh535290(v=vs.85).aspx). **
+
 # Rights Management Services SDK 2.1
 
 ## Cél
 
-A Rights Management Services SDK 2.1 platform lehetővé teszi a fejlesztők számára az adatvédelem biztosításához Rights Management Services-t (RMS) vagy Azure Rights Managementet használó alkalmazások létrehozását. Az RMS SDK 2.1 kezel olyan komplex biztonsági gyakorlatokat, mint a kulcskezelés, titkosítás és visszafejtés, valamint egyszerűsített API-t biztosít az egyszerű alkalmazásfejlesztéshez.
+A Rights Management Services SDK 2.1 platform lehetővé teszi a fejlesztők számára az adatvédelem biztosításához Rights Management Services-t (RMS) vagy Azure Rights Managementet használó alkalmazások létrehozását. Az RMS SDK 2.1 kezeli az olyan összetett biztonsági eljárásokat, mint a kulcskezelés, a titkosítás és a visszafejtés, valamint egyszerűsített API-val segíti a könnyű alkalmazásfejlesztést.
 
 ### Fejlesztői közönség
 
@@ -36,36 +36,34 @@ A Microsoft letöltőközpontban található [RMS SDK 2.1 letöltési oldalról]
 
 A technológiával kapcsolatban az [RMS Developer's Corner](http://blogs.msdn.com/b/rms/archive/2012/05/31/official-release-of-ad-rms-sdk-2-0-and-ad-rms-client-2-0.aspx) oldalon, a Microsoft Rights Management termékcsapatának az AD RMS-t használó adatvédelemmel dolgozó fejlesztők számára írt hivatalos blogján talál további információkat.
 
-A gyakran feltett kérdésekre adott válaszokért tekintse meg az [RMS gyakori kérdések](http://aka.ms/adrmsfaq ) fejlesztői szakaszát
+A gyakran feltett kérdésekre adott válaszokért tekintse meg az [RMS gyakori kérdések](http://aka.ms/adrmsfaq ) fejlesztői szakaszát.
 
-### Futtatókörnyezeti követelményei
+### Futtatási követelmények követelményei
 
 Egy konkrét programozási elem futtatási követelményeiről az adott elemhez tartozó referencia-témakör Követelmények szakaszában talál információt.
 
 |Témakör|Leírás|
 |-----|--------|
-|[Áttekintés](ad-rms-overview.md)|A Rights Management Services (RMS) egy információvédelmi technológia, amely segítségével megakadályozhatja a digitális adatok jogosulatlan használatát.|
-|[Mitől jobb ez az SDK](differences-between-ad-rms-and-ad-rms-2-0.md)|Az RMS SDK 2.1 jelentős fejlesztéseket tartalmaz az eredeti Rights Management Services SDK-hoz képest.|
+|[Áttekintés](ad-rms-overview.md)|A Rights Management Services (RMS) információvédelmi technológia, amelynek segítségével megakadályozhatja a digitális adatok jogosulatlan használatát.|
+|[Mitől jobb ez az SDK?](differences-between-ad-rms-and-ad-rms-2-0.md)|Az RMS SDK 2.1 jelentős fejlesztéseket tartalmaz az eredeti Rights Management Services SDK-hoz képest.|
 |[Első lépések](getting-started-with-ad-rms-2-0.md)|Az RMS SDK 2.1 platform segítségével a fejlesztők olyan alkalmazásokat készíthetnek, amelyek az RMS adatvédelmét használják.|
 |[Kibocsátási megjegyzések](release-notes-rtm.md)|Ez a témakör fontos információkat tartalmaz az RMS SDK 2.1 jelenlegi és korábbi kiadásaival kapcsolatban.|
-|[Kódminták](samples.md)|Ez a témakör számos olyan RMS SDK 2.1-et használó kódmintát tartalmaz, amelyek az MSDN letöltőközpontból érhetők el.|
-|[Használati útmutató](how-to-use-msipc.md)|Lépésenkénti útmutató az RMS SDK 2.1-et használó forgatókönyvekhez és feladatokhoz.|
+|[Kódminták](samples.md)|Ez a témakör számos olyan, az RMS SDK 2.1-et használó kódmintát tartalmaz, amely az MSDN letöltőközpontból érhető el.|
 |[Megjegyzések fejlesztők számára](developer-notes.md)|Ez a szakasz ismertet néhány fontos fejlesztési forgatókönyvre vonatkozó konkrét útmutatást.|
-|[Fejlesztői fogalmak](ad-rms-concepts-nav.md)|A szakasz témakörei ismertetik az RMS főbb fogalmait.|
-|[API-hivatkozás](/rights-management/sdk/2.1/api/win/constants)|Ez a szakasz az összes API elemre vonatkozó referenciaanyagot ismerteti.|
+|[API-hivatkozás](api-reference-2-1.md)|Ez a szakasz az összes API elemre vonatkozó referenciaanyagot ismerteti.|
 
  
 
 ## Kapcsolódó témakörök
 
 * [Az RMS SDK 2.1 letöltési oldala](http://www.microsoft.com/en-us/download/details.aspx?id=38397)
-* [RMS Developer's Corner](http://blogs.msdn.com/b/rms/archive/2012/05/31/official-release-of-ad-rms-sdk-2-0-and-ad-rms-client-2-0.aspx)
-* [RMS FAQ](http://aka.ms/adrmsfaq )
+* [RMS Developer's Corner (RMS fejlesztői blog)](http://blogs.msdn.com/b/rms/archive/2012/05/31/official-release-of-ad-rms-sdk-2-0-and-ad-rms-client-2-0.aspx)
+* [RMS FAQ (Gyakori kérdések az RMS-ről)](http://aka.ms/adrmsfaq )
  
 
  
 
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

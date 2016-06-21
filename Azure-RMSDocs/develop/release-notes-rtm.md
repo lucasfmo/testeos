@@ -23,7 +23,7 @@ ms.suite: ems
 #ms.custom:
 
 ---
-** Ez az SDK-tartalom nem naprakész. Ideiglenesen arra kérjük, keresse fel az MSDN webhelyén található dokumentáció [aktuális verzióját](https://msdn.microsoft.com/library/windows/desktop/hh535290(v=vs.85).aspx). **
+
 # Kibocsátási megjegyzések
 
 Ez a témakör fontos információkat tartalmaz az RMS SDK 2.1 jelenlegi és korábbi kiadásaival kapcsolatban.
@@ -32,7 +32,8 @@ Ez a témakör fontos információkat tartalmaz az RMS SDK 2.1 jelenlegi és kor
 
 >[!Note]  A szolgáltatásdokumentációnak a jelen szakaszban található frissítései a 2015. december 11-i SDK-letöltésre vonatkoznak.
 
-- **Továbbfejlesztett hitelesítési folyamat** – az OAuth2 tokenalapú hitelesítés használata az [Azure Active Directory Authentication Library (ADAL)](https://azure.microsoft.com/en-us/documentation/articles/active-directory-authentication-libraries/) hitelesítési táron keresztül. További információ a folyamattal és annak API-bővítményeivel kapcsolatban: [ADAL authentication for your RMS enabled application](https://msdn.microsoft.com/en-us/library/windows/desktop/mt661865(v=vs.85).aspx) (ADAL-hitelesítés RMS-kompatibilis alkalmazás esetén).
+- **Továbbfejlesztett hitelesítési folyamat** – az OAuth2 tokenalapú hitelesítés használata az [Azure Active Directory Authentication Library (ADAL)](https://azure.microsoft.com/en-us/documentation/articles/active-directory-authentication-libraries/) hitelesítési táron keresztül. További információ a folyamattal és annak API-bővítményeivel kapcsolatban: [ADAL-hitelesítés RMS-kompatibilis alkalmazásokhoz](how-to-use-adal-authentication.md).
+
 - **Frissítés az ADAL-ra** – Az alkalmazásnak a Microsoft Online bejelentkezési segéd helyett az ADAL-hitelesítés használatára való frissítésével Ön és ügyfelei az alábbiakra lesznek képesek:
 
  - Többtényezős hitelesítés használata.
@@ -44,14 +45,13 @@ Ez a témakör fontos információkat tartalmaz az RMS SDK 2.1 jelenlegi és kor
 
 ## 2015. decemberi frissítés
 
--   Teljesítménnyel kapcsolatos fejlesztések történtek számos területen, például:
+- Teljesítménnyel kapcsolatos fejlesztések történtek számos területen, például:
+    - Közzététel az elsődleges licenckiszolgálóról csak licenccel használható kiszolgálók esetén.
+    - Az RMS SDK 2.1 gyorsabban jelez hibát, ha nincs hálózati kapcsolat.
 
-    Közzététel az elsődleges licenckiszolgálóról csak licenccel használható kiszolgálók esetén.
-
-    Az RMS SDK 2.1 gyorsabban jelez hibát, ha nincs hálózati kapcsolat.
-
--   Számos, a hibaüzenetekkel és a hibaelhárítással kapcsolatos élményt javító frissítés.
--   Vegye figyelembe, hogy a [Supported platforms](supported-platforms.md) (Támogatott platformok) című témakörben ismertetett platformlista is frissítve lett.
+- Számos, a hibaüzenetekkel és a hibaelhárítással kapcsolatos élményt javító frissítés.
+- Vegye figyelembe, hogy a [Supported platforms](supported-platforms.md) (Támogatott platformok) című témakörben ismertetett platformlista is frissítve lett.
+- Az RMS SDK 2.1 már nem követeli meg üzem előtti környezet, illetve alkalmazásjegyzékek használatát. A fejlesztői dokumentációból töröltük ezeket a szakaszokat, és a teljes dokumentációt leegyszerűsítettük és átszerveztük.
 
 ## 2015. májusi frissítés
 
@@ -64,15 +64,13 @@ Ez a témakör fontos információkat tartalmaz az RMS SDK 2.1 jelenlegi és kor
 
     **Megjegyzés:** Az **IPC\_LI\_DEPRECATED\_ENCRYPTION\_ALGORITHMS** jelzőt a továbbiakban nem tesszük közzé az API felületen. Ez azt jelenti, hogy a jövőben az erre a jelzőre hivatkozó alkalmazások lefordítása nem fog megtörténni. A már létrehozott alkalmazások azonban továbbra is működnek majd, mivel a jelzőt rejtve megőrizzük az API-kódban. A régi, elavult titkosítási algoritmus jelzőjének előnyei továbbra is kihasználhatóak egy jelző egyszerű módosításával. További információ: [Working with encryption](working-with-encryption.md) (A titkosítás használata).
 
-     
-
 -   Azon **kiszolgáló módhoz készült alkalmazások**, amelyek az **IPC\_API\_MODE\_SERVER** [**API-mód értékét**](/rights-management/sdk/2.1/api/win/api%20mode%20values#msipc_api_mode_values_IPC_API_MODE_SERVER) használják, a továbbiakban nem igényelnek alkalmazásjegyzéket. Az alkalmazást tesztelheti éles RMS-kiszolgálón, és nem kell éles licencet beszereznie éles környezetbe történő váltáskor. További információ a kiszolgáló módhoz készült alkalmazásokkal kapcsolatban: [Application types](application-types.md) (Alkalmazástípusok).
 -   A **naplózás** mostantól a Windows-metódusok fájl- és az eseménykövetése esetén is használható.
 -   Ha **Windows 7 SP1 vagy Windows Server 2008 R2 rendszerű számítógépet** használ, olvassa el az alábbi, „Fontos megjegyzések fejlesztők számára” című szakaszban található megjegyzést.
 
 ## 2015. januári frissítés
 
--   **Nagyobb méretű védett fájlok (pfile) támogatása** – Mostantól az egy gigabájtnál (1 GB) nagyobb méretű védett fájlok is támogatást élveznek. További információ a védett fájlokkal kapcsolatban: [Supported file formats](supported-file-formats.md) (Támogatott fájlformátumok).
+-   **Nagyobb méretű védett fájlok (pfile) támogatása** – Mostantól az egy gigabájtnál (1 GB) nagyobb méretű védett fájlok is támogatást élveznek. További információ a védett fájlokkal kapcsolatban: [Támogatott fájlformátumok](supported-file-formats.md).
 -   **Továbbfejlesztett naplózás a jobb diagnosztika érdekében** – A naplózási szintek **ERROR** (Hiba) vagy **WARNING** (Figyelmeztetés) jelzést fognak megjeleníteni az áttekintést igénylő üzenetek esetén. A többi üzenet, a továbbra is megjelenő kivételeket is beleértve, **INFO** (Tájékoztatás) jelzéssel lesz naplózva.
 
     Ezt a megközelítést az adatvesztés elkerülése érdekében választottuk. Mostantól csak a fontos üzenetek jelennek meg a WARNING (Figyelmeztetés) szinttel.
@@ -96,8 +94,6 @@ Bővítve lettek az SDK File API összetevői, és az alábbi szolgáltatásokat
 
     **Megjegyzés** A File API-bővítmények további, itt nem látható támogatási adattípusokkal és -struktúrákkal bővültek. A jelen kiadásra vonatkozóan frissített témakörök mindegyike az **előzetes változat, a későbbiekben változhat** jelzéssel lett ellátva.
 
-     
-
     -   [**IpcfOpenFileOnHandle**](/rights-management/sdk/2.1/api/win/functions#msipc_ipcfopenfileonhandle)
     -   [**IpcfOpenFileOnILockBytes**](/rights-management/sdk/2.1/api/win/functions#msipc_ipcfopenfileonilockbytes)
     -   [**IpcfGetFileProperty**](/rights-management/sdk/2.1/api/win/functions#msipc_ipcfgetfileproperty)
@@ -112,8 +108,6 @@ Bővítve lettek az SDK File API összetevői, és az alábbi szolgáltatásokat
 -   A **tartalomazonosító** írhatóvá vált az **IPC\_LI\_CONTENT\_ID** tulajdonságon keresztül. További információ: [**License property types**](/rights-management/sdk/2.1/api/win/License%20property%20types#msipc_license_property_types_IPC_LI_APP_SPECIFIC_DATA) (Licenctulajdonság-típusok).
 -   **Éles jegyzék követelményei** – Amikor az RMS-kompatibilis alkalmazás/szolgáltatás kiszolgáló módban fut, a továbbiakban nem lesz szükség jegyzékre. További információ: [Application types](application-types.md) (Alkalmazástípusok).
 -   **Dokumentációfrissítések**
-
-    **Újraszervezett** - [How-to use](how-to-use-msipc.md) (Használati útmutató) című témakör ismerteti a környezetben való telepítés és az alkalmazástesztelés lépéseinek sorrendjét.
 
     **Ajánlott tesztelési eljárás** – útmutató a helyi kiszolgáló használatával kapcsolatban az Azure RMS használatával történő tesztelés előtt. További információ: [Enable your service application to work with cloud based RMS](how-to-use-file-api-with-aadrm-cloud.md) (A szolgáltatásalkalmazás alkalmassá tétele a felhőalapú RMS használatára).
 
@@ -135,11 +129,15 @@ Bővítve lettek az SDK File API összetevői, és az alábbi szolgáltatásokat
 
     Az Active Directory Rights Management Services File API a File API felülettel való bővítést követően az alábbi előnyöket és képességeket biztosítja.
 
-    Automatikusan láthat el védelemmel bizalmas adatokat a különböző fájlformátumok által használt Tartalomvédelmi szolgáltatás (IRM) megvalósításának részleteire vonatkozó ismeretek nélkül.
+      - Automatikusan láthat el védelemmel bizalmas adatokat a különböző fájlformátumok által használt Tartalomvédelmi szolgáltatás (IRM) megvalósításának részleteire vonatkozó ismeretek nélkül.
 
-    A Microsoft Office-fájlok, a PDF-fájlok, illetve bizonyos más fájltípusok natív módon láthatók el védelemmel. A natív védelemmel ellátható fájltípusok teljes listája: [File API configuration](file-api-configuration.md) (A File API konfigurálása).
+      - A Microsoft Office-fájlok, a PDF-fájlok, illetve bizonyos más fájltípusok natív módon láthatók el védelemmel. A natív védelemmel ellátható fájltípusok teljes listája: [File API configuration](file-api-configuration.md) (A File API konfigurálása).
 
-    A rendszer- és Office-fájlok kivételével minden fájl ellátható védelemmel az RMS Protected File formátum (PFile) használatával.
+      - A rendszer- és Office-fájlok kivételével minden fájl ellátható védelemmel az RMS Protected File formátum (PFile) használatával.
+
+    A fájl API implementálása a következő négy új függvénnyel történik: [IpcfDecryptFile](/rights-management/sdk/2.1/api/win/functions#msipc_ipcfdecryptfile), [IpcfEncryptFile](/rights-management/sdk/2.1/api/win/functions#msipc_ipcfencryptfile), [IpcfGetSerializedLicenseFromFile](/rights-management/sdk/2.1/api/win/functions#msipc_ipcfgetserializedlicensefromfile) és [IpcfIsFileEncrypted](/rights-management/sdk/2.1/api/win/functions#msipc_ipcfisfileencrypted).
+
+    A fájl API megköveteli, hogy a Rights Management Services-ügyfél 2.1-es verziója telepítve legyen az ügyfélszámítógépre, és hogy a számítógép kapcsolatot tudjon létesíteni egy RMS-kiszolgálóval. Az RMS-kiszolgálóval, az RMS-ügyféllel és funkcióikkal kapcsolatos további információkért lásd [az AD RMS informatikusoknak szóló dokumentációját](https://technet.microsoft.com/en-us/library/cc771234(v=ws.10).aspx) a TechNeten.
 
 -   **Probléma**: Teljesen új licenc létrehozásakor a tulajdonosi jogosultságokat explicit módon kell megadni.
 
@@ -159,9 +157,10 @@ Bővítve lettek az SDK File API összetevői, és az alábbi szolgáltatásokat
 
 **V**: Használja a 0 értéket az alapértelmezett területi beállításhoz. Ebben az esetben az AD RMS Client 2.1 az alábbi sorrendben keresi a neveket és leírásokat, és az első elérhetőt adja vissza:
 
-1 – Felhasználó által megadott LCID.
-2 – A rendszer területi beállításának megfelelő LCID.
-3 – A Rights Management Server (RMS) sablonjában megadott első elérhető nyelv.
+    1 - User preferred LCID.
+    2 - System locale LCID.
+    3 - The first available language specified in the Rights Management Server (RMS) template.
+
 Ha nem kérhető le név és leírás, a rendszer hibát jelez. Egy adott LCID azonosítóhoz csak egy név és leírás tartozhat.
 
 ## Kapcsolódó témakörök
@@ -181,6 +180,6 @@ Ha nem kérhető le név és leírás, a rendszer hibát jelez. Egy adott LCID a
  
 
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

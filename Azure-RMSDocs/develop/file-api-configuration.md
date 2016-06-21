@@ -2,7 +2,7 @@
 # required metadata
 
 title: A fájl API konfigurálása | Azure RMS
-description: A fájl API működése konfigurálható a beállításjegyzék beállításain keresztül.
+description: A fájl API működése konfigurálható a beállításjegyzék beállításaival.
 keywords:
 author: bruceperlerms
 manager: mbaldwin
@@ -40,56 +40,55 @@ További információt a támogatott fájlformátumokról ezen témakör **Fájl
 
 A következő szakaszok a titkosítást szabályozó kulcsokat és kulcsértékeket írják le.
 
-
 ### HKEY_LOCAL_MACHINE\Software\Microsoft\MSIPC\FileProtection
 
-*Típus*: Kulcs
+**Típus**: Kulcs
 
-*Leírás*: A fájl API általános konfigurációját tartalmazza.
+**Leírás**: A fájl API általános konfigurációját tartalmazza.
 
 ### HKEY_LOCAL_MACHINE\Software\Microsoft\MSIPC\FileProtection\&lt;EXT&gt;
 
-*Típus: Kulcs
+**Típus**: Kulcs
 
-*Leírás: Egy adott fájlkiterjesztés (például TXT, JPG stb.) konfigurációs adatait adja meg.
+**Leírás**: Egy adott fájlkiterjesztés (például TXT, JPG stb.) konfigurációs adatait adja meg.
 
-- A „*” helyettesítő karakter engedélyezett, de egy adott fájlkiterjesztéshez tartozó beállítás elsőbbséget élvez a helyettesítő karakterrel szemben. A helyettesítő karakter nem érinti a Microsoft Office-fájlok beállításait; ezeket explicit módon kell letiltani fájltípusonként.
+- A „*” helyettesítő karakter engedélyezett, de az adott fájlkiterjesztéshez tartozó beállítás elsőbbséget élvez a helyettesítő karakterrel szemben. A helyettesítő karakter nem érinti a Microsoft Office-fájlok beállításait; ezeket explicit módon kell letiltani fájltípusonként.
 - A kiterjesztéssel nem rendelkező fájlok megadásához használja a „.” karaktert.
 - Ha egy adott fájlkiterjesztéshez ad meg kulcsot, ne használjon „.” karaktert. A .txt fájlok beállításainak megadásához használja például a következőt: `HKEY_LOCAL_MACHINE\Software\Microsoft\MSIPC\FileProtection\TXT`. (Ne használja ezt: `HKEY_LOCAL_MACHINE\Software\Microsoft\MSIPC\FileProtection\.TXT`).
 
-A védelem működésének beállításához adja meg az *Encryption* értéket a kulcsban. Ha az *Encryption* érték nincs megadva, a fájl az alapértelmezett működést követi.
+A védelem működésének beállításához adja meg az **Encryption** értéket a kulcsban. Ha az **Encryption** érték nincs megadva, a fájl az alapértelmezett működést követi.
 
 
 ### HKEY_LOCAL_MACHINE\Software\Microsoft\MSIPC\FileProtection\&lt;EXT&gt;\Encryption*
 
-*Típus: REG_SZ*
+**Típus:** REG_SZ
 
-*Leírás: a következő három érték egyikét tartalmazza:
+**Leírás**: a következő három érték egyikét tartalmazza:
 
-- *Off*: A védelem le van tiltva.
+- **Off**: A védelem le van tiltva.
 
-> [AZURE.NOTE] A beállítás nincs hatással a visszafejtésre. Egy titkosított fájl – akár natív, akár Pfile-védelemmel lett titkosítva – visszafejthető, ha a felhasználó rendelkezik EXTRACT jogosultsággal.
+> [!Note] A beállítás nincs hatással a visszafejtésre. Egy titkosított fájl – akár natív, akár Pfile-védelemmel lett titkosítva – visszafejthető, ha a felhasználó rendelkezik **EXTRACT** jogosultsággal.
 
-- *Native*:  A rendszer natív titkosítást használ. Office-fájlok esetében a titkosított fájl kiterjesztése megegyezik az eredeti fájléval. Egy .docx kiterjesztésű fájl például .docx kiterjesztésű fájlba lesz titkosítva. Más natív védelemmel ellátott fájlok esetében a fájl p**zzz** kiterjesztési formátumú fájlba lesz titkosítva, ahol **zzz** az eredeti fájl kiterjesztése. A .txt kiterjesztésű fájlok például .ptxt kiterjesztésű fájlba lesznek titkosítva. Az alábbiakban látható azon fájlkiterjesztések listája, amelyekre natív védelem alkalmazható.
+- **Native**:  A rendszer natív titkosítást használ. Office-fájlok esetében a titkosított fájl kiterjesztése megegyezik az eredeti fájléval. Egy .docx kiterjesztésű fájl például .docx kiterjesztésű fájlba lesz titkosítva. Más natív védelemmel ellátott fájlok esetében a fájl p*zzz* kiterjesztési formátumú fájlba lesz titkosítva, ahol a *zzz* a fájl eredeti kiterjesztése. A .txt kiterjesztésű fájlok például .ptxt kiterjesztésű fájlba lesznek titkosítva. Az alábbiakban látható azon fájlkiterjesztések listája, amelyekre natív védelem alkalmazható.
 
-- *Pfile*: A rendszer PFile-titkosítást használ. A fájl eredeti kiterjesztéséhez a titkosításkor a rendszer hozzáfűz egy .pfile kiterjesztést. Titkosítás után egy .txt fájl kiterjesztése például .txt.pfile lesz.
+- **Pfile**: A rendszer PFile-titkosítást használ. A fájl eredeti kiterjesztéséhez a titkosításkor a rendszer hozzáfűz egy .pfile kiterjesztést. Titkosítás után egy .txt fájl kiterjesztése például .txt.pfile lesz.
 
 
-> [AZURE.NOTE] A beállítás nincs hatással az Office-fájlformátumokra. Ha `HKEY_LOCAL_MACHINE\Software\Microsoft\MSIPC\FileProtection\DOCX\Encryption` például &quot;Pfile” értékre van állítva, a .docx fájlokat a rendszer továbbra is natív védelemmel titkosítja, és a titkosított fájl kiterjesztése továbbra is .docx lesz.
+> [!Note] A beállítás nincs hatással az Office-fájlformátumokra. Ha `HKEY_LOCAL_MACHINE\Software\Microsoft\MSIPC\FileProtection\DOCX\Encryption` például &quot;Pfile” értékre van állítva, a .docx fájlokat a rendszer továbbra is natív védelemmel titkosítja, és a titkosított fájl kiterjesztése továbbra is .docx lesz.
 
 Bármely más érték megadása, vagy ha nincs érték megadva, alapértelmezett viselkedést eredményez.
 
-## Alapértelmezett viselkedés különböző fájlformátumok esetében**
+## Az alapértelmezett viselkedés különböző fájlformátumok esetében
 
 -   **Office-fájlok**: A natív titkosítás engedélyezve van.
 -   **txt-, xml-, jpg-, jpeg-, pdf-, png-, tiff-, bmp-, gif-, giff-, jpe-, jfif-, jif-fájlok** A natív titkosítás engedélyezve van (xxx helyett pxxx lesz)
 -   **Minden más fájl** A titkosítás pfile-kompatibilis (xxx helyett xxx.pfile lesz)
 
-Ha egy blokkolt fájltípust próbál titkosítani, [**IPCERROR\_FILE\_ENCRYPT\_BLOCKED**](/rights-management/sdk/2.1/api/win/error%20codes) hiba történik.
+Ha egy blokkolt fájltípust próbál titkosítani, [**IPCERROR\_FILE\_ENCRYPT\_BLOCKED**](/rights-management/sdk/2.1/api/win/error%20codes) hiba jelentkezik.
 
 ### Fájl API – a fájltámogatás részletei
 
-Natív támogatás adható hozzá bármilyen fájltípus (kiterjesztés) számára. Például: Az &lt;ext&gt; (nem Office) kiterjesztés esetén a \*.p&lt;ext&gt; kiterjesztést használja a rendszer, ha a rendszergazdai konfiguráció „NATIVE” (natív) értékű a kiterjesztésre vonatkozóan.
+Natív támogatás adható hozzá bármilyen fájltípus (kiterjesztés) számára. Például: Az &lt;ext&gt; (nem Office-) kiterjesztés esetén a \*.p&lt;ext&gt; kiterjesztést használja a rendszer, ha a rendszergazdai konfiguráció „NATIVE” (Natív) értékű a kiterjesztésre vonatkozóan.
 
 **Office-fájlok**
 
@@ -106,7 +105,7 @@ Natív támogatás adható hozzá bármilyen fájltípus (kiterjesztés) számá
 
 **Minden más fájlformátum**
 
--   Védelem típusa = PFile: a sample.*zzz* titkosítva sample.*zzz*.pfile; ahol a zzz az eredeti fájlkiterjesztés.
+-   Védelem típusa = PFile: a sample.*zzz* titkosítva sample.*zzz*.pfile; ahol a *zzz* az eredeti fájlkiterjesztés.
 -   Off: Letiltja a titkosítást.
 
 ### Példák
@@ -158,9 +157,6 @@ HKEY_LOCAL_MACHINE
  
 
 
-
-
-
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO2-->
 
 
