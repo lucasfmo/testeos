@@ -1,14 +1,25 @@
 ---
-# kötelező metaadatok
+# required metadata
 
-title: Útmutató: A dokumentumkövetés és -visszavonás használata | Azure RMS description: A dokumentumkövetési funkció használatához ismerni kell a szolgáltatáshoz kapcsolódó metaadatok és regisztráció kezelését.
-keywords: author: bruceperlerms manager: mbaldwin ms.date: 04/28/2016 ms.topic: article ms.prod: azure ms.service: rights-management ms.technology: techgroup-identity ms.assetid: 70E10936-7953-49B0-B0DC-A5E7C4772E60
-# opcionális metaadatok
+title:
+How-to: enable document tracking and revocation | Azure RMS
+description: The document tracking feature requires some simple understandings about managing the associated metadata and registration with the service.
+keywords:
+author: bruceperlerms
+manager: mbaldwin
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod: azure
+ms.service: rights-management
+ms.technology: techgroup-identity
+ms.assetid: 70E10936-7953-49B0-B0DC-A5E7C4772E60
+# optional metadata
 
 #ROBOTS:
 audience: developer
 #ms.devlang:
-ms.reviewer: shubhamp ms.suite: ems
+ms.reviewer: shubhamp
+ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
 

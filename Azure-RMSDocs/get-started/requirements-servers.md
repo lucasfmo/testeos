@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Azure RMS-követelmények: Az Azure Rights Managementet támogató helyszíni kiszolgálók | Azure RMS
+title: "Azure RMS-követelmények: Az Azure Rights Managementet támogató helyszíni kiszolgálók | Azure RMS"
 description:
 keywords:
 author: cabailey

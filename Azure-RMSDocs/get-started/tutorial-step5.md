@@ -1,12 +1,28 @@
 ---
-# kötelező metaadatok
+# required metadata
 
-cím: Azure RMS gyors üzembe helyezési útmutató – 5. lépés | Azure RMS leírás: Az utolsó lépése annak az oktatóanyagnak, amellyel gyorsan kipróbálhatja a szervezeténél a Microsoft Azure Rights Managementet csupán öt, 15 percnél gyorsabban végrehajtható lépéssel.
-keywords: author: cabailey manager: mbaldwin ms.date: 05/09/2016 ms.topic: get-started-article ms.prod: azure ms.service: rights-management ms.technology: techgroup-identity ms.assetid: aa06826d-c227-449b-93ea-6ce394608997
+title: "Azure RMS gyors üzembe helyezési útmutató – 5. lépés | AZURE RMS"
+description: "Az utolsó lépése annak az oktatóanyagnak, amellyel gyorsan kipróbálhatja a szervezeténél a Microsoft Azure Rights Managementet csupán öt, 15 percnél gyorsabban végrehajtható lépéssel."
+keywords:
+author: cabailey
+manager: mbaldwin
+ms.date: 05/09/2016
+ms.topic: get-started-article
+ms.prod: azure
+ms.service: rights-management
+ms.technology: techgroup-identity
+ms.assetid: aa06826d-c227-449b-93ea-6ce394608997
 
-# opcionális metaadatok
+# optional metadata
 
-ROBOTS: audience: ms.devlang: ms.reviewer: esaggese ms.suite: ems ms.tgt_pltfrm: ms.technology: ms.custom:
+ROBOTS:
+audience:
+ms.devlang:
+ms.reviewer: esaggese
+ms.suite: ems
+ms.tgt_pltfrm:
+ms.technology:
+ms.custom:
 
 ---
 

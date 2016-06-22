@@ -1,14 +1,25 @@
 ---
-# kötelező metaadatok
+# required metadata
 
-title: Útmutató: A szolgáltatásalkalmazás alkalmassá tétele a felhőalapú RMS használatára | Azure RMS description: Ez a témakör a szolgáltatásalkalmazás Azure Rights Management használatához végzett beállításának lépéseit ismerteti..
-keywords: author: bruceperlerms manager: mbaldwin ms.date: 04/28/2016 ms.topic: article ms.prod: azure ms.service: rights-management ms.technology: techgroup-identity ms.assetid: EA1457D1-282F-4CF3-A23C-46793D2C2F32
-# opcionális metaadatok
+title:
+How-to: enable your service application to work with cloud based RMS | Azure RMS
+description: This topic outlines steps for setting up your service application to use Azure Rights Management.
+keywords:
+author: bruceperlerms
+manager: mbaldwin
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod: azure
+ms.service: rights-management
+ms.technology: techgroup-identity
+ms.assetid: EA1457D1-282F-4CF3-A23C-46793D2C2F32
+# optional metadata
 
 #ROBOTS:
 audience: developer
 #ms.devlang:
-ms.reviewer: shubhamp ms.suite: ems
+ms.reviewer: shubhamp
+ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
 

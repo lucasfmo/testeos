@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: How to&#58; Get an Azure Application ID (Útmutató: Azure alkalmazásazonosító beszerzése) | Azure RMS
+title: "How to&#58; Get an Azure Application ID (Útmutató: Azure alkalmazásazonosító beszerzése) | Azure RMS"
 description: Ahhoz, hogy RMS-kompatibilis alkalmazásokat hozhasson létre a Microsoft Rights Management SDK 4.2 segítségével, szerződést kell kötnie az RMS csapatával.
 keywords:
 author: bruceperlerms

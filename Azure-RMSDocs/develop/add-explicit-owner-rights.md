@@ -1,14 +1,25 @@
 ---
-# kötelező metaadatok
+# required metadata
 
-title: Útmutató: Explicit tulajdonosi jogosultságok hozzáadása | Azure RMS description: Az alkalmazásnak teljesen új licenc létrehozásakor explicit „Tulajdonos” jogosultságot kell hozzáadnia.
-keywords: author: bruceperlerms manager: mbaldwin ms.date: 04/28/2016 ms.topic: article ms.prod: azure ms.service: rights-management ms.technology: techgroup-identity ms.assetid: EF43FAC4-ABB4-459D-B173-972B5716F816
-# opcionális metaadatok
+title:
+How-to: add explicit owner rights | Azure RMS
+description: Your application should explicitly add "Owner" rights when creating a license from scratch.
+keywords:
+author: bruceperlerms
+manager: mbaldwin
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod: azure
+ms.service: rights-management
+ms.technology: techgroup-identity
+ms.assetid: EF43FAC4-ABB4-459D-B173-972B5716F816
+# optional metadata
 
 #ROBOTS:
 audience: developer
 #ms.devlang:
-ms.reviewer: shubhamp ms.suite: ems
+ms.reviewer: shubhamp
+ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
 
