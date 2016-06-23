@@ -1,11 +1,28 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [Azure-RMSDocs\get-started\rapid-deployment-guide.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/ed50d87138c428fadfd22cd5b3ef3c7f7e421848/Azure-RMSDocs/get-started/rapid-deployment-guide.md) | InSyncHandedBackSuccess | [Details](#01c2436218e0d7fd80a31cdc037d9dc8933e42f2107)
 
 ## Item Details
+##### <a name='01c2436218e0d7fd80a31cdc037d9dc8933e42f2107'></a> Source: [Azure-RMSDocs\get-started\rapid-deployment-guide.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/ed50d87138c428fadfd22cd5b3ef3c7f7e421848/Azure-RMSDocs/get-started/rapid-deployment-guide.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [Azure-RMSDocs\get-started\rapid-deployment-guide.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/b75398f9593123970d99f10301f14be8887c5db7/Azure-RMSDocs/get-started/rapid-deployment-guide.md)
+* Handoff File: [rapid-deployment-guide.4336f7d3b1b85876476c53a297ad4a171d62cb10.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/f2b0f3d8b8fdf7673707ca6c8af2b583d9bf29af/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/rapid-deployment-guide.4336f7d3b1b85876476c53a297ad4a171d62cb10.hu-hu.xlf)
+* Handoff Datetime: 2016-05-12 01:03:10
+* Handoff Reason: Include
+* Archive File: [rapid-deployment-guide.4336f7d3b1b85876476c53a297ad4a171d62cb10.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/b466ea8018d51ad26b7221d547bf5aa30a366d7c/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/archive/rapid-deployment-guide.4336f7d3b1b85876476c53a297ad4a171d62cb10.hu-hu.xlf)
+* Archive Datetime: 2016-05-12 01:42:12
+* Handback File: [rapid-deployment-guide.4336f7d3b1b85876476c53a297ad4a171d62cb10.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/dcbaa4499878cc5d26d1153c6623b3b360d9d9a6/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/rapid-deployment-guide.4336f7d3b1b85876476c53a297ad4a171d62cb10.hu-hu.xlf)
+* Handback Datetime: 2016-06-23 09:27:14
+* Bilingual File: [rapid-deployment-guide.4336f7d3b1b85876476c53a297ad4a171d62cb10.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/dcbaa4499878cc5d26d1153c6623b3b360d9d9a6/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/rapid-deployment-guide.4336f7d3b1b85876476c53a297ad4a171d62cb10.hu-hu.xlf)
+* Bilingual Datetime: 2016-06-23 09:28:58
+* [Back to Top](#report-top)
+
 
 ## Error Details
 

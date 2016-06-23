@@ -2005,8 +2005,8 @@
 * Archive Datetime: 2016-05-12 01:42:12
 * Handback File: [rapid-deployment-guide.4336f7d3b1b85876476c53a297ad4a171d62cb10.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/dcbaa4499878cc5d26d1153c6623b3b360d9d9a6/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/rapid-deployment-guide.4336f7d3b1b85876476c53a297ad4a171d62cb10.hu-hu.xlf)
 * Handback Datetime: 2016-06-23 09:27:14
-* Bilingual File: [rapid-deployment-guide.4336f7d3b1b85876476c53a297ad4a171d62cb10.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/ac4b1d4416530b83c58d8a3c924fa3137b26b9f9/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/rapid-deployment-guide.4336f7d3b1b85876476c53a297ad4a171d62cb10.hu-hu.xlf)
-* Bilingual Datetime: 2016-06-16 10:22:53
+* Bilingual File: [rapid-deployment-guide.4336f7d3b1b85876476c53a297ad4a171d62cb10.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/dcbaa4499878cc5d26d1153c6623b3b360d9d9a6/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/rapid-deployment-guide.4336f7d3b1b85876476c53a297ad4a171d62cb10.hu-hu.xlf)
+* Bilingual Datetime: 2016-06-23 09:28:58
 * [Back to Top](#report-top)
 
 ##### <a name='adc0c3724139eaedd1b50972a22877437f17e4ea108'></a> Source: [Azure-RMSDocs\get-started\requirements-applications.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/963df10dc710df226ab8c7bd5e1d57d235e22561/Azure-RMSDocs/get-started/requirements-applications.md)
