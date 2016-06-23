@@ -6,7 +6,7 @@ description:
 keywords:
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 06/08/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -30,7 +30,7 @@ ms.suite: ems
 *A következőkre vonatkozik: Azure Rights Management, Windows Server 2012, Windows Server 2012 R2*
 
 
-Az alábbi információk segítségével konfigurálhatja a helyszíni kiszolgálókat az Azure Rights Management- (RMS-) összekötő használatához. Ezeket az eljárásokat a [Deploying the Azure Rights Management connector](deploy-rms-connector.md) (Az Azure Rights Management-összekötő üzembe helyezése) című témakör 5. lépése is ismerteti..
+Az alábbi információk segítségével konfigurálhatja a helyszíni kiszolgálókat az Azure Rights Management- (RMS-) összekötő használatához. Ezeket az eljárásokat a [Deploying the Azure Rights Management connector](deploy-rms-connector.md) (Az Azure Rights Management-összekötő üzembe helyezése) című témakör 5. lépése is ismerteti.
 
 Mielőtt belekezdene, győződjön meg róla, hogy telepítette és konfigurálta az RMS-összekötőt, és ellenőrzött minden [előfeltételt](deploy-rms-connector.md#prerequisites-for-the-rms-connector), amelyek az összekötőt a későbbiekben használó kiszolgálókra vonatkoznak.
 
@@ -83,8 +83,7 @@ Hátrányok:
 
 ---
 
-> [!IMPORTANT]
-> Mindkét esetben manuálisan kell telepítenie az előfeltételeket és konfigurálnia az Exchange-et, a SharePointot és a fájlbesorolási infrastruktúrát a Rights Management használatára.
+> [!IMPORTANT] Mindkét esetben manuálisan kell telepítenie az előfeltételeket és konfigurálnia az Exchange-et, a SharePointot és a fájlbesorolási infrastruktúrát a Rights Management használatára.
 
 A legtöbb szervezet esetében az automatikusan, a Microsoft RMS-összekötő kiszolgálókonfiguráló eszközével végzett konfiguráció a jobb megoldás, mert hatékonyabb és megbízhatóbb a manuális konfigurálásnál.
 
@@ -92,7 +91,7 @@ Miután végrehajtotta az érintett kiszolgálókon a konfigurációs változtat
 
 ### A Microsoft RMS-összekötő kiszolgálókonfiguráló eszközének használata
 
-1.  Ha még nem töltötte le a Microsoft RMS-összekötő kiszolgálókonfiguráló eszközének parancsfájlját (GenConnectorConfig.ps1), töltse le a [Microsoft letöltőközpontból](http://go.microsoft.com/fwlink/?LinkId=314106)..
+1.  Ha még nem töltötte le a Microsoft RMS-összekötő kiszolgálókonfiguráló eszközének parancsfájlját (GenConnectorConfig.ps1), töltse le a [Microsoft letöltőközpontból](http://go.microsoft.com/fwlink/?LinkId=314106).
 
 2.  Mentse a GenConnectorConfig.ps1 fájlt arra a számítógépre, amelyen az eszközt futtatni fogja. Ha az eszközt helyileg fogja futtatni, ennek a számítógépnek az RMS-összekötővel folytatott kommunikációhoz konfigurálandó kiszolgálónak kell lennie. Egyéb esetben bármilyen számítógépre mentheti a fájlt.
 
@@ -115,8 +114,7 @@ Miután végrehajtotta az érintett kiszolgálókon a konfigurációs változtat
 
 A parancsfájl futtatásához meg kell adnia a szervezete RMS-összekötőjének URL-címét. Adja meg a protokoll-előtagot (HTTP:// vagy HTTPS://) és az összekötő nevét, amelyet a DNS-ben az összekötője terheléselosztási címeként megadott. Például: https://connector.contoso.com. Az eszköz ezután a megadott URL-cím felhasználásával csatlakozik az RMS-összekötőt futtató kiszolgálókhoz, és beszerzi a szükséges konfigurációk létrehozásához használt további paramétereket.
 
-> [!IMPORTANT]
-> Az eszköz futtatásakor győződjön meg róla, hogy a szervezetére vonatkozó terheléselosztási RMS-összekötő nevét adja meg, és nem egy különálló kiszolgálóét, amelyen az RMS-összekötő szolgáltatás fut.
+> [!IMPORTANT] Az eszköz futtatásakor győződjön meg róla, hogy a szervezetére vonatkozó terheléselosztási RMS-összekötő nevét adja meg, és nem egy különálló kiszolgálóét, amelyen az RMS-összekötő szolgáltatás fut.
 
 Az egyes szolgáltatástípusokról a következő szakaszokban talál pontosabb információt:
 
@@ -188,10 +186,9 @@ Az RMS-összekötő használatához a SharePointot futtató kiszolgálóknak az 
 
 -   SharePoint Server 2010
 
-Egy SharePoint 2016-ot vagy SharePoint 2013-at futtató kiszolgálónak az MSIPC ügyfél 2.1 egy olyan verzióját is futtatnia kell, amely támogatott az RMS-összekötő mellett. Hogy biztosan a támogatott verzióval rendelkezzen, töltse le a legfrissebb ügyfelet a [Microsoft letöltőközpontból](http://www.microsoft.com/download/details.aspx?id=38396).
+Egy SharePoint 2016-ot vagy SharePoint 2013-at futtató kiszolgálónak az MSIPC ügyfél 2.1 egy olyan verzióját is futtatnia kell, amely támogatott az RMS-összekötő mellett. Hogy biztosan a támogatott verzióval rendelkezzen, töltse le a legfrissebb ügyfélprogramot a [Microsoft letöltőközpontból](http://www.microsoft.com/download/details.aspx?id=38396).
 
-> [!WARNING]
-> Az MSIPC 2.1 ügyfélnek több verziója is van, ezért győződjön meg róla, hogy 1.0.2004.0-s vagy annál újabb verzióval rendelkezik.
+> [!WARNING] Az MSIPC 2.1 ügyfélprogramnak több verziója is van, ezért győződjön meg róla, hogy 1.0.2004.0-s vagy annál újabb verzióval rendelkezik.
 >
 > Az ügyfél verzióját az MSIPC.dll fájl verziószámának ellenőrzésével tudja megerősíteni, amely a **\Program Files\Active Directory Rights Management Services Client 2.1**mappában található. Az MSIPC 2.1 ügyfél verziószáma a Tulajdonságok párbeszédablakban látható.
 
@@ -248,19 +245,13 @@ Ahhoz, hogy az RMS-összekötőt és a fájlbesorolási infrastruktúrát Office
 3.  Hozzon létre besorolási szabályokat és fájlkezelési feladatokat a dokumentumok RMS-titkosítással történő védelmére, majd határozzon meg egy RMS-sablont az RMS-házirendek automatikus alkalmazásához. További információkat a Windows Server dokumentációs könyvtárának [A fájlkiszolgálói erőforrás-kezelő áttekintése](http://technet.microsoft.com/library/hh831701.aspx) című részében talál.
 
 ## További lépések
-Most, hogy az RMS-összekötőt telepítette és konfigurálta, valamint a kiszolgálókat is konfigurálta a használatára, az informatikai rendszergazdák és a felhasználók megvédhetik és felhasználhatják az e-mail-üzeneteket és a dokumentumokat az Azure RMS használatával. Hogy megkönnyítse a felhasználók dolgát, helyezze üzembe az RMS megosztóalkalmazását, amely telepít egy Office-bővítményt és új, a jobb kattintásra megjelenő opciókat tesz elérhetővé a Fájlkezelőben. További információk: [Rights Management sharing application administrator guide](../rms-client/sharing-app-admin-guide.md) (A Rights Management megosztóalkalmazás rendszergazdai kézikönyve)..
+Most, hogy az RMS-összekötőt telepítette és konfigurálta, valamint a kiszolgálókat is konfigurálta a használatára, az informatikai rendszergazdák és a felhasználók megvédhetik és felhasználhatják az e-mail-üzeneteket és a dokumentumokat az Azure RMS használatával. Hogy megkönnyítse a felhasználók dolgát, helyezze üzembe az RMS megosztóalkalmazását, amely telepít egy Office-bővítményt és új, a jobb kattintásra megjelenő opciókat tesz elérhetővé a Fájlkezelőben. További információk: [Rights Management sharing application administrator guide](../rms-client/sharing-app-admin-guide.md) (A Rights Management megosztóalkalmazás rendszergazdai kézikönyve).
 
-Emellett hasznát veheti a következő szolgáltatásoknak is, amelyek megkönnyíthetik az RMS-összekötőnek és a szervezete Azure RMS-használatának megfigyelését:
+Az [Azure Rights Management deployment roadmap](../plan-design/deployment-roadmap.md) (Azure Rights Management üzembe helyezési menetrend) segítségével ellenőrizheti, hogy vannak-e további konfigurációs lépések, amelyeket érdemes lehet megtenni, mielőtt a felhasználók és rendszergazdák megkezdik az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] használatát.
 
--   Beépített **Microsoft Rights Management-összekötő** teljesítményszámlálók.
-
--   [RMS-elemző eszköz](https://www.microsoft.com/en-us/download/details.aspx?id=46437), amely az RMS-összekötő lehetőséggel segít figyelemmel kísérni az összekötő állapotát és azonosítani a konfigurációs problémákat.
-
--   [Az Azure Rights Management használatának naplózása és elemzése](log-analyze-usage.md)
-
-Az [Azure Rights Management deployment roadmap](../plan-design/deployment-roadmap.md) (Azure Rights Management üzembe helyezési menetrend) segítségével ellenőrizheti, hogy vannak-e további konfigurációs lépések, amelyeket érdemes lehet megtenni, mielőtt a felhasználók és rendszergazdák megkezdik az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] használatát. 
+Az RMS-összekötő megfigyelése: [Az Azure Rights Management-összekötő megfigyelése](monitor-rms-connector.md). 
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO2-->
 
 

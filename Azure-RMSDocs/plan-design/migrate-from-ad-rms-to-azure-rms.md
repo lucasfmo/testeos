@@ -6,7 +6,7 @@ description:
 keywords:
 author: cabailey
 manager: mbaldwin
-ms.date: 05/06/2016
+ms.date: 06/14/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -35,7 +35,7 @@ Nem biztos benne, hogy az AD RMS áttelepítés megfelel-e az adott szervezetnek
 
 -   A [Mi az az Azure Rights Management?](../understand-explore/what-is-azure-rms.md) témakörben megismerkedhet az Azure RMS-sel: annak működésével, a segítségével megoldható vállalati problémákkal és azzal, hogy hogyan néz ki a rendszergazdáknak és a felhasználóknak.
 
--   Az Azure RMS és az AD RMS összehasonlításával kapcsolatban lásd: [Az Azure Rights Management és az AD RMS összehasonlítása](../understand-explore/compare-azure-rms-ad-rms.md)..
+-   Az Azure RMS és az AD RMS összehasonlítása: [Az Azure Rights Management és az AD RMS összehasonlítása](../understand-explore/compare-azure-rms-ad-rms.md).
 
 ## Előfeltételek az AD RMS Azure RMS-re való áttelepítéséhez
 Mielőtt megkezdi az áttelepítést az Azure RMS-re, győződjön meg arról, hogy a következő feltételek biztosítottak, és megértette a fennálló korlátozásokat.
@@ -66,7 +66,7 @@ Mielőtt megkezdi az áttelepítést az Azure RMS-re, győződjön meg arról, h
 
 - **Az Azure RMS futtatásához szükséges összes követelmény, köztük az Azure RMS-bérlő (nincs aktiválva)**
 
-    Lásd: [Az Azure Rights Management követelményei](../get-started/requirements-azure-rms.md)..
+    Lásd: [Az Azure Rights Management követelményei](../get-started/requirements-azure-rms.md).
 
     Ugyan az AD RMS-ről való áttelepítéshez szükség van egy Azure RMS-bérlőre, javasoljuk, hogy az áttelepítés előtt ne aktiválja a tartalomvédelmi szolgáltatást. Az áttelepítési folyamatban ez a lépés az után következik, hogy exportálta a kulcsokat és a sablonokat az AD RMS-ből és importálta őket az Azure RMS-be. Az AD RMS-ből való áttelepítés azonban akkor is lehetséges, ha az Azure RMS már aktiválva van.
 
@@ -77,7 +77,7 @@ Mielőtt megkezdi az áttelepítést az Azure RMS-re, győződjön meg arról, h
 
     - Levelezési csoportok az Azure Active Directoryban
 
-    Lásd: [Az Azure Rights Management előkészítése](prepare.md)..
+    Lásd: [Az Azure Rights Management előkészítése](prepare.md).
 
 
 - **IHa használta az Exchange Server vagy a SharePoint Server tartalomvédelmi szolgáltatásait** (IRM – például az átviteli szabályok és az Outlook Web Access) az AD RMS szolgáltatással:
@@ -101,7 +101,7 @@ Korlátozások:
 
 -   Ha külső partnerekkel működik együtt (például megbízható felhasználói tartományokat vagy összevonást használ), nekik is át kell térniük az Azure RMS-hez az Ön áttelepítésével egy időben, vagy nem sokkal utána. Ahhoz, hogy továbbra is hozzáférhessenek a korábban az AD RMS-sel levédett tartalomhoz, olyan ügyfél-konfigurációs változtatásokat kell alkalmazniuk, amelyek az Ön által beállítottakra hasonlítanak és szerepelnek ebben a dokumentumban.
 
-    Mivel nagyon sokféle konfiguráció lehetséges a partnerek esetében, az újrakonfigurálás pontos lépései nem sorolhatók fel ebben a dokumentumban. Ha segítségre van szüksége, vegye fel a kapcsolatot a Microsoft ügyfél-támogatási szolgálatával (CSS).
+    Mivel nagyon sokféle konfiguráció lehetséges a partnerek esetében, az újrakonfigurálás pontos lépései nem sorolhatók fel ebben a dokumentumban. Segítségért [forduljon a Microsoft támogatási szolgálatához](../get-started/information-support#support-options-and-community-resources).
 
 ## Az AD RMS Azure RMS-re való áttelepítésének lépéseinek áttekintése
 
@@ -181,10 +181,10 @@ A 9 áttelepítési lépés felosztható 4 fázisra. Ezeket elvégezhetik külö
 
 
 ## További lépések
-Az áttelepítés megkezdéséhez lépjen az [1. fázis – kiszolgáló-oldali konfiguráció](migrate-from-ad-rms-phase1.md) szakaszhoz.
+Az áttelepítés megkezdéséhez lépjen az [1. fázis – kiszolgálóoldali konfiguráció](migrate-from-ad-rms-phase1.md) szakaszhoz.
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

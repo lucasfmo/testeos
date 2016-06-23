@@ -6,7 +6,7 @@ description:
 keywords:
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 06/14/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -33,10 +33,9 @@ A cikk utasításokat és egy parancsfájlt tartalmaz a Rights Management (RMS)-
 
 A megoldás lehetővé teszi egy Windows Server rendszert futtató fájlkiszolgálón lévő mappában található összes fájl, illetve a megadott feltételnek megfelelő fájlok automatikus védelmét. Például olyan fájlokét, amelyek besorolásuk szerint bizalmas információt tartalmaznak. A megoldás az Azure Rights Management (Azure RMS) segítségével védi a fájlokat, ezért ennek a technológiának telepítve kell lennie a szervezetén belül.
 
-> [!NOTE]
-> Bár az Azure RMS tartalmaz egy [összekötőt](../deploy-use/deploy-rms-connector.md), amely támogatja a fájlbesorolási infrastruktúrát, a megoldás csak a natív védelmet támogatja – pl. Office-fájlokét.
+> [!NOTE] Bár az Azure RMS tartalmaz egy fájlbesorolási infrastruktúrát támogató [összekötőt](../deploy-use/deploy-rms-connector.md), ez a megoldás csak a natív védelmet támogatja, például az Office-fájlokét.
 > 
-> A besorolási infrastruktúrával rendelkező összes fájltípus támogatásához a Windows PowerShell **RMS Protection** modulját kell használnia, ahogy az a cikkből is kiderül. Az RMS Protection parancsmagok az RMS-megosztóalkalmazáshoz hasonlóan az általános és a natív védelmet is támogatják, amely azt jelenti, hogy minden fájl védelme biztosítható. További információkat a [Rights Management sharing application administrator guide](sharing-app-admin-guide.md) (Rights Management megosztóalkalmazás rendszergazdai kézikönyv) [Levels of protection – native and generic](sharing-app-admin-guide-technical.md#levels-of-protection-native-and-generic) (Védelmi szintek – natív és általános) című szakaszában talál..
+> A besorolási infrastruktúrával rendelkező összes fájltípus támogatásához a Windows PowerShell **RMS Protection** modulját kell használnia, ahogy az a cikkből is kiderül. Az RMS Protection parancsmagok az RMS-megosztóalkalmazáshoz hasonlóan az általános és a natív védelmet is támogatják, amely azt jelenti, hogy minden fájl védelme biztosítható. További információt a [Rights Management sharing application administrator guide](sharing-app-admin-guide.md) (Rendszergazdai útmutató a Rights Management megosztóalkalmazáshoz) [Levels of protection – native and generic](sharing-app-admin-guide-technical.md#levels-of-protection-native-and-generic) (Védelmi szintek – natív és általános) című szakaszában találhat.
 
 Az alábbi utasítások a Windows Server 2012 R2 vagy a Windows Server 2012 rendszerekre vonatkoznak. Ha a Windows egyéb támogatott verzióit futtatja, előfordulhat, hogy az Ön operációs rendszerének verziója és a jelen cikkben leírt verzió közötti különbségek miatt át kell ültetnie néhány lépést.
 
@@ -129,7 +128,7 @@ Az utasítások végrehajtása után a kijelölt mappa összes fájlja az RMS eg
         Import-Module "C:\Program Files\WindowsPowerShell\Modules\RMSProtection\RMSProtection.dll"
         ```
 
-3.  Írja alá a parancsfájlt. Ha nem írja alá a parancsfájlt (biztonságosabb), akkor konfigurálni kell a Windows PowerShellt az azt futtató kiszolgálókon. Futtasson például egy Windows PowerShell-munkamenetet a **Futtatás rendszergazdaként** beállítással, és írja be a következőt: **Set-ExecutionPolicy Unrestricted**. Ez a konfiguráció viszont engedi minden nem aláírt parancsfájl futását (kevésbé biztonságos).
+3.  Írja alá a parancsfájlt. Ha nem írja alá a parancsfájlt (biztonságosabb), akkor konfigurálni kell a Windows PowerShellt az azt futtató kiszolgálókon. Futtasson például egy Windows PowerShell-munkamenetet a **Futtatás rendszergazdaként** beállítással, és írja be a következőt: **Set-ExecutionPolicy RemoteSigned**. Ez a konfiguráció azonban minden, ezen a kiszolgálón tárolt, nem aláírt parancsfájl futását engedélyezi (kevésbé biztonságos).
 
     További információkat a Windows PowerShell-parancsfájlokról a PowerShell dokumentációs könyvtárban talál: [about_Signing](https://technet.microsoft.com/library/hh847874.aspx).
 
@@ -161,7 +160,7 @@ Most már létrehozható egy besorolási szabály, amely ezt a tulajdonságot ha
 
         -   **Engedélyezve**: Tartsa meg az alapértelmezett értéket, vagyis jelölje be a jelölőnégyzetet.
 
-        -   **Engedélyezve**: Írja be a következőt: **A &lt;mappanév&gt; mappában lévő összes fájl besorolása a Rights Managementhez**.
+        -   **Leírás**: Írja be a következőt: **A &lt;mappanév&gt; mappában lévő összes fájl besorolása a Rights Managementhez**.
 
             Cserélje le a *&lt;mappanevet&gt;* a választott mappanévre. Például: **A C:\FileShare mappában lévő összes fájl besorolása a Rights Managementhez**
 
@@ -264,23 +263,22 @@ Ezzel befejezte a besorolás konfigurálását. Készen áll a kezelési feladat
 
     1.  Kattintson a **Besorolási szabályok** &gt; **Besorolás futtatása az összes szabállyal** parancsra
 
-    2.  Kattintson a **Várakozás a besorolás befejezésére** lehetőségre, majd az **OK** gombra..
+    2.  Kattintson a **Várakozás a besorolás befejezésére** lehetőségre, majd az **OK** gombra.
 
-2.  Várjon, amíg bezáródik a **Besorolás futtatása** párbeszédpanel, majd tekintse meg az eredményeket az automatikusan megjelenő jelentésben. A **Tulajdonságok** mezőben az **1** értéknek és a mappában lévő fájlok számának kell megjelennie. Erősítse meg a Fájlkezelő használatával és a kiválasztott mappában lévő fájlok tulajdonságainak ellenőrzésével. A **Besorolás** lapon a tulajdonságnév **RMS**, az **Érték** pedig **Igen** kell hogy legyen..
+2.  Várjon, amíg bezáródik a **Besorolás futtatása** párbeszédpanel, majd tekintse meg az eredményeket az automatikusan megjelenő jelentésben. A **Tulajdonságok** mezőben az **1** értéknek és a mappában lévő fájlok számának kell megjelennie. Erősítse meg a Fájlkezelő használatával és a kiválasztott mappában lévő fájlok tulajdonságainak ellenőrzésével. A **Besorolás** lapon a tulajdonságnév **RMS**, az **Érték** pedig **Igen** kell, hogy legyen.
 
 3.  Futtassa a fájlkezelési feladatot:
 
-    1.  Kattintson a **Fájlkezelési feladat** &gt; **Fájlok védelme az RMS használatával** &gt; **A fájlkezelési feladat futtatása most** lehetőségre
+    1.  Kattintson a **Fájlkezelési feladatok** &gt; **Fájlok védelme az RMS használatával** &gt; **A fájlkezelési feladat futtatása most** lehetőségre
 
-    2.  Kattintson a **Várakozás a feladat befejezésére** lehetőségre, majd az **OK** gombra..
+    2.  Kattintson a **Várakozás a feladat befejezésére** lehetőségre, majd az **OK** gombra.
 
 4.  Várjon, amíg bezáródik a **Fájlkezelési feladat futtatása** párbeszédpanel, majd tekintse meg az eredményeket az automatikusan megjelenő jelentésben. A kiválasztott mappában lévő fájlok számának a **Fájlok** mezőben kell megjelennie. Ellenőrizze, hogy a kiválasztott mappában lévő fájlok most már RMS-védelemmel vannak-e ellátva. Ha a kiválasztott mappa például a C:\FileShare, írja be a következőt egy Windows PowerShell munkamenetbe, és ellenőrizze, hogy egy fájl állapota se legyen **Nem védett**:
 
     ```
     foreach ($file in (Get-ChildItem -Path C:\FileShare -Force | where {!$_.PSIsContainer})) {Get-RMSFileStatus -f $file.PSPath}
     ```
-    > [!TIP]
-    > Néhány hibaelhárítási tipp:
+    > [!TIP] Néhány hibaelhárítási tipp:
     > 
     > -   Ha a jelentésben **0** látható a mappában lévő fájlok száma helyett, az arra utal, hogy a parancsfájl nem futott le. Először ellenőrizze magát a parancsfájlt. Ehhez töltse be a parancsfájlt egy Windows PowerShell integrált parancsprogram-kezelési környezetbe (ISE) a tartalmának érvényesítéséhez, majd próbálja meg futtatni, hogy kiderüljön, megjelennek-e hibák. Megadott argumentumok hiányában a parancsfájl megpróbál egy Azure RMS-hez csatlakozni és elvégezni a hitelesítést.
     > 
@@ -302,12 +300,12 @@ Ha meggyőződött róla, hogy a feladatok megfelelően futnak, bezárhatja a F�
 ## Az utasítások módosítása a fájlok szelektív védelme érdekében
 Ha az előző utasítások működnek, akkor igen könnyen módosíthatók egy kifinomultabb konfiguráció elérése céljából. Például ugyanazzal a parancsfájllal biztosíthat védelmet a fájloknak, de csak a személyes azonosításra alkalmas adatokat tartalmazó fájlokra vonatkozóan, vagy esetleg kiválaszthat egy szigorúbb jogokat biztosító sablont.
 
-Ehhez használja az egyik beépített besorolási tulajdonságot (pl. **Személyes azonosításra alkalmas adatok**), vagy hozzon létre új saját tulajdonságot. Ezután hozzon létre egy új szabályt, amely ezt a tulajdonságot használja. Például kiválaszthatja a **Tartalombesorolót**, majd a **Magas** értékkel rendelkező **Személyes azonosításra alkalmas adatok** tulajdonságot, és konfigurálhat egy karakterláncot vagy kifejezési mintát, amely azonosítja a tulajdonsághoz (pl. a „**Születési idő**” karakterlánc) konfigurálandó fájlt.").
+Ehhez használja az egyik beépített besorolási tulajdonságot (pl. **Személyes azonosításra alkalmas adatok**), vagy hozzon létre új saját tulajdonságot. Ezután hozzon létre egy új szabályt, amely ezt a tulajdonságot használja. Például kiválaszthatja a **Tartalombesorolót**, majd a **Magas** értékkel rendelkező **Személyes azonosításra alkalmas adatok** tulajdonságot, és konfigurálhat egy karakterláncot vagy kifejezési mintát, amely azonosítja a tulajdonsághoz (pl. a „**Születési idő**” karakterlánc) konfigurálandó fájlt.
 
-Most már csak annyit kell tennie, hogy létrehoz egy új fájlkezelési feladatot, amely ugyanazt a parancsfájlt használja esetleg egy másik sablonnal, majd konfigurálja az imént konfigurált besorolási tulajdonságra vonatkozó feltételt. Például az előzőleg konfigurált feltétel (**RMS** tulajdonság, **Egyenlő**, **Igen**) helyett válassza a **Személyes azonosításra alkalmas adatok** tulajdonságot, amelyben az **Operátor** értéke **Egyenlő**, az **Érték** pedig **Magas** legyen..
+Most már csak annyit kell tennie, hogy létrehoz egy új fájlkezelési feladatot, amely ugyanazt a parancsfájlt használja esetleg egy másik sablonnal, majd konfigurálja az imént konfigurált besorolási tulajdonságra vonatkozó feltételt. Például az előzőleg konfigurált feltétel (**RMS** tulajdonság, **Egyenlő**, **Igen**) helyett válassza a **Személyes azonosításra alkalmas adatok** tulajdonságot, amelyben az **Operátor** értéke **Egyenlő**, az **Érték** pedig **Magas** legyen.
 
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO2-->
 
 

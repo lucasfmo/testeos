@@ -6,7 +6,7 @@ description:
 keywords:
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 06/13/2016
 ms.topic: get-started-article
 ms.prod: azure
 ms.service: rights-management
@@ -33,29 +33,47 @@ A Microsoft [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1
 
 |Ehhez|.. tegye a következőket:|
 |----------------|---------------|
-|… a legfrissebb [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] termékdokumentáció elolvasása →|Használja az [Azure Rights Management](../understand-explore/azure-rights-management.md) dokumentációs könyvtárat|
+|… a legfrissebb [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] termékdokumentáció elolvasása →|Használja az [Azure Rights Management](../understand-explore/azure-rights-management.md) Microsoft-dokumentációs oldalát|
 |… visszajelzés küldése a dokumentációról vagy kérdés feltétele a dokumentációról →|Email küldése az [askipteam](mailto:%20askipteam@microsoft.com?subject=Documentation%20feedback) csapatnak|
 |… Twitter-üzenetek fogadása a Rights Managementről és termékcsoport dokumentációs frissítésére vonatkozó hirdetések elolvasása →|Kövesse Dan Plastinát, aki a Microsoft Rights Management csapatának vezetésében segít. Lásd: [Dan Plastina @TheRMSGuy](https://twitter.com/TheRMSGuy)|
-|… Az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] próbaverziójának beszerzése →|[Regisztráljon a 30 napos ingyenes próbaverzióra](https://portal.microsoftonline.com/Signup/MainSignUp15.aspx?&amp;OfferId=A43415D3-404C-4df3-B31B-AAD28118A778&amp;dl=RIGHTSMANAGEMENT&amp;ali=1)|
-A következő szakaszok további információkkal szolgálnak az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] szolgáltatásról:
-
-
--   [A Rights Management termékcsoport blogja](information-support.md#BKMK_ProductGroupBlog)
-
--   [Támogatási lehetőségek és közösségi erőforrások](#support-options-and-community-resources)
+|… Az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] próbaverziójának beszerzése →|[Azure RMS-követelmények: Az Azure RMS-t támogató felhőalapú előfizetések](requirements-subscriptions.md) című cikkben kattintson a 30 napos ingyenes próbaverzióra mutató hivatkozásokra|
 
 
 ## A Rights Management termékcsoport blogja
-A Rights Management termékcsoport a [Microsoft Rights Management (RMS) csapat blogján](http://blogs.technet.com/b/rms/) keresztül biztosít technikai információkat és más híreket az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)], AD RMS és egyéb technológiákkal kapcsolatban. Ezek a blogbejegyzések kiegészítik a termék dokumentációját és a támogatási tájékoztatást.
-
-A [docs címke](http://blogs.technet.com/b/rms/archive/tags/docs/) és a havonkénti dokumentációs hirdetmények segítségével megtekintheti az új cikkeket, és hogy frissítették-e a már meglévő cikkeket.
+A Rights Management termékcsoport az [Enterprise Mobility and Security Bloggal](https://blogs.technet.microsoft.com/enterprisemobility/?product=azure-rights-management-services) karöltve technikai információkat és más híreket biztosít az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] és egyéb technológiákkal kapcsolatban. Ezek a blogbejegyzések kiegészítik a termék dokumentációját és a támogatási tájékoztatást.
 
 > [!TIP] Ha az Azure RMS vagy az AD RMS szolgáltatáshoz fejleszt alkalmazásokat, érdekelheti az [Active Directory Rights Management Services (AD RMS) fejlesztők blogja](http://blogs.msdn.com/b/rms/) is.
 
 ## Támogatási lehetőségek és közösségi erőforrások
-Az alábbi hivatkozások a támogatási és hibaelhárítási lehetőségekkel, valamint a közösségi erőforrásokkal kapcsolatban nyújtanak információt:
+Az alábbi szakaszok a támogatási és hibaelhárítási lehetőségekkel, valamint a közösségi erőforrásokkal kapcsolatban nyújtanak információt.
 
--   [RMS elemző eszköz](http://www.microsoft.com/en-us/download/details.aspx?id=46437)
+### A Microsoft támogatási szolgálatának felkeresése
+
+Ha Premier szintű támogatással rendelkezik, látogasson el [a Premier szintű támogatással rendelkező ügyfelek portáljára](https://premier.microsoft.com/) incidensek beküldéséhez, megoldások kereséséhez, és támogatás kéréséhez.
+
+**FastTrack**-jogosultság: A FastTrack Center juttatás legalább 150 Azure RMS-licenc egy erre jogosult csomagban való megvásárlása esetén vehető igénybe. A FastTrack Center juttatás használatával a Microsoft szakértőivel közösen mérheti fel, javíthatja ki és engedélyezheti a jogosult szolgáltatásokat. További információt [Az Azure Rights Management szolgáltatáshoz készült FastTrack Center juttatás](https://technet.microsoft.com/library/mt607025.aspx) című cikkben találhat.
+
+Más ügyfelek számára a következő támogatási csatornák állnak rendelkezésre attól függően, hogy hogyan vásárolták meg az Azure Rights Managementet:
+
+- **Azure Rights Management Office 365-előfizetéssel**: A hasznos telefonszámokért és az ügyfélszolgálattal való, az Office 365 felügyeleti portálon keresztüli kapcsolatfelvétel módjáért tekintse meg a [Kapcsolatfelvétel az Office 365 vállalati verziójának ügyfélszolgálatával – rendszergazdai súgó](https://support.office.com/article/Contact-Office-365-for-business-support-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) című cikket. 
+
+- **Azure Rights Management Enterprise Mobility csomaggal**: Ha az Office 365-tel is rendelkezik, használhatja az [Office 365 támogatási csatornáit](https://support.office.com/article/Contact-Office-365-for-business-support-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).  További információ: [Enterprise Mobility Suite: Támogatással kapcsolatos GYIK](https://technet.microsoft.com/dn932057.aspx).
+
+- **Premium szintű Azure Rights Management**: Nyisson egy [támogatási kérelmet az Azure-portálon](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade). Ezt a lehetőséget csak akkor használhatja, ha Azure-előfizetéssel és -támogatási konstrukcióval rendelkezik. További információ: [Azure-támogatás ügyfeleknek](https://azure.microsoft.com/support/plans/). 
+
+További támogatási lehetőségek: kérdezze Microsoft-kapcsolattartóját. 
+
+### Önsegítő
+
+Alapvető ismeretek elsajátítása:
+
+- Microsoft Virtual Academy [Azure Rights Management Services Core Skills](https://mva.microsoft.com/en-us/training-courses/azure-rights-management-services-core-skills-10500?l=QLoxMwuCB_1805094681)
+
+Hibaelhárítás:
+
+- Töltse le és futtassa az [RMS-elemző eszközt](http://www.microsoft.com/en-us/download/details.aspx?id=46437). További információt az eszközről a letöltési oldal **Részletek** és **Telepítési útmutató** szakaszaiban találhat. 
+
+### Közösségi erőforrások
 
 -   [Yammer: Microsoft Rights Management (RMS)](http://www.yammer.com/AskIPTeam)
 
@@ -63,14 +81,8 @@ Az alábbi hivatkozások a támogatási és hibaelhárítási lehetőségekkel, 
 
 -   [Fórum: RMS felhasználók számára (alkalmazások)](https://social.technet.microsoft.com/Forums/en-US/home?forum=rmsapps)
 
--   [Microsoft Súgó és támogatás](http://go.microsoft.com/fwlink/?LinkId=243064)
-
-A [Microsoft Rights Management szolgáltatások portálján](http://www.microsoft.com/rms) egyéb, az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] szolgáltatást támogató erőforrásokat is találhat.
 
 
-
-
-
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO2-->
 
 

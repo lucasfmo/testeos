@@ -6,7 +6,7 @@ description:
 keywords:
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 06/09/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -32,8 +32,7 @@ ms.suite: ems
 
 Ez a cikk tipikus példákat mutat be arról, hogy a rendszergazdák és a felhasználók hogyan látják és hogyan használhatják az Azure Rights Management (Azure RMS) szolgáltatást a bizalmas vagy titkos információk megvédésének elősegítése érdekében.
 
-> [!NOTE]
-> Az összes példában, amelyben az Azure RMS védelemmel látja el az adatokat, a tartalomtulajdonos továbbra is teljes hozzáféréssel rendelkezik az adatokhoz (a fájlokhoz vagy e-mailekhez), még akkor is, ha az alkalmazott védelem olyan csoport számára biztosít hozzáférést, amelynek a tulajdonos nem tagja, vagy ha a védelem lejárati dátummal rendelkezik.
+> [!NOTE] Az összes példában, amelyben az Azure RMS védelemmel látja el az adatokat, a tartalomtulajdonos továbbra is teljes hozzáféréssel rendelkezik az adatokhoz (a fájlokhoz vagy e-mailekhez), még akkor is, ha az alkalmazott védelem olyan csoport számára biztosít hozzáférést, amelynek a tulajdonos nem tagja, vagy ha a védelem lejárati dátummal rendelkezik.
 >
 > Hasonló módon az IT-csoport bármikor, korlátozás nélkül hozzáférhet a védett adatokhoz a Rights Management felügyelői funkciója révén, amely delegált hozzáférést biztosít a megadott jogosult felhasználók vagy szolgáltatások számára. Emellett az IT-csoport nyomon követheti és felügyelheti a védet adatok felhasználását – például ki és mikor fér hozzá az adatokhoz.
 
@@ -51,7 +50,7 @@ Bár a Windows PowerShell használatával is aktiválhatja és konfigurálhatja 
 
 ![MIT LÁTNAK A RENDSZERGAZDÁK A 2. LÉPÉSBEN?](../media/AzRMS_TemplatesPortal_small.png)
 
-**MIT LÁTNAK A RENDSZERGAZDÁK A 2. LÉPÉSBEN:** Az aktiválás után két jogmegadási sablon válik automatikusan elérhetővé a szervezet számára. Az egyik sablon csak olvasási (a nevében a **Csak bizalmas megtekintésre** kifejezés szerepel), a másik pedig olvasási és módosítási hozzáférést biztosít (**Bizalmas**).).
+**MIT LÁTNAK A RENDSZERGAZDÁK A 2. LÉPÉSBEN:** Az aktiválás után két jogmegadási sablon válik automatikusan elérhetővé a szervezet számára. Az egyik sablon csak olvasási (a nevében a **Csak bizalmas megtekintésre** kifejezés szerepel), a másik pedig olvasási és módosítási hozzáférést biztosít (**Bizalmas**).
 
 Ha ezeket a sablonokat alkalmazzák a fájlokra és e-mailekre, akkor korlátozzák a szervezetben lévő felhasználók hozzáférését. Ez egy igen gyors és egyszerű módja annak, hogy megakadályozza a vállalati adatok kiszivárogtatását a szervezeten kívüli személyek számára.
 
@@ -80,9 +79,9 @@ Ha nem szeretné, hogy a felhasználók láthassák ezeket a sablonokat, vagy sa
 
 **További információ erről a forgatókönyvről:**
 
-- Részletes útmutatásért lásd: [Activating Azure Rights Management](../deploy-use/activate-service.md) (Az Azure Rights Management aktiválása) és [Configuring custom templates for Azure Rights Management](../deploy-use/configure-custom-templates.md) (Egyéni sablonok konfigurálása az Azure Rights Management szolgáltatáshoz).
+- Részletes útmutatás: [Activating Azure Rights Management](../deploy-use/activate-service.md) (Az Azure Rights Management aktiválása) és [Configuring custom templates for Azure Rights Management](../deploy-use/configure-custom-templates.md) (Egyéni sablonok konfigurálása az Azure Rights Management szolgáltatáshoz).
 
-- Ha útmutatást szeretne nyújtani a felhasználóknak a fontos vállalati fájlok védelme kapcsán, tekintse meg a következőt: [Helping users to protect files by using Azure Rights Management](../deploy-use/help-users.md) (Útmutatás nyújtása a felhasználók számára a fájlok védelméhez az Azure Rights Management használatával)..
+- Ha útmutatást szeretne nyújtani a felhasználóknak a fontos vállalati fájlok védelme kapcsán, tekintse meg a következőt: [Helping users to protect files by using Azure Rights Management](../deploy-use/help-users.md) (Útmutatás nyújtása a felhasználók számára a fájlok védelméhez az Azure Rights Management használatával).
 
 A következőkben néhány példát tekinthet meg arról, hogyan alkalmazhatja a sablonokat a rendszergazda a fájlok és e-mailek adatvédelmének automatikus konfigurálására.
 
@@ -119,7 +118,7 @@ A címzett nem tudja elolvasni a bizalmas jelentést, mert nem tagja az Értéke
 
 **További információ erről a forgatókönyvről:**
 
-- Részletes útmutatásért lásd: [Deploying the Azure Rights Management connector](../deploy-use/deploy-rms-connector.md) (Az Azure Rights Management-összekötő telepítése).
+- Részletes útmutatás: [Deploying the Azure Rights Management connector](../deploy-use/deploy-rms-connector.md) (Az Azure Rights Management-összekötő üzembe helyezése).
 
 ## E-mailek automatikus védelme az Exchange Online és az adatveszteség-megelőzési házirendek segítségével
 
@@ -134,6 +133,9 @@ Ebben a példában a rendszergazda konfigurál egy házirendet, hogy a szervezet
 A szabályok úgy vannak konfigurálva, hogy az ilyen adatokat tartalmazó és a szervezeten kívülre küldött e-mailek automatikusan tartalomvédetté váljanak az RMS-sablon használatával, amely kizárólag a vállalat alkalmazottaira korlátozza a hozzáférést.
 
 A jelen esetben a szabály az egyik alapértelmezett sablon, az első példában szereplő **VanArsdel, Ltd – Bizalmas** használatára van konfigurálva. De azt is láthatja, hogy a választható sablonok között szerepel bármely Ön által létrehozott egyéni sablon, valamint egy **No Do Forward** (Nincs továbbítás) lehetőség, amely az Exchange-re vonatkozik.
+
+> [!NOTE]
+> Ha nem ugyanazokat a konfigurációs beállításokat látja, mint amelyek a képen vannak, kattintson a **További beállításokra** a szabály konfigurálásakor. Ekkor válassza **Az üzenetbiztonság módosítása** > **Tartalomvédelem alkalmazása** lehetőséget, majd válassza ki az RMS-sablont.
 
 ---
 
@@ -153,9 +155,9 @@ Amint az e-mail elhagyja a szervezet infrastruktúráját, megtörténik a titko
 
 **További információ erről a forgatókönyvről:**
 
--   További információkat arról, hogyan működik együtt az Azure RMS és az Exchange Online a [How applications support Azure Rights Management](applications-support.md) (Hogyan támogatják a különböző alkalmazások az Azure Rights Managementet?) témakör [Exchange Online and Exchange Server](office-apps-services-support.md#exchange-online-and-exchange-server) (Exchange Online és Exchange Server) című szakaszában talál.
+-   További információt arról, hogyan működik együtt az Azure RMS és az Exchange Online a [How applications support Azure Rights Management](applications-support.md) (Hogyan támogatják a különböző alkalmazások az Azure Rights Managementet?) témakör [Exchange Online and Exchange Server](office-apps-services-support.md#exchange-online-and-exchange-server) (Exchange Online és Exchange Server) című szakaszában találhat.
 
--   Részletes útmutatásért az Exchange Online Azure RMS-hez való konfigurálásához lásd: [Exchange Online: IRM Configuration](../deploy-use/configure-office365.md#exchange-online-irm-configuration) (Exchange Online: IRM konfiguráció) szakasz, [Configuring applications for Azure Rights Management](../deploy-use/configure-applications.md) (Alkalmazások konfigurálása az Azure Rights Managementhez) témakör.
+-   Részletes útmutatás az Exchange Online Azure RMS-hez való konfigurálásához: a [Configuring applications for Azure Rights Management](../deploy-use/configure-applications.md) (Alkalmazások konfigurálása az Azure Rights Managementhez) témakör [Exchange Online: IRM Configuration](../deploy-use/configure-office365.md#exchange-online-irm-configuration) (Exchange Online: IRM konfiguráció) szakasza.
 
 ## A fájlok automatikus védelme a SharePoint Online és a védett könyvtárak segítségével
 
@@ -187,9 +189,9 @@ A dokumentum védelme akkor is megmarad, ha a felhasználó átnevezi, máshova 
 
 **További információ erről a forgatókönyvről:**
 
--   További információkat arról, hogyan működik együtt az Azure RMS és a SharePoint a [How applications support Azure Rights Management](applications-support.md) (Hogyan támogatják a különböző alkalmazások az Azure Rights Managementet?) témakör [SharePoint Online and SharePoint Server](office-apps-services-support.md#sharepoint-online-and-sharepoint-server) (SharePoint Online és SharePoint Server) című szakaszában talál.
+-   További információt arról, hogyan működik együtt az Azure RMS és a SharePoint a [How applications support Azure Rights Management](applications-support.md) (Hogyan támogatják a különböző alkalmazások az Azure Rights Managementet?) témakör [SharePoint Online and SharePoint Server](office-apps-services-support.md#sharepoint-online-and-sharepoint-server) (SharePoint Online és SharePoint Server) című szakaszában találhat.
 
--   Részletes útmutatás a SharePoint Azure RMS-hez való konfigurálásához: [SharePoint Online and OneDrive for Business: IRM Configuration (SharePoint Online és OneDrive Vállalati verzió: IRM konfigurálása)](../deploy-use/configure-office365.md#sharepoint-online-and-onedrive-for-business-irm-configuration) szakasz a [Configuring Applications for Azure Rights Management (Alkalmazások konfigurálása az Azure Rights Managementhez)](../deploy-use/configure-applications.md) témakörben..
+-   Részletes útmutatás a SharePoint Azure RMS-hez való konfigurálásához: [SharePoint Online and OneDrive for Business: IRM Configuration (SharePoint Online és OneDrive Vállalati verzió: IRM konfigurálása)](../deploy-use/configure-office365.md#sharepoint-online-and-onedrive-for-business-irm-configuration) szakasz a [Configuring Applications for Azure Rights Management (Alkalmazások konfigurálása az Azure Rights Managementhez)](../deploy-use/configure-applications.md) témakörben.
 
 ## A felhasználók biztonságosan oszthatják meg a mellékleteket a mobilfelhasználókkal
 
@@ -235,7 +237,7 @@ Ha Bálint a melléklettel együtt továbbküldi az e-mailt, mások számára is
 
 **További információ erről a forgatókönyvről:**
 
-- A részletes útmutatást lásd: [Protect a file that you share by email](../rms-client/sharing-app-protect-by-email.md) (E-mailben megosztott fájl védelme) és [View and use files that have been protected](../rms-client/sharing-app-view-use-files.md) (Védett fájlok megtekintése és használata) [A Rights Management megosztóalkalmazás felhasználói útmutatójában](../rms-client/sharing-app-user-guide.md).
+- A részletes útmutatás: [Protect a file that you share by email](../rms-client/sharing-app-protect-by-email.md) (E-mailben megosztott fájl védelme) és [View and use files that have been protected](../rms-client/sharing-app-view-use-files.md) (Védett fájlok megtekintése és használata) [A Rights Management megosztóalkalmazás felhasználói útmutatójában](../rms-client/sharing-app-user-guide.md).
 
 - A [Quick start tutorial for Azure Rights Management](../get-started/quick-start-tutorial.md) (Azure Rights Management gyors üzembe helyezési oktatóanyag) részletes útmutatást nyújt a forgatókönyvhöz.
 
@@ -244,6 +246,6 @@ Ha Bálint a melléklettel együtt továbbküldi az e-mailt, mások számára is
 Most, hogy a példákon keresztül láthatta, mire képes az Azure RMS, talán az is érdekelheti, hogyan képes minderre. Az Azure RMS működésével kapcsolatos műszaki információkért lásd: [Az Azure RMS működése](how-does-it-work.md)
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO2-->
 
 

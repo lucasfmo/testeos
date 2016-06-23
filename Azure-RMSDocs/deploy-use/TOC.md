@@ -22,6 +22,7 @@
 ### [Az összekötő telepítése és konfigurálása](install-configure-rms-connector.md)
 ### [Kiszolgálók konfigurálása](configure-servers-rms-connector.md)
 #### [Beállításjegyzék-beállítások](rms-connector-registry-settings.md)
+### [Az összekötő megfigyelése](monitor-rms-connector.md)
 ## [Az Azure RMS ellenőrzése](verify.md)
 ## [Útmutatás nyújtása a felhasználók számára a fájlok védelméhez](help-users.md)
 ## [A használat naplózása és elemzése](log-analyze-usage.md)
@@ -35,6 +36,6 @@
 # [Alkalmazások fejlesztése és testreszabása](/rights-management/develop/developers-guide)
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO2-->
 
 

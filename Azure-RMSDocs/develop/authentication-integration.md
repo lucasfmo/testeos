@@ -1,12 +1,12 @@
 ---
 # required metadata
 
-title: Útmutató&#58; Hitelesítés hozzáadása az alkalmazásához | Azure RMS
+title: Az alkalmazás regisztrálása és RMS-kompatibilissé tétele az Azure AD-vel | Azure RMS
 description: Ismerteti az RMS-kompatibilis alkalmazások felhasználóhitelesítésének alapjait.
 keywords:
 author: bruceperlerms
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 06/15/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -24,29 +24,28 @@ ms.suite: ems
 
 ---
 
-# Útmutató: Hitelesítés hozzáadása az alkalmazásához
+# Az alkalmazás regisztrálása és RMS-kompatibilissé tétele az Azure AD-vel
 
-Ez a témakör ismerteti az RMS-kompatibilis alkalmazások felhasználóhitelesítésének alapjait.
+Ez a témakör végigvezeti Önt az Azure-portálos alkalmazásregisztráció és RMS-kompatibilitás alapjain, majd az Azure Active Directory Authentication Library-vel (ADAL) való felhasználói hitelesítés folyamatán.
 
 ## A felhasználóhitelesítés ismertetése
-A felhasználóhitelesítés egy lényeges lépés az eszközalkalmazás és az RMS-infrastruktúra közötti kommunikáció létesítéséhez. Ez a hitelesítési folyamat a szabványos OAuth 2.0 protokollt használja, amelyhez az alábbi adatokra van szükség az aktuális felhasználóról és a hitelesítési kérelméről: **hitelesítésszolgáltató**, **erőforrás** és **felhasználói azonosító**.
+A felhasználóhitelesítés egy lényeges lépés az eszközalkalmazás és az RMS-infrastruktúra közötti kommunikáció létesítéséhez. Ez a hitelesítési folyamat a szabványos OAuth 2.0 protokollt használja, amelyhez kulcsfontosságú adatokra van szükség az aktuális felhasználóról és a hitelesítési kérelemről.
 
-**Megjegyzés**  A hatókör jelenleg nincs használatban, de később még lehet, és ezért a rendszer fenntartja a jövőbeli használatra.
+## Regisztráció az Azure-portálon
+Elsőként tekintse meg ezt az útmutatót az alkalmazás regisztrálásának az Azure-portálon való konfigurálásról: [Az Azure RMS konfigurálása ADAL-hitelesítéshez](adal-auth.md). A folyamat során másolja ki és mentse el az **ügyfél-azonosítót** és **átirányítási URI-t** későbbi használatra.
 
- 
+## A felhasználói hitelesítés implementálása az alkalmazásban
+Az összes RMS API tartalmaz egy visszahívást, amelyet meg kell valósítani a felhasználóhitelesítés engedélyezéséhez. Az RMS SDK 4.2 a visszahívás megvalósítását fogja használni akkor, ha nem ad meg hozzáférési tokent, ha a hozzáférési token frissítésre szorul, vagy ha a hozzáférési token lejárt.
 
-**Felhasználóhitelesítés visszahívása** – A Microsoft Rights Management SDK 4.2 a hitelesítés-visszahívást megvalósítását fogja használni, amikor nem ad meg hozzáférési tokent, ha a hozzáférési token frissítésre szorul, vagy ha a hozzáférési token lejárt.
+- Android – [AuthenticationRequestCallback](/rights-management/sdk/4.2/api/android/com.microsoft.rightsmanagement#msipcthin2_authenticationrequestcallback_interface_java) és az [AuthenticationCompletionCallback](/rights-management/sdk/4.2/api/android/authenticationcompletioncallback#msipcthin2_authenticationcompletioncallback_interface_java) felületek.
+- iOS / OS X – [MSAuthenticationCallback](/rights-management/sdk/4.2/api/iOS/iOS#msipcthin2_msauthenticationcallback_protocol_objc) protokoll.
+-  Windows Phone / Windows RT –  [IAuthenticationCallback](/rights-management/sdk/4.2/api/winrt/Microsoft.RightsManagement#msipcthin2_iauthenticationcallback) felület.
+- Linux – [IAuthenticationCallback](http://azuread.github.io/rms-sdk-for-cpp/classrmscore_1_1modernapi_1_1IAuthenticationCallback.html) felület.
 
-A platform összes RMS API-ja tartalmaz egy visszahívást, amelyet meg kell valósítani a felhasználóhitelesítés engedélyezéséhez.
+### A hitelesítéshez használt könyvtár
+A hitelesítés-visszahívás megvalósításához le kell tölteni egy megfelelő könyvtárat, majd konfigurálnia kell a fejlesztői környezetet annak használatára. Ezekhez a platformokhoz a GitHubon találhatja meg az ADAL könyvtárakat.
 
--   Az Android API az [**AuthenticationRequestCallback**](/rights-management/sdk/4.2/api/android/com.microsoft.rightsmanagement#msipcthin2_authenticationrequestcallback_interface_java) és az [**AuthenticationCompletionCallback**](/rights-management/sdk/4.2/api/android/authenticationcompletioncallback#msipcthin2_authenticationcompletioncallback_interface_java) interfészt használja.
--   Az iOS/OS X API az [**MSAuthenticationCallback**](/rights-management/sdk/4.2/api/iOS/iOS#msipcthin2_msauthenticationcallback_protocol_objc) protokollt használja.
--   A WinPhone API az [**IAuthenticationCallback**](/rights-management/sdk/4.2/api/winrt/Microsoft.RightsManagement#msipcthin2_iauthenticationcallback) interfészt használja.
--   A Linux API az [IAuthenticationCallback](http://azuread.github.io/rms-sdk-for-cpp/classrmscore_1_1modernapi_1_1IAuthenticationCallback.html) interfészt használja.
-
-## A hitelesítéshez használt könyvtár
-
-A hitelesítés-visszahívás megvalósításához le kell tölteni egy megfelelő könyvtárat, majd konfigurálnia kell a fejlesztői környezetet annak használatára. Ezekhez a platformokhoz a GitHubon találhatja meg az ADAL könyvtárakat. Az alábbi források mindegyike tartalmaz útmutatást a környezet beállításához és a könyvtár használatához.
+Az alábbi források mindegyike tartalmaz útmutatást a környezet beállításához és a könyvtár használatához.
 
 -   [Microsoft Azure Active Directory Authentication Library (ADAL) iOS rendszerhez](https://github.com/MSOpenTech/azure-activedirectory-library-for-ios/)
 -   [Microsoft Azure Active Directory Authentication Library (ADAL) Mac géphez](https://github.com/MSOpenTech/azure-activedirectory-library-for-ios/)
@@ -54,28 +53,28 @@ A hitelesítés-visszahívás megvalósításához le kell tölteni egy megfelel
 -   [Microsoft Azure Active Directory Authentication Library (ADAL) dotnethez](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet)
 -   Linux SDK esetében az ADAL könyvtár az SDK-forrással együtt van csomagolva, és elérhető a [GitHubon](https://github.com/AzureAD/rms-sdk-for-cpp).
 
-**Megjegyzés**  Javasoljuk valamelyik fenti Active Directory Authentication Library (ADAL) használatát, de használhat más hitelesítési könyvtárat is.
+>[!NOTE]  Javasoljuk valamelyik ADAL használatát, de használhat más hitelesítési könyvtárat is.
 
-## Adatbevitel az Azure Active Directory Authentication Library (ADAL) segítségével történő hitelesítés esetén
+### Hitelesítési paraméterek
 
-Az ADAL több paraméter megadását igényli a felhasználó sikeres hitelesítéséhez az Azure RMS-en (vagy AD RMS-en). Ezek azok a szabványos OAuth 2.0-paraméterek, amelyekre általában szükség van minden Azure AD-alkalmazáshoz, többek között az RMS-kompatibilis alkalmazásokhoz. Az ADAL használatának aktuális irányelveit megtalálja a korábban felsorolt megfelelő Github-adattárak README fájljaiban.
+Az ADAL-nak több adatra is szüksége van a felhasználó sikeres hitelesítéséhez az Azure RMS-en (vagy AD RMS-en). Ezek szabványos OAuth 2.0-paraméterek, és általában szükség van rájuk minden Azure AD-alkalmazáshoz. Az ADAL használatának aktuális irányelveit megtalálja a korábban felsorolt megfelelő Github-adattárak README fájljaiban.
 
-Az RMS-munkafolyamatokhoz a következő paraméterekre és irányelvekre van szükség:
+- **Hitelesítésszolgáltató** – a hitelesítési végpont, általában az AAD vagy az ADFS URL-címe.
+- **Erőforrás** – Az elérni kívánt szolgáltatásalkalmazás, általában az Azure RMS vagy az AD RMS URL-címe/URI azonosítója.
+- **Felhasználói azonosító** – az alkalmazáshoz hozzáférni kívánó felhasználó egyszerű felhasználóneve, általában az e-mail-címe. Ez a paraméter lehet üres, ha a felhasználó még nem ismert, és ez használatos a felhasználói token gyorsítótárazására vagy egy token a gyorsítótárból való lekérésére is. Ez sokszor használatos általános *tippként* is a felhasználói adatkérésekhez.
+- **Ügyfél-azonosító** – az ügyfélalkalmazás azonosítója. Ennek egy érvényes Azure AD-alkalmazásazonosítónak kell lennie.
+És az Azure-portál előző regisztrációs lépésében található.
+- **Átirányítási URI** – megadja a hitelesítési könyvtárat egy URI-céllal a hitelesítési kódhoz. Az iOS és az Android rendszerekhez különleges formátumok szükségesek. Ezekről további információt az ADAL megfelelő Github-adattárainak README fájljaiban találhat. Ez az érték az Azure-portál előző regisztrációs lépésében található.
 
--   **Hitelesítésszolgáltató** – a hitelesítési végpont, általában az AAD vagy az ADFS URL-címe. Ezt a paramétert az RMS SDK hitelesítés-visszahívás biztosítja az alkalmazás számára.
--   **Erőforrás** – Az elérni kívánt szolgáltatásalkalmazás, általában az Azure RMS vagy az AD RMS URL-címe/URI azonosítója. Ezt a paramétert az RMS SDK hitelesítés-visszahívás biztosítja az alkalmazás számára.
--   **Felhasználói azonosító** – az alkalmazáshoz hozzáférni kívánó felhasználó egyszerű felhasználóneve, általában az e-mail-címe. Ez a paraméter lehet üres, ha a felhasználó még nem ismert, és ez használatos a felhasználói token gyorsítótárazására vagy egy token a gyorsítótárból való lekérésére is. Általában ez használatos általános tippként is a felhasználói adatkérésekhez.
--   **Ügyfél-azonosító** – az ügyfélalkalmazás azonosítója. Ennek egy érvényes Azure AD-alkalmazásazonosítónak kell lennie. További információk: How to: Get an Azure Application ID (Útmutató: Azure-alkalmazásazonosító beszerzése).
--   **Átirányítási URI** – megadja a hitelesítési könyvtárat egy URI-céllal a hitelesítési kódhoz. Vegye figyelembe, hogy az iOS és Android rendszerhez megadott formátumok szükségesek, amelyek leírása az ADAL megfelelő GitHub-adattáraiban lévő README fájlokban található.
+>[!NOTE] A **hatókör** jelenleg nincs használatban, de később még lehet, és ezért a rendszer fenntartja a jövőbeli használatra.
 
-    Android:: `msauth://packagename/Base64UrlencodedSignature`
+    Android: `msauth://packagename/Base64UrlencodedSignature`
 
     iOS: `<app-scheme>://<bundle-id>`
 
-**Megjegyzés**  Ha az alkalmazása nem követi ezeket az irányelveket, az Azure RMS- és az Azure AD-munkafolyamatok valószínűleg nem fognak működni, és a Microsoft.com nem támogatja azokat. Emellett a Rights Management Licencszerződés (RMLA) megsértése következhet be, ha érvénytelen ügyfélazonosítót használ egy éles alkalmazásban.
+>[!NOTE] Ha az alkalmazása nem követi ezeket az irányelveket, az Azure RMS- és az Azure AD-munkafolyamatok valószínűleg nem fognak működni, és a Microsoft.com nem támogatja azokat. Emellett a Rights Management Licencszerződés (RMLA) megsértése következhet be, ha érvénytelen ügyfélazonosítót használ egy éles alkalmazásban.
 
-## A hitelesítés-visszahívás megvalósításának bemutatása
-
+### A hitelesítés-visszahívás megvalósításának bemutatása
 **Hitelesítésikód-példák** – Ez az SDK példakóddal mutatja be a hitelesítés-visszahívások használatát. Az Ön kényelme érdekében ezek a példakódok itt is és az alább hivatkozott témakörökben is szerepelnek.
 
 **Android-felhasználóhitelesítés** – további információk: [Android code examples](android-code.md) (Android-kódpéldák), az első, „Consuming an RMS protected file” (RMS-védelemmel ellátott fájlok használata) című forgatókönyv **2. lépése**.
@@ -153,9 +152,7 @@ Az RMS-munkafolyamatokhoz a következő paraméterekre és irányelvekre van sz�
                          }
 
 
-**iOS-/OS X-felhasználóhitelesítés** – további információk: [iOS/OS X code examples](ios-os-x-code-examples.md) (iOS-/OS X-kódpéldák).
-
-Az első, „Consuming an RMS protected file” (RMS-védelemmel ellátott fájlok használata) című forgatókönyv **2. lépése**.
+**iOS/OS X-felhasználóhitelesítés** – további információ: [iOS/OS X code examples](ios-os-x-code-examples.md) (iOS/OS X-kódpéldák), *az első forgatókönyv, a Consuming an RMS protected file (RMS-védelemmel ellátott fájlok használata) 2. lépése.*
 
 
     // AuthenticationCallback holds the necessary information to retrieve an access token.
@@ -203,7 +200,7 @@ Az első, „Consuming an RMS protected file” (RMS-védelemmel ellátott fájl
 
 
 
-**Linux- / C++-felhasználóhitelesítés** – további információk: [Linux code examples](linux-c-code-examples.md) (Linux kódpéldák).
+**Linux-felhasználóhitelesítés** – további információ: [Linux code examples](linux-c-code-examples.md) (Linux kódpéldák).
 
 
 
@@ -274,6 +271,6 @@ Az első, „Consuming an RMS protected file” (RMS-védelemmel ellátott fájl
  
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO3-->
 
 

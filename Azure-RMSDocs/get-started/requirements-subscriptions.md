@@ -6,7 +6,7 @@ description:
 keywords:
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 06/09/2016
 ms.topic: get-started-article
 ms.prod: azure
 ms.service: rights-management
@@ -49,6 +49,8 @@ További kérdései vannak az Azure RMS licencelésével kapcsolatban? Töltse l
 ## Office 365-előfizetés
 [30 napos ingyenes próbaverzió: Nagyvállalati E3 csomag](http://go.microsoft.com/fwlink/p/?LinkID=403802)
 
+[30 napos ingyenes próbaverzió: Nagyvállalati E5 csomag](https://go.microsoft.com/fwlink/p/?LinkID=698279)
+
 Ez az előfizetés olyan szervezetek számára lett kialakítva, amelyek szeretnék igénybe venni az Office online szolgáltatásait, valamint az Azure RMS-t használó tartalomvédelmi (IRM) szolgáltatásokat. Az Azure RMS-t viszont nem tartalmazza az összes Office 365-előfizetés.
 
 -előfizetés  |Tartalmazza a tartalomvédelmi szolgáltatást 
@@ -84,19 +86,20 @@ Ha a próbaidőszak lejárt, elveszti a hozzáférést az Azure RMS próbaverzi�
 A lejáratkor elvesztett hozzáférés alól kivételt képez, ha a szervezet a próbaverziós előfizetés beszerzése előtt az RMS egyéni felhasználók számára előfizetéssel már használta az Azure RMS-t. Ebben az esetben az előzőleg védelemmel ellátott tartalmak megmaradnak, még a próbaidőszak lejárta után is.
 
 ## Nagyvállalati mobilitási csomag előfizetés
-[30 napos ingyenes próbaverzió](http://go.microsoft.com/fwlink/?LinkId=615385)
+[30 napos ingyenes próbaverzió](https://portal.office.com/Signup/Signup.aspx?OfferId=2E63A04D-BE0B-4A0F-A8CF-407C1C299221&dl=EMS)
 
-Ez az előfizetés olyan szervezetek számára lett kialakítva, amelyek az Azure Active Directory Premium, a Windows Intune és az Azure Rights Management kombinációját szeretnék használni. Az Azure Rights Management és az Office együttes használatának támogatása megegyezik az Azure Rights Management Premium előfizetés használatának támogatásával. 
-További információ a Nagyvállalati mobilitási csomag előfizetéssel kapcsolatban: [Microsoft Enterprise Mobility Overview](http://go.microsoft.com/fwlink/?LinkId=615386) (A Microsoft Nagyvállalati mobilitási csomag áttekintése).
+Ez az előfizetés olyan szervezetek számára lett kialakítva, amelyek az Azure Active Directory Premium, a Windows Intune és az Azure Rights Management kombinációját szeretnék használni. Az Azure Rights Management és az Office együttes használatának támogatása megegyezik az Azure Rights Management Premium előfizetés használatának támogatásával. További információ a Nagyvállalati mobilitási csomag előfizetéssel kapcsolatban: [Microsoft Enterprise Mobility Overview](http://go.microsoft.com/fwlink/?LinkId=615386) (A Microsoft Nagyvállalati mobilitási csomag áttekintése).
 
 ## RMS egyéni felhasználók számára előfizetés
 Ez a előfizetés egy szervezet azon egyéni felhasználói számára lett kialakítva, akik még nem telepítették az Azure RMS-t vagy az AD RMS-t. Lehetővé teszi számukra az Azure RMS-t használó szervezetek által védett tartalmak olvasását és saját tartalmaik védelmét is.
+
+Ez az Office 365 felügyeleti portálon **Rights Management Adhoc** néven jelenhet meg, automatikusan hozzárendelve a felhasználókhoz. Ezt a licencet ne rendelje manuálisan hozzá a felhasználókhoz és ne használja az Azure RMS vállalati felügyeletére. 
 
 További információ: [RMS for Individuals and Azure Rights Management](../understand-explore/rms-for-individuals.md) (RMS egyéni felhasználók számára és Azure Rights Management).
 
 ## További lépések
 Az egyéb követelményeket [Az Azure Rights Management követelményei](requirements-azure-rms.md) című témakörben tekintheti meg.
 
-<!--HONumber=May16_HO2-->
+<!--HONumber=Jun16_HO2-->
 
 
