@@ -1,19 +1,20 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 1
+ Total Files | 2
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [Azure-RMSDocs\plan-design\migrate-from-ad-rms-phase1.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/4b281802dd4b30727e20e22a575be611e3abf27b/Azure-RMSDocs/plan-design/migrate-from-ad-rms-phase1.md) | OutofSyncHandedBackSuccess | [Details](#9411fee6b29db4404a0ae430cc7ea54d4d7d47e5337)
+ [Azure-RMSDocs\plan-design\migrate-from-ad-rms-phase1.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/a9dc45fb5146b0a4d2f013bff9d090723ce95ee5/Azure-RMSDocs/plan-design/migrate-from-ad-rms-phase1.md) | OutofSyncHandedBackSuccess | [Details](#bae830f3408e1109882e9ed88f32fb9bcab45574337)
+ [Azure-RMSDocs\plan-design\migrate-from-ad-rms-phase2.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/a9dc45fb5146b0a4d2f013bff9d090723ce95ee5/Azure-RMSDocs/plan-design/migrate-from-ad-rms-phase2.md) | OutofSyncHandedBackSuccess | [Details](#1016ecdd77e818840f2a2cfab8212e908291bb89338)
 
 ## Item Details
-##### <a name='9411fee6b29db4404a0ae430cc7ea54d4d7d47e5337'></a> Source: [Azure-RMSDocs\plan-design\migrate-from-ad-rms-phase1.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/4b281802dd4b30727e20e22a575be611e3abf27b/Azure-RMSDocs/plan-design/migrate-from-ad-rms-phase1.md)
+##### <a name='bae830f3408e1109882e9ed88f32fb9bcab45574337'></a> Source: [Azure-RMSDocs\plan-design\migrate-from-ad-rms-phase1.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/a9dc45fb5146b0a4d2f013bff9d090723ce95ee5/Azure-RMSDocs/plan-design/migrate-from-ad-rms-phase1.md)
 * Status: OutofSyncHandedBackSuccess
 * Target File: 
-* Handoff File: [migrate-from-ad-rms-phase1.bc5aedb6121a7b8c22df639eda41dcc7e7be9c8f.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/4a5e9706d9d89deb515f0f62794f2dfcdbd3e188/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/migrate-from-ad-rms-phase1.bc5aedb6121a7b8c22df639eda41dcc7e7be9c8f.hu-hu.xlf)
-* Handoff Datetime: 2016-06-21 17:07:38
+* Handoff File: [migrate-from-ad-rms-phase1.bc5aedb6121a7b8c22df639eda41dcc7e7be9c8f.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/cb7f2735f121460f465e4a7a6dd38c11aa15acea/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/migrate-from-ad-rms-phase1.bc5aedb6121a7b8c22df639eda41dcc7e7be9c8f.hu-hu.xlf)
+* Handoff Datetime: 2016-06-23 17:06:04
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -23,6 +24,23 @@
 * Current Handback File: [migrate-from-ad-rms-phase1.bc5aedb6121a7b8c22df639eda41dcc7e7be9c8f.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/bbaedac9075cd0b6e53619667765067cad0a5eb4/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/migrate-from-ad-rms-phase1.bc5aedb6121a7b8c22df639eda41dcc7e7be9c8f.hu-hu.xlf)
 * Current Handback Datetime: 2016-06-10 16:48:00
 * Bilingual File: [migrate-from-ad-rms-phase1.bc5aedb6121a7b8c22df639eda41dcc7e7be9c8f.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/bbaedac9075cd0b6e53619667765067cad0a5eb4/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/migrate-from-ad-rms-phase1.bc5aedb6121a7b8c22df639eda41dcc7e7be9c8f.hu-hu.xlf)
+* Bilingual Datetime: 2016-06-16 10:22:53
+* [Back to Top](#report-top)
+
+##### <a name='1016ecdd77e818840f2a2cfab8212e908291bb89338'></a> Source: [Azure-RMSDocs\plan-design\migrate-from-ad-rms-phase2.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/a9dc45fb5146b0a4d2f013bff9d090723ce95ee5/Azure-RMSDocs/plan-design/migrate-from-ad-rms-phase2.md)
+* Status: OutofSyncHandedBackSuccess
+* Target File: 
+* Handoff File: [migrate-from-ad-rms-phase2.318d35db066c49206b0ca3bcb905627474043548.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/cb7f2735f121460f465e4a7a6dd38c11aa15acea/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/migrate-from-ad-rms-phase2.318d35db066c49206b0ca3bcb905627474043548.hu-hu.xlf)
+* Handoff Datetime: 2016-06-23 17:06:04
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [Azure-RMSDocs\plan-design\migrate-from-ad-rms-phase2.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/b2cf916c45e451d6979f09d3f9477645fd335747/Azure-RMSDocs/plan-design/migrate-from-ad-rms-phase2.md)
+* Current Handback File: [migrate-from-ad-rms-phase2.318d35db066c49206b0ca3bcb905627474043548.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/ef99a649680f7cbc3c5c93e044529ea4a468f312/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/migrate-from-ad-rms-phase2.318d35db066c49206b0ca3bcb905627474043548.hu-hu.xlf)
+* Current Handback Datetime: 2016-06-10 17:56:54
+* Bilingual File: [migrate-from-ad-rms-phase2.318d35db066c49206b0ca3bcb905627474043548.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/ef99a649680f7cbc3c5c93e044529ea4a468f312/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/migrate-from-ad-rms-phase2.318d35db066c49206b0ca3bcb905627474043548.hu-hu.xlf)
 * Bilingual Datetime: 2016-06-16 10:22:53
 * [Back to Top](#report-top)
 
