@@ -1,28 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [Azure-RMSDocs\index.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/80de3ab273c090f466fc381390d84b8f7b90f6f4/Azure-RMSDocs/index.md) | InSyncHandedBackSuccess | [Details](#6ba6e7b208c0b53a5cc6f38811f6845234bf7983156)
 
 ## Item Details
-##### <a name='6ba6e7b208c0b53a5cc6f38811f6845234bf7983156'></a> Source: [Azure-RMSDocs\index.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/80de3ab273c090f466fc381390d84b8f7b90f6f4/Azure-RMSDocs/index.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [Azure-RMSDocs\index.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/8b1ea4df7f9617218b4200f01fd8674c474679de/Azure-RMSDocs/index.md)
-* Handoff File: [index.a68f40487a64012c94076ad9808d6bc7b03e9c0e.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/73217edfc8b367ac9e1f593c59f0506bf88829b8/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/index.a68f40487a64012c94076ad9808d6bc7b03e9c0e.hu-hu.xlf)
-* Handoff Datetime: 2016-06-23 23:05:35
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [index.a68f40487a64012c94076ad9808d6bc7b03e9c0e.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/37d8f60b14897de967b2d3cc0e793fbc7fe583e8/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/index.a68f40487a64012c94076ad9808d6bc7b03e9c0e.hu-hu.xlf)
-* Handback Datetime: 2016-06-24 17:10:43
-* Bilingual File: [index.a68f40487a64012c94076ad9808d6bc7b03e9c0e.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/ef99a649680f7cbc3c5c93e044529ea4a468f312/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/index.a68f40487a64012c94076ad9808d6bc7b03e9c0e.hu-hu.xlf)
-* Bilingual Datetime: 2016-06-16 10:22:53
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
