@@ -34,7 +34,7 @@ Ez a témakör az alkalmazás tesztelésének előkészítéséhez ad útmutatá
 
 A tesztelést az Azure RMS szolgáltatással vagy egy Windows Serveren futó tartalomvédelmi kiszolgálóval is végezheti. Azt javasoljuk, hogy az Azure RMS szolgáltatással kezdje a tesztelést, majd (amennyiben az üzembe helyezés ezt megköveteli) ez után térjen át a tartalomvédelmi kiszolgálón való tesztelésre.
 
-1. Az Azure RMS szolgáltatással való tesztelés leírását itt tekintheti meg: [Útmutató: az ADAL-hitelesítés használata](how-to-use-adal-authentication,md).
+1. Az Azure RMS szolgáltatással való tesztelés leírását itt tekintheti meg: [Útmutató: az ADAL-hitelesítés használata](how-to-use-adal-authentication.md).
 2. A tartalomvédelmi kiszolgálóval való tesztelés leírását itt tekintheti meg: [Útmutató: a tartalomvédelmi kiszolgáló telepítése és konfigurálása](how-to-install-and-configure-an-rms-server.md).
 3. Az alábbiakban a fejlesztői futtatókörnyezet telepítésének leírását tekintheti meg.
 

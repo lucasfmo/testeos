@@ -29,11 +29,11 @@ ms.suite: ems
 
 Ez a témakör az Azure ADAL-alapú hitelesítés konfigurálásának lépéseit ismerteti.
 
-## Belső hitelesítés
+## Az Azure-beli hitelesítés beállítása
 
 A következőkre lesz szüksége:
 
-- Egy [Microsoft Azure-előfizetés](https://azure.microsoft.com/en-us/) (az ingyenes próbaverzió is elegendő).
+- Egy [Microsoft Azure-előfizetés](https://azure.microsoft.com/en-us/) (az ingyenes próbaverzió is elegendő). További információ: [How users sign up for RMS for individuals](../understand-explore/rms-for-individuals-user-sign-up.md) (Útmutató az egyéni RMS-fiók regisztrációjához)
 - Egy Microsoft Azure Rights Management-előfizetés (az [egyéni RMS-felhasználók](https://technet.microsoft.com/en-us/library/dn592127.aspx) ingyenes fiókja is elegendő).
 
 > [!NOTE] Érdeklődjön informatikai rendszergazdájánál, hogy rendelkezik-e Microsoft Azure Rights Management-előfizetéssel, és kérje meg a rendszergazdáját az alábbi lépések végrehajtására. Amennyiben az Ön szervezte nem rendelkezik előfizetéssel, kérje meg informatikai rendszergazdáját egy előfizetés létrehozására. Továbbá ajánlatos, hogy informatikai rendszergazdája egy *munkahelyi vagy iskolai fiókkal* végezze el a regisztrációt, és ne *Microsoft-fiókot* (például Hotmail-fiókot) használjon.

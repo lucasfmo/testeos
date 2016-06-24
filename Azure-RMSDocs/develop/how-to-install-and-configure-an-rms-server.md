@@ -1,9 +1,8 @@
 ---
 # required metadata
 
-title:
-How-to: install, configure and test with an RMS server | Azure RMS
-description: Install and configure and RMS Sever for testing your rights-enabled application.
+title: Útmutató: telepítés, konfigurálás és tesztelés az RMS-kiszolgálóval | Azure RMS
+description: Telepítse és konfigurálja az RMS-kiszolgálót a tartalomvédelemmel kompatibilis alkalmazás teszteléséhez.
 keywords:
 author: bruceperlerms
 manager: mbaldwin
@@ -50,7 +49,7 @@ A következő lépések segítségével beállíthatja az RMS-kiszolgálót:
 
 2.  **A kiszolgáló beléptetése**
 
-    A Rights Management Services (RMS) kiszolgálót az éles üzem előtti vagy éles hierarchiában való azonosításhoz be kell léptetnie. A beléptetési folyamat egy kiszolgálólicenc-tanúsítványt helyez el a kiszolgáló számítógépen. Ez a tanúsítvány a Microsoft bizalomforrásához kötődik. A kiszolgáló beléptetésének módja az RMS verziójától függ.
+    A Rights Management Services (RMS) kiszolgálót az éles üzem előtti vagy éles hierarchiában való azonosításukhoz be kell léptetnie. A beléptetési folyamat egy kiszolgálólicenc-tanúsítványt helyez el a kiszolgáló számítógépen. Ez a tanúsítvány a Microsoft bizalomforrásához kötődik. A kiszolgáló beléptetésének módja az RMS használt verziójától függ.
 
     -   **Önbeléptetés**
 
@@ -66,7 +65,7 @@ A következő lépések segítségével beállíthatja az RMS-kiszolgálót:
 
     Az RMS-kiszolgálóval való teszteléshez konfigurálja a kiszolgálóoldali vagy az ügyféloldali észlelést, hogy a Rights Management Service ügyfélprogram 2.1-es verziója felderítse és létrehozza a kommunikációt az RMS-kiszolgálóval.
 
-    >![MEGJEGYZÉS] Az Azure RMS-szel való tesztelés nem igényel felderítési konfigurációt.
+    > [!Note] Az Azure RMS-szel való tesztelés nem igényel felderítési konfigurációt.
 
   - A kiszolgálóoldali felderítés során egy rendszergazda regisztrál egy szolgáltatáskapcsolati pontot (SCP) az Active Directoryban az RMS-gyökérfürthöz, az ügyfél pedig az Active Directoryt lekérdezve észlelheti az SCP-t és hozhat létre kapcsolatot a kiszolgálóval.
   - Ügyféloldali felderítés esetén annak a számítógépnek a beállításjegyzékben kell konfigurálni az RMS szolgáltatásészlelés beállításait, ahol az RMS-ügyfélprogram 2.1-es verziója fut. Ezek a beállítások adják meg az RMS-kiszolgáló számára, hogy az RMS-ügyfélprogram 2.1-es verzióját használja. Ha ezek meg vannak adva, a rendszer nem végez kiszolgálóoldali felderítést.

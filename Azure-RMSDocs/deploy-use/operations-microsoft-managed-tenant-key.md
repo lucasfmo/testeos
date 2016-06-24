@@ -6,7 +6,7 @@ description:
 keywords:
 author: cabailey
 manager: mbaldwin
-ms.date: 06/03/2016
+ms.date: 06/14/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -42,7 +42,7 @@ A kulcsismétlést kulcsváltásnak is nevezik. Csak akkor hajtsa végre a bérl
 
 -   Úgy véli, hogy a bérlői kulcs főpéldányát (az Ön birtokában lévő példányt) feltörték.
 
-A bérlői kulcson kulcsismétlést hajthat végre, ha felhívja a Microsoft támogatási szolgálatot (CSS), és igazolja, hogy Ön a bérlői rendszergazda.
+A bérlői kulcs kulcsismétléséhez [lépjen kapcsolatba a Microsoft támogatási szolgálatával](../get-started/information-support#to-contact-microsoft-support), és nyisson egy **Azure Rights Management támogatási esetet az Azure RMS-bérlőkulcs kulcsismétléséhez**. Igazolja, hogy Ön az Azure RMS bérlői rendszergazdája. A folyamat jóváhagyása több napig is eltarthat. A szolgáltatásra a szabványos támogatási díjak vonatkoznak; a bérlői kulcs kulcsismétlése nem ingyenes szolgáltatás.
 
 A bérlői kulcs kulcsismétlésekor az új tartalmakat az új bérlői kulcs segítségével lehet védelemmel ellátni. Ez szakaszosan történik, így bizonyos ideig egyes új tartalmaknak még a régi bérlői kulcs biztosít védelmet. A korábban védelemmel ellátott tartalmakat továbbra is a régi bérlői kulcs fogja védeni. A forgatókönyv támogatása érdekében az Azure RMS megőrzi a régi bérlői kulcsot, hogy az licenceket adhasson ki a régi tartalmakhoz.
 
@@ -54,7 +54,7 @@ Az Azure RMS-konfiguráció és a bérlői kulcs exportálásához hajtsa végre
 
 ### 1. lépés: Exportálás kezdeményezése
 
--   Ehhez forduljon a Microsoft támogatási szolgálathoz (CSS), ahol megnyithat egy **Azure RMS-kulcsexportálási kérelmet tartalmazó Azure Rights Management támogatási esetet**. Igazolja, hogy Ön az Azure RMS bérlői rendszergazdája. A folyamat jóváhagyása több napig is eltarthat. A szolgáltatásra a szabványos támogatási díjak vonatkoznak; a bérlői kulcs exportálása nem ingyenes szolgáltatás.
+-   Ehhez [forduljon a Microsoft támogatási szolgálatához](../get-started/information-support#to-contact-microsoft-support), ahol megnyithat egy **Azure RMS-kulcsexportálási kérelmet tartalmazó Azure Rights Management támogatási esetet**. Igazolja, hogy Ön az Azure RMS bérlői rendszergazdája. A folyamat jóváhagyása több napig is eltarthat. A szolgáltatásra a szabványos támogatási díjak vonatkoznak; a bérlői kulcs exportálása nem ingyenes szolgáltatás.
 
 ### 2. lépés: Várakozás az ellenőrzésre
 
@@ -97,13 +97,13 @@ Ha megsértették a biztonsági szabályokat, az Ön vagy a Microsoft által vé
 
 |Esemény leírása|Várható válasz|
 |------------------------|-------------------|
-|A bérlői kulcs kiszivárgott.|Hajtsa végre a bérlői kulcs kulcsismétlését. Tekintse meg a cikk [A bérlői kulcs kulcsismétlése](operations-tenant-key.md#re-key-your-tenant-key) című szakaszát.|
+|A bérlői kulcs kiszivárgott.|Hajtsa végre a bérlői kulcs kulcsismétlését. Olvassa el ebben a cikkben [A bérlői kulcs kulcsismétlése](operations-tenant-key#re-key-your-tenant-key) című szakaszt.|
 |Jogosulatlan személy vagy kártevő szerzett jogosultságokat a bérlői kulcs használatára, maga a kulcs azonban nem szivárgott ki.|A bérlői kulcs kulcsismétlése ebben az esetben nem célravezető megoldás, és elemezni kell a probléma alapvető okát. Ha egy folyamat vagy szoftverhiba miatt szerezhetett hozzáférést a jogosulatlan személy, arra a problémára kell megoldást találni.|
 |Biztonsági rést észleltek az RSA-algoritmusban vagy a kulcshosszúságban, vagy találgatásos támadások váltak számítási szempontból megvalósíthatóvá.|A Microsoftnak frissítenie kell az Azure RMS-t az új algoritmusok és az ellenállóbb, hosszabb kulcshosszúságok támogatására, és fel kell szólítania az ügyfeleit a bérlői kulcsok megújítására.|
 
 
 
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO2-->
 
 

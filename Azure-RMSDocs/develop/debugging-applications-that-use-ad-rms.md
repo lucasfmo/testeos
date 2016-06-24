@@ -1,9 +1,8 @@
 ---
 # required metadata
 
-title:
-How-to: debug a rights-enabled application | Azure RMS
-description: The following topic shows how to debug your application and use the Windows Event Log.
+title: Útmutató: Tartalomvédelemmel kompatibilis alkalmazások hibakeresése | Azure RMS
+description: A következő témakör az alkalmazások hibakeresésének és a Windows Eseménynapló használatának módját ismerteti.
 keywords:
 author: bruceperlerms
 manager: mbaldwin
@@ -50,7 +49,7 @@ HKEY_LOCAL_MACHINE
 
 Az eseménynapló neve: „Microsoft-RMS-MSIPC/Debug”. A Windows eseménynaplójában tehát a napló a következőképpen jelenik meg: „Alkalmazás- és szolgáltatásnaplók\\Microsoft\\RMS\\MSIPC\\Debug”.
 
-**Megjegyzés**: A napló alapértelmezés szerint engedélyezett, és 3. részletességi szintre van állítva.
+**Megjegyzés** A napló alapértelmezés szerint engedélyezett, és 3. részletességi szintre van állítva.
 
  
 

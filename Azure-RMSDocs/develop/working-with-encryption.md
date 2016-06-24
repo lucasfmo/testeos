@@ -1,9 +1,8 @@
 ---
 # required metadata
 
-title:
-How-to: work with encryption settings | Azure RMS
-description: This article orients you to our encryption packages
+title: Útmutató: A titkosítási beállítások kezelése | Azure RMS
+description: Ebben a cikkben megismerkedhet titkosítási csomagjainkkal
 keywords:
 author: bruceperlerms
 manager: mbaldwin
@@ -31,7 +30,7 @@ Ez a témakör tájékoztatást nyújt a titkosítási csomagok használatáról
 
 ## Az új alapértelmezett titkosítás, az AES 256 támogatása
 
-Az *AES 256*-alapú titkosítás használatához nincs szükség további kódra (mostantól ez az alapértelmezett titkosítás), feltéve, hogy az RMS SDK 2.1 2015. márciusi vagy újabb frissítését használja. Javasoljuk, hogy végezze el alkalmazásainak e kiadással történő frissítését az *AES 256* által biztosított további biztonsági előnyök kihasználásához.
+Az *AES 256*-alapú titkosítás használatához nincs szükség további kódokra (mostantól ez az alapértelmezett titkosítás), feltéve, hogy az RMS SDK 2.1 2015. márciusi vagy újabb frissítését használja. Javasoljuk, hogy végezze el alkalmazásainak e kiadással történő frissítését az *AES 256* által biztosított további biztonsági előnyök kihasználásához.
 
 > [!IMPORTANT]
 > Az *AES 256*-védelemmel ellátott fájlok használata a [2014 októberi kiadás](release-notes-rtm.md) megjelenése óta támogatott. Ha 2014 októberénél korábbi SDK-verzióval készült alkalmazásokat futtat, e frissítés telepítését követően azok nem fognak működni. Győződjön meg arról, hogy az Ön által létrehozott alkalmazások ügyfelei vagy a frissített SDK-t használják, vagy készek azonnal az alkalmazás legfrissebb verziójára frissíteni.
@@ -51,7 +50,7 @@ Az alábbiakban az új licenctulajdonság használatát bemutató néhány egysz
 
 ## Elavult algoritmusok
 
-Az **IPC\_LI\_DEPRECATED\_ENCRYPTION\_ALGORITHMS** jelzőt a már nem tesszük közzé az API felületen. Ez azt jelenti, hogy a jövőben az erre a jelölőre hivatkozó alkalmazások lefordítása nem fog megtörténni. Az azt használó, már létrehozott alkalmazások azonban továbbra is működnek majd, mivel a jelölőt rejtve megőrizzük az API-kódban.
+Az **IPC\_LI\_DEPRECATED\_ENCRYPTION\_ALGORITHMS** jelzőt már nem tesszük közzé az API felületen. Ez azt jelenti, hogy a jövőben az erre a jelölőre hivatkozó alkalmazások lefordítása nem fog megtörténni. Az azt használó, már létrehozott alkalmazások azonban továbbra is működnek majd, mivel a jelölőt rejtve megőrizzük az API-kódban.
 
 A régi, elavult titkosítási algoritmus jelzőjének előnyei továbbra is kihasználhatóak egy jelző egyszerű módosításával. Tekintse meg példaként az alábbi kódrészleteket.
 

@@ -21,9 +21,8 @@
 #### [iOS/OS X-kódpéldák](ios-os-x-code-examples.md)
 #### [Közösségi erőforrások](community-resources.md)
 ### [Fejlesztői útmutatás és kifejezések](core-concepts.md)
-#### [Útmutató: Hitelesítés hozzáadása az alkalmazásához](authentication-integration.md)
+#### [Az alkalmazás regisztrálása és RMS-kompatibilissé tétele az Azure AD-vel](authentication-integration.md)
 #### [Útmutató: Hiba- és teljesítménynaplózás engedélyezése](enabling-logging.md)
-#### [Útmutató: Azure alkalmazásazonosító beszerzése](application-id.md)
 #### [Útmutató: A beépített jogosultságok használata](built-in-rights-usage-restriction-reference.md)
 #### [Útmutató: A dokumentumkövetés használata](how-to-use-document-tracking.md)
 #### [Kifejezések](terms.md)
@@ -59,9 +58,15 @@
 #### [Támogatott fájlformátumok](supported-file-formats.md)
 #### [Támogatott platformok](supported-platforms.md)
 #### [A használattal kapcsolatos korlátozások megértése](understanding-usage-restrictions.md)
-#### [A használattal kapcsolatos korlátozás – referencia](usage-restriction-reference.md)
+#### [Használattal kapcsolatos korlátozások – referencia](usage-restriction-reference.md)
+### [API-hivatkozás](api-reference-2-1.md)
+#### [Állandók](https://docs.microsoft.com/en-us/rights-management/sdk/2.1/api/win/constants)
+#### [Adattípusok](https://docs.microsoft.com/en-us/rights-management/sdk/2.1/api/win/data types)
+#### [Függvény](https://docs.microsoft.com/en-us/rights-management/sdk/2.1/api/win/functions)
+#### [Struktúrák](https://docs.microsoft.com/en-us/rights-management/sdk/2.1/api/win/structures)
+#### [Hibakódok](https://docs.microsoft.com/en-us/rights-management/sdk/2.1/api/win/Error codes)
 
 
-<!--HONumber=Jun16_HO2-->
+<!--HONumber=Jun16_HO3-->
 
 

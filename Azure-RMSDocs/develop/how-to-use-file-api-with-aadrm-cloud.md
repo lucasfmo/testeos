@@ -1,9 +1,8 @@
 ---
 # required metadata
 
-title:
-How-to: enable your service application to work with cloud based RMS | Azure RMS
-description: This topic outlines steps for setting up your service application to use Azure Rights Management.
+title: A szolgáltatásalkalmazás alkalmassá tétele a felhőalapú RMS használatára | Azure RMS
+description: Ez a témakör a szolgáltatásalkalmazás Azure Rights Management használatához végzett beállításának lépéseit ismerteti.
 keywords:
 author: bruceperlerms
 manager: mbaldwin
@@ -50,7 +49,7 @@ A Rights Management Services SDK 2.1 segítségével készített szolgáltatása
   **Megjegyzés** További információkért lásd: [Setting the API security mode](setting-the-api-security-mode-api-mode.md) (Az API biztonsági módjának beállítása).
 
      
--   A következő lépésekkel beállíthatja az [**IPC\_PROMPT\_CTX**](/rights-management/sdk/2.1/api/win/ipc_prompt_ctx#msipc_ipc_prompt_ctx) struktúra példányát az Azure Rights Management Service csatlakozási adataival kitöltött **pcCredential** ([IPC**CREDENTIAL\_**](/rights-management/sdk/2.1/api/win/ipc_credential#msipc_ipc_credential)) tag használatával.
+-   A következő lépésekkel beállíthatja az [**IPC\_PROMPT\_CTX**](/rights-management/sdk/2.1/api/win/ipc_prompt_ctx#msipc_ipc_prompt_ctx) struktúra példányát az Azure Rights Management Service csatlakozási adataival kitöltött **pcCredential** ([**IPC\_CREDENTIAL**](/rights-management/sdk/2.1/api/win/ipc_credential#msipc_ipc_credential)) tag használatával.
 -   A szimmetrikus kulcs szolgáltatásidentitás létrehozásának információival (lásd a témakör korábbi szakaszában lévő előfeltételeket) állítsa be a **wszServicePrincipal**, **wszBposTenantId** és **cbKey** paramétereket az [**IPC\_CREDENTIAL\_SYMMETRIC\_KEY**](/rights-management/sdk/2.1/api/win/ipc_credential#msipc_ipc_credential_symmetric_key) struktúra példányának létrehozásakor.
 
 **Megjegyzés:** Az észlelési szolgáltatás jelenlegi feltételei miatt Észak-Amerikán kívül a szimmetrikus kulcs hitelesítő adatai nem fogadhatók el más régiókból, így közvetlenül kell megadnia a bérlői URL-címeket. Ezt az [**IpcGetTemplateList**](/rights-management/sdk/2.1/api/win/functions#msipc_ipcgettemplatelist) vagy az [**IpcGetTemplateIssuerList**](/rights-management/sdk/2.1/api/win/functions#msipc_ipcgettemplateissuerlist) [**IPC\_CONNECTION\_INFO**](/rights-management/sdk/2.1/api/win/ipc_connection_info#msipc_ipc_connection_info) paraméterével teheti meg.
@@ -62,22 +61,22 @@ A Rights Management Services SDK 2.1 segítségével készített szolgáltatása
 -   Telepítse a [Microsoft Online Services bejelentkezési segédet](http://go.microsoft.com/fwlink/p/?LinkID=286152)
 -   Telepítse az [Azure AD Powershell-modult](https://bposast.vo.msecnd.net/MSOPMW/8073.4/amd64/AdministrationConfig-en.msi).
 
-**Megjegyzés:** Bérlői rendszergazdának kell lennie a PowerShell-parancsmagok használatához.
+**Megjegyzés** Bérlői rendszergazdának kell lennie a PowerShell-parancsmagok használatához.
 
 -   Indítsa el a PowerShellt, és generáljon kulcsot a következő parancsok futtatásával:         `Import-Module MSOnline`
             `Connect-MsolService` (írja be a rendszergazdai hitelesítő adatait)         `New-MsolServicePrincipal` (írjon be egy megjelenített nevet)
--   Miután a parancsmag létrehoz egy szimmetrikus kulcsot, kiadja a kulccsal kapcsolatos információkat, beleértve magát a kulcsot és az **AppPrincipalId** azonosítót.
+-   Miután létrehoz egy szimmetrikus kulcsot, a parancsmag kiadja a kulccsal kapcsolatos információkat, beleértve magát a kulcsot és az **AppPrincipalId** azonosítót.
 
 
-    The following symmetric key was created as one was not supplied ZYbF/lTtwE28qplQofCpi2syWd11D83+A3DRlb2Jnv8=
+    Megadott kulcs hiányában az alábbi szimmetrikus kulcs lett létrehozva ZYbF/lTtwE28qplQofCpi2syWd11D83+A3DRlb2Jnv8=
 
     DisplayName : RMSTestApp ServicePrincipalNames : {7d9c1f38-600c-4b4d-8249-22427f016963} ObjectId : 0ee53770-ec86-409e-8939-6d8239880518 AppPrincipalId : 7d9c1f38-600c-4b4d-8249-22427f016963
 
 
 ### A **TenantBposId** és az **Urls** megtekintésének utasításai
 
--   Telepítse az [Azure RMS PowerShell-modult](https://technet.microsoft.com/en-us/library/jj585012.aspx).
--   Indítsa el a PowerShellt, és futtassa a következő parancsokat a bérlő RMS-konfigurációjának lekéréséhez.
+-   Telepítse az [Azure RMS Powershell-modult](https://technet.microsoft.com/en-us/library/jj585012.aspx).
+-   Indítsa el a Powershellt, és futtassa a következő parancsokat a bérlő RMS-konfigurációjának lekéréséhez.
 
     `Import-Module aadrm`
 
@@ -154,13 +153,13 @@ Példa az [**IpcfDecryptFile**](/rights-management/sdk/2.1/api/win/functions#msi
            NULL,
            &wszOutputFilePath);
 
-Most elvégezte azokat a lépéseket, amelyek képessé teszik az alkalmazást az Azure Rights Management használatára.
+Most elvégezte azon lépéseket, amelyekkel az alkalmazás használhatja az Azure Rights Management eszközt.
 
 ## Kapcsolódó témakörök
 
 * [Ismerkedés az Azure Rights Management szolgáltatással](https://technet.microsoft.com/en-us/library/jj585016.aspx)
 * [Getting started with RMS SDK 2.1 (Ismerkedés az RMS SDK 2.1 szolgáltatással)](getting-started-with-ad-rms-2-0.md)
-* [Szolgáltatásidentitás létrehozása ACS-en keresztül](https://msdn.microsoft.com/en-us/library/gg185924.aspx)
+* [Szolgáltatásidentitás létrehozása ACS-n keresztül](https://msdn.microsoft.com/en-us/library/gg185924.aspx)
 * [**IpcSetGlobalProperty**](/rights-management/sdk/2.1/api/win/functions#msipc_ipcsetglobalproperty)
 * [**IpcInitialize**](/rights-management/sdk/2.1/api/win/functions#msipc_ipcinitialize)
 * [**IPC\_PROMPT\_CTX**](/rights-management/sdk/2.1/api/win/ipc_prompt_ctx#msipc_ipc_prompt_ctx)

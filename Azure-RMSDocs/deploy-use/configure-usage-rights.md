@@ -33,8 +33,8 @@ Amikor az Azure Rights Management (Azure RMS) segítségével lát el védelemme
 
 Ez a cikk segítséget nyújt a használt alkalmazáshoz kapcsolódó kívánt használati jogosultságok konfigurálására, és segít megérteni, hogy az alkalmazások hogyan értelmezik ezeket a jogosultságokat.
 
-## Használati jogosultságok és leírásuk
-Az alábbi szakaszok felsorolják és leírják a Rights Management által támogatott használati jogosultságokat, valamint a használatuk és az értelmezésük módját. **Köznapi név** alapján vannak listázva, ez azt a nevet jelenti, ahogyan a használati jogosultság vagy az arra való hivatkozás általában megjelenik, a kódban használt egyszavas értéknek (a **Kódolás a házirendben** értéke) a felhasználók számára könnyebben értelmezhető verziójaként. Az **API-állandó vagy -érték** az MSIPC API-hívások SDK-neve, amely a használati jogosultságokat ellenőrző vagy a használati jogosultságot egy házirendhez hozzáadó RMS-kompatibilis alkalmazás írásakor használatos.
+## Használati jogosultságok és leírások
+Az alábbi szakaszok felsorolják és leírják a Rights Management által támogatott használati jogosultságokat, valamint a használatuk és az értelmezésük módját. **Köznapi név** alapján vannak listázva, ez azt a nevet jelenti, ahogy a használati jogosultság vagy az arra való hivatkozás általában megjelenik, a kódban használt egyszavas értéknek (a **Kódolás a házirendben** értéke) a felhasználók számára könnyebben értelmezhető verziójaként. Az **API-állandó vagy -érték** az MSIPC API-hívások SDK-neve, amely a használati jogosultságokat ellenőrző vagy a használati jogosultságot egy házirendhez hozzáadó RMS-kompatibilis alkalmazás írásakor használatos.
 
 
 ### Tartalom szerkesztése, Szerkesztés
@@ -91,7 +91,7 @@ Ez a jogosultság elérhető az SDK-ban, valamint alkalmi házirendként Windows
 
 ### Mentés másként, Exportálás
 
-Lehetővé teszi a tartalom mentését másik fájlnévvel (Save As (Mentés másként)). Office-dokumentumok esetében a fájlt védelem nélkül is lehet menteni.
+Lehetővé teszi a tartalom mentését másik fájlnévvel (Save As (Mentés másként)). Office-dokumentumok esetében a fájl védelem nélkül is menthető.
 
 **Kódolás a házirendben:** EXPORT
 
@@ -109,7 +109,7 @@ Ez a jogosultság lehetővé teszi a felhasználónak az alkalmazásokon belüli
 
 ### Továbbítás
 
-Lehetővé teszi az e-mailek továbbítását, valamint címzettek felvételét a *Címzett* és a *Másolatot kap* sorba. Ez a jogosultság nem érvényes a dokumentumokra, kizárólag az e-mailekre.
+Lehetővé teszi az e-mail üzenetek továbbítását és a címzettek hozzáadását a *Címzett* és a *Másolatot kap* sorban. Ez a jogosultság nem érvényes a dokumentumokra, kizárólag az e-mailekre.
 
 **Kódolás a házirendben:** FORWARD
 
@@ -161,7 +161,7 @@ Lehetővé teszi a tartalom nyomtatását.
 
 ### Válasz
 
-Engedélyezi a Válasz lehetőséget az e-mail-ügyfélprogramokban, de nem engedélyezi a *Címzett* és a *Másolatot kap* sor módosítását.
+Engedélyezi a Válasz lehetőséget az e-mail ügyfélprogramokban, de nem engedélyezi a *Címzett* és a *Másolatot kap* sor módosítását.
 
 **Kódolás a házirendben:** REPLY
 
@@ -177,7 +177,7 @@ Engedélyezi a Válasz lehetőséget az e-mail-ügyfélprogramokban, de nem enge
 
 ### Válasz mindenkinek
 
-Engedélyezi a *Válasz mindenkinek* lehetőséget az e-mail-ügyfélprogramokban, de nem engedélyezi a címzettek hozzáadását a *Címzett* és a *Másolatot kap* sorokban.
+Engedélyezi a *Válasz mindenkinek* lehetőséget az e-mail ügyfélprogramokban, de nem engedélyezi a címzettek hozzáadását a *Címzett* és a *Másolatot kap* sorokban.
 
 **Kódolás a házirendben:** REPLYALL
 
@@ -269,7 +269,7 @@ Az alapértelmezett sablonok részét képező jogosultságok a következők:
 
 ## A Nem továbbítható beállítás az e-maileknél
 
-Az Exchange-ügyfeleknek és -szolgáltatásoknak (például az Outlook ügyfélnek, az Outlook Web Access alkalmazásnak és az Exchange átviteli szabályoknak) saját tartalomvédelmi beállításuk van az e-mailekhez, ez a **Nem továbbítható**. 
+Az Exchange-ügyfeleknek és -szolgáltatásoknak (például az Outlook ügyfélnek, az Outlook Web Access alkalmazásnak és az Exchange átviteli szabályoknak) még egy tartalomvédelmi beállításuk van az e-mailekhez, ez a **Nem továbbítható**. 
 
 Bár ez a beállítás úgy jelenik meg a felhasználók (és az Exchange-rendszergazdák) számára, mintha egy választható alapértelmezett tartalomvédelmi sablon volna, a **Nem továbbítható** valójában nem sablon. Ez indokolja, hogy nem látható a klasszikus Azure-portálon az Azure RMS sablonjainak megtekintésekor és kezelésekor. A **Nem továbbítás** igazából a jogok egy halmaza, amelyet dinamikusan alkalmaznak a felhasználók az e-mailjeik címzettjeire.
 

@@ -32,7 +32,7 @@ Ez a témakör alapvető útmutatással szolgál az RMS-kompatibilis alkalmazás
 
 A témakörben foglaltak az IPCHelloWorld mintaalkalmazáson alapulnak. Ez segít kiigazodni a tartalomvédelemmel kompatibilis alkalmazások alapvető fogalmai és kódrészletei között. A teljes IPCHellowWorld mintaalkalmazást letöltheti a Microsoft Connect webhelyről, a [Webinar_Collateral.zip](https://connect.microsoft.com/site1170/Downloads/DownloadDetails.aspx?DownloadID=42440) fájlban.
 
->AZURE.NOTE Az IPCHelloWorld-projekt már konfigurálva van a Rights Management Services SDK 2.1 szolgáltatáshoz. Az új projekteknek az RMS SDK 2.1 használatára való konfigurálásáról [A Visual Studio konfigurálása](how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md) című témakör nyújt tájékoztatást.
+> [!Note] Az IPCHelloWorld-projekt már konfigurálva van a Rights Management Services SDK 2.1 szolgáltatáshoz. További információért új projektek konfigurálásáról az RMS SDK 2.1 használatához tekintse meg a [Configure Visual Studio](how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md) (A Visual Studio konfigurálása) című témakört.
 
 ## Az MSIPC.dll betöltése
 
@@ -47,7 +47,7 @@ Az RMS SDK 2.1 függvényeinek meghívása előtt a MSIPC.dll betöltéséhez el
 
 ## Sablonok számbavétele
 
-Az RMS-sablonok meghatározzák az adatvédelmi házirendet, például azt, hogy mely felhasználók férhetnek hozzá az adatokhoz és a jogosultságaikhoz. Az RMS-sablonok az RMS-kiszolgálóra vannak telepítve.
+Az RMS-sablonok meghatározzák az adatvédelmi házirendet, például meghatározzák, hogy mely felhasználók férhetnek hozzá az adatokhoz és a jogosultságaikhoz. Az RMS-sablonok az RMS-kiszolgálóra vannak telepítve.
 
 Az alábbi kódrészlet számba veszi az alapértelmezett RMS-kiszolgálóról elérhető RMS-sablonokat.
 
