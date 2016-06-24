@@ -21,32 +21,28 @@ ms.assetid: 78022852-1541-4194-bd6b-2f5fd5d94b77
     <section id="hero-content">
       <h1>Az Azure Rights Management dokumentációja</h1>
       <h2>Megtudhatja, hogyan helyezheti üzembe és felügyelheti az Azure Rights Managementet (Azure RMS). Gyorsan megkezdheti a Rights Management használatát: információvédelmet alkalmazhat az e-mailekre, a dokumentumokra és az egyéb bizalmas adatokra.</h2>
-
-      <h3>New to Azure RMS? <a href="http://www.microsoft.com/en-us/server-cloud/products/azure-rights-management/" target="_blank">Visit our product site &rarr;</a></h3>
+      <h3>Új Azure RMS-felhasználó? <a href="http://go.microsoft.com/fwlink/?LinkId=816857" target="_blank">Keresse fel a termék webhelyét &rarr;</a></h3>
     </section>
-
     <aside class="alert section-border">
-        <p>Ready to get hands-on?</p>
+        <p>Készen áll a kezdésre?</p>
         <ol class="action-list">
-            <li><a href="https://portal.office.com/Signup/Signup.aspx?&OfferId=A43415D3-404C-4df3-B31B-AAD28118A778&dl=RIGHTSMANAGEMENT&ali=1#0" target="_blank" class="button-bordered button-translucent">Try Now</a></li>
+            <li><a href="https://portal.office.com/Signup/Signup.aspx?&OfferId=A43415D3-404C-4df3-B31B-AAD28118A778&dl=RIGHTSMANAGEMENT&ali=1#0" target="_blank" class="button-bordered button-translucent">Kipróbálom most</a></li>
         </ol>
     </aside>
-
     <section id="featured" class="container">
-      <h2 class="section-heading"><span class="icon icon-warning"></span> Featured Content</h2>
+      <h2 class="section-heading"><span class="icon icon-warning"></span> Kiemelt tartalom</h2>
       <div class="features row">
         <ul class="column column-half">
-          <li><a href="./understand-explore/what-is-azure-rms.md">What is Azure Rights Management?</a></li>
-          <li><a href="./get-started/quick-start-tutorial.md">Quick start tutorial for Azure RMS</a></li>
-          <li><a href="./get-started/rapid-deployment-guide.md">Rapid deployment guide for Azure RMS</a></li>
+          <li><a href="./understand-explore/what-is-azure-rms.md">Mi az az Azure Rights Management?</a></li>
+          <li><a href="./get-started/quick-start-tutorial.md">Azure RMS gyors üzembe helyezési útmutató</a></li>
+          <li><a href="./get-started/rapid-deployment-guide.md">Gyors üzembe helyezési útmutató az Azure RMS szolgáltatáshoz</a></li>
         </ul>
         <ul class="column column-half">
-          <li><a href="./plan-design/deployment-roadmap.md">Azure RMS deployment roadmap</a></li>
-          <li><a href="./develop/developers-guide.md">Integrate applications with Azure RMS</a></li>
+          <li><a href="./plan-design/deployment-roadmap.md">Azure RMS üzembe helyezési ütemterv</a></li>
+          <li><a href="./develop/developers-guide.md">Alkalmazások integrálása az Azure RMS segítségével</a></li>
         </ul>
       </div>
     </section>
-
     <div id="journeys">
       <section class="container">
         <ul class="journeys-list">
@@ -55,29 +51,29 @@ ms.assetid: 78022852-1541-4194-bd6b-2f5fd5d94b77
               <a href="./understand-explore/azure-rights-management.md">
                 <div class="title column-third">
                   <span class="step-number">1</span>
-                  <p>Understand &amp; Explore</p>
+                  <p>Megismerés &amp; felfedezés</p>
                 </div>
-                <p class="description column-two-thirds">Learn the high-level concepts, features, and capabilities of Azure RMS.</p>
+                <p class="description column-two-thirds">Sajátítsa el az Azure RMS alapvető fogalmait, funkcióit és képességeit.</p>
               </a>
             </header>
             <section class="journey-step-elements content">
               <ul class="row">
                 <li class="column-third">
                   <a href="./understand-explore/azure-rights-management.md">
-                    <h3>Overview of Azure Rights Management</h3>
-                    <p>Learn about Azure RMS, which protects your organization's sensitive information from unauthorized access and controls how this information is used.</p>
+                    <h3>Az Azure Rights Management áttekintése</h3>
+                    <p>Megismerheti az Azure Rights Managementet, amely hatékonyan védi meg a szervezet bizalmas információit a jogosulatlan hozzáférés ellen, valamint szabályozza a használatukat.</p>
                   </a>
                 </li>
                 <li class="column-third">
                   <a href="./understand-explore/rms-for-individuals.md">
-                    <h3>RMS for individuals and Azure Rights Management</h3>
-                    <p>Discover the free self-service subscription for users who have been sent sensitive files that have been protected by Azure RMS.</p>
+                    <h3>RMS egyéni felhasználók számára és Azure Rights Management</h3>
+                    <p>Felfedezheti az olyan felhasználóknak készült ingyenes önkiszolgáló előfizetést, akik az Azure RMS által védett bizalmas fájlokat kaptak.</p>
                   </a>
                 </li>
                 <li class="column-third">
                   <a href="./understand-explore/applications-support.md">
-                    <h3>How applications support Azure Rights Management</h3>
-                    <p>Understand how your end-user applications and services can use Microsoft Azure Rights Management to protect your organization's data </p>
+                    <h3>Hogyan támogatják a különböző alkalmazások az Azure Rights Managementet?</h3>
+                    <p>Megismerheti, hogy a végfelhasználói alkalmazások és szolgáltatások hogyan használhatják a Microsoft Azure Rights Managementet a szervezet adatainak megvédése érdekében </p>
                   </a>
                 </li>
               </ul>
@@ -88,140 +84,129 @@ ms.assetid: 78022852-1541-4194-bd6b-2f5fd5d94b77
               <a href="./get-started/requirements-azure-rms.md">
                 <div class="title column-third">
                   <span class="step-number">2</span>
-                  <p>Get Started</p>
+                  <p>Első lépések</p>
                 </div>
-                <p class="description column-two-thirds">Start using Azure RMS within minutes.</p>
+                <p class="description column-two-thirds">Perceken belül használhatja az Azure RMS szolgáltatást.</p>
               </a>
             </header>
-
             <section class="journey-step-elements content">
               <ul class="row">
                 <li class="column-third">
                   <a href="./get-started/requirements-azure-rms.md">
-                    <h3>Requirements for Azure Rights Management</h3>
-                    <p>Identify the prerequisites for deploying Azure Azure RMS.</p>
+                    <h3>Az Azure Rights Management követelményei</h3>
+                    <p>Megismerheti az Azure RMS telepítésének előfeltételeit.</p>
                   </a>
                 </li>
                 <li class="column-third">
                   <a href="./get-started/terminology.md">
-                    <h3>Terminology for Azure Rights Management</h3>
-                    <p>Learn the terms and abbreviations that are used in the context of Rights Management.</p>
+                    <h3>Az Azure Rights Management terminológiája</h3>
+                    <p>Megismerheti azokat a kifejezéseket és rövidítéseket, amelyek a Rights Managementtel összefüggésben használatosak.</p>
                   </a>
                 </li>
                 <li class="column-third">
                   <a href="./get-started/quick-start-tutorial.md">
-                    <h3>Quick start tutorial for Azure RMS</h3>
-                    <p>Quickly try out Azure Rights Management for your organization with just 5 steps.</p>
+                    <h3>Azure RMS gyors üzembe helyezési útmutató</h3>
+                    <p>5 lépésben kipróbálhatja az Azure Rights Management szolgáltatást szervezetében.</p>
                   </a>
                 </li>
               </ul>
             </section>
-
           </li>
-
           <li class="journey-step">
-
             <header class="journey-step-header row">
               <a href="./plan-design/deployment-roadmap.md">
                 <div class="title column-third">
                   <span class="step-number"> 3</span>
-                  <p>Plan & Design</p>
+                  <p>Tervezés és kialakítás</p>
                 </div>
-                <p class="description column-two-thirds">Plan and design Azure RMS.</p>
+                <p class="description column-two-thirds">Az Azure RMS tervezése és kialakítása.</p>
               </a>
             </header>
-
             <section class="journey-step-elements content">
               <ul class="row">
                 <li class="column-third">
                   <a href="./plan-design/deployment-roadmap.md">
-                    <h3>Azure Rights Management deployment roadmap</h3>
-                    <p>Identify and follow the steps to implement and manage Azure RMS for your organization.</p>
+                    <h3>Azure Rights Management üzembe helyezési menetrend</h3>
+                    <p>Ismerje meg és kövesse az Azure RMS szervezeti megvalósításához és kezeléséhez szükséges lépéseket.</p>
                   </a>
                 </li>
                 <li class="column-third">
                   <a href="./plan-design/migrate-from-ad-rms-to-azure-rms.md">
-                    <h3>Migrating from AD RMS to Azure Rights Management</h3>
-                    <p>Migrate your Active Directory Rights Management Services (AD RMS) deployment to Azure RMS.</p>
+                    <h3>Áttelepítés AD RMS-ről Azure Rights Managementre</h3>
+                    <p>Áttelepítheti az Active Directory Rights Management Services (AD RMS) telepítését az Azure RMS rendszerbe.</p>
                   </a>
                 </li>
                 <li class="column-third">
                   <a href="./plan-design/plan-implement-tenant-key.md">
-                    <h3>Planning and implementing your Azure Rights Management Tenant Key</h3>
-                    <p>Plan for and manage your tenant key for Azure RMS, which includes the "bring your own key" (BYOK) scenario.</p>
+                    <h3>Planning and implementing your Azure Rights Management tenant key (Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása)</h3>
+                    <p>Tervezze meg és kezelje az Azure RMS bérlői kulcsát; tartalmazza a „BYOK-forgatókönyvet” (Bring your own key – saját kulcs használata).</p>
                   </a>
                 </li>
               </ul>
             </section>
           </li>
-
           <li class="journey-step">
-
             <header class="journey-step-header row">
               <a href="./deploy-use/activate-service.md">
                 <div class="title column-third">
                   <span class="step-number"> 4</span>
-                  <p>Deploy & Use</p>
+                  <p>Üzembe helyezés és használat</p>
                 </div>
-                <p class="description column-two-thirds">Deploy and use Azure RMS.</p>
+                <p class="description column-two-thirds">Az Azure RMS üzembe helyezése és használata.</p>
               </a>
             </header>
-
             <section class="journey-step-elements content">
               <ul class="row">
                  <li class="column-third">
                  <a href="./deploy-use/activate-service.md">
-                    <h3>Activating Azure Rights Management</h3>
-                    <p>Start protecting important data by using applications and services that support this information protection solution.</p>
+                    <h3>Az Azure Rights Management aktiválása</h3>
+                    <p>Megkezdheti a fontos adatok védelmét a jelen adatvédelmi megoldást támogató alkalmazások és szolgáltatások használatával.</p>
                   </a>
                 </li>
                 <li class="column-third">
                   <a href="./deploy-use/configure-custom-templates.md">
-                    <h3>Configuring custom templates for Azure Rights Management</h3>
-                    <p>Use templates to easily apply policies to sensitive files that restrict access to authorized users in your organization.</p>
+                    <h3>Az Azure Rights Management egyéni sablonok konfigurálása</h3>
+                    <p>Olyan sablonokat használhat, amelyekkel könnyedén alkalmazhat házirendeket az érzékeny fájlokra, amelyek a fájlokhoz való hozzáférést a szervezeten belüli jogosult felhasználókra korlátozzák.</p>
                  </a>
                 </li>
                 <li class="column-third">
                   <a href="./deploy-use/configure-applications.md">
-                    <h3>Configuring applications for Azure Rights Management</h3>
-                    <p>Configure applications and services to support Azure RMS. For example, the RMS sharing app, Office applications, and Office 365 services.</p>
+                    <h3>Alkalmazások konfigurálása az Azure Rights Managementhez</h3>
+                    <p>Alkalmazásokat és szolgáltatásokat konfigurálhat az Azure RMS támogatásához. Például az RMS-megosztó alkalmazás, Office-alkalmazások és Office 365-szolgáltatások.</p>
                  </a>
                 </li>
               </ul>
             </section>
           </li>
-
           <li class="journey-step">
-
             <header class="journey-step-header row">
               <a href="./develop/developers-guide.md">
                 <div class="title column-third">
                   <span class="step-number"> 5</span>
-                  <p>Develop &amp; Customize Apps</p>
+                  <p>Alkalmazások fejlesztése &amp; testreszabása</p>
                 </div>
-                <p class="description column-two-thirds">Integrate Azure RMS with your applications.
+                <p class="description column-two-thirds">Az Azure RMS integrálása az alkalmazásokkal.
                 </p>
               </a>
             </header>
-
             <section class="journey-step-elements content">
               <ul class="row">
                 <li class="column-third">
                   <a href="./develop/developers-guide.md">
-                    <h3>Azure RMS developer's guide</h3>
-                    <p>See a collection of Microsoft supplied RMS code samples and developer support tools spanning all supported operating systems.</p>
+                    <h3>Azure RMS fejlesztői útmutató</h3>
+                    <p>A Microsoft által nyújtott mintakódok és a fejlesztői támogatás eszközei az összes támogatott operációs rendszerre.</p>
                   </a>
                 </li>
                 <li class="column-third">
                   <a href="./develop/active-directory-rights-management-services-multi-platform-thin-client-sdk-portal.md">
-                    <h3>Microsoft Rights Management SDK 4.2</h3>
-                    <p>Use this next-generation SDK for enabling your Android, iOS, Mac OS X, Windows Phone/RT and Linux/C++ device apps with Microsoft Rights Management services.</p>
+                    <h3>Microsoft Rights Management SDK 4.2-es verzió</h3>
+                    <p>Ezzel a következő generációs SDK-val Android-, iOS-, Mac OS X-, Windows Phone-/RT- és Linux/C++-eszközeinek alkalmazásait engedélyezheti a Microsoft Rights Management szolgáltatások segítségével.</p>
                   </a>
                 </li>
                 <li class="column-third">
                   <a href="./develop/microsoft-information-protection-and-control-client-portal.md">
-                    <h3>Microsoft Rights Management SDK 2.1</h3>
-                    <p>Use this powerful SDK for Windows desktop application developers and server based solution providers to enable their products to work with Microsoft Rights Management services.</p>
+                    <h3>Microsoft Rights Management SDK 2.1-es verzió</h3>
+                    <p>Ezzel a hatékony SDK-val a Windows asztali alkalmazások és a kiszolgálóalapú megoldások fejlesztői kompatibilissé tehetik a termékeiket a Microsoft Rights Management szolgáltatásokkal.</p>
                   </a>
                 </li>
               </ul>
@@ -230,17 +215,15 @@ ms.assetid: 78022852-1541-4194-bd6b-2f5fd5d94b77
         </ul>
       </section>
     </div>
-
     <aside class="alert alert-social">
-      <p>Keep up-to-date on Azure RMS
-      <ol class="action-list">
-        <li><a href="http://blogs.technet.com/b/rms/" target="_blank" class="button-bordered button-translucent">Official RMS Team Blog</a></li>
-        <li><a href="https://twitter.com/TheRMSGuy" target="_blank" class="button-bordered button-translucent">@TheRMSGuy on Twitter</a></li>
+      <p>Maradjon naprakész az Azure RMS kapcsán <ol class="action-list">
+        <li><a href="http://blogs.technet.com/b/rms/" target="_blank" class="button-bordered button-translucent">Az RMS-csapat hivatalos blogja</a></li>
+        <li><a href="https://twitter.com/TheRMSGuy" target="_blank" class="button-bordered button-translucent">@TheRMSGuy a Twitteren</a></li>
       </ol>
     </aside>
 </article>
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO4-->
 
 
