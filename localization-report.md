@@ -1020,8 +1020,8 @@
 * Archive Datetime: 2016-06-16 13:15:54
 * Handback File: [add-explicit-owner-rights.41e1f4a20dbc614b802dc2a924abbf773d143285.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/14fde266f5e7a0e8deeaff66f5034398a87de3b7/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/add-explicit-owner-rights.41e1f4a20dbc614b802dc2a924abbf773d143285.hu-hu.xlf)
 * Handback Datetime: 2016-06-25 06:47:19
-* Bilingual File: [add-explicit-owner-rights.41e1f4a20dbc614b802dc2a924abbf773d143285.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/3b0d118b0314c989ff3fedd0e48338924e6013a0/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/add-explicit-owner-rights.41e1f4a20dbc614b802dc2a924abbf773d143285.hu-hu.xlf)
-* Bilingual Datetime: 2016-06-24 19:20:00
+* Bilingual File: [add-explicit-owner-rights.41e1f4a20dbc614b802dc2a924abbf773d143285.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/14fde266f5e7a0e8deeaff66f5034398a87de3b7/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/add-explicit-owner-rights.41e1f4a20dbc614b802dc2a924abbf773d143285.hu-hu.xlf)
+* Bilingual Datetime: 2016-06-25 06:51:30
 * [Back to Top](#report-top)
 
 ##### <a name='24322775b689ad0508979853fd06b2d33fc33cc140'></a> Source: [Azure-RMSDocs\develop\ad-rms-client.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/f7dd88d90357c99c69fe4fdde67c1544595e02f8/Azure-RMSDocs/develop/ad-rms-client.md)
@@ -1259,8 +1259,8 @@
 * Archive Datetime: 2016-06-16 13:15:54
 * Handback File: [debugging-applications-that-use-ad-rms.044fb4ce51f76ed363f57487a20b276d965edaa7.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/14fde266f5e7a0e8deeaff66f5034398a87de3b7/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/debugging-applications-that-use-ad-rms.044fb4ce51f76ed363f57487a20b276d965edaa7.hu-hu.xlf)
 * Handback Datetime: 2016-06-25 06:47:19
-* Bilingual File: [debugging-applications-that-use-ad-rms.044fb4ce51f76ed363f57487a20b276d965edaa7.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/3b0d118b0314c989ff3fedd0e48338924e6013a0/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/debugging-applications-that-use-ad-rms.044fb4ce51f76ed363f57487a20b276d965edaa7.hu-hu.xlf)
-* Bilingual Datetime: 2016-06-24 19:20:00
+* Bilingual File: [debugging-applications-that-use-ad-rms.044fb4ce51f76ed363f57487a20b276d965edaa7.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/14fde266f5e7a0e8deeaff66f5034398a87de3b7/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/debugging-applications-that-use-ad-rms.044fb4ce51f76ed363f57487a20b276d965edaa7.hu-hu.xlf)
+* Bilingual Datetime: 2016-06-25 06:51:30
 * [Back to Top](#report-top)
 
 ##### <a name='902721ae3e69afd144c552b8ee0a916958e80afc58'></a> Source: [Azure-RMSDocs\develop\deploying-your-application.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/872bb0c20db2ef8d661d321598a2b1fe61d69316/Azure-RMSDocs/develop/deploying-your-application.md)
@@ -1448,8 +1448,8 @@
 * Current Target File: [Azure-RMSDocs\develop\how-to-install-and-configure-an-rms-server.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/bd34d033f0cc552abf2ef482cb4fc3bdccd535c3/Azure-RMSDocs/develop/how-to-install-and-configure-an-rms-server.md)
 * Current Handback File: [how-to-install-and-configure-an-rms-server.69e93f9b8b64e371d90b89ca814bf2d030f22a0e.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/14fde266f5e7a0e8deeaff66f5034398a87de3b7/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/how-to-install-and-configure-an-rms-server.69e93f9b8b64e371d90b89ca814bf2d030f22a0e.hu-hu.xlf)
 * Current Handback Datetime: 2016-06-25 06:47:19
-* Bilingual File: [how-to-install-and-configure-an-rms-server.69e93f9b8b64e371d90b89ca814bf2d030f22a0e.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/3b0d118b0314c989ff3fedd0e48338924e6013a0/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/how-to-install-and-configure-an-rms-server.69e93f9b8b64e371d90b89ca814bf2d030f22a0e.hu-hu.xlf)
-* Bilingual Datetime: 2016-06-24 19:20:00
+* Bilingual File: [how-to-install-and-configure-an-rms-server.69e93f9b8b64e371d90b89ca814bf2d030f22a0e.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/14fde266f5e7a0e8deeaff66f5034398a87de3b7/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/how-to-install-and-configure-an-rms-server.69e93f9b8b64e371d90b89ca814bf2d030f22a0e.hu-hu.xlf)
+* Bilingual Datetime: 2016-06-25 06:51:30
 * [Back to Top](#report-top)
 
 ##### <a name='4c273efa683827dc8f731a6dadb3f50bf53ea61671'></a> Source: [Azure-RMSDocs\develop\how-to-set-up-your-test-environment.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/ff94ef16be26bae14565309496aac88733739786/Azure-RMSDocs/develop/how-to-set-up-your-test-environment.md)
@@ -1504,8 +1504,8 @@
 * Archive Datetime: 2016-06-16 13:15:54
 * Handback File: [how-to-use-document-tracking.9b499b3eda30f41dbea9c7eb5f63a725fe4cbdcf.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/14fde266f5e7a0e8deeaff66f5034398a87de3b7/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/how-to-use-document-tracking.9b499b3eda30f41dbea9c7eb5f63a725fe4cbdcf.hu-hu.xlf)
 * Handback Datetime: 2016-06-25 06:47:19
-* Bilingual File: [how-to-use-document-tracking.9b499b3eda30f41dbea9c7eb5f63a725fe4cbdcf.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/3b0d118b0314c989ff3fedd0e48338924e6013a0/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/how-to-use-document-tracking.9b499b3eda30f41dbea9c7eb5f63a725fe4cbdcf.hu-hu.xlf)
-* Bilingual Datetime: 2016-06-24 19:20:00
+* Bilingual File: [how-to-use-document-tracking.9b499b3eda30f41dbea9c7eb5f63a725fe4cbdcf.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/14fde266f5e7a0e8deeaff66f5034398a87de3b7/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/how-to-use-document-tracking.9b499b3eda30f41dbea9c7eb5f63a725fe4cbdcf.hu-hu.xlf)
+* Bilingual Datetime: 2016-06-25 06:51:30
 * [Back to Top](#report-top)
 
 ##### <a name='7a369052dd94b1507e427b9f8449efc04ea6c19a75'></a> Source: [Azure-RMSDocs\develop\how-to-use-file-api-with-aadrm-cloud.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/f7dd88d90357c99c69fe4fdde67c1544595e02f8/Azure-RMSDocs/develop/how-to-use-file-api-with-aadrm-cloud.md)
@@ -1741,8 +1741,8 @@
 * Archive Datetime: 2016-06-16 13:15:54
 * Handback File: [setting-the-api-security-mode-api-mode.0b56ccf949d2c9ad30125d9a61d606bda60c90e8.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/14fde266f5e7a0e8deeaff66f5034398a87de3b7/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/setting-the-api-security-mode-api-mode.0b56ccf949d2c9ad30125d9a61d606bda60c90e8.hu-hu.xlf)
 * Handback Datetime: 2016-06-25 06:47:19
-* Bilingual File: [setting-the-api-security-mode-api-mode.0b56ccf949d2c9ad30125d9a61d606bda60c90e8.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/3b0d118b0314c989ff3fedd0e48338924e6013a0/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/setting-the-api-security-mode-api-mode.0b56ccf949d2c9ad30125d9a61d606bda60c90e8.hu-hu.xlf)
-* Bilingual Datetime: 2016-06-24 19:20:00
+* Bilingual File: [setting-the-api-security-mode-api-mode.0b56ccf949d2c9ad30125d9a61d606bda60c90e8.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/14fde266f5e7a0e8deeaff66f5034398a87de3b7/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/setting-the-api-security-mode-api-mode.0b56ccf949d2c9ad30125d9a61d606bda60c90e8.hu-hu.xlf)
+* Bilingual Datetime: 2016-06-25 06:51:30
 * [Back to Top](#report-top)
 
 ##### <a name='4bb013f420b02a10e306d92624683c48ceb2582f91'></a> Source: [Azure-RMSDocs\develop\setup-developer-environment.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/6b5bc9612ac17a2d6905200383d9b8df4c504efe/Azure-RMSDocs/develop/setup-developer-environment.md)
@@ -1828,8 +1828,8 @@
 * Archive Datetime: 2016-06-16 13:15:54
 * Handback File: [tracking-content.96d55d65b4f5f5acd451c4e31ff2f07f2aa6fceb.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/14fde266f5e7a0e8deeaff66f5034398a87de3b7/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/tracking-content.96d55d65b4f5f5acd451c4e31ff2f07f2aa6fceb.hu-hu.xlf)
 * Handback Datetime: 2016-06-25 06:47:19
-* Bilingual File: [tracking-content.96d55d65b4f5f5acd451c4e31ff2f07f2aa6fceb.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/a5a14eef31410e512940f429da005430dd89bcd1/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/tracking-content.96d55d65b4f5f5acd451c4e31ff2f07f2aa6fceb.hu-hu.xlf)
-* Bilingual Datetime: 2016-06-23 12:30:47
+* Bilingual File: [tracking-content.96d55d65b4f5f5acd451c4e31ff2f07f2aa6fceb.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/14fde266f5e7a0e8deeaff66f5034398a87de3b7/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/tracking-content.96d55d65b4f5f5acd451c4e31ff2f07f2aa6fceb.hu-hu.xlf)
+* Bilingual Datetime: 2016-06-25 06:51:30
 * [Back to Top](#report-top)
 
 ##### <a name='2d2cbe580349e1615371a6a76e78140f6577e89097'></a> Source: [Azure-RMSDocs\develop\understanding-usage-restrictions.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/872bb0c20db2ef8d661d321598a2b1fe61d69316/Azure-RMSDocs/develop/understanding-usage-restrictions.md)
@@ -1901,8 +1901,8 @@
 * Archive Datetime: 2016-06-16 13:15:54
 * Handback File: [working-with-encryption.19f5df37a590d0c88fe306cf324bf9883b1786f3.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/14fde266f5e7a0e8deeaff66f5034398a87de3b7/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/working-with-encryption.19f5df37a590d0c88fe306cf324bf9883b1786f3.hu-hu.xlf)
 * Handback Datetime: 2016-06-25 06:47:19
-* Bilingual File: [working-with-encryption.19f5df37a590d0c88fe306cf324bf9883b1786f3.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/3b0d118b0314c989ff3fedd0e48338924e6013a0/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/working-with-encryption.19f5df37a590d0c88fe306cf324bf9883b1786f3.hu-hu.xlf)
-* Bilingual Datetime: 2016-06-24 19:20:00
+* Bilingual File: [working-with-encryption.19f5df37a590d0c88fe306cf324bf9883b1786f3.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/14fde266f5e7a0e8deeaff66f5034398a87de3b7/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/working-with-encryption.19f5df37a590d0c88fe306cf324bf9883b1786f3.hu-hu.xlf)
+* Bilingual Datetime: 2016-06-25 06:51:30
 * [Back to Top](#report-top)
 
 ##### <a name='61c85b2468797e44f08097f048bf93db17187b30102'></a> Source: [Azure-RMSDocs\docfx.json](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/aa6807ac64ac40d0b1251e69050df86d6688dc9c/Azure-RMSDocs/docfx.json)
