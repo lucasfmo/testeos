@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Útmutató: Explicit tulajdonosi jogosultságok hozzáadása | Azure RMS
+title: "Útmutató: Explicit tulajdonosi jogosultságok hozzáadása | Azure RMS"
 description: Az alkalmazásnak kifejezetten hozzá kellene adnia a „Tulajdonos” jogosultságokat egy teljesen új licenc létrehozásakor.
 keywords:
 author: bruceperlerms

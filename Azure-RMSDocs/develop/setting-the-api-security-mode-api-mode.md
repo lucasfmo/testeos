@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Útmutató: Az API biztonsági üzemmód beállítása | Azure RMS
+title: "Útmutató: Az API biztonsági üzemmód beállítása | Azure RMS"
 description: Válassza ki, hogy melyik biztonsági módban fusson a File API alkalmazás.
 keywords:
 author: bruceperlerms

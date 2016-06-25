@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Útmutató: A dokumentumkövetés és -visszavonás engedélyezése | Azure RMS
+title: "Útmutató: A dokumentumkövetés és -visszavonás engedélyezése | Azure RMS"
 description: A dokumentumok nyomon követésének bevezetésére szolgáló alapvető útmutatás
 keywords:
 author: bruceperlerms

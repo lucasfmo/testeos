@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Útmutató: telepítés, konfigurálás és tesztelés az RMS-kiszolgálóval | Azure RMS
+title: "Útmutató: telepítés, konfigurálás és tesztelés az RMS-kiszolgálóval | Azure RMS"
 description: Telepítse és konfigurálja az RMS-kiszolgálót a tartalomvédelemmel kompatibilis alkalmazás teszteléséhez.
 keywords:
 author: bruceperlerms

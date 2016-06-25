@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Útmutató: A titkosítási beállítások kezelése | Azure RMS
+title: "Útmutató: A titkosítási beállítások kezelése | Azure RMS"
 description: Ebben a cikkben megismerkedhet titkosítási csomagjainkkal
 keywords:
 author: bruceperlerms

@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Útmutató: A dokumentumkövetés használata | Azure RMS
+title: "Útmutató: A dokumentumkövetés használata | Azure RMS"
 description: A dokumentumok nyomon követését biztosító szolgáltatás használatához ismerni kell a szolgáltatáshoz kapcsolódó metaadatok és regisztráció kezelését.
 keywords:
 author: bruceperlerms

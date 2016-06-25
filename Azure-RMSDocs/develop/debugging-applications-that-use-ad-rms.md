@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Útmutató: Tartalomvédelemmel kompatibilis alkalmazások hibakeresése | Azure RMS
+title: "Útmutató: Tartalomvédelemmel kompatibilis alkalmazások hibakeresése | Azure RMS"
 description: A következő témakör az alkalmazások hibakeresésének és a Windows Eseménynapló használatának módját ismerteti.
 keywords:
 author: bruceperlerms
