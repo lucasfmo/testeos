@@ -476,9 +476,6 @@
   "d67caf4ebbe19e4f67061d006da1fdedea0d5761": [
     "Azure-RMSDocs\\deploy-use\\create-template.md"
   ],
-  "b904c6353341224dcb925b224de8d5cd7ff48007": [
-    "Azure-RMSDocs\\deploy-use\\create-template.md"
-  ],
   "8c114336551417fdbf1503ffc8350e3fc28e9c95": [
     "Azure-RMSDocs\\deploy-use\\decommission-deactivate.md"
   ],
@@ -761,12 +758,6 @@
   "4f63cb7911661104113d19ecd84ef7c80a874408": [
     "Azure-RMSDocs\\rms-client\\sharing-app-admin-guide-technical.md"
   ],
-  "3e2475a62f39ea1112f6d76f12f2f910136f8069": [
-    "Azure-RMSDocs\\rms-client\\sharing-app-admin-guide-technical.md"
-  ],
-  "3be36a844584fd1d7e90bf405e4d5d1844e11fd3": [
-    "Azure-RMSDocs\\rms-client\\sharing-app-admin-guide-technical.md"
-  ],
   "771a80843ca5ab01cd06bd4e76c827469b0e9f00": [
     "Azure-RMSDocs\\rms-client\\sharing-app-dialog-box.md"
   ],
@@ -807,9 +798,6 @@
     "Azure-RMSDocs\\understand-explore\\api-support.md"
   ],
   "15167c4e7dbe0fd401e198c80524b39e4ded250d": [
-    "Azure-RMSDocs\\understand-explore\\applications-support.md"
-  ],
-  "2539d4f1c5f114331606685812cb9ba955d2c6cb": [
     "Azure-RMSDocs\\understand-explore\\applications-support.md"
   ],
   "8635402989db0f83017151910013ca460011b392": [
