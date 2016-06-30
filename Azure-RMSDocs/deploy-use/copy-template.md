@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Sablon másolása | Azure RMS
-description:
-keywords:
+title: "Sablon másolása | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 05/20/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: f329ce49-e044-4c11-821d-5496d83c1bb3
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 332e102cb27854314b93a71bfeae82a95c9a7812
+ms.openlocfilehash: 87d712bbda11a4cfdfb2f3b3e9a549bca977afd6
+
 
 ---
 
@@ -42,6 +35,7 @@ Egyéni és az alapértelmezett sablonokról készíthet másolatot. Az ajánlot
 ## Lásd még:
 [Egyéni sablonok konfigurálása az Azure Rights Management szolgáltatáshoz](configure-custom-templates.md)
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=May16_HO3-->
 
 

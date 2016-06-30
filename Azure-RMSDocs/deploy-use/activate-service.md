@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Az Azure Rights Management aktiválása | Azure RMS
-description:
-keywords:
+title: "Az Azure Rights Management aktiválása | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 05/16/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: f8707e01-b239-4d1a-a1ea-0d1cf9a8d214
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: bf5e3561ef24d8f44e791ff7bdc8450a73f79705
+ms.openlocfilehash: d66e4e6bca253bc2bf9d12ba22ed0202cba2edaf
+
 
 ---
 
@@ -36,25 +29,29 @@ Ha szeretne többet megtudni az Azure Rights Management szolgáltatásról annak
 > [!IMPORTANT]
 > A [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] aktiválása előtt győződjön meg arról, hogy a szervezete olyan szolgáltatáscsomaggal rendelkezik, amely tartalmazza a [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] szolgáltatásokat. Ha nem rendelkezik, akkor nem tudja aktiválni az Azure RMS szolgáltatást.
 >
-> További információk: [Az Azure RMS-t támogató felhőalapú előfizetések](../get-started/requirements-subscriptions.md).
+> További információ: [Az Azure RMS-t támogató felhőalapú előfizetések](../get-started/requirements-subscriptions.md).
 
 Az Azure RMS aktiválását követően a szervezetében lévő összes felhasználó tartalomvédelemmel láthatja el a fájljait, és az összes felhasználó megnyithatja (felhasználhatja) az Azure RMS által védett fájlokat. Azonban akár korlátozhatja is, ki alkalmazhat tartalomvédelmet azzal, hogy regisztrációs vezérlőket használ a szakaszos bevezetéshez. További információt a jelen cikk [Regisztrációs vezérlők konfigurálása szakaszos bevezetéshez](#configuring-onboarding-controls-for-a-phased-deployment) című szakaszában találhat.
 
-A Rights Management aktiválásával kapcsolatos utasításokért válassza ki, hogy az Office 365 Felügyeleti központot (előnézet vagy klasszikus) vagy a klasszikus Azure felügyeleti portált kívánja használni:
+A Rights Management felügyeleti portálból való aktiválásával kapcsolatos utasításokért válassza ki, hogy az Office 365 Felügyeleti központot (előnézet vagy klasszikus) vagy a klasszikus Azure felügyeleti portált kívánja használni:
 
 
 - [Office 365 Felügyeleti központ – előnézet](activate-office365-preview.md)
 - [Office 365 Felügyeleti központ – klasszikus](activate-office365-classic.md)
 - [Klasszikus Azure-portál](activate-azure-classic.md)
 
-> [!TIP]
-> Az aktiváláshoz az [Enable-Aadrm](http://msdn.microsoft.com/library/windowsazure/dn629412.aspx) Windows PowerShell-parancsmagot is használhatja [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)].
+Alternatív megoldásként a Windows PowerShellel is aktiválhatja a [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)]et:
+
+1. Telepítse a Azure Rights Management felügyeleti eszközt, amely telepíti az Azure Rights Management felügyeleti modult. Az utasítások itt találhatók: [Az Azure Rights Managementhez készült Windows PowerShell telepítése](../deploy-use/install-powershell.md).
+
+2. Futtassa egy Windows PowerShell-munkamenetből a [Connect-AadrmService](https://msdn.microsoft.com/library/windowsazure/dn629415.aspx) parancsot, és ha a rendszer kéri, adja meg a globális rendszergazdai fiók adatait az Azure RMS-bérlő számára.
+
+3. Futtassa az [Enable-Aadrm](http://msdn.microsoft.com/library/windowsazure/dn629412.aspx) parancsot, amely aktiválja az Azure RMS-szolgáltatást.
 
 ## Regisztrációs vezérlők konfigurálása szakaszos bevezetéshez
 Ha nem szeretné, hogy az összes felhasználó azonnal képes a fájlok számára védelmet biztosítani az Azure RMS használatával, felhasználóregisztrációs vezérlőket állíthat be a [Set-AadrmOnboardingControlPolicy](http://msdn.microsoft.com/library/azure/dn857521.aspx) Windows PowerShell-parancs segítségével. Ezt a parancsot az Azure RMS aktiválása előtt vagy után futtathatja.
 
-> [!IMPORTANT]
-> Ezen parancs használatához legalább **2.1.0.0** verziójú [Azure RMS Windows PowerShell-modulra](http://go.microsoft.com/fwlink/?LinkId=257721) van szükség.
+> [!IMPORTANT] Ezen parancs használatához legalább **2.1.0.0** verziójú [Azure RMS Windows PowerShell-modulra](http://go.microsoft.com/fwlink/?LinkId=257721) van szükség.
 >
 > A telepített verzió ellenőrzéséhez futtassa a **(Get-Module aadrm –ListAvailable).Version** parancsot
 
@@ -78,11 +75,11 @@ Most, hogy aktiválta az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_right
 
 Például lehet, hogy [egyéni sablonok](configure-custom-templates.md) segítségével meg szeretné könnyíteni a felhasználóknak, hogy információvédelmet alkalmazzanak a fájlokra, az [RMS-összekötő](deploy-rms-connector.md) telepítésével csatlakoztatni kívánja a helyi kiszolgálóit az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] szolgáltatáshoz, és telepíteni kívánja a [Rights Management megosztóalkalmazást](../rms-client/sharing-app-windows.md), amely támogatja az összes fájltípus védelmét az összes eszközön. 
 
-Az Office-szolgáltatások, például az Exchange Online és a SharePoint Online további konfigurációt igényelnek a tartalomvédelmi szolgáltatásaik (IRM) használatához. 
-Információk arról, hogyan működnek együtt az alkalmazásai az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] szolgáltatással: [How applications support Azure Rights Management](../understand-explore/applications-support.md) (Hogyan támogatják a különböző alkalmazások az Azure Rights Managementet?).
+Az Office-szolgáltatások, például az Exchange Online és a SharePoint Online további konfigurációt igényelnek a tartalomvédelmi szolgáltatásaik (IRM) használatához. Információ arról, hogyan működnek együtt az alkalmazásai az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] szolgáltatással: [Hogyan támogatják a különböző alkalmazások az Azure Rights Managementet?](../understand-explore/applications-support.md).
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=May16_HO3-->
 
 
