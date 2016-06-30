@@ -73143,9 +73143,9 @@
       "ArchiveFileCommit": "35c2d8232cf362f1588a1d175bc172f2e7af6955",
       "ArchiveFileDateTime": "2016-06-02T03:23:04.8764938Z",
       "ArchiveException": null,
-      "BilingualFilePath": null,
-      "BilingualFileCommit": null,
-      "BilingualDateTime": "0001-01-01T00:00:00",
+      "BilingualFilePath": "ol-handback\\Microsoft\\Azure-RMSDocs-pr.hu-hu\\master\\applications-support.2ceee91ce17806c0012dc7a9ee884ddcf55329b2.hu-hu.xlf",
+      "BilingualFileCommit": "abcdbec2a7e1a29f87f7f4bf555e437eae8c0df5",
+      "BilingualDateTime": "2016-06-30T15:00:57.458915Z",
       "BilingualException": null
     },
     "d66e4e6bca253bc2bf9d12ba22ed0202cba2edaf": {
@@ -73743,9 +73743,9 @@
       "ArchiveFileCommit": "35c2d8232cf362f1588a1d175bc172f2e7af6955",
       "ArchiveFileDateTime": "2016-06-02T03:23:04.8764938Z",
       "ArchiveException": null,
-      "BilingualFilePath": null,
-      "BilingualFileCommit": null,
-      "BilingualDateTime": "0001-01-01T00:00:00",
+      "BilingualFilePath": "ol-handback\\Microsoft\\Azure-RMSDocs-pr.hu-hu\\master\\sharing-app-admin-guide-technical.0559e28c1635cef750afcfabe69519c7465b9f77.hu-hu.xlf",
+      "BilingualFileCommit": "abcdbec2a7e1a29f87f7f4bf555e437eae8c0df5",
+      "BilingualDateTime": "2016-06-30T15:00:57.458915Z",
       "BilingualException": null
     },
     "8635402989db0f83017151910013ca460011b392": {
@@ -73851,9 +73851,9 @@
       "ArchiveFileCommit": "35c2d8232cf362f1588a1d175bc172f2e7af6955",
       "ArchiveFileDateTime": "2016-06-02T03:23:04.8958836Z",
       "ArchiveException": null,
-      "BilingualFilePath": null,
-      "BilingualFileCommit": null,
-      "BilingualDateTime": "0001-01-01T00:00:00",
+      "BilingualFilePath": "ol-handback\\Microsoft\\Azure-RMSDocs-pr.hu-hu\\master\\create-template.d84bce6a54cca51abdeecb1b4b5e3b87bf6bdf77.hu-hu.xlf",
+      "BilingualFileCommit": "abcdbec2a7e1a29f87f7f4bf555e437eae8c0df5",
+      "BilingualDateTime": "2016-06-30T15:00:57.458915Z",
       "BilingualException": null
     },
     "cccbaa8e691ed152d74f7b9f279018e00a7316db": {
