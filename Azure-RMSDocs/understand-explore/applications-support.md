@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Hogyan támogatják a különböző alkalmazások az Azure Rights Managementet? | Azure RMS
-description:
-keywords:
+title: "Hogyan támogatják a különböző alkalmazások az Azure Rights Managementet? | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 05/13/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 2cdc7bde-4044-4021-b887-11476f99afd9
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 16c2dbbce4234f41941bd3fd92d264df0ae685e2
+ms.openlocfilehash: 15167c4e7dbe0fd401e198c80524b39e4ded250d
+
 
 ---
 
@@ -30,19 +23,27 @@ ms.suite: ems
 *A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Az alábbi információk segítségével megismerheti, hogyan biztosíthatnak védelmet a szervezet adatai számára a leggyakoribb végfelhasználói alkalmazások (például az Office-alkalmazások: Word, Excel, PowerPoint és Outlook) és szolgáltatások (például Exchange és SharePoint) a Microsoft [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] használatával. 
-> [!NOTE]
-> Az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] (Azure RMS) által támogatott alkalmazások és verziók ellenőrzéséhez tekintse meg: [Az Azure Rights Management követelményei](../get-started/requirements-azure-rms.md)..
+> [!NOTE] Az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] (Azure RMS) által támogatott alkalmazások és verziók ellenőrzéséhez tekintse meg: [Az Azure Rights Management követelményei](../get-started/requirements-azure-rms.md).
 
 Néhány esetben az információvédelem automatikusan megvalósul a konfigurált házirendek alapján. Ez történik például a SharePoint-tárak, a besorolt fájlok és az Exchange átviteli szabályok esetében. Más esetekben az információvédelmet a felhasználóknak kell alkalmazniuk alkalmazásaikban egy sablon kiválasztásával vagy adott beállítások bejelölésével. Ez történik például akkor, ha a felhasználók e-mail-üzenetben osztanak meg egy fájlt, vagy ha helyben védenek egy fájlt úgy, hogy korlátozzák bizonyos felhasználók vagy a szervezeten kívüli felhasználók hozzáférését.
 
 A sablonok egyszerűbbé teszik a felhasználók (és a házirendeket szabályozó rendszergazdák) számára, hogy a megfelelő szintű védelmet alkalmazzák, és korlátozzák a szervezeten belüli személyek hozzáférését. Habár az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] két alapértelmezett sablont is tartalmaz, érdemes egyéni sablonokat létrehozni az egyedi beállítások megadásával eltöltött idő csökkentése érdekében. További információ: [Configuring custom templates for Azure Rights Management](../deploy-use/configure-custom-templates.md) (Egyéni sablonok konfigurálása az Azure Rights Management szolgáltatáshoz).
 
-Győződjön meg róla, hogy ellátja a felhasználókat utasításokkal és útmutatókkal arra vonatkozóan, hogyan és mikor kell az információvédelmet megvalósítani azokban az esetekben, amikor a felhasználóknak ezt maguknak kell megtenniük. Az utasításoknak az általuk használt alkalmazásokra és verziókra, illetve azok használati módjára kell vonatkozniuk, az információvédelem alkalmazásának feltételeiről szóló útmutatónak pedig az adott tevékenységi körhöz kell igazodnia. További információk: [Útmutatás nyújtása a felhasználók számára a fájlok védelméhez az Azure Rights Management használatával](../deploy-use/help-users.md).
+Győződjön meg róla, hogy ellátja a felhasználókat utasításokkal és útmutatókkal arra vonatkozóan, hogyan és mikor kell az információvédelmet megvalósítani azokban az esetekben, amikor a felhasználóknak ezt maguknak kell megtenniük. Az utasításoknak az általuk használt alkalmazásokra és verziókra, illetve azok használati módjára kell vonatkozniuk, az információvédelem alkalmazásának feltételeiről szóló útmutatónak pedig az adott tevékenységi körhöz kell igazodnia. További információ: [Útmutatás nyújtása a felhasználók számára a fájlok védelméhez az Azure Rights Management használatával](../deploy-use/help-users.md).
 
-Információk arról, hogyan konfigurálhatja ezeket az alkalmazásokat az Azure RMS-hez: [Configuring applications for Azure Rights Management (Alkalmazások konfigurálása az Azure Rights Managementhez)](../deploy-use/configure-applications.md).
+Információ arról, hogyan konfigurálhatja ezeket az alkalmazásokat az Azure RMS-hez: [Alkalmazások konfigurálása az Azure Rights Managementhez](../deploy-use/configure-applications.md).
 
-> [!TIP]
-> Az Azure RMS-t használó alkalmazások példáiért és pillanatképeiért lásd: [Az Azure RMS működés közben: Mit látnak a rendszergazdák és a felhasználók](what-admins-users-see.md).
+> [!TIP] Az Azure RMS-t használó alkalmazások példái és pillanatképei: [Az Azure RMS működés közben: Mit látnak a rendszergazdák és a felhasználók](what-admins-users-see.md).
+
+A keresési szolgáltatások többféleképpen integrálhatók a Rights Managementtel. Példa: 
+
+- Az Exchange Online és az Exchange Server szolgáltatásoldali indexelést használ, így a felhasználó RMS által védett e-mailjei automatikusan megjelennek a keresési eredményekben. 
+
+- A SharePoint Online és a SharePoint Server csak a letöltött fájlokat látja el RMS-védelemmel, így az indexelést és a keresési eredményeket nem érinti ez a dokumentumvédelmi megoldás. Azonban ha egy olyan dokumentuma van, amelyet a SharePointban kíván tárolni, de nem szeretné, hogy megjelenjen a keresési eredményekben, a SharePointra való feltöltés előtt lássa el RMS-védelemmel a fájlt.
+
+- A Windows asztali keresés megosztott indexet használ az eszköz különböző felhasználói között, így a védett dokumentumokban tárolt adatok biztonsága érdekében nem indexeli az RMS-védelemmel ellátott fájlokat. Ez azt jelenti, hogy bár a keresési eredményeiben nem jelennek meg a védett fájlok, biztos lehet abban is, hogy a bizalmas adatokat tartalmazó fájljai a számítógépét használó vagy ahhoz csatlakozó többi felhasználó keresési eredményeiben sem fognak szerepelni. 
+
+
 
 ## További lépések
 
@@ -58,6 +59,7 @@ Tudjon meg többet arról, hogyan támogatják a következők az Azure RMS-t:
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=May16_HO3-->
 
 

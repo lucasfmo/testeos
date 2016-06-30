@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Egyéni sablonok létrehozása, konfigurálása és közzététele | Azure RMS
-description:
-keywords:
+title: "Egyéni sablonok létrehozása, konfigurálása és közzététele | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 05/30/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: d6e9aa0c-1694-4a53-8898-4939f31cc13f
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 6a2989f4a6d919d9a2a3d301467353f052bd10ea
+ms.openlocfilehash: d67caf4ebbe19e4f67061d006da1fdedea0d5761
+
 
 ---
 
@@ -41,16 +34,16 @@ Az alábbi eljárásokkal hozhat létre, konfigurálhat és tehet közzé egyén
 
     -   Az [Office 365 felügyeleti központjából](https://portal.office.com/):
 
-        1.  A bal oldali panelen kattintson a **Szolgáltatás beállításai** elemre..
+        1.  A bal oldali panelen kattintson a **Szolgáltatás beállításai** elemre.
 
-        2.  A **Szolgáltatás beállításai** lapon kattintson a **jogosultságkezelés** gombra..
+        2.  A **Szolgáltatás beállításai** lapon kattintson a **jogosultságkezelés** gombra.
 
-        3.  Az **Információvédelem** szakaszban kattintson a **Kezelés** elemre..
+        3.  Az **Információvédelem** szakaszban kattintson a **Kezelés** elemre.
 
-        4.  A **jogosultságkezelés** szakaszban kattintson a **speciális szolgáltatások** elemre..
+        4.  A **jogosultságkezelés** szakaszban kattintson a **speciális szolgáltatások** elemre.
 
             > [!NOTE]
-            > Ha még nem aktiválta a Rights Managementet, először kattintson az **aktiválás** elemre, és erősítse meg a műveletet. További információ: [Activating Azure Rights Management](activate-service.md) (Az Azure Rights Management aktiválása)..
+            > Ha még nem aktiválta a Rights Managementet, először kattintson az **aktiválás** elemre, és erősítse meg a műveletet. További információ: [Activating Azure Rights Management](activate-service.md) (Az Azure Rights Management aktiválása).
             > 
             > Ha korábban még nem kattintott a **speciális szolgáltatások** elemre, akkor a Rights Management aktiválása után kövesse a képernyőn megjelenő utasításokat, amelyekkel hozzájuthat egy, a klasszikus Azure-portál eléréséhez szükséges ingyenes Azure-előfizetéshez.
 
@@ -58,20 +51,19 @@ Az alábbi eljárásokkal hozhat létre, konfigurálhat és tehet közzé egyén
 
     -   A [Klasszikus Azure-portálon](http://go.microsoft.com/fwlink/p/?LinkID=275081):
 
-        1.  A bal oldali panelen kattintson az **ACTIVE DIRECTORY** elemre..
+        1.  A bal oldali panelen kattintson az **ACTIVE DIRECTORY** elemre.
 
-        2.  Az **Active Directory** lapon kattintson a **RIGHTS MANAGEMENT** gombra..
+        2.  Az **Active Directory** lapon kattintson a **RIGHTS MANAGEMENT** gombra.
 
         3.  Válassza ki a Rights Management által felügyelni kívánt mappát.
 
         4.  Ha még nem aktiválta a Rights Managementet, kattintson az **ACTIVATE** (AKTIVÁLÁS) elemre, és erősítse meg a műveletet.
 
-            > [!NOTE]
-            > További információ: [Activating Azure Rights Management](activate-service.md) (Az Azure Rights Management aktiválása)..
+            > [!NOTE] További információ: [Activating Azure Rights Management](activate-service.md) (Az Azure Rights Management aktiválása).
 
 2.  Új sablon létrehozása:
 
-    -   A klasszikus Azure-portál **Get started with Rights Management** (A Rights Management használatának megkezdése) első lépéseket ismertető lapján kattintson a **Create a new rights policy template** (Új jogmegadási sablon létrehozása) parancsra..
+    -   A klasszikus Azure-portál **Get started with Rights Management** (A Rights Management használatának megkezdése) első lépéseket ismertető lapján kattintson a **Create a new rights policy template** (Új jogmegadási sablon létrehozása) parancsra.
 
         Ha az Office 365-re vonatkozó utasítások végrehajtása után nem jelenik meg rögtön ez az oldal, használja a klasszikus Azure-portállal kapcsolatban megadott fenti navigációs utasításokat.
 
@@ -88,13 +80,15 @@ A **Get started with Rights Management** (A Rights Management használatának me
     > [!NOTE]
     > A kiválasztott felhasználóknak vagy csoportoknak rendelkezniük kell e-mail címmel. Éles környezetben ez szinte mindig így lesz, azonban egy egyszerű tesztelési környezetben előfordulhat, hogy hozzá kell majd adnia az e-mail címeket a felhasználói fiókokhoz vagy csoportokhoz.
 
-    Ajánlott eljárásként csoportok használata javasolt felhasználók helyett, mert ez leegyszerűsíti a sablonok kezelését. Ha helyszíni Active Directoryval rendelkezik, és az Azure AD szolgáltatással szinkronizál, használhat levelezési csoportokat, amelyek lehetnek biztonsági csoportok vagy terjesztési csoportok. Ha azonban a szervezet minden felhasználója számára szeretne jogosultságokat biztosítani, hatékonyabb, ha több csoport megadása helyett csak lemásolja az egyik alapértelmezett sablont. További információk: [Sablon másolása](copy-template.md).
+    Ajánlott eljárásként csoportok használata javasolt felhasználók helyett, mert ez leegyszerűsíti a sablonok kezelését. Ha helyszíni Active Directoryval rendelkezik, és az Azure AD szolgáltatással szinkronizál, használhat levelezési csoportokat, amelyek lehetnek biztonsági csoportok vagy terjesztési csoportok. Ha azonban a szervezet minden felhasználója számára szeretne jogosultságokat biztosítani, hatékonyabb, ha több csoport megadása helyett csak lemásolja az egyik alapértelmezett sablont. További információ: [Sablon másolása](copy-template.md).
 
     > [!TIP]
-    > A későbbiekben a szervezeten kívülről is hozzáadhat felhasználókat a sablonhoz [az Azure Rights Managementhez készült Windows PowerShell-modul](install-powershell.md) és az alábbi módszerek egyikének használatával:
+    > A sablonhoz a szervezetén kívülről is hozzáadhat felhasználókat („külső felhasználók”) egy Office 365- vagy Exchange Online-névjegyeket tartalmazó levelezési csoport kiválasztásával. Ez lehetővé teszi, hogy ezekhez a felhasználókhoz ugyanúgy rendeljen jogokat, mint saját szervezete felhasználóihoz. Például letilthatja egy ügyfeleknek kiküldött árlista szerkesztését. Ne használja ezt a sablonkonfigurációt e-mailek védelmére, ha a szervezetén kívüli felhasználók az Outlook Web App alkalmazással olvassák a védett leveleket.
     > 
-    > -   **Sablon frissítése jogosultság-definíciós objektummal**: A külső e-mail címeket és azok jogosultságait egy jogosultság-definíciós objektumban adhatja meg, amelyet a későbbiekben a sablon frissítésére használhat. A jogosultság-definíciós objektumot úgy adhatja meg, ha a [New-AadrmRightsDefinition](https://msdn.microsoft.com/library/azure/dn727080.aspx) parancsmaggal létrehoz egy változót, majd megadja ezt a változót a [Set-AadrmTemplateProperty](https://msdn.microsoft.com/library/azure/dn727076.aspx) parancsmag -RightsDefinition paramétere számára egy meglévő sablon módosításához. Ha azonban egy meglévő sablonhoz adja hozzá ezeket a felhasználókat, a sablonok meglévő csoportjai számára is meg kell határoznia jogosultság-definíciós objektumokat, nem csak az új, külső felhasználók számára.
-    > -   **A frissített sablon exportálása, szerkesztése és importálása**: Az [Export-AadrmTemplate](https://msdn.microsoft.com/library/azure/dn727078.aspx) parancsmaggal exportálhatja a sablont egy fájlba, amelyet szerkesztve hozzáadhatja ezen felhasználók külső e-mail címeit és jogosultságait a meglévő csoportokhoz és jogosultságokhoz. Ezután az [Import-AadrmTemplate](https://msdn.microsoft.com/library/azure/dn727077.aspx) parancsmaggal importálhatja vissza a módosítást az Azure RMS szolgáltatásba.
+    > Ezen felül a későbbiekben a szervezeten kívülről is hozzáadhat felhasználókat a sablonhoz [az Azure Rights Managementhez készült Windows PowerShell-modul](install-powershell.md) és az alábbi módszerek egyikének használatával:
+    > 
+    > -  **Sablon frissítése jogosultság-definíciós objektummal**: A külső e-mail-címeket és azok jogosultságait egy jogosultság-definíciós objektumban adhatja meg, amelyet a későbbiekben a sablon frissítésére használhat. A jogosultság-definíciós objektumot úgy adhatja meg, ha a [New-AadrmRightsDefinition](https://msdn.microsoft.com/library/azure/dn727080.aspx) parancsmaggal létrehoz egy változót, majd megadja ezt a változót a [Set-AadrmTemplateProperty](https://msdn.microsoft.com/library/azure/dn727076.aspx) parancsmag -RightsDefinition paramétere számára egy meglévő sablon módosításához. Ha azonban egy meglévő sablonhoz adja hozzá ezeket a felhasználókat, a sablonok meglévő csoportjai számára is meg kell határoznia jogosultság-definíciós objektumokat, nem csak az új, külső felhasználók számára.
+    > -  **A frissített sablon exportálása, szerkesztése és importálása**:  Az [Export-AadrmTemplate](https://msdn.microsoft.com/library/azure/dn727078.aspx) parancsmaggal exportálhatja a sablont egy fájlba, amelyet szerkesztve hozzáadhatja ezen felhasználók külső e-mail-címeit és jogosultságait a meglévő csoportokhoz és jogosultságokhoz. Ezután az [Import-AadrmTemplate](https://msdn.microsoft.com/library/azure/dn727077.aspx) parancsmaggal importálhatja vissza a módosítást az Azure RMS szolgáltatásba.
 
 3.  Kattintson a Next (Tovább) gombra, majd rendelje a felsorolt jogosultságok egyikét a kiválasztott felhasználókhoz és csoportokhoz.
 
@@ -117,25 +111,25 @@ A **Get started with Rights Management** (A Rights Management használatának me
 
 7.  A **TEMPLATE VISIBILITY** (SABLON LÁTHATÓSÁGA) lapon válassza ki azokat a felhasználókat és csoportokat, akik az RMS-kompatibilis alkalmazásokban láthatják és kiválaszthatják majd a sablont. Ahogy korábban is, ajánlott eljárásként csoportok használata javasolt a felhasználók helyett, és a kiválasztott csoportoknak vagy felhasználóknak e-mail címmel kell rendelkezniük.
 
-8.  Kattintson a Next (Tovább) gombra és döntse el, hogy konfigurálnia kell-e az alkalmazáskompatibilitást a részlegsablon számára. Ha igen, kattintson az **APPLICATION COMPATIBILITY** (ALKALMAZÁSKOMPATIBILITÁS) elemre, jelölje be a jelölőnégyzetet, majd kattintson a **Complete** (Befejezés) gombra..
+8.  Kattintson a Next (Tovább) gombra és döntse el, hogy konfigurálnia kell-e az alkalmazáskompatibilitást a részlegsablon számára. Ha igen, kattintson az **APPLICATION COMPATIBILITY** (ALKALMAZÁSKOMPATIBILITÁS) elemre, jelölje be a jelölőnégyzetet, majd kattintson a **Complete** (Befejezés) gombra.
 
     Miért lehet szükség az alkalmazáskompatibilitás konfigurálására? Nem minden alkalmazás képes támogatni a részlegsablonokat. Ehhez az alkalmazásnak először hitelesítenie kell magát az RMS szolgáltatással a sablonok keltöltése előtt. Ha a hitelesítési folyamat nem megy végbe, alapértelmezés szerint egyetlen részlegsablon letöltése sem történik meg. Ezt a működést felülírhatja, ha megadja, hogy a rendszer minden részlegsablont letöltsön. Ezt az alkalmazáskompatibilitás konfigurálásával és a **Show this template to all users when the applications do not support user identity** (Sablon megjelenítése minden felhasználónak, ha az alkalmazások nem támogatják a felhasználói identitást) jelölőnégyzet bejelölésével érheti el.
 
     Ha például a részlegsablon számára nem konfigurálja az alkalmazáskompatibilitást az emberi erőforrások részleggel kapcsolatos példában, akkor az RMS megosztóalkalmazás használata során csak az emberi erőforrások részleg felhasználói láthatják majd a részlegsablont, azonban az Outlook Web Access (OWA) Exchange Server 2013 kiszolgálóról történő használata során egyetlen felhasználó sem láthatja a részlegsablont, mert az Exchange OWA és az Exchange ActiveSync jelenleg nem támogatja a részlegsablonokat. Ha az alkalmazáskompatibilitás konfigurálásával felülírja ezt az alapértelmezett működést, akkor az RMS megosztóalkalmazás használata során csak az emberi erőforrások részleg felhasználói láthatják majd a részlegsablont, az Outlook Web Access (OWA) használata során azonban az összes felhasználó számára látható lesz. Ha a felhasználók az Exchange Online szolgáltatásból használják az OWA vagy az Exchange ActiveSync szolgáltatást, a sablonnak az Exchange Online szolgáltatásbeli állapotától (archív vagy közzétett) függően vagy az összes felhasználó látja majd a részlegsablonokat vagy egyik felhasználó sem láthatja azokat.
 
-    Az Office 2016 natív módon támogatja a részlegsablonokat, ahogyan az Office 2013 is a 15.0.4727.1000-es verziótól kezdve, amely 2015 júniusában lett kibocsátva a [KB 3054853](https://support.microsoft.com/kb/3054853) részeként).
+    Az Office 2016 natív módon támogatja a részlegsablonokat, ahogyan az Office 2013 is a 15.0.4727.1000-es verziótól kezdve, amely 2015 júniusában lett kibocsátva a [KB 3054853](https://support.microsoft.com/kb/3054853) részeként.
 
     > [!NOTE]
     > Ha olyan alkalmazásokkal rendelkezik, amelyek még nem támogatják natív módon a részlegsablonokat, egy egyéni RMS-sablonletöltési parancsfájllal vagy más eszközökkel üzembe helyezheti ezeket a sablonokat a helyi RMS-ügyfélmappában. Ezután ezek az alkalmazások helyesen, csak a sablon hatóköréhez kiválasztott felhasználók és csoportok számára jelenítik majd meg a részlegsablonokat:
     > 
-    > -   Office 2010 esetén az ügyfélmappa a **%localappdata%\Microsoft\DRM\Templates**..
+    > -   Office 2010 esetén az ügyfélmappa a **%localappdata%\Microsoft\DRM\Templates**.
     > -   Ha egy ügyfélszámítógép már letöltötte az összes sablont, az ügyfélszámítógépen másolhatja, majd beillesztheti a sablonfájlokat más számítógépekre.
     > 
-    > [Az egyéni RMS-sablonparancsfájlt a Microsoft Connect webhelyről töltheti le](http://go.microsoft.com/fwlink/?LinkId=524506). Ha a hivatkozásra kattintva hiba jelenik meg, valószínűleg még nem regisztrált a Microsoft Connect webhelyen.   Regisztráció:
+    > [Az egyéni RMS-sablonparancsfájlt a Microsoft Connect webhelyről töltheti le](http://go.microsoft.com/fwlink/?LinkId=524506). Ha a hivatkozásra kattintva hiba jelenik meg, valószínűleg még nem regisztrált a Microsoft Connect webhelyen. Regisztráció:
     > 
     > 1.  Nyissa meg a [Microsoft Connect webhelyet](http://www.connect.microsoft.com), és jelentkezzen be Microsoft-fiókjával.
     > 2.  Kattintson a **Jegyzék** elemre, és válassza az **Azoknak a Connect-termékeknek a megjelenítése, amelyekhez most nem küldhető be visszajelzés** kategóriát.
-    > 3.  Keresse meg a **Rights Management Services** terméket, és a **Microsoft RMS Enterprise Features** program mellett kattintson a **Csatlakozás** lehetőségre..
+    > 3.  Keresse meg a **Rights Management Services** terméket, és a **Microsoft RMS Enterprise Features** program mellett kattintson a **Csatlakozás** lehetőségre.
 
 9. Kattintson a **KONFIGURÁLÁS** lehetőségre, és adjon hozzá további, a felhasználók által használt nyelveket a sablon nevével és leírásával az adott nyelven. Különböző nyelveken beszélő felhasználók esetén fontos, hogy a felhasználók által használt nyelvek mindegyikét hozzáadja, és megadjon egy nevet és egy leírást az adott nyelveken. A felhasználók ekkor ugyanazon a nyelven láthatják a sablon nevét és leírását, mint amelyet az ügyfélszámítógép operációs rendszere használ, így biztosan megértik majd a dokumentumokra vagy e-mail üzenetekre alkalmazott házirendet. Ha nem érhető el az ügyfélszámítógép operációs rendszerével azonos nyelv, a megjelenő név és leírás visszavált arra a nyelvre és leírásra, amelyet a sablon kezdeti létrehozásakor megadott.
 
@@ -146,21 +140,21 @@ A **Get started with Rights Management** (A Rights Management használatának me
     |**tartalom lejárata**|Adja meg azon dátumot vagy napok számát a sablon számára, amikor a sablon által védett fájlok nem nyithatók meg. Meghatározhatja a pontos dátumot, vagy a fájlra alkalmazott védelem időpontjától számított napok számát.<br /><br />Dátum megadása esetén az érvényesség az aktuális időzónában, éjfélkor lép életbe.|
     |**offline elérés**|Ezzel a beállítással kiegyensúlyozhat bármilyen olyan biztonsági követelményt, amelyet azzal a követelménnyel szemben támasztott, hogy a felhasználók meg tudjanak nyitni védett fájlokat, amikor nincs internetkapcsolatuk.<br /><br />Ha megadja, hogy a tartalom ne legyen elérhető internetkapcsolat nélkül, illetve hogy a tartalom csak adott számú napig legyen elérhető, akkor a küszöbérték elérése esetén a felhasználókat újra hitelesíteni kell, és hozzáférésüket a rendszer naplózza. Ebben az esetben, ha a felhasználók hitelesítő adatai nem lettek gyorsítótárazva, a felhasználókat a rendszer arra kéri, hogy a fájl megnyitásához jelentkezzenek be.<br /><br />Az ismételt hitelesítés mellett a házirend és a felhasználói csoporttagság újraértékelése is megtörténik. Ez azt jelenti, hogy a felhasználók különböző eredménnyel érhetik el ugyanazt a fájlt, ha a házirend vagy a csoporttagság megváltozott azóta, hogy utoljára hozzáfértek a fájlhoz.|
 
-10. Amikor biztos abban, hogy a sablont megfelelően konfigurálta a felhasználók számára, kattintson a **PUBLISH** (KÖZZÉTÉTEL) elemre, hogy a sablon láthatóvá váljon a felhasználók számára, majd kattintson a **SAVE** (MENTÉS) parancsra..
+10. Amikor biztos abban, hogy a sablont megfelelően konfigurálta a felhasználók számára, kattintson a **PUBLISH** (KÖZZÉTÉTEL) elemre, hogy a sablon láthatóvá váljon a felhasználók számára, majd kattintson a **SAVE** (MENTÉS) parancsra.
 
-11. A klasszikus portál Back (Vissza) gombjára kattintva visszatérhet a **TEMPLATES** (SABLONOK) lapra, ahol a sablonnál most már a frissített **Published** (Közzétett) állapot jelenik meg..
+11. A klasszikus portál Back (Vissza) gombjára kattintva visszatérhet a **TEMPLATES** (SABLONOK) lapra, ahol a sablonnál most már a frissített **Published** (Közzétett) állapot jelenik meg.
 
 A sablon módosításához válassza ki a sablont, és hajtsa végre újra az első lépések lépéseit. Vagy válasszon az alábbi lehetőségek közül:
 
--   További felhasználók és csoportok hozzáadása, illetve ezen felhasználók és csoportok jogosultságainak megadása: Kattintson a **RIGHTS** (JOGOSULTSÁGOK), majd az **ADD** (HOZZÁADÁS) elemre..
+-   További felhasználók és csoportok hozzáadása, illetve ezen felhasználók és csoportok jogosultságainak megadása: Kattintson a **RIGHTS** (JOGOSULTSÁGOK), majd az **ADD** (HOZZÁADÁS) elemre.
 
--   Korábban kiválasztott felhasználók vagy csoportok eltávolítása: Kattintson a **RIGHTS** (JOGOSULTSÁGOK) lehetőségre, válassza ki a listában az adott felhasználót vagy csoportot, majd kattintson a **DELETE** (TÖRLÉS) parancsra..
+-   Korábban kiválasztott felhasználók vagy csoportok eltávolítása: Kattintson a **RIGHTS** (JOGOSULTSÁGOK) lehetőségre, válassza ki a listában az adott felhasználót vagy csoportot, majd kattintson a **DELETE** (TÖRLÉS) parancsra.
 
--   Annak a módosítása, hogy mely felhasználók láthatják és választhatják ki a sablonokat az alkalmazásokból: Kattintson a **SCOPE** (HATÓKÖR), majd az **ADD** (HOZZÁADÁS) vagy a **DELETE** (TÖRLÉS) vagy az **APPLICATION COMPATIBILITY** (ALKALMAZÁSKOMPATIBILITÁS) lehetőségre..
+-   Annak a módosítása, hogy mely felhasználók láthatják és választhatják ki a sablonokat az alkalmazásokból: Kattintson a **SCOPE** (HATÓKÖR), majd az **ADD** (HOZZÁADÁS) vagy a **DELETE** (TÖRLÉS) vagy az **APPLICATION COMPATIBILITY** (ALKALMAZÁSKOMPATIBILITÁS) lehetőségre.
 
--   A sablon elrejtése az összes felhasználó elől: Kattintson a **CONFIGURE** (KONFIGURÁLÁS), az **ARCHIVE** (ARCHIVÁLÁS), majd a **SAVE** (MENTÉS) parancsra..
+-   A sablon elrejtése az összes felhasználó elől: Kattintson a **CONFIGURE** (KONFIGURÁLÁS), az **ARCHIVE** (ARCHIVÁLÁS), majd a **SAVE** (MENTÉS) parancsra.
 
--   Egyéb konfigurációs módosítások végrehajtása: Kattintson a **CONFIGURE** (KONFIGURÁLÁS) elemre, hajtsa végre a módosításokat, és kattintson a **SAVE** (MENTÉS) parancsra..
+-   Egyéb konfigurációs módosítások végrehajtása: Kattintson a **CONFIGURE** (KONFIGURÁLÁS) elemre, hajtsa végre a módosításokat, és kattintson a **SAVE** (MENTÉS) parancsra.
 
 > [!WARNING]
 > Ha egy korábban mentett sablont módosít, az ügyfeleknél csak akkor jelennek meg ezek a módosítások, ha a sablonok frissítése megtörtént a számítógépeken. További információk: [Sablonok frissítése a felhasználók számára](refresh-templates.md).
@@ -168,6 +162,7 @@ A sablon módosításához válassza ki a sablont, és hajtsa végre újra az el
 ## Lásd még:
 [Egyéni sablonok konfigurálása az Azure Rights Management szolgáltatáshoz](configure-custom-templates.md)
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=May16_HO5-->
 
 

@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: A Rights Management megosztóalkalmazás műszaki áttekintése | Azure RMS
-description:
-keywords:
+title: "A Rights Management megosztóalkalmazás műszaki áttekintése | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 05/20/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: f7b13fa4-4f8e-489a-ba46-713d7a79f901
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 332e102cb27854314b93a71bfeae82a95c9a7812
+ms.openlocfilehash: 4f63cb7911661104113d19ecd84ef7c80a874408
+
 
 ---
 
@@ -45,7 +38,7 @@ A Microsoft Rights Management megosztóalkalmazás a Microsoft Windows rendszerr
 
 A Microsoft Rights Management megosztóalkalmazás az új [AD RMS-ügyfél 2.1 futtatókörnyezetet](http://www.microsoft.com/download/details.aspx?id=38396) használja. Az AD RMS 2.1 adottságait kihasználó Microsoft Rights Management megosztóalkalmazás egyszerű védelmet és fogyasztói élményt biztosít a végfelhasználóknak.
 
-Az RMS 2013. októberi kibocsátása óta natív módon védheti dokumentumait az Office 2010 használatával, és elküldheti azokat más vállalatoknál dolgozóknak, akik az Azure RMS használatával tekinthetik meg az így kapott dokumentumokat. Továbbá ebben a kiadásban, ha az AD RMS-t a 2. titkosítási módban alkalmazza, használhatja az RMS-t egyéni felhasználók számára, és felhasználhatja más, Azure RMS-t használó vállalatok felhasználóinak tartalmait. További információk a 2. titkosítási módról: [AD RMS Cryptographic Modes](http://technet.microsoft.com/library/hh867439%28v=ws.10%29.aspx) (AD RMS titkosítási módok).
+Az RMS 2013. októberi kibocsátása óta natív módon védheti dokumentumait az Office 2010 használatával, és elküldheti azokat más vállalatoknál dolgozóknak, akik az Azure RMS használatával tekinthetik meg az így kapott dokumentumokat. Továbbá ebben a kiadásban, ha az AD RMS-t a 2. titkosítási módban alkalmazza, használhatja az RMS-t egyéni felhasználók számára, és felhasználhatja más, Azure RMS-t használó vállalatok felhasználóinak tartalmait. További információ a 2. titkosítási módról: [AD RMS Cryptographic Modes](http://technet.microsoft.com/library/hh867439%28v=ws.10%29.aspx) (AD RMS titkosítási módok).
 
 Telepítési információk: [A Microsoft Rights Management megosztóalkalmazás automatikus központi telepítése](sharing-app-admin-guide.md#automatic-deployment-for-the-microsoft-rights-management-sharing-application)
 
@@ -55,8 +48,8 @@ A Microsoft Rights Management megosztóalkalmazás két különböző szintű v�
 |Védelem típusa|Natív|Általános|
 |----------------------|----------|-----------|
 |Leírás|A szöveg- és képfájlok, a Microsoft Office (Word, Excel, PowerPoint) fájlok, a .pdf fájlok és az egyéb, AD RMS-t támogató fájltípusok esetében a natív védelem erős szintű védelmet biztosít, amelybe beletartozik a titkosítás és a jogok (engedélyek) érvényesítése is.|Minden más alkalmazás és fájltípus esetében általános szintű védelem biztosított, ami magában foglalja a .pfile típusú fájlbeágyazást, valamint a hitelesítést, amellyel ellenőrizhető, hogy egy felhasználó jogosult-e a fájl megnyitására.|
-|Protection|A fájlok teljesen titkosítottak, a védelem pedig a következő módokon érvényesül:<br /><br />A fájlt e-mailben megkapó, vagy a fájlhoz fájl- vagy megosztóengedélyekkel hozzáférő felhasználóknak sikeresen hitelesíteniük kell magukat a védett fájl megtekintése előtt.<br /><br />Ezenkívül ha a tartalom egy IP megtekintőben (a védett szöveg- és képfájlok esetében) vagy egy társított alkalmazásban (minden más támogatott fájltípus esetében) kerül megjelenítésre, a fájl védelem alá helyezésekor a tartalom tulajdonosa által beállított használati engedélyek és házirend is érvényesítésre kerül.|A fájlvédelem a következő módokon érvényesül:<br /><br />A fájl megnyitásához szükséges engedéllyel és hozzáféréssel rendelkező ügyfeleknek sikeresen hitelesíteniük kell magukat a védett fájl megtekintése előtt. Ha a hitelesítés sikertelen, a fájl nem nyitható meg.<br /><br />Megjelennek a fájl védelem alá helyezésekor a tartalom tulajdonosa által beállított használati engedélyek és a házirend, amelyekből a hitelesített felhasználók megismerhetik az alkalmazni kívánt használati házirendet.<br /><br />Naplózásra kerül minden alkalom, amikor a hitelesített felhasználók megnyitnak vagy elérnek egy fájlt, azonban a támogatást nem biztosító alkalmazások nem érvényesítenek használati jogokat.|
-|Fájltípusonkénti alapértelmezés|A következő fájltípusokhoz tartozó alapértelmezett szintű védelem:<br /><br />Szöveg- és képfájlok<br /><br />Microsoft Office-fájlok (Word, Excel, PowerPoint)<br /><br />Portable document format (.pdf)<br /><br />További információkat a következő szakaszban találhat: [Támogatott fájltípusok és fájlnévkiterjesztések](#supported-file-types-and-file-name-extensions).|Ez az alapértelmezett védelem minden más fájltípus esetében (például .vsdx, .rtf stb.), amelyet a teljes védelem nem támogat.|
+|Protection|A fájlok teljesen titkosítottak, a védelem pedig a következő módokon érvényesül:<br /><br />– A fájlt e-mailben megkapó, vagy a fájlhoz fájl- vagy megosztási engedélyekkel hozzáférő felhasználóknak sikeresen hitelesíteniük kell magukat a védett fájl megtekintése előtt.<br /><br />– Ezenkívül ha a tartalmat egy IP-megtekintőben (a védett szöveg- és képfájlok esetében) vagy egy társított alkalmazásban (minden más támogatott fájltípus esetében) jelenítik meg, a fájl védelem alá helyezésekor a rendszer a tartalom tulajdonosa által beállított használati engedélyeket és házirendet is érvényesíti.|A fájlvédelem a következő módokon érvényesül:<br /><br />– A fájl megnyitásához szükséges engedéllyel és hozzáféréssel rendelkező ügyfeleknek sikeresen hitelesíteniük kell magukat a védett fájl megtekintése előtt. Ha a hitelesítés sikertelen, a fájl nem nyitható meg.<br /><br />– Megjelennek a fájl védelem alá helyezésekor a tartalom tulajdonosa által beállított használati engedélyek és a házirend, amelyekből a hitelesített felhasználók megismerhetik az alkalmazni kívánt használati házirendet.<br /><br />– Naplózásra kerül minden alkalom, amikor a hitelesített felhasználók megnyitnak vagy elérnek egy fájlt, azonban a támogatást nem biztosító alkalmazások nem érvényesítenek használati jogokat.|
+|Fájltípusonkénti alapértelmezés|A következő fájltípusokhoz tartozó alapértelmezett szintű védelem:<br /><br />– Szöveg- és képfájlok<br /><br />– Microsoft Office-fájlok (Word, Excel, PowerPoint)<br /><br />– Portable document format (.pdf)<br /><br />További információt a következő szakaszban találhat: [Támogatott fájltípusok és fájlnévkiterjesztések](#supported-file-types-and-file-name-extensions).|Ez az alapértelmezett védelem minden más fájltípus esetében (például .vsdx, .rtf stb.), amelyet a teljes védelem nem támogat.|
 Az RMS megosztóalkalmazás által beállított alapértelmezett védelmi szint megváltoztatható. Az alapértelmezett védelmi szint átállítható natívról általánosra, általánosról natívra, és akár meg is tilthatja, hogy az RMS megosztóalkalmazás bármilyen védelmet beállítson. További tudnivalókat a jelen dokumentum [A fájlok alapértelmezett védelmi szintjének módosítása](#changing-the-default-protection-level-of-files) című szakaszában találhat.
 
 ## Támogatott fájltípusok és fájlnévkiterjesztések
@@ -66,8 +59,7 @@ Továbbá, amikor az RMS megosztóalkalmazás natív védelmet biztosít egy oly
 
 Az általános védelemmel ellátott fájlok esetében az eredeti fájlnévkiterjesztés mindig .pfile fájlnévkiterjesztésre változik.
 
-> [!WARNING]
-> Ha olyan tűzfalakat, webes proxykat vagy biztonsági szoftvereket használ, amelyek a fájlnévkiterjesztés alapján hajtanak végre bizonyos műveleteket, lehet, hogy be kell azokat állítania, hogy engedélyezzék ezeket az új fájlnévkiterjesztéseket.
+> [!WARNING] Ha olyan tűzfalakat, webes proxykat vagy biztonsági szoftvereket használ, amelyek a fájlnévkiterjesztés alapján hajtanak végre bizonyos műveleteket, lehet, hogy be kell azokat állítania, hogy engedélyezzék ezeket az új fájlnévkiterjesztéseket.
 
 |Eredeti fájlnévkiterjesztés|Az RMS-védelemmel ellátott fájl fájlnévkiterjesztése|
 |--------------------------------|-------------------------------------|
@@ -110,11 +102,11 @@ Az RMS megosztóalkalmazás beállítható úgy is, hogy blokkolja a fájlok vé
 
 Ha azt szeretné beállítani, hogy az RMS megosztóalkalmazás általános fájlvédelmet alkalmazzon az összes olyan fájlra, amely alapértelmezés szerint natív védelmet kapna, az alábbi módosítást kell végrehajtania a beállításjegyzékben:
 
-1.  **HKEY_LOCAL_MACHINE\Software\Microsoft\MSIPC\RMSSharingApp\FileProtection**: Hozzon létre egy **&#42;** nevű új kulcsot.
+1.  **HKEY_LOCAL_MACHINE\Software\Microsoft\MSIPC\RMSSharingApp\FileProtection**: Hozzon létre egy * nevű új kulcsot.
 
     Ez a beállítást az összes fájlnévkiterjesztést jelöli.
 
-2.  Az újonnan hozzáadott **HKEY_LOCAL_MACHINE\Software\Microsoft\MSIPC\RMSSharingApp\FileProtection\&#42;** kulcsban hozzon létre egy új karakterláncértéket (REG_SZ) **Encryption** néven, amelynek adatértéke **Pfile**.
+2.  Az újonnan hozzáadott HKEY_LOCAL_MACHINE\Software\Microsoft\MSIPC\RMSSharingApp\FileProtection\\\\* kulcsban hozzon létre egy új karakterláncértéket (REG_SZ) **Encryption** néven, amelynek adatértéke **Pfile**.
 
     Ennek a beállításnak a hatására az RMS megosztóalkalmazás általános védelmet fog alkalmazni.
 
@@ -145,6 +137,7 @@ Más forgatókönyvek esetében is végrehajthat hasonló beállításjegyzék-m
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=May16_HO3-->
 
 
