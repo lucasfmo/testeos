@@ -272,9 +272,6 @@
   "e75ec6c04afd171552697f79deb33ad2cfe2c4e1": [
     "Azure-RMSDocs\\develop\\how-to-build-your-first-application.md"
   ],
-  "ee9285bbcd7c26b2f635ab78d084183614c6b1d1": [
-    "Azure-RMSDocs\\develop\\how-to-build-your-first-application.md"
-  ],
   "9747c39742c66735b9619036cb77a914563ecf29": [
     "Azure-RMSDocs\\develop\\how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md"
   ],
@@ -428,9 +425,6 @@
   "d66e4e6bca253bc2bf9d12ba22ed0202cba2edaf": [
     "Azure-RMSDocs\\deploy-use\\activate-service.md"
   ],
-  "6a7d8a7c00e4568ff73aa387444a0d146bebe969": [
-    "Azure-RMSDocs\\deploy-use\\activate-service.md"
-  ],
   "bf1f684bc394ec3a1025f8c9ed3e57d07c598125": [
     "Azure-RMSDocs\\deploy-use\\administer-powershell.md"
   ],
@@ -458,9 +452,6 @@
   "645f9ed4080e3b38fcda9afe148923c021046724": [
     "Azure-RMSDocs\\deploy-use\\configure-templates-with-powershell.md"
   ],
-  "4c3bb748a8ab8ccf6c78dca87b1949e0ac3a85c2": [
-    "Azure-RMSDocs\\deploy-use\\configure-templates-with-powershell.md"
-  ],
   "21b92fae5fd00d80f9afd2e80d21c08bfa47b7b2": [
     "Azure-RMSDocs\\deploy-use\\configure-usage-rights.md"
   ],
@@ -468,9 +459,6 @@
     "Azure-RMSDocs\\deploy-use\\configure-usage-rights.md"
   ],
   "87d712bbda11a4cfdfb2f3b3e9a549bca977afd6": [
-    "Azure-RMSDocs\\deploy-use\\copy-template.md"
-  ],
-  "b1f449381c3ece50d8f1878fc93f949e7f000c12": [
     "Azure-RMSDocs\\deploy-use\\copy-template.md"
   ],
   "d67caf4ebbe19e4f67061d006da1fdedea0d5761": [
