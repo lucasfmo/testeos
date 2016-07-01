@@ -1,29 +1,47 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 1
+ Total Files | 2
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [Azure-RMSDocs\understand-explore\office-apps-services-support.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/99eb67f6296ad1782c787aabb73a28458c02f367/Azure-RMSDocs/understand-explore/office-apps-services-support.md) | OutofSyncHandedBackSuccess | [Details](#affb37cc3b991609f5de51370485b10fed932421381)
+ [Azure-RMSDocs\develop\how-to-use-adal-authentication.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/4c3625676c7e794ef133c75881f666bae80e0513/Azure-RMSDocs/develop/how-to-use-adal-authentication.md) | OutofSyncHandedBackSuccess | [Details](#9200ea44671776ced8781c1e13e71871f5bdf01473)
+ [Azure-RMSDocs\develop\how-to-use-file-api-with-aadrm-cloud.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/4c3625676c7e794ef133c75881f666bae80e0513/Azure-RMSDocs/develop/how-to-use-file-api-with-aadrm-cloud.md) | OutofSyncHandedBackSuccess | [Details](#ad8c41c9f3f3515a817d508d8f5a8953daf4b44075)
 
 ## Item Details
-##### <a name='affb37cc3b991609f5de51370485b10fed932421381'></a> Source: [Azure-RMSDocs\understand-explore\office-apps-services-support.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/99eb67f6296ad1782c787aabb73a28458c02f367/Azure-RMSDocs/understand-explore/office-apps-services-support.md)
+##### <a name='9200ea44671776ced8781c1e13e71871f5bdf01473'></a> Source: [Azure-RMSDocs\develop\how-to-use-adal-authentication.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/4c3625676c7e794ef133c75881f666bae80e0513/Azure-RMSDocs/develop/how-to-use-adal-authentication.md)
 * Status: OutofSyncHandedBackSuccess
 * Target File: 
-* Handoff File: [office-apps-services-support.d312c71892f658fba6ad726f29f646550317b03b.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/70f4053e820979b3e5e3e0aecc922f9346f7fe01/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/office-apps-services-support.d312c71892f658fba6ad726f29f646550317b03b.hu-hu.xlf)
-* Handoff Datetime: 2016-07-01 00:26:12
+* Handoff File: [how-to-use-adal-authentication.c4db17b2d45abcad3a630251a689204c2a8c1ef2.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/c3bca106de9a81360b046654bc69072491786527/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/how-to-use-adal-authentication.c4db17b2d45abcad3a630251a689204c2a8c1ef2.hu-hu.xlf)
+* Handoff Datetime: 2016-07-01 18:29:07
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [Azure-RMSDocs\understand-explore\office-apps-services-support.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/0a2c629a4561c2b5472d0346b76d6f1327f01e3e/Azure-RMSDocs/understand-explore/office-apps-services-support.md)
-* Current Handback File: [office-apps-services-support.d312c71892f658fba6ad726f29f646550317b03b.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/f6c55cc56980ed2c523f49807cf653995e956a1a/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/office-apps-services-support.d312c71892f658fba6ad726f29f646550317b03b.hu-hu.xlf)
-* Current Handback Datetime: 2016-05-26 08:43:24
-* Bilingual File: [office-apps-services-support.d312c71892f658fba6ad726f29f646550317b03b.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/f6c55cc56980ed2c523f49807cf653995e956a1a/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/office-apps-services-support.d312c71892f658fba6ad726f29f646550317b03b.hu-hu.xlf)
-* Bilingual Datetime: 2016-06-16 10:22:53
+* Current Target File: [Azure-RMSDocs\develop\how-to-use-adal-authentication.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/1d82597c089e4feced2a53961d4b7ad9f7e55ba8/Azure-RMSDocs/develop/how-to-use-adal-authentication.md)
+* Current Handback File: [how-to-use-adal-authentication.c4db17b2d45abcad3a630251a689204c2a8c1ef2.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/99fe089b2e358dbf78dafacc9b4d62282e9c83a5/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/how-to-use-adal-authentication.c4db17b2d45abcad3a630251a689204c2a8c1ef2.hu-hu.xlf)
+* Current Handback Datetime: 2016-06-21 15:52:16
+* Bilingual File: [how-to-use-adal-authentication.c4db17b2d45abcad3a630251a689204c2a8c1ef2.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/99fe089b2e358dbf78dafacc9b4d62282e9c83a5/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/how-to-use-adal-authentication.c4db17b2d45abcad3a630251a689204c2a8c1ef2.hu-hu.xlf)
+* Bilingual Datetime: 2016-06-21 15:54:13
+* [Back to Top](#report-top)
+
+##### <a name='ad8c41c9f3f3515a817d508d8f5a8953daf4b44075'></a> Source: [Azure-RMSDocs\develop\how-to-use-file-api-with-aadrm-cloud.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/4c3625676c7e794ef133c75881f666bae80e0513/Azure-RMSDocs/develop/how-to-use-file-api-with-aadrm-cloud.md)
+* Status: OutofSyncHandedBackSuccess
+* Target File: 
+* Handoff File: [how-to-use-file-api-with-aadrm-cloud.4052e38cbbfbc18eb096b7b96cc63f236c7f2c45.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/c3bca106de9a81360b046654bc69072491786527/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/how-to-use-file-api-with-aadrm-cloud.4052e38cbbfbc18eb096b7b96cc63f236c7f2c45.hu-hu.xlf)
+* Handoff Datetime: 2016-07-01 18:29:07
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [Azure-RMSDocs\develop\how-to-use-file-api-with-aadrm-cloud.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/c1dfb34a7f3f11a57475c8fcd401e89703663523/Azure-RMSDocs/develop/how-to-use-file-api-with-aadrm-cloud.md)
+* Current Handback File: [how-to-use-file-api-with-aadrm-cloud.4052e38cbbfbc18eb096b7b96cc63f236c7f2c45.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/3b0d118b0314c989ff3fedd0e48338924e6013a0/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/how-to-use-file-api-with-aadrm-cloud.4052e38cbbfbc18eb096b7b96cc63f236c7f2c45.hu-hu.xlf)
+* Current Handback Datetime: 2016-06-24 19:18:04
+* Bilingual File: [how-to-use-file-api-with-aadrm-cloud.4052e38cbbfbc18eb096b7b96cc63f236c7f2c45.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/3b0d118b0314c989ff3fedd0e48338924e6013a0/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/how-to-use-file-api-with-aadrm-cloud.4052e38cbbfbc18eb096b7b96cc63f236c7f2c45.hu-hu.xlf)
+* Bilingual Datetime: 2016-06-24 19:20:00
 * [Back to Top](#report-top)
 
 
