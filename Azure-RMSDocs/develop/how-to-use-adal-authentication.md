@@ -1,27 +1,22 @@
 ---
-# required metadata
-
-title: ADAL-hitelesítés RMS-kompatiblis alkalmazásokhoz | Azure RMS
-description: Az ADAL hitelesítési folyamatának ismertetése
+title: "ADAL-hitelesítés RMS-kompatiblis alkalmazásokhoz | Azure RMS"
+description: "Az ADAL hitelesítési folyamatának ismertetése"
 keywords: authentication, RMS, ADAL
 author: bruceperlerms
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 06/28/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: f89f59b7-33d1-4ab3-bb64-1e9bda269935
-
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 4c3625676c7e794ef133c75881f666bae80e0513
+ms.openlocfilehash: 9200ea44671776ced8781c1e13e71871f5bdf014
+
 
 ---
 
@@ -43,13 +38,15 @@ Ez a témakör a hitelesítési folyamat két megközelítését ismerteti, a me
 
   Ezt a megközelítést akkor használja, ha azt szeretné, hogy az RMS-ügyfél egy ADAL-hitelesítési üzenetet jelenítsen meg, ha hitelesítésre van szükség. Az alkalmazás konfigurálásával kapcsolatos további részleteket a „Belső hitelesítés” című szakaszban találja.
 
-  > [!Note] Ha az Ön alkalmazása jelenleg a bejelentkezési segéddel kiegészített AD RMS SDK 2.1-et használja, az alkalmazás áttelepítési útvonalaként a belső hitelesítési módszer használatát ajánljuk.
+  > [!Note] 
+  > Ha az Ön alkalmazása jelenleg a bejelentkezési segéddel kiegészített AD RMS SDK 2.1-et használja, az alkalmazás áttelepítési útvonalaként a belső hitelesítési módszer használatát ajánljuk.
 
 - **Külső hitelesítés** – Az alkalmazás által kezelt OAuth-hitelesítés.
 
   Ezt a megközelítést akkor használja, ha azt szeretné, hogy az alkalmazása kezelje az OAuth-hitelesítést. Ezzel a megközelítéssel az RMS-ügyfél egy, az alkalmazás által meghatározott visszahívást intéz, ha hitelesítésre van szükség. Részletes példákat a „Külső hitelesítés” című szakaszban talál, a jelen témakör végén.
 
-  > [!Note] A külső hitelesítés nem feltétlenül jelenti a felhasználóváltás lehetőségét is: az RMS-ügyfél ugyanis mindig az alapértelmezett felhasználót veszi alapul egy adott RMS-bérlő esetében.
+  > [!Note] 
+  > A külső hitelesítés nem feltétlenül jelenti a felhasználóváltás lehetőségét is: az RMS-ügyfél ugyanis mindig az alapértelmezett felhasználót veszi alapul egy adott RMS-bérlő esetében.
 
 ## Belső hitelesítés
 
@@ -114,18 +111,19 @@ C++ extern HRESULT GetADALToken(LPVOID pContext, const IPC_NAME_VALUE_LIST& Para
 
 ## Kapcsolódó témakörök
 
-* [Adattípusok](/rights-management/sdk/2.1/api/win/datatypes)
-* [Környezet tulajdonságai](/rights-management/sdk/2.1/api/win/environmentproperties)
+* [Adattípusok](/rights-management/sdk/2.1/api/win/data%20types)
+* [Környezet tulajdonságai](/rights-management/sdk/2.1/api/win/environment%20properties#msipc_environment_properties)
 * [IpcCreateOAuth2Token](/rights-management/sdk/2.1/api/win/functions#msipc_ipccreateoauth2token)
 * [IpcGetKey](/rights-management/sdk/2.1/api/win/functions#msipc_ipcgetkey)
 * [IpcInitialize](/rights-management/sdk/2.1/api/win/functions#msipc_ipcinitialize)
 * [IPC_CREDENTIAL](/rights-management/sdk/2.1/api/win/IPC_CREDENTIAL)
 * [IPC_NAME_VALUE_LIST](/rights-management/sdk/2.1/api/win/IPC_NAME_VALUE_LIST)
-* [IPC_OAUTH2_CALLBACK_INFO](/rights-management/sdk/2.1/api/win/IIPC_OAUTH2_CALLBACK_INFO)
+* [IPC_OAUTH2_CALLBACK_INFO](/rights-management/sdk/2.1/api/win/ipc_oauth2_callback_info#msipc_ipc_oath2_callback_info)
 * [IPC_PROMPT_CTX](/rights-management/sdk/2.1/api/win/IPC_PROMPT_CTX)
-* [IPC_AAD_APPLICATION_ID](/rights-management/sdk/2.1/api/win/IIPC_AAD_APPLICATION_ID)
+* [IPC_AAD_APPLICATION_ID](/rights-management/sdk/2.1/api/win/ipc_aad_application_id#msipc_ipc_aad_application_id)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jul16_HO1-->
 
 
