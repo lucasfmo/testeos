@@ -12,6 +12,7 @@ ms.technology: techgroup-identity
 ms.assetid: f7b13fa4-4f8e-489a-ba46-713d7a79f901
 ms.reviewer: esaggese
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: 332e102cb27854314b93a71bfeae82a95c9a7812
 ms.openlocfilehash: 4f63cb7911661104113d19ecd84ef7c80a874408
 
@@ -59,7 +60,8 @@ Továbbá, amikor az RMS megosztóalkalmazás natív védelmet biztosít egy oly
 
 Az általános védelemmel ellátott fájlok esetében az eredeti fájlnévkiterjesztés mindig .pfile fájlnévkiterjesztésre változik.
 
-> [!WARNING] Ha olyan tűzfalakat, webes proxykat vagy biztonsági szoftvereket használ, amelyek a fájlnévkiterjesztés alapján hajtanak végre bizonyos műveleteket, lehet, hogy be kell azokat állítania, hogy engedélyezzék ezeket az új fájlnévkiterjesztéseket.
+> [!WARNING]
+> Ha olyan tűzfalakat, webes proxykat vagy biztonsági szoftvereket használ, amelyek a fájlnévkiterjesztés alapján hajtanak végre bizonyos műveleteket, lehet, hogy be kell azokat állítania, hogy engedélyezzék ezeket az új fájlnévkiterjesztéseket.
 
 |Eredeti fájlnévkiterjesztés|Az RMS-védelemmel ellátott fájl fájlnévkiterjesztése|
 |--------------------------------|-------------------------------------|
@@ -138,6 +140,6 @@ Más forgatókönyvek esetében is végrehajthat hasonló beállításjegyzék-m
 
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO5-->
 
 

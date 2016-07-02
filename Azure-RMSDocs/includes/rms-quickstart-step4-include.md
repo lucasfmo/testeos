@@ -4,8 +4,8 @@ A címzettek számos eszközön olvashatják el az e-mail-mellékletként elkül
 
 Kérje meg a címzetteket az elküldött e-mail-üzenet elolvasására. Az e-mail-üzenet megtekintése előtt az alábbi szöveget látják majd:
 
-**A mellékleteket a feladó Microsoft RMS-védelemmel látta el. ** [Be kell jelentkeznie](http://aka.ms/rms)
-      **a megnyitásukhoz.**
+**A mellékleteket a feladó Microsoft RMS-védelemmel látta el. A megnyitásukhoz ** [be kell jelentkeznie](http://aka.ms/rms)
+      **.**
 
 Amikor a címzettek a hivatkozásra kattintanak, utasítások jelennek meg, amelyek az RMS megosztóalkalmazás telepítésére, és ha szükséges, egy ingyenes fiók regisztrálására kérik fel őket. Az ingyenes fiók előfizetést biztosít az RMS egyéni felhasználók számára szolgáltatáshoz, ami lehetővé teszi, hogy a jogosult felhasználók mindig elolvashassák a védett dokumentumokat, még akkor is, ha a szervezetük nem rendelkezik Azure RMS-el. A címzettek ezután készen állnak a védett fájl elolvasására az alábbi utasításokat követve.
 
@@ -33,6 +33,6 @@ Most, hogy a címzett megnyitotta a mellékletet, és esetleg továbbította azt
 
 
 
-<!--HONumber=Apr16_HO3-->
+<!--HONumber=Jun16_HO4-->
 
 

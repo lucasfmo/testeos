@@ -1,26 +1,22 @@
 ---
-# required metadata
-
-title: Kibocsátási megjegyzések | Azure RMS
-description:
-keywords:
+title: "Kibocsátási megjegyzések | Azure RMS"
+description: 
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
-ms.date: 05/03/2016
+ms.date: 06/28/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: CE379738-4E1D-42AD-83F4-F89B70456EBB
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 56d0538243af49580f24c701ad5097b30f3059b0
+ms.openlocfilehash: 61df64691ac3f4d7e871043767444ea64dfe1ef3
+
 
 ---
 
@@ -30,7 +26,8 @@ Ez a témakör fontos információkat tartalmaz az RMS SDK 2.1 jelenlegi és kor
 
 ## 2016. februári újdonság – SDK-dokumentáció frissítése
 
->[!Note]  A szolgáltatásdokumentációnak a jelen szakaszban található frissítései a 2015. december 11-i SDK-letöltésre vonatkoznak.
+>[!Note]
+> A szolgáltatásdokumentációnak a jelen szakaszban található frissítései a 2015. december 11-i SDK-letöltésre vonatkoznak.
 
 - **Továbbfejlesztett hitelesítési folyamat** – az OAuth2 tokenalapú hitelesítés használata az [Azure Active Directory Authentication Library (ADAL)](https://azure.microsoft.com/en-us/documentation/articles/active-directory-authentication-libraries/) hitelesítési táron keresztül. További információ a folyamattal és annak API-bővítményeivel kapcsolatban: [ADAL-hitelesítés RMS-kompatibilis alkalmazásokhoz](how-to-use-adal-authentication.md).
 
@@ -180,6 +177,7 @@ Ha nem kérhető le név és leírás, a rendszer hibát jelez. Egy adott LCID a
  
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

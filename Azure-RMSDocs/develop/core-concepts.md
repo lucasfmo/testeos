@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Fejlesztői útmutatás és kifejezések | Azure RMS
-description: Az RMS SDK 4.2 célja segíteni az AD RMS-kompatibilis, az AD RMS Information Protection adatvédelmet használó alkalmazások lehető legegyszerűbb kiépítésében.
-keywords:
+title: "Fejlesztői útmutatás és kifejezések | Azure RMS"
+description: "Az RMS SDK 4.2 célja segíteni az AD RMS-kompatibilis, az AD RMS Information Protection adatvédelmet használó alkalmazások lehető legegyszerűbb kiépítésében."
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,15 +10,13 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: ae67523a-c094-44da-86b8-739bedba7111
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 466db75b55164b638a269816f434cf027ce666a5
+ms.openlocfilehash: ebb08fbea18473cccca5897372b97f192200acca
+
 
 ---
 
@@ -42,6 +38,7 @@ A következő témakörök támogatják az RMS-kompatibilis alkalmazások fejles
  
 
 
-<!--HONumber=Jun16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 
