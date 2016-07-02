@@ -1,27 +1,22 @@
 ---
-# required metadata
-
-title: Az Azure RMS beállítása az ADAL-hitelesítéshez | Azure RMS
-description: Az Azure ADAL alapú hitelesítés konfigurálási lépéseinek ismertetése
+title: "Az Azure RMS beállítása az ADAL-hitelesítéshez | Azure RMS"
+description: "Az Azure ADAL alapú hitelesítés konfigurálási lépéseinek ismertetése"
 keywords: authentication, RMS, ADAL
 author: bruceperlerms
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 06/28/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: f89f59b7-33d1-4ab3-bb64-1e9bda269935
-
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 56d0538243af49580f24c701ad5097b30f3059b0
+ms.openlocfilehash: 9b912a2a66838dc6e6a3b227bcfe4ac589fe06c1
+
 
 ---
 
@@ -36,7 +31,8 @@ A következőkre lesz szüksége:
 - Egy [Microsoft Azure-előfizetés](https://azure.microsoft.com/en-us/) (az ingyenes próbaverzió is elegendő). További információ: [How users sign up for RMS for individuals](../understand-explore/rms-for-individuals-user-sign-up.md) (Útmutató az egyéni RMS-fiók regisztrációjához)
 - Egy Microsoft Azure Rights Management-előfizetés (az [egyéni RMS-felhasználók](https://technet.microsoft.com/en-us/library/dn592127.aspx) ingyenes fiókja is elegendő).
 
-> [!NOTE] Érdeklődjön informatikai rendszergazdájánál, hogy rendelkezik-e Microsoft Azure Rights Management-előfizetéssel, és kérje meg a rendszergazdáját az alábbi lépések végrehajtására. Amennyiben az Ön szervezte nem rendelkezik előfizetéssel, kérje meg informatikai rendszergazdáját egy előfizetés létrehozására. Továbbá ajánlatos, hogy informatikai rendszergazdája egy *munkahelyi vagy iskolai fiókkal* végezze el a regisztrációt, és ne *Microsoft-fiókot* (például Hotmail-fiókot) használjon.
+> [!NOTE] 
+> Érdeklődjön informatikai rendszergazdájánál, hogy rendelkezik-e Microsoft Azure Rights Management-előfizetéssel, és kérje meg a rendszergazdáját az alábbi lépések végrehajtására. Amennyiben az Ön szervezte nem rendelkezik előfizetéssel, kérje meg informatikai rendszergazdáját egy előfizetés létrehozására. Továbbá ajánlatos, hogy informatikai rendszergazdája egy *munkahelyi vagy iskolai fiókkal* végezze el a regisztrációt, és ne *Microsoft-fiókot* (például Hotmail-fiókot) használjon.
 
 A Microsoft Azure-regisztrációt követő lépések:
 
@@ -81,11 +77,13 @@ A Microsoft Azure-regisztrációt követő lépések:
 
 ![A KONFIGURÁLÁS kiválasztása](../media/ConfigYourApp.png)
 
->[!NOTE] Másolja ki, és mentse az **ÜGYFÉL-AZONOSÍTÓ** és az **ÁTIRÁNYÍTÁSI URI** értékét az RMS-ügyfél későbbi konfigurálásához.
+>[!NOTE] 
+> Másolja ki, és mentse az **ÜGYFÉL-AZONOSÍTÓ** és az **ÁTIRÁNYÍTÁSI URI** értékét az RMS-ügyfél későbbi konfigurálásához.
 
 - Görgessen az alkalmazásbeállítások aljára, és kattintson az **Alkalmazás hozzáadása** gombra az **egyéb alkalmazások engedélyei** pont alatt.
 
->[!NOTE] A Windows Azure Active Directory esetében látható **delegált engedélyek** alapértelmezés szerint helyesek – csak egy beállítást szabad kiválasztani, és ez a beállítás a **Beléptetés és felhasználói profil olvasása**.
+>[!NOTE] 
+> A Windows Azure Active Directory esetében látható **delegált engedélyek** alapértelmezés szerint helyesek – csak egy beállítást szabad kiválasztani, és ez a beállítás a **Beléptetés és felhasználói profil olvasása**.
 
 ![Az Alkalmazás hozzáadása kiválasztása](../media/PermissionsToOtherBtn.png)
 
@@ -110,6 +108,7 @@ A Microsoft Azure-regisztrációt követő lépések:
 ![A MENTÉS kiválasztása](../media/SaveApplication.png)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

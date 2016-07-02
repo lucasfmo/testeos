@@ -27,6 +27,6 @@ Mostantól készen áll a csak az adott személyekkel megosztani kívánt inform
 |A natív védelem és a általános védelem közötti különbségek megértése   →|[Mi a különbség az általános védelem és a beépített (natív) védelem között?](../rms-client/sharing-app-dialog-box.md)|
 
 
-<!--HONumber=Apr16_HO3-->
+<!--HONumber=Jun16_HO4-->
 
 

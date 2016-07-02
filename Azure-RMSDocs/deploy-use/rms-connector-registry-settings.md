@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Az RMS-összekötő beállításjegyzékbeli beállításai | Azure RMS
-description:
-keywords:
+title: "Az RMS-összekötő beállításjegyzékbeli beállításai | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: ed3e9a3d-0f7c-4abc-9d0b-aa3b18403d39
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
+ms.openlocfilehash: ff90f009f9fda90171bbeeb2a7bb421376d4695c
+
 
 ---
 
@@ -37,7 +31,7 @@ Utasítások a beállítások használatához:
 
 -   A *MicrosoftRMSURL* a szervezethez tartozó Microsoft RMS szolgáltatás URL-címe. Az érték kereséséhez tegye a következőket:
 
-    1.  Futtassa az Azure RMS [Get-AadrmConfiguration](http://msdn.microsoft.com/library/windowsazure/dn629410.aspx) parancsmagját. Ha még nem telepítette az Azure RMS-hez készült Windows PowerShell-modult, tekintse meg az [Installing Windows PowerShell for Azure Rights Management](install-powershell.md) (Az Azure Rights Managementhez készült Windows PowerShell telepítése) című témakört..
+    1.  Futtassa az Azure RMS [Get-AadrmConfiguration](http://msdn.microsoft.com/library/windowsazure/dn629410.aspx) parancsmagját. Ha még nem telepítette az Azure RMS-hez készült Windows PowerShell-modult, tekintse meg az [Installing Windows PowerShell for Azure Rights Management](install-powershell.md) (Az Azure Rights Managementhez készült Windows PowerShell telepítése) című témakört.
 
     2.  A kimenetben azonosítsa a **LicensingIntranetDistributionPointUrl** értéket.
 
@@ -222,6 +216,7 @@ Utasítások a beállítások használatához:
 
 Vissza a [Deploying the Azure Rights Management connector](deploy-rms-connector.md) (Az Azure Rights Management-összekötő üzembe helyezése) című témakörhöz
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -55,6 +55,6 @@ Jóllehet az oktatóanyag nem tér ki erre, éles környezet esetén valószín�
 |Információk az alapértelmezett sablonokkal és az új, egyéni sablonok létrehozásával kapcsolatban   →|[Az Azure Rights Management egyéni sablonok konfigurálása](../deploy-use/create-template.md)|
 
 
-<!--HONumber=Apr16_HO3-->
+<!--HONumber=Jun16_HO4-->
 
 
