@@ -13,6 +13,7 @@ ms.assetid: 581451A2-9558-4D0D-9D01-BEAB282C5A83
 audience: developer
 ms.reviewer: shubhamp
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: ac6afddc2b39d6209ef1b89d8d84011942cdba5a
 ms.openlocfilehash: e75ec6c04afd171552697f79deb33ad2cfe2c4e1
 
@@ -218,6 +219,6 @@ A befejezés előtt fel kell szabadítania a lefoglalt erőforrásokat.
 
 
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO5-->
 
 

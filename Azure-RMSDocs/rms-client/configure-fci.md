@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: RMS-védelem és Windows Server fájlbesorolási infrastruktúra (FCI) | Azure RMS
-description:
-keywords:
+title: "RMS-védelem és Windows Server fájlbesorolási infrastruktúra (FCI) | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 06/14/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 9aa693db-9727-4284-9f64-867681e114c9
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 1fc1835b60c4c75b81f106011849940ba2e77164
+ms.openlocfilehash: afb00e010df25dea5f3c3cad23824f773de59b18
+
 
 ---
 
@@ -33,7 +27,8 @@ A cikk utasításokat és egy parancsfájlt tartalmaz a Rights Management (RMS)-
 
 A megoldás lehetővé teszi egy Windows Server rendszert futtató fájlkiszolgálón lévő mappában található összes fájl, illetve a megadott feltételnek megfelelő fájlok automatikus védelmét. Például olyan fájlokét, amelyek besorolásuk szerint bizalmas információt tartalmaznak. A megoldás az Azure Rights Management (Azure RMS) segítségével védi a fájlokat, ezért ennek a technológiának telepítve kell lennie a szervezetén belül.
 
-> [!NOTE] Bár az Azure RMS tartalmaz egy fájlbesorolási infrastruktúrát támogató [összekötőt](../deploy-use/deploy-rms-connector.md), ez a megoldás csak a natív védelmet támogatja, például az Office-fájlokét.
+> [!NOTE]
+> Bár az Azure RMS tartalmaz egy [összekötőt](../deploy-use/deploy-rms-connector.md), amely támogatja a fájlbesorolási infrastruktúrát, a megoldás csak a natív védelmet támogatja – pl. Office-fájlokét.
 > 
 > A besorolási infrastruktúrával rendelkező összes fájltípus támogatásához a Windows PowerShell **RMS Protection** modulját kell használnia, ahogy az a cikkből is kiderül. Az RMS Protection parancsmagok az RMS-megosztóalkalmazáshoz hasonlóan az általános és a natív védelmet is támogatják, amely azt jelenti, hogy minden fájl védelme biztosítható. További információt a [Rights Management sharing application administrator guide](sharing-app-admin-guide.md) (Rendszergazdai útmutató a Rights Management megosztóalkalmazáshoz) [Levels of protection – native and generic](sharing-app-admin-guide-technical.md#levels-of-protection-native-and-generic) (Védelmi szintek – natív és általános) című szakaszában találhat.
 
@@ -278,7 +273,8 @@ Ezzel befejezte a besorolás konfigurálását. Készen áll a kezelési feladat
     ```
     foreach ($file in (Get-ChildItem -Path C:\FileShare -Force | where {!$_.PSIsContainer})) {Get-RMSFileStatus -f $file.PSPath}
     ```
-    > [!TIP] Néhány hibaelhárítási tipp:
+    > [!TIP]
+    > Néhány hibaelhárítási tipp:
     > 
     > -   Ha a jelentésben **0** látható a mappában lévő fájlok száma helyett, az arra utal, hogy a parancsfájl nem futott le. Először ellenőrizze magát a parancsfájlt. Ehhez töltse be a parancsfájlt egy Windows PowerShell integrált parancsprogram-kezelési környezetbe (ISE) a tartalmának érvényesítéséhez, majd próbálja meg futtatni, hogy kiderüljön, megjelennek-e hibák. Megadott argumentumok hiányában a parancsfájl megpróbál egy Azure RMS-hez csatlakozni és elvégezni a hitelesítést.
     > 
@@ -306,6 +302,7 @@ Most már csak annyit kell tennie, hogy létrehoz egy új fájlkezelési feladat
 
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
