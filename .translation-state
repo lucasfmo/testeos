@@ -1,6 +1,6 @@
 {
   "LastProcessedCommit": "3de05f5783e864e7700c154d6deb062f24322320",
-  "LastTranslatedCommit": "433f0bb25f75c8433419dbc71a3e63a876c645a3",
+  "LastTranslatedCommit": "fe491da56faff85676450b3d6cf3ca809be60e83",
   "Items": {
     "2ed3bf162e9cbb06230b3bd9c0bd960c5c36049a": {
       "FileHash": "2ed3bf162e9cbb06230b3bd9c0bd960c5c36049a",
@@ -77213,7 +77213,7 @@
       "TargetFilePath": "Azure-RMSDocs\\develop\\working-with-encryption.md",
       "HandbackFilePath": "ol-handback\\Microsoft\\Azure-RMSDocs-pr.hu-hu\\master\\working-with-encryption.19f5df37a590d0c88fe306cf324bf9883b1786f3.hu-hu.xlf",
       "HandbackFileCommit": "14fde266f5e7a0e8deeaff66f5034398a87de3b7",
-      "HandbackDateTime": "2016-07-02T06:13:59.6694708Z",
+      "HandbackDateTime": "2016-07-02T06:28:31.6285055Z",
       "HandbackException": {
         "internal_error_code": "handback_transform_failed",
         "internal_error_message": "Handback file: C:\\ol\\master\\EM.handback\\06462f\\ol-handback\\Microsoft\\Azure-RMSDocs-pr.hu-hu\\master\\working-with-encryption.19f5df37a590d0c88fe306cf324bf9883b1786f3.hu-hu.xlf failed.",
@@ -77223,7 +77223,7 @@
         "stack_trace": "   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 92\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 406",
         "extended_information": null
       },
-      "HandbackFailureTimes": 1,
+      "HandbackFailureTimes": 2,
       "UpdatedDateTime": "2016-06-25T06:47:19.3928949Z",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\Azure-RMSDocs-pr.hu-hu\\master\\archive\\working-with-encryption.19f5df37a590d0c88fe306cf324bf9883b1786f3.hu-hu.xlf",
       "ArchiveFileCommit": "786b12315655133d22ea41e087b78f2f38161bc8",
