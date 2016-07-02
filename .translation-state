@@ -1,6 +1,6 @@
 {
   "LastProcessedCommit": "3de05f5783e864e7700c154d6deb062f24322320",
-  "LastTranslatedCommit": "02900f96e4a89abc86d8ed79886c92e1d5727da6",
+  "LastTranslatedCommit": "7468f5c1592b34599392022f41a00e0eaf15dd25",
   "Items": {
     "2ed3bf162e9cbb06230b3bd9c0bd960c5c36049a": {
       "FileHash": "2ed3bf162e9cbb06230b3bd9c0bd960c5c36049a",
@@ -77213,7 +77213,7 @@
       "TargetFilePath": "Azure-RMSDocs\\develop\\working-with-encryption.md",
       "HandbackFilePath": "ol-handback\\Microsoft\\Azure-RMSDocs-pr.hu-hu\\master\\working-with-encryption.19f5df37a590d0c88fe306cf324bf9883b1786f3.hu-hu.xlf",
       "HandbackFileCommit": "14fde266f5e7a0e8deeaff66f5034398a87de3b7",
-      "HandbackDateTime": "2016-07-02T07:14:07.908208Z",
+      "HandbackDateTime": "2016-07-02T07:26:30.0770745Z",
       "HandbackException": {
         "internal_error_code": "handback_transform_failed",
         "internal_error_message": "Handback file: C:\\ol\\master\\EM.handback\\06462f\\ol-handback\\Microsoft\\Azure-RMSDocs-pr.hu-hu\\master\\working-with-encryption.19f5df37a590d0c88fe306cf324bf9883b1786f3.hu-hu.xlf failed.",
@@ -77223,7 +77223,7 @@
         "stack_trace": "   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 92\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 406",
         "extended_information": null
       },
-      "HandbackFailureTimes": 3,
+      "HandbackFailureTimes": 4,
       "UpdatedDateTime": "2016-06-25T06:47:19.3928949Z",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\Azure-RMSDocs-pr.hu-hu\\master\\archive\\working-with-encryption.19f5df37a590d0c88fe306cf324bf9883b1786f3.hu-hu.xlf",
       "ArchiveFileCommit": "786b12315655133d22ea41e087b78f2f38161bc8",
@@ -80586,7 +80586,7 @@
       "TargetFilePath": null,
       "HandbackFilePath": null,
       "HandbackFileCommit": null,
-      "HandbackDateTime": "2016-07-02T07:14:07.908208Z",
+      "HandbackDateTime": "2016-07-02T07:26:30.0770745Z",
       "HandbackException": {
         "internal_error_code": "handback_transform_failed",
         "internal_error_message": "Handback file: C:\\ol\\master\\EM.handback\\06462f\\ol-handback\\Microsoft\\Azure-RMSDocs-pr.hu-hu\\master\\add-explicit-owner-rights.41e1f4a20dbc614b802dc2a924abbf773d143285.hu-hu.xlf failed.",
@@ -80596,7 +80596,7 @@
         "stack_trace": "   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 92\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 406",
         "extended_information": null
       },
-      "HandbackFailureTimes": 1,
+      "HandbackFailureTimes": 2,
       "UpdatedDateTime": "0001-01-01T00:00:00",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\Azure-RMSDocs-pr.hu-hu\\master\\archive\\add-explicit-owner-rights.41e1f4a20dbc614b802dc2a924abbf773d143285.hu-hu.xlf",
       "ArchiveFileCommit": "786b12315655133d22ea41e087b78f2f38161bc8",
