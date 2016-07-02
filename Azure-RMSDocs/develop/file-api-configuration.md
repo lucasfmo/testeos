@@ -1,26 +1,22 @@
 ---
-# required metadata
-
-title: A fájl API konfigurálása | Azure RMS
-description: A fájl API működése konfigurálható a beállításjegyzék beállításaival.
-keywords:
+title: "A fájl API konfigurálása | Azure RMS"
+description: "A fájl API működése konfigurálható a beállításjegyzék beállításaival."
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 06/28/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 930878C2-D2B4-45F1-885F-64927CEBAC1D
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 56d0538243af49580f24c701ad5097b30f3059b0
+ms.openlocfilehash: 46b1fe5a0c4f138db65072d14489a5d588015df7
+
 
 ---
 
@@ -67,14 +63,16 @@ A védelem működésének beállításához adja meg az **Encryption** értéke
 
 - **Off**: A védelem le van tiltva.
 
-> [!Note] A beállítás nincs hatással a visszafejtésre. Egy titkosított fájl – akár natív, akár Pfile-védelemmel lett titkosítva – visszafejthető, ha a felhasználó rendelkezik **EXTRACT** jogosultsággal.
+> [!Note] 
+> A beállítás nincs hatással a visszafejtésre. Egy titkosított fájl – akár natív, akár Pfile-védelemmel lett titkosítva – visszafejthető, ha a felhasználó rendelkezik **EXTRACT** jogosultsággal.
 
 - **Native**:  A rendszer natív titkosítást használ. Office-fájlok esetében a titkosított fájl kiterjesztése megegyezik az eredeti fájléval. Egy .docx kiterjesztésű fájl például .docx kiterjesztésű fájlba lesz titkosítva. Más natív védelemmel ellátott fájlok esetében a fájl p*zzz* kiterjesztési formátumú fájlba lesz titkosítva, ahol a *zzz* a fájl eredeti kiterjesztése. A .txt kiterjesztésű fájlok például .ptxt kiterjesztésű fájlba lesznek titkosítva. Az alábbiakban látható azon fájlkiterjesztések listája, amelyekre natív védelem alkalmazható.
 
 - **Pfile**: A rendszer PFile-titkosítást használ. A fájl eredeti kiterjesztéséhez a titkosításkor a rendszer hozzáfűz egy .pfile kiterjesztést. Titkosítás után egy .txt fájl kiterjesztése például .txt.pfile lesz.
 
 
-> [!Note] A beállítás nincs hatással az Office-fájlformátumokra. Ha `HKEY_LOCAL_MACHINE\Software\Microsoft\MSIPC\FileProtection\DOCX\Encryption` például &quot;Pfile” értékre van állítva, a .docx fájlokat a rendszer továbbra is natív védelemmel titkosítja, és a titkosított fájl kiterjesztése továbbra is .docx lesz.
+> [!Note] 
+> A beállítás nincs hatással az Office-fájlformátumokra. Ha `HKEY_LOCAL_MACHINE\Software\Microsoft\MSIPC\FileProtection\DOCX\Encryption` például &quot;Pfile” értékre van állítva, a .docx fájlokat a rendszer továbbra is natív védelemmel titkosítja, és a titkosított fájl kiterjesztése továbbra is .docx lesz.
 
 Bármely más érték megadása, vagy ha nincs érték megadva, alapértelmezett viselkedést eredményez.
 
@@ -157,6 +155,7 @@ HKEY_LOCAL_MACHINE
  
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

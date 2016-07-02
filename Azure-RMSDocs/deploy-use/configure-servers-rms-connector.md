@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Kiszolgálók konfigurálása az Azure Rights Management-összekötő használatához | Azure RMS
-description:
-keywords:
+title: "Kiszolgálók konfigurálása az Azure Rights Management-összekötő használatához | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 06/08/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 75846ee1-2370-4360-81ad-e2b6afe3ebc9
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0b07ecc88b1d2d344f0984d4a805cc033996cc4d
+ms.openlocfilehash: 79171b5931b69ca18d2a2cbe321d5d5887903da2
+
 
 ---
 
@@ -83,7 +77,8 @@ Hátrányok:
 
 ---
 
-> [!IMPORTANT] Mindkét esetben manuálisan kell telepítenie az előfeltételeket és konfigurálnia az Exchange-et, a SharePointot és a fájlbesorolási infrastruktúrát a Rights Management használatára.
+> [!IMPORTANT]
+> Mindkét esetben manuálisan kell telepítenie az előfeltételeket és konfigurálnia az Exchange-et, a SharePointot és a fájlbesorolási infrastruktúrát a Rights Management használatára.
 
 A legtöbb szervezet esetében az automatikusan, a Microsoft RMS-összekötő kiszolgálókonfiguráló eszközével végzett konfiguráció a jobb megoldás, mert hatékonyabb és megbízhatóbb a manuális konfigurálásnál.
 
@@ -114,7 +109,8 @@ Miután végrehajtotta az érintett kiszolgálókon a konfigurációs változtat
 
 A parancsfájl futtatásához meg kell adnia a szervezete RMS-összekötőjének URL-címét. Adja meg a protokoll-előtagot (HTTP:// vagy HTTPS://) és az összekötő nevét, amelyet a DNS-ben az összekötője terheléselosztási címeként megadott. Például: https://connector.contoso.com. Az eszköz ezután a megadott URL-cím felhasználásával csatlakozik az RMS-összekötőt futtató kiszolgálókhoz, és beszerzi a szükséges konfigurációk létrehozásához használt további paramétereket.
 
-> [!IMPORTANT] Az eszköz futtatásakor győződjön meg róla, hogy a szervezetére vonatkozó terheléselosztási RMS-összekötő nevét adja meg, és nem egy különálló kiszolgálóét, amelyen az RMS-összekötő szolgáltatás fut.
+> [!IMPORTANT]
+> Az eszköz futtatásakor győződjön meg róla, hogy a szervezetére vonatkozó terheléselosztási RMS-összekötő nevét adja meg, és nem egy különálló kiszolgálóét, amelyen az RMS-összekötő szolgáltatás fut.
 
 Az egyes szolgáltatástípusokról a következő szakaszokban talál pontosabb információt:
 
@@ -188,7 +184,8 @@ Az RMS-összekötő használatához a SharePointot futtató kiszolgálóknak az 
 
 Egy SharePoint 2016-ot vagy SharePoint 2013-at futtató kiszolgálónak az MSIPC ügyfél 2.1 egy olyan verzióját is futtatnia kell, amely támogatott az RMS-összekötő mellett. Hogy biztosan a támogatott verzióval rendelkezzen, töltse le a legfrissebb ügyfélprogramot a [Microsoft letöltőközpontból](http://www.microsoft.com/download/details.aspx?id=38396).
 
-> [!WARNING] Az MSIPC 2.1 ügyfélprogramnak több verziója is van, ezért győződjön meg róla, hogy 1.0.2004.0-s vagy annál újabb verzióval rendelkezik.
+> [!WARNING]
+> Az MSIPC 2.1 ügyfélnek több verziója is van, ezért győződjön meg róla, hogy 1.0.2004.0-s vagy annál újabb verzióval rendelkezik.
 >
 > Az ügyfél verzióját az MSIPC.dll fájl verziószámának ellenőrzésével tudja megerősíteni, amely a **\Program Files\Active Directory Rights Management Services Client 2.1**mappában található. Az MSIPC 2.1 ügyfél verziószáma a Tulajdonságok párbeszédablakban látható.
 
@@ -252,6 +249,7 @@ Az [Azure Rights Management deployment roadmap](../plan-design/deployment-roadma
 Az RMS-összekötő megfigyelése: [Az Azure Rights Management-összekötő megfigyelése](monitor-rms-connector.md). 
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -12,6 +12,7 @@ ms.technology: techgroup-identity
 ms.assetid: 30ee2f77-ce16-4113-bcda-6089131849ec
 ms.reviewer: esaggese
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: 332e102cb27854314b93a71bfeae82a95c9a7812
 ms.openlocfilehash: 645f9ed4080e3b38fcda9afe148923c021046724
 
@@ -28,7 +29,8 @@ A klasszikus Azure-portál sablonok létrehozására vagy módosítására szolg
 
 Az exportálás és importálás segítségével biztonsági másolatot is készíthet az egyéni sablonokról és vissza is állíthatja azokat. Ajánlott eljárásként rendszeresen készítsen biztonsági másolatot az egyéni sablonokról, így ha egy nem megfelelő módosítást hajt végre, egyszerűen visszaállíthat egy korábbi verziót.
 
-> [!IMPORTANT] Ha a Windows PowerShell segítségével szeretne Azure RMS jogmegadási sablonokat létrehozni, az [Azure RMS-hez készült Windows PowerShell-modul](http://go.microsoft.com/fwlink/?LinkId=257721) legalább 2.0.0.0-s verziójával kell rendelkeznie.
+> [!IMPORTANT]
+> Ha a Windows PowerShell segítségével szeretne Azure RMS jogmegadási sablonokat létrehozni, az [Azure RMS-hez készült Windows PowerShell-modul](http://go.microsoft.com/fwlink/?LinkId=257721) legalább 2.0.0.0-s verziójával kell rendelkeznie.
 > 
 > Ha a PowerShell-modult korábban már telepítette, futtassa a következő parancsot egy PowerShell-ablakban a verziószám ellenőrzéséhez: `(Get-Module aadrm -ListAvailable).Version`
 
@@ -58,6 +60,6 @@ A sablonok létrehozását és kezelését támogató parancsmagok:
 [Egyéni sablonok konfigurálása az Azure Rights Management szolgáltatáshoz](configure-custom-templates.md)
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO5-->
 
 

@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: RMS fejlesztői útmutató | Azure RMS
-description: Jelenleg a Rights Management SDK három generációja érhető el.
-keywords:
+title: "RMS fejlesztői útmutató | Azure RMS"
+description: "Jelenleg a Rights Management SDK három generációja érhető el."
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,15 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 0510ead4-2fe7-4269-885b-fe16bcc69888
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: f7dd88d90357c99c69fe4fdde67c1544595e02f8
+ms.openlocfilehash: 6f8a475907347e545eb3ea46fecc04013fa74c5e
+
 
 ---
 
@@ -49,12 +44,13 @@ A Microsoft által biztosított alábbi RMS-kódminták és fejlesztői támogat
 | [IpcAzureApp](https://github.com/Azure-Samples/active-directory-dotnet-rms) | Windows asztali rendszer|[RMS SDK 2.1](microsoft-information-protection-and-control-client-portal.md) és a 2.x-es SDK későbbi verziói|Az **IpcAzureApp** minta azt mutatja be, hogyan használható az RMS SDK az Azure-alkalmazásokban az Azure Blob Storage-ban található adatok védelmének biztosítására.|
 | [RmsDocumentInspector](https://github.com/Azure-Samples/active-directory-dotnet-rms) | Windows asztali rendszer|[RMS SDK 2.1](microsoft-information-protection-and-control-client-portal.md) és a 2.x-es SDK későbbi verziói|Az **RmsDocumentInspector** eszköz az RMS-sel védett fájlokra vonatkozó különböző adatokat, például tartalomazonosítót vagy felhasználói jogosultságokat adhat meg.|
 | [RmsFileWatcher](https://github.com/Azure-Samples/active-directory-dotnet-rms) | Windows asztali rendszer|[RMS SDK 2.1](microsoft-information-protection-and-control-client-portal.md) és a 2.x-es SDK későbbi verziói|Az **RmsFileWatcher** minta bemutatja, hogyan hozható létre olyan Windows-alkalmazás, amely a fájlrendszer könyvtárait figyeli, és az RMS-védelem házirendjeit alkalmazza minden változás, például fájlok hozzáadása vagy módosítása esetén.|
-| [iOS/OS X használati forgatókönyvek](https://msdn.microsoft.com/en-us/library/dn758307(v=vs.85).aspx) |iOS/OS X|[RMS SDK 4.2](active-directory-rights-management-services-multi-platform-thin-client-sdk-portal.md) és a 4.x-es SDK későbbi verziói|Az **Objective C**-kódminták fontos fejlesztési forgatókönyvek bemutatásával nyújtanak segítséget az RMS SDK használatának a megismeréséhez. A minták kitérnek a Microsoft védett fájlformátumának, az egyéni védett fájlformátumok és az egyéni felhasználói felületi vezérlők használatára.|
+| [iOS/OS X használati forgatókönyvek](https://msdn.microsoft.com/library/dn758307(v=vs.85).aspx) |iOS/OS X|[RMS SDK 4.2](active-directory-rights-management-services-multi-platform-thin-client-sdk-portal.md) és a 4.x-es SDK későbbi verziói|Az **Objective C**-kódminták fontos fejlesztési forgatókönyvek bemutatásával nyújtanak segítséget az RMS SDK használatának a megismeréséhez. A minták kitérnek a Microsoft védett fájlformátumának, az egyéni védett fájlformátumok és az egyéni felhasználói felületi vezérlők használatára.|
 | [Felhasználói felületi kódtár és mintaalkalmazás](https://github.com/AzureAD/rms-sdk-ui-for-ios) |iOS|[RMS SDK 4.2](active-directory-rights-management-services-multi-platform-thin-client-sdk-portal.md) és a 4.x-es SDK későbbi verziói|**Az iOS rendszer számára készült felhasználói felületi kódtárak és mintaalkalmazás** a GitHub webhelyen, amelynek a segítségével gyorsan végrehajthatja az első lépéseket, és újra felhasználhatja szabványos felhasználói felületünket az alkalmazásokban.|
 | [Felhasználói felületi kódtár és mintaalkalmazás](https://github.com/AzureAD/rms-sdk-ui-for-android) |Android|[RMS SDK 4.2](active-directory-rights-management-services-multi-platform-thin-client-sdk-portal.md) és a 4.x-es SDK későbbi verziói|**Az Android rendszer számára készült felhasználói felületi kódtárak és mintaalkalmazás** a GitHub webhelyen, amelynek a segítségével gyorsan végrehajthatja az első lépéseket, és újra felhasználhatja szabványos felhasználói felületünket az alkalmazásokban.|
 | [Android használati forgatókönyvek](https://msdn.microsoft.com/en-us/library/dn758246(v=vs.85).aspx) |Android|[RMS SDK 4.2](active-directory-rights-management-services-multi-platform-thin-client-sdk-portal.md) és a 4.x-es SDK későbbi verziói|A **Java-kódminták** fontos fejlesztési forgatókönyvek bemutatásával nyújtanak segítséget az RMS SDK használatának a megismeréséhez. A minták kitérnek a Microsoft védett fájlformátumának, az egyéni védett fájlformátumok és az egyéni felhasználói felületi vezérlők használatára.|
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

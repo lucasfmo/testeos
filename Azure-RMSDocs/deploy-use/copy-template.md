@@ -12,6 +12,7 @@ ms.technology: techgroup-identity
 ms.assetid: f329ce49-e044-4c11-821d-5496d83c1bb3
 ms.reviewer: esaggese
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: 332e102cb27854314b93a71bfeae82a95c9a7812
 ms.openlocfilehash: 87d712bbda11a4cfdfb2f3b3e9a549bca977afd6
 
@@ -36,6 +37,6 @@ Egyéni és az alapértelmezett sablonokról készíthet másolatot. Az ajánlot
 [Egyéni sablonok konfigurálása az Azure Rights Management szolgáltatáshoz](configure-custom-templates.md)
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO5-->
 
 

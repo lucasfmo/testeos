@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: A fejlesztői környezet beállítása | Azure RMS
-description: A cikkből megtudhatja, hogyan állíthatja be a fejlesztési környezetet az AD RMS SDK API-khoz, az adott operációs rendszernek megfelelően.
-keywords:
+title: "A fejlesztői környezet beállítása | Azure RMS"
+description: "A cikkből megtudhatja, hogyan állíthatja be a fejlesztési környezetet az AD RMS SDK API-khoz, az adott operációs rendszernek megfelelően."
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,15 +10,13 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 296FC4C0-99C6-4997-AD97-5CEE01221B1A
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 6b5bc9612ac17a2d6905200383d9b8df4c504efe
+ms.openlocfilehash: 4bb013f420b02a10e306d92624683c48ceb2582f
+
 
 ---
 
@@ -43,6 +39,7 @@ A következő témakörökben láthatja, hogyan állíthatja be a fejlesztési k
  
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 
