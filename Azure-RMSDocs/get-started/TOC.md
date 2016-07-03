@@ -25,10 +25,10 @@
 ### [Munkahelyi mappák konfigurálása az állandó védelemhez](scenario-work-folders.md)
 # [Tervezés és kialakítás](/rights-management/plan-design/deployment-roadmap)
 # [A szolgáltatás telepítése és használata](/rights-management/deploy-use/activate-service)
-# [Az ügyfél telepítése és használata](/rights-management/rms-client/use-client)
+# [Az ügyfélprogram telepítése és használata](/rights-management/rms-client/use-client)
 # [Alkalmazások fejlesztése és testreszabása](/rights-management/develop/developers-guide)
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO4-->
 
 

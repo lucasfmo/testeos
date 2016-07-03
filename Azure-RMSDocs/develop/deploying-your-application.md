@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Az alkalmazás központi telepítése | Azure RMS
-description: Ez a témakör ismerteti a tartalomvédelemmel kompatibilis alkalmazás üzembe helyezési lehetőségeit, és részletesen le is írja a folyamatokat.
-keywords:
+title: "Az alkalmazás központi telepítése | Azure RMS"
+description: "Ez a témakör ismerteti a tartalomvédelemmel kompatibilis alkalmazás üzembe helyezési lehetőségeit, és részletesen le is írja a folyamatokat."
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,15 +10,13 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 4B785564-6839-49ED-A243-E2A6DFF88B2E
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 872bb0c20db2ef8d661d321598a2b1fe61d69316
+ms.openlocfilehash: 902721ae3e69afd144c552b8ee0a916958e80afc
+
 
 ---
 
@@ -84,7 +80,8 @@ Az RMS-ügyfél 2.1-es verziója ügyfélszámítógépeken való használatra k
 Az RMS-ügyfél 2.1-es verziója nem összetevője a Windows operációs rendszernek. Az RMS-ügyfél 2.1-es verziója választható letöltésként érhető el, amely a hozzá tartozó licencszerződés tudomásul vétele és elfogadása után ingyenesen terjeszthető a harmadik felek szoftvereivel, hogy az ügyfelek hozzáférhessenek a környezetben található RMS-kiszolgálók használata és telepítése által védett tartalmakhoz.
 
 
-> [!IMPORTANT] Az AD RMS-ügyfél 2.1-es verziója architektúrafüggő, és meg kell egyeznie a cél operációs rendszer architektúrájával.
+> [!IMPORTANT]
+> Az AD RMS-ügyfél 2.1-es verziója architektúrafüggő, és meg kell egyeznie a cél operációs rendszer architektúrájával.
 
 
 ## Az RMS-ügyfél 2.1-es verziójával kapcsolatos telepítési döntések
@@ -137,6 +134,7 @@ További információk az alkalmazás alkalmassá tételéről az RMS használat
  
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

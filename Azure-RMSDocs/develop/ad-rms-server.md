@@ -1,26 +1,22 @@
 ---
-# required metadata
-
-title: AD RMS-kiszolgáló | Azure RMS
-description: A Rights Management Services (RMS) kiszolgáló-összetevőt számos, a Microsoft Internet Information Services szolgáltatásban futó webes szolgáltatás megvalósítja.
-keywords:
+title: "AD RMS-kiszolgáló | Azure RMS"
+description: "A Rights Management Services (RMS) kiszolgáló-összetevőt számos, a Microsoft Internet Information Services szolgáltatásban futó webes szolgáltatás megvalósítja."
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 06/28/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 17B05780-B0EF-4805-8304-52DCDEB3AADB
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 56d0538243af49580f24c701ad5097b30f3059b0
+ms.openlocfilehash: 2b7c99e3adafde7140d7997364ec2643ba79a2ac
+
 
 ---
 
@@ -30,7 +26,8 @@ Ez a témakör az RMS-kiszolgáló célját és funkcióit ismerteti az Azure-ra
 
 **Azure RMS** – az Azure Rights Management szolgáltatás használatáról a következő témakörben olvasható tájékoztatás: [A szolgáltatásalkalmazás alkalmassá tétele a felhőalapú RMS használatára](how-to-use-file-api-with-aadrm-cloud.md).
 
-> [!IMPORTANT] Azt javasoljuk, hogy az alkalmazás fejlesztését és tesztelését az Azure RMS-sel végezze.
+> [!IMPORTANT] 
+> Azt javasoljuk, hogy az alkalmazás fejlesztését és tesztelését az Azure RMS-sel végezze.
 
 **Windows Server** – Helyszíni kiszolgálók esetében szerepkörként hozzáadva telepítheti és konfigurálhatja az RMS szolgáltatást a Windows Server 2008-tól kezdődően. Az ennél régebbi operációs rendszerekre való telepítéséhez töltse le a szolgáltatást a Microsoft letöltőközpontjából: [Microsoft Windows tartalomvédelmi szolgáltatások Service Pack 2 szervizcsomaggal](http://www.microsoft.com/download/en/details.aspx?id=4909).
 
@@ -60,6 +57,7 @@ A számos telepített webes szolgáltatás közül az alábbiak fontosak a Windo
  
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

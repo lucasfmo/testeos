@@ -42,6 +42,6 @@ Miután elküldte a védett dokumentumot, megkérheti a címzetteket, hogy várj
 |A **védett megosztás** párbeszédpanelen megjelenő beállítások   →|[A Rights Management megosztóalkalmazás párbeszédpanel-beállításai](../rms-client/sharing-app-dialog-box.md)|
 
 
-<!--HONumber=Apr16_HO3-->
+<!--HONumber=Jun16_HO4-->
 
 

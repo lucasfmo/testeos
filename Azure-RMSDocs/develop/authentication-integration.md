@@ -1,26 +1,22 @@
 ---
-# required metadata
-
-title: Az alkalmazás regisztrálása és RMS-kompatibilissé tétele az Azure AD-vel | Azure RMS
-description: Ismerteti az RMS-kompatibilis alkalmazások felhasználóhitelesítésének alapjait.
-keywords:
+title: "Az alkalmazás regisztrálása és RMS-kompatibilissé tétele az Azure AD-vel | Azure RMS"
+description: "Ismerteti az RMS-kompatibilis alkalmazások felhasználóhitelesítésének alapjait."
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
-ms.date: 06/15/2016
+ms.date: 06/28/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 200D9B23-F35D-4165-9AC4-C482A5CE1D28
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 56d0538243af49580f24c701ad5097b30f3059b0
+ms.openlocfilehash: 34a82f31b5da46a59627ff559deb46c8445fcdf2
+
 
 ---
 
@@ -53,7 +49,8 @@ Az alábbi források mindegyike tartalmaz útmutatást a környezet beállítás
 -   [Microsoft Azure Active Directory Authentication Library (ADAL) dotnethez](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet)
 -   Linux SDK esetében az ADAL könyvtár az SDK-forrással együtt van csomagolva, és elérhető a [GitHubon](https://github.com/AzureAD/rms-sdk-for-cpp).
 
->[!NOTE]  Javasoljuk valamelyik ADAL használatát, de használhat más hitelesítési könyvtárat is.
+>[!NOTE]  
+> Javasoljuk valamelyik ADAL használatát, de használhat más hitelesítési könyvtárat is.
 
 ### Hitelesítési paraméterek
 
@@ -66,13 +63,15 @@ Az ADAL-nak több adatra is szüksége van a felhasználó sikeres hitelesítés
 És az Azure-portál előző regisztrációs lépésében található.
 - **Átirányítási URI** – megadja a hitelesítési könyvtárat egy URI-céllal a hitelesítési kódhoz. Az iOS és az Android rendszerekhez különleges formátumok szükségesek. Ezekről további információt az ADAL megfelelő Github-adattárainak README fájljaiban találhat. Ez az érték az Azure-portál előző regisztrációs lépésében található.
 
->[!NOTE] A **hatókör** jelenleg nincs használatban, de később még lehet, és ezért a rendszer fenntartja a jövőbeli használatra.
+>[!NOTE] 
+> A **hatókör** jelenleg nincs használatban, de később még lehet, és ezért a rendszer fenntartja a jövőbeli használatra.
 
     Android: `msauth://packagename/Base64UrlencodedSignature`
 
     iOS: `<app-scheme>://<bundle-id>`
 
->[!NOTE] Ha az alkalmazása nem követi ezeket az irányelveket, az Azure RMS- és az Azure AD-munkafolyamatok valószínűleg nem fognak működni, és a Microsoft.com nem támogatja azokat. Emellett a Rights Management Licencszerződés (RMLA) megsértése következhet be, ha érvénytelen ügyfélazonosítót használ egy éles alkalmazásban.
+>[!NOTE] 
+> Ha az alkalmazása nem követi ezeket az irányelveket, az Azure RMS- és az Azure AD-munkafolyamatok valószínűleg nem fognak működni, és a Microsoft.com nem támogatja azokat. Emellett a Rights Management Licencszerződés (RMLA) megsértése következhet be, ha érvénytelen ügyfélazonosítót használ egy éles alkalmazásban.
 
 ### A hitelesítés-visszahívás megvalósításának bemutatása
 **Hitelesítésikód-példák** – Ez az SDK példakóddal mutatja be a hitelesítés-visszahívások használatát. Az Ön kényelme érdekében ezek a példakódok itt is és az alább hivatkozott témakörökben is szerepelnek.
@@ -271,6 +270,7 @@ Az ADAL-nak több adatra is szüksége van a felhasználó sikeres hitelesítés
  
 
 
-<!--HONumber=Jun16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 
