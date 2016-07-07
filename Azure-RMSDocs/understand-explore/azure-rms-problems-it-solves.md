@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Milyen problémákat képes megoldani az Azure RMS? | Azure RMS
-description:
-keywords:
+title: "Milyen problémákat képes megoldani az Azure RMS? | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 06/02/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: b551c62d-5ac6-4359-85b3-90693e77b37f
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: e84de6afd80196d4237499718af45c64788c408d
+ms.openlocfilehash: 2863c98390b8fda528c4fe3a1b2ebce3510763b4
+
 
 ---
 
@@ -46,7 +40,8 @@ A következő táblázat segítségével azonosíthatja az üzleti követelmény
 |Lehetőség egyszerű és rugalmas házirendek létrehozására|√ A [testre szabott jogmegadási sablonok](../deploy-use/configure-custom-templates.md) gyors és egyszerű megoldást kínálnak a rendszergazdák számára a házirendek alkalmazásához, valamint a felhasználók számára, hogy a megfelelő szintű védelmet alkalmazzák minden dokumentumra, és korlátozzák a szervezeten belüli személyek hozzáférését.<br /><br />Ha például egy egész vállalatot érintő dokumentumot mindenkivel meg szeretne osztani, alkalmazhat egy írásvédettséget biztosító házirendet az összes belső munkatársra. Ezután, egy bizalmasabb dokumentumnál (pl. egy pénzügyi jelentésnél) korlátozhatja a hozzáférést csak a vezetőségre.|
 |Széleskörű alkalmazástámogatás|√ Az Azure RMS szoros integrációt biztosít a Microsoft Office-alkalmazásokkal és -szolgáltatásokkal, és kiterjeszti egyéb alkalmazásokra a támogatást az RMS megosztóalkalmazás használatával.<br /><br />√ A [Microsoft Rights Management SDK](../develop/developers-guide.md#software-development-kits) API-kat biztosít a belső fejlesztők és a szoftverforgalmazók számára az Azure RMS-t támogató egyéni alkalmazások megírásához.<br /><br />További információ: [Az RMS API-kat támogató egyéb alkalmazások](api-support.md).|
 |Az informatikai részlegnek az ellenőrzése alatt kell tartania az adatokat|√ A szervezetek dönthetnek úgy, hogy a saját bérlőkulcsukat kezelik, a „[saját kulcs használata](../plan-design/plan-implement-tenant-key.md)” (BYOK) megoldást használják, és a saját bérlőkulcsukat hardveres biztonsági modulokban (HSM) tárolják.<br /><br />√ Támogatott a naplózás és a [használatnaplózás](../deploy-use/log-analyze-usage.md), így üzleti elemzéseket készíthet, figyelheti a visszaéléseket, és elvégezhet (ha adatszivárgás történt) törvényszéki elemzéseket is.<br /><br />√ A [felügyelői funkció](../deploy-use/configure-super-users.md) használatával elérhető delegált hozzáférés biztosítja, hogy az informatikai részleg mindig hozzáférhessen a védett tartalomhoz, meg ha a dokumentumot egy, azóta a szervezetből kilépő alkalmazott is látta el védelemmel. A társközi titkosítási megoldások ezzel szemben kockázatot jelentenek a vállalati adatok elérése felett gyakorolt irányítás elvesztése szempontjából.<br /><br />√ A helyszíni Active Directory-fiókok egy közös identitásának támogatásához szinkronizálhatja [csak az Azure RMS-hez szükséges címtárattribútumokat](/active-directory/active-directory-aadconnectsync-attributes-synchronized#azure-rms) egy [címtár-szinkronizálási eszköz](/active-directory/active-directory-hybrid-identity-design-considerations-tools-comparison), például az Azure AD Connect használatával.<br /><br />√ Az AD FS segítségével engedélyezheti az egyszeri bejelentkezést a jelszavak felhőbe való replikálása nélkül.<br /><br />√ A szervezeteknek mindig lehetőségük nyílik abbahagyni az Azure RMS használatát anélkül, hogy elveszítenék a korábban Azure RMS-sel védett tartalmat. Információk a leszerelési lehetőségekről: [Az Azure Rights Management leszerelése és deaktiválása](../deploy-use/decommission-deactivate.md). Továbbá azok a szervezetek, ahol telepítve vannak az Active Directory tartalomvédelmi szolgáltatások (AD RMS) a korábban AD RMS által védett adatokhoz való hozzáférés elvesztése nélkül [válthatnak Azure RMS-re](../plan-design/migrate-from-ad-rms-to-azure-rms.md).|
-> [!TIP] Ha ismeri a Rights Management helyszíni verzióját, az Active Directory tartalomvédelmi szolgáltatásokat (AD RMS), érdekelheti az [Azure Rights Management és az AD RMS összehasonlító táblázata](compare-azure-rms-ad-rms.md) is.
+> [!TIP]
+> Ha ismeri a Rights Management helyszíni verzióját, az Active Directory Rights Management Services-t (AD RMS), érdekelheti az [Azure Rights Management és az AD RMS összehasonlító táblázata](compare-azure-rms-ad-rms.md) is.
 
 ## Biztonsági, megfelelőségi és szabályozási követelmények
 Az Azure RMS a következő biztonsági, megfelelőségi és szabályozási követelményeket támogatja:
@@ -77,6 +72,7 @@ Az Azure RMS működését – akár rendszergazdák, akár a felhasználók sze
 
 Az Azure RMS működésével kapcsolatos további műszaki információkat [Az Azure RMS működése](how-does-it-work.md) című cikkben találja. 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

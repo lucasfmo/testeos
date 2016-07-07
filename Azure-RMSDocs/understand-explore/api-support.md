@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Egyéb, az RMS API-kat támogató alkalmazások – Telepítés és konfigurálás | Azure RMS
-description:
-keywords:
+title: "Egyéb, az RMS API-kat támogató alkalmazások – Telepítés és konfigurálás | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: c50a8cbb-d12f-4a0e-bc29-74c463e6ac3e
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
+ms.openlocfilehash: bb69cda94bf611712eb5b4a74d9ec25d1749da3a
+
 
 ---
 
@@ -37,8 +31,9 @@ Számos szoftverszállító kínál hasonló adatvédelmi megoldásokat biztosí
 
 ## További lépések
 
-Információk az egyéb alkalmazások és szolgáltatások Azure Rights Management-támogatásáról: [Hogyan támogatják a különböző alkalmazások az Azure Rights Managementet?](applications-support.md).
+Információk az egyéb alkalmazások és szolgáltatások Azure Rights Management-támogatásáról: [Hogyan támogatják a különböző alkalmazások az Azure Rights Managementet?](applications-support.md)
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

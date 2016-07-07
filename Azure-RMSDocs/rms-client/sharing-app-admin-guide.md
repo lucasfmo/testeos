@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Rendszergazdai útmutató a Rights Management megosztóalkalmazáshoz | Azure RMS
-description:
-keywords:
+title: "Rendszergazdai útmutató a Rights Management megosztóalkalmazáshoz | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,11 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: d9992e30-f3d1-48d5-aedc-4e721f7d7c25
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: f7dd88d90357c99c69fe4fdde67c1544595e02f8
+ms.openlocfilehash: e67d0ab5537aa7444940a5e7ce3a653cc6e66993
+
 
 ---
 
@@ -33,7 +26,7 @@ ms.suite: ems
 
 Ha a Microsoft Rights Management megosztóalkalmazás vállalati hálózaton való telepítésért felelős, vagy ha több technikai információt szeretne elérni, mint amennyi a [Rights Management megosztóalkalmazás felhasználói útmutatója](sharing-app-user-guide.md) vagy [A Microsoft Rights Management megosztóalkalmazás Windowsra kiadott verziójával kapcsolatos gyakori kérdések](http://go.microsoft.com/fwlink/?LinkId=303971) szakaszban található, használja az alábbi információkat.
 
-Az RMS megosztóalkalmazás legjobban az Azure RMS szolgáltatással működik, mert ez az üzembe helyezési konfiguráció támogatja a védett mellékletek küldését más szervezethez tartozó felhasználók számára, valamint egyéb lehetőségeket is, mint az e-mail értesítések, a dokumentumkövetés és a visszahívás.  Bizonyos korlátozások mellett azonban az alkalmazás működik a helyszíni verzióval, az AD RMS-sel is. Az Azure RMS és az AD RMS által támogatott szolgáltatások átfogó összehasonlításával kapcsolatban lásd: [Az Azure Rights Management és az AD RMS összehasonlítása](../understand-explore/compare-azure-rms-ad-rms.md). Ha az AD RMS-ről Azure RMS-re szeretne áttelepítést végezni, olvassa el a következőt: [Áttelepítés AD RMS-ről Azure Rights Managementre](../plan-design/migrate-from-ad-rms-to-azure-rms.md).
+Az RMS megosztóalkalmazás legjobban az Azure RMS szolgáltatással működik, mert ez az üzembe helyezési konfiguráció támogatja a védett mellékletek küldését más szervezethez tartozó felhasználók számára, valamint egyéb lehetőségeket is, mint az e-mail értesítések, a dokumentumkövetés és a visszahívás.  Bizonyos korlátozások mellett azonban az alkalmazás működik a helyszíni verzióval, az AD RMS-sel is. Az Azure RMS és az AD RMS által támogatott szolgáltatások átfogó összehasonlításával kapcsolatban lásd: [Az Azure Rights Management és az AD RMS összehasonlítása](../understand-explore/compare-azure-rms-ad-rms.md). Ha az AD RMS-ről szeretne áttérni az Azure RMS-re, lásd: [Áttelepítés AD RMS-ről Azure Rights Managementre](../plan-design/migrate-from-ad-rms-to-azure-rms.md).
 
 ## A Microsoft Rights Management megosztóalkalmazás automatikus központi telepítése
 Az RMS-megosztó alkalmazás Windows verziója támogatja a parancsfájlból történő telepítést, épp ezért kiválóan alkalmas a vállalati központi telepítéshez.
@@ -42,7 +35,7 @@ A telepítés egyetlen előfeltétele, hogy a számítógépen legalább a Windo
 
 ### Az RMS-megosztó alkalmazás letöltése automatikus központi telepítéshez
 
-1.  Lépjen a Microsoft letöltőközpont [Microsoft Rights Management megosztóalkalmazás Windows rendszerhez](http://www.microsoft.com/download/details.aspx?id=40857) oldalára, és kattintson a **Letöltés** lehetőségre.
+1.  Lépjen a Microsoft letöltőközpont [Microsoft Rights Management megosztóalkalmazás Windows rendszerhez](http://www.microsoft.com/download/details.aspx?id=40857) weblapjára, és kattintson a **Letöltés** lehetőségre.
 
 2.  Válassza ki és töltse le a szükséges fájlokat. Két ügyféltelepítő csomag létezik: egy a 64 bites Windowshoz (Microsoft Rights Management sharing application x64.zip), és egy másik a 32 bites Windowshoz (Microsoft Rights Management sharing application x86.zip).
 
@@ -79,7 +72,7 @@ Az alábbi eljárásokkal a következő központi telepítési forgatókönyvek 
 > [!NOTE]
 > Ha vállalata az AD RMS alkalmazást használja e telepítési eljárások használata esetén, a felhasználók tudnak védett tartalmakat fogadni olyan vállalatoktól, amelyek az Azure RMS alkalmazást használják, de nem tudnak Azure RMS alkalmazást használó vállalatnál dolgozó felhasználónak védett tartalmat küldeni. Ha viszont vállalata az Azure RMS alkalmazást használja, a felhasználók küldeni is tudnak védett tartalmakat más vállalatoknak, és fogadni is tudnak ilyeneket azoktól.
 
-Az egyes telepítési eljárások befejezéséhez újra kell indítania a számítógépet. A **shutdown /i** paranccsal például automatikus újraindítást kezdeményezhet..
+Az egyes telepítési eljárások befejezéséhez újra kell indítania a számítógépet. A **shutdown /i** paranccsal például automatikus újraindítást kezdeményezhet.
 
 ### Az RMS megosztóalkalmazás üzembe helyezése Office 2016 vagy Office 2013 és Azure RMS vagy Active Directory RMS használata esetén
 
@@ -97,7 +90,7 @@ A sikeresség ellenőrzéséhez tekintse meg jelen cikk [A telepítés sikeress�
 
     1.  Jelentkezzen be valamelyik számítógépre helyi rendszergazdajelszóval.
 
-    2.  Az adott számítógépen [töltse le és telepítse a Microsoft Online Services bejelentkezési segédet](http://www.microsoft.com/download/details.aspx?id=28177).
+    2.  Az adott számítógépen [töltse le és telepítse a Microsoft Online Services – Bejelentkezési segéd](http://www.microsoft.com/download/details.aspx?id=28177) eszközt.
 
     3.  Futtassa az alábbi parancsot a tanúsítványszolgáltatói URL megjelenítéséhez a képernyőn, amelyet másolhat és menthet a következő lépéshez:
 
@@ -264,7 +257,7 @@ A telepítési naplófájlokban ellenőrizheti egy telepítés sikerességét.
 
     -   [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\14.0\Common\DRM]
 
-        DefaultUser="&lt;default_user&gt;"
+        DefaultUser="&lt;alapértelmezett_felhasználó&gt;"
 
 ### A telepítés sikerességének ellenőrzése csak az RMS megosztóalkalmazás és az Office-bővítmény telepítésekor
 
@@ -324,7 +317,7 @@ Alapértelmezés szerint a felhasználók értesítést kapnak, ha az RMS megosz
 
 1.  Keresse meg a **HKEY_LOCAL_MACHINE\Software\Microsoft\MSIPC** kulcsot, és hozzon létre egy új, **RmsSharingApp** nevű kulcsot, ha még nincs ilyen.
 
-2.  Jelölje ki az **RmsSharingApp** kulcsot, hozzon létre egy új **AllowUpdatePrompt** DWORD-értéket, és rendelje hozzá a **0** értéket.
+2.  Jelölje ki az **RmsSharingApp** kulcsot, hozzon létre egy új **AllowUpdatePrompt** DWORD-értéket, és adjon meg **0** értéket.
 
 Mivel az RMS megosztóalkalmazást a WSUS nem támogatja, az alábbi eljárással tesztelheti az RMS megosztóalkalmazás új verzióit, mielőtt telepítené őket az összes felhasználó gépére:
 
@@ -335,9 +328,9 @@ Mivel az RMS megosztóalkalmazást a WSUS nem támogatja, az alábbi eljárássa
 3.  A tesztelés befejeztével, miután minden problémát elhárítottak, telepítse a legfrissebb verziót minden felhasználó számítógépére a jelen útmutatóban szereplő, az automatikus telepítésre vonatkozó utasításokat használva.
 
 ## Csak Azure RMS esetében: A dokumentumkövetés konfigurálása
-Ha [dokumentumkövetést támogató előfizetéssel](https://technet.microsoft.com/en-us/dn858608) rendelkezik, a dokumentumkövetési webhely alapértelmezés szerint a szervezete összes felhasználója számára engedélyezve van.  A dokumentumkövetés olyan információkat mutat meg, mint a felhasználók által megosztott védett dokumentumokhoz hozzáférni próbálók e-mail-címe és helye. Ha adatvédelmi előírások miatt az ilyen információk megjelenítése a szervezeténél nem engedélyezett, a [Disable-AadrmDocumentTrackingFeature](http://go.microsoft.com/fwlink/?LinkId=623032) parancsmaggal letilthatja a dokumentumkövetés elérését. Az [Enable-AadrmDocumentTrackingFeature](http://go.microsoft.com/fwlink/?LinkId=623037) parancsmaggal bármikor engedélyezheti újra a webhelyhez való hozzáférést, a [Get-AadrmDocumentTrackingFeature](http://go.microsoft.com/fwlink/?LinkId=623037) segítségével pedig ellenőrizheti, hogy jelenleg engedélyezve van-e a hozzáférés.
+Ha [dokumentumkövetést támogató előfizetéssel](https://technet.microsoft.com/dn858608) rendelkezik, a dokumentumkövetési webhely alapértelmezés szerint a szervezete összes felhasználója számára engedélyezve van.  A dokumentumkövetés olyan információkat mutat meg, mint a felhasználók által megosztott védett dokumentumokhoz hozzáférni próbálók e-mail-címe és helye. Ha adatvédelmi előírások miatt az ilyen információk megjelenítése a szervezeténél nem engedélyezett, a [Disable-AadrmDocumentTrackingFeature](http://go.microsoft.com/fwlink/?LinkId=623032) parancsmaggal letilthatja a dokumentumkövetés elérését. Az [Enable-AadrmDocumentTrackingFeature](http://go.microsoft.com/fwlink/?LinkId=623037) parancsmaggal bármikor engedélyezheti újra a webhelyhez való hozzáférést, a [Get-AadrmDocumentTrackingFeature](http://go.microsoft.com/fwlink/?LinkId=623037) segítségével pedig ellenőrizheti, hogy engedélyezve van-e a hozzáférés.
 
-Ezen parancsmagok futtatásához legalább **2.3.0.0** verziójú Azure RMS Windows PowerShell-modulra van szükség.  A telepítési utasításokért lásd: [Installing Windows PowerShell for Azure Rights Management](../deploy-use/install-powershell.md) (Az Azure Rights Managementhez készült Windows PowerShell telepítése)..
+Ezen parancsmagok futtatásához legalább **2.3.0.0** verziójú Azure RMS Windows PowerShell-modulra van szükség.  A telepítési utasításokat [Az Azure Rights Managementhez készült Windows PowerShell telepítése](../deploy-use/install-powershell.md) című cikk tartalmazza.
 
 > [!TIP]
 > Ha már korábban letöltötte és telepítette a modult, ellenőrizze a verziószámot a következő futtatásával: `(Get-Module aadrm –ListAvailable).Version`
@@ -368,10 +361,11 @@ Ha nem végzi el a módosítást a beállításjegyzékben, lehet, hogy a felhas
 
 
 ## További lépések
-A védelmi szintek (natív és általános) közötti különbségeket, a támogatott fájltípusokat és fájlnévkiterjesztéseket, valamint az alapértelmezett védelmi szint módosításának módját is ismertető további technikai információk: [A Rights Management megosztóalkalmazás technikai áttekintése](sharing-app-admin-guide-technical.md).
+A védelmi szintek (natív és általános) közötti különbségeket, a támogatott fájltípusokat és fájlnévkiterjesztéseket, valamint az alapértelmezett védelmi szint módosításának módját is ismertető további technikai információkat [A Rights Management megosztóalkalmazás technikai áttekintése](sharing-app-admin-guide-technical.md) című cikkben találja.
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

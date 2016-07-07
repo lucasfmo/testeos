@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Az Azure Rights Management-összekötő központi telepítése | Azure RMS
-description:
-keywords:
+title: "Az Azure Rights Management-összekötő központi telepítése | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 05/20/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 90e7e33f-9ecc-497b-89c5-09205ffc5066
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: e31656e417a0861d33deb2436d2e4b596a7512a7
+ms.openlocfilehash: 6b9b3b039ba2de0de174a134768afd763d26b5dd
+
 
 ---
 
@@ -31,7 +25,8 @@ ms.suite: ems
 
 Az alábbi információkból többet megtudhat az Azure Rights Management- (RMS-) összekötőről, és hogy az miként használható adatvédelem biztosítására Microsoft Exchange Servert, Microsoft SharePoint Servert vagy Windows Servert és a Fájlkiszolgálói erőforrás-kezelő Fájlbesorolási infrastruktúra (FCI) képességét használó fájlkiszolgálókat használó meglévő helyszíni telepítésekkel.
 
-> [!TIP] Képernyőképeket tartalmazó magas szintű példáért olvassa el [Az Azure RMS működés közben](../understand-explore/what-admins-users-see.md) című cikk [Fájlok automatikus védelme a Windows Server rendszert és a Fájlbesorolási infrastruktúrát futtató fájlkiszolgálókon](../understand-explore/what-admins-users-see.md#automatically-protecting-files-on-file-servers-running-windows-server-and-file-classification-infrastructure) című szakaszát.
+> [!TIP]
+> Képernyőképeket tartalmazó magas szintű példáért olvassa el [Az Azure RMS működés közben](../understand-explore/what-admins-users-see.md) című cikk [Fájlok automatikus védelme a Windows Server rendszert és a Fájlbesorolási infrastruktúrát futtató fájlkiszolgálókon](../understand-explore/what-admins-users-see.md#automatically-protecting-files-on-file-servers-running-windows-server-and-file-classification-infrastructure) szakaszát.
 
 ## A Microsoft Rights Management-összekötő áttekintése
 A Microsoft Rights Management- (RMS-) összekötő segítségével gyorsan engedélyezheti a helyszíni kiszolgálók számára a tartalomvédelmi szolgáltatások (IRM) használatát a felhőalapú Microsoft Rights Management szolgáltatással (Azure RMS). Ezzel a funkcióval az informatikai részleg és a felhasználók egyszerűen védhetik a dokumentumokat és a képeket a szervezeten belül és kívül is, és nem kell további infrastruktúrát üzembe helyezniük, vagy megbízhatósági kapcsolatot létesíteniük más szervezetekkel. Akkor is használhatja ezt az összekötőt, ha a felhasználói egy része online szolgáltatásokhoz csatlakozik egy hibrid forgatókönyvben. Vegyük például, hogy a felhasználók egy részének postafiókja Exchange Online-t, egy másik részének postafiókja pedig Exchange Servert használ. Az RMS-összekötő telepítése után az összes felhasználó védheti és használhatja az e-maileket és a mellékleteket az Azure RMS segítségével, és az adatvédelem hibátlanul működik a két telepítési konfiguráció között.
@@ -44,7 +39,8 @@ Ha saját bérlőkulcsa van az Azure RMS-hez („saját kulcs használata” vag
 
 Az RMS-összekötő az alábbi helyszíni kiszolgálókat támogatja: az Exchange Server, a SharePoint Server, valamint a Windows Servert futtató és egy mappa Office-dokumentumainak besorolásához és a vonatkozó házirendek alkalmazásához fájlbesorolási infrastruktúrát (FCI) használó fájlkiszolgálók. Ha az összes fájlt a fájlbesorolás segítségével szeretné védeni, ne használja az RMS-összekötőt. Helyette [tartalomvédelmi parancsmagokat](https://msdn.microsoft.com/library/azure/mt433195.aspx) használjon.
 
-> [!NOTE]Ezen helyszíni kiszolgálók támogatott verzióiért lásd: [Az Azure RMS-t támogató helyszíni kiszolgálók](..\get-started\requirements-servers.md).
+> [!NOTE]
+> Ezen helyszíni kiszolgálók támogatott verzióiért lásd: [Az Azure RMS-t támogató helyszíni kiszolgálók](..\get-started\requirements-servers.md).
 
 Az RMS-összekötő tervezésekor, telepítésekor és konfigurálásakor vegye figyelembe a következőkben leírtakat. A folyamat befejezése után el kell végeznie a telepítés utáni konfigurálást, hogy a kiszolgálói használhassák az összekötőt.
 
@@ -87,6 +83,7 @@ Az RMS-összekötő telepítése előtt ellenőrizze, hogy az alábbi követelm�
 
 Olvassa el a következőt: [Az Azure Rights Management-összekötő telepítése és konfigurálása](install-configure-rms-connector.md).
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

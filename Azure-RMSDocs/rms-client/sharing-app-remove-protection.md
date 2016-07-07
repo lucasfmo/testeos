@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Fájl védelmének eltávolítása a Rights Management megosztóalkalmazással | Azure RMS
-description:
-keywords:
+title: "Fájl védelmének eltávolítása a Rights Management megosztóalkalmazással | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 05/09/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: da95b938-eaad-4c83-a21e-ff1d4872aae4
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: c611fa8a846612fed238e59e5077be67f6f9531a
+ms.openlocfilehash: 78ceb74a3dd8492ac5c754eea179525cae819fd0
+
 
 ---
 
@@ -42,7 +36,7 @@ Egy olyan fájl védelmének eltávolításához (vagyis egy fájl védelmének 
 
     Előfordulhat, hogy az alkalmazás kéri a hitelesítő adatok megadását.
 
-Megjegyzés: Ha nem látja ezeket a beállítási lehetőségeket, akkor valószínű, hogy az RMS megosztóalkalmazás nincs telepítve a számítógépre, nem a legújabb változata van telepítve, vagy a számítógépet újra kell indítani a telepítés befejezéséhez. További információ a megosztóalkalmazás telepítésével kapcsolatban: [Download and install the Rights Management sharing application](install-sharing-app.md) (A Rights Management megosztóalkalmazás letöltése és telepítése).
+Megjegyzés: Ha nem látja ezeket a beállítási lehetőségeket, akkor valószínű, hogy az RMS megosztóalkalmazás nincs telepítve a számítógépre, nem a legújabb változata van telepítve, vagy a számítógépet újra kell indítani a telepítés befejezéséhez. További információ a megosztóalkalmazás telepítésével kapcsolatban: [A Rights Management megosztóalkalmazás letöltése és telepítése](install-sharing-app.md).
 
 A rendszer törli az eredeti védett fájlt (például a Minta.ptxt fájlt), és lecseréli egy ugyanolyan nevű, de nem védett fájlkiterjesztésű fájllal (például a Minta.txt fájllal).
 
@@ -57,6 +51,7 @@ A Rights Management megosztóalkalmazás használatát szemléltető egyéb pél
 [A Rights Management megosztóalkalmazás felhasználói útmutatója](sharing-app-user-guide.md)
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: RMS-ügyfél üzembe helyezésével kapcsolatos megjegyzések | Azure RMS
-description:
-keywords:
+title: "RMS-ügyfél üzembe helyezésével kapcsolatos megjegyzések | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 05/13/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 03cc8c6f-3b63-4794-8d92-a5df4cdf598f
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 2bd8aba91b9b65777c2319baea848e8313cbccda
+ms.openlocfilehash: ffddda9a144b23b64b54df4fe4d25ec62600599d
+
 
 ---
 
@@ -42,7 +36,8 @@ Az RMS-ügyfél szabadon terjeszthető és mellékelhető más alkalmazásokhoz 
 ## Az RMS-ügyfél telepítése
 Az RMS-ügyfelet egy **setup_msipc_***<arch>***.exe** nevű végrehajtható telepítőfájl tartalmazza, ahol a *<arch>* értéke **x86** (32 bites ügyfélszámítógépek esetén) vagy **x64** (64 bites ügyfélszámítógépek esetén). A 64 bites (x64) telepítőcsomag egyaránt telepít egy 32 bites futtatási környezetű végrehajtható fájt a 64 bites operációs rendszeren futó 32 bites alkalmazásokkal való kompatibilitás érdekében, valamint egy 64 bites futtatási környezetű végrehajtható fájlt a natív 64 bites alkalmazások támogatásához. A 32 bites (x86) telepítő nem fog futni egy 64 bites Windows telepítés alatt.
 
-> [!NOTE]Az RMS-ügyfél telepítéséhez emelt szintű jogosultságok szükségesek, például a helyi számítógépen a Rendszergazdák csoport tagjának kell lennie.
+> [!NOTE]
+> Az RMS-ügyfél telepítéséhez emelt szintű jogosultságok szükségesek, például a helyi számítógépen a Rendszergazdák csoport tagjának kell lennie.
 
 Az RMS-ügyfelet az alábbi módokon telepítheti:
 
@@ -192,7 +187,8 @@ Az SCP használatának alternatívájaként, illetve létező SCP hiányában az
 
 2.  A Beállításszerkesztőben keresse meg a következőt: **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC**.
 
-    > [!IMPORTANT] Ha 32 bites alkalmazást futtat egy 64 bites számítógépen, az elérési út a következő lesz: **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\MSIPC**
+    > [!IMPORTANT]
+    > Ha 32 bites alkalmazást futtat egy 64 bites számítógépen, az elérési út a következő lesz: **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\MSIPC**
 
 3.  A ServiceLocation alkulcs létrehozásához kattintson a jobb gombbal az **MSIPC** elemre, vigye a mutatót az **Új** elemre, kattintson a **Kulcs** lehetőségre, majd írja be a **ServiceLocation** kifejezést.
 
@@ -233,7 +229,8 @@ Bizonyos esetekben a szolgáltatás észlelése alatt szükség lehet a forgalom
 
     **Érték:** https://fabrikam.com/_wmcs/licensing
 
-    > [!NOTE]Ha a régi licencelési kiszolgáló intranetes és extranetes URL-címekkel is rendelkezik, akkor a LicensingRedirection kulcsnál mindkét URL-címhez új név-érték megfeleltetést kell beállítani.
+    > [!NOTE]
+    > Ha a régi licencelési kiszolgáló intranetes és extranetes URL-címekkel is rendelkezik, akkor a LicensingRedirection kulcsnál mindkét URL-címhez új név-érték megfeleltetést kell beállítani.
 
 5.  Ismételje meg az előző lépést az összes átirányítani kívánt kiszolgálónál.
 
@@ -241,6 +238,7 @@ Bizonyos esetekben a szolgáltatás észlelése alatt szükség lehet a forgalom
 
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: A Rights Management szolgáltatásban védetté tett fájlok megtekintése és használata | Azure RMS
-description:
-keywords:
+title: "A Rights Management szolgáltatásban védetté tett fájlok megtekintése és használata | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 05/09/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: e5fa4666-6906-405a-9e0c-2c52d4cd27c8
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: c611fa8a846612fed238e59e5077be67f6f9531a
+ms.openlocfilehash: c243ad02bdbd5bd46ba1b2a4818839df8a7deb7b
+
 
 ---
 
@@ -36,10 +30,10 @@ Ha [telepítve van a számítógépen a Rights Management (RMS) megosztóalkalma
 >
 > Ha a szervezete nem használja az Azure Rights Management (Azure RMS) vagy az AD RMS szolgáltatást, kérhet egy ingyenes fiókot, amely elfogadja a hitelesítő adatait, hogy megnyithasson RMS használatával védetté tett fájlokat.
 >
-> -   A fiók kéréséhez kattintson az [RMS egyéni felhasználók számára](http://go.microsoft.com/fwlink/?LinkId=309469) szolgáltatás igényléséhez használható hivatkozásra..
+> -   A fiók kéréséhez kattintson az [RMS egyéni felhasználók számára](http://go.microsoft.com/fwlink/?LinkId=309469) szolgáltatás igénylésére szolgáló hivatkozásra.
 >
 >     Amikor regisztrál, ne a személyes, hanem a vállalati e-mail címét adja meg. Ha azért iratkozik fel, mert egy védett mellékletet kapott e-mailben, ugyanazt az e-mail címet használja, amelyre Önnek az e-mailt küldték.
-> -   További információ: [RMS for Individuals and Azure Rights Management](../understand-explore/rms-for-individuals.md) (RMS egyéni felhasználók számára és Azure Rights Management)..
+> -   További információ: [RMS for Individuals and Azure Rights Management](../understand-explore/rms-for-individuals.md) (RMS egyéni felhasználók számára és Azure Rights Management).
 
 ## Védett fájl megtekintése
 A Fájlkezelőben vagy a mellékletet tartalmazó e-mail üzenetben kattintson duplán a védett fájlra, és amikor az alkalmazás kéri, adja meg a hitelesítő adatait.
@@ -59,7 +53,7 @@ A fájlok a védettségük típusától függően nyílnak meg, a védettségük
 
     ![E-mailben megosztott pfile fájl párbeszédpanelje az RMS-megosztóalkalmazás használatakor](../media/ADRMS_MSRMSApp_PfilePermission.png)
 
-- **A fájl *.ppdf* fájlnévkiterjesztéssel rendelkezik, vagy védelemmel ellátott szöveg- vagy képfájl (például *.ptxt* vagy *.pjpg*).)**
+- **A fájl *.ppdf* fájlnévkiterjesztéssel rendelkezik, vagy védelemmel ellátott szöveg- vagy képfájl (például *.ptxt* vagy *.pjpg*)**.
 
     A fájlt natív módon, írásvédett másolatként tették védetté.
 
@@ -89,9 +83,9 @@ Ha a védett fájl megnyitása után az elolvasásánál többet szeretne tenni 
 
     Ha például a fájl document.vsdx.pfile néven lett védetté téve, tekintse meg a fájlt, és a Fájlkezelőben mentse document.vsdx néven.
 
-    Az új fájl már nem védett. Ha védelemmel szeretné ellátni, azt manuálisan kell megtennie. Útmutatás: [Protect a file on a device (protect in-place) by using the Rights Management sharing application](sharing-app-protect-in-place.md) (Fájl védelme egy eszközön (helyi védelem) a Rights Management megosztóalkalmazással)..
+    Az új fájl már nem védett. Ha védelemmel szeretné ellátni, azt manuálisan kell megtennie. Útmutatás: [Protect a file on a device (protect in-place) by using the Rights Management sharing application](sharing-app-protect-in-place.md) (Fájl védelme egy eszközön (helyi védelem) a Rights Management megosztóalkalmazással).
 
-- **A fájl *.ppdf* fájlnévkiterjesztéssel rendelkezik, vagy védelemmel ellátott szöveg- vagy képfájl (például *.ptxt* vagy *.pjpg*).)**
+- **A fájl *.ppdf* fájlnévkiterjesztéssel rendelkezik, vagy védelemmel ellátott szöveg- vagy képfájl (például *.ptxt* vagy *.pjpg*)**.
 
     A fájlt csak megtekintheti, és ha átnevezi vagy áthelyezi, a fájl védett marad.
 
@@ -113,6 +107,7 @@ A Rights Management megosztóalkalmazás használatát szemléltető egyéb pél
 [A Rights Management megosztóalkalmazás felhasználói útmutatója](sharing-app-user-guide.md)
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

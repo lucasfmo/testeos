@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: A Rights Management megosztóalkalmazás&colon; Verziókiadások | Azure RMS
-description:
-keywords:
+title: "A Rights Management megosztóalkalmazás&colon; Verziókiadások | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 06/17/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 6751bd90-959f-4eba-91ed-6588ac983762
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: b19eadd408837ebcd77b3ae2f9520f5286fcf41f
+ms.openlocfilehash: cad9d01735d8e649875bc6bba73d29573891e1d8
+
 
 ---
 
@@ -33,8 +26,21 @@ A Rights Management csapata a javítások és új funkciók bevezetéséhez rend
 
 A 2015. január 1. előtt kiadott verziók nem szerepelnek a listán.
 
-> [!NOTE]
-> Ha kérdése van, vagy visszajelzést szeretne küldeni az RMS-megosztó alkalmazásról, küldjön egy e-mail-üzenetet az [AskIPTeam](mailto:AskIPTeam@microsoft.com?subject=RMS%20sharing%20app:%20Feedback%20or%20question) számára..
+> [!NOTE] Ha kérdése van, vagy visszajelzést szeretne küldeni az RMS-megosztó alkalmazásról, küldjön e-mailt az [AskIPTeamnek](mailto:AskIPTeam@microsoft.com?subject=RMS%20sharing%20app:%20Feedback%20or%20question).
+
+## Verzió: 1.0.2191.0.
+**Kiadás dátuma**: 2016. 06. 16.
+
+**Javítások**:
+
+- A dokumentumkövetési webhelyen már helyesen jelenik meg a követett dokumentumok megtekintéseinek száma.
+
+- A sablonok már minden nyelv esetében a felhasználók által elérhetőként jelennek meg.
+
+- Ha védett megosztást használt egy PowerPoint-fájlhoz, a rendszer a fájl helyi változatának módosításait már megfelelően menti.
+
+- Javítottunk néhány apróbb hibát és hibaüzenetet.
+
 
 ## Verzió: 1.0.2004.0
 **Kiadás dátuma**:2015.12.11.
@@ -62,7 +68,7 @@ A 2015. január 1. előtt kiadott verziók nem szerepelnek a listán.
 
 -   A többtényezős hitelesítés (MFA) támogatása az Azure RMS-ben, ami egyúttal megszünteti a Microsoft bejelentkezési segédtől való függést a modern hitelesítést használó alkalmazások esetén.
 
-    További információt a [Requirements for Azure Rights Management](../get-started/requirements-azure-rms.md) (Az Azure Rights Management követelményei) témakör [Multi-factor authentication (MFA) and Azure RMS](../get-started/requirements-azure-ad.md#multi-factor-authentication-mfa-and-azure-rms) (Többtényezős hitelesítés (MFA) és az Azure RMS) című szakaszában tekinthet meg..
+    További információt [Az Azure Rights Management követelményei](../get-started/requirements-azure-rms.md) című témakör [Többtényezős hitelesítés (MFA) és az Azure RMS](../get-started/requirements-azure-ad.md#multi-factor-authentication-mfa-and-azure-rms) című szakaszában talál.
 
 ## 1.0.1784.0 verzió
 **Kiadás dátuma**:2015.07.30.
@@ -84,7 +90,7 @@ A 2015. január 1. előtt kiadott verziók nem szerepelnek a listán.
 
 **Új funkciók**:
 
--   Dokumentumkövetés és visszavonás támogatása. További információkért lásd: [Dokumentumok nyomon követése és visszavonása az RMS-megosztó alkalmazás használata során](sharing-app-track-revoke.md).
+-   Dokumentumkövetés és visszavonás támogatása. További információ: [Dokumentumok nyomon követése és visszavonása az RMS-megosztó alkalmazás használatakor](sharing-app-track-revoke.md).
 
 -   Sablontámogatás a **Védett megosztás** lehetőség választásakor:
 
@@ -94,7 +100,7 @@ A 2015. január 1. előtt kiadott verziók nem szerepelnek a listán.
 
     -   A továbbiakban nem látható a **Felhasználás engedélyezése minden eszközön** és a **Használati korlátozások kényszerítése** lehetőség. Helyette a rendszer automatikusan az **Általános védelem** beállítást választja a fájl típusától függően.
 
-    További információ: [Dialog box options for the Rights Management sharing application](sharing-app-dialog-box.md) (A Rights Management megosztóalkalmazás párbeszédpanel-beállításai)..
+    További információ: [A Rights Management megosztóalkalmazás párbeszédpanel-beállításai](sharing-app-dialog-box.md).
 
 ## 1.0.1667.0-s verzió
 **Kiadás dátuma**:2015.01.19.
@@ -109,10 +115,11 @@ A 2015. január 1. előtt kiadott verziók nem szerepelnek a listán.
 
 **Új funkciók**:
 
--   **Több e-mail-tartomány támogatása a szervezeten belül**: Ha az AD RMS-t használja, és a szervezet felhasználói több e-mail-tartománnyal rendelkeznek, ez a frissítés lehetővé teszi a felhasználók számára olyan tartalmak felhasználását, amelyet a szervezet más tartományait használó felhasználók láttak el védelemmel. További információért tekintse meg a [Rights Management sharing application administrator guide](sharing-app-admin-guide.md) (A Rights Management megosztóalkalmazás rendszergazdai kézikönyve) [AD RMS only: Support for multiple email domains within your organization](sharing-app-admin-guide.md#ad-rms-only-support-for-multiple-email-domains-within-your-organization) (Csak AD RMS esetén: Több e-mail-tartomány támogatása a szervezeten belül) című szakaszát..
+-   **Több e-mail-tartomány támogatása a szervezeten belül**: Ha az AD RMS-t használja, és a szervezet felhasználói több e-mail-tartománnyal rendelkeznek, ez a frissítés lehetővé teszi a felhasználók számára olyan tartalmak felhasználását, amelyet a szervezet más tartományait használó felhasználók láttak el védelemmel. További információt a [Rights Management megosztóalkalmazás rendszergazdai kézikönyvének ](sharing-app-admin-guide.md) [Csak AD RMS esetén: Több e-mail-tartomány támogatása a szervezeten belül](sharing-app-admin-guide.md#ad-rms-only-support-for-multiple-email-domains-within-your-organization) című szakaszában talál.
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO3-->
 
 

@@ -12,6 +12,7 @@ ms.technology: techgroup-identity
 ms.assetid: 2cdc7bde-4044-4021-b887-11476f99afd9
 ms.reviewer: esaggese
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: 16c2dbbce4234f41941bd3fd92d264df0ae685e2
 ms.openlocfilehash: 15167c4e7dbe0fd401e198c80524b39e4ded250d
 
@@ -23,7 +24,8 @@ ms.openlocfilehash: 15167c4e7dbe0fd401e198c80524b39e4ded250d
 *A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Az alábbi információk segítségével megismerheti, hogyan biztosíthatnak védelmet a szervezet adatai számára a leggyakoribb végfelhasználói alkalmazások (például az Office-alkalmazások: Word, Excel, PowerPoint és Outlook) és szolgáltatások (például Exchange és SharePoint) a Microsoft [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] használatával. 
-> [!NOTE] Az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] (Azure RMS) által támogatott alkalmazások és verziók ellenőrzéséhez tekintse meg: [Az Azure Rights Management követelményei](../get-started/requirements-azure-rms.md).
+> [!NOTE]
+> Az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] (Azure RMS) által támogatott alkalmazások és verziók ellenőrzéséhez lásd: [Az Azure Rights Management követelményei](../get-started/requirements-azure-rms.md).
 
 Néhány esetben az információvédelem automatikusan megvalósul a konfigurált házirendek alapján. Ez történik például a SharePoint-tárak, a besorolt fájlok és az Exchange átviteli szabályok esetében. Más esetekben az információvédelmet a felhasználóknak kell alkalmazniuk alkalmazásaikban egy sablon kiválasztásával vagy adott beállítások bejelölésével. Ez történik például akkor, ha a felhasználók e-mail-üzenetben osztanak meg egy fájlt, vagy ha helyben védenek egy fájlt úgy, hogy korlátozzák bizonyos felhasználók vagy a szervezeten kívüli felhasználók hozzáférését.
 
@@ -33,7 +35,8 @@ Győződjön meg róla, hogy ellátja a felhasználókat utasításokkal és út
 
 Információ arról, hogyan konfigurálhatja ezeket az alkalmazásokat az Azure RMS-hez: [Alkalmazások konfigurálása az Azure Rights Managementhez](../deploy-use/configure-applications.md).
 
-> [!TIP] Az Azure RMS-t használó alkalmazások példái és pillanatképei: [Az Azure RMS működés közben: Mit látnak a rendszergazdák és a felhasználók](what-admins-users-see.md).
+> [!TIP]
+> Az Azure RMS-t használó alkalmazások példái és pillanatképei: [Az Azure RMS működés közben: Mit látnak a rendszergazdák és a felhasználók](what-admins-users-see.md).
 
 A keresési szolgáltatások többféleképpen integrálhatók a Rights Managementtel. Példa: 
 
@@ -60,6 +63,6 @@ Tudjon meg többet arról, hogyan támogatják a következők az Azure RMS-t:
 
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO5-->
 
 

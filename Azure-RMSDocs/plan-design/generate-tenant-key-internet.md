@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: A bérlőkulcs létrehozása és átvitele – az interneten keresztül | Azure RMS
-description:
-keywords:
+title: "A bérlőkulcs létrehozása és átvitele – az interneten keresztül | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 1bff9b06-8c5a-4b1d-9962-6668219210e6
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 7a9c8b531ec342e7d5daf0cbcacd6597a79e6a55
+ms.openlocfilehash: 20cfa722f7008c52f4fbc219a4de04c50ee3548d
+
 
 ---
 
@@ -48,7 +42,7 @@ Az internetre kapcsolódó munkaállomáson töltse le és telepítse az Azure R
 > [!NOTE]
 > Ha a Windows PowerShell-modult már korábban letöltötte, a következő parancs futtatásával ellenőrizze, hogy a verziószáma legalább 2.1.0.0-e: `(Get-Module aadrm -ListAvailable).Version`
 
-A telepítési utasításokért lásd: [Installing Windows PowerShell for Azure Rights Management](../deploy-use/install-powershell.md) (Az Azure Rights Managementhez készült Windows PowerShell telepítése)..
+A telepítési utasításokat [Az Azure Rights Managementhez készült Windows PowerShell telepítése](../deploy-use/install-powershell.md) című cikk tartalmazza.
 
 ### 2. lépés: Az Azure Active Directory-bérlőazonosító beszerzése
 Indítsa el a Windows PowerShellt a **Futtatás rendszergazdaként** lehetőséggel, majd futtassa a következő parancsokat:
@@ -85,15 +79,15 @@ Nyissa meg a Microsoft letöltőközpontot, és töltse le a régiójának megfe
 |Ázsia|AzureRMS-BYOK-tools-AsiaPacific.zip|
 Az eszközkészlet a következőket tartalmazza:
 
--   Egy kulcscserekulcs- (KEK-) csomag, amelynek a neve **BYOK-KEK-pkg-**-vel kezdődik..
+-   Egy kulcscserekulcs- (KEK-) csomag, amelynek a neve **BYOK-KEK-pkg-**-vel kezdődik.
 
--   Egy biztonságivilág-csomag, amelynek a neve **BYOK-SecurityWorld-pkg-**-vel kezdődik..
+-   Egy biztonságivilág-csomag, amelynek a neve **BYOK-SecurityWorld-pkg-**-vel kezdődik.
 
--   Egy **verifykeypackage.py** nevű Python-parancsfájl..
+-   Egy **verifykeypackage.py** nevű Python-parancsfájl.
 
 -   Egy parancssori végrehajtható fájl (**KeyTransferRemote.exe**), egy metaadatfájl (**KeyTransferRemote.exe.config**) és kapcsolódó DLL-fájlok.
 
--   Egy Visual C++ terjeszthető csomag (**vcredist_x64.exe**)..
+-   Egy Visual C++ terjeszthető csomag (**vcredist_x64.exe**).
 
 Másolja a csomagot egy USB-meghajtóra vagy más hordozható tárolóeszközre.
 
@@ -112,7 +106,7 @@ Győződjön meg róla, hogy a Thales-eszközök az elérési útján találhat�
 ```
 set PATH=%PATH%;”%nfast_home%\bin”;”%nfast_home%\python\bin”
 ```
-További információkért tekintse át a Thales HSM-hez mellékelt felhasználói útmutatót, vagy keresse fel a Thales webhelyén az Azure RMS-ekkel kapcsolatos oldalt a következő címen: [http://www.thales-esecurity.com/msrms/cloud](http://www.thales-esecurity.com/msrms/cloud)..
+További információkért tekintse át a Thales HSM-hez mellékelt felhasználói útmutatót, vagy keresse fel a Thales webhelyén az Azure RMS-ekkel kapcsolatos oldalt a következő címen: [http://www.thales-esecurity.com/msrms/cloud](http://www.thales-esecurity.com/msrms/cloud).
 
 ### 2. lépés: A BYOK eszközkészlet telepítése a kapcsolat nélküli munkaállomáson
 Másolja át a BYOK eszközkészletcsomagot az USB-meghajtóról vagy egyéb hordozható tárolóeszközről, majd tegye a következőket:
@@ -188,7 +182,7 @@ Ezen lépés végrehajtása nem kötelező, de ajánlott a következők ellenőr
 
 2.  Győződjön meg róla, hogy a következő, az ellenőrzés sikerességét jelző eredményt látja: **Result:  SUCCESS**
 
-A parancsfájl ellenőrzi az aláírói láncot egészen a Thales-gyökérkulcsig. Ennek a gyökérkulcsnak a kivonata be van ágyazva a parancsfájlba, az értékének pedig a következőnek kell lennie: **59178a47 de508c3f 291277ee 184f46c4 f1d9c639**. Ezt az értéket külön, a [Thales webhelyére](http://www.thalesesec.com/) ellátogatva is ellenőrizheti..
+A parancsfájl ellenőrzi az aláírói láncot egészen a Thales-gyökérkulcsig. Ennek a gyökérkulcsnak a kivonata be van ágyazva a parancsfájlba, az értékének pedig a következőnek kell lennie: **59178a47 de508c3f 291277ee 184f46c4 f1d9c639**. Ezt az értéket külön, a [Thales webhelyére](http://www.thalesesec.com/) ellátogatva is ellenőrizheti.
 
 Most már készen áll arra, hogy létrehozzon egy új kulcsot, amely az Ön RMS-bérlőkulcsa lesz.
 
@@ -269,11 +263,11 @@ A bérlőkulccsal kapcsolatos engedélyek korlátozásához tegye a következők
         KeyTransferRemote.exe -ModifyAcls -KeyAppName simple -KeyIdentifier contosokey -ExchangeKeyPackage BYOK-KEK-pkg-AP-1 -NewSecurityWorldPackage BYOK-SecurityWorld-pkg-AP-1
         ```
 
-A parancs futtatásakor cserélje le a *contosokey* értéket ugyanarra az értékre, amelyet az [1. lépés: Biztonsági világ létrehozása](##step-1-create-a-security-world) lépésnél adott meg *A bérlőkulcs létrehozása* szakaszban.
+A parancs futtatásakor cserélje le a *contosokey* értéket ugyanarra az értékre, amelyet az [1. lépés: Biztonsági világ létrehozása](#step-1-create-a-security-world) lépésnél adott meg *A bérlőkulcs létrehozása* című szakaszban.
 
 A rendszer arra fogja kérni, hogy csatlakoztassa a biztonsági világhoz tartozó ACS-kártyáit, és adja meg a hozzájuk tartozó jelszót vagy PIN-kódot, ha beállított ilyet.
 
-A parancs befejeződésekor a **Result: SUCCESS** eredményt látja majd, és a bérlőkulcs korlátozott engedélyekkel rendelkező másolata a key_xferacId_*&lt;contosokey&gt;* nevű fájlban található meg..
+A parancs végrehajtása után a **Result: SUCCESS** eredmény jelenik meg, és a bérlőkulcs korlátozott engedélyekkel rendelkező másolata a key_xferacId_*&lt;contosokey&gt;* nevű fájlban található.
 
 ### 2. lépés: A kulcs új másolatának vizsgálata
 Opcionálisan futtathatja a Thales segédprogramokat az új bérlőkulcs minimális engedélyeinek megerősítéséhez:
@@ -290,7 +284,7 @@ Opcionálisan futtathatja a Thales segédprogramokat az új bérlőkulcs minimá
     "%nfast_home%\bin\kmfile-dump.exe" "%NFAST_KMDATA%\local\key_xferacld_contosokey"
     ```
 
-A parancsok futtatásakor cserélje le a *contosokey* értéket ugyanarra az értékre, amelyet az [1. lépés: Biztonsági világ létrehozása](##step-1-create-a-security-world) lépésnél adott meg *A bérlőkulcs létrehozása* szakaszban.
+A parancs futtatásakor cserélje le a *contosokey* értéket ugyanarra az értékre, amelyet az [1. lépés: Biztonsági világ létrehozása](#step-1-create-a-security-world) lépésnél adott meg *A bérlőkulcs létrehozása* című szakaszban.
 
 ### 3. lépés: A kulcs titkosítása a Microsoft kulcscserekulcsával
 A régiójától függően futtassa a következő parancsok egyikét:
@@ -315,7 +309,7 @@ A régiójától függően futtassa a következő parancsok egyikét:
 
 A parancs futtatásakor használja a következő utasításokat:
 
--   Cserélje le a *contosokey* értéket arra az azonosítóra, amelyet a kulcs létrehozásához használt az [1. lépés: Biztonsági világ létrehozása](##step-1-create-a-security-world) lépésben *A bérlőkulcs létrehozása* szakaszban.
+-   Cserélje le a *contosokey* értéket arra az azonosítóra, amelyet a kulcs létrehozásához használt az [1. lépés: Biztonsági világ létrehozása](#step-1-create-a-security-world) lépésben *A bérlőkulcs létrehozása* szakaszban.
 
 -   Cserélje le a *GUID* azonosítót arra az Azure Active Directory-bérlőazonosítóra, amelyet a [2. lépés: Az Azure Active Directory-bérlőazonosító beszerzése](#step-2-get-your-azure-active-directory-tenant-id) lépésben szerzett *Az internetre kapcsolódó munkaállomás előkészítése* című szakaszban.
 
@@ -383,6 +377,7 @@ Ezennel befejezte a saját kulcs használatának interneten keresztüli megvaló
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,28 +1,26 @@
 ---
-# required metadata
-
-title: "Azure RMS gyors üzembe helyezési útmutató – 5. lépés | AZURE RMS"
-description: "Az utolsó lépése annak az oktatóanyagnak, amellyel gyorsan kipróbálhatja a szervezeténél a Microsoft Azure Rights Managementet csupán öt, 15 percnél gyorsabban végrehajtható lépéssel."
-keywords:
+title: "Azure RMS gyors üzembe helyezési útmutató – 5. lépés | Azure RMS"
+description: "Az utolsó lépése annak az oktatóanyagnak, amellyel gyorsan kipróbálhatja a szervezeténél a Microsoft Azure Rights Managementet csupán 5, 15 percnél gyorsabban végrehajtható lépéssel."
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 05/09/2016
 ms.topic: get-started-article
 ms.prod: azure
 ms.service: rights-management
-ms.technology: techgroup-identity
+ms.technology: 
 ms.assetid: aa06826d-c227-449b-93ea-6ce394608997
-
-# optional metadata
-
-ROBOTS:
-audience:
-ms.devlang:
+ROBOTS: 
+audience: 
+ms.devlang: 
 ms.reviewer: esaggese
 ms.suite: ems
-ms.tgt_pltfrm:
-ms.technology:
-ms.custom:
+ms.tgt_pltfrm: 
+ms.custom: 
+translationtype: Human Translation
+ms.sourcegitcommit: ed50d87138c428fadfd22cd5b3ef3c7f7e421848
+ms.openlocfilehash: 9c335e054d4aed1a8cca654420a580d02a4c849f
+
 
 ---
 
@@ -83,7 +81,8 @@ Ha készen áll az Azure RMS központi telepítésére, az [Azure Rights Managem
 
 Emellett az adott forgatókönyveket, a társított konfigurációs lépéseket és a végfelhasználói dokumentációt a [Gyors üzembe helyezési útmutató az Azure Rights Management szolgáltatáshoz](../get-started/rapid-deployment-guide.md) szakaszban találja.
 
->[!div class="step-by-step"] [Bevezetés](quick-start-tutorial.md)
+>[!div class="step-by-step"]
+[Bevezetés](quick-start-tutorial.md)
 [1. lépés](tutorial-step1.md)
 [2. lépés](tutorial-step2.md)
 [3. lépés](tutorial-step3.md)
@@ -91,6 +90,7 @@ Emellett az adott forgatókönyveket, a társított konfigurációs lépéseket 
 *5. lépés*
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

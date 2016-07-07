@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Azure RMS gyors üzembe helyezési útmutató – 3. lépés | Azure RMS
-description: A harmadik lépése annak az oktatóanyagnak, amellyel gyorsan kipróbálhatja a szervezeténél a Microsoft Azure Rights Managementet csupán 5, 15 percnél gyorsabban végrehajtható lépéssel.
-keywords:
+title: "Azure RMS gyors üzembe helyezési útmutató – 3. lépés | Azure RMS"
+description: "A harmadik lépése annak az oktatóanyagnak, amellyel gyorsan kipróbálhatja a szervezeténél a Microsoft Azure Rights Managementet csupán 5, 15 percnél gyorsabban végrehajtható lépéssel."
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: c604e749-8918-40e8-8148-6bd000cb2be2
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ed50d87138c428fadfd22cd5b3ef3c7f7e421848
+ms.openlocfilehash: efe389db839f3f70e9cdb9138f6749e2bd2e029f
+
 
 ---
 
@@ -51,7 +45,7 @@ Ezek után készen áll a dokumentum biztonságos, e-mailen keresztül történ�
 
 1.  Outlook használata esetén hozzon létre egy új üzenetet, és csatolja az imént készített fájlt.
 
-2.  A **Címzett** mezőbe írjon be egy vagy több üzleti e-mail-címet. Győződjön meg róla, hogy üzleti e-mail-címet adott meg (például **janetm@contoso.com** vagy **p.dover@fabrikam.com**), mert az Azure Rights Management jelenleg nem támogatja a személyes e-mail-címeket, amelyek otthonról, egy internetszolgáltatón keresztül használhatóak. Ne aggódjon, hogy a címzett is rendelkezik-e Azure Rights Managementtel vagy sem.
+2.  A **Címzett** mezőbe írjon be egy vagy több üzleti e-mail-címet. Győződjön meg róla, hogy üzleti e-mail-címet adott meg (például **janetm@contoso.com** vagy **p.dover@fabrikam.com**), mert az Azure Rights Management jelenleg nem támogatja a személyes e-mail-címeket, amelyek otthonról, egy internetszolgáltatón keresztül használhatóak. Nem fontos, hogy a címzett is rendelkezik-e Azure Rights Managementtel vagy sem.
 
 3.  Írja be a tárgyat, például **Bizalmas dokumentum**, majd írjon egy rövid üzenetet az e-mail törzsébe, például **Kérem, olvassa el ezt a bizalmas dokumentumot, és ne ossza meg másokkal.**
 
@@ -83,9 +77,11 @@ Miután elküldte a védett dokumentumot, megkérheti a címzetteket, hogy várj
 |A **védett megosztás** párbeszédpanelen megjelenő beállítások|[A Rights Management megosztóalkalmazás párbeszédpanel-beállításai](../rms-client/sharing-app-dialog-box.md)|
 
 
->[!div class="step-by-step"] [« 2. lépés](tutorial-step2.md)
+>[!div class="step-by-step"]
+[« 2. lépés](tutorial-step2.md)
 [4. lépés »](tutorial-step4.md)
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

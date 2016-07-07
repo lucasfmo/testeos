@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Használati jogosultságok konfigurálása az Azure Rights Managementhez | Azure RMS
-description:
-keywords:
+title: "Használati jogosultságok konfigurálása az Azure Rights Managementhez | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 06/08/2016
+ms.date: 06/16/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 97ddde38-b91b-42a5-8eb4-3ce6ce15393d
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 3883a46440f016138dd50d061a58089253721719
+ms.openlocfilehash: 21b92fae5fd00d80f9afd2e80d21c08bfa47b7b2
+
 
 ---
 
@@ -65,7 +58,7 @@ Lehetővé teszi a felhasználó számára a dokumentum mentését az aktuális 
 
 **Neve az Active Directory tartalomvédelmi szolgáltatásokban**: *Mentés*
 
-**API-állandó vagy érték**: IPC_GENERIC_WRITEL"EDIT"
+**API-állandó vagy érték**: IPC_GENERIC_WRITE L"EDIT"
 
 Az Office-alkalmazásokban ez a jogosultság a dokumentum módosítását is lehetővé teszi.
 
@@ -83,7 +76,7 @@ Engedélyezi jegyzetek és megjegyzések hozzáadását a tartalomhoz.
 
 **Neve az Active Directory tartalomvédelmi szolgáltatásokban:** Nincs implementálva.
 
-**API-állandó vagy érték:** IPC_GENERIC_COMMENTL"COMMENT
+**API-állandó vagy érték**: IPC_GENERIC_COMMENT L"COMMENT
 
 Ez a jogosultság elérhető az SDK-ban, valamint alkalmi házirendként Windows PowerShell RMS Protection moduljában, és egyes szoftverszállítói alkalmazásokban is implementálva lett. Ennek ellenére a használata nem elterjedt, és az Office-alkalmazások jelenleg nem támogatják.
 
@@ -101,7 +94,7 @@ Lehetővé teszi a tartalom mentését másik fájlnévvel (Save As (Mentés má
 
 **Neve az Active Directory tartalomvédelmi szolgáltatásokban:** *Exportálás (Mentés másként)*
 
-**API-állandó vagy érték:** IPC_GENERIC_EXPORTL"EXPORT"
+**API-állandó vagy érték:** IPC_GENERIC_EXPORT L"EXPORT"
 
 Ez a jogosultság lehetővé teszi a felhasználónak az alkalmazásokon belüli egyéb exportálási lehetőségek használatát (például *Küldés a OneNote-ba*).
 
@@ -119,7 +112,7 @@ Lehetővé teszi az e-mail üzenetek továbbítását és a címzettek hozzáad�
 
 **Neve az Active Directory tartalomvédelmi szolgáltatásokban:** *Továbbítás*
 
-**API-állandó vagy érték:** IPC_EMAIL_FORWARDL"FORWARD"
+**API-állandó vagy érték:** IPC_EMAIL_FORWARD L"FORWARD"
 
 Nem engedélyezi a továbbító számára, hogy jogosultságokat adjon más felhasználóknak a továbbítási művelet részeként.
 
@@ -137,7 +130,7 @@ Megadja az összes jogosultságot a dokumentumhoz, így minden elérhető művel
 
 **Neve az Active Directory tartalomvédelmi szolgáltatásokban:** *Teljes hozzáférés*
 
-**API-állandó vagy érték:** IPC_GENERIC_ALLL"OWNER"
+**API-állandó vagy érték:** IPC_GENERIC_ALL L"OWNER"
 
 Lehetővé teszi a védelem eltávolítását.
 
@@ -155,7 +148,7 @@ Lehetővé teszi a tartalom nyomtatását.
 
 **Neve az Active Directory tartalomvédelmi szolgáltatásokban:** *Nyomtatás*
 
-**API-állandó vagy érték:** IPC_GENERIC_PRINTL"PRINT
+**API-állandó vagy érték:** IPC_GENERIC_PRINT L"PRINT
 
 ---
 
@@ -187,7 +180,7 @@ Engedélyezi a *Válasz mindenkinek* lehetőséget az e-mail ügyfélprogramokba
 
 **Neve az Active Directory tartalomvédelmi szolgáltatásokban:** *Válasz mindenkinek*
 
-**API-állandó vagy érték:** IPC_EMAIL_REPLYALLL"REPLYALL"
+**API-állandó vagy érték:** IPC_EMAIL_REPLYALL L"REPLYALL"
 
 ---
 
@@ -203,7 +196,7 @@ Lehetővé teszi a felhasználó számára a dokumentum megnyitását és a tart
 
 **Neve az Active Directory tartalomvédelmi szolgáltatásokban**: *Megtekintés*
 
-**API-állandó vagy érték:** IPC_GENERIC_READL"VIEW"
+**API-állandó vagy érték:** IPC_GENERIC_READ L"VIEW"
 
 ---
 
@@ -219,7 +212,7 @@ Lehetővé teszi az adatok (ideértve a képernyőfelvételek) másolását a do
 
 **Neve az Active Directory tartalomvédelmi szolgáltatásokban**: *Kinyerés*
 
-**API-állandó vagy érték:** IPC_GENERIC_EXTRACTL"EXTRACT"
+**API-állandó vagy érték:** IPC_GENERIC_EXTRACT L"EXTRACT"
 
 Egyes alkalmazásokban a teljes dokumentum mentését is lehetővé teszi nem védett állapotban.
 
@@ -293,6 +286,7 @@ Egy felhasználó e-mailben el szeretne küldeni bizonyos, másokra nem tartozó
 
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO3-->
 
 

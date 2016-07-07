@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Az Azure Rights Management használatának naplózása és elemzése | Azure RMS
-description:
-keywords:
+title: "Az Azure Rights Management használatának naplózása és elemzése | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 05/13/2016
+ms.date: 06/30/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: a735f3f7-6eb2-4901-9084-8c3cd3a9087e
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5ab8d4ef132eec9991c0ff789f2b2dfa7bdf2cd8
+ms.openlocfilehash: 845a47f526754f291c27a3c2bbd80af736b44992
+
 
 ---
 
@@ -47,7 +41,8 @@ Ezek az Azure Rights Management-naplók a későbbiekben az alábbi üzleti forg
 
     Adatvesztés esetén vállalata valószínűleg tudni szeretné, hogy bizonyos dokumentumokhoz ki fért hozzá legutóbb, illetve egy gyanús személy milyen információkat érhetett el az utóbbi időben. Az ilyen típusú kérdéseket az Azure Rights Management és a naplózás segítségével meg tudja válaszolni, mivel a védett tartalmakat felhasználó személyek kizárólag Rights Management-licenc birtokában nyithatják meg az Azure Rights Management-védelemmel ellátott dokumentumokat és képeket, még abban az esetben is, ha ezek a fájlok e-mailben lettek áthelyezve, vagy egy USB-meghajtóra vagy egyéb tárolóeszközre lettek átmásolva. Mindez azt jelenti, hogy a Rights Management-naplók megbízható információforrásként szolgálnak a törvényszéki elemzések végrehajtásakor, ha adatait Azure Rights Management-védelemmel látja el.
 
-> [!NOTE]Ha csupán az Azure Rights Management adminisztrációs feladatainak naplózása érdekli, és nem kívánja nyomon követni a felhasználók Rights Management-használatát, e célra az Azure Rights Management [Get-AadrmAdminLog](https://msdn.microsoft.com/library/azure/dn629430.aspx) Windows PowerShell-parancsmagját használhatja.
+> [!NOTE]
+> Ha csupán az Azure Rights Management adminisztrációs feladatainak naplózása érdekli, és nem kívánja nyomon követni a felhasználók Rights Management-használatát, e célra az Azure Rights Management [Get-AadrmAdminLog](https://msdn.microsoft.com/library/azure/dn629430.aspx) Windows PowerShell-parancsmagját használhatja.
 > 
 > A klasszikus Azure-portált olyan magas szintű használati jelentések esetében is használhatja, mint például az **RMS összegzés**, az **Aktív RMS-felhasználók**, az **RMS eszközplatformok**, valamint az **RMS alkalmazáshasználat**. E jelentéseknek a klasszikus Azure-portálról történő eléréséhez kattintson az **Active Directory** elemre, jelöljön ki és nyisson meg egy könyvtárat, majd kattintson a **JELENTÉSEK** elemre,
 
@@ -56,7 +51,8 @@ Az Azure Rights Management használatnaplózásáról további információkat a
 ## Az Azure Rights Management használatnaplózásának engedélyezése
 2016 februárjától az Azure Rights Management használatnaplózása alapértelmezés szerint valamennyi ügyfél számára engedélyezett. Ez minden olyan ügyfélre vonatkozik, aki Azure RMS szolgáltatását 2016 februárja előtt vagy után aktiválta. 
 
-> [!NOTE]A naplók tárolásához, illetve a naplózási funkcióhoz nem kapcsolódik további költség.
+> [!NOTE]
+> A naplók tárolásához, illetve a naplózási funkcióhoz nem kapcsolódik további költség.
 > 
 > 2016 februárja előtt az Azure RMS használatnaplózási funkciójának igénybevételéhez Azure-előfizetés és elegendő Azure-tárhely volt szükséges, azonban ez megváltozott.
 
@@ -143,17 +139,17 @@ Az egymás utáni sorok egy-egy naplóbejegyzést képviselnek. A mezőkben szer
 |--------------|-----------------|---------------|-----------------|
 |dátum|Dátum|A kérés kiszolgálásának UTC szerinti dátuma.<br /><br />Az adat forrása a kérés kiszolgálójának helyi órája.|2013-06-25|
 |időpont|Idő|A kérés kiszolgálásának UTC szerinti, 24 órás formátumban megadott időpontja.<br /><br />Az adat forrása a kérés kiszolgálójának helyi órája.|21:59:28|
-|sorazonosító|Szöveg|A naplóbejegyzés egyedi GUID azonosítója.<br /><br />Ez az érték a naplók összevonásakor vagy azok más formátumba történő másolásakor hasznos.|1c3fe7a9-d9e0-4654-97b7-14fafa72ea63|
+|sorazonosító|Szöveg|A naplóbejegyzés egyedi GUID azonosítója. Ha nincs érték, a korrelációs azonosítóérték segítségével azonosíthatja a bejegyzést.<br /><br />Ez az érték a naplók összevonásakor vagy azok más formátumba történő másolásakor hasznos.|1c3fe7a9-d9e0-4654-97b7-14fafa72ea63|
 |kéréstípus|Név|A lekért RMS API neve.|AcquireLicense|
-|felhasználói azonosító|Karakterlánc|A kérés leadójának neve.<br /><br />Az érték szimpla idézőjelek között van. Egyes, anonim kéréstípusok esetében az érték ”.|‘joe@contoso.com’|
-|eredmény|Karakterlánc|Ha a kérés kiszolgálása sikeresen megtörtént: „Sikeres”.<br /><br />Sikertelen kérés esetén a hiba típusa szimpla idézőjelek között szerepel.|‘Siker’|
+|felhasználói azonosító|Karakterlánc|A kérés leadójának neve.<br /><br />Az érték szimpla idézőjelek között van. Az Ön által felügyelt bérlői kulcsból (BYOK) érkező hívások értéke **"**, amely akkor is érvényes, ha a kérések típusa „névtelen”.|‘joe@contoso.com’|
+|eredmény|Karakterlánc|Ha a kérés kiszolgálása sikeresen megtörtént: „Sikeres”.<br /><br />Sikertelen kérés esetén a hiba típusa szimpla idézőjelek között szerepel.|'Sikeres'|
 |korrelációs azonosító|Szöveg|Egy adott kérés esetében az RMS ügyfélnapló és kiszolgálónapló közös GUID azonosítója.<br /><br />Ez az érték az ügyfélpanaszok hibaelhárítása során lehet hasznos.|cab52088-8925-4371-be34-4b71a3112356|
 |tartalmi azonosító|Szöveg|Kapcsos zárójelek közé írt GUID, amely azonosítja a védett tartalmat (például egy dokumentumot).<br /><br />A mezőben kizárólag AcquireLicense kéréstípus esetén szerepel érték, minden más esetben üres.|{bb4af47b-cfed-4719-831d-71b98191a4f2}|
 |tulajdonos e-mail címe|Karakterlánc|A dokumentum tulajdonosának e-mail címe.|alice@contoso.com|
 |kiállító|Karakterlánc|A dokumentum kiállítójának e-mail címe.|alice@contoso.com (vagy) FederatedEmail.4c1f4d-93bf-00a95fa1e042@contoso.onmicrosoft.com’|
-|Sablonazonosító|Karakterlánc|A dokumentum védelméhez használt sablon azonosítója.|{6d9371a6-4e2d-4e97-9a38-202233fed26e}|
-|Fájlnév|Karakterlánc|A védelemmel ellátott dokumentum fájlneve. <br /><br />Jelenleg néhány fájl (például az Office-dokumentumok) GUID azonosítóként jelenik meg a tényleges fájlnév helyett.|TopSecretDocument.docx|
-|Közzététel dátuma|Dátum|A dokumentum védelemmel történő ellátásának dátuma.|2015-10-15T21:37:00|
+|sablonazonosító|Karakterlánc|A dokumentum védelméhez használt sablon azonosítója.|{6d9371a6-4e2d-4e97-9a38-202233fed26e}|
+|fájlnév|Karakterlánc|A védelemmel ellátott dokumentum fájlneve. <br /><br />Jelenleg néhány fájl (például az Office-dokumentumok) GUID azonosítóként jelenik meg a tényleges fájlnév helyett.|TopSecretDocument.docx|
+|közzététel dátuma|Dátum|A dokumentum védelemmel történő ellátásának dátuma.|2015-10-15T21:37:00|
 |ügyféladatok|Karakterlánc|Információk a kérést küldő ügyfélplatformról.<br /><br />A karakterlánc az alkalmazástól (például az operációs rendszertől vagy a böngészőtől) függően változik.|'MSIPC;version=1.0.623.47;AppName=WINWORD.EXE;AppVersion=15.0.4753.1000;AppArch=x86;OSName=Windows;OSVersion=6.1.7601;OSArch=amd64'|
 |ügyfél IP-címe|Utca, házszám|A kérést küldő ügyfél IP-címe.|64.51.202.144|
 
@@ -166,7 +162,7 @@ Bár a felhasználói azonosító mező általában meghatározza a kérést kü
 
 -   RMS-összekötő használata esetén.
 
-    Az összekötőről érkező kérések naplózása azzal az egyszerű szolgáltatásnévvel történik, amelyeket az RMS-összekötő telepítésekor az RMS automatikusan hoz létre.
+    Az összekötőről érkező kérések naplózása az **Aadrm_S-1-7-0** egyszerű szolgáltatásnévvel történik, amely automatikusan jön létre az RMS-összekötő telepítésekor.
 
 #### Jellemző kéréstípusok
 Az Azure Rights Management esetében számos kéréstípus létezik; az alábbi táblázatban a leggyakrabban használt kéréstípusok szerepelnek.
@@ -181,7 +177,7 @@ Az Azure Rights Management esetében számos kéréstípus létezik; az alábbi 
 |BECreateEndUserLicenseV1|Végfelhasználói licenc létrehozását kezdeményezték egy mobileszközről.|
 |BEGetAllTemplatesV1|Az összes sablon beszerzését kezdeményezték (a háttérben) egy mobileszközről.|
 |Certify|Az ügyfél védelmi hitelesítést végez az adott tartalmon.|
-|Visszafejtés|Az ügyfél az RMS-védelemmel ellátott tartalom visszafejtésére tesz kísérletet.|
+|KMSPDecrypt|Az ügyfél az RMS-védelemmel ellátott tartalom visszafejtésére tesz kísérletet. Csak az ügyfél által felügyelt bérlői kulcsra (BYOK) érvényes.|
 |DeleteTemplateById|Sablon törlését kezdeményezték a klasszikus Azure-portálról egy sablonazonosító alapján.|
 |ExportTemplateById|Sablon exportálását kezdeményezték a klasszikus Azure-portálról egy sablonazonosító alapján.|
 |FECreateEndUserLicenseV1|Az AcquireLicense kéréshez hasonló tartalommal bír, de mobileszközökről.|
@@ -199,7 +195,7 @@ Az Azure Rights Management esetében számos kéréstípus létezik; az alábbi 
 |ServerCertify|A kiszolgáló hitelesítését kezdeményezték egy RMS-kompatibilis ügyfélről (például SharePointról).|
 |SetUsageLogFeatureState|A használatnaplózás engedélyezését kezdeményezték.|
 |SetUsageLogStorageAccount|Az Azure RMS-naplók helyének megadását kezdeményezték.|
-|SignDigest|Az aláíráshoz használt kulcs alkalmazásakor hívást kezdeményeztek. Ennek meghívása az AcquireLicence (vagy a FECreateEndUserLicenseV1), a Certify és a GetClientLicensorCert (vagy FECreatePublishingLicenseV1) kérések használatakor jellemzően egyszer történik meg.|
+|KMSPSignDigest|Ha az ügyfél által felügyelt bérlői kulcsot (BYOK) aláírásra használják, a rendszer hívást kezdeményez. Ennek meghívása az AcquireLicence (vagy a FECreateEndUserLicenseV1), a Certify és a GetClientLicensorCert (vagy FECreatePublishingLicenseV1) kérések használatakor jellemzően egyszer történik meg.|
 |UpdateTemplate|Egy meglévő sablon frissítését kezdeményezték a klasszikus Azure-portálról.|
 
 ## Referencia a Windows PowerShellhez
@@ -229,6 +225,7 @@ További információ az Azure Rights Managementhez készült Windows PowerShell
 
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO5-->
 
 

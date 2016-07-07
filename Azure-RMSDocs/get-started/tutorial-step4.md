@@ -1,28 +1,26 @@
 ---
-# required metadata
-
-title: "Azure RMS gyors üzembe helyezési útmutató – 4. lépés | AZURE RMS"
-description: "A negyedik lépése annak az oktatóanyagnak, amellyel gyorsan kipróbálhatja a szervezeténél a Microsoft Azure Rights Managementet csupán öt, 15 percnél gyorsabban végrehajtható lépéssel."
-keywords:
+title: "Azure RMS gyors üzembe helyezési útmutató – 4. lépés | Azure RMS"
+description: "A negyedik lépése annak az oktatóanyagnak, amellyel gyorsan kipróbálhatja a szervezeténél a Microsoft Azure Rights Managementet csupán 5, 15 percnél gyorsabban végrehajtható lépéssel."
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
 ms.topic: get-started-article
 ms.prod: azure
 ms.service: rights-management
-ms.technology: techgroup-identity
+ms.technology: 
 ms.assetid: f8340056-87a1-4daa-8b63-3d95fc381b9c
-
-# optional metadata
-
-ROBOTS:
-audience:
-ms.devlang:
+ROBOTS: 
+audience: 
+ms.devlang: 
 ms.reviewer: esaggese
 ms.suite: ems
-ms.tgt_pltfrm:
-ms.technology:
-ms.custom:
+ms.tgt_pltfrm: 
+ms.custom: 
+translationtype: Human Translation
+ms.sourcegitcommit: ed50d87138c428fadfd22cd5b3ef3c7f7e421848
+ms.openlocfilehash: 19f536e8d0353c7b0ccbd4de3df646352dc2d748
+
 
 ---
 
@@ -76,9 +74,11 @@ Most, hogy a címzett megnyitotta a mellékletet, és esetleg továbbította azt
 |Információk az e-mail-üzenethez csatolt fájl két verziójáról|[Mi az az automatikusan létrehozott .ppdf-fájl?](../rms-client/sharing-app-dialog-box.md#what-s-the-ppdf-file-that-s-automatically-created-)|
 
 
->[!div class="step-by-step"] [« 3. lépés](tutorial-step3.md)
+>[!div class="step-by-step"]
+[« 3. lépés](tutorial-step3.md)
 [5. lépés »](tutorial-step5.md)
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

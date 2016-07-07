@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Mit látnak a rendszergazdák és a felhasználók? | Azure RMS
-description:
-keywords:
+title: "Mit látnak a rendszergazdák és a felhasználók? | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 06/09/2016
+ms.date: 06/28/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 013e0eb4-49a7-4e81-9e4d-f56c0ceb017f
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 7a9c8b531ec342e7d5daf0cbcacd6597a79e6a55
+ms.openlocfilehash: 213d077a65abd5115b7e0491dfc9cd8145752b23
+
 
 ---
 
@@ -32,11 +26,12 @@ ms.suite: ems
 
 Ez a cikk tipikus példákat mutat be arról, hogy a rendszergazdák és a felhasználók hogyan látják és hogyan használhatják az Azure Rights Management (Azure RMS) szolgáltatást a bizalmas vagy titkos információk megvédésének elősegítése érdekében.
 
-> [!NOTE] Az összes példában, amelyben az Azure RMS védelemmel látja el az adatokat, a tartalomtulajdonos továbbra is teljes hozzáféréssel rendelkezik az adatokhoz (a fájlokhoz vagy e-mailekhez), még akkor is, ha az alkalmazott védelem olyan csoport számára biztosít hozzáférést, amelynek a tulajdonos nem tagja, vagy ha a védelem lejárati dátummal rendelkezik.
+> [!NOTE]
+> Az összes példában, amelyben az Azure RMS védelemmel látja el az adatokat, a tartalomtulajdonos továbbra is teljes hozzáféréssel rendelkezik az adatokhoz (a fájlokhoz vagy e-mailekhez), még akkor is, ha az alkalmazott védelem olyan csoport számára biztosít hozzáférést, amelynek a tulajdonos nem tagja, vagy ha a védelem lejárati dátummal rendelkezik.
 >
 > Hasonló módon az IT-csoport bármikor, korlátozás nélkül hozzáférhet a védett adatokhoz a Rights Management felügyelői funkciója révén, amely delegált hozzáférést biztosít a megadott jogosult felhasználók vagy szolgáltatások számára. Emellett az IT-csoport nyomon követheti és felügyelheti a védet adatok felhasználását – például ki és mikor fér hozzá az adatokhoz.
 
-Az RMS-t működés közben bemutató képernyőfelvételekért és videókért tekintse meg a következőket: [A Microsoft Rights Management szolgáltatások portálja](http://www.microsoft.com/rms) és [A Microsoft Rights Management (RMS) csapat blogja](http://blogs.technet.com/b/rms).
+Az RMS működését szemléltető egyéb képernyőképeket és videókat a [nagyvállalati mobilitással és biztonsággal foglalkozó blogban](https://blogs.technet.microsoft.com/enterprisemobility/?product=azure-rights-management-services) találja.
 
 ## A Rights Management aktiválása és konfigurálása
 Bár a Windows PowerShell használatával is aktiválhatja és konfigurálhatja az Azure RMS-t, ez mégis a felügyeleti portálon keresztül végezhető el a legkönnyebben. Amint aktiválta a szolgáltatást, két alapértelmezett sablon válik elérhetővé, amelyek segítségével a rendszergazdák és a felhasználók gyorsan és egyszerűen láthatják el adatvédelemmel a fájlokat. Emellett a további funkciók és beállítások hozzáadása érdekében saját egyéni sablonokat is létrehozhat.
@@ -246,6 +241,7 @@ Ha Bálint a melléklettel együtt továbbküldi az e-mailt, mások számára is
 Most, hogy a példákon keresztül láthatta, mire képes az Azure RMS, talán az is érdekelheti, hogyan képes minderre. Az Azure RMS működésével kapcsolatos műszaki információkért lásd: [Az Azure RMS működése](how-does-it-work.md)
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

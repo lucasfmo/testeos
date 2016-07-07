@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Linux-kódpéldák | Azure RMS
-description: Ez a témakör az RMS SDK Linux-verziójának fontos forgatókönyveit és kódelemeit mutatja be.
-keywords:
+title: "Linux-kódpéldák | Azure RMS"
+description: "Ez a témakör az RMS SDK Linux-verziójának fontos forgatókönyveit és kódelemeit mutatja be."
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,15 +10,13 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 0F7714CA-1D3E-4846-B187-739825B7DE26
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 79e58b8092ea7cb057229d4c464d79f3694296e6
+ms.openlocfilehash: ace7103cfb44d84a7dd6bf64f57c2a47530117e0
+
 
 ---
 
@@ -28,11 +24,11 @@ ms.suite: ems
 
 Ez a témakör az RMS SDK Linux-verziójának fontos forgatókönyveit és kódelemeit mutatja be.
 
-Az alábbi kódrészletek az *rms\_sample* és az *rmsauth\_sample* mintaalkalmazásokból származnak. További információkért lásd a GitHub-tárházban szereplő [mintákat](https://github.com/AzureAD/rms-sdk-for-cpp/tree/master/samples).
+Az alábbi kódrészletek az *rms\_sample* és az *rmsauth\_sample* mintaalkalmazásból származnak. További információkért lásd a GitHub-tárházban szereplő [mintákat](https://github.com/AzureAD/rms-sdk-for-cpp/tree/master/samples).
 
 ## Forgatókönyv: Egy védett fájl védelmi házirendjére vonatkozó információk elérése
 
-**Az RMS-védelemmel ellátott fájlok megnyitása és olvasása**
+**Megnyit és elolvas egy RMS-védelemmel ellátott fájlt**
 **Forrás**: [rms\_sample/mainwindow.cpp](https://github.com/AzureAD/rms-sdk-for-cpp/tree/master/samples/rms_sample)
 
 **Leírás**: A felhasználó által megadott fájlnév lekérése, a tanúsítványok olvasása (lásd: *MainWindow::addCertificates*), az ügyfél-azonosító és az átirányítási URL-cím segítségével történő engedély-visszahívás beállítása után a *ConvertFromPFile* hívása (lásd az alábbi kódpéldát), majd a védelmi házirend nevének, leírásának és tartalom-érvényességi dátumának olvasása.
@@ -100,7 +96,7 @@ Az alábbi kódrészletek az *rms\_sample* és az *rmsauth\_sample* mintaalkalma
     outFile-&gt;close();
     }
 
-**Védett fájlfolyam létrehozása**
+**Hozzon létre egy védett fájlfolyamot**
 **Forrás**: [rms\_sample/pfileconverter.cpp](https://github.com/AzureAD/rms-sdk-for-cpp/tree/master/samples/rms_sample)
 
 **Leírás**: Ez a metódus a háttérben átadott folyamból védett fájlfolyamot hoz létre az SDK-metódussal (*ProtectedFileStream::Aquire*), amely ezután visszaérkezik a hívóhoz.
@@ -152,7 +148,7 @@ Az alábbi kódrészletek az *rms\_sample* és az *rmsauth\_sample* mintaalkalma
 
 ## Forgatókönyv: Új védett fájl létrehozása sablon használatával
 
-**Fájl védelme a felhasználó által kiválasztott sablonnal**
+**Felhasználó által kijelölt sablonnal véd egy fájlt**
 **Forrás**: [rms\_sample/mainwindow.cpp](https://github.com/AzureAD/rms-sdk-for-cpp/tree/master/samples/rms_sample)
 
 **Leírás**: A felhasználó által megadott fájlnév lekérése, a tanúsítványok olvasása (lásd: *MainWindow::addCertificates*), valamint az ügyfél-azonosító és az átirányítási URL-cím segítségével történő engedély-visszahívás beállítása után a kiválasztott fájl védelme a *ConvertToPFileTemplates* hívásával (lásd az alábbi kódpéldát).
@@ -205,13 +201,7 @@ Az alábbi kódrészletek az *rms\_sample* és az *rmsauth\_sample* mintaalkalma
     
     AddLog(&quot;Successfully converted to &quot;, fileOut.c_str());
     }
-   catch (const rmsauth::Exception&amp; e) {
-    AddLog(&quot;ERROR: &quot;, e.error().c_str());
-    outFile-&gt;close();
-    remove(fileOut.c_str());
-    }
-    catch (const rmscore::exceptions::RMSException&amp; e) {
-    AddLog(&quot;ERROR: &quot;, e.what());
+   catch (const rmsauth::Exception&amp; e) { AddLog(&quot;ERROR: &quot;, e.error().c_str()); outFile-&gt;close(); remove(fileOut.c_str()); } catch (const rmscore::exceptions::RMSException&amp; e) { AddLog(&quot;ERROR: &quot;, e.what());
     
     outFile-&gt;close();
     remove(fileOut.c_str());
@@ -221,7 +211,7 @@ Az alábbi kódrészletek az *rms\_sample* és az *rmsauth\_sample* mintaalkalma
     }
 
 
-**Védelmet biztosít egy adott fájlnak egy sablonból létrehozott házirend segítségével**
+**Sablonból létrehozott házirend segítségével véd egy fájlt**
 **Forrás**: [rms\_sample/pfileconverter.cpp](https://github.com/AzureAD/rms-sdk-for-cpp/tree/master/samples/rms_sample)
 
 **Leírás**: Beolvassa a felhasználóhoz társított sablonok listáját, és a kiválasztott sablonból létrehoz egy házirendet, amely megvédi a fájlt.
@@ -254,7 +244,7 @@ Az alábbi kódrészletek az *rms\_sample* és az *rmsauth\_sample* mintaalkalma
     }
     }
 
-**Fájl védelme házirenddel**
+**Egy adott házirend segítségével véd egy fájlt**
 **Forrás**: [rms\_sample/pfileconverter.cpp](https://github.com/AzureAD/rms-sdk-for-cpp/tree/master/samples/rms_sample)
 
 **Leírás**: Védett fájlfolyam létrehozása az adott házirenddel, majd a fájl védelme.
@@ -298,7 +288,7 @@ Az alábbi kódrészletek az *rms\_sample* és az *rmsauth\_sample* mintaalkalma
 
 ## Forgatókönyv: Egy fájl védelme egyéni védelemmel
 
-**Egyéni védelem használatával véd meg egy fájlt**
+**Egyéni védelemmel véd egy fájlt**
 **Forrás**: [rms\_sample/mainwindow.cpp](https://github.com/AzureAD/rms-sdk-for-cpp/tree/master/samples/rms_sample)
 
 **Leírás**: A felhasználótól által megadott fájlnév lekérése, a tanúsítványok olvasása (lásd: *MainWindow::addCertificates*), a felhasználótól származó jogosultsági információk begyűjtése, valamint az ügyfél-azonosító és az átirányítási URL-cím segítségével történő engedély-visszahívás beállítása után a kiválasztott fájl védelme a *ConvertToPFilePredefinedRights* hívásával (lásd az alábbi kódpéldát).
@@ -381,7 +371,7 @@ Az alábbi kódrészletek az *rms\_sample* és az *rmsauth\_sample* mintaalkalma
     }
 
 
-**Védelmi házirend létrehozása, amely adott jogokat biztosít a felhasználó számára**
+**Védelmi házirendet hoz létre, amely adott jogokat biztosít a felhasználó számára**
 **Forrás**: [rms\_sample/pfileconverter.cpp](https://github.com/AzureAD/rms-sdk-for-cpp/tree/master/samples/rms_sample)
 
 **Leírás**: Házirendleíró létrehozása és kitöltése a felhasználó jogosultsági adataival, majd egy felhasználói házirend létrehozása a házirendleíró segítségével. Ezzel a házirenddel a *ConvertToPFileUsingPolicy* hívásával védhető meg a kiválasztott fájl (ennek leírását a jelen témakör egy korábbi szakaszában találja).
@@ -522,8 +512,7 @@ Leírás: Beállíthatja a gyorsítótár elérési útját vagy használhatja a
     auto FileCachePtr = std::make_shared&lt; rmsauth::FileCache&gt;();
 
 
-**2. lépés**: Hozza létre az **rmsauth::AuthenticationContext** objektumot
-Leírás: Határozza meg az Azure *hitelesítésszolgáltatói URI* és a *FileCache* objektumot.
+**2. lépés**: hozzon létre **rmsauth::AuthenticationContext** objektumot. Leírás: Adja meg Azure *hitelesítésszolgáltatói URI-jét* és *FileCache* objektumát.
 
 **C++**:
 
@@ -533,8 +522,7 @@ Leírás: Határozza meg az Azure *hitelesítésszolgáltatói URI* és a *FileC
                               FileCachePtr);
 
 
-**3. lépés**: Hívja az **authContext** objektum **aquireToken** metódusát, és adja meg a következő paramétereket:
-Leírás:
+**3. lépés**: Hívja meg az **authContext** objektum **aquireToken** metódusát, és adja meg a következő paramétereket: Leírás:
 
 -   *Kért erőforrás* – az elérni kívánt védett erőforrás
 -   *Ügyfél egyedi azonosítója* – általában egy GUID azonosító
@@ -552,8 +540,7 @@ Leírás:
                 std::string(“john.smith@msopentechtest01.onmicrosoft.com”));
 
 
-**4. lépés**: Szerezze be a hozzáférési tokent az eredményből
-Leírás: A **result-&gt; accessToken()** metódus hívása
+**4. lépés**: Szerezze be a hozzáférési tokent az eredményből. Leírás: Hívja meg a **result-&gt; accessToken()** metódust.
 
 **Megjegyzés**: A hitelesítésikönyvtár-metódusok bármelyike kiválthatja a következőt: **rmsauth::Exception**
 
@@ -561,16 +548,14 @@ Leírás: A **result-&gt; accessToken()** metódus hívása
 **Az oAuth2 hitelesítési token beszerzése a felhasználói felület nélkül**
 **Forrás**: [rmsauth\_sample/mainwindow.cpp](https://github.com/AzureAD/rms-sdk-for-cpp/tree/master/samples/rmsauth_sample)
 
-**1. lépés**: Hozzon létre egy megosztott pontot az **rmsauth::FileCache** objektumhoz
-Leírás: Beállíthatja a gyorsítótár elérési útját vagy használhatja az alapértelmezettet
+**1. lépés**: Hozza létre az **rmsauth::FileCache** objektum megosztási pontját. Leírás: Megadhatja a gyorsítótár elérési útját, vagy használhatja az alapértelmezettet.
 
 **C++**:
 
     auto FileCachePtr = std::make_shared&lt; rmsauth::FileCache&gt;();
 
 
-**2. lépés**: Hozza létre a **UserCredential** objektumot
-Leírás: Adja meg a *felhasználói bejelentkezési nevet* és a *jelszót*
+**2. lépés**: Hozza létre a **UserCredential** objektumot. Leírás: Adja meg a *felhasználónevet* és a *jelszót*.
 
 **C++**:
 
@@ -578,8 +563,7 @@ Leírás: Adja meg a *felhasználói bejelentkezési nevet* és a *jelszót*
                                                  &quot;SomePass&quot;);
 
 
-**3. lépés**:Hozza létre az **rmsauth::AuthenticationContext** objektumot
-Leírás: Határozza meg az Azure hitelesítésszolgáltatói *URI* és a *FileCache* objektumot
+**3. lépés**: Hozza létre az **rmsauth::AuthenticationContext** objektumot. Leírás: Adja meg az Azure hitelesítésszolgáltatói *URI* és *FileCache* objektumot.
 
 **C++**:
 
@@ -602,13 +586,13 @@ Leírás: Határozza meg az Azure hitelesítésszolgáltatói *URI* és a *FileC
                 userCred);
 
 
-**5. lépés**: Szerezze be a hozzáférési tokent az eredményből
-Leírás: A **result-&gt; accessToken()** metódus hívása
+**5. lépés**: Szerezze be a hozzáférési tokent az eredményből. Leírás: Hívja meg a **result-&gt; accessToken()** metódust.
 
 **Megjegyzés**: A hitelesítésikönyvtár-metódusok bármelyike kiválthatja a következőt: **rmsauth::Exception**
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Dokumentumok nyomon követése és visszavonása az RMS megosztóalkalmazás használata során | Azure RMS
-description:
-keywords:
+title: "Dokumentumok nyomon követése és visszavonása az RMS megosztóalkalmazás használata során | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 05/09/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 61f349ce-bdd2-45c1-acc5-bc83937fb187
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: c611fa8a846612fed238e59e5077be67f6f9531a
+ms.openlocfilehash: 9d5c9558e809779940fac095a789730d5e5924e6
+
 
 ---
 
@@ -43,11 +37,11 @@ A webhely megnyitását követően jelentkezzen be a dokumentumok nyomon követ�
 
 -   Ha e-mail-értesítéseket szeretne konfigurálni: Kattintson a **Beállítások** lehetőségre, és adja meg, hogyan és mikor szeretne e-mailt kapni a dokumentumhoz történő hozzáféréskor.
 
--   Ha kérdései vannak, vagy visszajelzést szeretne biztosítani a dokumentumkövetési webhellyel kapcsolatban: Kattintson a Súgó ikonra a [FAQ for Document Tracking](http://go.microsoft.com/fwlink/?LinkId=523977) (Dokumentumkövetéssel kapcsolatos gyakori kérdések) című témakör megnyitásához..
+-   Ha kérdései vannak, vagy visszajelzést szeretne biztosítani a dokumentumkövetési webhellyel kapcsolatban: Kattintson a Súgó ikonra a [FAQ for Document Tracking](http://go.microsoft.com/fwlink/?LinkId=523977) (Dokumentumkövetéssel kapcsolatos gyakori kérdések) című témakör megnyitásához.
 
 ## Az Office használata a dokumentumkövetési webhely eléréséhez
 
--   A Word, Excel és PowerPoint Office-alkalmazások esetén: A **Kezdőlap** **RMS** csoportjában kattintson a **Védett megosztás** elemre, majd a **Használat követése** parancsra..
+-   A Word, Excel és PowerPoint Office-alkalmazások esetén: A **Kezdőlap** **RMS** csoportjában kattintson a **Védett megosztás** elemre, majd a **Használat követése** parancsra.
 
     ![Office-alkalmazások használatának nyomon követése az RMS megosztóalkalmazás használatakor ](../media/ADRMS_MSRMSApp_OfficeToolbarTrackUsage.png)
 
@@ -55,7 +49,7 @@ A webhely megnyitását követően jelentkezzen be a dokumentumok nyomon követ�
 
     ![A Használat követése parancs választása az Outlookban az RMS megosztóalkalmazás használatakor ](../media/ADRMS_MSRMSApp_OutlookTrackUsage.png)
 
-Ha nem látja ezeket az RMS-beállítási lehetőségeket, akkor valószínű, hogy az RMS megosztóalkalmazás nincs telepítve a számítógépre, nem a legújabb változata van telepítve, vagy a számítógépet újra kell indítani a telepítés befejezéséhez. További információ a megosztóalkalmazás telepítésével kapcsolatban: [Download and install the Rights Management sharing application](install-sharing-app.md) (A Rights Management megosztóalkalmazás letöltése és telepítése)..
+Ha nem látja ezeket az RMS-beállítási lehetőségeket, akkor valószínű, hogy az RMS megosztóalkalmazás nincs telepítve a számítógépre, nem a legújabb változata van telepítve, vagy a számítógépet újra kell indítani a telepítés befejezéséhez. További információ a megosztóalkalmazás telepítésével kapcsolatban: [A Rights Management megosztóalkalmazás letöltése és telepítése](install-sharing-app.md).
 
 ### A dokumentumok nyomon követésének és visszavonásának egyéb módjai
 A Windows rendszerű számítógépen tárolt dokumentumoknak az Office-alkalmazások használatával történő nyomon követése mellett az alábbi lehetőségeket is használhatja:
@@ -68,7 +62,7 @@ A Windows rendszerű számítógépen tárolt dokumentumoknak az Office-alkalmaz
 
 #### Webböngésző használata a dokumentumkövetési webhely elérésére
 
--   Nyissa meg a [dokumentumkövetési webhelyet](http://go.microsoft.com/fwlink/?LinkId=529562) egy támogatott böngészővel..
+-   Nyissa meg a [dokumentumkövetési webhelyet](http://go.microsoft.com/fwlink/?LinkId=529562) egy támogatott böngészővel.
 
     Támogatott böngészők: Javasoljuk az Internet Explorer legalább 10-es verziójának használatát, a dokumentumkövetési webhely megnyitásához azonban az alábbi böngészők bármelyike használható:
 
@@ -105,6 +99,7 @@ A Rights Management megosztóalkalmazás használatát szemléltető egyéb pél
 [A Rights Management megosztóalkalmazás felhasználói útmutatója](sharing-app-user-guide.md)
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

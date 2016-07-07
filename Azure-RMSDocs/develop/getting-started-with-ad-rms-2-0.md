@@ -1,26 +1,22 @@
 ---
-# required metadata
-
-title: Első lépések | Azure RMS
-description: Az RMS SDK 2.1 platform segítségével a fejlesztők olyan alkalmazásokat készíthetnek, amelyek az RMS adatvédelmét használják.
-keywords:
+title: "Első lépések | Azure RMS"
+description: "Az RMS SDK 2.1 platform segítségével a fejlesztők olyan alkalmazásokat készíthetnek, amelyek az RMS adatvédelmét használják."
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 06/28/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 728113C9-FCF9-4280-BE1D-6AF5C15E449E
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: cbdb969e9910142f49b078069fc578059f9d8785
+ms.openlocfilehash: 81541dbadabe3417299f47447384934373275e75
+
 
 ---
 # Első lépések
@@ -39,17 +35,17 @@ Ez a témakör ismerteti a folyamatot, amellyel beállíthatja és futtathatja t
 | [Az SDK telepítése](install-the-rms-sdk.md) | Ez a témakör végigvezeti a fejlesztői eszközök telepítésén.|
 | [A Visual Studio konfigurálása](how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md) | Ez a témakör a Visual Studio projekteknek az RMS SDK 2.1 használatára való konfigurálására vonatkozó utasításokat tartalmaz.|
 | [Az alkalmazás fejlesztése](developing-your-application.md) | Ez a témakör alapvető útmutatással szolgál az RMS-kompatibilis alkalmazások legfontosabb aspektusairól, erre építkezve elkezdheti saját alkalmazásának fejlesztését.|
-| [Az alkalmazás tesztelése](running-your-first-application.md) |Ez a témakör az alkalmazás tesztelésének előkészítéséhez ad útmutatást.|
+| [Az alkalmazás tesztelése](how-to-set-up-your-test-environment.md) |Ez a témakör az alkalmazás tesztelésének előkészítéséhez ad útmutatást.|
 | [Éles üzembe helyezés](deploying-your-application.md) |Ez a témakör végigvezeti a tartalomvédelemmel kompatibilis alkalmazás üzembe helyezési lehetőségein.|
-
-Miután megtette az első lépéseket, tekintse meg néhány további [RMS-mintáinkat](samples.md). Ezután is naprakész maradhat az [RMS Developer's Corner](http://blogs.msdn.com/b/rms/) (AD RMD fejlesztői blog) segítségével.
 
 
 Próbálja ki az RMS SDK 2.1 használatát a következő témakörök útmutatása alapján:
 
--   [Az SDK telepítése](install-the-rms-sdk.md)
--   [A tartalomvédelemmel kompatibilis alkalmazás tesztelése](running-your-first-application.md)
--   [IPCHelloWorld – mintaalkalmazás](how-to-build-your-first-application.md)
+- [Az SDK telepítése](install-the-rms-sdk.md)
+- [A Visual Studio konfigurálása](how-to-configure-a-visual-studio-project-to-use-the-ad-rms-sdk-2-0.md)
+- [Az alkalmazás fejlesztése](developing-your-application.md)
+- [Az alkalmazás tesztelése](how-to-set-up-your-test-environment.md)
+- [Éles üzembe helyezés](deploying-your-application.md)
 
 ### Miért érdemes az RMS SDK 2.1-et használni a tartalmak védelmére?
 
@@ -71,17 +67,15 @@ Az RMS SDK 2.1 számos fontos ügyfél- és kiszolgálóplatformot támogat. Tov
 
 ## Kapcsolódó témakörök
 
-* [AD RMS samples (AD RMS-minták)](samples.md)
+* [RMS fejlesztői útmutató](developers-guide.md)
 * [AD RMS Developer's Corner (AD RMD fejlesztői blog)](http://blogs.msdn.com/b/rms/)
-* [Az SDK telepítése](install-the-rms-sdk.md)
-* [IPCHelloWorld – mintaalkalmazás](how-to-build-your-first-application.md)
-* [Áttekintés](ad-rms-overview.md)
-* [Támogatott platformok](supported-platforms.md)
+
  
 
  
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO5-->
 
 

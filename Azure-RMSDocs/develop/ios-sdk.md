@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: iOS- és OS X-beállítás | Azure RMS
-description: Az iOS- és OS X-alkalmazások az RMS SDK 4.2-t használva képesek integrált adatvédelmet alkalmazni az alkalmazásokban az AAD RM segítségével.
-keywords:
+title: "iOS- és OS X-beállítás | Azure RMS"
+description: "Az iOS- és OS X-alkalmazások az RMS SDK 4.2-t használva képesek integrált adatvédelmet alkalmazni az alkalmazásokban az AAD RM segítségével."
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,15 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: b31e5b72-e65e-450a-b1b8-d46e81e9fb34
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: f7dd88d90357c99c69fe4fdde67c1544595e02f8
+ms.openlocfilehash: 821fe1c361dc38b1e33ac66208122de165d02020
+
 
 ---
 
@@ -51,7 +46,7 @@ A fejlesztői rendszerhez a következő szoftvereket javasoljuk:
 
     Ez az SDK az iOS 7.0 és az OS X 10.8 vagy újabb verzióin végzett fejlesztéshez alkalmas.
 
--   Hitelesítési könyvtár: Az [Azure AD Authentication Library (ADAL)](https://msdn.microsoft.com/en-us/library/jj573266.aspx) használatát javasoljuk. Használhatók azonban az Oauth 2.0-t támogató hitelesítési könyvtárak is.
+-   Hitelesítési könyvtár: az [Azure AD Authentication Library (ADAL)](https://msdn.microsoft.com/library/jj573266.aspx) használatát javasoljuk. Használhatók azonban az Oauth 2.0-t támogató hitelesítési könyvtárak is.
 
     További információ: [ADAL for iOS](https://github.com/MSOpenTech/azure-activedirectory-library-for-ios) (ADAL az iOS rendszerhez) vagy [ADAL for OS X](https://github.com/MSOpenTech/azure-activedirectory-library-for-ios/tree/OSXUniversal) (ADAL az OS X rendszerhez)
 
@@ -122,6 +117,7 @@ A felhasználói felületi kódtár újrahasznosítható felhasználói felület
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

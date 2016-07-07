@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Az Azure RMS működése | Azure RMS
-description:
-keywords:
+title: "Az Azure RMS működése | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 06/02/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: ed6c964e-4701-4663-a816-7c48cbcaf619
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5d825d6c8b2c8b7a9c34ac940c5a08439a9ae562
+ms.openlocfilehash: 505f2c94bb4fd056b4d2f51c147c6b0b84efac00
+
 
 ---
 
@@ -77,7 +71,8 @@ Az Azure RMS működésének pontosabb megértéséhez tekintse át az [Azure RM
 
 A felhasználói környezet inicializálását követően a felhasználó védelemmel láthatja el a dokumentumokat, vagy felhasználhatja a védett dokumentumok tartalmát az adott számítógépen.
 
-> [!NOTE] Ha a felhasználó egy másik Windows-számítógépet kezd el használni, vagy ha egy másik felhasználó használja ugyanazt a Windows-számítógépet, az inicializálási folyamatot meg kell ismételni.
+> [!NOTE]
+> Ha a felhasználó egy másik Windows-számítógépet kezd el használni, vagy ha egy másik felhasználó használja ugyanazt a Windows-számítógépet, az inicializálási folyamatot meg kell ismételni.
 
 ### A felhasználói környezet inicializálása
 Mielőtt a felhasználó egy Windows-számítógépen védelemmel láthatja el a tartalmakat, vagy védett tartalmakat használhat fel, elő kell készíteni a felhasználói környezetet az eszközön. Ez egy egyszeri folyamat, amely automatikusan, felhasználói beavatkozás nélkül megy végbe, amikor a felhasználó tartalomvédelem végrehajtására vagy védett tartalom felhasználására tesz kísérletet.
@@ -151,9 +146,11 @@ Az Azure RMS-ről a **Megismerés és felfedezés** szakaszban találhat tovább
 
 Ha készen áll az Azure RMS központi telepítésére a szervezeténél, az [Azure Rights Management deployment roadmap](../plan-design/deployment-roadmap.md) (Azure Rights Management üzembe helyezési menetrend) felkeresésével megismerheti a telepítés lépéseit, valamint ugyanitt megtalálja az útmutatókra mutató hivatkozásokat is.
 
-> [!TIP] További információért és segítségért használja az [Azure Rights Management – információ és támogatás](../get-started/information-support.md) című szakaszban található forrásanyagokat és hivatkozásokat.
+> [!TIP]
+> További információért és segítségért használja az [Azure Rights Management – információ és támogatás](../get-started/information-support.md) című szakaszban található forrásanyagokat és hivatkozásokat.
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

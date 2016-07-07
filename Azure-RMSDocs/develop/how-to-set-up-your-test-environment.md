@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Az alkalmazás tesztelése | Azure RMS
-description: Útmutatás az alkalmazás tesztelésének előkészítéséhez.
-keywords:
+title: "Az alkalmazás tesztelése | Azure RMS"
+description: "Útmutatás az alkalmazás tesztelésének előkészítéséhez."
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,15 +10,13 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: E480D8D6-F070-43D1-B2B0-6921459C3437
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: b01f009ec3dffbb3fe671da8a19929e53c67fb79
+ms.openlocfilehash: cf86b07ba057d8999a156ae397ff7200b12a3f5e
+
 
 ---
 
@@ -42,7 +38,7 @@ A tesztelést az Azure RMS szolgáltatással vagy egy Windows Serveren futó tar
    - Ha az alkalmazást nem a fejlesztési számítógépen teszteli, az [RMS-ügyfélprogram letöltési oldaláról](http://www.microsoft.com/en-us/download/details.aspx?id=38396) telepítheti az adott számítógépen az ügyfélprogram 2.1-es verzióját.
    - Ha az alkalmazást a fejlesztési számítógépen teszteli, ahhoz telepítenie kell a Rights Management Services SDK 2.1-es verzióját. Az RMS-ügyfélprogram 2.1-es verziója ezzel beavatkozás nélkül települ.
 
-    További információt az RMS SDK 2.1 telepítéséről [Az SDK telepítése](create-your-first-rights-aware-application.md) című cikkben találhat.
+    További információt az RMS SDK 2.1 telepítéséről [Az SDK telepítése](install-the-rms-sdk.md) című cikkben találhat.
 
 ## Megjegyzések
 
@@ -51,14 +47,15 @@ A témakörben található ismertetés nem teljes körű. Részletes informáci�
 ### Kapcsolódó témakörök
 
 * [Útmutató az RMS-kiszolgáló telepítéséhez és konfigurálásához](how-to-install-and-configure-an-rms-server.md)
-* [Útmutató: az ADAL-hitelesítés használata](how-to-use-adal-authentication,md)
-* [Az SDK telepítése](create-your-first-rights-aware-application.md)
+* [Útmutató: az ADAL-hitelesítés használata](how-to-use-adal-authentication.md)
+* [Az SDK telepítése](install-the-rms-sdk.md)
 * [Az RMS-ügyfélprogram 2.1-es verziójának üzembe helyezésével kapcsolatos megjegyzések](https://technet.microsoft.com/en-us/library/jj159267(WS.10).aspx)
  
 
  
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

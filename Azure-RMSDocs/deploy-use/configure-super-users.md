@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Felügyelők konfigurálása az Azure Rights Management és a felderítési szolgáltatások vagy adat-helyreállítás számára | Azure RMS
-description:
-keywords:
+title: "Felügyelők konfigurálása az Azure Rights Management és a felderítési szolgáltatások vagy adat-helyreállítás számára | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: acb4c00b-d3a9-4d74-94fe-91eeb481f7e3
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
+ms.openlocfilehash: 0ca9b8d9643f5489c100fa3aa614e89cd396df52
+
 
 ---
 
@@ -46,7 +40,7 @@ Alapértelmezés szerint a felügyelői funkció nincs engedélyezve, és nincse
 Ha manuálisan kívánja engedélyezni a felügyelői funkciót, használja az [Enable-AadrmSuperUserFeature](https://msdn.microsoft.com/library/azure/dn629400.aspx) Windows PowerShell-parancsmagot, majd szükség szerint rendeljen hozzá felhasználókat (vagy szolgáltatásfiókokat) az [Add-AadrmSuperUser](https://msdn.microsoft.com/library/azure/dn629411.aspx) vagy a [Set-AadrmSuperUserGroup](https://msdn.microsoft.com/library/azure/mt653943.aspx) parancsmaggal, végül pedig igény szerint adjon hozzá felhasználókat (vagy további csoportokat) ehhez a csoporthoz. 
 
 > [!NOTE]
-> Ha még nem telepítette az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)]-hez készült Windows PowerShell-modult, tekintse meg az [Installing Windows PowerShell for Azure Rights Management (Az Azure Rights Managementhez készült Windows PowerShell telepítése)](install-powershell.md) című témakört.
+> Ha még nem telepítette az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)]-hez készült Windows PowerShell-modult, tekintse meg [Az Azure Rights Managementhez készült Windows PowerShell telepítése](install-powershell.md) című témakört.
 
 Ajánlott biztonsági eljárások a felügyelői funkcióhoz:
 
@@ -77,6 +71,7 @@ További információk ezekről a parancsmagokról: [RMS Protection parancsmagok
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

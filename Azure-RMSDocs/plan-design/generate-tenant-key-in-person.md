@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Generate and transfer your tenant key – in person (A bérlőkulcs létrehozása és átvitele – személyesen) | Azure RMS
-description:
-keywords:
+title: "Generate and transfer your tenant key – in person (A bérlőkulcs létrehozása és átvitele – személyesen) | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 3281e45e-cf69-4dc5-946b-3029851d3152
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
+ms.openlocfilehash: 1acc66e9a73b100268ed722391a0a87651c64abc
+
 
 ---
 
@@ -42,7 +36,7 @@ A saját bérlőkulcsa létrehozásához kövesse a következő 3 lépést:
 -   [3. lépés: Új kulcs létrehozása](#step-3-create-a-new-key)
 
 ### 1. lépés: A munkaállomás előkészítése a Thales HSM-mel
-Telepítse az nCipher (Thales) támogatószoftvert egy Windows-számítógépen. Csatoljon a számítógéphez egy Thales HSM-et. Győződjön meg róla, hogy a Thales-eszközök az elérési úton találhatók. További információkért tekintse át a Thales HSM-hez mellékelt felhasználói útmutatót, vagy keresse fel a Thales webhelyén az Azure RMS-ekkel kapcsolatos oldalt a következő címen: [http://www.thales-esecurity.com/msrms/cloud](http://www.thales-esecurity.com/msrms/cloud)..
+Telepítse az nCipher (Thales) támogatószoftvert egy Windows-számítógépen. Csatoljon a számítógéphez egy Thales HSM-et. Győződjön meg róla, hogy a Thales-eszközök az elérési úton találhatók. További információkért tekintse át a Thales HSM-hez mellékelt felhasználói útmutatót, vagy keresse fel a Thales webhelyén az Azure RMS-ekkel kapcsolatos oldalt a következő címen: [http://www.thales-esecurity.com/msrms/cloud](http://www.thales-esecurity.com/msrms/cloud).
 
 ### 2. lépés: Biztonsági világ létrehozása
 Indítson el egy parancssort, és futtassa a Thales új világot létrehozó programját.
@@ -156,6 +150,7 @@ Ezennel végrehajtotta a saját kulcs használatának személyesen történő me
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

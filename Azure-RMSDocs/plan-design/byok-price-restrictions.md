@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: A BYOK díjszabása és korlátozásai | Azure RMS
-description:
-keywords:
+title: "A BYOK díjszabása és korlátozásai | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: f5930ed3-a6cf-4eac-b2ec-fcf63aa4e809
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
+ms.openlocfilehash: 34d5ed8ca9f5b4556429a081718fc70a789590aa
+
 
 ---
 
@@ -34,7 +28,7 @@ Azok a szervezetek, amelyek az informatikai részleg által felügyelt Azure-el�
 
 
 > [!NOTE]
-> További információk az RMS-ről egyéni felhasználók számára: [RMS for Individuals and Azure Rights Management](../understand-explore/rms-for-individuals.md) (RMS egyéni felhasználók számára és Azure Rights Management)..
+> További információk az RMS-ről egyéni felhasználók számára: [RMS egyéni felhasználók számára és Azure Rights Management](../understand-explore/rms-for-individuals.md).
 
 ![A BYOK nem támogatja az Exchange Online-t](../media/RMS_BYOK_noExchange.png)
 
@@ -60,12 +54,13 @@ Előfordulhat, hogy az Azure RMS BYOK módjának az Exchange Online-ra vonatkoz�
 
 ## További lépések
 
-Ha úgy döntött, hogy Ön felügyeli a saját kulcsát, folytassa a következővel: [Implementing your Azure Rights Management tenant key](plan-implement-tenant-key.md#implementing-your-azure-rights-management-tenant-key) (Az Azure Rights Management-bérlőkulcs megvalósítása).
+Ha úgy döntött, hogy saját maga kívánja felügyelni a saját kulcsát, folytassa a következővel: [Az Azure Rights Management-bérlőkulcs megvalósítása](plan-implement-tenant-key.md#implementing-your-azure-rights-management-tenant-key).
 
 Ha úgy döntött, hogy marad az alapértelmezett konfigurációnál, ahol a Microsoft felügyeli a bérlőkulcsot, tekintse meg a Planning and implementing your Azure Rights Management tenant key (Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása) című cikk [Next steps](plan-implement-tenant-key.md#next-steps) (További lépések) című szakaszát.
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

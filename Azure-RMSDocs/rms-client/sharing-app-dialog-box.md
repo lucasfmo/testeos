@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: A Rights Management megosztóalkalmazás párbeszédpanel-beállításai | Azure RMS
-description:
-keywords:
+title: "A Rights Management megosztóalkalmazás párbeszédpanel-beállításai | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 05/09/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 7b91ab30-6363-4929-bcbd-4dfbd05f644a
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: c611fa8a846612fed238e59e5077be67f6f9531a
+ms.openlocfilehash: 771a80843ca5ab01cd06bd4e76c827469b0e9f00
+
 
 ---
 
@@ -57,11 +51,11 @@ A választható beállítások mellett az alábbi kérdések is foglalkoztathatj
 -   Az **általános védelemmel rendelkező fájlt** a jogosulatlan személyek nem tudják megnyitni. Miután azonban a jogosult személyek megnyitották a fájlt, továbbíthatják azt védelem nélkül más személyeknek, vagy olyan helyre menthetik, amelyhez mások is hozzáférhetnek. A jogosultak egy üzenetből megtudhatják, milyen engedélyeket kaptak a fájlhoz, és az üzenet az engedélyek tiszteletben tartására is megkéri őket, de ez a védelem nem kényszeríthető. Emellett ha egy fájlt általános védelemmel lát el, az engedélyeket nem lehet tovább korlátozni. Nem korlátozhatja például a tartalmat csak megtekintésre vagy a nyomtatás tiltására.
 
     > [!NOTE]
-    > Az általános védelemmel ellátott fájlok fájlnévkiterjesztése mindig **.pfile**..
+    > Az általános védelemmel ellátott fájlok fájlnévkiterjesztése mindig **.pfile**.
 
 -   Ha azonban a Rights Management **beépített (natív) védelmét** használja olyan alkalmazásokkal, amelyek ezt lehetővé teszik (például Office-fájlokkal), a fájl védelme akkor sem szűnik meg, ha elküldik valaki másnak vagy egy másik helyen mentik. E fájlok védetté tételekor korlátozó engedélyeket is használhat, például csak olvashatóvá teheti a fájlokat, vagy engedélyezheti azok szerkesztését, miközben letiltja a nyomtatást vagy a másolást. Választhatja például a **Megtekintő – Csak megtekintés** beállítást, így a tartalom nem lesz szerkeszthető, nyomtatható vagy másolható.
 
-További információt a [Rendszergazdai útmutató a Rights Management megosztóalkalmazáshoz](sharing-app-admin-guide.md) [Védelmi szintek – natív és általános](sharing-app-admin-guide-technical.md#levels-of-protection-native-and-generic) című szakaszában talál..
+További információt a [Rights Management megosztóalkalmazás rendszergazdai útmutatójának ](sharing-app-admin-guide.md) [Védelmi szintek – natív és általános](sharing-app-admin-guide-technical.md#levels-of-protection-native-and-generic) című szakaszában talál.
 
 ## Mi az az automatikusan létrehozott .ppdf-fájl?
 
@@ -84,6 +78,7 @@ A Rights Management megosztóalkalmazás használatát szemléltető egyéb pél
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

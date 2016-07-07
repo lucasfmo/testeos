@@ -1,9 +1,7 @@
 ---
-# required metadata
-
 title: Mi az az Azure Rights Management? | Azure RMS
-description:
-keywords:
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: aeeebcd7-6646-4405-addf-ee1cc74df5df
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: e2de70fcbe0b284368b1e52c34f42d1cf4554edd
+ms.openlocfilehash: 6fe5759a790a728da7a16453e5b3ab5d523bb9fd
+
 
 ---
 
@@ -43,7 +37,7 @@ Nagyon fontos azonban, hogy a jogosult személyek és szolgáltatások (példáu
 A következő kép azt mutatja, hogy az Azure RMS hogyan működik tartalomvédelmi megoldásként az Office 365 rendszerben, valamint a helyi kiszolgálókon és szolgáltatásokon. Azt is láthatja, hogy támogatja a népszerű, Windows, Mac OS, iOS, Android és Windows Phone rendszereket futtató végfelhasználói eszközöket.
 
 > [!NOTE]
-Az Azure RMS különböző felhőalapú előfizetésekkel használható, többek között az Office 365, a Nagyvállalati mobilitási csomag és az Azure RMS Premium előfizetésekkel. További információk: [Az Azure RMS-t támogató felhőalapú előfizetések](../get-started/requirements-subscriptions.md).
+Az Azure RMS különböző felhőalapú előfizetésekkel használható, többek között az Office 365, a Nagyvállalati mobilitási csomag és az Azure RMS Premium előfizetésekkel. További információ: [Az Azure RMS-t támogató felhőalapú előfizetések](../get-started/requirements-subscriptions.md).
 
 ![Az Azure RMS működése](../media/AzRMS_elements.png)
 
@@ -59,14 +53,15 @@ További információ az Azure RMS szolgáltatásról:
 
 
 
-Ha fejest ugrana, és kipróbálná az Azure RMS szolgáltatást, használja a [Quick start tutorial for Azure Rights Management](../get-started/quick-start-tutorial.md) (Azure Rights Management gyors üzembe helyezési oktatóanyag) forrásanyagot.
+Ha azonnal szeretné kipróbálni az Azure RMS szolgáltatást, használja az [Azure Rights Management gyors üzembe helyezési oktatóanyagát](../get-started/quick-start-tutorial.md).
 
 Ugyanakkor, ha készen áll az Azure RMS központi telepítésére a szervezeténél, az [Azure Rights Management deployment roadmap](../plan-design/deployment-roadmap.md) (Azure Rights Management üzembe helyezési menetrend) felkeresésével megismerheti a telepítés lépéseit, valamint ugyanitt megtalálja az útmutatókra mutató hivatkozásokat is.
 
 > [!TIP]
-> További információért és segítségért használja az [Information and support for Azure Rights Management](../get-started/information-support.md) (Azure Rights Management – információ és támogatás) című szakaszban található forrásanyagokat és hivatkozásokat..
+> További információért és segítségért használja az [Azure Rights Management – információ és támogatás](../get-started/information-support.md) című szakaszban található forrásanyagokat és hivatkozásokat.
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

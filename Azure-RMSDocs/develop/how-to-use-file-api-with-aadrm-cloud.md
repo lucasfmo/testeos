@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: A szolgáltatásalkalmazás alkalmassá tétele a felhőalapú RMS használatára | Azure RMS
-description: Ez a témakör a szolgáltatásalkalmazás Azure Rights Management használatához végzett beállításának lépéseit ismerteti.
-keywords:
+title: "A szolgáltatásalkalmazás alkalmassá tétele a felhőalapú RMS használatára | Azure RMS"
+description: "Ez a témakör a szolgáltatásalkalmazás Azure Rights Management használatához végzett beállításának lépéseit ismerteti."
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,24 +10,22 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: EA1457D1-282F-4CF3-A23C-46793D2C2F32
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 4c3625676c7e794ef133c75881f666bae80e0513
+ms.openlocfilehash: ad8c41c9f3f3515a817d508d8f5a8953daf4b440
+
 
 ---
 
 # Útmutató: A szolgáltatásalkalmazás alkalmassá tétele a felhőalapú RMS használatára
 
-Ez a témakör a szolgáltatásalkalmazásnak az Azure Rights Management használatához végzett beállításának lépéseit ismerteti. További információ: [Ismerkedés az Azure Rights Management szolgáltatással](https://technet.microsoft.com/en-us/library/jj585016.aspx).
+Ez a témakör a szolgáltatásalkalmazásnak az Azure Rights Management használatához végzett beállításának lépéseit ismerteti. További információ: [Ismerkedés az Azure Rights Management szolgáltatással](https://technet.microsoft.com/library/jj585016.aspx).
 
 **Fontos**  
-A Rights Management Services SDK 2.1 segítségével készített szolgáltatásalkalmazásának az Azure RMS-sel történő használatához saját bérlőt kell létrehoznia. További információért lásd: [Azure RMS-követelmények: Az Azure RMS-t támogató felhőalapú előfizetések](/rights-management/get-started/requirements-subscriptions.md).
+A Rights Management Services SDK 2.1 segítségével készített szolgáltatásalkalmazásának az Azure RMS-sel történő használatához saját bérlőt kell létrehoznia. További információ: [Azure RMS-követelmények: Az Azure RMS-t támogató felhőalapú előfizetések](../get-started/requirements-subscriptions.md).
 
 ## Előfeltételek
 
@@ -176,6 +172,7 @@ Most elvégezte azon lépéseket, amelyekkel az alkalmazás használhatja az Azu
  
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jul16_HO1-->
 
 

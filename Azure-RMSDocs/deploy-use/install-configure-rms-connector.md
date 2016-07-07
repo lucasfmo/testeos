@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Az Azure Rights Management-összekötő telepítése és konfigurálása | Azure RMS
-description:
-keywords:
+title: "Az Azure Rights Management-összekötő telepítése és konfigurálása | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 06/27/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 4fed9d4f-e420-4a7f-9667-569690e0d733
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ea4b7539ab311d782c3987a8fd74940aad72e65b
+ms.openlocfilehash: 165292482349e4a233ab4030f49a297f57b041ac
+
 
 ---
 
@@ -29,7 +23,7 @@ ms.suite: ems
 
 *A következőkre vonatkozik: Azure Rights Management, Office 365*
 
-Az Azure Rights Management (RMS)-összekötő telepítésekor és konfigurálásakor vegye figyelembe a következőket. Ezek az eljárások egybevágnak [Deploying the Azure Rights Management connector](deploy-rms-connector.md) (Az Azure Rights Management-összekötő üzembe helyezése) 1-4. lépésével.
+Az Azure Rights Management (RMS)-összekötő telepítésekor és konfigurálásakor vegye figyelembe a következőket. Ezek az eljárások egybevágnak [Az Azure Rights Management-összekötő üzembe helyezése](deploy-rms-connector.md) című témakör 1-4. lépésével.
 
 Mielőtt hozzákezd, mindenképpen tekintse át és ellenőrizze az üzembe helyezés [előfeltételeit](deploy-rms-connector.md#prerequisites-for-the-rms-connector).
 
@@ -53,7 +47,7 @@ Mielőtt hozzákezd, mindenképpen tekintse át és ellenőrizze az üzembe hely
 
 3.  Az RMS-összekötő telepítéséhez választott számítógépen futtassa az **RMSConnectorSetup.exe** fájlt Rendszergazdai jogosultságokkal.
 
-4.  A Microsoft Rights Management-összekötő Beállítás oldalának Kezdőlapján válassza az **Install Microsoft Rights Management connector on the computer** (A Microsoft Rights Management-összekötő telepítése a számítógépen) lehetőséget, majd kattintson a **Tovább** gombra.
+4.  A Microsoft Rights Management-összekötő Beállítás lapjának Kezdőlapján válassza **A Microsoft Rights Management-összekötő telepítése a számítógépre** lehetőséget, majd kattintson a **Tovább** gombra.
 
 5.  Olvassa el és fogadja el az RMS-összekötő licencfeltételeit, majd kattintson a **Tovább** gombra.
 
@@ -62,22 +56,24 @@ A folytatáshoz adjon meg egy fiókot és egy jelszót az RMS-összekötő konfi
 ## Hitelesítő adatok megadása
 Az RMS-összekötő konfigurálása előtt meg kell adnia egy olyan fiók hitelesítő adatait, amely megfelelő jogosultságokkal rendelkezik az RMS-összekötő konfigurálásához. Például megadhatja az **admin@contoso.com** fiókot, majd a hozzá tartozó jelszót.
 
-A jelszó esetében karakter korlátozások vannak érvényben. Nem használhat olyan jelszót, amely a következő karakterek bármelyikét tartalmazza: És jel ( **&** ); nyitó csúcsos zárójel ( **[** ); záró csúcsos zárójel ( **]** ); egyenes idézőjel ( **"** ); aposztróf ( **'** ). Ha a jelszó tartalmazza ezek bármelyikét, az RMS-összekötő hitelesítése sikertelen lesz, és azt a hibaüzenetet kapja, hogy a felhasználónév és jelszó kombinációja helytelen, még akkor is, ha más esetekben sikeresen be tud jelentkezni velük. Ha ez az Ön jelszava esetében fennáll, akkor használjon egy másik fiókot, amelynek a jelszava nem tartalmazza a fenti különleges karakterek egyikét sem, vagy állítsa vissza úgy, hogy ne tartalmazza azokat.
+A jelszó esetében karakter korlátozások vannak érvényben. Nem használhat olyan jelszót, amely a következő karakterek bármelyikét tartalmazza: és jel (**&**); nyitó szögletes zárójel (**[**); záró szögletes zárójel (**]**); egyenes idézőjel (**"**); aposztróf (**'**). Ha a jelszó tartalmazza ezek bármelyikét, az RMS-összekötő hitelesítése sikertelen lesz, és azt a hibaüzenetet kapja, hogy a felhasználónév és jelszó kombinációja helytelen, még akkor is, ha más esetekben sikeresen be tud jelentkezni velük. Ha ez az Ön jelszava esetében fennáll, akkor használjon egy másik fiókot, amelynek a jelszava nem tartalmazza a fenti különleges karakterek egyikét sem, vagy állítsa vissza úgy, hogy ne tartalmazza azokat.
 
 Ha emellett [beléptető vezérlőket](activate-service.md#configuring-onboarding-controls-for-a-phased-deployment) vezetett be, győződjön meg arról, hogy a megadott fiók képes a tartalmak védelmére. Ha például a tartalmak védelmének képességét az „informatikai részleg” csoportra korlátozta, az itt megadott fióknak a csoport tagjának kell lennie. Ha nem az, a következő hibaüzenetet kapja: **A felügyeleti szolgáltatás és a szervezet helyének felderítésére tett kísérlet meghiúsult. Győződjön meg arról, hogy a Microsoft Rights Management szolgáltatás engedélyezve van a szervezetéhez.**
 
 Olyan fiókot használhat, amely rendelkezik az alábbi jogosultságok egyikével:
 
--   **Office 365 bérlői rendszergazda**: Olyan fiók, amely az Office 365-bérlő globális rendszergazdája.
+-   **A bérlő globális rendszergazdája**: olyan fiók, amely az Office 365-bérlő vagy az Azure AD-bérlő globális rendszergazdája.
 
--   **Azure Rights Management globális rendszergazda**: Olyan fiók, amely rendszergazdai jogosultságokkal rendelkezik az Azure RMS-bérlőhöz.
+-   **Az Azure Rights Management globális rendszergazdája**: olyan fiók az Azure Active Directoryban, amelyhez az Azure RMS globális rendszergazdai szerepkört rendelték.
 
--   **Microsoft RMS-összekötő rendszergazda**: Olyan Azure Active Directory-fiók, amely az RMS-összekötő telepítésének és felügyeletének jogával rendelkezik a szervezetben.
+-   **Az Azure Rights Management-összekötő rendszergazdája**: olyan fiók az Azure Active Directoryban, amely jogot kapott az RMS-összekötő telepítésére és felügyeletére a szervezeten belül.
 
     > [!NOTE]
-    > Ha a Microsoft RMS-összekötő rendszergazdai fiókját kívánja használni, akkor először el kell végeznie az alábbiakat az RMS-összekötő rendszergazdai szerepkörének kiosztásához:
+    > Az Azure Rights Management globális rendszergazda és az Azure Rights Management-összekötő rendszergazda szerepkört az Azure RMS [Add-AadrmRoleBasedAdministrator](https://msdn.microsoft.com/library/dn629417.aspx) parancsmag segítségével rendelik a fiókokhoz.
+    > 
+    > Az RMS-összekötő legkevesebb jogosultsággal való futtatásához hozzon létre egy külön fiókot erre a célra, majd rendelje hozzá az Azure RMS-összekötő rendszergazda szerepkörét a következőképpen:
     >
-    > 1.  Töltse le és telepítse a Windows PowerShellt a Rights Managementhez ugyanazon a számítógépen. További információkért lásd: [Installing Windows PowerShell for Azure Rights Management](install-powershell.md) (Az Azure Rights Managementhez készült Windows PowerShell telepítése).
+    > 1.  Ha még nem tette volna meg, töltse le és telepítse a Windows PowerShellt a Rights Managementhez. További információkért lásd: [Az Azure Rights Managementhez készült Windows PowerShell telepítése](install-powershell.md).
     >
     >     A **Futtatás rendszergazdaként** paranccsal indítsa el a Windows PowerShellt, majd a [Connect-AadrmService](https://msdn.microsoft.com/library/azure/dn629415.aspx) parancsot használva csatlakozzon az Azure RMS szolgáltatáshoz:
     >
@@ -97,9 +93,9 @@ Olyan fiókot használhat, amely rendelkezik az alábbi jogosultságok egyikéve
     >     ```
     >     Add-AadrmRoleBasedAdministrator -SecurityGroupDisplayName <group Name> -Role "ConnectorAdministrator"
     >     ```
-    >     Írja be például a következőt: **Add-AadrmRoleBasedAdministrator -EmailAddress melisa@contoso.com -Role " ConnectorAdministrator "**
+    >     Írja be például a következőt: **Add-AadrmRoleBasedAdministrator -EmailAddress melisa@contoso.com -Role "ConnectorAdministrator"**
     >
-    >     Bár ezek a parancsok a ConnectorAdministrator-szerepkört használják, ebben az esetben a GlobalAdministrator-szerepkört is használhatja.
+    >     Bár ezek a parancsok az összekötő-rendszergazdai szerepkör hozzárendelését végzik el, helyette a GlobalAdministrator szerepkört is használhatja.
 
 Az RMS-összekötő telepítési folyamata során megtörténik az összes előfeltételként megadott szoftver érvényesítése és telepítése, az Internet Information Services (IIS) telepítése, ha még nincs telepítve, valamint az összekötő szoftver telepítése és konfigurálása. Ezenfelül megtörténik az Azure RMS előkészítése a konfigurálásra az alábbiak létrehozásával:
 
@@ -111,7 +107,7 @@ A varázsló utolsó lapján tegye a következőket, majd kattintson a **Befejez
 
 -   Ha ezt az összekötőt telepíti először, ebben az esetben ne válassza ki a **Launch connector administrator console to authorize servers** (Összekötő-felügyeleti konzol indítása a kiszolgálók engedélyezéséhez) beállítást. A második (vagy az utolsó) RMS-összekötő telepítését követően válassza ki ezt a beállítást. Ehelyett futtassa újra a varázslót legalább egy másik számítógépen. Legalább két összekötőt telepítenie kell.
 
--   A második (vagy az utolsó) RMS-összekötő telepítését követően válassza ki a **Launch connector administrator console to authorize servers** (Összekötő-felügyeleti konzol indítása a kiszolgálók engedélyezéséhez) beállítást.
+-   A második (vagy az utolsó) RMS-összekötő telepítését követően válassza ki az **Összekötő-felügyeleti konzol indítása a kiszolgálók engedélyezéséhez** lehetőséget.
 
 > [!TIP]
 > Ekkor ellenőrzési tesztet hajthat végre annak megállapítására, hogy az RMS-összekötő webszolgáltatásai működőképesek-e:
@@ -131,7 +127,7 @@ E kiszolgálók engedélyezésekor fontolja meg az alábbiakat:
 
 -   Egyetlen bevitel során több kiszolgálót is hozzáadhat egy Active Directory biztonsági vagy terjesztési csoport, esetleg egy olyan szolgáltatásfiók formájában, amelyet egynél több kiszolgáló használ. E konfiguráció használatakor a kiszolgálócsoport tagjai ugyanazt az RMS-tanúsítványokat kapják, a bármelyikük által védelemmel ellátott tartalmak tekintetében pedig valamennyien tulajdonosokká válnak. Az adminisztratív terhek minimalizálása érdekében javasolt e konfigurációt az egyes kiszolgálók helyett egyedi csoportok esetében használni a szervezet Exchange-kiszolgálóinak vagy egy SharePoint-kiszolgálófarm engedélyezéséhez.
 
-A **Servers allowed to utilize the connector** (Összekötő használatára jogosult kiszolgálók) oldalon kattintson a **Hozzáadás** gombra.
+Az **Összekötő használatára jogosult kiszolgálók** lapon kattintson a **Hozzáadás** gombra.
 
 > [!NOTE]
 > A kiszolgálók engedélyezése az Azure RMS-ben egyenértékű konfigurációnak felel meg az AD RMS-konfiguráció esetében az NTFS-jogosultságok manuális megadásával a ServerCertification.asmx számára a szolgáltatás vagy a kiszolgáló számítógépfiókjai esetében, illetve a felügyelői jogosultságok manuális megadásával az Exchange-fiókok számára. Az összekötőn nem szükséges NTFS-jogokat alkalmazni a ServerCertification.asmx fájlra.
@@ -173,7 +169,7 @@ Az összekötő URL-címéhez tartozó kiszolgálónév a felügyelt névtéren 
 > [!IMPORTANT]
 > Javasoljuk, hogy az Exchange- és SharePoint-kiszolgálók ezen összekötő használatára történő konfigurálását követően ne módosítsa a nevet, mivel ellenkező esetben törölni kell az összes IRM-konfigurációt a kiszolgálókról, majd újra kell konfigurálni azokat.
 
-A név DNS-ben történő létrehozását és IP-címre történő konfigurálását követően konfigurálja a terheléselosztást arra a címre, amely az adatforgalmat az összekötő-kiszolgálók felé irányítja át. E célra bármely olyan IP-alapú terheléselosztó használható, amely magában foglalja a Windows Server Hálózati terheléselosztás (NLB) szolgáltatását. További információk: [Load Balancing Deployment Guide](http://technet.microsoft.com/library/cc754833%28v=WS.10%29.aspx) (Terheléselosztás üzembe helyezési útmutatója).
+A név DNS-ben történő létrehozását és IP-címre történő konfigurálását követően konfigurálja a terheléselosztást arra a címre, amely az adatforgalmat az összekötő-kiszolgálók felé irányítja át. E célra bármely olyan IP-alapú terheléselosztó használható, amely magában foglalja a Windows Server Hálózati terheléselosztás (NLB) szolgáltatását. További információk: [Terheléselosztás üzembe helyezési útmutatója](http://technet.microsoft.com/library/cc754833%28v=WS.10%29.aspx).
 
 Az NLB-fürt konfigurálásához használja az alábbi beállításokat:
 
@@ -238,12 +234,13 @@ Az RMS-összekötőfelügyelő telepítéséhez futtassa az alábbi fájlokat:
 
 -   64 bites számítógép esetén: RMSConnectorSetup.exe
 
-Ha még nem töltötte le ezeket a fájlokat, megteheti azt a [Microsoft letöltőközpontból](http://go.microsoft.com/fwlink/?LinkId=314106).
+Ha még nem töltötte le ezeket a fájlokat, a [Microsoft letöltőközpontból](http://go.microsoft.com/fwlink/?LinkId=314106) letöltheti őket.
 
 
 ## További lépések
-Az RMS-összekötő telepítését és konfigurálását követően készen áll, hogy a helyszíni kiszolgálókat annak használatára konfigurálja. Nyissa meg a következőt: [Kiszolgálók konfigurálása az Azure Rights Management-összekötő használatához](configure-servers-rms-connector.md).
+Az RMS-összekötő telepítését és konfigurálását követően készen áll, hogy a helyszíni kiszolgálókat annak használatára konfigurálja. Ugorjon a következő témakörre: [Kiszolgálók konfigurálása az Azure Rights Management-összekötő használatához](configure-servers-rms-connector.md).
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,26 +1,20 @@
 ---
-# required metadata
-
-title: Azure RMS gyors üzembe helyezési útmutató – 1. lépés | Azure RMS
-description: Az első lépése annak az oktatóanyagnak, amellyel gyorsan kipróbálhatja a szervezeténél a Microsoft Azure Rights Managementet csupán öt, 15 percnél gyorsabban végrehajtható lépéssel.
-keywords:
+title: "Azure RMS gyors üzembe helyezési útmutató – 1. lépés | Azure RMS"
+description: "Az első lépése annak az oktatóanyagnak, amellyel gyorsan kipróbálhatja a szervezeténél a Microsoft Azure Rights Managementet csupán öt, 15 percnél gyorsabban végrehajtható lépéssel."
+keywords: 
 author: Cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 06/29/2016
 ms.topic: get-started-article
 ms.prod: azure
 ms.service: rights-management
 ms.assetid: 7c4798e6-34a0-4c3f-a47f-505764ddf322
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: fab51fefed8d3a347a52ab7c118bb40b3cc23b37
+ms.openlocfilehash: 80f2742bbaab9d3252cec6f6c709012ca81218d5
+
 
 ---
 
@@ -47,13 +41,16 @@ A szolgáltatás alapértelmezés szerint akkor is le van tiltva, ha rendelkezik
 
 -   Ha olyan Office 365-előfizetéssel rendelkezik, amely tartalmazza az Azure Rights Managementet, illetve olyan Office 365-előfizetéssel, amely nem tartalmazza az Azure Rights Managementet, de rendelkezik Azure RMS Premium előfizetéssel: **Használja az Office 365 Felügyeleti központot**.
 
--   Ha nem rendelkezik Office 365-előfizetéssel: **Használja a klasszikus Azure portált**..
+-   Ha nem rendelkezik Office 365-előfizetéssel: **Használja a klasszikus Azure-portált**.
 
 ![Útmutató 1. lépésének pillanatképei](../media/AzRMS_Tutorial_1_Screenshots.png)
 
 ### A Rights Management aktiválása a klasszikus Office 365 Felügyeleti központban
 
-1.  Nyissa meg az [Office 365 portált](https://portal.office.com/), és jelentkezzen be a munkahelyi vagy iskolai fiókjával.
+> [!NOTE]
+> Ha az Office 365 felügyeleti központjának klasszikus verziója helyett az **Office 365 felügyeleti központ előzetes verzióját** használja, követheti [Az Azure Rights Management aktiválása az Office 365 Felügyeleti központ előzetes verziójából](../deploy-use/activate-office365-preview.md) dokumentumban leírt utasításokat is, vagy átválthat a klasszikus verzióra, és használhatja ezeket az utasításokat. A váltáshoz a bejelentkezés után kattintson a **Kezdőlap** lapon az **Ugrás a régi felügyeleti központra** lehetőségre.
+
+1.  Nyissa meg az [Office 365 portált](https://portal.office.com/), és jelentkezzen be Office 365 globális rendszergazdai fiókjával.
 
 2.  Ha az Office 365 Felügyeleti központ nem jelenik meg automatikusan, kattintson az alkalmazás indítóikonjára a bal felső sarokban, és válassza a **Rendszergazda** elemet. A **Rendszergazda** csempe csak az Office 365-rendszergazdák számára jelenik meg.
 
@@ -62,13 +59,13 @@ A szolgáltatás alapértelmezés szerint akkor is le van tiltva, ha rendelkezik
 
 3.  A bal oldali panelen bontsa ki a **SZOLGÁLTATÁS BEÁLLÍTÁSAI** elemet.
 
-4.  Kattintson a **Rights Management** elemre..
+4.  Kattintson a **Rights Management** elemre.
 
 5.  A **RIGHTS MANAGEMENT** lapon kattintson a **Kezelés** parancsra.
 
-6.  A **rights management** lapon kattintson az **activate** (aktiválás) elemre.
+6.  A **rights management** lapon kattintson az **aktiválás** gombra.
 
-7.  Amikor megjelenik a **Szeretné aktiválni a Rights Management szolgáltatást?** kérdés, kattintson az **aktiválás** elemre.
+7.  Amikor megjelenik a **Szeretné aktiválni a Rights Management szolgáltatást?** kérdés, kattintson az **aktiválás** gombra.
 
 Ekkor megjelenik **A Rights Management aktiválva van** üzenet és az inaktiválására szolgáló lehetőség (előfordulhat, hogy manuálisan kell frissítenie a lapot).
 
@@ -76,15 +73,15 @@ Ekkor ne kattintson a **speciális funkciók** elemre. Ezzel megnyitná a klassz
 
 ### A Rights Management aktiválása a klasszikus Azure portálon
 
-1.  Nyissa meg a [klasszikus Azure-portált](http://go.microsoft.com/fwlink/p/?LinkID=275081), és jelentkezzen be.
+1.  Nyissa meg az [klasszikus Azure-portált](http://go.microsoft.com/fwlink/p/?LinkID=275081), és jelentkezzen be Azure Active Directory globális rendszergazdai fiókjával.
 
-2.  A bal oldali panelen kattintson az **ACTIVE DIRECTORY** elemre..
+2.  A bal oldali panelen kattintson az **ACTIVE DIRECTORY** elemre.
 
-3.  Az **Active Directory** lapon kattintson a **RIGHTS MANAGEMENT** gombra..
+3.  Az **Active Directory** lapon kattintson a **RIGHTS MANAGEMENT** gombra.
 
 4.  Jelölje ki a [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] kezelni kívánt könyvtárát, kattintson az **ACTIVATE** (AKTIVÁLÁS) gombra, majd erősítse meg a műveletet.
 
-A **RIGHTS MANAGEMENT STATUS** (RIGHTS MANAGEMENT-ÁLLAPOT) értékének **Active** (Aktív) értékűnek kell lennie, és az **ACTIVATE** (AKTIVÁLÁS) lehetőséget a **DEACTIVATE** (INAKTIVÁLÁS) lehetőség váltja fel.
+A **RIGHTS MANAGEMENT STATUS** (RIGHTS MANAGEMENT ÁLLAPOT) értékének **Active** (Aktív) értékűnek kell lennie, és az **ACTIVATE** (AKTIVÁLÁS) lehetőséget a **DEACTIVATE** (INAKTIVÁLÁS) lehetőség váltja fel.
 
 Jóllehet konfigurálhat más beállításokat a Rights Management számára a portálon, ezek azonban nem szükségesek ehhez az oktatóanyaghoz, így bezárhatja a klasszikus Azure-portált.
 
@@ -102,6 +99,7 @@ Jóllehet az oktatóanyag nem tér ki erre, éles környezet esetén valószín�
 [« Bevezetés](quick-start-tutorial.md)
 [2. lépés »](tutorial-step2.md)
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO5-->
 
 

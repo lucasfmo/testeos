@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Windows PowerShell-parancsfájl az Azure RMS védelemhez a Fájlkiszolgálói erőforrás-kezelő FCI használatával | Azure RMS
-description:
-keywords:
+title: "Windows PowerShell-parancsfájl az Azure RMS védelemhez a Fájlkiszolgálói erőforrás-kezelő FCI használatával | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: ae6d8d0f-4ebc-43fe-a1f6-26b690fd83d0
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
+ms.openlocfilehash: a1771c37bffa2af60773a5befdd35c14f684c942
+
 
 ---
 
@@ -29,10 +23,10 @@ ms.suite: ems
 
 *A következőkre vonatkozik: Azure Rights Management, Windows Server 2012, Windows Server 2012 R2*
 
-Ez az oldal az [RMS protection with Windows Server File Classification Infrastructure (RMS-védelem és Windows Server fájlbesorolási infrastruktúra)](configure-fci.md) című témakörben ismertetett másolandó és szerkesztendő parancsfájlpéldát tartalmazza.
+Ez az oldal az [RMS-védelem és Windows Server fájlbesorolási infrastruktúra](configure-fci.md) című témakörben ismertetett másolandó és szerkesztendő parancsfájlpéldát tartalmazza.
 
-*&#42;&#42;Jogi nyilatkozat&#42;&#42;: Ez a parancsfájlpélda semmilyen standard támogatási program vagy szolgáltatás esetében nem támogatott a Microsoft által. A parancsfájlpéldát*
-*„ADOTT ÁLLAPOTÁBAN”, bármiféle jótállás vállalása nélkül biztosítjuk.*
+*&#42;&#42;Jogi nyilatkozat&#42;&#42;: Ezt a parancsfájlpéldát a Microsoft semmilyen standard támogatási program vagy szolgáltatás esetében nem támogatja. A *
+*parancsfájlpéldát „JELEN ÁLLAPOTÁBAN”, bármiféle jótállás vállalása nélkül biztosítjuk.*
 
 ```
 <#
@@ -180,6 +174,7 @@ if (!$Script:isScriptProcess) { exit(-1) } else {exit(0)}
 Vissza az [RMS-védelem és Windows Server fájlbesorolási infrastruktúra](configure-fci.md) című témakörhöz.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

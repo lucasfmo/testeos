@@ -12,6 +12,7 @@ ms.technology: techgroup-identity
 ms.assetid: f8707e01-b239-4d1a-a1ea-0d1cf9a8d214
 ms.reviewer: esaggese
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: bf5e3561ef24d8f44e791ff7bdc8450a73f79705
 ms.openlocfilehash: d66e4e6bca253bc2bf9d12ba22ed0202cba2edaf
 
@@ -51,7 +52,8 @@ Alternatív megoldásként a Windows PowerShellel is aktiválhatja a [!INCLUDE[a
 ## Regisztrációs vezérlők konfigurálása szakaszos bevezetéshez
 Ha nem szeretné, hogy az összes felhasználó azonnal képes a fájlok számára védelmet biztosítani az Azure RMS használatával, felhasználóregisztrációs vezérlőket állíthat be a [Set-AadrmOnboardingControlPolicy](http://msdn.microsoft.com/library/azure/dn857521.aspx) Windows PowerShell-parancs segítségével. Ezt a parancsot az Azure RMS aktiválása előtt vagy után futtathatja.
 
-> [!IMPORTANT] Ezen parancs használatához legalább **2.1.0.0** verziójú [Azure RMS Windows PowerShell-modulra](http://go.microsoft.com/fwlink/?LinkId=257721) van szükség.
+> [!IMPORTANT]
+> E parancs használatához legalább **2.1.0.0** verziójú [Azure RMS Windows PowerShell-modulra](http://go.microsoft.com/fwlink/?LinkId=257721) van szükség.
 >
 > A telepített verzió ellenőrzéséhez futtassa a **(Get-Module aadrm –ListAvailable).Version** parancsot
 
@@ -80,6 +82,6 @@ Az Office-szolgáltatások, például az Exchange Online és a SharePoint Online
 
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO5-->
 
 

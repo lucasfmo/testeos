@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Az Azure Rights Management leszerelése és inaktiválása | Azure RMS
-description:
-keywords:
+title: "Az Azure Rights Management leszerelése és inaktiválása | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 0b1c2064-0d01-45ae-a541-cebd7fd762ad
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
+ms.openlocfilehash: 8c114336551417fdbf1503ffc8350e3fc28e9c95
+
 
 ---
 
@@ -40,25 +34,25 @@ Ha megvan az Azure Rights Management-bérlőkulcsa, elvégezheti a Rights Manage
 
 |Ha ez érvényes Önre…|… tegye a következőket:|
 |----------------------------|--------------|
-|Ha azt szeretné, hogy a felhasználók továbbra is használják a Rights Managementet, de helyszíni megoldást használ az Azure RMS helyett    →|Használja a [Set-AadrmMigrationUrl](https://msdn.microsoft.com/library/azure/dn629429.aspx) parancsmagot, hogy a meglévő felhasználókat a helyszíni telepítéshez irányítsa, amikor a módosítás után védett tartalmakat használnak. A felhasználók a védett tartalom felhasználásához automatikusan használni fogják az AD RMS-telepítést.<br /><br />Ahhoz, hogy a felhasználók fel tudják használni a módosítás előtt védett tartalmakat, irányítsa át az ügyfeleket a helyszíni telepítéshez az Office 2016 és Office 2013 **LicensingRedirection** beállításkulcsának az RMS-ügyfél üzembe helyezésével kapcsolatos megjegyzések [service discovery](../rms-client/client-deployment-notes.md) (szolgáltatásészlelés) szakaszában leírtak szerinti használatával. Office 2010 esetén a **LicenseServerRedirection** beállításkulcsot használhatja, az [Office Registry Settings](https://technet.microsoft.com/library/dd772637%28v=ws.10%29.aspx) (Office beállításjegyzék-beállítások) témakörben leírtak szerint.|
+|Ha azt szeretné, hogy a felhasználók továbbra is használják a Rights Managementet, de helyszíni megoldást használ az Azure RMS helyett    →|Használja a [Set-AadrmMigrationUrl](https://msdn.microsoft.com/library/azure/dn629429.aspx) parancsmagot, hogy a meglévő felhasználókat a helyszíni telepítéshez irányítsa, amikor a módosítás után védett tartalmakat használnak. A felhasználók a védett tartalom felhasználásához automatikusan használni fogják az AD RMS-telepítést.<br /><br />Ahhoz, hogy a felhasználók fel tudják használni a módosítás előtt védett tartalmakat, irányítsa át az ügyfeleket a helyszíni telepítéshez az Office 2016 és Office 2013 **LicensingRedirection** beállításkulcsának az RMS-ügyfél üzembe helyezésével kapcsolatos megjegyzések [szolgáltatásészleléssel kapcsolatos szakaszában](../rms-client/client-deployment-notes.md) leírtak szerinti használatával. Office 2010 esetén a **LicenseServerRedirection** beállításkulcsot használhatja, az [Office beállításjegyzék-beállítások](https://technet.microsoft.com/library/dd772637%28v=ws.10%29.aspx) témakörben leírtak szerint.|
 |Ha egyáltalán nem kívánja a továbbiakban használni a Rights Management technológiákat    →|Adjon egy kijelölt rendszergazdának [felügyelői jogosultságokat](../deploy-use/configure-super-users.md), és tegye elérhetővé számára az [RMS Protection eszközt](http://www.microsoft.com/en-us/download/details.aspx?id=47256).<br /><br />A rendszergazda ezután használhatja az eszközt a fájlok tömeges visszafejtésére olyan mappákban, az Azure Rights Management által védett mappákban, hogy a fájlok visszaálljanak a védelem nélküli állapotra, és így a Rights Management technológia, például az Azure RMS vagy az AD RMS nélkül is olvashatók legyenek. Az eszközt az Azure RMS és az AD RMS szolgáltatással is lehet használni, így választhat, hogy a fájlokat az Azure RMS inaktiválása előtt vagy után fejti vissza, vagy kombinálja a kettőt.|
-|Ha nem lehet azonosítani az Azure RMS által védett fájlok mindegyikét, vagy azt szeretné, hogy a felhasználók automatikusan tudják olvasni a kihagyott védett fájlokat    →|Telepítsen egy beállításjegyzék-beállítást minden ügyfélszámítógépre az Office 2016 és Office 2013 **LicensingRedirection** beállításkulcsának az RMS-ügyfél üzembe helyezésével kapcsolatos megjegyzések [service discovery](../rms-client/client-deployment-notes.md) (szolgáltatásészlelés) szakaszában leírtak szerinti használatával. Office 2010 esetén a **LicenseServerRedirection** beállításkulcsot használhatja, az [Office Registry Settings](https://technet.microsoft.com/library/dd772637%28v=ws.10%29.aspx) (Office beállításjegyzék-beállítások) témakörben leírtak szerint.<br /><br />Emellett telepítsen egy másik beállításjegyzék-beállítást is annak érdekében, hogy a felhasználók ne védjék meg az új fájlokat. Ezt a **DisableCreation** **1** értékre állításával érheti el, az [Office beállításjegyzék-beállításai](https://technet.microsoft.com/library/dd772637%28v=ws.10%29.aspx) szakaszban leírtak szerint.|
+|Ha nem lehet azonosítani az Azure RMS által védett fájlok mindegyikét, vagy azt szeretné, hogy a felhasználók automatikusan tudják olvasni a kihagyott védett fájlokat    →|Telepítsen egy beállításjegyzék-beállítást minden ügyfélszámítógépre az Office 2016 és Office 2013 **LicensingRedirection** beállításkulcsának az RMS-ügyfél üzembe helyezésével kapcsolatos megjegyzések [szolgáltatásészleléssel kapcsolatos szakaszában](../rms-client/client-deployment-notes.md) leírtak szerinti használatával. Office 2010 esetén a **LicenseServerRedirection** beállításkulcsot használhatja, az [Office beállításjegyzék-beállítások](https://technet.microsoft.com/library/dd772637%28v=ws.10%29.aspx) témakörben leírtak szerint.<br /><br />Emellett telepítsen egy másik beállításjegyzék-beállítást is annak érdekében, hogy a felhasználók ne védjék meg az új fájlokat. Ezt a **DisableCreation** **1** értékre állításával érheti el, az [Office beállításjegyzék-beállításai](https://technet.microsoft.com/library/dd772637%28v=ws.10%29.aspx) szakaszban leírtak szerint.|
 |Ha irányított, manuálisan működő helyreállítási szolgáltatást szeretne a kihagyott fájlokhoz    →|Egy adat-helyreállítási csoporton belül adjon a kijelölt felhasználóknak [felügyelői jogosultságokat](../deploy-use/configure-super-users.md), és tegye elérhetővé számukra az [RMS Protection eszközt](http://www.microsoft.com/en-us/download/details.aspx?id=47256), hogy meg tudják szüntetni az általános jogú felhasználók által kért fájlok védettségét.<br /><br />Telepítse a beállításjegyzék-beállítást minden számítógépen annak érdekében, hogy a felhasználók ne védjék meg az új fájlokat. Ezt a **DisableCreation** **1** értékre állításával érheti el, az [Office beállításjegyzék-beállításai](https://technet.microsoft.com/library/dd772637%28v=ws.10%29.aspx) szakaszban leírtak szerint.|
 A táblázatban szereplő eljárásokkal kapcsolatos további információkért tekintse meg a következő forrásanyagokat:
 
--   Az AD RMS-sel és a telepítési referenciákkal kapcsolatos információk: [Active Directory tartalomvédelmi szolgáltatások áttekintése](https://technet.microsoft.com/library/hh831364.aspx).
+-   Az AD RMS-sel és a telepítési referenciákkal kapcsolatos információk: [Active Directory Rights Management Services áttekintése](https://technet.microsoft.com/library/hh831364.aspx).
 
--   Az Azure RMS-bérlőkulcs TPD-fájlként való importálásával kapcsolatos útmutatás: [Megbízható közzétételi tartomány hozzáadása](https://technet.microsoft.com/library/cc771460.aspx).
+-   Az Azure RMS-bérlőkulcs TPD-fájlként való importálásával kapcsolatos útmutatásért lásd: [Megbízható közzétételi tartomány hozzáadása](https://technet.microsoft.com/library/cc771460.aspx).
 
--   Az Azure RMS-hez készült Windows PowerShell-modul telepítéséhez és az áttelepítés URL-címének beállításához tekintse meg [Installing Windows PowerShell for Azure Rights Management](install-powershell.md) (Az Azure Rights Managementhez készült Windows PowerShell telepítése) című témakört.
+-   Az Azure RMS-hez készült Windows PowerShell-modul telepítéséhez és az áttelepítés URL-címének beállításához tekintse meg [Az Azure Rights Managementhez készült Windows PowerShell telepítése](install-powershell.md) című témakört.
 
 Amikor készen áll az Azure RMS szolgáltatás inaktiválására a szervezete számára, kövesse az alábbi utasításokat.
 
 ## A Rights Management inaktiválása
-Használja a következő eljárások egyikét az inaktiváláshoz [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)].
+Használja a következő eljárások egyikét az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] inaktiválásához.
 
 > [!TIP]
-> A [Disable-Aadrm](http://msdn.microsoft.com/library/windowsazure/dn629422.aspx) Windows PowerShell-parancsmagot is használhatja az inaktiváláshoz [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)].
+> A [Disable-Aadrm](http://msdn.microsoft.com/library/windowsazure/dn629422.aspx) Windows PowerShell-parancsmagot is használhatja az [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] inaktiválásához.
 
 #### A Rights Management inaktiválása az Office 365 Felügyeleti központban
 
@@ -71,7 +65,7 @@ Használja a következő eljárások egyikét az inaktiváláshoz [!INCLUDE[aad_
 
 3.  A bal oldali panelen bontsa ki a **SZOLGÁLTATÁS BEÁLLÍTÁSAI** elemet.
 
-4.  Kattintson a **Rights Management** elemre..
+4.  Kattintson a **Rights Management** elemre.
 
 5.  A **RIGHTS MANAGEMENT** lapon kattintson a **Kezelés** parancsra.
 
@@ -83,11 +77,11 @@ Ekkor megjelenik **A Rights Management nincs aktiválva** üzenet és az aktivá
 
 #### A Rights Management inaktiválása a klasszikus Azure portálon
 
-1.  Jelentkezzen be a [Klasszikus Azure portálra](http://go.microsoft.com/fwlink/p/?LinkID=275081).
+1.  Jelentkezzen be a [Klasszikus Azure-portálra](http://go.microsoft.com/fwlink/p/?LinkID=275081).
 
-2.  A bal oldali panelen kattintson az **ACTIVE DIRECTORY** elemre..
+2.  A bal oldali panelen kattintson az **ACTIVE DIRECTORY** elemre.
 
-3.  Az **Active Directory** lapon kattintson a **RIGHTS MANAGEMENT** gombra..
+3.  Az **Active Directory** lapon kattintson a **RIGHTS MANAGEMENT** gombra.
 
 4.  Válassza ki a [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] felügyelni kívánt könyvtárát, kattintson a **DEACTIVATE** (INAKTIVÁLÁS) gombra, majd erősítse meg a műveletet.
 
@@ -97,6 +91,7 @@ A **RIGHTS MANAGEMENT STATUS** (RIGHTS MANAGEMENT-ÁLLAPOT) értékének **Inact
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

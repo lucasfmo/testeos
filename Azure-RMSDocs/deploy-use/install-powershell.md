@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Az Azure Rights Managementhez készült Windows PowerShell telepítése | Azure RMS
-description:
-keywords:
+title: "Az Azure Rights Managementhez készült Windows PowerShell telepítése | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 0d665ed6-b1de-4d63-854a-bc57c1c49844
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
+ms.openlocfilehash: 590148218fdd10e88ba764b2dc523a2213e2c8bb
+
 
 ---
 
@@ -31,16 +25,16 @@ ms.suite: ems
 
 Az alábbi információk segítséget nyújtanak a Microsoft [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] (Azure RMS) szolgáltatáshoz készült Windows PowerShell telepítéséhez.
 
-Ezen Windows PowerShell-modullal felügyelheti az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] szolgáltatást a parancssorból olyan, internetkapcsolattal rendelkező számítógép használatával, amely megfelel az alábbi szakaszban felsorolt feltételeknek. Az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] szolgáltatáshoz készült Windows PowerShell támogatja az automatizálási parancsfájlokat, illetve speciális konfigurációs forgatókönyvek esetén válhat szükségessé a használata. A modul által támogatott felügyeleti feladatokkal és konfigurációkkal kapcsolatos további információ: [Administering Azure Rights Management by Using Windows PowerShell](administer-powershell.md) (Az Azure Rights Management felügyelete a Windows PowerShell használatával)..
+Ezen Windows PowerShell-modullal felügyelheti az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] szolgáltatást a parancssorból olyan, internetkapcsolattal rendelkező számítógép használatával, amely megfelel az alábbi szakaszban felsorolt feltételeknek. Az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] szolgáltatáshoz készült Windows PowerShell támogatja az automatizálási parancsfájlokat, illetve speciális konfigurációs forgatókönyvek esetén válhat szükségessé a használata. A modul által támogatott felügyeleti feladatokkal és konfigurációkkal kapcsolatos további információ: [Az Azure Rights Management felügyelete a Windows PowerShell használatával](administer-powershell.md).
 
 ## Előfeltételek
-Ez a táblázat az Azure RMS-hez készült Windows PowerShell telepítéséhez és használatához szükséges előfeltételeket ismerteti. [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)].
+Ez a táblázat az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)]-hez készült Windows PowerShell telepítéséhez és használatához szükséges előfeltételeket ismerteti.
 
 |Követelmény|További információ|
 |---------------|--------------------|
-|A [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] felügyeleti modult támogató Windows-verzió.|A támogatott operációs rendszerek listáját az [Azure Rights Management Administration Tool letöltési oldalának](http://go.microsoft.com/fwlink/?LinkId=257721) **System Requirements** (Rendszerkövetelmények) című szakaszában tekintheti meg..|
-|A Windows PowerShell minimális verziója: 2.0|A [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] felügyeleti modul támogatása a Windows PowerShell 2.0-s verziójától érhető el.<br /><br />Alapértelmezés szerint a legtöbb Windows operációs rendszer a Windows PowerShell legalább 2.0-s verzióját telepíti. Ha telepítenie kell a Windows PowerShell 2.0-s verzióját, tekintse meg az [Install Windows PowerShell 2.0](http://msdn.microsoft.com/library/ff637750.aspx) (A Windows PowerShell 2.0 telepítése) című témakört..<br /><br />Tipp: A futtatott Windows PowerShell verziójának megtekintéséhez írja be a **$PSVersionTable** karakterláncot egy Windows PowerShell-munkamenetben.|
-|A Microsoft .NET-keretrendszer minimális verziója: 4.5<br /><br />Megjegyzés: A Microsoft .NET-keretrendszer ezen verzióját tartalmazzák az újabb operációs rendszerek, így manuálisan csak akkor kell telepíteni, ha az ügyfél operációs rendszer a Windows 8.0-nál korábbi, illetve ha a kiszolgálói operációs rendszere a Windows Server 2012 előtti.|Amennyiben a Microsoft .NET-keretrendszer minimális verziója még nem lett telepítve, letöltheti a [Microsoft .NET-keretrendszer 4.5-ös verzióját](http://www.microsoft.com/download/details.aspx?id=30653)..<br /><br />A Microsoft .NET-keretrendszer ezen minimális verziója a [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] felügyeleti modul által használt bizonyos osztályokhoz szükséges.|
+|A [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] felügyeleti modult támogató Windows-verzió.|A támogatott operációs rendszerek listáját az [Azure Rights Management Administration Tool letöltési oldalának](http://go.microsoft.com/fwlink/?LinkId=257721) **Rendszerkövetelmények** című szakaszában tekintheti meg.|
+|A Windows PowerShell minimális verziója: 2.0|A [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] felügyeleti modul támogatása a Windows PowerShell 2.0-s verziójától érhető el.<br /><br />Alapértelmezés szerint a legtöbb Windows operációs rendszer a Windows PowerShell legalább 2.0-s verzióját telepíti. Ha telepítenie kell a Windows PowerShell 2.0-s verzióját, olvassa el [A Windows PowerShell 2.0 telepítése](http://msdn.microsoft.com/library/ff637750.aspx) című témakört.<br /><br />Tipp: A futtatott Windows PowerShell verziójának megtekintéséhez írja be a **$PSVersionTable** karakterláncot egy Windows PowerShell-munkamenetben.|
+|A Microsoft .NET-keretrendszer minimális verziója: 4.5<br /><br />Megjegyzés: A Microsoft .NET-keretrendszer ezen verzióját tartalmazzák az újabb operációs rendszerek, így manuálisan csak akkor kell telepíteni, ha az ügyfél operációs rendszer a Windows 8.0-nál korábbi, illetve ha a kiszolgálói operációs rendszere a Windows Server 2012 előtti.|Amennyiben a Microsoft .NET-keretrendszer minimális verziója még nem lett telepítve, letöltheti a [Microsoft .NET-keretrendszer 4.5-ös verzióját](http://www.microsoft.com/download/details.aspx?id=30653).<br /><br />A Microsoft .NET-keretrendszer ezen minimális verziója a [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] felügyeleti modul által használt bizonyos osztályokhoz szükséges.|
 |Microsoft Online Services bejelentkezési segéd 7.0|A Microsoft Online Services bejelentkezési segéd az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] szolgáltatásbeli hitelesítéshez.<br /><br />További információ: [Letöltőközpont: Microsoft Online Services bejelentkezési segéd (MOS SIA) informatikai szakembereknek – RTW](http://www.microsoft.com/en-us/download/details.aspx?id=41950).|
 
 ## A Rights Management felügyeleti modul telepítése
@@ -76,6 +70,7 @@ Az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] 
 [Administering Azure Rights Management by Using Windows PowerShell (Az Azure Rights Management felügyelete a Windows PowerShell használatával)](administer-powershell.md)
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

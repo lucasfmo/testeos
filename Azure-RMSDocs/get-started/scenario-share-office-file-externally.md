@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Forgatókönyv – Office-fájl megosztása egy másik szervezet felhasználóival | Azure RMS
-description:
-keywords:
+title: "Forgatókönyv – Office-fájl megosztása egy másik szervezet felhasználóival | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: c10a4d7b-f57a-4a43-b66e-477777be59cc
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ed50d87138c428fadfd22cd5b3ef3c7f7e421848
+ms.openlocfilehash: 6a6f9d8c0a98752413a99d30926f2b5bc8af193d
+
 
 ---
 
@@ -74,7 +68,8 @@ Az alábbi sablon használatával másolja és illessze be a felhasználói utas
 
     -   A lépések nem foglalják magukban a lejárati dátum beállítását. Ha az információk nem használhatók egy adott dátumot követően, adjon hozzá egy újabb lépést a megfelelő lejárati dátum (például az e-mail-üzenet elküldésétől számított 90 nap) beállítására.
 
-    > [!NOTE] További információ a felhasználók által választható egyes beállításokkal kapcsolatban: [A Rights Management megosztóalkalmazás párbeszédpanel-beállításai](https://technet.microsoft.com/library/dn574738.aspx).
+    > [!NOTE]
+    > További információ a felhasználók által választható egyes beállításokkal kapcsolatban: [A Rights Management megosztóalkalmazás párbeszédpanel-beállításai](https://technet.microsoft.com/library/dn574738.aspx).
 
 4.  Végezzen el bármilyen egyéb tetszés szerinti módosítást az utasításkészletre vonatkozóan, majd küldje el az érintett felhasználóknak.
 
@@ -159,6 +154,7 @@ A [dokumentumkövetési portál](https://track.azurerms.com/) használatával k�
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

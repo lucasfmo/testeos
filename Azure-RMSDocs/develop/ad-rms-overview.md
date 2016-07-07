@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Áttekintés | Azure RMS
-description: A Rights Management Services (RMS) egy információvédelmi technológia, amely segítségével megakadályozhatja a digitális adatok jogosulatlan használatát.
-keywords:
+title: "Áttekintés | Azure RMS"
+description: "A Rights Management Services (RMS) egy információvédelmi technológia, amely segítségével megakadályozhatja a digitális adatok jogosulatlan használatát."
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,15 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: B546B6C1-ADC1-4EBD-95E2-B4A74E4E980B
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: f7dd88d90357c99c69fe4fdde67c1544595e02f8
+ms.openlocfilehash: 37f3bc2308caaa8fd5e5c7fc8c56b6dc4d076b97
+
 
 ---
 
@@ -44,7 +39,7 @@ Az alábbiakban néhány olyan forgatókönyv látható, amelyben a Rights Manag
 -   Egy online dokumentumkönyvtár tulajdonosai a felhasználó személyazonossága alapján szeretnék engedélyezni a dokumentumok megtekintését, nyomtatását és szerkesztését.
 -   Egy vállalat szeretne bizalmas alkalmazotti információkat közzétenni egy belső webhelyen, amely bizonyos felhasználókra korlátozza a megtekintési és szerkesztési jogosultságot.
 
-Az AD RMS-kiszolgálóról, az AD RMS-ügyfélről és azok funkcióiról további információt a TechNet [az AD RMS informatikai szakembereknek szóló dokumentációjában](https://TechNet.Microsoft.Com/en-us/library/cc771234.aspx) találhat.
+Az AD RMS-kiszolgálóról, az AD RMS-ügyfélről és azok funkcióiról további információt a TechNet [az AD RMS informatikai szakembereknek szóló dokumentációjában](https://TechNet.Microsoft.Com/library/cc771234.aspx) találhat.
 
 A szakasz többi témaköre az RMS-architektúrával és annak üzembe helyezésével foglalkozik.
 
@@ -66,6 +61,7 @@ A szakasz többi témaköre az RMS-architektúrával és annak üzembe helyezés
  
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

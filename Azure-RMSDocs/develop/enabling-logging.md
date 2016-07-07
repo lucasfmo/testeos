@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Útmutató&#58; Hiba- és teljesítménynaplózás engedélyezése | Azure RMS
-description: A Microsoft Rights Management SDK 4.2 egyetlen eszköztulajdonságon keresztül kezeli a diagnosztikát és a teljesítménynaplókat.
-keywords:
+title: "Útmutató&#58; Hiba- és teljesítménynaplózás engedélyezése | Azure RMS"
+description: "A Microsoft Rights Management SDK 4.2 egyetlen eszköztulajdonságon keresztül kezeli a diagnosztikát és a teljesítménynaplókat."
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,15 +10,13 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: F5AD3826-2292-4A25-AF5C-D17D083F5742
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 79e58b8092ea7cb057229d4c464d79f3694296e6
+ms.openlocfilehash: 5faea360de8aa9ecb82abf25b5c1392d52d0afad
+
 
 ---
 
@@ -90,7 +86,7 @@ Aktuális naplózásvezérlő jelző beállításának lekérése
     CustomerExperienceOptions loggingOption = CustomerExperienceConfiguration::Option;
 
 
-**Megjegyzés** – A fenti Windows kódrészletek C++ nyelvben vannak. A C\# nyelvhez frissítse a szintaxist a ‘.’ karakterrel a ‘::’ helyett.
+**Megjegyzés** – A fenti Windows kódrészletek C++ nyelvben vannak. A C\# nyelvhez frissítse a szintaxist a „.” karakterrel a ‘::’ helyett.
 
 **Linux / C++** – Ez az SDK alapvető naplózással rendelkezik, amely a többi platformhoz képest kevésbé átfogó. További információt az [RMS SDK for portable C++](https://github.com/AzureAD/rms-sdk-for-cpp#troubleshooting) kód a „README.md” fájljának **Troubleshooting** (Hibaelhárítás) szakaszban talál.
 
@@ -99,6 +95,7 @@ Aktuális naplózásvezérlő jelző beállításának lekérése
  
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

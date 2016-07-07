@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Office 365&colon; Konfigurálás ügyfelek és online szolgáltatások számára | Azure RMS
-description:
-keywords:
+title: "Office 365&colon; Konfigurálás ügyfelek és online szolgáltatások számára | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 0a6ce612-1b6b-4e21-b7fd-bcf79e492c3b
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
+ms.openlocfilehash: 7a2436a6ebb17e4336f1321b8f3742e34ea59689
+
 
 ---
 
@@ -31,15 +25,15 @@ ms.suite: ems
 
 Mivel az Office 365 natívan támogatja az Azure RMS-t, az olyan alkalmazásokhoz, mint a Word, az Excel, a PowerPoint, az Outlook és az Outlook Web App, nincs szükség az ügyfélszámítógép konfigurálására a tartalomvédelmi szolgáltatások (IRM) funkcióinak támogatásához. A felhasználóknak egyszerűen be kell jelentkezniük az Office-alkalmazásaikba [!INCLUDE[o365_1](../includes/o365_1_md.md)] hitelesítő adataikkal, és máris levédhetik a fájljaikat, valamint használhatják a mások által levédett fájlokat és e-maileket.
 
-Emellett azért javasoljuk, hogy egészítse ki ezeket az alkalmazásokat a Rights Management megosztóalkalmazással, hogy a felhasználók kihasználhassák az Office-bővítmény előnyeit. További információk: [Rights Management sharing application: Installation and configuration for clients](configure-sharing-app.md) (Rights Management megosztóalkalmazás: telepítés és konfigurálás ügyfelek esetén).
+Emellett azért javasoljuk, hogy egészítse ki ezeket az alkalmazásokat a Rights Management megosztóalkalmazással, hogy a felhasználók kihasználhassák az Office-bővítmény előnyeit. További információk: [Rights Management megosztóalkalmazás: telepítés és konfigurálás ügyfelek esetén](configure-sharing-app.md).
 
 ## Exchange Online: az IRM konfigurálása
-Ahhoz, hogy az Exchange Online támogassa az Azure RMS-t, konfigurálnia kell a tartalomvédelmi szolgáltatásokat (IRM) az Exchange Online-hoz. Ehhez futtassa a Windows PowerShellben (nincs szükség külön modul telepítésére) [az Exchange Online PowerShell-parancsait](https://technet.microsoft.com/library/jj200677.aspx)..
+Ahhoz, hogy az Exchange Online támogassa az Azure RMS-t, konfigurálnia kell a tartalomvédelmi szolgáltatásokat (IRM) az Exchange Online-hoz. Ehhez futtassa a Windows PowerShellben (nincs szükség külön modul telepítésére) [az Exchange Online PowerShell-parancsait](https://technet.microsoft.com/library/jj200677.aspx).
 
 > [!NOTE]
-> Ha ügyfél által felügyelt bérlőkulcsot (BYOK) használ az Azure RMS-hez egy Microsoft által felügyelt bérlőkulcs alapértelmezett konfigurációja helyett, jelenleg nem konfigurálhatja az Exchange Online-t az Azure RMS támogatására. További információk: [A BYOK díjszabása és korlátozásai](../plan-design/byok-price-restrictions.md).
+> Ha ügyfél által felügyelt bérlőkulcsot (BYOK) használ az Azure RMS-hez egy Microsoft által felügyelt bérlőkulcs alapértelmezett konfigurációja helyett, jelenleg nem konfigurálhatja az Exchange Online-t az Azure RMS támogatására. További információ: [A BYOK díjszabása és korlátozásai](../plan-design/byok-price-restrictions.md).
 >
-> Ha BYOK használata mellett próbálja konfigurálni az Exchange Online-t, a kulcs importálására szolgáló parancs (5. lépés a következő eljárásban) meghiúsul a következő hibaüzenettel: **[FailureCategory=Cmdlet-FailedToGetTrustedPublishingDomainFromRmsOnlineException]**.
+> Ha BYOK használata mellett próbálja konfigurálni az Exchange Online-t, a kulcs importálására szolgáló parancs (a következő eljárás 5. lépése) meghiúsul a következő hibaüzenettel: **[FailureCategory=Cmdlet-FailedToGetTrustedPublishingDomainFromRmsOnlineException]**.
 
 Az alábbi lépések egy jellemző parancskészletet mutatnak be, amely futtatásával engedélyezhető az Exchange Online számára az Azure RMS használata:
 
@@ -120,7 +114,7 @@ Az alábbi lépések egy jellemző parancskészletet mutatnak be, amely futtatá
     Remove-PSSession $Session
     ```
 
-A felhasználók mostantól az Azure RMS használatával védhetik az e-mail-üzeneteiket. Az Outlook Web App alkalmazásban például válassza a bővített menü **Engedélyek beállítása** elemét (**...**), majd válassza a **Nem továbbítandó** lehetőséget, vagy az egyik elérhető sablont az adatvédelem e-mail-üzenetekre és az esetleges mellékletekre való alkalmazásához. Viszont, mivel az Outlook Web App egy napig tartja a gyorsítótárban a felhasználói felületet, a konfigurációs parancsok futtatása után várja meg ezen időszak leteltét, mielőtt adatvédelmet próbál alkalmazni az e-mail-üzenetekre. Mielőtt a felhasználói felület frissülne, és tükrözné az új konfigurációt, az **Engedélyek beállítása** menüből nem érhetők el a lehetőségek.
+A felhasználók mostantól az Azure RMS használatával védhetik az e-mail-üzeneteiket. Az Outlook Web App alkalmazásban például válassza a bővített menü (**...**) **Engedélyek beállítása** elemét, majd válassza a **Nem továbbítandó** lehetőséget, vagy az egyik elérhető sablont az adatvédelem e-mail-üzenetekre és az esetleges mellékletekre való alkalmazásához. Viszont, mivel az Outlook Web App egy napig tartja a gyorsítótárban a felhasználói felületet, a konfigurációs parancsok futtatása után várja meg ezen időszak leteltét, mielőtt adatvédelmet próbál alkalmazni az e-mail-üzenetekre. Mielőtt a felhasználói felület frissülne, és tükrözné az új konfigurációt, az **Engedélyek beállítása** menüből nem érhetők el a lehetőségek.
 
 > [!IMPORTANT]
 > Ha új [egyéni sablonokat hoz létre](configure-custom-templates.md) az Azure RMS-hez, vagy frissíti a sablonokat, a módosítások Exchange Online-nal való szinkronizálásához minden alkalommal futtatnia kell a következő Exchange Online PowerShell-parancsot (ha szükséges, előbb futtassa a 2. és 3. lápést): `Import-RMSTrustedPublishingDomain -Name "RMS Online - 1" -RefreshTemplates –RMSOnline`
@@ -160,18 +154,18 @@ Ezt a konfigurálást a SharePoint-webhely rendszergazdája végzi el.
 Miután engedélyezte a tartalomvédelmi szolgáltatásokat a SharePoint Online-hoz, a felhasználók OneDrive Vállalati verzióban található dokumentumtárára is konfigurálható a Rights Management-védelem.  A felhasználók ezt maguknak konfigurálhatják a OneDrive **Beállítások** ikonjának használatával. Noha rendszergazdák nem konfigurálhatják a Rights Managementet a felhasználói OneDrive Vállalati verzióhoz a SharePoint felügyeleti központtal, a Windows PowerShell használatával elvégezhető ez a lépés.
 
 > [!NOTE]
-> A OneDrive Vállalati verzió konfigurálásával kapcsolatos további információért tekintse meg az Office-dokumentáció [a OneDrive Vállalati verzió az Office 365-ben történő beállítását](https://support.office.com/article/Set-up-OneDrive-for-Business-in-Office-365-3e21f8f0-e0a1-43be-aa3e-8c0236bf11bb) ismertető szakaszát..
+> A OneDrive Vállalati verzió konfigurálásával kapcsolatos további információért tekintse meg az Office-dokumentáció [a OneDrive Vállalati verzió az Office 365-ben történő beállítását](https://support.office.com/article/Set-up-OneDrive-for-Business-in-Office-365-3e21f8f0-e0a1-43be-aa3e-8c0236bf11bb) ismertető szakaszát.
 
 #### Felhasználói konfigurálás
 Juttassa el a felhasználókhoz ezt az útmutatást, hogy konfigurálhassák a OneDrive Vállalati verziót, és IRM-védelmet biztosíthassanak az üzleti fájljaikhoz.
 
-1.  A OneDrive-ban kattintson a **Beállítások** ikonra a Beállítások menü megnyitásához, majd kattintson a **Webhely tartalma** elemre..
+1.  A OneDrive-ban kattintson a **Beállítások** ikonra a Beállítások menü megnyitásához, majd kattintson a **Webhely tartalma** elemre.
 
 2.  Vigye a mutatót a **Dokumentumok** csempére, válassza a három pontot (**...**), majd kattintson a **BEÁLLÍTÁSOK** elemre.
 
-3.  A **Beállítások** lap **Engedélyek és kezelés** szakaszában kattintson a **Tartalomvédelmi szolgáltatások** elemre..
+3.  A **Beállítások** lap **Engedélyek és kezelés** szakaszában kattintson a **Tartalomvédelmi szolgáltatások** elemre.
 
-4.  A **Tartalomvédelmi szolgáltatás beállításai** lapon jelölje be a **Letöltési jogosultságok korlátozása a tárban** jelölőnégyzetet, adja meg a választott engedélyek nevét és leírását, és opcionálisan kattintson a **BEÁLLÍTÁSOK MEGJELENÍTÉSE** elemre az opcionális konfigurációk beállításához, majd kattintson az **OK** gombra.
+4.  A **Tartalomvédelmi szolgáltatás beállításai** lapon jelölje be a **Letöltési jogosultságok korlátozása a tárban** jelölőnégyzetet, adja meg a választott engedélyek nevét és leírását, és amennyiben szeretne, kattintson a **BEÁLLÍTÁSOK MEGJELENÍTÉSE** elemre a választható konfigurációk beállításához, majd kattintson az **OK** gombra.
 
     A konfigurációs lehetőségekkel kapcsolatos további információért tekintse meg az Office-dokumentáció [Tartalomvédelmi szolgáltatás alkalmazása listában vagy tárban](https://support.office.com/article/Apply-Information-Rights-Management-to-a-list-or-library-3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1) című szakaszában található útmutatást.
 
@@ -180,9 +174,9 @@ Mivel ez a konfiguráció a rendszergazdák helyett a felhasználókra hárítja
 #### Rendszergazdai konfigurálás
 Noha nem konfigurálhatja az IRM-et a felhasználók OneDrive Vállalati verziójához a SharePoint felügyeleti központtal, a Windows PowerShell használatával elvégezhető ez a lépés. Ha engedélyezni szeretné az IRM-et ezekhez a könyvtárakhoz, hajtsa végre az alábbi lépéseket:
 
-1.  Töltse le és telepítse a [SharePoint Online ügyféloldali összetevők SDK-ját](http://www.microsoft.com/en-us/download/details.aspx?id=42038)..
+1.  Töltse le és telepítse a [SharePoint Online ügyféloldali összetevők SDK-ját](http://www.microsoft.com/en-us/download/details.aspx?id=42038).
 
-2.  Töltse le és telepítse a [SharePoint Online felügyeleti rendszerhéjat](http://www.microsoft.com/en-us/download/details.aspx?id=35588)..
+2.  Töltse le és telepítse a [SharePoint Online felügyeleti rendszerhéjat](http://www.microsoft.com/en-us/download/details.aspx?id=35588).
 
 3.  Másolja át a következő parancsfájl tartalmát, és adja a Set-IRMOnOneDriveForBusiness.ps1 nevet a fájlnak a számítógépén.
 
@@ -584,7 +578,7 @@ Noha nem konfigurálhatja az IRM-et a felhasználók OneDrive Vállalati verzió
 > [!TIP]
 > Ezt a parancsfájlt használhatja a SharePoint Online-könyvtárhoz tartozó IRM konfigurálásához is. Ennél a konfigurációnál érdemes engedélyezni **A tartalomvédelmi szolgáltatást nem támogató dokumentumok feltöltésének tiltása** kiegészítő beállítást. Ezzel biztosítható, hogy a könyvtár csak védett dokumentumokat tartalmazzon.    Ehhez adja hozzá az `-IrmReject` paramétert a Set-IrmConfiguration parancshoz a parancsfájlban.
 >
-> Módosítania kell a `$webUrls` változót (például: **https://contoso.sharepoint.com**) és a `$listTitle` változót (például: **$Reports**) is.).
+> Módosítania kell a `$webUrls` változót (például: **https://contoso.sharepoint.com**) és a `$listTitle` változót (például: **$Reports**) is.
 
 Ha le kell tiltania az IRM-et a felhasználói OneDrive Vállalati verzió könyvtáraihoz, tekintse meg [Az IRM-et letiltó parancsfájl a OneDrive Vállalati verzióhoz](#script-to-disable-irm-for-onedrive-for-business) című szakaszt.
 
@@ -1111,6 +1105,7 @@ Disconnect-SPOService -ErrorAction SilentlyContinue
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

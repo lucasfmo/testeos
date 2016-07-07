@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Azure RMS gyors üzembe helyezési útmutató – 2. lépés | Azure RMS
-description: A második lépése annak az oktatóanyagnak, amellyel gyorsan kipróbálhatja a szervezeténél a Microsoft Azure Rights Managementet csupán öt, 15 percnél gyorsabban végrehajtható lépéssel.
-keywords:
+title: "Azure RMS gyors üzembe helyezési útmutató – 2. lépés | Azure RMS"
+description: "A második lépése annak az oktatóanyagnak, amellyel gyorsan kipróbálhatja a szervezeténél a Microsoft Azure Rights Managementet csupán öt, 15 percnél gyorsabban végrehajtható lépéssel."
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: f32cf2f3-29e2-429c-a0fd-b16cc482484a
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ed50d87138c428fadfd22cd5b3ef3c7f7e421848
+ms.openlocfilehash: da706bcaf52d0519706898501c563a9a03231dd9
+
 
 ---
 
@@ -71,9 +65,11 @@ Mostantól készen áll a csak az adott személyekkel megosztani kívánt inform
 |A natív védelem és a általános védelem közötti különbségek megértése|[Mi a különbség az általános védelem és a beépített (natív) védelem között?](../rms-client/sharing-app-dialog-box.md#what-s-the-difference-between-generic-protection-and-built-in-native-protection-)|
 
 
->[!div class="step-by-step"] [« 1. lépés](quick-start-tutorial.md)
+>[!div class="step-by-step"]
+[« 1. lépés](quick-start-tutorial.md)
 [3. lépés »](tutorial-step3.md)
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

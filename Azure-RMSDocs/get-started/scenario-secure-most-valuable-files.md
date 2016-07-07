@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Forgatókönyv – A legértékesebb fájlok védelmének biztosítása | Azure RMS
-description:
-keywords:
+title: "Forgatókönyv – A legértékesebb fájlok védelmének biztosítása | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 05/20/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 95f1844a-612c-4e67-bbe6-4b6b92295221
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 332e102cb27854314b93a71bfeae82a95c9a7812
+ms.openlocfilehash: d4325fb8a0b27d0a8d4fd7451b9d11d10153ed8d
+
 
 ---
 
@@ -94,7 +88,8 @@ Ehhez a forgatókönyvhöz az alábbiaknak kell teljesülniük:
 
 További információ a fájlok helyi védelmével kapcsolatban: [Protect a file on a device (protect in-place) by using the Rights Management sharing application](https://technet.microsoft.com/library/dn574733%28v=ws.10%29.aspx) (Fájlok védelemmel ellátása az eszközökön (helyi védelem) a Rights Management megosztóalkalmazás használatával).
 
-> [!TIP]Ha túl sok a védelemmel ellátni kívánt fájl ehhez a manuális eljáráshoz, fontolja meg az [RMS Protection eszköz](https://www.microsoft.com/en-us/download/details.aspx?id=47256) használatát a fájlok tömeges védelemmel való ellátásához a sablon segítségével.
+> [!TIP]
+> Ha túl sok a védelemmel ellátni kívánt fájl ehhez a manuális eljáráshoz, fontolja meg az [RMS Protection eszköz](https://www.microsoft.com/en-us/download/details.aspx?id=47256) használatát a fájlok tömeges védelemmel való ellátásához a sablon segítségével.
 
 ### A fájlokhoz való hozzáférés figyelés és a hozzáférés visszavonása szükség esetén
 
@@ -152,6 +147,7 @@ Az alábbi fájlokat nagyon magas szintű védelemmel látták el, ezért csak a
 
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

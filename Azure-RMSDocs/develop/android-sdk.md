@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Android-beállítás | Azure RMS
-description: Az Android rendszerre készült alkalmazások a Microsoft Rights Management SDK 4.2 használatával integrált információvédelmet tudnak biztosítani az alkalmazásokban.
-keywords:
+title: "Android-beállítás | Azure RMS"
+description: "Az Android rendszerre készült alkalmazások a Microsoft Rights Management SDK 4.2 használatával integrált információvédelmet tudnak biztosítani az alkalmazásokban."
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,15 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 986f6932-159b-4791-bd1a-7640a83ee792
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: f7dd88d90357c99c69fe4fdde67c1544595e02f8
+ms.openlocfilehash: 30fad88ff664e2df935c8f2cfd28f8b1fe251f67
+
 
 ---
 
@@ -50,7 +45,7 @@ A fejlesztői rendszerhez a következő szoftvereket javasoljuk:
 
     Ez az SDK az Android 4.0.3-as (15. szintű API) vagy újabb rendszerekre való fejlesztéshez alkalmas.
 
--   Hitelesítési könyvtár: Az [Azure AD Authentication Library (ADAL)](https://msdn.microsoft.com/en-us/library/jj573266.aspx) használatát javasoljuk. Használhatók azonban az Oauth 2.0-t támogató hitelesítési könyvtárak is.
+-   Hitelesítési könyvtár: Az [Azure AD Authentication Library (ADAL)](https://msdn.microsoft.com/library/jj573266.aspx) használatát javasoljuk. Használhatók azonban az Oauth 2.0-t támogató hitelesítési könyvtárak is.
 
     További információ: [ADAL Androidhoz](https://github.com/MSOpenTech/azure-activedirectory-library-for-android)
 
@@ -99,14 +94,14 @@ A felhasználói felületi kódtár újrahasznosítható felhasználói felület
 
 **Hivatkozás az SDK-ra**
 
--   Navigáljon ahhoz a mappához, ahová kicsomagolta az *adrms\_android\_sdk.zip* fájlt. Az „SDK > com > microsoft > rightsmanagement” mappában győződjön meg arról, hogy nem írásvédett a *.classpath*, a *.project* és a *project.properties* fájl.
+-   Lépjen abba a mappába, ahová az *adrms\_android\_sdk.zip* fájlt kicsomagolta. Az „SDK > com > microsoft > rightsmanagement” mappában győződjön meg arról, hogy nem írásvédett a *.classpath*, a *.project* és a *project.properties* fájl.
 -   Az SDK-ra való hivatkozáshoz importálnia kell azt a munkaterületre.
 
     Kattintson az Eclipse-ben a **File** (Fájl) elemre. A **File** (Fájl) menüben kattintson az **Import** (Importálás) elemre. Az **Import** (Importálás) párbeszédpanelen válassza az **Android / Existing Android Code into Workspace** (Android / Meglévő Android kód a munkaterületre) lehetőséget.
 
     ![Importálás a munkaterületre](../media/Android-setup-07.png)
 
--   Kattintson a **Tovább**gombra. Navigáljon ahhoz a mappához, ahová kicsomagolta az *adrms\_android\_sdk.zip* fájlt, és jelölje ki. Az SDK-nak **com.microsoft.rightsmanagement** néven kell megjelennie a listában.
+-   Kattintson a **Tovább**gombra. Válassza ki azt a mappát, ahová az *adrms\_android\_sdk.zip* fájlt kicsomagolta. Az SDK-nak **com.microsoft.rightsmanagement** néven kell megjelennie a listában.
 
     ![Navigálás a mappához és annak kijelölése](../media/Android-setup-08c.jpg)
 
@@ -131,12 +126,7 @@ A felhasználói felületi kódtár újrahasznosítható felhasználói felület
 -   A jegyzékkel kapcsolatos lépést ellenőrizheti a jegyzék a szövegszerkesztő nézetben való megtekintésével. Ellenőrizze, hogy megjelennek-e az alábbi sorok:
 
 
-    <uses-sdk
-         android:minSdkVersion="15"
-         android:targetSdkVersion="19"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission/>
+    <uses-sdk      android:minSdkVersion="15"      android:targetSdkVersion="19"/> <uses-permission android:name="android.permission.INTERNET"/> <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/> <uses-permission/>
 
 
 **Megjegyzés** Az SDK az *android.support.v4*-et használja
@@ -158,6 +148,7 @@ A felhasználói felületi kódtár újrahasznosítható felhasználói felület
  
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

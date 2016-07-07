@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Gyakori kérdések az Azure Rights Management szolgáltatásról | Azure RMS
-description:
-keywords:
+title: "Gyakori kérdések az Azure Rights Management szolgáltatásról | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 06/07/2016
+ms.date: 06/30/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 71ce491f-41c1-4d15-9646-455a6eaa157d
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 64b9cf141b755e4d54907424a7dcbd4ee14fadd7
+ms.openlocfilehash: 758a603dde2c185767ba85229a397fd6e77b1c5b
+
 
 ---
 
@@ -32,7 +26,11 @@ ms.suite: ems
 Néhány gyakran feltett kérdés a Microsoft [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] (más néven Azure RMS) termékről:
 
 ## Mire van szükségem az Azure RMS telepítéséhez, és hogyan kezdjek hozzá?
-Először tekintse meg [Az Azure Rights Management követelményei](requirements-azure-rms.md) című szakaszt, amely a felhőalapú előfizetési lehetőségekről, a helyszíni kiszolgálók Azure RMS-sel való használatáról, a jelenleg nem támogatott telepítési forgatókönyvekről, az Azure RMS-t támogató eszközökről és alkalmazásokról tartalmaz információkat, valamint megtalálható benne a tűzfalak és proxykiszolgálók esetlegesen szükséges konfigurálásához egy, az IP-címeket és a tartományneveket tartalmazó lista hivatkozása. Érdemes megtekinteni az **Első lépések ** és a **Megismerés és felfedezés** szakasz további cikkeit is, hogy alapszinten megértse, hogyan segít az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] a szervezeti adatok védelmében, hogyan működik együtt a különböző alkalmazásokkal, miben különbözik az Active Directory tartalomvédelem helyszíni verziójától, és megismerje az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] termékre jellemző terminológiát és rövidítéseket.
+Először tekintse meg [Az Azure Rights Management követelményei](requirements-azure-rms.md) című szakaszt, amely a felhőalapú előfizetési lehetőségekről, a helyszíni kiszolgálók Azure RMS-sel való használatáról, a jelenleg nem támogatott telepítési forgatókönyvekről, az Azure RMS-t támogató eszközökről és alkalmazásokról tartalmaz információkat, valamint megtalálható benne a tűzfalak és proxykiszolgálók esetlegesen szükséges konfigurálásához egy, az IP-címeket és a tartományneveket tartalmazó lista hivatkozása. 
+
+Érdemes megtekinteni az **Első lépések ** és a **Megismerés és felfedezés** szakasz további cikkeit is annak alapszintű megértéséhez, hogy miként segíti az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] a szervezeti adatok védelmét, hogyan működik együtt a különböző alkalmazásokkal, miben különbözik az Active Directory Rights Management helyszíni verziójától, továbbá az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] termékkel kapcsolatos terminológia és rövidítések megismeréséhez.
+
+Ezután a termék használatához használja az [Azure Rights Management üzembe helyezési menetrendet](../plan-design/deployment-roadmap.md).
 
 ## Az Azure RMS csak a felhőben tárolt fájlok védelmére alkalmas?
 Nem, ez egy gyakori félreértés. Az Azure Rights Management szolgáltatás (és a Microsoft) nem tekinti meg és nem tárolja az adatait a tartalomvédelmi szolgáltatás folyamatának részeként. A védett információkat a rendszer sosem küldi el vagy tárolja az Azure-ban, kivéve ha kifejezetten ott tárolja, vagy olyan felhőszolgáltatást használ, amely az Azure-ban tárolja őket. 
@@ -40,16 +38,39 @@ Nem, ez egy gyakori félreértés. Az Azure Rights Management szolgáltatás (é
 További információkért tekintse meg [Az Azure RMS működése – technikai részletek](../understand-explore/how-does-it-work.md) című cikket, amelyből megtudhatja, hogyan véd az Azure RMS egy helyszínen létrehozott és tárolt titkos kólareceptet úgy, hogy az a helyszínen marad.
 
 ## Integrálhatom az Azure RMS-t a helyszíni kiszolgálóimmal?
-Igen. Az Azure RMS integrálható a helyszíni kiszolgálókkal, például az Exchange Serverrel, valamint a SharePoint- és a Windows-fájlkiszolgálókkal. Ehhez a [Rights Management-összekötőt](../deploy-use/deploy-rms-connector.md) használhatja. Ha csak a fájlbesorolási infrastruktúrát (FCI) szeretné használni a Windows Serverrel, használhatja az [tartalomvédelmi parancsmagokat](https://technet.microsoft.com/library/mt601315%28v=ws.10%29.aspx). Az Active Directory-tartományvezérlőket az Azure AD-val szinkronizálva és összevonva zökkenőmentesebb hitelesítési élmény biztosítható a felhasználók számára, például az [Azure AD Connect](http://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) használata révén.
+Igen. Az Azure RMS integrálható a helyszíni kiszolgálókkal, például az Exchange Serverrel, valamint a SharePoint- és a Windows-fájlkiszolgálókkal. Ehhez a [Rights Management-összekötőt](../deploy-use/deploy-rms-connector.md) használhatja. Ha csak a fájlbesorolási infrastruktúrát (FCI) szeretné használni a Windows Serverrel, használhatja az [RMS tartalomvédelmi parancsmagokat](https://technet.microsoft.com/library/mt601315%28v=ws.10%29.aspx). Az Active Directory-tartományvezérlőket az Azure AD-val szinkronizálva és összevonva zökkenőmentesebb hitelesítési élmény biztosítható a felhasználók számára, például az [Azure AD Connect](http://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) használata révén.
 
 Az Azure RMS automatikusan létrehozza és kezeli az XrML-tanúsítványokat, ezért nem használ helyszíni PKI-t. Az Azure RMS tanúsítványhasználatáról [Az Azure RMS működése](../understand-explore/how-does-it-work.md) című cikk [Az Azure RMS működésének bemutatása: Első használat, tartalomvédelem, a tartalom felhasználása](../understand-explore/how-does-it-work.md#walkthrough-of-how-azure-rms-works-first-use-content-protection-content-consumption) című szakaszában találhat további információkat.
+
+## Hol találhatók információk olyan külső cég által gyártott termékekről, amelyekbe beépül az Azure RMS?
+
+Sok szoftvergyártó már rendelkezik olyan megoldásokkal vagy készül olyanokat létrehozni, amelyekbe beépül az Azure RMS – és a lista nagyon gyorsan bővül. Érdemes ellenőrizni a [nagyvállalati mobilitási és biztonsági blogot](https://blogs.technet.microsoft.com/enterprisemobility/?product=azure-rights-management-services), és beszerezni a legújabb frissítéseket a [Dan Plastina @TheRMSGuy](https://twitter.com/TheRMSGuy) helyről a Twitteren. Ha azonban konkrét kérdése van, küldjön e-mailt az adatvédelmi csapat részére az askipteam@microsoft.com címre.
+
+## Van valamilyen felügyeleti csomag vagy hasonló figyelési mechanizmus az RMS-összekötőhöz?
+
+Bár a Rights Management-összekötő naplózza az adatokat, figyelmeztetéseket és hibaüzeneteket az eseménynaplóba, nincs olyan felügyeleti csomag, amely figyelné ezeket az eseményeket. Az események listája és a hozzájuk tartozó leírások azonban a javításhoz szükséges intézkedéseket segítő bővebb információkkal együtt dokumentálva vannak [Az Azure Rights Management-összekötő megfigyelése](../deploy-use/monitor-rms-connector.md) című dokumentumban.
+
+## Globális rendszergazdának kell lenni az Azure RMS konfigurálásához, vagy átadható a feladat más rendszergazdáknak?
+
+Az Office 365-bérlő vagy az Azure AD-bérlő globális rendszergazdái nyilvánvalóan végre tudják hajtani az Azure RMS minden rendszergazdai feladatát. Ha azonban más felhasználóknak szeretne rendszergazdai engedélyeket adni, megteheti ezt az [Add-AadrmRoleBasedAdministrator](https://msdn.microsoft.com/library/dn629417.aspx) Azure RMS PowerShell-parancsmag használatával. A rendszergazdai szerepkört hozzárendelheti felhasználói fiókhoz vagy csoporthoz. Kétféle szerepkör van: **globális rendszergazda** és **összekötő-rendszergazda**. 
+
+Amint a szerepkörnevek sugallják, az első engedélyezi az Azure Rights Management összes felügyeleti feladatának futtatását (anélkül, hogy más felhőalapú szolgáltatások globális rendszergazdájává is válnának egyben), míg a második szerepkör csak a Rights Management- (RMS-) összekötő futtatását teszi lehetővé.
+
+Ügyeljen a következőkre:
+
+- Az Office 365 és az Azure AD globális rendszergazdái használhatják a felügyeleti portálokat (az Office 365 felügyeleti központot, illetve a klasszikus Azure-portált) az Azure RMS konfigurálására. Az Azure RMS globális rendszergazdai szerepkört kapott felhasználóknak az Azure RMS PowerShell-parancsokat kell használniuk az Azure RMS konfigurálására. Az egyes feladatok elvégzésére legalkalmasabb parancsmagokat lásd: [Az Azure Rights Management felügyelete a Windows PowerShell használatával](../deploy-use/administer-powershell.md).
+
+- Ha [regisztrációs vezérlőket](../deploy-use/activate-service.md#configuring-onboarding-controls-for-a-phased-deployment) állított be, az nem befolyásolja az Azure RMS felügyeletére való képességet, kivéve az RMS-összekötőt. Ha például úgy állított be regisztrációs vezérlőket, hogy a tartalomvédelmi képesség csak az „Informatikai részleg” csoportra korlátozódik, az RMS-összekötő telepítésére és konfigurálására használt fióknak ezen csoport tagjának kell lennie. 
+
+- Az Azure RMS által védett dokumentumok és e-mailek védelmét az Azure RMS egyetlen rendszergazdája sem tudja automatikusan eltávolítani (a bérlő globális rendszergazdája és az Azure RMS egyetlen globális rendszergazdája sem). Csak az Azure RMS felügyelőiként kijelölt felhasználók tudják ezt megtenni, és csak akkor, ha a felügyelői funkció engedélyezve van. A bérlő globális rendszergazdája és bármely Azure RMS globális rendszergazda kinevezhet azonban felhasználókat felügyelővé, beleértve a saját fiókjukat is. Emellett a felügyelői funkciót is engedélyezhetik. Ezeket a műveleteket a rendszer az Azure RMS rendszergazdanaplójában rögzíti. További információkat a [Felügyelők konfigurálása az Azure Rights Management és a felderítési szolgáltatások vagy adat-helyreállítás számára](../deploy-use/configure-super-users.md) című témakör bevált biztonsági eljárásokkal foglalkozó szakaszában talál. 
+
 
 ## Hibrid telepítéssel rendelkezem: a felhasználók egy része Exchange Online-t, a másik részük Exchange Servert használ. Támogatja ezt az Azure RMS?
 Teljes mértékben. Ráadásul a felhasználók zökkenőmentesen védhetik és használhatják a védett e-maileket és mellékleteket a két Exchange-környezet között. Ehhez a konfigurációhoz [aktiválja az Azure RMS-t](../deploy-use/activate-service.md), és [engedélyezze az IRM-et az Exchange Online-hoz](https://technet.microsoft.com/library/dn151475%28v=exchg.150%29.aspx), majd [telepítse és konfigurálja az RMS-összekötőt](../deploy-use/deploy-rms-connector.md) az Exchange Serverhez.
 
 ## Elérhető egy részletes útmutató az Exchange Online az Azure RMS használatára történő konfigurálásához?
 
-Igen. Az [Exchange Online: az IRM konfigurálása](../deploy-use/configure-office365.md#exchange-online-irm-configuration.md ) című szakaszban láthat egy, az Azure RMS használatát az Exchange Online számára lehetővé tevő jellemző parancskészletet, megtudhatja, miért nem mutatja azonnal az Outlook Web App az **Engedélyek beállítása** menü elemeit, és megtalálja az Azure RMS-sablonok módosításakor vagy frissítésekor futtatandó parancsot. 
+Igen. Az [Exchange Online: az IRM konfigurálása](../deploy-use/configure-office365.md#exchange-online-irm-configuration) című szakaszban láthat egy, az Azure RMS használatát az Exchange Online számára lehetővé tevő jellemző parancskészletet, megtudhatja, miért nem mutatja azonnal az Outlook Web App az **Engedélyek beállítása** menü elemeit, és megtalálja az Azure RMS-sablonok módosításakor vagy frissítésekor futtatandó parancsot. 
 
 ## Ha éles környezetben telepítem az Azure RMS-t, akkor hozzá vagyok kötve a megoldáshoz, vagy kockáztatjuk az addig Azure RMS-sel védett tartalomhoz való hozzáférés elvesztését?
 Nem, minden esetben megőrzi az adatok feletti ellenőrzési képességét, és továbbra is hozzáférhet azokhoz, még ha úgy is dönt, hogy nem szeretné tovább használni az Azure RMS-t. További információ: [Az Azure Rights Management leszerelése és deaktiválása](../deploy-use/decommission-deactivate.md).
@@ -65,7 +86,7 @@ Az Azure RMS egyik legnagyobb előnye az, hogy anélkül támogatja a vállalato
 Nincs olyan rendszergazdai beállítás, amely megakadályozná a felhasználókat abban, hogy titokban megosszanak dokumentumokat bizonyos szervezetekkel. Tegyük fel például, hogy blokkolni szeretne egy szervezetet, amelyben nem bízik meg, vagy amely a versenytársa. Nincs értelme megtiltani a felhasználók számára a védett dokumentumok elküldését ezekhez a szervezetekhez, mert a felhasználók akkor védelem nélkül osztanák meg a dokumentumokat, ami valószínűleg a legutolsó dolog, amit szeretne egy ilyen helyzetben. Ekkor például nem tudná azonosítani, ki oszt meg bizalmas vállalati dokumentumokat az adott szervezetek mely felhasználóival, márpedig az Azure RMS által védett dokumentumok (vagy e-mailek) esetében ez azonosítható.
 
 ## Amikor megosztok egy védett dokumentumot valakivel a vállalaton kívül, hogyan hitelesíti magát az a felhasználó?
-Az Azure RMS a felhasználók hitelesítéséhez mindig egy Azure Active Directory-fiókot és egy társított e-mail-címet használ, így a vállalatok közötti együttműködés zökkenőmentesen zajlik a rendszergazdák nézőpontjából. Ha a másik szervezet Azure-szolgáltatásokat használ, a felhasználóknak már lesz fiókjuk Azure Active Directoryban, még akkor is, ha azok a fiókok helyszínen lettek létrehozva és vannak felügyelve, majd utána lettek szinkronizálva az Azure-ral.  Ha a szervezet Office 365-tel rendelkezik, valójában az is Azure Active Directoryt használ a felhasználói fiókokhoz.  Ha a felhasználó szervezete nem rendelkezik felügyelt Azure-fiókkal, a felhasználók regisztrálhatnak az [RMS egyéni felhasználók számára](../understand-explore/rms-for-individuals.md) szolgáltatásba, ami létrehoz egy nem felügyelt Azure-bérlőt és -címtárat a szervezethez, illetve egy fiókot a felhasználóhoz, hogy ez a felhasználó aztán hitelesíthető legyen az Azure RMS-ben.
+Az Azure RMS a felhasználók hitelesítéséhez mindig egy Azure Active Directory-fiókot és egy társított e-mail-címet használ, így a vállalatok közötti együttműködés zökkenőmentesen zajlik a rendszergazdák nézőpontjából. Ha a másik szervezet Azure-szolgáltatásokat használ, a felhasználóknak már lesz fiókjuk Azure Active Directoryban, még akkor is, ha azok a fiókok helyszínen lettek létrehozva és vannak felügyelve, majd utána lettek szinkronizálva az Azure-ral. Ha a szervezet Office 365-tel rendelkezik, valójában az is Azure Active Directoryt használ a felhasználói fiókokhoz. Ha a felhasználó szervezete nem rendelkezik felügyelt Azure-fiókkal, a felhasználók regisztrálhatnak az [RMS egyéni felhasználók számára](../understand-explore/rms-for-individuals.md) szolgáltatásba, ami létrehoz egy nem felügyelt Azure-bérlőt és -címtárat a szervezethez, illetve egy fiókot a felhasználóhoz, hogy ez a felhasználó (és a későbbi felhasználók) aztán hitelesíthető legyen az Azure RMS-ben.
 
 A fiókok hitelesítési módszere változó lehet attól függően, hogy a másik szervezet rendszergazdája hogyan konfigurálta az Azure Active Directory-fiókokat. Használhatnak például a fiókokhoz létrehozott jelszavakat, többtényezős hitelesítést (MFA), összevonást, vagy az Active Directory tartományi szolgáltatásokban létrehozott, majd az Azure Active Directoryval szinkronizált jelszavakat.
 
@@ -85,7 +106,7 @@ Ahogy azt a beállítás neve is egyértelműen mutatja, ez az új csoporttípus
 
 
 ## Milyen eszközöket és milyen fájltípusokat támogat az Azure RMS?
-A támogatott eszközök teljes listájáért tekintse meg [Az Azure RMS-t támogató ügyféleszközök](../get-started/requirements-client-devices.md) című részt. Mivel jelenleg nem minden támogatott eszköz képes támogatni az összes RMS-képességet, mindenképp nézze meg az [Ügyféleszköz-képességek](../get-started/requirements-client-devices.md#client-device-capabilities) elnevezésű táblázatot is ugyanabban a cikkben.
+A támogatott eszközök teljes listáját lásd: [Azure RMS-követelmények: Az Azure RMS-t támogató ügyféleszközök](../get-started/requirements-client-devices.md). Mivel jelenleg nem minden támogatott eszköz képes támogatni az összes RMS-funkciót, mindenképp nézze meg az [Azure RMS-követelmények: Alkalmazások](../get-started/requirements-applications.md) című cikkben szereplő táblázatot is.
 
 Az Azure RMS minden fájltípust támogat. Szöveghez, képekhez, Microsoft Office- (Word-, Excel-, PowerPoint-) fájlokhoz, .pdf fájlokhoz és néhány más alkalmazás fájltípusa esetén az Azure RMS natív védelmet biztosít, amelynek része a titkosítás és az engedélyek (jogosultságok) kényszerítése is. Az általános védelem minden más alkalmazáshoz és fájltípushoz biztosítja a fájlbeágyazást és a hitelesítést, hogy ellenőrizhető legyen, hogy egy felhasználó jogosult-e a fájl megnyitására.
 
@@ -108,7 +129,7 @@ Ha viszont a vállalata házirendje előírja, hogy hardveres biztonsági modult
 ## Úgy tűnik, hogy a szolgáltatás, amire szükségem van, nem működik a SharePoint védett könyvtárainál – terveznek támogatást a szolgáltatásomhoz?
 A SharePoint jelenleg az RMS által védett dokumentumok használatát IRM által védett könyvtárak segítségével támogatja, ez pedig nem támogatja az egyéni sablonokat, a dokumentumkövetést és néhány más képességet. További információt az [Office-alkalmazások és -szolgáltatások](../understand-explore/office-apps-services-support.md) című témakör [SharePoint Online és SharePoint Server](../understand-explore/office-apps-services-support.md#sharepoint-online-and-sharepoint-server) szakaszában talál.
 
-Ha egy konkrét képesség érdekli, amely még nem támogatott, mindenképp kövesse figyelemmel az [RMS csapat blogját](http://blogs.technet.com/b/rms/)
+Ha egy olyan konkrét funkció érdekli, amely még nem támogatott, mindenképp kövesse figyelemmel a [nagyvállalati mobilitási és biztonsági blogot](https://blogs.technet.microsoft.com/enterprisemobility/?product=azure-rights-management-services).
 
 ## Hogyan konfigurálhatom a OneDrive Vállalati verziót a SharePoint Online-hoz, hogy a felhasználók biztonságosan oszthassák meg a fájljaikat a vállalaton belüli és kívüli személyekkel is?
 Alapértelmezés szerint Office 365-rendszergazdaként nem Ön konfigurálja ezt, hanem a felhasználók.
@@ -144,7 +165,6 @@ Ahogyan azt ezek a példák is mutatják, még ha minden platform és minden szo
 
 Neve és megjelenése ellenére a **Nem továbbítandó** nem a Továbbítási jog ellentéte, és nem is sablon. Ez egy olyan jogosultságkészlet, amely az e-mailek továbbítása mellett a mellékletek másolását, nyomtatását és mentését is korlátozza. A jogosultságokat nem a rendszergazda osztja ki statikusan, hanem a rendszer alkalmazza dinamikusan a felhasználókra a választott címzetteken keresztül. További információért lásd [A „Nem továbbítandó” beállítás e-mailekhez](../deploy-use/configure-usage-rights.md#do-not-forward-option-for-emails) című szakaszt a [Használati jogosultságok konfigurálása az Azure Rights Managementhez](../deploy-use/configure-usage-rights.md) című témakörben.
 
-
 ## Hol találok támogatási információkat az Azure RMS-hez – például a jogi tudnivalókat, a megfelelőségi információkat és a szolgáltatásszint-szerződéseket?
 Az Azure RMS támogatja a többi szolgáltatást, és maga is más szolgáltatásokra támaszkodik. Ha az Azure RMS-hez kapcsolódó, de nem az Azure RMS szolgáltatás használatára vonatkozó információkat keres, tekintse meg az alábbi forrásanyagokat.
 
@@ -178,6 +198,10 @@ Lásd a [Milyen problémákat képes megoldani az Azure RMS?](../understand-expl
 
 -   Office 365-könyvtár: [Office 365](http://technet.microsoft.com/library/dn127064%28v=office.14%29.aspx)
 
+## Úgy hallottam, nemsokára megjelenik az Azure RMS új verziója. Mikorra várható?
+
+A műszaki dokumentáció nem tartalmaz a jövőbeli verziókkal kapcsolatos információkat. Az ilyen jellegű információkért és közelményekért érdemes ellenőrizni a [nagyvállalati mobilitási és biztonsági blogot](https://blogs.technet.microsoft.com/enterprisemobility/?product=azure-rights-management-services), és beszerezni a legújabb frissítéseket a [Dan Plastina @TheRMSGuy](https://twitter.com/TheRMSGuy) helyről a Twitteren. Ha egy Office-verzió érdekli, okvetlenül ellenőrizze a [Office blogot [(https://blogs.office.com/) is.
+
 ## Mit tehetek, ha a fentiekben nem szerepel a kérdésem?
 Használja az [Information and support for Azure Rights Management](information-support.md) (Azure Rights Management – információ és támogatás) című szakaszban található hivatkozásokat és forrásanyagokat.
 
@@ -189,13 +213,12 @@ Elérhetők továbbá végfelhasználóknak tervezett gyakorikérdés-gyűjtemé
 
 -   [A dokumentumkövetéssel kapcsolatos gyakori kérdések](http://go.microsoft.com/fwlink/?LinkId=523977)
 
-Ez a gyakori kérdéseket tartalmazó oldal rendszeresen frissül. Az új elemek listája megtalálható a havi dokumentációfrissítési közleményekben a [Microsoft Rights Management (RMS) csapat](http://blogs.technet.com/b/rms/) blogján.
-
-> [!TIP]A blogon a [docs címke](http://blogs.technet.com/b/rms/archive/tags/docs/) használatával könnyebben megtalálhatja ezeket a dokumentációval kapcsolatos közleményeket.
+Ez a gyakori kérdéseket tartalmazó oldal rendszeresen frissül. Az új elemek listája megtalálható a havi dokumentációfrissítési közleményekben a [nagyvállalati mobilitási és biztonsági blogon](https://blogs.technet.microsoft.com/enterprisemobility/?product=azure-rights-management-services).
 
 
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO5-->
 
 

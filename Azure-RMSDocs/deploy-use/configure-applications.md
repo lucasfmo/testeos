@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Alkalmazások konfigurálása az Azure Rights Managementhez | Azure RMS
-description:
-keywords:
+title: "Alkalmazások konfigurálása az Azure Rights Managementhez | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: ea09cbc5-b98b-444e-8b60-5bc3cb199c36
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
+ms.openlocfilehash: 8fe934c51e852791d19fbb336deaf9cd7be9817b
+
 
 ---
 
@@ -34,10 +28,10 @@ ms.suite: ems
 >
 > Office alkalmazások esetén például kattintson a Súgó ikonra, és írjon be keresési kifejezéseket, például a **Rights Management** vagy az **IRM** kifejezést. Az RMS megosztóalkalmazás Windows rendszeren végzett használatával kapcsolatban lásd [a Rights Management megosztóalkalmazás felhasználói útmutatóját](../rms-client/sharing-app-user-guide.md).
 
-Miután üzembe helyezte az Azure Rights Management (Azure RMS) eszközt a szervezet számára, a következő információkkal konfigurálhatja az alkalmazásokat és szolgáltatásokat az Azure RMS támogatásához. Ezekbe beletartoznak az Office alkalmazások, például a Word 2013 és a Word 2010, valamint olyan szolgáltatások, mint az Exchange Online (átviteli szabályok, adatveszteség-megelőzés, nem továbbítandó és üzenettitkosítás) és a SharePoint Online (védett könyvtárak). Információk arról, hogyan támogatják ezek az alkalmazások és szolgáltatások a Rights Management eszközt: [How applications support Azure Rights Management](../understand-explore/applications-support.md) (Hogyan támogatják a különböző alkalmazások az Azure Rights Managementet?).
+Miután üzembe helyezte az Azure Rights Management (Azure RMS) eszközt a szervezet számára, a következő információkkal konfigurálhatja az alkalmazásokat és szolgáltatásokat az Azure RMS támogatásához. Ezekbe beletartoznak az Office alkalmazások, például a Word 2013 és a Word 2010, valamint olyan szolgáltatások, mint az Exchange Online (átviteli szabályok, adatveszteség-megelőzés, nem továbbítandó és üzenettitkosítás) és a SharePoint Online (védett könyvtárak). Információk arról, hogyan támogatják ezek az alkalmazások és szolgáltatások a Rights Management eszközt: [Hogyan támogatják a különböző alkalmazások az Azure Rights Managementet?](../understand-explore/applications-support.md).
 
 > [!IMPORTANT]
-> A támogatott verziókról és egyéb követelményekről információért lásd: [Az Azure Rights Management követelményei](../get-started/requirements-azure-rms.md).
+> A támogatott verziókkal és egyéb követelményekkel kapcsolatos információkért lásd: [Az Azure Rights Management követelményei](../get-started/requirements-azure-rms.md).
 
 -   [Office 365: Konfigurálás ügyfelek és online szolgáltatások számára](configure-office365.md)
 
@@ -58,7 +52,7 @@ Miután üzembe helyezte az Azure Rights Management (Azure RMS) eszközt a szerv
     -   [Az RMS megosztóalkalmazás mobil platformokhoz: Telepítés és felügyelet](configure-sharing-app.md#the-rms-sharing-application-for-mobile-platforms-installation-and-management)
 
 
-A helyi kiszolgálók, például az Exchange Server és a SharePoint Server konfigurálásához lásd: [Deploying the Azure Rights Management connector](deploy-rms-connector.md) (Az Azure Rights Management-összekötő telepítése).
+A helyi kiszolgálók, például az Exchange Server és a SharePoint Server konfigurálásához lásd: [Az Azure Rights Management-összekötő üzembe helyezése](deploy-rms-connector.md).
 
 > [!TIP]
 > Az Azure RMS használatához konfigurált alkalmazások magas szintű példáiért és pillanatképeiért lásd: [Az Azure RMS működés közben: Mit látnak a rendszergazdák és a felhasználók](../understand-explore/what-admins-users-see.md).
@@ -80,6 +74,7 @@ Az Azure Rights Management eszközt támogató alkalmazások konfigurálása ut�
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

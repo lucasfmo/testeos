@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Útmutatás nyújtása a felhasználók számára a fájlok védelméhez az Azure Rights Management használatával | Azure RMS
-description:
-keywords:
+title: "Útmutatás nyújtása a felhasználók számára a fájlok védelméhez az Azure Rights Management használatával | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 06/09/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 58f9a6ff-4121-4c8c-9865-1bb290604ad2
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: b6dcd8bb1091e9c484e02042adbf993381581a9d
+ms.openlocfilehash: d48616cb638522e6cda61e7ae96db9480fc14099
+
 
 ---
 
@@ -35,7 +29,8 @@ Az Azure Rights Management szervezeti üzembe helyezését és konfigurálását
 
     Tudassa a felhasználókkal, hogy mikor és hogyan kell védelemmel ellátni a bizalmas információkat tartalmazó dokumentumokat és e-maileket. Amikor csak lehetséges, ezt a meglévő munkafolyamataikhoz kapcsolódóan ismertesse, hogy a teljesen új folyamatok megismerése helyett egy számukra már ismerős folyamatba építhessék be a további lépéseket. Mindenképpen ismertesse velük az adott vállalat szempontjából tapasztalható előnyöket (és kockázatokat), továbbá nyújtson útmutatást arra vonatkozóan, hogy mikor kell védelemmel ellátniuk a fájlokat és e-maileket. Ha konfigurálta az [egyéni sablonokat](configure-custom-templates.md), lássa el őket az arra vonatkozó utasításokkal, hogy melyiket válasszák ki, ha a sablon neve és leírása nem elegendő számukra a megfelelő sablon kiválasztásához.
 
-    > [!TIP] Mintavideók végfelhasználók számára:
+    > [!TIP]
+    > Mintavideók végfelhasználók számára:
     >
     > -   [Az Azure RMS által nyújtott felhasználói élmény](http://channel9.msdn.com/Series/Information-Protection/Azure-RMS-user-experience)
     > -   [Azure RMS dokumentumkövetés és visszavonás](http://channel9.msdn.com/Series/Information-Protection/Azure-RMS-Document-Tracking-and-Revocation)
@@ -75,12 +70,14 @@ Az alkalmazás Windows rendszerű számítógépeken való használatára vonatk
 
 Mobileszközök esetén: [A Microsoft Rights Management megosztóalkalmazás mobilplatformokra kiadott verziójával kapcsolatos gyakori kérdések](http://technet.microsoft.com/dn451248).
 
-> [!TIP] Általános példa képernyőfelvételekkel: [A felhasználók biztonságosan oszthatják meg a mellékleteket a mobilfelhasználókkal](../understand-explore/what-admins-users-see.md#users-safely-share-attachments-with-mobile-users).
+> [!TIP]
+> Általános példa képernyőfelvételekkel: [A felhasználók biztonságosan oszthatják meg a mellékleteket a mobilfelhasználókkal](../understand-explore/what-admins-users-see.md#users-safely-share-attachments-with-mobile-users).
 
 ## Adatvédelem használata Office 365-tel, Office 2016-tal és Office 2013-mal
 Ha használja az Azure RMS szolgáltatást, de nem telepítette a Rights Management megosztóalkalmazást, a felhasználók nem látják a **Védett megosztás** gombot a menüszalagon, sem pedig **Helyi védelem** lehetőséget a Fájlkezelőben, ami egyszerűbbé tenné számukra a fájlok védelmét. Ezeknek a felhasználóknak az alábbiakhoz hasonló utasításokat kell követniük.
 
-> [!TIP] Alkalmazásspecifikus súgókért és az adott alkalmazásokra vonatkozó, adatvédelemmel kapcsolatos útmutatásért végezzen keresést az **IRM** kifejezéssel, illetve az alkalmazás nevével és verziószámával.
+> [!TIP]
+> Alkalmazásspecifikus súgókért és az adott alkalmazásokra vonatkozó, adatvédelemmel kapcsolatos utasításokért végezzen egy keresést, melynek kulcsszavai az **IRM**, illetve az alkalmazás neve és verziószáma.
 
 #### Dokumentumvédelem a Word 2013-ban
 
@@ -88,7 +85,8 @@ Ha használja az Azure RMS szolgáltatást, de nem telepítette a Rights Managem
 
 2.  Kattintson a **Fájl** menüben az **Információ**, **Dokumentumvédelem**, majd a **Hozzáférés korlátozása** lehetőségre. Ezután válasszon ki egy sablont a megfelelő használati jogok gyors alkalmazásához, vagy a **Hozzáférés korlátozása** lehetőség kiválasztását követően válassza ki saját kezűleg a kívánt használati jogokat.
 
-    > [!NOTE] Ha első alkalommal használja a Rights Managementet, kapcsolatba fog lépni az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] szolgáltatással, és meg kell adnia a hitelesítő adatokat az Office IRM-ügyfél konfigurálásához.
+    > [!NOTE]
+    > Ha első alkalommal használja a Rights Managementet, kapcsolatba fog lépni az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] szolgáltatással, és meg kell adnia a hitelesítő adatokat az Office IRM-ügyfél konfigurálásához.
 
 3.  Mentse a dokumentumot.
 
@@ -117,6 +115,7 @@ A védett dokumentumok megtekintéséhez hasonlóan a címzettek csak a hiteles�
 
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

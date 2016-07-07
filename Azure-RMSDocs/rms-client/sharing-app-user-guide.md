@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: A Rights Management megosztóalkalmazás felhasználói útmutatója | Azure RMS
-description:
-keywords:
+title: "A Rights Management megosztóalkalmazás felhasználói útmutatója | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: eaf6d02c-aa36-4915-856e-49bb71ab1484
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
+ms.openlocfilehash: 46e5d3c9ea001d2fa157187a8b78c2dc3e6516f3
+
 
 ---
 
@@ -40,16 +34,16 @@ Ha olyan kérdései merülnek fel, amelyekre a jelen útmutató nem ad választ,
 
 |Cél|Útmutatás|
 |----------------|------------------|
-|**… Pénzügyi adatokat szeretnék biztonságosan megosztani egy megbízható, másik szervezetnél dolgozó személlyel.**<br /><br />Együttműködik egy partnervállalattal, és szeretné elküldeni nekik e-mailben az előre jelzett értékesítési adatokat egy Excel-táblázatban. Azt szeretné, ha meg tudnák tekinteni a számokat, de nem tudnák azokat módosítani.|Az Excel menüszalagján kattintson a **Védett megosztás** gombra, írja be annak a két személynek a nevét, akivel együttműködik a partnervállalatnál, válassza a **Megtekintő – Csak megtekintés** lehetőséget, és kattintson a **Küldés** gombra..<br /><br />Amikor az e-mail megérkezik a partnervállalathoz, csak az e-mail címzettjei tekinthetik meg a táblázatot, és nem menthetik, szerkeszthetik, nyomtathatják ki vagy továbbíthatják azt.<br /><br />Lépésről lépésre: [E-mailben megosztott fájl védelme a Rights Management megosztóalkalmazással](sharing-app-protect-by-email.md).|
+|**… Pénzügyi adatokat szeretnék biztonságosan megosztani egy megbízható, másik szervezetnél dolgozó személlyel.**<br /><br />Együttműködik egy partnervállalattal, és szeretné elküldeni nekik e-mailben az előre jelzett értékesítési adatokat egy Excel-táblázatban. Azt szeretné, ha meg tudnák tekinteni a számokat, de nem tudnák azokat módosítani.|Az Excel menüszalagján kattintson a **Védett megosztás** gombra, írja be annak a két személynek a nevét, akivel együttműködik a partnervállalatnál, válassza a **Megtekintő – Csak megtekintés** lehetőséget, és kattintson a **Küldés** gombra.<br /><br />Amikor az e-mail megérkezik a partnervállalathoz, csak az e-mail címzettjei tekinthetik meg a táblázatot, és nem menthetik, szerkeszthetik, nyomtathatják ki vagy továbbíthatják azt.<br /><br />Lépésről lépésre: [E-mailben megosztott fájl védelme a Rights Management megosztóalkalmazással](sharing-app-protect-by-email.md).|
 |**… Szeretnék biztonságosan elküldeni e-mailben egy dokumentumot valakinek, aki iOS-eszközt használ.**<br /><br />Szeretne elküldeni egy szigorúan bizalmas dokumentumot a munkatársának, akiről tudja, hogy rendszeresen ellenőrzi az e-maileket az iOS-eszközén.|A Fájlkezelőben kattintson a jobb gombbal a fájlra, és válassza a **Védett megosztás** parancsot. fájl elküldése mellékletként a munkatársnak.<br /><br />A címzett megkapja az e-mailt iOS-eszközén. Mivel nem rendelkezik az iPad és iPhone készülékekhez készült Office csomaggal, az e-mailben található hivatkozásra kattint, amely ismerteti a számára a megosztóalkalmazás letöltését, telepíti az iOS-eszközökhöz készült verziót, majd megtekinti a dokumentumot¹.<br /><br />Lépésről lépésre: [E-mailben megosztott fájl védelme a Rights Management megosztóalkalmazással](sharing-app-protect-by-email.md).|
 |**… Szeretnék utánanézni, hogy ki és mikor nyitotta meg a védett dokumentumaimat, és ha szükséges, visszavonni a hozzáférést.**<br /><br />Lehetséges beszállítóival biztonságosan megosztott egy bizalmas tervdokumentumot, és most szeretné látni, hogy ki, mikor és honnan fért hozzá. Később, miután az egyik beszállító megkapja az üzletet, szeretné visszavonni a hozzáférést az eredeti dokumentumhoz, hogy a korábbi megosztás résztvevői ne tudják elolvasni.|Miután megosztott egy dokumentumot e-mailben, nyissa meg a [dokumentumkövetési webhelyet](http://go.microsoft.com/fwlink/?LinkId=529562) annak ellenőrzésére, hogy ki és mikor fért hozzá a dokumentumhoz. Amikor szeretné megszüntetni a megosztást, válassza a hozzáférés visszavonása lehetőséget.<br /><br />Lépésről lépésre: [Dokumentumok nyomon követése és visszavonása az RMS megosztóalkalmazás használata során](sharing-app-track-revoke.md).|
 |**… Szeretnék elolvasni egy e-mailben kapott mellékletet, amely e-mailben biztonságosan megosztott fájlmellékletként érkezett, de nem tudom, mert a vállalatom nem használja a Rights Management szolgáltatást.**<br /><br />Az e-mailt olyasvalaki küldte, akiben megbízik, mivel régebben már kötöttek üzletet, és feltételezi, hogy egy új üzleti lehetőséggel kapcsolatos információkat küldött.|Kövesse az e-mailben szereplő utasításokat, és kattintson a hivatkozásra a Microsoft Rights Management szolgáltatásra való feliratkozáshoz. A Microsoft ellenőrzi, hogy a szervezet nem rendelkezik az Azure Rights Managementet tartalmazó előfizetéssel, elküld egy e-mailt az ingyenes regisztrációs folyamat végrehajtásához, amit követően bejelentkezhet az új fiókkal. Kattintson az e-mailben a második hivatkozásra a Rights Management megosztóalkalmazás telepítéséhez. Ezt követően meg tudja nyitni az e-mail mellékletét, amelyben az új üzleti lehetőségről olvashat.<br /><br />Lépésről lépésre: [A Rights Management szolgáltatásban védetté tett fájlok megtekintése és használata](sharing-app-view-use-files.md).|
-|**… Szeretném védetté tenni a bizalmas vállalati fájlokat a laptopomon, hogy a vállalatomon kívüli személyek ne férhessenek hozzájuk.**<br /><br />Sokat utazik, és a laptopján egy gyakran használt mappát és az abban lévő fájlokat védetté kell tennie a jogosulatlan hozzáféréssel szemben.|Telepítve van az RMS-megosztó alkalmazás a laptopján. A Fájlkezelőben egy sablon használatával gyorsan védetté tudja tenni a fájlokat. Ha ellopják a laptopját, nyugodt maradhat afelől, hogy a vállalatán kívüli személyek nem férhetnek hozzá ezekhez a dokumentumokhoz.<br /><br />Lépésről lépésre: [Fájl védelme egy eszközön (helyi védelem) a Rights Management megosztóalkalmazással](sharing-app-protect-in-place.md).|
+|**… Szeretném védetté tenni a bizalmas vállalati fájlokat a laptopomon, hogy a vállalatomon kívüli személyek ne férhessenek hozzájuk.**<br /><br />Sokat utazik, és a laptopján egy gyakran használt mappát és az abban lévő fájlokat védetté kell tennie a jogosulatlan hozzáféréssel szemben.|Telepítve van az RMS-megosztó alkalmazás a laptopján. A Fájlkezelőben egy sablon használatával gyorsan védetté tudja tenni a fájlokat. Ha ellopják a laptopját, nyugodt maradhat afelől, hogy a vállalatán kívüli személyek nem férhetnek hozzá ezekhez a dokumentumokhoz.<br /><br />Lépésről lépésre: [Fájl védelme egy eszközön &#40;helyi védelem&#41; a Rights Management megosztóalkalmazással](sharing-app-protect-in-place.md).|
 ¹ PDF Rendering Powered by Foxit (Foxit PDF-elrendezés). Copyright © 2003–2014 by Foxit Corporation.
 
 ## Művelet
 > [!NOTE]
-> További műszaki információt (például a támogatott fájltípusokkal és az alkalmazás vállalati hálózatra történő telepítésével kapcsolatban) a [Rights Management sharing application administrator guide](sharing-app-admin-guide.md) (A Rights Management megosztóalkalmazás rendszergazdai kézikönyve) című témakörben tekinthet meg..
+> További műszaki információt (például a támogatott fájltípusokkal és az alkalmazás vállalati hálózatra történő telepítésével kapcsolatban) a [Rights Management sharing application administrator guide](sharing-app-admin-guide.md) (A Rights Management megosztóalkalmazás rendszergazdai kézikönyve) című témakörben tekinthet meg.
 
 -   [A megosztóalkalmazás letöltése és telepítése](install-sharing-app.md)
 
@@ -71,6 +65,7 @@ Ha olyan kérdései merülnek fel, amelyekre a jelen útmutató nem ad választ,
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

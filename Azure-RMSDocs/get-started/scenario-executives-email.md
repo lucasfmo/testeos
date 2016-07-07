@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Forgatókönyv – Jogosultságokhoz kötött információk biztonságos cseréje vezetői szinten | Azure RMS
-description:
-keywords:
+title: "Forgatókönyv – Jogosultságokhoz kötött információk biztonságos cseréje vezetői szinten | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 05/20/2016
 ms.topic: get-started-article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: e18cf5df-859e-4028-8d19-39b0842df33d
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: f7dd88d90357c99c69fe4fdde67c1544595e02f8
+ms.openlocfilehash: def8b7e98fd55a3d028978ffc9f8e41e38a5622c
+
 
 ---
 
@@ -51,12 +44,12 @@ Ahhoz, hogy a forgatókönyv utasításai működjenek, az alábbiaknak kell tel
 
 |Követelmény|Ha további információra van szüksége|
 |---------------|--------------------------------|
-|Előkészítette a fiókokat és a csoportokat az Office 365 vagy az Azure Active Directory számára:<br /><br />A **Vezetők** nevű levelezési csoport, és az összes vezető tagja ennek a csoportnak<br /><br />Az **RMS-rendszergazdák** nevű levelezési csoport, amelynek az Azure RMS konfigurálását végző összes rendszergazda a tagja.|[Az Azure Rights Management előkészítése](https://technet.microsoft.com/library/jj585029.aspx)|
+|Előkészítette a fiókokat és a csoportokat az Office 365 vagy az Azure Active Directory számára:<br /><br />– A **Vezetők** nevű levelezési csoport, és az összes vezető tagja ennek a csoportnak<br /><br />– Az **RMS-rendszergazdák** nevű levelezési csoport, amelynek az Azure RMS konfigurálását végző összes rendszergazda a tagja.|[Az Azure Rights Management előkészítése](https://technet.microsoft.com/library/jj585029.aspx)|
 |Az Azure Rights Management-bérlőkulcsát a Microsoft felügyeli; nem a BYOK módot használja|[Planning and implementing your Azure Rights Management tenant key (Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása)](https://technet.microsoft.com/library/dn440580.aspx)|
 |Az Azure Rights Management aktiválása megtörtént|[Az Azure Rights Management aktiválása](https://technet.microsoft.com/library/jj658941.aspx)|
-|Ezen konfigurációk egyike:<br /><br />Az Exchange Online engedélyezve van az Azure Rights Managementhez<br /><br />Az RMS-összekötő telepítve és konfigurálva van a helyszíni Exchange-hez|Az Exchange Online esetében lásd a [Configuring Applications for Azure Rights Management](https://technet.microsoft.com/library/jj585031.aspx) (Alkalmazások konfigurálása az Azure Rights Managementhez) című témakör **Exchange Online: IRM Configuration** (Exchange Online: IRM konfiguráció) szakaszát.<br /><br />Helyszíni Exchange esetében: [Deploying the Azure Rights Management connector (Az Azure Rights Management-összekötő üzembe helyezése)](https://technet.microsoft.com/library/dn375964.aspx)|
+|Ezen konfigurációk egyike:<br /><br />– Az Exchange Online engedélyezve van az Azure Rights Managementhez<br /><br />– Az RMS-összekötő telepítve és konfigurálva van a helyszíni Exchange-hez|Az Exchange Online esetében lásd a [Configuring Applications for Azure Rights Management](https://technet.microsoft.com/library/jj585031.aspx) (Alkalmazások konfigurálása az Azure Rights Managementhez) című témakör **Exchange Online: IRM Configuration** (Exchange Online: IRM konfiguráció) szakaszát.<br /><br />Helyszíni Exchange esetében: [Deploying the Azure Rights Management connector (Az Azure Rights Management-összekötő üzembe helyezése)](https://technet.microsoft.com/library/dn375964.aspx)|
 |Konfigurált egy egyéni sablont az alábbiakban leírtak alapján.|[Az Azure Rights Management egyéni sablonok konfigurálása](https://technet.microsoft.com/library/dn642472.aspx)|
-|Konfigurált egy átvitelvédelmi szabályt az IRM-hez, az ebben a cikkben később ismertetetteknek megfelelően|Exchange Online esetén: [Create a Transport Protection Rule](https://technet.microsoft.com/library/dd302432.aspx) (Átvitelvédelmi szabály létrehozása).<br /><br />Exchange 2013 esetén: [Create a Transport Protection Rule](https://technet.microsoft.com/en-us/library/dd302432%28v=exchg.150%29.asp) (Átvitelvédelmi szabály létrehozása).<br /><br />Exchange 2010 esetén: [Create a Transport Protection Rule](https://technet.microsoft.com/en-us/library/dd302432%28v=exchg.141%29.aspx) (Átvitelvédelmi szabály létrehozása).|
+|Konfigurált egy átvitelvédelmi szabályt az IRM-hez, az ebben a cikkben később ismertetetteknek megfelelően|Exchange Online esetén: [Create a Transport Protection Rule](https://technet.microsoft.com/library/dd302432.aspx) (Átvitelvédelmi szabály létrehozása).<br /><br />Exchange 2013 esetén: [Create a Transport Protection Rule](https://technet.microsoft.com/library/dd302432%28v=exchg.150%29.asp) (Átvitelvédelmi szabály létrehozása).<br /><br />Exchange 2010 esetén: [Create a Transport Protection Rule](https://technet.microsoft.com/en-us/library/dd302432%28v=exchg.141%29.aspx) (Átvitelvédelmi szabály létrehozása).|
 
 ### Az egyéni sablon konfigurálása vezetők számára
 
@@ -138,6 +131,7 @@ Amikor bizalmas vállalati adatokat küld egy másik VanArsdel-vezetőnek, ne fe
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

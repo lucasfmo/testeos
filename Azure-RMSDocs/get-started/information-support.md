@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Információk és támogatás az Azure Rights Managementhez | Azure RMS
-description:
-keywords:
+title: "Információk és támogatás az Azure Rights Managementhez | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 06/13/2016
+ms.date: 06/29/2016
 ms.topic: get-started-article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 7cc73d92-27d6-49ff-a8ab-2fae73519b4b
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 6052afabe4894f8129e9eebc93705b219e6ed875
+ms.openlocfilehash: a8f5852d965abe2f2654aa236bfd9ea49a62aa84
+
 
 ---
 
@@ -42,7 +36,8 @@ A Microsoft [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1
 ## A Rights Management termékcsoport blogja
 A Rights Management termékcsoport az [Enterprise Mobility and Security Bloggal](https://blogs.technet.microsoft.com/enterprisemobility/?product=azure-rights-management-services) karöltve technikai információkat és más híreket biztosít az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] és egyéb technológiákkal kapcsolatban. Ezek a blogbejegyzések kiegészítik a termék dokumentációját és a támogatási tájékoztatást.
 
-> [!TIP] Ha az Azure RMS vagy az AD RMS szolgáltatáshoz fejleszt alkalmazásokat, érdekelheti az [Active Directory Rights Management Services (AD RMS) fejlesztők blogja](http://blogs.msdn.com/b/rms/) is.
+> [!TIP]
+> Ha az Azure RMS vagy az AD RMS szolgáltatáshoz fejleszt alkalmazásokat, érdekelheti az [Active Directory Rights Management Services (AD RMS) fejlesztői blogja](https://blogs.msdn.microsoft.com/rms/) is.
 
 ## Támogatási lehetőségek és közösségi erőforrások
 Az alábbi szakaszok a támogatási és hibaelhárítási lehetőségekkel, valamint a közösségi erőforrásokkal kapcsolatban nyújtanak információt.
@@ -71,7 +66,15 @@ Alapvető ismeretek elsajátítása:
 
 Hibaelhárítás:
 
-- Töltse le és futtassa az [RMS-elemző eszközt](http://www.microsoft.com/en-us/download/details.aspx?id=46437). További információt az eszközről a letöltési oldal **Részletek** és **Telepítési útmutató** szakaszaiban találhat. 
+- Ha valaminek a működésével kapcsolatos kérdése van, ellenőrizze, hogy a kérdést megválaszolták-e már a [Gyakori kérdések](faqs.md) lapon.
+
+- Ha az Azure RMS támogatási nyilatkozattal kapcsolatos kérdése van, tekintse meg a [Követelményekben](requirements-azure-rms.md) szereplő adatokat, amelyeket rendszeresen frissítünk.
+
+- A végfelhasználók támogatásával, az ügyfélszolgálattal és az Azure RMS-t használó szolgáltatásokat és alkalmazásokat konfiguráló rendszergazdákkal kapcsolatos további információkért lásd: [Útmutatás nyújtása a felhasználók számára a fájlok védelméhez](../deploy-use/help-users.md).
+
+- Ha telepítette az RMS-összekötőt a helyszíni kiszolgálókra, tekintse meg a [figyelési](../deploy-use/monitor-rms-connector.md) adatokat, amelyek tartalmazzák az eseménynapló bejegyzéseit, a teljesítményszámlálók adatait és a naplózási adatokat.
+
+- Automatikus ellenőrzés, automatikus hibajavítás és nyomkövetés: Töltse le és futtassa az [RMS-elemző eszközt](http://www.microsoft.com/en-us/download/details.aspx?id=46437). További információt az eszközről a letöltési oldal **Részletek** és **Telepítési útmutató** szakaszaiban találhat. 
 
 ### Közösségi erőforrások
 
@@ -83,6 +86,7 @@ Hibaelhárítás:
 
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO5-->
 
 

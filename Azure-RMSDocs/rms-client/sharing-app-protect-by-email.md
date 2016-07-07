@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: E-mailben megosztott fájlok védelmének biztosítása a Rights Management megosztóalkalmazással | Azure RMS
-description:
-keywords:
+title: "E-mailben megosztott fájlok védelmének biztosítása a Rights Management megosztóalkalmazással | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 05/09/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 4c1cd1d3-78dd-4f90-8b37-dcc9205a6736
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: c611fa8a846612fed238e59e5077be67f6f9531a
+ms.openlocfilehash: ea7f186e01606ca5e487bdfaab87d1eb0f2f41d3
+
 
 ---
 
@@ -45,9 +39,9 @@ Ha a szervezete az Azure RMS-t használja, a következő megosztásával követh
 
     ![Outlook bővítmény az RMS megosztóalkalmazáshoz](../media/ADRMS_MSRMSApp_SP_OutlookToolbar.png)
 
-    Ha nem látja ezt a gombot, annak valószínű oka az, hogy az RMS megosztóalkalmazás nincs telepítve a számítógépre, nem a legújabb változata van telepítve, vagy a számítógépet újra kell indítani a telepítés befejezéséhez. További információ a megosztóalkalmazás telepítésével kapcsolatban: [Download and install the Rights Management sharing application](install-sharing-app.md) (A Rights Management megosztóalkalmazás letöltése és telepítése)..
+    Ha nem látja ezt a gombot, annak valószínű oka az, hogy az RMS megosztóalkalmazás nincs telepítve a számítógépre, nem a legújabb változata van telepítve, vagy a számítógépet újra kell indítani a telepítés befejezéséhez. További információ a megosztóalkalmazás telepítésével kapcsolatban: [A Rights Management megosztóalkalmazás letöltése és telepítése](install-sharing-app.md).
 
-2.  A [védett megosztás párbeszédablakban](sharing-app-dialog-box.md) adja meg azokat a beállításokat, amelyeket a fájlhoz használni szeretne, majd kattintson az **Azonnali küldés** gombra..
+2.  A [védett megosztás párbeszédablakban](sharing-app-dialog-box.md) adja meg azokat a beállításokat, amelyeket a fájlhoz használni szeretne, majd kattintson az **Azonnali küldés** gombra.
 
 ### További lehetőségek egy e-mailben megosztott fájl védelmére
 A védett fájlok Outlookkal történő megosztása mellett a következő alternatív megoldásokat is igénybe veheti:
@@ -68,9 +62,9 @@ A védett fájlok Outlookkal történő megosztása mellett a következő altern
 
         ![Office eszköztár bővítmény](../media/ADRMS_MSRMSApp_SP_OfficeToolbar.png)
 
-    Ha nem látja ezeket a védelmi lehetőségeket, annak valószínű oka az, hogy az RMS megosztóalkalmazás nincs telepítve a számítógépre, nem a legújabb változata van telepítve, vagy a számítógépet újra kell indítani a telepítés befejezéséhez. További információ a megosztóalkalmazás telepítésével kapcsolatban: [Download and install the Rights Management sharing application](install-sharing-app.md) (A Rights Management megosztóalkalmazás letöltése és telepítése)..
+    Ha nem látja ezeket a védelmi lehetőségeket, annak valószínű oka az, hogy az RMS megosztóalkalmazás nincs telepítve a számítógépre, nem a legújabb változata van telepítve, vagy a számítógépet újra kell indítani a telepítés befejezéséhez. További információ a megosztóalkalmazás telepítésével kapcsolatban: [A Rights Management megosztóalkalmazás letöltése és telepítése](install-sharing-app.md).
 
-2.  A [védett megosztás párbeszédablakban](sharing-app-dialog-box.md) adja meg azokat a beállításokat, amelyeket a fájlhoz használni szeretne, majd kattintson a **Küldés** gombra..
+2.  A [védett megosztás párbeszédablakban](sharing-app-dialog-box.md) adja meg azokat a beállításokat, amelyeket a fájlhoz használni szeretne, majd kattintson a **Küldés** gombra.
 
 3.  Rövid időre megjelenhet egy párbeszédpanel, amely közli, hogy a fájl védetté tétele folyamatban van, majd egy e-mail-üzenetet láthat, amely közli a címzettekkel, hogy a mellékleteket a Microsoft RMS védi, és hogy a használatához be kell jelentkezniük. Amikor a hivatkozásra kattintanak a bejelentkezéshez, láthatják azon utasításokat és hivatkozásokat, amelyekkel megnyithatják a védett mellékletet.
 
@@ -98,6 +92,7 @@ A Rights Management megosztóalkalmazás használatát szemléltető egyéb pél
 [A Rights Management megosztóalkalmazás felhasználói útmutatója](sharing-app-user-guide.md)
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

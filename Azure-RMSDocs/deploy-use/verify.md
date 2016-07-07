@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Az Azure Rights Management ellenőrzése | Azure RMS
-description:
-keywords:
+title: "Az Azure Rights Management ellenőrzése | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 08664a01-81a5-4fa5-884c-7306ee55dba0
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: bb152f428c8e0b9a065035aaad2de6353265a562
+ms.openlocfilehash: afa1fb35110918b9b97f91534616e1933e13b149
+
 
 ---
 
@@ -36,7 +30,7 @@ A következő témakörben található információk segítséget nyújtanak a t
 Ha a tesztelés nem sikeres, a konfigurációs lépések az [Azure Rights Management üzembehelyezési menetrendben](../plan-design/deployment-roadmap.md) tekinthetők át, a lehetséges problémák azonosítása és kijavítása pedig az [RMS elemző eszköz](http://www.microsoft.com/en-us/download/details.aspx?id=46437) segítségével végezhető el. Ez az eszköz rendszeres időközönként, általános állapot-ellenőrzésként is futtatható.
 
 > [!TIP]
-> Ha további segítségre van szüksége, tekintse meg az [Információk és támogatás az Azure Rights Managementhez](../get-started/information-support.md) cikk [Támogatási lehetőségek és közösségi erőforrások](../get-started/information-support.md##support-options-and-community-resources) című szakaszát.
+> Ha további segítségre van szüksége, tekintse meg az [Információk és támogatás az Azure Rights Managementhez](../get-started/information-support.md) cikk [Támogatási lehetőségek és közösségi erőforrások](../get-started/information-support.md#support-options-and-community-resources) című szakaszát.
 
 ## További lépések
 
@@ -46,6 +40,7 @@ A használatnaplózás segítségével nyomon követheti szervezete adatvédelmi
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 
