@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása | Azure RMS
-description:
-keywords:
+title: "Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 06/14/2016
+ms.date: 06/30/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: f0d33c5f-a6a6-44a1-bdec-5be1bc8e1e14
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: f01d57759ab80b4946c07a627269550c80114131
+ms.openlocfilehash: aa482dace1086222f63e9165e3089051b5de3e8c
+
 
 ---
 
@@ -81,9 +75,9 @@ Az ebben a szakaszban található információkat és eljárásokat akkor haszn�
 
 
 > [!IMPORTANT]
-> Ha már használatba vette az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] szolgáltatást (vagyis az aktiválva van) és egyes felhasználói az Office 2010-et használják, a következő eljárások futtatása előtt [lépjen kapcsolatba a Microsoft támogatási szolgálatával](../get-started/information-support#to-contact-microsoft-support). A forgatókönyvtől és a követelményektől függően így is használhatja a BYOK-t, de csak bizonyos korlátozásokkal vagy további lépések végrehajtása után.
+> Ha már használatba vette az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] szolgáltatást (tehát a szolgáltatás aktiválva van), és egyes felhasználók az Office 2010-et használják, a következő eljárások futtatása előtt [lépjen kapcsolatba a Microsoft támogatási szolgálatával](../get-started/information-support.md#to-contact-microsoft-support). A forgatókönyvtől és a követelményektől függően így is használhatja a BYOK-t, de csak bizonyos korlátozásokkal vagy további lépések végrehajtása után.
 > 
-> Akkor is [lépjen kapcsolatba a Microsoft támogatási szolgálatával](../get-started/information-support#to-contact-microsoft-support), ha a szervezete speciális házirendeket használ a kulcsok felügyeletéhez.
+> Akkor is [lépjen kapcsolatba a Microsoft támogatási szolgálatával](../get-started/information-support.md#to-contact-microsoft-support), ha a szervezete speciális kulcskezelési szabályzatokat használ.
 
 ### A BYOK előfeltételei
 A következő táblázat felsorolja a saját kulcs használata (BYOK) előfeltételeit.
@@ -114,7 +108,7 @@ A bérlőkulcs létrehozására és használatba vételére vonatkozó eljárás
     > [!NOTE]
     > A bérlőkulcs biztonságosan haladhat át nem megbízható számítógépeken és hálózatokon, mivel titkosítva van és hozzáférés-vezérlési szintű engedélyek biztosítják a védelmét, így csak az Ön HSM-jein, illetve a Microsoft az Azure RMS-hez használt HSM-jein használható. A biztonsági intézkedéseket az eszközkészletben található parancsfájlok segítségével ellenőrizheti, ennek működéséről a Thales oldalán olvashat bővebben: [Hardware Key management in the RMS Cloud](https://www.thales-esecurity.com/knowledge-base/white-papers/hardware-key-management-in-the-rms-cloud) (Hardverkulcs kezelése az RMS-felhőben).
 
--   **Személyesen:** Ehhez [fel kell vennie a kapcsolatot a Microsoft támogatási szolgálatával](../get-started/information-support#to-contact-microsoft-support), hogy időpontot egyeztessen az Azure RMS-kulcs átvitelére. Bérlőkulcsa az Azure RMS biztonsági világába való átviteléhez fel kell keresnie a Microsoft irodáját, amely az egyesült államokbeli Redmondban (Washington államban) található.
+-   **Személyesen:** Ehhez [fel kell vennie a kapcsolatot a Microsoft támogatási szolgálatával](../get-started/information-support.md#to-contact-microsoft-support), hogy időpontot egyeztessen az Azure RMS-kulcs átvitelére. Bérlőkulcsa az Azure RMS biztonsági világába való átviteléhez fel kell keresnie a Microsoft irodáját, amely az egyesült államokbeli Redmondban (Washington államban) található.
 
 Az útmutató megtekintéséhez döntse el, hogy a bérlőkulcsot az interneten keresztül vagy személyesen fogja létrehozni és átvinni: 
 
@@ -136,9 +130,9 @@ Miután megtervezte, és ha szükséges, létrehozta a bérlőkulcsot, tegye az 
 
 2.  Fontolja meg a használati naplózás alkalmazását, amely az RMS által végrehajtott minden egyes tranzakciót naplóz.
 
-    Ha úgy döntött, hogy Ön felügyeli a bérlőkulcsot, a napló a bérlőkulcs használatára vonatkozó információkat is tartalmaz. A következő példában egy Excelben megjelenő naplófájl látható, amelyben a **Decrypt** és a **SignDigest** kérelemtípusok mutatják, hogy a bérlőkulcs használatban van.
+    Ha úgy döntött, hogy Ön felügyeli a bérlőkulcsot, a napló a bérlőkulcs használatára vonatkozó információkat is tartalmaz. A következő példában egy Excelben megjelenített naplófájlrészlet látható, amelyben a **KMSPDecrypt** és a **KMSPSignDigest** kérelemtípusok azt jelzik, hogy a bérlőkulcs használatban van.
 
-    ![Naplófájl az Excelben bérlőkulcs használata mellett](../media/RMS_Logging.gif)
+    ![Naplófájl az Excelben bérlőkulcs használata mellett](../media/RMS_Logging.png)
 
     További információ a használati naplózásról: [Logging and analyzing Azure Rights Management usage](../deploy-use/log-analyze-usage.md) (Az Azure Rights Management használatának naplózása és elemzése).
 
@@ -148,6 +142,7 @@ Miután megtervezte, és ha szükséges, létrehozta a bérlőkulcsot, tegye az 
 
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO5-->
 
 

@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: 2. lépés&colon; HSM által védett kulcs áttelepítése HSM által védett kulccsá | Azure RMS
-description:
-keywords:
+title: "2. lépés&colon; HSM által védett kulcs áttelepítése HSM által védett kulccsá | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: c5bbf37e-f1bf-4010-a60f-37177c9e9b39
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 7a9c8b531ec342e7d5daf0cbcacd6597a79e6a55
+ms.openlocfilehash: 7b531ebba1923653cb37c70a02fa888a40e96528
+
 
 ---
 
@@ -32,7 +26,7 @@ ms.suite: ems
 
 Ezek az utasítások az [AD RMS-ről az Azure Rights Managementre történő áttelepítés](migrate-from-ad-rms-to-azure-rms.md) részét képezik, és csak akkor alkalmazandók, ha az AD RMS-kulcs HSM-védelemmel van ellátva, és HSM-védelemmel ellátott bérlőkulccsal rendelkező Azure Rights Management-környezetbe kívánt áttelepítést végezni. 
 
-Amennyiben nem ez a választott konfigurációs forgatókönyv, térjen vissza a [2. lépéshez. Exportálja a konfigurációs adatokat az AD RMS-ből, majd importálja azokat az Azure RMS-be](migrate-from-ad-rms-to-azure-rms.md#step-2-export-configuration-data-from-ad-rms-and-import-it-to-azure-rms), és válasszon egy másik konfigurációt.
+Amennyiben nem ez a választott konfigurációs forgatókönyv, térjen vissza a [2. lépéshez. Exportálja a konfigurációs adatokat az AD RMS-ből, majd importálja az Azure RMS-be](migrate-from-ad-rms-phase1.md#step-2-export-configuration-data-from-ad-rms-and-import-it-to-azure-rms), és válasszon egy másik konfigurációt.
 
 > [!NOTE]
 > Ezek az utasítások feltételezik, hogy az AD RMS-kulcs modul általi védelemmel van ellátva. Ez az általános eset. Ha az AD RMS-kulcs OCS általi védelemmel van ellátva, lépjen kapcsolatba velünk az [AskIPTeam@microsoft.com](mailto: askipteam@microsoft.com?subject=AD%20RMS%20migration%20with%20OCS-protected%20key) címen az utasítások elvégzése előtt.
@@ -43,7 +37,7 @@ Először hozzon létre csomagot a HSM-kulccsal, hogy készen álljon az Azure R
 
 ## 1. lépés: Csomag létrehozása a HSM-kulccsal, hogy készen álljon az Azure RMS-be való átvitelre
 
-1.  Kövesse a [Planning and Implementing Your Azure Rights Management Tenant Key (Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása)](plan-implement-tenant-key.md) című témakör [Implementing bring your own key (BYOK) (A saját kulcs használatának (BYOK) megvalósítása)](plan-implement-tenant-key.md#BKMK_ImplementBYOK) szakaszának **Generate and transfer your tenant key – over the Internet (Bérlőkulcs generálása és átvitele – az interneten)** eljárását a következő kivételekkel:
+1.  Kövesse [Az Azure Rights Management-bérlőkulcs és megvalósítása](plan-implement-tenant-key.md) című témakör [A saját kulcs használatának (BYOK) megvalósítása](plan-implement-tenant-key.md#implementing-your-azure-rights-management-tenant-key) című szakaszának a **bérlőkulcs interneten keresztül történő létrehozását és továbbítását** ismertető eljárását, a következő kivételekkel:
 
     -   Ne kövesse a **Generate your tenant key (A bérlőkulcs létrehozása)** lépéseit, mert ennek megfelelője már rendelkezésre áll az AD RMS telepítéséből. Azonosítsa az AD RMS kiszolgálója által használt kulcsot a Thales-telepítésben, és használja ezt az áttelepítéskor. A Thales titkosított kulcsfájljai általában **key_(keyAppName)_(keyIdentifier)** néven találhatók meg a helyi kiszolgálón.
 
@@ -72,10 +66,11 @@ A HSM-kulcs Azure RMS szolgáltatáshoz történő előkészítése után késze
     Disconnect-AadrmService
     ```
 
-Folytassa a következővel: [3. lépés: Az RMS-bérlő aktiválása](migrate-from-ad-rms-to-azure-rms.md#BKMK_Step3Migration).
+Folytassa a következővel: [3. lépés: Az RMS-bérlő aktiválása](migrate-from-ad-rms-phase1.md#step-3-activate-your-rms-tenant).
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

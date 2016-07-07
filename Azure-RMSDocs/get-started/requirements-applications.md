@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Azure RMS-követelmények&#58; Alkalmazások | Azure RMS
-description:
-keywords:
+title: "Azure RMS-követelmények&#58; Alkalmazások | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 05/06/2016
+ms.date: 06/17/2016
 ms.topic: get-started-article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 7b33bcb8-63da-46be-ad56-b06de97822fa
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: bb152f428c8e0b9a065035aaad2de6353265a562
+ms.openlocfilehash: 61d18747011435773e16b3c8d2a8ac2104997484
+
 
 ---
 
@@ -46,9 +40,9 @@ A táblázat oszlopaira vonatkozó információk:
 
 |**Eszköz operációs rendszere**|Word, Excel, PowerPoint|Védett PDF|E-mail|Egyéb fájltípusok|
 |-------------------------------|---------------------------|-----------------|---------|--------------------|
-|**Windows**|Office 2010<br /><br />Office 2013<br /><br />Office 2016 <br /><br />Office-mobilealkalmazások (csak az Azure RMS esetében) [[1]](#footnote-1)<br /><br />Office Online [[2]](#footnote-2)|Gaaiho Doc<br /><br />GigaTrust asztali Adobe PDF-ügyfél<br /><br />Foxit Reader<br /><br />Nitro PDF-olvasó<br /><br />RMS-megosztóalkalmazás|Outlook 2010<br /><br />Outlook 2013<br /><br />Office 2016 <br /><br />Outlook Web App (OWA) [[3]](footnote-3)<br /><br />Windows Posta [[4]](footnote-4)|Windows RMS-megosztóalkalmazás: szöveg, kép, védett fájl<br /><br />Siemens JT2Go: JT-fájlok (csak Windows 10 esetén)|
+|**Windows**|Office 2010<br /><br />Office 2013<br /><br />Office 2016 <br /><br />Office-mobilealkalmazások (csak az Azure RMS esetében) [[1]](#footnote-1)<br /><br />Office Online [[2]](#footnote-2)|Gaaiho Doc<br /><br />GigaTrust asztali Adobe PDF-ügyfél<br /><br />Foxit Reader<br /><br />Nitro PDF-olvasó<br /><br />RMS-megosztóalkalmazás|Outlook 2010<br /><br />Outlook 2013<br /><br />Office 2016 <br /><br />Outlook Web App (OWA) [[3]](#footnote-3)<br /><br />Windows Posta [[4]](#footnote-4)|Windows RMS-megosztóalkalmazás: szöveg, kép, védett fájl<br /><br />Siemens JT2Go: JT-fájlok (csak Windows 10 esetén)|
 |**iOS**|iPad és iPhone Office [[5]](#footnote-5)<br /><br />Office Online [[2]](#footnote-2)<br /><br />TITUS Docs|Foxit Reader<br /><br />RMS-meosztóalkalmazás [[1]](#footnote-1)<br /><br />TITUS Docs|Citrix WorxMail [[6]](#footnote-6)<br /><br />NitroDesk [[4]](#footnote-4)<br /><br />iPad és iPhone Outlook [[4]](#footnote-4)<br /><br />iOS OWA [[3]](#footnote-3)<br /><br />TITUS Mail|RMS-megosztóalkalmazás [[1]](#footnote-1): szöveg, képek, védett fájl<br /><br />TITUS Docs: védett fájl|
-|**Android**|Android rendszerhez készült GigaTrust alkalmazás<br /><br />Office Online [[2]](#footnote-2)|Android rendszerhez készült GigaTrust alkalmazás<br /><br />Foxit Reader<br /><br />RMS-meosztóalkalmazás [[1]](#footnote-1)|9Folders [[4]](#footnote-4)<br /><br />Android rendszerhez készült GigaTrust alkalmazás [[4]](#footnote-4)<br /><br />Citrix WorxMail [[6]](#footnote-6)<br /><br />NitroDesk [[4]](#footnote-4)<br /><br />Android OWA [[3]](#footnote-3) és [[7]](#footnote-7)<br /><br />Samsung e-mail alkalmazás (S3 vagy újabb) [[7]](#footnote-7)<br /><br />TITUS Classification mobileszközökhöz|RMS-megosztóalkalmazás [[1]](#footnote-1): szöveg, képek, védett fájl|
+|**Android**|Android rendszerhez készült GigaTrust alkalmazás<br /><br />Office Online [[2]](#footnote-2)|Android rendszerhez készült GigaTrust alkalmazás<br /><br />Foxit Reader<br /><br />RMS-meosztóalkalmazás [[1]](#footnote-1)|9Folders [[4]](#footnote-4)<br /><br />Android rendszerhez készült GigaTrust alkalmazás [[4]](#footnote-4)<br /><br />Citrix WorxMail [[6]](#footnote-6)<br /><br />NitroDesk [[4]](#footnote-4)<br /><br />Outlook Android rendszerhez [[4]](#footnote-4)<br /><br />Android OWA [[3]](#footnote-3) és [[7]](#footnote-7)<br /><br />Samsung e-mail alkalmazás (S3 vagy újabb) [[7]](#footnote-7)<br /><br />TITUS Classification mobileszközökhöz|RMS-megosztóalkalmazás [[1]](#footnote-1): szöveg, képek, védett fájl|
 |**OS X**|Office 2011 (csak AD RMS esetén)<br /><br />Mac Office 2016<br /><br />Office Online [[2]](#footnote-2)|Foxit Reader<br /><br />RMS-meosztóalkalmazás [[1]](#footnote-1)|Outlook 2011 (csak AD RMS esetén)<br /><br />Mac Outlook 2016<br /><br />Mac Outlook|RMS-megosztóalkalmazás [[1]](#footnote-1): szöveg, képek, védett fájl|
 |**Windows 10 mobil verzió**|Office Mobile-alkalmazások (csak az Azure RMS esetében)[[1]](#footnote-1)|Nem támogatott|Citrix WorxMail [[6]](#footnote-6)<br /><br />Outlook Posta|Nem támogatott|
 |**Windows RT**|Office 2013 RT<br /><br />Office Online [[2]](#footnote-2)|Nem támogatott|Outlook 2013 RT<br /><br />A Posta alkalmazás a Windowsban<br /><br />Windows Posta [[4]](#footnote-4)|Siemens JT2Go: JT-fájlok|
@@ -80,6 +74,14 @@ További információért tekintse meg a Citrix [WorxMail termékdokumentációj
 További információért tekintse meg az Office blog következő bejegyzését: [OWA for Android now available on select devices](http://blogs.office.com/2014/06/11/owa-for-android-now-available-on-select-devices/) (Az Android OWA bizonyos eszközökön mostantól elérhető)
 
 ## További információk az Azure RMS Office-támogatásáról
+
+Az Azure RMS szorosan be van építve a Word, Excel, PowerPoint és az Outlook alkalmazásokba, ahol erre a funkcióra gyakran hivatkoznak úgy, mint az adatok tartalomvédelmére (IRM). A következő Office-ügyfélverziók támogatják a fájlok és e-mailek Azure RMS segítségével történő védelmét:
+
+- Office Professional Plus 2016
+
+- Office Professional Plus 2013
+
+- Office Professional Plus 2010
 
 Az Office összes kiadása (az Office 2007 kivételével) támogatja a védett tartalmak felhasználását.
 
@@ -145,6 +147,7 @@ További információk arról, hogy hogyan támogatják a leggyakrabban használ
 
 Információk arról, hogy hogyan konfigurálhatja a leggyakrabban használt alkalmazásokat az Azure RMS-hez: [Configuring applications for Azure Rights Management](../deploy-use/configure-applications.md) (Alkalmazások konfigurálása az Azure Rights Managementhez).
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

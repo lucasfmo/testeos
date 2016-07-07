@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Áttelepítés AD RMS-ről Azure Rights Managementre | Azure RMS
-description:
-keywords:
+title: "Áttelepítés AD RMS-ről Azure Rights Managementre | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 06/14/2016
+ms.date: 06/29/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 828cf1f7-d0e7-4edf-8525-91896dbe3172
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ea4dd88ed749092fd02135d8ca25b621f74fe72f
+ms.openlocfilehash: b33839ff5ce0d30082f58ff96eb81215b716e46d
+
 
 ---
 
@@ -101,7 +95,7 @@ Korlátozások:
 
 -   Ha külső partnerekkel működik együtt (például megbízható felhasználói tartományokat vagy összevonást használ), nekik is át kell térniük az Azure RMS-hez az Ön áttelepítésével egy időben, vagy nem sokkal utána. Ahhoz, hogy továbbra is hozzáférhessenek a korábban az AD RMS-sel levédett tartalomhoz, olyan ügyfél-konfigurációs változtatásokat kell alkalmazniuk, amelyek az Ön által beállítottakra hasonlítanak és szerepelnek ebben a dokumentumban.
 
-    Mivel nagyon sokféle konfiguráció lehetséges a partnerek esetében, az újrakonfigurálás pontos lépései nem sorolhatók fel ebben a dokumentumban. Segítségért [forduljon a Microsoft támogatási szolgálatához](../get-started/information-support#support-options-and-community-resources).
+    Mivel nagyon sokféle konfiguráció lehetséges a partnerek esetében, az újrakonfigurálás pontos lépései nem sorolhatók fel ebben a dokumentumban. Segítségért [forduljon a Microsoft támogatási szolgálatához](../get-started/information-support.md#support-options-and-community-resources).
 
 ## Az AD RMS Azure RMS-re való áttelepítésének lépéseinek áttekintése
 
@@ -185,6 +179,7 @@ Az áttelepítés megkezdéséhez lépjen az [1. fázis – kiszolgálóoldali k
 
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO5-->
 
 

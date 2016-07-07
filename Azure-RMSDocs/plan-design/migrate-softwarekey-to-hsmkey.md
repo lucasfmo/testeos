@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: 2. lépés&colon; Szoftveres védelemmel ellátott kulcs áttelepítése HSM által védett kulccsá | Azure RMS
-description:
-keywords:
+title: "2. lépés&colon; Szoftveres védelemmel ellátott kulcs áttelepítése HSM által védett kulccsá | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: c5f4c6ea-fd2a-423a-9fcb-07671b3c2f4f
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 7a9c8b531ec342e7d5daf0cbcacd6597a79e6a55
+ms.openlocfilehash: 173641b9dada2673b48a1c210419cb933cdd9f13
+
 
 ---
 
@@ -32,7 +26,7 @@ ms.suite: ems
 
 Ezek az utasítások az [AD RMS-ről az Azure Rights Managementre történő áttelepítés](migrate-from-ad-rms-to-azure-rms.md) részét képezik, és csak akkor alkalmazandók, ha az AD RMS-kulcs szoftveres védelemmel van ellátva, és HSM-védelemmel ellátott bérlőkulccsal rendelkező Azure Rights Management-környezetbe kívánt áttelepítést végezni. 
 
-Amennyiben nem ez a választott konfigurációs forgatókönyv, térjen vissza a [2. lépéshez. Exportálja a konfigurációs adatokat az AD RMS-ből, majd importálja azokat az Azure RMS-be](migrate-from-ad-rms-to-azure-rms.md#step-2-export-configuration-data-from-ad-rms-and-import-it-to-azure-rms), és válasszon egy másik konfigurációt.
+Amennyiben nem ez a választott konfigurációs forgatókönyv, térjen vissza a [2. lépéshez. Exportálja a konfigurációs adatokat az AD RMS-ből, majd importálja az Azure RMS-be](migrate-from-ad-rms-phase1.md#step-2-export-configuration-data-from-ad-rms-and-import-it-to-azure-rms), és válasszon egy másik konfigurációt.
 
 Ez egy háromlépéses eljárás, amellyel importálhatja az AD RMS konfigurációját az Azure RMS-be. Ennek eredményeképp jön létre az Ön által felügyelt (BYOK) Azure RMS-bérlőkulcs.
 
@@ -40,7 +34,7 @@ Először nyerje ki a kiszolgálólicenc-tanúsítványt (SLC kulcsot) a konfigu
 
 ## 1. lépés: Az SLC kinyerése a konfigurációs adatokból és a kulcs importálása a helyszíni HSM-be
 
-1.  Kövesse a [Planning and Implementing Your Azure Rights Management Tenant Key (Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása)](plan-implement-tenant-key.md) című témakör [Implementing bring your own key (BYOK) (A saját kulcs használatának (BYOK) megvalósítása)](plan-implement-tenant-key.md#BKMK_ImplementBYOK) szakaszának alábbi lépéseit:
+1.  Kövesse [Az Azure Rights Management-bérlőkulcs és megvalósítása](plan-implement-tenant-key.md) című témakör [A saját kulcs használatának (BYOK) megvalósítása](plan-implement-tenant-key.md#implementing-your-azure-rights-management-tenant-key) című szakaszának a **bérlőkulcs interneten keresztül történő létrehozását és továbbítását** ismertető eljárását, a következő kivételekkel:
 
     -   **Generate and transfer your tenant key – over the Internet (A bérlőkulcs létrehozása és átvitele – az interneten keresztül)**: **Prepare your Internet-connected workstation (Az internetre kapcsolódó munkaállomás előkészítése)**
 
@@ -79,7 +73,7 @@ Miután az SLC-t kinyerte és egy HSM-alapú kulccsá alakította, készen áll 
 
 ## 2. lépés: Csomag létrehozása a HSM-kulcsból és átvitele az Azure RMS-re
 
-1.  Kövesse a [Planning and Implementing Your Azure Rights Management Tenant Key (Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása)](plan-implement-tenant-key.md) című témakör [Implementing bring your own key (BYOK) (A saját kulcs használatának (BYOK) megvalósítása)](plan-implement-tenant-key.md#BKMK_ImplementBYOK) szakaszának alábbi lépéseit:
+1.  Kövesse [Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása](plan-implement-tenant-key.md) című témakör [A saját kulcs használatának (BYOK) megvalósítása](plan-implement-tenant-key.md#implementing-your-azure-rights-management-tenant-key) című szakaszának alábbi lépéseit:
 
     -   **Generate and transfer your tenant key – over the Internet (A bérlőkulcs létrehozása és átvitele – az interneten keresztül)**: **Prepare your tenant key for transfer (A bérlőkulcs előkészítése az átvitelre)**
 
@@ -108,11 +102,12 @@ A HSM-kulcs Azure RMS szolgáltatásba történő átvitele után készen áll a
     Disconnect-AadrmService
     ```
 
-Folytassa a következővel: [3. lépés: Az RMS-bérlő aktiválása](migrate-from-ad-rms-to-azure-rms.md#BKMK_Step3Migration).
+Folytassa a következővel: [3. lépés: Az RMS-bérlő aktiválása](migrate-from-ad-rms-phase1.md#step-3-activate-your-rms-tenant).
 
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Az Azure Rights Management előkészítése | Azure RMS
-description:
-keywords:
+title: "Az Azure Rights Management előkészítése | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: afbca2d6-32a7-4bda-8aaf-9f93f5da5abc
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
+ms.openlocfilehash: 55f092ede1f003c700cb58359bab264772702c39
+
 
 ---
 
@@ -42,12 +36,13 @@ Azonban mielőtt ezt megtenné, ellenőrizze, hogy rendelkezik-e az alábbiakkal
     Ha rendelkezik Exchange Online szolgáltatással, az Exchange Felügyeleti központ segítségével levelezési csoportokat hozhat létre és használhat. Ha rendelkezik AD DS szolgáltatással, és az Azure AD szolgáltatással szinkronizál, létrehozhat és használhat levelezési csoportokat, amelyek lehetnek biztonsági csoportok vagy terjesztési csoportok.
 
 ## A Rights Management engedélyezése
-Alapértelmezés szerint a [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] le van tiltva, amikor regisztrálja az [!INCLUDE[o365_2](../includes/o365_2_md.md)]- vagy az Azure AD-fiókját. Aktiválja a szolgáltatást, ha azt szeretné, hogy a [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] engedélyezve legyen a szervezete számára. További információ: [Activating Azure Rights Management](../deploy-use/activate-service.md) (Az Azure Rights Management aktiválása)..
+Alapértelmezés szerint a [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] le van tiltva, amikor regisztrálja az [!INCLUDE[o365_2](../includes/o365_2_md.md)]- vagy az Azure AD-fiókját. Aktiválja a szolgáltatást, ha azt szeretné, hogy a [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] engedélyezve legyen a szervezete számára. További információ: [Activating Azure Rights Management](../deploy-use/activate-service.md) (Az Azure Rights Management aktiválása).
 
 
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

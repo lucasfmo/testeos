@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Áttekintés | Azure RMS
-description: Az AD RMS és az Azure RMS egy információvédelmi technológia, amely segítségével megakadályozhatja a digitális adatok jogosulatlan használatát.
-keywords:
+title: "Áttekintés | Azure RMS"
+description: "Az AD RMS és az Azure RMS egy információvédelmi technológia, amely segítségével megakadályozhatja a digitális adatok jogosulatlan használatát."
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,15 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 8A13494E-C1D7-407D-BCD1-A406915EA578
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: f7dd88d90357c99c69fe4fdde67c1544595e02f8
+ms.openlocfilehash: 417888c5445d702b1f700a8e717fbb746593efc6
+
 
 ---
 
@@ -50,7 +45,7 @@ Az MS RMS SDK 4.2 az alábbi nagyszerű új szolgáltatásokat nyújtja:
 
 -   **Újratervezett API** – Az MS RMS SDK 4.2 API a maximális egyszerűség érdekében újra lett tervezve. A fejlesztők egy egyszerű és átlátható titkosítási és visszafejtési API-felületet használhatnak, amely egységes RMS-működést biztosít kevesebb ráfordítás mellett.
 -   **Hibrid AD RMS és Azure RMS támogatása** – Egyetlen tartalomvédelemmel kompatibilis alkalmazás képes az AD RMS kiszolgálóról (az AD RMS mobileszköz-bővítményével) és az Azure RMS szolgáltatásból származó tartalom használatára és védelmére. Az MS RMS SDK 4.2 átláthatóan azonosítja az informatikai rendszergazdák által konfigurálható végpontot.
--   **Saját hitelesítési tár használata** – Alkalmazásfejlesztőként eldöntheti, milyen hitelesítési tárat szeretne használni az MS RMS SDK 4.2-es verziójához. Ez lehet akár egy [Azure AD Authentication Library](https://msdn.microsoft.com/en-us/library/jj573266.aspx), akár a szervezete egyéni tára, az MS RMS SDK 4.2 elkülöníti a hitelesítési készletet, hogy megválaszthassa az igényeinek megfelelő tárat.
+-   **Saját hitelesítési tár használata** – Alkalmazásfejlesztőként eldöntheti, milyen hitelesítési tárat szeretne használni az MS RMS SDK 4.2-es verziójához. Akár az [Azure AD hitelesítési tárát](https://msdn.microsoft.com/library/jj573266.aspx), akár a szervezete egyéni tárát használja, az MS RMS SDK 4.2 elkülöníti a hitelesítési készletet, hogy Ön kiválaszthassa az igényeinek megfelelő tárat.
 -   **Saját felhasználói felület használata** – Az MS RMS SDK 4.2 mostantól lehetővé teszi a saját testre szabott felhasználói felület implementálását. Legyen szó a tartalomvédelemről, a sablonok kiválasztásáról, vagy az engedélyek megjelenítéséről és módosításáról a védett tartalom felhasználása közben, az MS RMS SDK 4.2 nem kényszerít semmilyen beépített felhasználói felületet az alkalmazásaira. Ha viszont szeretné, használhatja a Microsoft RMS felhasználói felület könyvtárait az összes platformra a [GitHub-fiókunkban](https://github.com/AzureAD/).
 -   **Hozzáférés offline a védett tartalmakhoz** – Az MS RMS SDK 4.2 lehetővé teszi a felhasználók számára a védett tartalomhoz még akkor is, amikor nincs internetkapcsolat. Az MS RMS SDK 4.2 biztonságosan gyorsítótárazza a védett tartalomra vonatkozó felhasználási házirendeket, hogy a felhasználók offline is hozzáférjenek az RMS által védett adatokhoz.
 
@@ -70,6 +65,7 @@ Az [Első lépések](get-started.md) útmutató segítségével belekezdhet véd
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: 2. lépés&colon; Szoftveres védelemmel ellátott kulcs áttelepítése szoftveres védelemmel rendelkező kulccsá | Azure RMS
-description:
-keywords:
+title: "2. lépés&colon; Szoftveres védelemmel ellátott kulcs áttelepítése szoftveres védelemmel rendelkező kulccsá | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 81a5cf4f-c1f3-44a9-ad42-66e95f33ed27
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: bb152f428c8e0b9a065035aaad2de6353265a562
+ms.openlocfilehash: a739da3fbebc8dfa4c6715fd64ccd72f87d2a686
+
 
 ---
 
@@ -33,7 +27,7 @@ ms.suite: ems
 
 Ezek az utasítások az [AD RMS-ről az Azure Rights Managementre történő áttelepítés](migrate-from-ad-rms-to-azure-rms.md) részét képezik, és csak akkor alkalmazandók, ha az AD RMS-kulcs szoftveres védelemmel van ellátva, és szoftveres védelemmel ellátott bérlőkulccsal rendelkező Azure Rights Management-környezetbe kívánt áttelepülni. 
 
-Amennyiben nem ez a választott konfigurációs forgatókönyv, térjen vissza a [2. lépéshez. Exportálja a konfigurációs adatokat az AD RMS-ből, majd importálja azokat az Azure RMS-be](migrate-from-ad-rms-to-azure-rms.md#step-2-export-configuration-data-from-ad-rms-and-import-it-to-azure-rms), és válasszon egy másik konfigurációt.
+Amennyiben nem ez a választott konfigurációs forgatókönyv, térjen vissza a [2. lépéshez. Exportálja a konfigurációs adatokat az AD RMS-ből, majd importálja az Azure RMS-be](migrate-from-ad-rms-phase1.md#step-2-export-configuration-data-from-ad-rms-and-import-it-to-azure-rms), és válasszon egy másik konfigurációt.
 
 Az alábbi eljárással importálhatja az AD RMS konfigurációját az Azure RMS-be. Ennek eredményeképp jön létre a Microsoft által felügyelt Azure RMS-bérlőkulcs.
 
@@ -44,7 +38,7 @@ Az alábbi eljárással importálhatja az AD RMS konfigurációját az Azure RMS
     > [!TIP]
     > Ha már korábban letöltötte és telepítette a modult, ellenőrizze a verziószámot a következő futtatásával: `(Get-Module aadrm -ListAvailable).Version`
 
-    A telepítési utasításokért lásd: [Installing Windows PowerShell for Azure Rights Management](../deploy-use/install-powershell.md) (Az Azure Rights Managementhez készült Windows PowerShell telepítése)..
+    A telepítési utasításokat [Az Azure Rights Managementhez készült Windows PowerShell telepítése](../deploy-use/install-powershell.md) című cikk tartalmazza.
 
 2.  **Futtatás rendszergazdaként** beállítással indítsa el a Windows PowerShellt, majd a [Connect-AadrmService](http://msdn.microsoft.com/library/azure/dn629415.aspx) parancsmagot használva csatlakozzon az Azure RMS-hez:
 
@@ -70,10 +64,11 @@ Az alábbi eljárással importálhatja az AD RMS konfigurációját az Azure RMS
     Disconnect-AadrmService
     ```
 
-Folytassa a következővel: [3. lépés: Az RMS-bérlő aktiválása](migrate-from-ad-rms-to-azure-rms.md#BKMK_Step3Migration).
+Folytassa a következővel: [3. lépés: Az RMS-bérlő aktiválása](migrate-from-ad-rms-phase1.md#step-3-activate-your-rms-tenant).
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,28 +1,21 @@
 ---
-# required metadata
-
-title: Áttelepítés AD RMS-ről Azure Rights Managementre – 4. fázis | Azure RMS
-description:
-keywords:
+title: "Áttelepítés AD RMS-ről Azure Rights Managementre – 4. fázis | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 06/14/2016
+ms.date: 06/29/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: d51e7bdd-2e5c-4304-98cc-cf2e7858557d
-
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ea4dd88ed749092fd02135d8ca25b621f74fe72f
+ms.openlocfilehash: 7ed3569475362272ace055862fe8bb3ee072036a
+
 
 ---
 
@@ -49,7 +42,7 @@ Ez a lépés ugyan választható, de akkor is ajánlott az áttelepítés befeje
 
 Kulcsismétlés végrehajtása az Azure RMS-bérlőkulcs esetében:
 
--   Ha az Azure RMS-bérlőkulcsát a Microsoft kezeli: [Lépjen kapcsolatba a Microsoft támogatási szolgálatával](../get-started/information-support#to-contact-microsoft-support), és nyisson egy **Azure Rights Management támogatási esetet az Azure RMS-bérlőkulcs kulcsismétléséhez**. Igazolja, hogy Ön az Azure RMS bérlői rendszergazdája. A folyamat jóváhagyása több napig is eltarthat. A szolgáltatásra a szabványos támogatási díjak vonatkoznak; a bérlői kulcs kulcsismétlése nem ingyenes szolgáltatás.
+-   Ha az Azure RMS-bérlőkulcsát a Microsoft kezeli: [Lépjen kapcsolatba a Microsoft támogatási szolgálatával](../get-started/information-support.md#to-contact-microsoft-support), és nyisson egy **Azure Rights Management támogatási esetet, amelyben kéri az Azure RMS-bérlőkulcs kulcsismétlését**. Igazolja, hogy Ön az Azure RMS bérlői rendszergazdája. A folyamat jóváhagyása több napig is eltarthat. A szolgáltatásra a szabványos támogatási díjak vonatkoznak; a bérlői kulcs kulcsismétlése nem ingyenes szolgáltatás.
 
 -   Ha saját maga által felügyelt Azure RMS-bérlőkulccsal (BYOK) rendelkezik: a BYOK-eljárás megismétlésével állítson elő és hozzon létre egy új kulcsot az interneten vagy személyesen.
 
@@ -61,6 +54,7 @@ Most, hogy befejezte az áttelepítést, tekintse át az [üzembe helyezési men
 
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO5-->
 
 

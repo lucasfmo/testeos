@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Office-alkalmazások és -szolgáltatások | Azure RMS
-description:
-keywords:
+title: "Office-alkalmazások és -szolgáltatások | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 06/30/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 388e67cd-c16f-4fa0-a7bb-ffe0def2be81
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 99eb67f6296ad1782c787aabb73a28458c02f367
+ms.openlocfilehash: affb37cc3b991609f5de51370485b10fed932421
+
 
 ---
 
@@ -33,9 +27,9 @@ ms.suite: ems
 A végfelhasználói Office-alkalmazások (például Word, Excel, PowerPoint és Outlook) és az Office-szolgáltatások (például Exchange és SharePoint) a Microsoft Azure Rights Management segítségével védelmet biztosíthatnak a szervezet adatai számára.
 
 ## Office alkalmazások: Word, Excel, PowerPoint, Outlook
-Ezek az alkalmazások natív módon támogatják a Rights Managementet a tartalomvédelmi szolgáltatás (IRM) alkalmazása révén, valamint lehetővé teszik a felhasználók számára, hogy mentett dokumentumaikat vagy elküldendő e-mail üzeneteiket védelemmel lássák el. A felhasználók sablonokat vagy nagymértékben testre szabott beállításokat alkalmazhatnak a hozzáférési, jogosultsági, illetve használati korlátozások terén. 
+Ezek az alkalmazások natív módon támogatják a Rights Managementet a tartalomvédelmi szolgáltatás (IRM) alkalmazása révén, valamint lehetővé teszik a felhasználók számára, hogy mentett dokumentumaikat vagy elküldendő e-mail üzeneteiket védelemmel lássák el. A felhasználók sablonokat vagy a Word, Excel és PowerPoint esetében nagymértékben testre szabott beállításokat alkalmazhatnak a hozzáférési, jogosultsági, illetve használati korlátozásokhoz. 
 
-A felhasználók például konfigurálhatnak egy adott fájlt úgy, hogy az kizárólag a szervezeten belüli személyek számára legyen elérhető, meghatározhatják a fájl szerkeszthető vagy írásvédett állapotát, illetve letilthatják annak kinyomtatását. Időérzékeny fájlok esetében lejárati idő adható meg (közvetlenül a felhasználó által vagy sablon alkalmazásával), amelytől kezdve a fájl már nem lesz hozzáférhető. Az Outlook-felhasználók az adatszivárgás megakadályozása érdekében kiválaszthatják a **Nem továbbítandó** beállítást is.
+A felhasználók például beállíthatnak egy adott Word-dokumentumot úgy, hogy az kizárólag a szervezeten belüli személyek számára legyen elérhető, vagy meghatározhatják, hogy egy Excel-számolótábla a fájl szerkeszthető vagy írásvédett legyen-e, illetve letilthatják annak kinyomtatását. Időérzékeny fájlok esetében lejárati idő adható meg (közvetlenül a felhasználó által vagy sablon alkalmazásával), amelytől kezdve a fájl már nem lesz hozzáférhető. Az Outlook-felhasználók az adatszivárgás megakadályozása érdekében a sablonválasztás mellett választhatják a **Nem továbbítandó** beállítást is.
 
 ## Az Exchange Online és az Exchange Server
 Az Exchange Online vagy az Exchange Server használatakor tartalomvédelmi szolgáltatás (IRM) integrációt alkalmazhat, amelynek révén további védelmi megoldások válnak elérhetővé:
@@ -76,8 +70,9 @@ Az Azure RMS SharePointtal való alkalmazásáról bővebben az Office blogjána
 
 ## További lépések
 
-Információk az egyéb alkalmazások és szolgáltatások Azure Rights Management-támogatásáról: [Hogyan támogatják a különböző alkalmazások az Azure Rights Managementet?](applications-support.md).
+Információk az egyéb alkalmazások és szolgáltatások Azure Rights Management-támogatásáról: [Hogyan támogatják a különböző alkalmazások az Azure Rights Managementet?](applications-support.md)
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jul16_HO1-->
 
 

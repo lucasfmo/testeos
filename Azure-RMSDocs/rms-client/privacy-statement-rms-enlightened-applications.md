@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Az RMS-kompatibilis alkalmazásokban használt Microsoft Rights Management adatvédelmi nyilatkozata | Azure RMS
-description:
-keywords:
+title: "Az RMS-kompatibilis alkalmazásokban használt Microsoft Rights Management adatvédelmi nyilatkozata | Azure RMS"
+description: 
+keywords: 
 author: msmbaldwin
 manager: msmbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 751e5e05-fbe2-4769-a5df-1362c0db2108
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 8e8b1dabe3ba2894bec9a87e6d34123d833c699b
+ms.openlocfilehash: 500701acb03aa9f049cc995f14e544e07556bc4f
+
 
 ---
 
@@ -29,7 +23,7 @@ ms.suite: ems
 A következőkre vonatkozik: az alkalmazásokba beágyazott Microsoft Rights Management szolgáltatásra
 
 > [!NOTE]
-> A jelen adatvédelmi nyilatkozat további nyelveken is elérhető a [Microsoft letöltőközpontjában](http://www.microsoft.com/download/details.aspx?id=41668)..
+> A jelen adatvédelmi nyilatkozat további nyelveken is elérhető a [Microsoft letöltőközpontjában](http://www.microsoft.com/download/details.aspx?id=41668).
 
 A Microsoft elkötelezte magát a felhasználók személyes adatainak védelmére, miközben olyan szoftvereket kínál, amelyek a személyi számítógépek világában az elvárt teljesítményt, hatékonyságot és kényelmet megvalósítják. Ez az adatvédelmi nyilatkozat ismerteti a Microsoft Rights Management ügyfélszoftver és szolgáltatás és bármely más Microsoft-termék vagy -szolgáltatás adatgyűjtési és -használati gyakorlatát, amely ezt a nyilatkozatot megjeleníti vagy amely erre hivatkozik.
 
@@ -53,7 +47,7 @@ A hitelesítő adatokat, olvasási visszaigazolást és/vagy általános eszköz
 A Microsoft Rights Management által összegyűjtött vagy a Microsoftnak továbbított adatok az Egyesült Államokban és minden olyan országban tárolhatók és feldolgozhatók, ahol a Microsoft vagy annak társvállalatai, leányvállalatai, illetve szolgáltatói jelen vannak. A Microsoft megfelel az Amerikai Egyesült Államok Ezek a megállapodások az Európai Unióból, az Európai Gazdasági Térségből és a Svájcból származó adatok gyűjtésére, felhasználására és megőrzésére vonatkoznak.
 
 ## Microsoft Update
-A Microsoft Rights Managementtel kompatibilis alkalmazások Windows rendszeren való használatakor dönthet úgy, hogy részt vesz a Microsoft Update szolgáltatásban. A Microsoft Update (MU) a Microsoft szoftverekhez (így a Windows Microsoft Rights Management-ügyfélhez is) frissítéseket biztosító szolgáltatás. Az összegyűjtött információkról, felhasználásukról és a beállítások módosításáról lásd: [Update Services Privacy Statement (Update Services adatvédelmi nyilatkozat) ](http://go.microsoft.com/fwlink/?linkid=50142) ([http://go.microsoft.com/fwlink/?linkid=50142](http://go.microsoft.com/fwlink/?linkid=50142)).
+A Microsoft Rights Managementtel kompatibilis alkalmazások Windows rendszeren való használatakor dönthet úgy, hogy részt vesz a Microsoft Update szolgáltatásban. A Microsoft Update (MU) a Microsoft szoftverekhez (így a Windows Microsoft Rights Management-ügyfélhez is) frissítéseket biztosító szolgáltatás. Az összegyűjtött információkról, a felhasználásukról és a beállítások módosításáról az [Update Services adatvédelmi nyilatkozatában](http://go.microsoft.com/fwlink/?linkid=50142) ([http://go.microsoft.com/fwlink/?linkid=50142](http://go.microsoft.com/fwlink/?linkid=50142)) tájékozódhat.
 
 Döntési és szabályozási lehetőségek: beavatkozás nélküli telepítés esetén a Microsoft Rights Management szolgáltatással kompatibilis alkalmazások a Windows asztali rendszerre alkalmazott MU-beállításokkal megegyező beállításokat használják. Ha a felhasználói telepítéseknél nincs bekapcsolva az MU, lehetséges, hogy telepítés közben a telepítő felajánlja az MU engedélyezését. Ha úgy dönt, hogy engedélyezi, akkor ezek az MU-beállítások minden Windows-alapú alkalmazásra érvényesek lesznek.
 
@@ -65,6 +59,7 @@ A jelen adatvédelmi nyilatkozatot bizonyos időnként frissíthetjük, annak é
 
 
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

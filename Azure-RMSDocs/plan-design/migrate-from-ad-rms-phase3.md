@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Áttelepítés AD RMS-ről Azure Rights Managementre – 3. fázis | Azure RMS
-description:
-keywords:
+title: "Áttelepítés AD RMS-ről Azure Rights Managementre – 3. fázis | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,17 +10,11 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 8b039ad5-95a6-4c73-9c22-78c7b0e12cb7
-
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: f7dd88d90357c99c69fe4fdde67c1544595e02f8
+ms.openlocfilehash: 75cce1d0e5a1cff0d4f6609d0f084fda1af62951
+
 
 ---
 
@@ -31,12 +23,12 @@ ms.suite: ems
 *A következőkre vonatkozik: Active Directory Rights Management Services, Azure Rights Management*
 
 
-Az alábbi, 3. fázisra vonatkozó információk segítséget nyújtanak az AD RMS-ről az Azure Rights Managementre (Azure RMS) való áttelepítésben. Ezek az eljárások megfelelnek az [Áttelepítés AD RMS-ről Azure Rights Managementre](migrate-from-ad-rms-to-azure-rms.md) 6-7. lépésének.
+Az alábbi, 3. fázisra vonatkozó információk segítséget nyújtanak az AD RMS-ről az Azure Rights Managementre (Azure RMS) való áttelepítésben. Ezek az eljárások megfelelnek az [Áttelepítés AD RMS-ről Azure Rights Managementre](migrate-from-ad-rms-to-azure-rms.md) című cikk 6–7. lépésének.
 
 
 ## 6. lépés IRM-integráció konfigurálása Exchange Online-ban
 
-Ha a TDP-t korábban az AD RMS szolgáltatásból importálta az Exchange Online-ba, az Azure RMS-be történő áttelepítés utáni sablon- és házirendütközés elkerülése érdekében először el kell távolítania a TDP-t. Ehhez a [Remove-RMSTrustedPublishingDomain](https://technet.microsoft.com/en-us/library/jj200720%28v=exchg.150%29.aspx) parancsmagot használhatja az Exchange Online-ból.
+Ha a TDP-t korábban az AD RMS szolgáltatásból importálta az Exchange Online-ba, az Azure RMS-be történő áttelepítés utáni sablon- és házirendütközés elkerülése érdekében először el kell távolítania a TDP-t. Ehhez a [Remove-RMSTrustedPublishingDomain](https://technet.microsoft.com/library/jj200720%28v=exchg.150%29.aspx) parancsmagot használhatja az Exchange Online-ból.
 
 Ha a **Microsoft által felügyelt** Azure RMS bérlőkulcs-topológiát választotta:
 
@@ -52,7 +44,7 @@ Ha használta az Exchange-kiszolgáló vagy a SharePoint-kiszolgáló tartalomv�
 Ha több, az e-mail-üzenetek védelmére szolgáló TPD-t importált az Azure RMS szolgáltatásba, a lépés végén végezze el beállításjegyzék manuális szerkesztését az Exchange-kiszolgáló számítógépeken az összes TPD URL-címének RMS-összekötőre történő átirányításához.
 
 > [!NOTE]
-> Mielőtt elkezdi a műveletet, ellenőrizze az Azure RMS által támogatott helyszíni kiszolgálók verzióit a [Az Azure RMS-t támogató helyszíni kiszolgálók](../get-started/requirements-servers.md) szakaszban.
+> Mielőtt elkezdi a műveletet, ellenőrizze az Azure RMS által támogatott helyszíni kiszolgálók verzióit [Az Azure RMS-t támogató helyszíni kiszolgálók](../get-started/requirements-servers.md) című cikk útmutatása alapján.
 
 ### Az IRM letiltása az Exchange-kiszolgálókon és az AD RMS-konfiguráció eltávolítása
 
@@ -82,19 +74,19 @@ Ha több, az e-mail-üzenetek védelmére szolgáló TPD-t importált az Azure R
     Set-IRMConfiguration -RefreshServerCertificates
     ```
 
-6.  Állítsa alaphelyzetbe az IIS-t az egyes Exchange-kiszolgálókon a parancssor rendszergazdaként történő futtatásával és az **iisreset** karakterlánc begépelésével..
+6.  Állítsa alaphelyzetbe az IIS-t az egyes Exchange-kiszolgálókon a parancssor rendszergazdaként történő futtatásával és az **iisreset** karakterlánc begépelésével.
 
 ### Az IRM letiltása az SharePoint-kiszolgálókon és az AD RMS-konfiguráció eltávolítása
 
 1.  Győződjön meg róla, hogy az RMS által védett könyvtárakból nincsenek-e kivéve dokumentumok. Ha vannak, ezek az eljárás végére nem lesznek elérhetők.
 
-2.  A SharePoint központi felügyeleti webhely **Gyorsindítás** szakaszában kattintson a **Biztonság** elemre..
+2.  A SharePoint központi felügyeleti webhely **Gyorsindítás** szakaszában kattintson a **Biztonság** elemre.
 
-3.  A **Biztonság** lap **Tájékoztatási házirend** szakaszában kattintson a **Tartalomvédelmi szolgáltatás beállítása** elemre..
+3.  A **Biztonság** lap **Tájékoztatási házirend** szakaszában kattintson a **Tartalomvédelmi szolgáltatás beállítása** elemre.
 
-4.  A **Tartalomvédelmi szolgáltatás** lap **Tartalomvédelmi szolgáltatás** szakaszában válassza az **Ezen a kiszolgálón ne fusson tartalomvédelmi szolgáltatás** lehetőséget, majd kattintson az **OK** gombra..
+4.  A **Tartalomvédelmi szolgáltatás** lap **Tartalomvédelmi szolgáltatás** szakaszában válassza az **Ezen a kiszolgálón ne fusson tartalomvédelmi szolgáltatás** lehetőséget, majd kattintson az **OK** gombra.
 
-5.  Törölje a következő mappa tartalmát az egyes SharePoint Servert futtató számítógépeken: \ProgramData\Microsoft\MSIPC\Server\*&lt;a SharePoint Servert futtató fiók SID-je&gt;*.
+5.  Törölje a következő mappa tartalmát a SharePoint Servert futtató számítógépeken: \ProgramData\Microsoft\MSIPC\Server\*&lt;a SharePoint Servert futtató fiók SID azonosítója&gt;*.
 
 #### Az RMS-összekötő telepítése és beállítása
 
@@ -219,8 +211,9 @@ A következők egyike, attól függően, hogy az Exchange-kiszolgáló és az RM
 A fenti eljárások végrehajtását követően készen áll arra, hogy elolvassa a [Deploying the Azure Rights Management connector](../deploy-use/deploy-rms-connector.md) (Az Azure Rights Management-összekötő üzembe helyezése) című cikk **További lépések** szakaszát.
 
 ## További lépések
-Az áttelepítés folytatásához lépjen az [4. fázis – áttelepítés utáni feladatok](migrate-from-ad-rms-phase4.md) szakaszhoz.
+Az áttelepítés folytatásához ugorjon a [4. fázis – áttelepítés utáni feladatok](migrate-from-ad-rms-phase4.md) című szakaszra.
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,26 +1,21 @@
 ---
-# required metadata
-
-title: Újdonságok és kibocsátási megjegyzések | Azure RMS
-description: Az alábbiakban megismerheti az RMS SDK ezen új verziójával kapcsolatos fontos változtatásokat és szolgáltatásokat.
-keywords:
+title: "Újdonságok és kibocsátási megjegyzések | Azure RMS"
+description: "Az alábbiakban megismerheti az RMS SDK ezen új verziójával kapcsolatos fontos változtatásokat és szolgáltatásokat."
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 06/16/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 4fa1c686-b00b-4734-9abb-141ce582a6af
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: f7dd88d90357c99c69fe4fdde67c1544595e02f8
+ms.openlocfilehash: eccc0ba9c13e0c35c8d0c8877ce92f9b99e83835
+
 
 ---
 
@@ -29,7 +24,8 @@ ms.suite: ems
 ## Újdonságok
 A Microsoft Rights Management SDK 4.2-es verziója az egyszerűség és rugalmasság új szintjére emeli az alkalmazásfejlesztés RMS általi támogatását. A jelen témakör ismerteti az RMS SDK ezen új verziójával kapcsolatos fontos változtatásokat és szolgáltatásokat.
 
--   [A 2015. decemberi frissítés újdonságai](#new_for_our_december_2015_update)
+-   [2016. júniusi újdonságok](#new_for_June_2016)
+-   [2015. decemberi frissítés](#december_2015_update)
 -   [2015. júliusi frissítés – Linux-/C++-fejlesztés támogatása](#july_2015_update_-_adds_support_for_linux___c___development)
 -   [2015. májusi frissítés – Naplózás vezérlésének hozzáadása](#may_2015_update_-_adds_logging_control)
 -   [2015. februári frissítés – Windows Áruházbeli alkalmazások támogatása](#february_2015_update_-_adds_windows_store_application_support)
@@ -38,7 +34,15 @@ A Microsoft Rights Management SDK 4.2-es verziója az egyszerűség és rugalmas
 -   [Kibocsátási megjegyzések](#release-notes)
 -   [Gyakori kérdések](#frequently_asked_questions)
 
-### A 2015. decemberi frissítés újdonságai
+### 2016. júniusi újdonságok
+
+- **A modern hitelesítés támogatása** – Ezzel az Active Directory Authentication Library-alapú (ADAL-alapú) bejelentkezés biztosítható az RMS-kompatibilis alkalmazásokhoz. Lehetővé teszi olyan bejelentkezési módok használatát, mint a többtényezős hitelesítés (Multi-Factor Authentication, MFA), az SAML-alapú, RMS ügyfélalkalmazásokat használó külső identitásszolgáltatók, valamint az intelligenskártya- és tanúsítványalapú hitelesítés, és szükségtelenné teszi, hogy az RMS-kompatibilis alkalmazásoknak alapszintű hitelesítési protokollt kelljen használniuk.
+- **A dokumentumkövetés támogatása** – A fejlesztők mostantól lehetővé tehetik a dokumentumkövetést, miközben védik a saját alkalmazásaikban lévő dokumentumokat. 
+- Teljesítménnyel kapcsolatos fejlesztések
+- Hibajavítások
+
+
+### 2015. decemberi frissítés
 
 Ezzel a kiadással az eszközök számára készült RMS SDK verzió a 4.2-es verzió lett, és az alábbiakkal bővült:
 
@@ -124,7 +128,7 @@ Ez a szakasz olyan információkat ismertet a Microsoft Rights Management SDK 4.
 
 -   **Az AD RMS támogatása** – az informatikai rendszergazdák használhatnak RMS-kompatibilis alkalmazásokat mobileszközökön az új AD RMS-kiszolgáló mobileszköz-bővítményeivel.
 -   **Offline használat** – a végfelhasználók kapcsolat nélküli állapotban is hozzáférhetnek az RMS által védett adatokhoz.
--   **Elkülönített hitelesítés** – a fejlesztők használhatják saját hitelesítési tárukat az Azure RMS és AD RMS szolgáltatáshoz (vagy használhatják az ajánlott [Azure AD Authentication Library (ADAL)](https://MSDN.Microsoft.Com/en-us/library/jj573266.aspx) hitelesítési tárat).
+-   **Elkülönített hitelesítés** – a fejlesztők használhatják saját hitelesítési tárukat az Azure RMS és AD RMS szolgáltatáshoz (vagy használhatják az ajánlott [Azure AD Authentication Library (ADAL)](https://MSDN.Microsoft.Com/library/jj573266.aspx) hitelesítési tárat).
 -   **Elkülönített felhasználói felület** – a fejlesztők létrehozhatják saját felhasználói felületüket a dokumentumok védelemmel való ellátásához és az RMS által védett dokumentumok használatához.
 -   **Újratervezett API** – a fejlesztők mostantól egy egyszerű és átlátható titkosítási és visszafejtési API felületet használhatnak, amely egységes RMS-működést és felhasználói élményt biztosít kevesebb ráfordítás mellett.
 
@@ -227,6 +231,7 @@ Ez a szakasz olyan információkat ismertet a Microsoft Rights Management SDK 4.
  
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Felhasználói regisztrálás módja az RMS egyéni felhasználók számára szolgáltatásban | Azure RMS
-description:
-keywords:
+title: "Felhasználói regisztrálás módja az RMS egyéni felhasználók számára szolgáltatásban | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: a60731bd-f78d-4f00-bb3e-354637b312ab
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
+ms.openlocfilehash: 19252180802c69d6e5d6bf22c71ff3bcba96fb36
+
 
 ---
 
@@ -35,14 +29,14 @@ A felhasználók általában úgy jutnak erre a regisztrációs oldalra, hogy v�
 
 ## Regisztrálás az RMS egyéni felhasználók számára szolgáltatásban
 
-1.  A Windows vagy Mac számítógépen nyissa meg a [Microsoft Rights Management oldalt](https://portal.aadrm.com)..
+1.  A Windows vagy Mac számítógépen nyissa meg a [Microsoft Rights Management weblapot](https://portal.aadrm.com).
 
-2.  Írja be a szervezetben használt e-mail címet, például **janetm@contoso.com** vagy **p.dover@fabrikam.com**..
+2.  Írja be szervezetének e-mail címét, például **esztert@contoso.com** vagy **e.barta@fabrikam.com**.
 
     > [!IMPORTANT]
     > Személyes e-mail fiókok megadása nem támogatott, ezért ne adjon meg Microsoft-fiókot (korábbi nevén Microsoft Live ID-fiókot) vagy más személyes fiókot, amelyet esetleg otthoni internetszolgáltatója biztosít.
 
-3.  Kattintson az **Első lépések** elemre..
+3.  Kattintson az **Első lépések** elemre.
 
     A Microsoft az e-mail cím alapján ellenőrzi, hogy a szervezet rendelkezik-e már olyan [fizetős előfizetéssel, amely tartalmazza az Azure RMS](../get-started/requirements-subscriptions.md) szolgáltatást. Ha így van, akkor nincs szükség az RMS egyéni felhasználók számára szolgáltatásra, a rendszer azonnal belépteti és megszakítja az RMS egyéni felhasználók számára szolgáltatásra irányuló önkiszolgáló regisztrációt. Ha nem található fizetett előfizetés az Azure RMS szolgáltatáshoz, a következő lépéssel fogja folytatni.
 
@@ -50,7 +44,7 @@ A felhasználók általában úgy jutnak erre a regisztrációs oldalra, hogy v�
 
 5.  Az e-mail megérkezése után kattintson az utasításokban található hivatkozásra a regisztrációs folyamat befejezéséhez.
 
-6.  A hivatkozás átirányítja egy új **Microsoft Rights Management** oldalra, amelyen meg kell adnia a fiókjára vonatkozó adatokat. Írja be keresztnevét, vezetéknevét, adjon meg egy tetszőleges jelszót és erősítse azt meg, válassza ki az országot (vagy az ahhoz legközelebbi országot, amennyiben az nem szerepel a listán) a legördülő menüben, majd kattintson a **Létrehozás** elemre..
+6.  A hivatkozás átirányítja egy új **Microsoft Rights Management** oldalra, amelyen meg kell adnia a fiókjára vonatkozó adatokat. Írja be az utónevét, vezetéknevét, adjon meg egy tetszőleges jelszót, és erősítse meg, válassza ki a lakhelyéül szolgáló országot (vagy ha az nem szerepel a listán, az ahhoz legközelebbi országot) a legördülő menüben, majd kattintson a **Létrehozás** elemre.
 
 7.  Várja meg a Microsoft által küldött másik e-mail üzenetet, amely megerősíti, hogy fiókja használatra kész.
 
@@ -70,7 +64,7 @@ Ez történik a háttérben, amikor egy felhasználó regisztrál az RMS egyéni
 
     Ha található meglévő bérlő, a rendszer ellenőrzi, hogy rendelkezik-e már Azure RMS-előfizetéssel. Ha nem található előfizetés, hozzáadható ingyenes előfizetés az RMS egyéni felhasználók számára szolgáltatáshoz.
 
-2.  A szervezet megkapja az RMS egyéni felhasználók számára szolgáltatás előfizetését. Ezután az Azure hitelesítheti a felhasználót, aki védelemmel láthat el fájlokat, illetve olvashatja a mások által védelemmel ellátott fájlokat az Azure Rights Management használatával. A fájlok védelemmel való ellátásához és a védett fájlok olvasásához a felhasználónak RMS-kompatibilis alkalmazással kell rendelkeznie, ilyen például az ingyenes [Rights Management megosztóalkalmazás](../rms-client/sharing-app-windows.md)..
+2.  A szervezet megkapja az RMS egyéni felhasználók számára szolgáltatás előfizetését. Ezután az Azure hitelesítheti a felhasználót, aki védelemmel láthat el fájlokat, illetve olvashatja a mások által védelemmel ellátott fájlokat az Azure Rights Management használatával. A fájlok védelemmel való ellátásához és a védett fájlok olvasásához a felhasználónak RMS-kompatibilis alkalmazással kell rendelkeznie, ilyen például az ingyenes [Rights Management megosztóalkalmazás](../rms-client/sharing-app-windows.md).
 
 3.  Amikor ugyanazon szervezet második felhasználója előfizetést igényel az RMS egyéni felhasználók számára szolgáltatáshoz, az új felhasználói fiókot a rendszer hozzáadja a korábban létrehozott Azure-címtárhoz a szervezet RMS egyéni felhasználók számára előfizetését használva. Ez a második felhasználó az első felhasználó számára elérhető műveletek mindegyikét végrehajtja (fájlok védelemmel való ellátása és védett fájlok olvasása), emellett pedig a két felhasználó könnyebben és biztonságosan együttműködhet, mivel gyorsan alkalmazhatnak alapértelmezett sablonokat, amelyek korlátozzák a szervezet Azure-címtárában található fiókokhoz való hozzáférést.
 
@@ -80,7 +74,7 @@ A folyamat során semmilyen költsége sem keletkezik a szervezetnek, és az inf
 
 -   **A fiókok és a regisztrációs folyamat felügyelete**: Az informatikai rendszergazdák saját tulajdonukba vehetik az Azure szolgáltatásban automatikusan létrehozott címtárakat és fiókokat. Ezután a fiókokat címtár-integrációs megoldások megvalósításával felügyelhetik, ilyen például a jelszó-szinkronizálás és az egyszeri bejelentkezés. Emellett megakadályozhatják, hogy a felhasználók fiókokat hozzanak létre vagy regisztráljanak az RMS egyéni felhasználók számára szolgáltatásában.
 
-    További információ: [How administrators can control the accounts created for RMS for individuals](rms-for-individuals-take-control.md) (RMS egyéni felhasználók számára szolgáltatásfiókok rendszergazdai felügyelete)..
+    További információ: [Egyéni felhasználók számára létrehozott RMS-szolgáltatásfiókok rendszergazdai felügyelete](rms-for-individuals-take-control.md).
 
 -   **Rights Management kezelése**: A rendszergazdák átalakíthatják a szervezet RMS egyéni felhasználók számára előfizetését az Azure Rights Management szolgáltatást is tartalmazó fizetős előfizetéssé. Amikor erre sor kerül, a meglévő Azure-címtárat és -fiókokat megőrzi a rendszer, így az RMS egyéni felhasználók számára szolgáltatást használó meglévő felhasználók számára zökkenőmentes lesz az átmenet. A felhasználók által korábban védelemmel ellátott fájlok védelmét továbbra is biztosítják ugyanazon házirendek, és a fájlok használatára engedélyt kapott személyek továbbra is a megszokott módon használhatják a fájlokat.
 
@@ -92,21 +86,22 @@ A folyamat során semmilyen költsége sem keletkezik a szervezetnek, és az inf
 
         -   [Deploying the Azure Rights Management connector (Az Azure Rights Management-összekötő üzembe helyezése)](../deploy-use/deploy-rms-connector.md)
 
-    -   Elektronikus felderítés hajthat végre a vállalat tulajdonában lévő adatokon, így feloldhatja a Rights Management használatával védett fájlok titkosítását, ha szükséges. További információ: [Configuring super users for Azure Rights Management and discovery services or data eecovery](../deploy-use/configure-super-users.md) (Felügyelők konfigurálása az Azure Rights Management és a felderítési szolgáltatások vagy adat-helyreállítás számára)..
+    -   Elektronikus felderítés hajthat végre a vállalat tulajdonában lévő adatokon, így feloldhatja a Rights Management használatával védett fájlok titkosítását, ha szükséges. További információ: [Felügyelők konfigurálása az Azure Rights Management és a felderítési szolgáltatások vagy az adat-helyreállítás számára](../deploy-use/configure-super-users.md).
 
-    -   Naplózhatja a Rights Management használatához kapcsolódó szervezeti tevékenységeket. Ez nagyon hatékony eljárás, mert nemcsak azt figyelheti, hogy mely fájlok élveznek védelmet, és kinek sikerül a védett fájlokhoz hozzáférnie, de azonosíthatja azon jogosulatlan személyek potenciálisan gyanús viselkedését is, akik a védett fájlokhoz próbálnak hozzáférni. További információ: [Az Azure Rights Management használatának naplózása és elemzése](../deploy-use/log-analyze-usage.md)..
+    -   Naplózhatja a Rights Management használatához kapcsolódó szervezeti tevékenységeket. Ez nagyon hatékony eljárás, mert nemcsak azt figyelheti, hogy mely fájlok élveznek védelmet, és kinek sikerül a védett fájlokhoz hozzáférnie, de azonosíthatja azon jogosulatlan személyek potenciálisan gyanús viselkedését is, akik a védett fájlokhoz próbálnak hozzáférni. További információ: [Az Azure Rights Management használatának naplózása és elemzése](../deploy-use/log-analyze-usage.md).
 
-    -   Biztosíthatja a felhasználók számára védett dokumentumaik nyomon követését és visszavonását, amennyiben az [Azure RMS-előfizetés](https://technet.microsoft.com/dn858608) támogatja ezeket a szolgáltatásokat. További információ: [Track and revoke your files](../rms-client/sharing-app-track-revoke.md) (Fájlok nyomon követése és visszavonása) című rész az [RMS sharing application user guide](../rms-client/sharing-app-user-guide.md) (RMS-megosztóalkalmazás használati útmutatójában) című témakörben..
+    -   Biztosíthatja a felhasználók számára védett dokumentumaik nyomon követését és visszavonását, amennyiben az [Azure RMS-előfizetés](https://technet.microsoft.com/dn858608) támogatja ezeket a szolgáltatásokat. További információ: [A fájlok nyomon követése és visszavonása](../rms-client/sharing-app-track-revoke.md) című rész [Az RMS-megosztóalkalmazás használati útmutatója](../rms-client/sharing-app-user-guide.md) című témakörben.
 
-    -   BYOK-megoldást valósíthat meg, hogy Azure Rights Management-bérlőkulcsot a helyszínen hozza létre a rendszer a informatikai házirendek alapján, majd biztonságosan eljuttassa azt a Microsoft számára hardveres biztonsági modul (HSM) használatával. További információ: [Planning and implementing your Azure Rights Management tenant key](../plan-design/plan-implement-tenant-key.md) (Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása)..
+    -   BYOK-megoldást valósíthat meg, hogy Azure Rights Management-bérlőkulcsot a helyszínen hozza létre a rendszer a informatikai házirendek alapján, majd biztonságosan eljuttassa azt a Microsoft számára hardveres biztonsági modul (HSM) használatával. További információ: [Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása](../plan-design/plan-implement-tenant-key.md).
 
 
 ## További lépések
-Lásd: [How administrators can control the accounts created for RMS for individuals](rms-for-individuals-take-control.md) (RMS egyéni felhasználók számára szolgáltatásfiókok rendszergazdai felügyelete)..
+Lásd: [Egyéni RMS-felhasználók számára készült fiókok rendszergazdai felügyelete](rms-for-individuals-take-control.md).
 
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

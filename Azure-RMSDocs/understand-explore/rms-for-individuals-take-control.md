@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: RMS egyéni felhasználók számára létrehozott szolgáltatásfiókok rendszergazdai felügyelete | Azure RMS
-description:
-keywords:
+title: "RMS egyéni felhasználók számára létrehozott szolgáltatásfiókok rendszergazdai felügyelete | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: a83880d0-f0f9-4a32-9e00-2f6635d7cc8d
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
+ms.openlocfilehash: df006a27c97884c47c9bb5fb04bfa181a13b7443
+
 
 ---
 
@@ -49,9 +43,10 @@ Az Azure címtár felhasználói fiókjainak kezeléséhez, vagy a felhasználó
 
 ## További lépések
 
-Ha a felhasználók létre tudják hozni a rendszergazdák helyett a fiókjaikat a RMS egyéni felhasználók számára regisztrációhoz az Azure Active Directory címtárban, hogyan tudhatja meg, hogy elvégezték-e a feladatot?  Lásd: [Annak ellenőrzése, hogy a felhasználók regisztráltak-e az RMS egyéni felhasználók számára szolgáltatásra](rms-for-individuals-identify-sign-up.md).
+Ha a felhasználók létre tudják hozni a rendszergazdák helyett a fiókjaikat a RMS egyéni felhasználók számára regisztrációhoz az Azure Active Directory címtárban, hogyan tudhatja meg, hogy elvégezték-e a feladatot?  Lásd: [Annak ellenőrzése, hogy a felhasználók regisztráltak-e az egyéni felhasználók számára készült RMS szolgáltatásra](rms-for-individuals-identify-sign-up.md).
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

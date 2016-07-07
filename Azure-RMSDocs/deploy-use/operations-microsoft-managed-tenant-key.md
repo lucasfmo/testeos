@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: A Microsoft által felügyelt megoldás – a bérlői kulcs életciklusához kapcsolódó műveletek | Azure RMS
-description:
-keywords:
+title: "A Microsoft által felügyelt megoldás – a bérlői kulcs életciklusához kapcsolódó műveletek | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 06/14/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 3c48cda6-e004-4bbd-adcf-589815c56c55
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 7a9c8b531ec342e7d5daf0cbcacd6597a79e6a55
+ms.openlocfilehash: feb41356a2ef074679e60ce4bb7b1d6ee910371c
+
 
 ---
 
@@ -42,7 +36,7 @@ A kulcsismétlést kulcsváltásnak is nevezik. Csak akkor hajtsa végre a bérl
 
 -   Úgy véli, hogy a bérlői kulcs főpéldányát (az Ön birtokában lévő példányt) feltörték.
 
-A bérlői kulcs kulcsismétléséhez [lépjen kapcsolatba a Microsoft támogatási szolgálatával](../get-started/information-support#to-contact-microsoft-support), és nyisson egy **Azure Rights Management támogatási esetet az Azure RMS-bérlőkulcs kulcsismétléséhez**. Igazolja, hogy Ön az Azure RMS bérlői rendszergazdája. A folyamat jóváhagyása több napig is eltarthat. A szolgáltatásra a szabványos támogatási díjak vonatkoznak; a bérlői kulcs kulcsismétlése nem ingyenes szolgáltatás.
+A bérlői kulcs kulcsismétléséhez [lépjen kapcsolatba a Microsoft támogatási szolgálatával](../get-started/information-support.md#to-contact-microsoft-support), és nyisson egy **Azure Rights Management támogatási esetet, amelyben kéri az Azure RMS-bérlőkulcs kulcsismétlését**. Igazolja, hogy Ön az Azure RMS bérlői rendszergazdája. A folyamat jóváhagyása több napig is eltarthat. A szolgáltatásra a szabványos támogatási díjak vonatkoznak; a bérlői kulcs kulcsismétlése nem ingyenes szolgáltatás.
 
 A bérlői kulcs kulcsismétlésekor az új tartalmakat az új bérlői kulcs segítségével lehet védelemmel ellátni. Ez szakaszosan történik, így bizonyos ideig egyes új tartalmaknak még a régi bérlői kulcs biztosít védelmet. A korábban védelemmel ellátott tartalmakat továbbra is a régi bérlői kulcs fogja védeni. A forgatókönyv támogatása érdekében az Azure RMS megőrzi a régi bérlői kulcsot, hogy az licenceket adhasson ki a régi tartalmakhoz.
 
@@ -54,7 +48,7 @@ Az Azure RMS-konfiguráció és a bérlői kulcs exportálásához hajtsa végre
 
 ### 1. lépés: Exportálás kezdeményezése
 
--   Ehhez [forduljon a Microsoft támogatási szolgálatához](../get-started/information-support#to-contact-microsoft-support), ahol megnyithat egy **Azure RMS-kulcsexportálási kérelmet tartalmazó Azure Rights Management támogatási esetet**. Igazolja, hogy Ön az Azure RMS bérlői rendszergazdája. A folyamat jóváhagyása több napig is eltarthat. A szolgáltatásra a szabványos támogatási díjak vonatkoznak; a bérlői kulcs exportálása nem ingyenes szolgáltatás.
+-   Ehhez [forduljon a Microsoft támogatási szolgálatához](../get-started/information-support.md#to-contact-microsoft-support), ahol megnyithat egy **Azure RMS-kulcsexportálási kérelmet tartalmazó Azure Rights Management támogatási esetet**. Igazolja, hogy Ön az Azure RMS bérlői rendszergazdája. A folyamat jóváhagyása több napig is eltarthat. A szolgáltatásra a szabványos támogatási díjak vonatkoznak; a bérlői kulcs exportálása nem ingyenes szolgáltatás.
 
 ### 2. lépés: Várakozás az ellenőrzésre
 
@@ -86,7 +80,7 @@ Az Azure RMS-konfiguráció és a bérlői kulcs exportálásához hajtsa végre
 
 -   Miután megkapta a bérlői kulcsot, őrizze gondosan, mivel ha mások is hozzáférnek, visszafejthetik a kulccsal védett dokumentumokat.
 
-    Ha azért exportálja a bérlői kulcsot, mert már nem szeretné használni az Azure RMS-t, akkor az ajánlott eljárás az RMS-bérlő inaktiválása. Ezt ne halassza a bérlői kulcs beszerzése utánra, mert ezzel az óvintézkedéssel minimalizálhatja a bérlői kulcs illetéktelen hozzáférésének következményeit. További útmutatás: [Az Azure Rights Management leszerelése és inaktiválása](decommission-deactivate.md).
+    Ha azért exportálja a bérlői kulcsot, mert már nem szeretné használni az Azure RMS-t, akkor az ajánlott eljárás az RMS-bérlő inaktiválása. Ezt ne halassza a bérlői kulcs beszerzése utánra, mert ezzel az óvintézkedéssel minimalizálhatja a bérlői kulcs illetéktelen hozzáférésének következményeit. Útmutatás: [Az Azure Rights Management kivezetése és inaktiválása](decommission-deactivate.md).
 
 ## Válasz a biztonsági szabályok megsértésére
 Még a legerősebb biztonsági rendszerek sem lehetnek teljesek a biztonsági szabályok megsértésére reagáló folyamat nélkül. A bérlői kulcsot feltörhetik vagy ellophatják. A kulcs kiváló védelme ellenére is jelentkezhetnek biztonsági rések a HSM-technológia aktuális generációjában vagy a jelenlegi kulcshosszúságokhoz vagy algoritmusokhoz kapcsolódóan.
@@ -97,13 +91,14 @@ Ha megsértették a biztonsági szabályokat, az Ön vagy a Microsoft által vé
 
 |Esemény leírása|Várható válasz|
 |------------------------|-------------------|
-|A bérlői kulcs kiszivárgott.|Hajtsa végre a bérlői kulcs kulcsismétlését. Olvassa el ebben a cikkben [A bérlői kulcs kulcsismétlése](operations-tenant-key#re-key-your-tenant-key) című szakaszt.|
+|A bérlői kulcs kiszivárgott.|Hajtsa végre a bérlői kulcs kulcsismétlését. Olvassa el ebben a cikkben [A bérlői kulcs kulcsismétlése](operations-microsoft-managed-tenant-key.md#re-key-your-tenant-key) című szakaszt.|
 |Jogosulatlan személy vagy kártevő szerzett jogosultságokat a bérlői kulcs használatára, maga a kulcs azonban nem szivárgott ki.|A bérlői kulcs kulcsismétlése ebben az esetben nem célravezető megoldás, és elemezni kell a probléma alapvető okát. Ha egy folyamat vagy szoftverhiba miatt szerezhetett hozzáférést a jogosulatlan személy, arra a problémára kell megoldást találni.|
 |Biztonsági rést észleltek az RSA-algoritmusban vagy a kulcshosszúságban, vagy találgatásos támadások váltak számítási szempontból megvalósíthatóvá.|A Microsoftnak frissítenie kell az Azure RMS-t az új algoritmusok és az ellenállóbb, hosszabb kulcshosszúságok támogatására, és fel kell szólítania az ügyfeleit a bérlői kulcsok megújítására.|
 
 
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

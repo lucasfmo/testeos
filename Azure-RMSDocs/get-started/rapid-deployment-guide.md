@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Gyors üzembe helyezési útmutató az Azure Rights Management szolgáltatáshoz | Azure RMS
-description:
-keywords:
+title: "Gyors üzembe helyezési útmutató az Azure Rights Management szolgáltatáshoz | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: c994d616-cff6-4930-9228-a7f7d198a160
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ed50d87138c428fadfd22cd5b3ef3c7f7e421848
+ms.openlocfilehash: 01c2436218e0d7fd80a31cdc037d9dc8933e42f2
+
 
 ---
 
@@ -39,7 +33,8 @@ Az itt felsorolt forgatókönyvek a legnépszerűbbekből mutatnak ízelítőt. 
 
 Mielőtt ezeket a megoldásokat a felhasználók rendelkezésére bocsátja, lehetséges, hogy széles körű bejelentést kíván majd tenni a végfelhasználók számára, amelyben tudatja velük, hogy a céges adatok védelme érdekében bizonyos változások lépnek életbe, ami részükről is bizonyos változásokat igényelhet. Az alábbi táblázatot követően erre látható példa.
 
-> [!NOTE] Ha ezzel az útmutatóval kapcsolatban bármilyen kérdése vagy megjegyzése van, használja az oldal visszajelzési funkcióját, vagy küldjön e-mail üzenetet az [AskIPTeam@Microsoft.com](mailto:%20askipteam@microsoft.com?subject=Rapid%20Deployment%20Guide%20feedback) címre.
+> [!NOTE]
+> Ha ezzel az útmutatóval kapcsolatban bármilyen kérdése vagy megjegyzése van, használja az oldal visszajelzési funkcióját, vagy küldjön e-mail üzenetet az [AskIPTeam@Microsoft.com](mailto:%20askipteam@microsoft.com?subject=Rapid%20Deployment%20Guide%20feedback) címre.
 
 ## Azure RMS-forgatókönyvek
 Az Azure RMS adott üzleti problémákra történő minél gyorsabb alkalmazásának elősegítése érdekében válassza ki az üzleti céljaihoz leginkább illeszkedő forgatókönyveket, és szükség szerint építse be azokat tevékenységébe.
@@ -151,6 +146,7 @@ A bevezetés alatt álló megoldások biztosítják az értékes adatok védelm�
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

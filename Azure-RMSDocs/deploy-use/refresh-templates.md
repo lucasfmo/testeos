@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Sablonok frissítése | Azure RMS
-description:
-keywords:
+title: "Sablonok frissítése | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 05/06/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 8c2064f0-dd71-4ca5-9040-1740ab8876fb
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 771f4139b09cccc05f2d1ee52c76b99467c70446
+ms.openlocfilehash: 13c2b79558202d59ec49da3a189a58356518718d
+
 
 ---
 
@@ -34,17 +28,17 @@ Az Azure RMS használata során a rendszer automatikusan letölti a sablonokat a
 
 |Alkalmazás vagy szolgáltatás|A sablonok frissítésének módja a módosításokat követően|
 |--------------------------|---------------------------------------------|
-|Exchange Online|A sablonok frissítéséhez manuális konfigurálás szükséges.<br /><br />A konfigurálás lépéseinek végrehajtásához tekintse meg az alábbi, [Csak az Exchange Online esetén: az Exchange konfigurálása módosított egyéni sablonok letöltésére](#exchange-online-only-how-to-configure-exchange-to-download-changed-custom-templates) című részt..|
+|Exchange Online|A sablonok frissítéséhez manuális konfigurálás szükséges.<br /><br />A konfigurálás lépéseinek végrehajtásához olvassa el a [Csak az Exchange Online esetén: az Exchange konfigurálása módosított egyéni sablonok letöltésére](#exchange-online-only-how-to-configure-exchange-to-download-changed-custom-templates) című részt.|
 |Office 365|Automatikus frissítés – nem igényel további lépéseket.|
-|Office 2016 és Office 2013<br /><br />A Windows RMS-megosztóalkalmazása|Automatikus frissítés – ütemezés szerint:<br /><br />Az Office ezen újabb verziói esetén: az alapértelmezett frissítési gyakoriság 7 nap.<br /><br />A Windows RMS-megosztóalkalmazása esetén: az 1.0.1784.0-s verziótól kezdődően az alapértelmezett frissítési gyakoriság 1 nap. A korábbi verziók esetében az alapértelmezett frissítési gyakoriság 7 nap.<br /><br />Ennél az ütemezésnél gyakoribb frissítés kényszerítéséhez tekintse meg az alábbi, [Az Office 2016, Office 2013 és a Windows RMS-megosztóalkalmazása esetén: módosított egyéni sablon frissítésének kényszerítése](#office-2016-office-2013-and-rms-sharing-application-for-windows-how-to-force-a-refresh-for-a-changed-custom-template) című részt..|
-|Office 2010|A frissítés a felhasználók bejelentkezésekor történik.<br /><br />A frissítés kényszerítéséhez kérje meg vagy kényszerítse a felhasználókat a kijelentkezésre, majd újbóli bejelentkezésre. Vagy tekintse meg az alábbi, [Csak az Office 2010 esetén: módosított egyéni sablon frissítésének kényszerítése](#office-2010-only-how-to-force-a-refresh-for-a-changed-custom-template) című részt..|
+|Office 2016 és Office 2013<br /><br />A Windows RMS-megosztóalkalmazása|Automatikus frissítés – ütemezés szerint:<br /><br />Az Office ezen újabb verziói esetén: az alapértelmezett frissítési gyakoriság 7 nap.<br /><br />A Windows RMS-megosztóalkalmazása esetén: az 1.0.1784.0-s verziótól kezdődően az alapértelmezett frissítési gyakoriság 1 nap. A korábbi verziók esetében az alapértelmezett frissítési gyakoriság 7 nap.<br /><br />Ennél az ütemezésnél gyakoribb frissítés kényszerítéséhez olvassa el [Az Office 2016, Office 2013 és a Windows RMS-megosztóalkalmazása esetén: módosított egyéni sablon frissítésének kényszerítése](#office-2016-office-2013-and-rms-sharing-application-for-windows-how-to-force-a-refresh-for-a-changed-custom-template) című részt.|
+|Office 2010|A frissítés a felhasználók bejelentkezésekor történik.<br /><br />A frissítés kényszerítéséhez kérje meg vagy kényszerítse a felhasználókat a kijelentkezésre, majd újbóli bejelentkezésre. Vagy olvassa el a [Csak az Office 2010 esetén: módosított egyéni sablon frissítésének kényszerítése](#office-2010-only-how-to-force-a-refresh-for-a-changed-custom-template) című részt.|
 Az RMS-megosztóalkalmazást használó mobileszközök esetén a sablonok letöltése (és szükség esetén frissítése) automatikusan megtörténik, és nem igényel további konfigurálást.
 
 ## Csak az Exchange Online esetén: az Exchange konfigurálása módosított egyéni sablonok letöltésére
 Ha már konfigurálta a Tartalomvédelmi szolgáltatást (IRM) az Exchange Online esetén, az egyéni sablonok letöltése addig nem történik meg a felhasználók számára, amíg végre nem hajtja a következő módosításokat a Windows PowerShell használatával az Exchange Online szolgáltatásban.
 
 > [!NOTE]
-> A Windows PowerShellnek az Exchange Online szolgáltatásban történő használatával kapcsolatos további információk: [Using PowerShell with Exchange Online](https://technet.microsoft.com/library/jj200677%28v=exchg.160%29.aspx) (A PowerShell és az Exchange Online együttes használata)..
+> A Windows PowerShellnek az Exchange Online szolgáltatásban történő használatával kapcsolatos további információk: [Using PowerShell with Exchange Online](https://technet.microsoft.com/library/jj200677%28v=exchg.160%29.aspx) (A PowerShell és az Exchange Online együttes használata).
 
 Ezt az eljárást minden alkalommal végre kell hajtania, amikor módosít egy sablont.
 
@@ -135,7 +129,7 @@ Az Office 2016-ot, Office 2013-at és Windows RMS-megosztóalkalmazását futtat
 
 1.  Egy beállításszerkesztő használatával törölje a **LastUpdatedTime** beállításazonosító adatait. Ha például a megjelenő adat **2015-04-20T15:52**, akkor törölje a 2015-04-20T15:52 értéket, hogy ne jelenjen meg semmilyen adat. Az alábbi információkkal megkeresheti a beállításazonosító adatainak törléséhez szükséges beállításjegyzékbeli elérési utat.
 
-    **Beállításjegyzékbeli elérési út:** HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\MSIPC\<*MicrosoftRMS_FQDN*>\Template
+    **Beállításjegyzék-beli elérési út:** HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\MSIPC\<*MicrosoftRMS_FQDN*>\Template
 
     **Típus:**REG_SZ
 
@@ -144,11 +138,11 @@ Az Office 2016-ot, Office 2013-at és Windows RMS-megosztóalkalmazását futtat
     > [!TIP]
         > A beállításjegyzékbeli elérési út <*MicrosoftRMS_FQDN*> része a Microsoft RMS szolgáltatás teljes tartományneve. Ha ellenőrizni szeretné ezt az értéket:
 
-    > 1.  Futtassa az Azure RMS [Get-AadrmConfiguration](https://msdn.microsoft.com/library/windowsazure/dn629410.aspx) parancsmagját. Ha még nem telepítette az Azure RMS-hez készült Windows PowerShell-modult, tekintse meg az [Installing Windows PowerShell for Azure Rights Management](install-powershell.md) (Az Azure Rights Managementhez készült Windows PowerShell telepítése) című témakört..
+    > 1.  Futtassa az Azure RMS [Get-AadrmConfiguration](https://msdn.microsoft.com/library/windowsazure/dn629410.aspx) parancsmagját. Ha még nem telepítette az Azure RMS-hez készült Windows PowerShell-modult, olvassa el [Az Azure Rights Managementhez készült Windows PowerShell telepítése](install-powershell.md) című témakört.
     > 2.  A kimenetben azonosítsa a **LicensingIntranetDistributionPointUrl** értéket.
     > 
     >     Például: **LicensingIntranetDistributionPointUrl   : https://5c6bb73b-1038-4eec-863d-49bded473437.rms.na.aadrm.com/_wmcs/licensing**
-    > 3.  Az értékben távolítsa el a **https://** and a **/_wmcs/licensing** részt a karakterláncból. A fennmaradó érték a Microsoft RMS szolgáltatás teljes tartományneve. A példánkban a Microsoft RMS szolgáltatás teljes tartományneve az alábbi érték lenne:
+    > 3.  Az értékben távolítsa el a **https://** és a **/_wmcs/licensing** részt a karakterláncból. A fennmaradó érték a Microsoft RMS szolgáltatás teljes tartományneve. A példánkban a Microsoft RMS szolgáltatás teljes tartományneve az alábbi érték lenne:
     > 
     >     **5c6bb73b-1038-4eec-863d-49bded473437.rms.na.aadrm.com**
 
@@ -192,6 +186,7 @@ Az Office 2010-et futtató számítógépek beállításjegyzékének módosít�
 ## Lásd még:
 [Egyéni sablonok konfigurálása az Azure Rights Management szolgáltatáshoz](configure-custom-templates.md)
 
-<!--HONumber=May16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 
