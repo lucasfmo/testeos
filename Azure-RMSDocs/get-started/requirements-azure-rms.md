@@ -12,6 +12,7 @@ ms.technology: techgroup-identity
 ms.assetid: dc78321d-d759-4653-8818-80da74b6cdeb
 ms.reviewer: esaggese
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: 50ebcd71336baeb68687e2d0c1ff1f0608925761
 ms.openlocfilehash: 72a75712da9efa201865440affa80461dcd7df53
 
@@ -43,7 +44,8 @@ Ha az Azure RMS szolgáltatást helyszíni kiszolgálóval szeretné használni,
 
 A forgatókönyv további Azure RMS-követelményeivel kapcsolatos tudnivalókat [Az Azure RMS-t támogató helyszíni kiszolgálók](requirements-servers.md) szakaszt.
 
-> [!IMPORTANT] Az alábbi telepítési forgatókönyv nem támogatott:
+> [!IMPORTANT]
+> Az alábbi telepítési forgatókönyv nem támogatott:
 > 
 > -   Az AD RMS és az Azure RMS párhuzamos futtatása ugyanazon a szervezeten belül, kivéve az áttelepítés idejére a [Migrating from AD RMS to Azure Rights Management](../plan-design/migrate-from-ad-rms-to-azure-rms.md) (AD RMS rendszerről Azure Rights Management rendszerre történő áttelepítés) című szakaszban leírtak szerint.
 > 
@@ -54,6 +56,6 @@ A forgatókönyv további Azure RMS-követelményeivel kapcsolatos tudnivalókat
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO2-->
 
 

@@ -12,6 +12,7 @@ ms.technology: techgroup-identity
 ms.assetid: 97ddde38-b91b-42a5-8eb4-3ce6ce15393d
 ms.reviewer: esaggese
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: 3883a46440f016138dd50d061a58089253721719
 ms.openlocfilehash: 21b92fae5fd00d80f9afd2e80d21c08bfa47b7b2
 
@@ -276,7 +277,8 @@ Egy felhasználó e-mailben el szeretne küldeni bizonyos, másokra nem tartozó
  
 - Ha a **Nem továbbítható** beállítást alkalmazza, a címzettek a marketingosztályon belül sem tudják mással megosztani az információkat azzal, hogy máshová helyezik az e-mailt. Ebben az esetben az e-mail tulajdonosán kívül csak az eredeti címzettek tudják megtekinteni az e-mailben szereplő információkat.
 
-> [!NOTE] A **Nem továbbítható** beállítást kell használni, ha fontos, hogy csak a feladó által kiválasztott címzettek láthassák az e-mailben foglaltakat. A sablonok használatával a személyeknek a rendszergazda által előre megadott csoportjára lehet korlátozni az e-mailre vonatkozó jogokat, függetlenül a feladó által kiválasztott címzettektől.
+> [!NOTE] 
+> A **Nem továbbítható** beállítást kell használni, ha fontos, hogy csak a feladó által kiválasztott címzettek láthassák az e-mailben foglaltakat. A sablonok használatával a személyeknek a rendszergazda által előre megadott csoportjára lehet korlátozni az e-mailre vonatkozó jogokat, függetlenül a feladó által kiválasztott címzettektől.
 
 
 
@@ -287,6 +289,6 @@ Egy felhasználó e-mailben el szeretne küldeni bizonyos, másokra nem tartozó
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO2-->
 
 
