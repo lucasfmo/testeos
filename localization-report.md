@@ -1532,8 +1532,8 @@
 * Archive Datetime: 2016-07-08 23:45:40
 * Handback File: [ios-sdk.04f8a23860188d2f8bee6a412cd6aa5accbf4161.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/92b1b1153f1ca056aebbd1c811d3ce2c6cc131a8/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/ios-sdk.04f8a23860188d2f8bee6a412cd6aa5accbf4161.hu-hu.xlf)
 * Handback Datetime: 2016-07-09 08:53:10
-* Bilingual File: [ios-sdk.04f8a23860188d2f8bee6a412cd6aa5accbf4161.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/f2b1f4e839ea8c0371cf061c100292d228eb1821/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/ios-sdk.04f8a23860188d2f8bee6a412cd6aa5accbf4161.hu-hu.xlf)
-* Bilingual Datetime: 2016-07-07 13:52:27
+* Bilingual File: [ios-sdk.04f8a23860188d2f8bee6a412cd6aa5accbf4161.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/92b1b1153f1ca056aebbd1c811d3ce2c6cc131a8/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/ios-sdk.04f8a23860188d2f8bee6a412cd6aa5accbf4161.hu-hu.xlf)
+* Bilingual Datetime: 2016-07-09 08:57:42
 * [Back to Top](#report-top)
 
 ##### <a name='1695dc0db8940423fc85484d18e9a80868911e6f79'></a> Source: [Azure-RMSDocs\develop\linux-c-api-reference.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/6b5bc9612ac17a2d6905200383d9b8df4c504efe/Azure-RMSDocs/develop/linux-c-api-reference.md)
@@ -2027,8 +2027,8 @@
 * Archive Datetime: 2016-07-08 23:45:40
 * Handback File: [scenario-executives-email.02fb32c7a1e5b62754681e4d720db2d250184079.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/92b1b1153f1ca056aebbd1c811d3ce2c6cc131a8/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/scenario-executives-email.02fb32c7a1e5b62754681e4d720db2d250184079.hu-hu.xlf)
 * Handback Datetime: 2016-07-09 08:53:10
-* Bilingual File: [scenario-executives-email.02fb32c7a1e5b62754681e4d720db2d250184079.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/f2b1f4e839ea8c0371cf061c100292d228eb1821/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/scenario-executives-email.02fb32c7a1e5b62754681e4d720db2d250184079.hu-hu.xlf)
-* Bilingual Datetime: 2016-07-07 13:52:27
+* Bilingual File: [scenario-executives-email.02fb32c7a1e5b62754681e4d720db2d250184079.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/92b1b1153f1ca056aebbd1c811d3ce2c6cc131a8/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/scenario-executives-email.02fb32c7a1e5b62754681e4d720db2d250184079.hu-hu.xlf)
+* Bilingual Datetime: 2016-07-09 08:57:42
 * [Back to Top](#report-top)
 
 ##### <a name='c16098a2d0fe41748280704716a2eeef8921a6fa114'></a> Source: [Azure-RMSDocs\get-started\scenario-fci.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/332e102cb27854314b93a71bfeae82a95c9a7812/Azure-RMSDocs/get-started/scenario-fci.md)
