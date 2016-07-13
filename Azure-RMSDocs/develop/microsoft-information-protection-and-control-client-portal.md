@@ -1,9 +1,7 @@
 ---
-# required metadata
-
 title: Rights Management Services SDK 2.1 | Azure RMS
-description: Az RMS SDK 2.1 platform lehetővé teszi a fejlesztők számára az adatvédelem biztosításához RMS-t vagy Azure RMS-t használó alkalmazások létrehozását.
-keywords:
+description: "Az RMS SDK 2.1 platform lehetővé teszi a fejlesztők számára az adatvédelem biztosításához RMS-t vagy Azure RMS-t használó alkalmazások létrehozását."
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,15 +10,13 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 44D3EB62-7A60-45D9-BA7E-45A06E7D598F
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: cbdb969e9910142f49b078069fc578059f9d8785
+ms.openlocfilehash: bbe381054648a6b68818f3964f6cfefd5da0829c
+
 
 ---
 
@@ -45,10 +41,8 @@ Egy konkrét programozási elem futtatási követelményeiről az adott elemhez 
 |Témakör|Leírás|
 |-----|--------|
 |[Áttekintés](ad-rms-overview.md)|A Rights Management Services (RMS) információvédelmi technológia, amelynek segítségével megakadályozhatja a digitális adatok jogosulatlan használatát.|
-|[Mitől jobb ez az SDK?](differences-between-ad-rms-and-ad-rms-2-0.md)|Az RMS SDK 2.1 jelentős fejlesztéseket tartalmaz az eredeti Rights Management Services SDK-hoz képest.|
 |[Első lépések](getting-started-with-ad-rms-2-0.md)|Az RMS SDK 2.1 platform segítségével a fejlesztők olyan alkalmazásokat készíthetnek, amelyek az RMS adatvédelmét használják.|
 |[Kibocsátási megjegyzések](release-notes-rtm.md)|Ez a témakör fontos információkat tartalmaz az RMS SDK 2.1 jelenlegi és korábbi kiadásaival kapcsolatban.|
-|[Kódminták](samples.md)|Ez a témakör számos olyan, az RMS SDK 2.1-et használó kódmintát tartalmaz, amely az MSDN letöltőközpontból érhető el.|
 |[Megjegyzések fejlesztők számára](developer-notes.md)|Ez a szakasz ismertet néhány fontos fejlesztési forgatókönyvre vonatkozó konkrét útmutatást.|
 |[API-hivatkozás](api-reference-2-1.md)|Ez a szakasz az összes API elemre vonatkozó referenciaanyagot ismerteti.|
 
@@ -64,6 +58,7 @@ Egy konkrét programozási elem futtatási követelményeiről az adott elemhez 
  
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jun16_HO5-->
 
 
