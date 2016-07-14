@@ -1857,7 +1857,7 @@
 * Archive File: [working-with-encryption.19f5df37a590d0c88fe306cf324bf9883b1786f3.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/786b12315655133d22ea41e087b78f2f38161bc8/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/archive/working-with-encryption.19f5df37a590d0c88fe306cf324bf9883b1786f3.hu-hu.xlf)
 * Archive Datetime: 2016-07-02 00:03:43
 * Handback File: [working-with-encryption.19f5df37a590d0c88fe306cf324bf9883b1786f3.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/14fde266f5e7a0e8deeaff66f5034398a87de3b7/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/working-with-encryption.19f5df37a590d0c88fe306cf324bf9883b1786f3.hu-hu.xlf)
-* Handback Datetime: 2016-07-14 15:07:14
+* Handback Datetime: 2016-07-14 15:33:15
 * Handback Error: [handback_transform_failed](#82903eff43ee2dee7ef64e618171225a06013d9998handback_transform_failed)
 * Bilingual File: [working-with-encryption.19f5df37a590d0c88fe306cf324bf9883b1786f3.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/14fde266f5e7a0e8deeaff66f5034398a87de3b7/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/working-with-encryption.19f5df37a590d0c88fe306cf324bf9883b1786f3.hu-hu.xlf)
 * Bilingual Datetime: 2016-06-25 06:51:30
@@ -2013,7 +2013,7 @@
 * Archive File: [requirements-servers.05c3acdbd2f0917f2058fd819f3d1ebc20d3bc27.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/786b12315655133d22ea41e087b78f2f38161bc8/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/archive/requirements-servers.05c3acdbd2f0917f2058fd819f3d1ebc20d3bc27.hu-hu.xlf)
 * Archive Datetime: 2016-07-02 00:03:43
 * Handback File: [requirements-servers.05c3acdbd2f0917f2058fd819f3d1ebc20d3bc27.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/3aff540ca2cf2eec81dd8b404a7034094b34f22a/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/requirements-servers.05c3acdbd2f0917f2058fd819f3d1ebc20d3bc27.hu-hu.xlf)
-* Handback Datetime: 2016-07-14 15:07:14
+* Handback Datetime: 2016-07-14 15:33:15
 * Handback Error: [handback_transform_failed](#7e718d8178dd7c4b18ea7a19eb3165ee06dc4b36109handback_transform_failed)
 * Bilingual File: [requirements-servers.05c3acdbd2f0917f2058fd819f3d1ebc20d3bc27.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/3aff540ca2cf2eec81dd8b404a7034094b34f22a/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/requirements-servers.05c3acdbd2f0917f2058fd819f3d1ebc20d3bc27.hu-hu.xlf)
 * Bilingual Datetime: 2016-06-22 12:24:55
