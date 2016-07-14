@@ -12,6 +12,7 @@ ms.technology: techgroup-identity
 ms.assetid: 6751bd90-959f-4eba-91ed-6588ac983762
 ms.reviewer: esaggese
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: b19eadd408837ebcd77b3ae2f9520f5286fcf41f
 ms.openlocfilehash: cad9d01735d8e649875bc6bba73d29573891e1d8
 
@@ -26,7 +27,8 @@ A Rights Management csapata a javítások és új funkciók bevezetéséhez rend
 
 A 2015. január 1. előtt kiadott verziók nem szerepelnek a listán.
 
-> [!NOTE] Ha kérdése van, vagy visszajelzést szeretne küldeni az RMS-megosztó alkalmazásról, küldjön e-mailt az [AskIPTeamnek](mailto:AskIPTeam@microsoft.com?subject=RMS%20sharing%20app:%20Feedback%20or%20question).
+> [!NOTE]
+> Ha kérdése van, vagy visszajelzést szeretne küldeni az RMS-megosztó alkalmazásról, küldjön e-mailt az [AskIPTeam](mailto:AskIPTeam@microsoft.com?subject=RMS%20sharing%20app:%20Feedback%20or%20question) címre.
 
 ## Verzió: 1.0.2191.0.
 **Kiadás dátuma**: 2016. 06. 16.
@@ -120,6 +122,6 @@ A 2015. január 1. előtt kiadott verziók nem szerepelnek a listán.
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO2-->
 
 

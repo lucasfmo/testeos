@@ -4,7 +4,7 @@ description:
 keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 06/20/2016
+ms.date: 07/08/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -13,8 +13,8 @@ ms.assetid: 8a1b3e54-f788-4f84-b9d7-5d5079e50b4e
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 04fbac4389671ed32f64c0840d81723f8314869c
-ms.openlocfilehash: 4509126c61c4e37d9655d9bd080be3e097cd103f
+ms.sourcegitcommit: f8e23e8bcbfb25092cb31f7af76d17239f3063a7
+ms.openlocfilehash: 32c3c93d55bd82f45fa7a081e55ae7ebe8f5956f
 
 
 ---
@@ -100,7 +100,7 @@ Ennek az eseménynek a naplózására akkor kerül sor, amikor az RMS-összeköt
 
 **Jogosulatlan hozzáférési kísérlet a Microsoft RMS-összekötőhöz.**
 
-Ennek az eseménynek a naplózására akkor kerül sor, amikor egy fiók megpróbál csatlakozni az RMS-összekötőhöz, de a kísérlet meghiúsul. Ennek leggyakoribb oka, hogy a kapcsolatot megkísérlő fiók nem szerepel az engedélyezett fiókoknak az RMS-összekötő által az Azure RMS-ről letöltött listáján.  Például a legújabb lista még nem lett letöltve (ez 15 percenként történik), vagy a fiók nem szerepel a listán. 
+Ennek az eseménynek a naplózására akkor kerül sor, amikor egy fiók megpróbál csatlakozni az RMS-összekötőhöz, de a kísérlet meghiúsul. Ennek leggyakoribb oka, hogy a kapcsolatot megkísérlő fiók nem szerepel az engedélyezett fiókoknak az RMS-összekötő által az Azure RMS-ről letöltött listáján. Például a legújabb lista még nem lett letöltve (ez 15 percenként történik), vagy a fiók nem szerepel a listán. 
 
 A másik ok lehet, ha az RMS-összekötő ugyanarra a kiszolgálóra lett telepítve, amely az összekötő használatára van beállítva. Ilyen például, ha az RMS-összekötőt az Exchange Servert futtató kiszolgálóra telepíti, és engedélyezi egy Exchange-fiók számára az összekötő használatát. Ez a konfiguráció nem támogatott, mert az RMS-összekötő nem tudja helyesen azonosítani a fiókot, amikor az megpróbál kapcsolódni.
 
@@ -140,6 +140,8 @@ A fiókok megadásához használja az RMS-összekötő felügyeleti eszközét. 
 
 Ez az esemény minden alkalommal a naplóba kerül, amikor az RMS-összekötő nem várt hibával találkozik. Az eseményüzenet tartalmazza a hiba adatait.
 
+A hiba egyik lehetséges okát a következő szöveg azonosítja az eseményüzenetben: **A kérelem sikertelen, a válasz üres**. Ha ez a szöveg látható, lehetséges, hogy olyan hálózati eszközzel rendelkezik, amely a helyszíni kiszolgálók és az RMS-összekötő kiszolgálója közötti csomagokon SSL-ellenőrzést végez. Ez a funkció nem támogatott és sikertelen kommunikációt eredményez. Az eseménynaplóban ilyenkor a fenti üzenet jelenik meg.
+
 ----
 
 **3001**-es hiba
@@ -147,6 +149,8 @@ Ez az esemény minden alkalommal a naplóba kerül, amikor az RMS-összekötő n
 **Kivétel történt az engedélyezési adatok letöltése során.**
 
 Ennek az eseménynek a naplózására akkor kerül sor, amikor az RMS-összekötő nem tudja letölteni az RMS-összekötő használatára jogosult fiókok legfrissebb listáját. Az eseményüzenet tartalmazza a hiba adatait.
+
+
 
 ----
 
@@ -191,6 +195,6 @@ Ha részletesebb naplózást kíván végezni diagnosztikai célokkal, használj
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO2-->
 
 

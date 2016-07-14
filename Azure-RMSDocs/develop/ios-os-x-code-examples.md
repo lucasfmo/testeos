@@ -14,8 +14,8 @@ audience: developer
 ms.reviewer: shubhamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: acc140931b5f834ce1d70c851d90c334a03010dc
-ms.openlocfilehash: 0c5ec8da79674d2023a0684fb0e83ac1e1743874
+ms.sourcegitcommit: b73c83b91a6b00e44ff6c8fe7f8e954bd9713e34
+ms.openlocfilehash: 66bb1b58cba19d0fe8bc2ec0d3720c0b040f8378
 
 
 ---
@@ -36,9 +36,9 @@ Az alábbiakban egy nagyobb mintaalkalmazásból kiemelt **Objective C**-kódpé
 ###Forgatókönyv: RMS-védelemmel ellátott fájl használata
 
 
-- **1. lépés**: Hozzon létre az [**MSProtectedData**](/rights-management/sdk/4.2/api/iOS/msprotectedd) objektumot.
+- **1. lépés**: Hozzon létre egy [**MSProtectedData**](/rights-management/sdk/4.2/api/iOS/msprotecteddata) objektumot.
 
- **Leírás**: Hozza létre az [**MSProtectedData**](/rights-management/sdk/4.2/api/iOS/msprotectedd) objektum egy példányát a létrehozási módszerének használatával, amely az [**MSAuthenticationCallback**](/rights-management/sdk/4.2/api/iOS/iOS#msipcthin2_msauthenticationcallback_protocol_objc) segítségével valósítja meg a szolgáltatáshitelesítést egy token beszerzéséhez az **MSAuthenticationCallback** egy példányának az *authenticationCallback* paraméterként történő átadásával az MSIPC API számára. Tekintse meg a [**protectedDataWithProtectedFile**](/rights-management/sdk/4.2/api/iOS/msprotecteddata#msipcthin2_msprotecteddata_protecteddatawithprotectedfile_completionblock_method_objc) felé irányuló hívást az alábbi példakódszakaszban.
+ **Leírás**: Hozza létre az [**MSProtectedData**](/rights-management/sdk/4.2/api/iOS/msprotecteddata) objektum egy példányát a létrehozási módszerének használatával, amely az [**MSAuthenticationCallback**](/rights-management/sdk/4.2/api/iOS/iOS#msipcthin2_msauthenticationcallback_protocol_objc) segítségével elvégzi a szolgáltatáshitelesítést egy token beszerzéséhez az **MSAuthenticationCallback** egy példányának az *authenticationCallback* paraméterként történő átadásával az MSIPC API számára. Tekintse meg a [**protectedDataWithProtectedFile**](/rights-management/sdk/4.2/api/iOS/msprotecteddata#msipcthin2_msprotecteddata_protecteddatawithprotectedfile_completionblock_method_objc) felé irányuló hívást az alábbi példakódszakaszban.
 
         + (void)consumePtxtFile:(NSString *)path authenticationCallback:(id<MSAuthenticationCallback>)authenticationCallback
         {
@@ -285,6 +285,6 @@ Ez a forgatókönyv a sablonok listájának beszerzésével ([**MSTemplateDescri
  
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO1-->
 
 
