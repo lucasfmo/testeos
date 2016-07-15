@@ -626,8 +626,8 @@
 * Archive Datetime: 2016-07-02 00:03:43
 * Handback File: [configure-office-apps.7d4d9ecf4a780b1fbfb3e7d639c2ea1244fbefff.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/fbee63799eeda08adea24af11913011c26a7f5bd/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/configure-office-apps.7d4d9ecf4a780b1fbfb3e7d639c2ea1244fbefff.hu-hu.xlf)
 * Handback Datetime: 2016-07-15 10:42:20
-* Bilingual File: [configure-office-apps.7d4d9ecf4a780b1fbfb3e7d639c2ea1244fbefff.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/f2b1f4e839ea8c0371cf061c100292d228eb1821/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/configure-office-apps.7d4d9ecf4a780b1fbfb3e7d639c2ea1244fbefff.hu-hu.xlf)
-* Bilingual Datetime: 2016-07-07 13:52:27
+* Bilingual File: [configure-office-apps.7d4d9ecf4a780b1fbfb3e7d639c2ea1244fbefff.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/fbee63799eeda08adea24af11913011c26a7f5bd/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/configure-office-apps.7d4d9ecf4a780b1fbfb3e7d639c2ea1244fbefff.hu-hu.xlf)
+* Bilingual Datetime: 2016-07-15 11:04:45
 * [Back to Top](#report-top)
 
 ##### <a name='79171b5931b69ca18d2a2cbe321d5d5887903da213'></a> Source: [Azure-RMSDocs\deploy-use\configure-servers-rms-connector.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/0b07ecc88b1d2d344f0984d4a805cc033996cc4d/Azure-RMSDocs/deploy-use/configure-servers-rms-connector.md)
