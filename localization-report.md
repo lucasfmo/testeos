@@ -618,14 +618,14 @@
 
 ##### <a name='607de5e4699d654a4b7895bacde8f18a9707f8a111'></a> Source: [Azure-RMSDocs\deploy-use\configure-office-apps.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/0f355da35dff62ecee111737eb1793ae286dc93e/Azure-RMSDocs/deploy-use/configure-office-apps.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [Azure-RMSDocs\deploy-use\configure-office-apps.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/84762f53cb595514e3ee354a587b0b9704d46d95/Azure-RMSDocs/deploy-use/configure-office-apps.md)
+* Target File: [Azure-RMSDocs\deploy-use\configure-office-apps.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/a8bfe481aedcfa5f1303f2967db6b435f65bb797/Azure-RMSDocs/deploy-use/configure-office-apps.md)
 * Handoff File: [configure-office-apps.7d4d9ecf4a780b1fbfb3e7d639c2ea1244fbefff.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/ad84793f0bd3789f91d14dcbf3ff5dfb942bc39c/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/configure-office-apps.7d4d9ecf4a780b1fbfb3e7d639c2ea1244fbefff.hu-hu.xlf)
 * Handoff Datetime: 2016-06-27 13:10:19
 * Handoff Reason: Include
 * Archive File: [configure-office-apps.7d4d9ecf4a780b1fbfb3e7d639c2ea1244fbefff.hu-hu.xlf](https://github.com/Microsoft/EM.handoff/blob/786b12315655133d22ea41e087b78f2f38161bc8/ol-handoff/Microsoft/Azure-RMSDocs-pr.hu-hu/master/archive/configure-office-apps.7d4d9ecf4a780b1fbfb3e7d639c2ea1244fbefff.hu-hu.xlf)
 * Archive Datetime: 2016-07-02 00:03:43
-* Handback File: [configure-office-apps.7d4d9ecf4a780b1fbfb3e7d639c2ea1244fbefff.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/f2b1f4e839ea8c0371cf061c100292d228eb1821/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/configure-office-apps.7d4d9ecf4a780b1fbfb3e7d639c2ea1244fbefff.hu-hu.xlf)
-* Handback Datetime: 2016-07-07 13:48:05
+* Handback File: [configure-office-apps.7d4d9ecf4a780b1fbfb3e7d639c2ea1244fbefff.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/fbee63799eeda08adea24af11913011c26a7f5bd/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/configure-office-apps.7d4d9ecf4a780b1fbfb3e7d639c2ea1244fbefff.hu-hu.xlf)
+* Handback Datetime: 2016-07-15 10:42:20
 * Bilingual File: [configure-office-apps.7d4d9ecf4a780b1fbfb3e7d639c2ea1244fbefff.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/f2b1f4e839ea8c0371cf061c100292d228eb1821/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/configure-office-apps.7d4d9ecf4a780b1fbfb3e7d639c2ea1244fbefff.hu-hu.xlf)
 * Bilingual Datetime: 2016-07-07 13:52:27
 * [Back to Top](#report-top)
