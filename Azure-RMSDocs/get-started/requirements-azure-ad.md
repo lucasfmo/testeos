@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Azure RMS-követelmények&#58; Azure AD-címtár | Azure RMS
-description:
-keywords:
+title: "Azure RMS-követelmények&#58; Azure AD-címtár | Azure RMS"
+description: 
+keywords: 
 author: cabailey
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: ed25aa83-e272-437b-b445-3f01e985860c
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ed50d87138c428fadfd22cd5b3ef3c7f7e421848
+ms.openlocfilehash: 75b2414cc360704deb6107d6c0038f5b0bf7fa70
+
 
 ---
 
@@ -42,7 +36,8 @@ További információkért lásd az Azure Active Directory dokumentációjának 
 
 Ha szeretné integrálni Azure AD-címtárát a helyszíni AD-erdőkkel, tekintse meg az [Integrating your on-premises identities with Azure Active Directory](/active-directory/active-directory-aadconnect) (Helyszíni identitások integrálása az Azure Active Directoryval) című szakaszt.
 
-> [!NOTE]Ha olyan mobileszközökkel vagy Mac számítógépekkel rendelkezik, amelyek az AD FS vagy egy annak megfelelő hitelesítési szolgáltató használatával végeznek helyszíni hitelesítést:
+> [!NOTE]
+> Ha olyan mobileszközökkel vagy Mac számítógépekkel rendelkezik, amelyek az AD FS vagy egy annak megfelelő hitelesítési szolgáltató használatával végeznek helyszíni hitelesítést:
 > 
 > -   Az AD FS-t legalább a **Windows Server 2012 R2** kiszolgálóverzióval vagy az OAuth 2.0 protokollt támogató egyéb hitelesítési szolgáltatóval kell használnia.
 
@@ -80,6 +75,7 @@ Az egyéb követelményeket [Az Azure Rights Management követelményei](require
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
