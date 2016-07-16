@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "ad2db39bf8ffabcc75f15cc8369ab78c9a5967ac",
+  "LastProcessedCommit": "8d19fc14e5d17df88a85a58b585d1899fa3dd867",
   "LastTranslatedCommit": "f83de57abeb9cd45dd444f27510059c4d665cdab",
   "Items": {
     "2ed3bf162e9cbb06230b3bd9c0bd960c5c36049a": {
@@ -83538,6 +83538,41 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\Azure-RMSDocs-pr.hu-hu\\master\\infoprotect-tutorial-step4.e05b067bb63bbb103b67887740ea0bb6b9044c40.hu-hu.xlf",
       "HandoffFileCommit": "466298018d56028dc9573f182aaf84e5c2c380f8",
       "HandoffDateTime": "2016-07-15T17:30:53.9367375Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null,
+      "BilingualFilePath": null,
+      "BilingualFileCommit": null,
+      "BilingualDateTime": "0001-01-01T00:00:00",
+      "BilingualException": null
+    },
+    "57b04bccfd2f650c24875d20baf89040c69ab0f6": {
+      "FileHash": "57b04bccfd2f650c24875d20baf89040c69ab0f6",
+      "SourceFileCommit": "e5a1860afff2682cce093523b33c9e99b93d446d",
+      "SourceFilePath": "Azure-RMSDocs\\index.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "Azure-RMSDocs\\index.md"
+      ],
+      "HasMetadata": true,
+      "TranslationType": 1,
+      "HandoffFilePath": "ol-handoff\\Microsoft\\Azure-RMSDocs-pr.hu-hu\\master\\index.a68f40487a64012c94076ad9808d6bc7b03e9c0e.hu-hu.xlf",
+      "HandoffFileCommit": "94d96b45a0e09b38e87b0b47fe5df38f81094c40",
+      "HandoffDateTime": "2016-07-16T01:55:49.4921012Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
