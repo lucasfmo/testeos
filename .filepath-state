@@ -410,6 +410,9 @@
   "645f9ed4080e3b38fcda9afe148923c021046724": [
     "Azure-RMSDocs\\deploy-use\\configure-templates-with-powershell.md"
   ],
+  "e9f2fe16494af2286d8ed77d0894bb5229e7c246": [
+    "Azure-RMSDocs\\deploy-use\\configure-usage-rights.md"
+  ],
   "21b92fae5fd00d80f9afd2e80d21c08bfa47b7b2": [
     "Azure-RMSDocs\\deploy-use\\configure-usage-rights.md"
   ],
@@ -713,6 +716,9 @@
   "cb82f0333ed17ee2994608baa3bbb50d42f19073": [
     "Azure-RMSDocs\\develop\\how-to-use-adal-authentication-4-2.md"
   ],
+  "ad87be4dd1cd1c7b31419cc47511b6cf64087a44": [
+    "Azure-RMSDocs\\information-protection\\faq.md"
+  ],
   "bbf6ff6e3468068a916a34e7845adca55d227049": [
     "Azure-RMSDocs\\information-protection\\faq.md"
   ],
@@ -727,6 +733,9 @@
   ],
   "da1ae88d3ffcbb55421ed2342bbebe588281f1ad": [
     "Azure-RMSDocs\\information-protection\\faq.md"
+  ],
+  "7dc988365c1fa86827d1a7edc33c0a2eb6180f0e": [
+    "Azure-RMSDocs\\information-protection\\infoprotect-quick-start-tutorial.md"
   ],
   "64d08ed47e3d14b825c9420121a9c973aada7a4c": [
     "Azure-RMSDocs\\information-protection\\infoprotect-quick-start-tutorial.md"
