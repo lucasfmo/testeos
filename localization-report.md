@@ -1343,8 +1343,8 @@
 * Archive Datetime: 2016-07-02 00:03:43
 * Handback File: [file-api-configuration.51543907e5649e6afb362830a5c98c35082f651a.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/3af230b3e5c2e214be4d8c70c4dc2d43aebe5162/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/file-api-configuration.51543907e5649e6afb362830a5c98c35082f651a.hu-hu.xlf)
 * Handback Datetime: 2016-07-19 19:43:29
-* Bilingual File: [file-api-configuration.51543907e5649e6afb362830a5c98c35082f651a.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/b343ef98c27e9751094df02d4736ca830982676d/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/file-api-configuration.51543907e5649e6afb362830a5c98c35082f651a.hu-hu.xlf)
-* Bilingual Datetime: 2016-07-02 07:31:27
+* Bilingual File: [file-api-configuration.51543907e5649e6afb362830a5c98c35082f651a.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/3af230b3e5c2e214be4d8c70c4dc2d43aebe5162/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/file-api-configuration.51543907e5649e6afb362830a5c98c35082f651a.hu-hu.xlf)
+* Bilingual Datetime: 2016-07-19 19:50:37
 * [Back to Top](#report-top)
 
 ##### <a name='b2f5d6d366c767a4c2fb2f5e86ee69509a2aba2763'></a> Source: [Azure-RMSDocs\develop\get-started.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/6b5bc9612ac17a2d6905200383d9b8df4c504efe/Azure-RMSDocs/develop/get-started.md)
@@ -2559,8 +2559,8 @@
 * Archive Datetime: 2016-07-02 00:03:43
 * Handback File: [rms-quickstart-step4-include.8939e5a790e27578f8185146dc5c58818f05009e.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/3af230b3e5c2e214be4d8c70c4dc2d43aebe5162/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/rms-quickstart-step4-include.8939e5a790e27578f8185146dc5c58818f05009e.hu-hu.xlf)
 * Handback Datetime: 2016-07-19 19:43:29
-* Bilingual File: [rms-quickstart-step4-include.8939e5a790e27578f8185146dc5c58818f05009e.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/ee43be3fb9f4b1f2404b6a75d76d3611424f9fb0/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/rms-quickstart-step4-include.8939e5a790e27578f8185146dc5c58818f05009e.hu-hu.xlf)
-* Bilingual Datetime: 2016-07-02 06:34:17
+* Bilingual File: [rms-quickstart-step4-include.8939e5a790e27578f8185146dc5c58818f05009e.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/3af230b3e5c2e214be4d8c70c4dc2d43aebe5162/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/rms-quickstart-step4-include.8939e5a790e27578f8185146dc5c58818f05009e.hu-hu.xlf)
+* Bilingual Datetime: 2016-07-19 19:50:37
 * [Back to Top](#report-top)
 
 ##### <a name='6bd1adbf3f669c1009800bad64acc4b341a82a2a148'></a> Source: [Azure-RMSDocs\includes\rms-quickstart-step5-include.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/9ab036a0694bf630d511268c535321da33444734/Azure-RMSDocs/includes/rms-quickstart-step5-include.md)
@@ -5553,8 +5553,8 @@
 * Current Target File: [Azure-RMSDocs\rms-client\sharing-app-dialog-box.md](https://github.com/Microsoft/Azure-RMSDocs-pr.hu-hu/blob/0dfb67493775d1f721590d86448cc82255190f98/Azure-RMSDocs/rms-client/sharing-app-dialog-box.md)
 * Current Handback File: [sharing-app-dialog-box.ae42c11e02b09890ea1679cb3d1bd647491691e5.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/3af230b3e5c2e214be4d8c70c4dc2d43aebe5162/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/sharing-app-dialog-box.ae42c11e02b09890ea1679cb3d1bd647491691e5.hu-hu.xlf)
 * Current Handback Datetime: 2016-07-19 19:43:29
-* Bilingual File: [sharing-app-dialog-box.ae42c11e02b09890ea1679cb3d1bd647491691e5.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/f2b1f4e839ea8c0371cf061c100292d228eb1821/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/sharing-app-dialog-box.ae42c11e02b09890ea1679cb3d1bd647491691e5.hu-hu.xlf)
-* Bilingual Datetime: 2016-07-07 13:52:27
+* Bilingual File: [sharing-app-dialog-box.ae42c11e02b09890ea1679cb3d1bd647491691e5.hu-hu.xlf](https://github.com/Microsoft/EM.handback/blob/3af230b3e5c2e214be4d8c70c4dc2d43aebe5162/ol-handback/Microsoft/Azure-RMSDocs-pr.hu-hu/master/sharing-app-dialog-box.ae42c11e02b09890ea1679cb3d1bd647491691e5.hu-hu.xlf)
+* Bilingual Datetime: 2016-07-19 19:50:37
 * [Back to Top](#report-top)
 
 ##### <a name='789807df983a2a895b6cddc27795be651ca50239380'></a> Source: [Azure-RMSDocs\rms-client\sharing-app-keyboard-shortcuts.md](https://github.com/Microsoft/Azure-RMSDocs-pr/blob/67129d6cdac124947fc07aa4d42523686227752e/Azure-RMSDocs/rms-client/sharing-app-keyboard-shortcuts.md)
