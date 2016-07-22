@@ -242,6 +242,6 @@ Most, hogy a példákon keresztül láthatta, mire képes az Azure RMS, talán a
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -93,6 +93,6 @@ Most már készen áll a saját új Windows Phone-alkalmazásai létrehozására
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

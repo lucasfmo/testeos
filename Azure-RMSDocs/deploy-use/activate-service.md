@@ -82,6 +82,6 @@ Az Office-szolgáltatások, például az Exchange Online és a SharePoint Online
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

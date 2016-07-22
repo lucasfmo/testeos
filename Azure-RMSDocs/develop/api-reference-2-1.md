@@ -40,6 +40,6 @@ A Microsoft Rights Management SDK 2.1-es verzió támogatja a Windows-ügyfelek 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

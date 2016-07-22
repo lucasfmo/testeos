@@ -54,6 +54,6 @@ Létezik továbbá egy kiegészítő Windows PowerShell-modul is, az **RMSProtec
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

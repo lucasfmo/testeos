@@ -62,6 +62,6 @@ Ugyanakkor, ha készen áll az Azure RMS központi telepítésére a szervezeté
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

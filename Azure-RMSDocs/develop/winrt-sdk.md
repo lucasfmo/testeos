@@ -86,6 +86,6 @@ Most már készen áll a saját új Windows Áruházbeli alkalmazásai létrehoz
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

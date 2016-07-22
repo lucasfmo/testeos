@@ -60,6 +60,6 @@ A sablonok létrehozását és kezelését támogató parancsmagok:
 [Egyéni sablonok konfigurálása az Azure Rights Management szolgáltatáshoz](configure-custom-templates.md)
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

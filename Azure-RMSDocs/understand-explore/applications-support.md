@@ -63,6 +63,6 @@ Tudjon meg többet arról, hogyan támogatják a következők az Azure RMS-t:
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

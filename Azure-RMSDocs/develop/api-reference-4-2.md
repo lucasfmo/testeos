@@ -45,6 +45,6 @@ A Microsoft Rights Management SDK 4.2 több operációs rendszert támogat. A r�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

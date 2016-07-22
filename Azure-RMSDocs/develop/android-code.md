@@ -530,6 +530,6 @@ Ez a forgatókönyv a sablonok listájának beszerzésével kezdődik, az első 
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

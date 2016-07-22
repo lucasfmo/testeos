@@ -58,6 +58,6 @@ A számos telepített webes szolgáltatás közül az alábbiak fontosak a Windo
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

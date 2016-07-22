@@ -75,6 +75,6 @@ Amikor megkezdi a [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanage
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

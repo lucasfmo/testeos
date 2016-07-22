@@ -75,6 +75,6 @@ Az Azure Rights Management eszközt támogató alkalmazások konfigurálása ut�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

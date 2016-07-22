@@ -173,6 +173,6 @@ Most elvégezte azon lépéseket, amelyekkel az alkalmazás használhatja az Azu
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

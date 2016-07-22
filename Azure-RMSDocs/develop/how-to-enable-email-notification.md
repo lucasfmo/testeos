@@ -67,6 +67,6 @@ Az RMS e-mail-értesítéshez tartozó alkalmazásadat-mezőket, tulajdonságné
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

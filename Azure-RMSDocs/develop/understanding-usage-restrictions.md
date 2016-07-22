@@ -56,6 +56,6 @@ Egy felhasználó adott dokumentumra vonatkozó engedélyei lekérhetők az [**I
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -54,6 +54,6 @@ Ekkor megjelenik **A Rights Management aktiválva van** üzenet és az inaktivá
 Vissza [Az Azure Rights Management aktiválása](activate-service.md) című témakörhöz.
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

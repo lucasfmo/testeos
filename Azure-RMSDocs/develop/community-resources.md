@@ -50,6 +50,6 @@ Ha még nem regisztrált a Microsoft Connect webhelyen, tegye a következőket:
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

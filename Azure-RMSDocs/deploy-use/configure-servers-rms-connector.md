@@ -250,6 +250,6 @@ Az RMS-összekötő megfigyelése: [Az Azure Rights Management-összekötő megf
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

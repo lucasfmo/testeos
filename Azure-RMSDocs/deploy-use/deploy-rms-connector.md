@@ -84,6 +84,6 @@ Az RMS-összekötő telepítése előtt ellenőrizze, hogy az alábbi követelm�
 Olvassa el a következőt: [Az Azure Rights Management-összekötő telepítése és konfigurálása](install-configure-rms-connector.md).
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -59,6 +59,6 @@ Vissza [Az Azure Rights Management aktiválása](activate-service.md) című té
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

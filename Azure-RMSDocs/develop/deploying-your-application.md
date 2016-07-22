@@ -14,8 +14,8 @@ audience: developer
 ms.reviewer: shubhamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 982021a2e972023b04e6483348a7c27aa029e198
-ms.openlocfilehash: 8308e2db84e13c6b8c85a1a3ae6c01fc0aabee75
+ms.sourcegitcommit: 04454886841fe7b3482d10e1e32422f28d1c434f
+ms.openlocfilehash: 40eb6628f5204d422bf304f44d64cdf0dcd8537d
 
 
 ---
@@ -28,10 +28,6 @@ Ez a témakör ismerteti a tartalomvédelemmel kompatibilis alkalmazás üzembe 
 ## Üzemi használatra szóló licencszerződés kérése
 
  Mielőtt kiadna egy, a Rights Management Services SDK 2.1 segítségével létrehozott alkalmazást, üzemi használatra szóló licencszerződést kell kötnie üzemi környezetben is használható tanúsítvány beszerzéséhez.
-
-> [!IMPORTANT]
-> Ha az ügyfélalkalmazást Azure-alapú RMS rendszerrel szeretné futtatni, saját bérlőket kell létrehoznia. További információért lásd: [Azure RMS-követelmények: Az Azure RMS-t támogató felhőalapú előfizetések](../get-started/requirements-subscriptions.md).
-> További információ az Azure RMS futtatásáról: [A szolgáltatásalkalmazás alkalmassá tétele a felhőalapú RMS használatára](how-to-use-file-api-with-aadrm-cloud.md).
 
 A tanúsítványt üzemi használatra szóló licencszerződés igénylésével szerezheti meg.
 
@@ -116,7 +112,8 @@ Ahhoz, hogy a végfelhasználó használni tudja az Azure Rights Management szol
 
 
 > [!IMPORTANT]
-> Ha az RMS SDK 2.1 ügyfélalkalmazását az Azure RMS szolgáltatással szeretné futtatni, saját bérlőket kell létrehoznia. További információért lásd: [Azure RMS-követelmények: Az Azure RMS-t támogató felhőalapú előfizetések](../get-started/requirements-subscriptions.md).
+> Ha az ügyfélalkalmazást Azure-alapú RMS rendszerrel szeretné futtatni, saját bérlőket kell létrehoznia. További információért lásd: [Azure RMS-követelmények: Az Azure RMS-t támogató felhőalapú előfizetések](../get-started/requirements-subscriptions.md).
+> További információ az Azure RMS futtatásáról: [A szolgáltatásalkalmazás alkalmassá tétele a felhőalapú RMS használatára](how-to-use-file-api-with-aadrm-cloud.md).
 
 -   Töltse le a [Microsoft Online Services bejelentkezési segédet](http://www.microsoft.com/en-us/download/details.aspx?id=28177) a Microsoft letöltőközpontjából.
 -   Győződjön meg arról, hogy a tartalomvédelemmel kompatibilis alkalmazás telepítője ellenőrzi a szolgáltatás előfeltételeinek teljesülését.
@@ -135,6 +132,6 @@ További információk az alkalmazás alkalmassá tételéről az RMS használat
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

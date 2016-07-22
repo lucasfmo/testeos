@@ -43,6 +43,6 @@ További információ: [Az RMS-ügyfél 2.1-es verziójának TechNet-dokumentác
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

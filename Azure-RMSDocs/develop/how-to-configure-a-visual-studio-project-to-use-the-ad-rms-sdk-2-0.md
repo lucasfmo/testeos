@@ -78,6 +78,6 @@ Ezek az utasítások natív 32 bites alkalmazások összeállítására vonatkoz
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

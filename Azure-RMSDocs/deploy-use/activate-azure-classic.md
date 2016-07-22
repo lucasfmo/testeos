@@ -59,6 +59,6 @@ Az **Active** (Aktív) állapot mellett, amely jelzi, hogy a Rights Management s
 Vissza [Az Azure Rights Management aktiválása](activate-service.md) című témakörhöz.
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -74,6 +74,6 @@ A következő az [RMS SDK 2.1](microsoft-information-protection-and-control-clie
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

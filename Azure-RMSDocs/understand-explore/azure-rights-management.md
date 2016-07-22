@@ -40,6 +40,6 @@ Ha készen áll az Azure RMS üzembe helyezésére a szervezeténél, lásd: [Az
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

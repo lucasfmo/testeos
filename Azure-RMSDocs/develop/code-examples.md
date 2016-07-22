@@ -46,6 +46,6 @@ Ezek a témakörök az RMS SDK megfelelő verziójának fontos kódelemeit mutat
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -76,6 +76,6 @@ Az RMS SDK 2.1 számos fontos ügyfél- és kiszolgálóplatformot támogat. Tov
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

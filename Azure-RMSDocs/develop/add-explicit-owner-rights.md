@@ -1,26 +1,22 @@
 ---
-# required metadata
-
 title: "Útmutató: Explicit tulajdonosi jogosultságok hozzáadása | Azure RMS"
-description: Az alkalmazásnak kifejezetten hozzá kellene adnia a „Tulajdonos” jogosultságokat egy teljesen új licenc létrehozásakor.
-keywords:
+description: "Az alkalmazásnak kifejezetten hozzá kellene adnia a „Tulajdonos” jogosultságokat egy teljesen új licenc létrehozásakor."
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 06/28/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: EF43FAC4-ABB4-459D-B173-972B5716F816
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 56d0538243af49580f24c701ad5097b30f3059b0
+ms.openlocfilehash: b4eec28ef5e0a44c5c60f88558b6168bce9718b2
+
 
 ---
 
@@ -32,7 +28,8 @@ Az alkalmazásnak kifejezetten hozzá kellene adnia a „Tulajdonos” jogosults
 
 Ha az alkalmazás az [**IpcCreateLicenseFromScratch**](/rights-management/sdk/2.1/api/win/functions#msipc_ipccreatelicensefromscratch) függvénnyel hoz létre licencleírót, teljes körű engedélyeket is kifejezetten biztosítania kell a tulajdonosnak.
 
->[!NOTE] Ha „tulajdonosként” állít be egy felhasználót az [**IpcSetLicenseProperty**](/rights-management/sdk/2.1/api/win/functions#msipc_ipcsetlicenseproperty) függvény **IPC\_LI\_OWNER** tulajdonságával, azzal nem biztosít a tulajdonos számára teljes körű engedélyeket.
+>[!NOTE] 
+> Ha „tulajdonosként” állít be egy felhasználót az [**IpcSetLicenseProperty**](/rights-management/sdk/2.1/api/win/functions#msipc_ipcsetlicenseproperty) függvény **IPC\_LI\_OWNER** tulajdonságával, azzal nem biztosít a tulajdonos számára teljes körű engedélyeket.
 
 A következő kódpélda csak a megfelelő jogosultságok létrehozásának és felvételének lépéseit mutatja be egy adott licenchez.
 
@@ -118,6 +115,7 @@ Ezekhez a felhasználókhoz a következő két jogosultság lesz hozzárendelve:
  
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Jul16_HO3-->
 
 

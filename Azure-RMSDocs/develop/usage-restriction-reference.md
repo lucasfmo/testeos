@@ -49,6 +49,6 @@ Minden, az AD RMS-jogosultság oszlopban felsorolt felhasználói jogosultságho
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

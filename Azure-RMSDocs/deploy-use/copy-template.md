@@ -37,6 +37,6 @@ Egyéni és az alapértelmezett sablonokról készíthet másolatot. Az ajánlot
 [Egyéni sablonok konfigurálása az Azure Rights Management szolgáltatáshoz](configure-custom-templates.md)
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 
