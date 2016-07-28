@@ -4,7 +4,7 @@ description:
 keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 06/30/2016
+ms.date: 07/13/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -13,8 +13,8 @@ ms.assetid: 71ce491f-41c1-4d15-9646-455a6eaa157d
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b73c83b91a6b00e44ff6c8fe7f8e954bd9713e34
-ms.openlocfilehash: a3ed9e8de496741fae8904481edb1177762a12c0
+ms.sourcegitcommit: e89c59716eef7fbdea415b41b1adfa54b0c16689
+ms.openlocfilehash: bd53b73452f444ac8529a8b8b613e76d8cc234a1
 
 
 ---
@@ -198,9 +198,14 @@ Lásd a [Milyen problémákat képes megoldani az Azure RMS?](../understand-expl
 
 -   Office 365-könyvtár: [Office 365](http://technet.microsoft.com/library/dn127064%28v=office.14%29.aspx)
 
+## Mik a legújabb fejlemények az új besorolási és címkézési funkció kapcsán?
+
+Ezek a funkciók már elérhetők az Azure Information Protection nyilvános előzetes verziójában. Próbálja ki, és tekintse meg az elérhető erőforrások listáját a [What is Azure Information Protection preview?](../information-protection/what-is-information-protection.md) (Mi az az Azure Information Protection előzetes verziója?) című témakörben.
+
+
 ## Úgy hallottam, nemsokára megjelenik az Azure RMS új verziója. Mikorra várható?
 
-A műszaki dokumentáció nem tartalmaz a jövőbeli verziókkal kapcsolatos információkat. Az ilyen jellegű információkért és közelményekért érdemes ellenőrizni a [nagyvállalati mobilitási és biztonsági blogot](https://blogs.technet.microsoft.com/enterprisemobility/?product=azure-rights-management-services), és beszerezni a legújabb frissítéseket a [Dan Plastina @TheRMSGuy](https://twitter.com/TheRMSGuy) helyről a Twitteren. Ha egy Office-verzió érdekli, okvetlenül ellenőrizze a [Office blogot [(https://blogs.office.com/) is.
+A műszaki dokumentáció nem tartalmaz a jövőbeli verziókkal kapcsolatos információkat. Az ilyen jellegű információkért és közleményekért érdemes ellenőrizni a [nagyvállalati mobilitási és biztonsági blogot](https://blogs.technet.microsoft.com/enterprisemobility/?product=azure-rights-management-services), és beszerezni a legújabb frissítéseket a [Dan Plastina @TheRMSGuy](https://twitter.com/TheRMSGuy) helyről a Twitteren. Ha egy Office-verzió érdekli, feltétlenül nézze meg az [Office-blogot](https://blogs.office.com/) is.
 
 ## Mit tehetek, ha a fentiekben nem szerepel a kérdésem?
 Használja az [Information and support for Azure Rights Management](information-support.md) (Azure Rights Management – információ és támogatás) című szakaszban található hivatkozásokat és forrásanyagokat.
@@ -219,6 +224,6 @@ Ez a gyakori kérdéseket tartalmazó oldal rendszeresen frissül. Az új elemek
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

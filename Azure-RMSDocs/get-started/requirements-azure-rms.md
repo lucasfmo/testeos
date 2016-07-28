@@ -4,7 +4,7 @@ description:
 keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 06/17/2016
+ms.date: 07/15/2016
 ms.topic: get-started-article
 ms.prod: azure
 ms.service: rights-management
@@ -13,8 +13,8 @@ ms.assetid: dc78321d-d759-4653-8818-80da74b6cdeb
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 50ebcd71336baeb68687e2d0c1ff1f0608925761
-ms.openlocfilehash: 72a75712da9efa201865440affa80461dcd7df53
+ms.sourcegitcommit: 2fab331a26e18730e9cc64a24c0501b7ae21aa1b
+ms.openlocfilehash: f225d8579e2440d2eb00a4f821a78727b6442fdd
 
 
 ---
@@ -32,7 +32,7 @@ Mielőtt a szervezetében üzembe helyezi a Microsoft Azure Rights Managementet 
 |Azure AD-címtár|A szervezetének rendelkeznie kell egy Azure Active Directoryval, amely támogatja az RMS felhasználóhitelesítését. Emellett, ha felhasználói fiókjait a helyszíni címtárából (AD DS) kívánja használni, a címtár-integrációt is be kell állítania.<br /><br />Az Azure RMS a többtényezős hitelesítést (MFA) is támogatja, ha Ön rendelkezik a szükséges ügyfélszoftverrel és a megfelelően konfigurált, MFA-kompatibilis infrastruktúrával.<br /><br />További tudnivalók: [Azure AD-címtár](requirements-azure-ad.md).|
 |Ügyféleszközök|A felhasználóknak olyan ügyféleszközzel (számítógép vagy mobileszköz) kell rendelkezniük, amely az RMS-t támogató operációs rendszert futtat.<br /><br />További tudnivalók: [Client devices that support Azure RMS](requirements-client-devices.md) (Az Azure RMS-t támogató ügyféleszközök).|
 |Alkalmazások|Az ügyfeleknek az RMS-t támogató alkalmazásokat kell futtatniuk.<br /><br />További tudnivalók: [Az Azure RMS-t támogató alkalmazások](requirements-applications.md).|
-|Az internethez és a függő felhőszolgáltatásokhoz való kapcsolódást támogató infrastruktúra|Ha rendelkezik olyan tűzfallal vagy hasonló beavatkozó hálózati eszközzel, amelyeket be kell állítani a megadott kapcsolatok engedélyezésére, tekintse meg a következő témakört: [Az Office 365 URL-címei és IP-címtartományai](https://support.office.com/en-US/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2).<br /><br />Az **Office 365 portal and shared** (Office 365 portál és megosztott szolgáltatások) és az **Office 365 authentication and identity** (Office 365-hitelesítés és -identitás) szakaszban szereplő URL- és IP-címek listája az Office 365 portálra, az Azure Active Directory-erőforrásokra és az Azure Rights Management szolgáltatásra vonatkozik. A jelen cikkben szereplő útmutatások segítségével nyomon követheti az információk változását, ha feliratkozik az RSS-hírcsatornára.<br /><br />Az Office-cikkben szereplő információkon felül az Azure RMS esetében az alábbiak is érvényesek:<br /><br />– Ne állítsa le a TLS ügyfél–szolgáltatás kapcsolatot (pl. a csomag szintjén végzett vizsgálat végrehajtásához). Ha így tenne, azzal megszüntetné a tanúsítvány rögzítését, amelyet az RMS-ügyfelek a Microsoft által felügyelt hitelesítésszolgáltatókkal együtt az Azure RMS szolgáltatással való kommunikációjuk biztosítására használnak.<br /><br />– Ha olyan webproxyt használ, amelyhez hitelesítés szükséges, akkor konfigurálnia kell az integrált Windows-hitelesítés használatára a felhasználó Active Directory bejelentkezési hitelesítési adataival.|
+|Az internethez és a függő felhőszolgáltatásokhoz való kapcsolódást támogató infrastruktúra|Ha rendelkezik olyan tűzfallal vagy hasonló beavatkozó hálózati eszközzel, amelyet be kell állítani a megadott kapcsolatok engedélyezéséhez, olvassa el [Az Office 365 URL-címei és IP-címtartományai](https://support.office.com/en-US/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) című témakör [Office 365-portál és megosztott](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_Portal-identity) szakaszának **Azure Rights Management (RMS)** szolgáltatásról szóló részét.<br /><br />Az ebben az Office-cikkben szereplő útmutatások segítségével nyomon követheti az információk változását, ha feliratkozik a megfelelő RSS-hírcsatornára.<br /><br />Az Office-cikkben szereplő információkon felül az Azure RMS esetében az alábbiak is érvényesek:<br /><br />– Ne állítsa le a TLS ügyfél–szolgáltatás kapcsolatot (pl. a csomag szintjén végzett vizsgálat végrehajtásához). Ha így tenne, azzal megszüntetné a tanúsítvány rögzítését, amelyet az RMS-ügyfelek a Microsoft által felügyelt hitelesítésszolgáltatókkal együtt az Azure RMS szolgáltatással való kommunikációjuk biztosítására használnak.<br /><br />– Ha olyan webproxyt használ, amelyhez hitelesítés szükséges, akkor konfigurálnia kell az integrált Windows-hitelesítés használatára a felhasználó Active Directory bejelentkezési hitelesítési adataival.|
 
 Ha az Azure RMS szolgáltatást helyszíni kiszolgálóval szeretné használni, az alábbi termékek támogatottak:
 
@@ -56,6 +56,6 @@ A forgatókönyv további Azure RMS-követelményeivel kapcsolatos tudnivalókat
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

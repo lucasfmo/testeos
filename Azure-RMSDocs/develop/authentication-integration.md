@@ -4,7 +4,7 @@ description: "Ismerteti az RMS-kompatibilis alkalmazások felhasználóhitelesí
 keywords: 
 author: bruceperlerms
 manager: mbaldwin
-ms.date: 06/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -14,8 +14,8 @@ audience: developer
 ms.reviewer: shubhamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 56d0538243af49580f24c701ad5097b30f3059b0
-ms.openlocfilehash: 34a82f31b5da46a59627ff559deb46c8445fcdf2
+ms.sourcegitcommit: 04454886841fe7b3482d10e1e32422f28d1c434f
+ms.openlocfilehash: fbe12e339d3fb8fc62aabc34aaa9f5f043e95de9
 
 
 ---
@@ -29,6 +29,9 @@ A felhasználóhitelesítés egy lényeges lépés az eszközalkalmazás és az 
 
 ## Regisztráció az Azure-portálon
 Elsőként tekintse meg ezt az útmutatót az alkalmazás regisztrálásának az Azure-portálon való konfigurálásról: [Az Azure RMS konfigurálása ADAL-hitelesítéshez](adal-auth.md). A folyamat során másolja ki és mentse el az **ügyfél-azonosítót** és **átirányítási URI-t** későbbi használatra.
+
+## Rights Management-licencszerződés (RMLA) beszerzése
+Az alkalmazás telepítése előtt RMLA-licencszerződést kell kötnie a Microsoft Rights Management-csapatával. A szerződésre vonatkozó további információkat jelen témakör [Éles üzembe helyezés – Üzemi használatra szóló licencszerződés kérése](deploying-your-application.md) című szakaszában talál.
 
 ## A felhasználói hitelesítés implementálása az alkalmazásban
 Az összes RMS API tartalmaz egy visszahívást, amelyet meg kell valósítani a felhasználóhitelesítés engedélyezéséhez. Az RMS SDK 4.2 a visszahívás megvalósítását fogja használni akkor, ha nem ad meg hozzáférési tokent, ha a hozzáférési token frissítésre szorul, vagy ha a hozzáférési token lejárt.
@@ -271,6 +274,6 @@ Az ADAL-nak több adatra is szüksége van a felhasználó sikeres hitelesítés
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

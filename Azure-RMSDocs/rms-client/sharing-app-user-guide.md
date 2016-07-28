@@ -13,8 +13,8 @@ ms.assetid: eaf6d02c-aa36-4915-856e-49bb71ab1484
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
-ms.openlocfilehash: 46e5d3c9ea001d2fa157187a8b78c2dc3e6516f3
+ms.sourcegitcommit: 384a58f32aae8c7d908392e7fd9a1629bc05cdff
+ms.openlocfilehash: d3727eb963532e03137aea2140293fa9c5821db2
 
 
 ---
@@ -43,29 +43,31 @@ Ha olyan kérdései merülnek fel, amelyekre a jelen útmutató nem ad választ,
 
 ## Művelet
 > [!NOTE]
-> További műszaki információt (például a támogatott fájltípusokkal és az alkalmazás vállalati hálózatra történő telepítésével kapcsolatban) a [Rights Management sharing application administrator guide](sharing-app-admin-guide.md) (A Rights Management megosztóalkalmazás rendszergazdai kézikönyve) című témakörben tekinthet meg.
+> További műszaki információt (például a [támogatott fájltípusokkal](sharing-app-admin-guide-technical.md#supported-file-types-and-file-name-extensions) és az [alkalmazás vállalati hálózatra történő telepítésével](sharing-app-admin-guide.md#automatic-deployment-for-the-microsoft-rights-management-sharing-application) kapcsolatban) [a Rights Management megosztóalkalmazás rendszergazdai útmutatójában](sharing-app-admin-guide.md) talál.
 
--   [A megosztóalkalmazás letöltése és telepítése](install-sharing-app.md)
+- [A megosztóalkalmazás letöltése és telepítése](install-sharing-app.md)
 
--   [Eszközön lévő fájl védelme (helyi védelem)](sharing-app-protect-in-place.md)
+- [Eszközön lévő fájl védelme (helyi védelem)](sharing-app-protect-in-place.md)
 
--   [E-mailben megosztott fájl védelme](sharing-app-protect-by-email.md)
+- [E-mailben megosztott fájl védelme](sharing-app-protect-by-email.md)
 
--   [Dokumentumok nyomon követése és visszavonása](sharing-app-track-revoke.md)
+- [A védett fájlok engedélyeinek módosítása](sharing-app-reprotect-files.md)
 
--   [Védett fájlok megtekintése és használata](sharing-app-view-use-files.md)
+- [Dokumentumok nyomon követése és visszavonása](sharing-app-track-revoke.md)
 
--   [Fájl védelmének eltávolítása](sharing-app-remove-protection.md)
+- [Védett fájlok megtekintése és használata](sharing-app-view-use-files.md)
 
--   [Billentyűparancsok használata](sharing-app-keyboard-shortcuts.md)
+- [Fájl védelmének eltávolítása](sharing-app-remove-protection.md)
 
--   [Beállítások megadása a párbeszédpanelen](sharing-app-dialog-box.md)
+- [Billentyűparancsok használata](sharing-app-keyboard-shortcuts.md)
 
-
-
-
+- [Beállítások megadása a párbeszédpanelen](sharing-app-dialog-box.md)
 
 
-<!--HONumber=Jun16_HO4-->
+
+
+
+
+<!--HONumber=Jul16_HO3-->
 
 

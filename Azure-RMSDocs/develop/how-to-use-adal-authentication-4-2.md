@@ -1,7 +1,7 @@
 ---
 title: "Konfiguráció az RMS-hitelesítéshez az Azure-portállal | Azure RMS"
 description: "Az ADAL hitelesítési folyamatának ismertetése"
-keywords: authentication, RMS, ADAL
+keywords: "hitelesítés, RMS, ADAL"
 author: bruceperlerms
 manager: mbaldwin
 ms.date: 06/14/2016
@@ -62,6 +62,6 @@ Alább megtekinthet egy Azure ADAL-t engedélyező kódtöredéket a mobil ügyf
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

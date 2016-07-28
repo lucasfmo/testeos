@@ -4,7 +4,7 @@ description:
 keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 05/09/2016
+ms.date: 07/13/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -13,8 +13,8 @@ ms.assetid: e5fa4666-6906-405a-9e0c-2c52d4cd27c8
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c611fa8a846612fed238e59e5077be67f6f9531a
-ms.openlocfilehash: c243ad02bdbd5bd46ba1b2a4818839df8a7deb7b
+ms.sourcegitcommit: 06f615c993d54ab1e8e4a94d7414302481d919b4
+ms.openlocfilehash: cd19be1c0319a3d2a4609030c0114b07b461c1d8
 
 
 ---
@@ -41,7 +41,7 @@ A Fájlkezelőben vagy a mellékletet tartalmazó e-mail üzenetben kattintson d
 Ha a fájlnak két verzióját látja, de eltérő fájlnévkiterjesztésekkel, csak akkor nyissa meg a .ppdf kiterjesztésű fájlt, ha a másik fájlt nem lehet megnyitni. Ha a .ppdf verziót sem tudja megnyitni, először telepítse az [RMS megosztóalkalmazást](install-sharing-app.md), amely képes megnyitni a .ppdf fájlnévkiterjesztéssel rendelkező fájlokat.
 
 > [!NOTE]
-> További információ: „[Mi az az automatikusan létrehozott .ppdf-fájl?](sharing-app-dialog-box.md#what-s-the-ppdf-file-that-s-automatically-created-)”.
+> További információt a [Mi az az automatikusan létrehozott .ppdf-fájl?](sharing-app-dialog-box.md#what-s-the-ppdf-file-that-s-automatically-created) című szakaszban talál.
 
 A fájlok a védettségük típusától függően nyílnak meg, a védettségük pedig a fájlnévkiterjesztés alapján határozható meg. A fájlok megnyitását a rendszer naplózhatja, mindaddig, amíg a fájlok védelme meg nem szűnik. Ha a fájlt e-mail mellékletként küldték, a feladó e-mailben értesítést kaphat a fájl minden egyes megnyitásakor.
 
@@ -69,7 +69,7 @@ A fájlok a védettségük típusától függően nyílnak meg, a védettségük
 
 
 
-A Rights Management által támogatott fájlnévkiterjesztések teljes listájáért tekintse meg a [Rights Management sharing application administrator guide](sharing-app-admin-guide.md) (A Rights Management megosztóalkalmazás rendszergazdai kézikönyve) [Supported file types and file name extensions](sharing-app-admin-guide-technical.md#supported-file-types-and-file-name-extensions) (Támogatott fájltípusok és fájlnévkiterjesztések) című szakaszát. Ha a fájlnévkiterjesztést a lista nem tartalmazza, használjon egy webes keresőt annak meghatározásához, hogy másik alkalmazás támogatja-e a kiterjesztést.
+A Rights Management által támogatott fájlnévkiterjesztések teljes listájáért tekintse meg a [Rendszergazdai útmutató a Rights Management megosztóalkalmazáshoz](sharing-app-admin-guide.md) témakör [Támogatott fájltípusok és fájlnévkiterjesztések](sharing-app-admin-guide-technical.md#supported-file-types-and-file-name-extensions) című szakaszát. Ha a fájlnévkiterjesztést a lista nem tartalmazza, használjon egy webes keresőt annak meghatározásához, hogy másik alkalmazás támogatja-e a kiterjesztést.
 
 > [!NOTE]
 > Miután meggyőződött arról, hogy fájlt a Rights Management védi, de a fájl nem nyitható meg, töltse le és használja az [RMS elemző eszközt](https://www.microsoft.com/en-us/download/details.aspx?id=46437). Kövesse az eszköz utasításait a számítógép azon problémáinak ellenőrzésére, amelyek megakadályozhatják a védett dokumentum megnyitását.
@@ -101,13 +101,13 @@ A Rights Management megosztóalkalmazás használatát szemléltető egyéb pél
 
 -   [Példák az RMS-megosztó alkalmazás használatára](sharing-app-user-guide.md#examples-for-using-the-rms-sharing-application)
 
--   [Művelet](sharing-app-user-guide.md#what-do-you-want-to-do-)
+-   [Művelet](sharing-app-user-guide.md#what-do-you-want-to-do)
 
 ## Lásd még:
 [A Rights Management megosztóalkalmazás felhasználói útmutatója](sharing-app-user-guide.md)
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

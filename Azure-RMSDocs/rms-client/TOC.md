@@ -10,11 +10,12 @@
 ### [A Windows Microsoft Rights Management megosztóalkalmazás](sharing-app-windows.md)
 #### [A Rights Management megosztóalkalmazás: Verziókiadások](sharing-app-version-release-history.md)
 #### [Rendszergazdai útmutató a Rights Management megosztóalkalmazáshoz](sharing-app-admin-guide.md)
-##### [Műszaki áttekintés](sharing-app-admin-guide-technical.md)
+##### [Technikai áttekintés és védelmi adatok](sharing-app-admin-guide-technical.md)
 #### [A Rights Management megosztóalkalmazás felhasználói útmutatója](sharing-app-user-guide.md)
 ##### [Letöltés és telepítés](install-sharing-app.md)
 ##### [Eszközön lévő fájl védelme](sharing-app-protect-in-place.md)
 ##### [E-mailben megosztott fájl védelme](sharing-app-protect-by-email.md)
+##### [A védett fájlok engedélyeinek módosítása](sharing-app-reprotect-files.md)
 ##### [Dokumentumok nyomon követése és visszavonása](sharing-app-track-revoke.md)
 ##### [Védett fájlok megtekintése és használata](sharing-app-view-use-files.md)
 ##### [Védelem eltávolítása](sharing-app-remove-protection.md)
@@ -22,8 +23,9 @@
 ##### [A párbeszédpanel beállításai](sharing-app-dialog-box.md)
 ### [Az RMS-kompatibilis alkalmazásokban használt Microsoft Rights Management adatvédelmi nyilatkozata](privacy-statement-rms-enlightened-applications.md)
 # [Alkalmazások fejlesztése és testreszabása](/rights-management/develop/developers-guide)
+# [Azure Information Protection (előzetes verzió)](/rights-management/information-protection/what-is-information-protection)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

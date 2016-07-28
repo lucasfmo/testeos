@@ -4,7 +4,7 @@ description:
 keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 06/29/2016
+ms.date: 07/13/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -13,8 +13,8 @@ ms.assetid: 828cf1f7-d0e7-4edf-8525-91896dbe3172
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ea4dd88ed749092fd02135d8ca25b621f74fe72f
-ms.openlocfilehash: b33839ff5ce0d30082f58ff96eb81215b716e46d
+ms.sourcegitcommit: 67129d6cdac124947fc07aa4d42523686227752e
+ms.openlocfilehash: 8ef46d68594a6e559e050f846a844f566ff8770d
 
 
 ---
@@ -85,7 +85,7 @@ Mielőtt megkezdi az áttelepítést az Azure RMS-re, győződjön meg arról, h
 
 Korlátozások:
 
--   Ugyan az áttelepítési folyamat támogatja a kiszolgálólicencelési tanúsítványkulcs (SLC-kulcs) áttelepítését egy hardveres biztonsági modulra (HMS) az Azure RMS-hez, az Exchange Online jelenleg nem támogatja ezt a konfigurációt. Ha az összes IRM-funkciót használni kívánja az Exchange Online-nal az Azure RMS-re való áttelepítés után, az Azure RMS-bérlőkulcsot [a Microsoftnak kell kezelnie](../plan-design/plan-implement-tenant-key.md#choose-your-tenant-key-topology-managed-by-microsoft-the-default-or-managed-by-you-byok-). Alternatív megoldásként futtathatja az IRM-et az Exchange Online-ban korlátozott funkciókkal is, ha az Azure RMS-bérlőt Ön kezeli (BYOK). További információk az Exchange Online használatáról az Azure RMS-ben: [6. lépés. IRM-integráció konfigurálása Exchange Online-ban](migrate-from-ad-rms-phase3.md#step-6-configure-irm-integration-for-exchange-online) az itt látható áttelepítési útmutató alapján.
+-   Ugyan az áttelepítési folyamat támogatja a kiszolgálólicencelési tanúsítványkulcs (SLC-kulcs) áttelepítését egy hardveres biztonsági modulra (HMS) az Azure RMS-hez, az Exchange Online jelenleg nem támogatja ezt a konfigurációt. Ha az összes IRM-funkciót használni kívánja az Exchange Online-nal az Azure RMS-be való migrálás után, az Azure RMS-bérlőkulcsot [a Microsoftnak kell kezelnie](../plan-design/plan-implement-tenant-key.md#choose-your-tenant-key-topology-managed-by-microsoft-the-default-or-managed-by-you-byok). Alternatív megoldásként futtathatja az IRM-et az Exchange Online-ban korlátozott funkciókkal is, ha az Azure RMS-bérlőt Ön kezeli (BYOK). További információk az Exchange Online használatáról az Azure RMS-ben: [6. lépés. IRM-integráció konfigurálása Exchange Online-ban](migrate-from-ad-rms-phase3.md#step-6-configure-irm-integration-for-exchange-online) az itt látható áttelepítési útmutató alapján.
 
 -   Ha az Azure RMS-ben nem támogatott szoftverrel és ügyfelekkel rendelkezik, ezek/ők nem védhetik le vagy fogyaszthatják az Azure RMS által védett tartalmakat. Ellenőrizze a támogatott alkalmazások és ügyfelek szakaszokat [Requirements for Azure Rights Management](../get-started/requirements-azure-rms.md) (Az Azure Rights Management követelményei) című cikkben.
 
@@ -180,6 +180,6 @@ Az áttelepítés megkezdéséhez lépjen az [1. fázis – kiszolgálóoldali k
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -4,7 +4,7 @@ description:
 keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 05/30/2016
+ms.date: 07/15/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -13,8 +13,8 @@ ms.assetid: d6e9aa0c-1694-4a53-8898-4939f31cc13f
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6a2989f4a6d919d9a2a3d301467353f052bd10ea
-ms.openlocfilehash: d67caf4ebbe19e4f67061d006da1fdedea0d5761
+ms.sourcegitcommit: 5737594c679be0702761014425e104e5eade59f3
+ms.openlocfilehash: c240502f2e88ec61bcbee6be778e77a0d5aee66b
 
 
 ---
@@ -26,6 +26,8 @@ ms.openlocfilehash: d67caf4ebbe19e4f67061d006da1fdedea0d5761
 
 
 Az egyéni sablonok létrehozása és kezelése a klasszikus Azure-portálon történik. Ezt megteheti közvetlenül a klasszikus Azure-portálról, vagy beléphet az Office 365 felügyeleti központjába, és kiválaszthatja a Rights Managementre vonatkozó **Speciális szolgáltatások** lehetőséget, amely azután átirányítja Önt a klasszikus Azure-portálra.
+
+A klasszikus Azure portálon található sablonok létrehozásához és kezeléséhez globális rendszergazdának kell lennie. Ha az Azure RMS globális rendszergazdájának szerepkörét más felhasználókhoz rendelte, ők is létrehozhatják és kezelhetik a sablonokat, azonban erre a célra a [PowerShellt](configure-templates-with-powershell.md) kell használniuk. További információt a [Globális rendszergazdának kell lenni az Azure RMS konfigurálásához, vagy átadható a feladat más rendszergazdáknak?](../get-started/faqs.md#do-you-need-to-be-a-global-admin-to-configure-azure-rms-or-can-i-delegate-to-other-administrators) című kérdésben talál. 
 
 Az alábbi eljárásokkal hozhat létre, konfigurálhat és tehet közzé egyéni sablonokat a Rights Management szolgáltatáshoz.
 
@@ -165,6 +167,6 @@ A sablon módosításához válassza ki a sablont, és hajtsa végre újra az el
 [Egyéni sablonok konfigurálása az Azure Rights Management szolgáltatáshoz](configure-custom-templates.md)
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

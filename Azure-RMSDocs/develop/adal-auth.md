@@ -1,7 +1,7 @@
 ---
 title: "Az Azure RMS beállítása az ADAL-hitelesítéshez | Azure RMS"
 description: "Az Azure ADAL alapú hitelesítés konfigurálási lépéseinek ismertetése"
-keywords: authentication, RMS, ADAL
+keywords: "hitelesítés, RMS, ADAL"
 author: bruceperlerms
 manager: mbaldwin
 ms.date: 06/28/2016
@@ -109,6 +109,6 @@ A Microsoft Azure-regisztrációt követő lépések:
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

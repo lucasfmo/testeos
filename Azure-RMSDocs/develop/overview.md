@@ -1,10 +1,10 @@
 ---
-title: "Áttekintés | Azure RMS"
+title: "Áttekintés – RMS SDK 4.2 | Azure RMS"
 description: "Az AD RMS és az Azure RMS egy információvédelmi technológia, amely segítségével megakadályozhatja a digitális adatok jogosulatlan használatát."
 keywords: 
 author: bruceperlerms
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 07/11/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -14,18 +14,15 @@ audience: developer
 ms.reviewer: shubhamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f7dd88d90357c99c69fe4fdde67c1544595e02f8
-ms.openlocfilehash: 417888c5445d702b1f700a8e717fbb746593efc6
+ms.sourcegitcommit: 5afdf526fe9f8486c6a778eebf10899e0bd9f839
+ms.openlocfilehash: d55a16d7ff6f11db3c02d3494dcdd088bffc8500
 
 
 ---
 
 # Áttekintés
 
-
-A Microsoft Rights Management szolgáltatások (az AD RMS és az Azure RMS) egy információvédelmi technológia, amely segítségével megakadályozhatja a digitális adatok jogosulatlan használatát. A tartalomvédelemmel kompatibilis alkalmazásai segítségével a tartalmak tulajdonosai meghatározhatják, ki nyithatja meg, szerkesztheti, nyomtathatja ki, továbbíthatja a tartalmaikat, vagy végezhet velük bármilyen más műveletet.
-
-A Microsoft Rights Management SDK 4.2 számos platformra elérhető, és egy olyan szoftverfejlesztői készlet (SDK) vagy keretrendszer, amely ügyfélszámítógépeken és eszközökön segít megvédeni a „tartalomvédelemmel kompatibilis” alkalmazásokon keresztüláramló információk elérését és felhasználását. Az ezen platformokhoz készült SDK-k egyszerű API-t biztosítanak az alkalmazásfejlesztőknek a digitális tartalom védelméhez vagy használatához, a sablonok lekéréséhez, a házirendek kiszolgálóról való beszerzéséhez, valamint más, kapcsolódó tartalomvédelmi feladatokhoz.
+A Microsoft Rights Management SDK 4.2 egy adatvédelmi technológia, amely több platformon is elérhető.  Olyan szoftverfejlesztői készletet (SDK) vagy keretrendszert biztosít, amely az ügyfélszámítógépeken és eszközökön segít megvédeni a tartalomvédelemmel kompatibilis alkalmazásokon keresztüláramló információk elérését és felhasználását. Az ezen platformokhoz készült SDK-k egyszerű API-t biztosítanak az alkalmazásfejlesztőknek a digitális tartalom védelméhez vagy használatához, a sablonok lekéréséhez, a házirendek kiszolgálóról való beszerzéséhez, valamint más, kapcsolódó tartalomvédelmi feladatokhoz.
 
 További információért a jelenleg támogatott platformokkal kapcsolatban lásd a [Microsoft Rights Management SDK](active-directory-rights-management-services-multi-platform-thin-client-sdk-portal.md) fejlesztői dokumentációs portált.
 
@@ -67,6 +64,6 @@ Az [Első lépések](get-started.md) útmutató segítségével belekezdhet véd
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

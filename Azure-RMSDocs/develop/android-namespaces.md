@@ -32,6 +32,6 @@ Az Android API két névtérrel rendelkezik, amelyek az elsődleges funkciót é
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

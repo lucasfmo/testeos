@@ -34,8 +34,9 @@
 ### [Az Azure RMS-hez készült Windows PowerShell telepítése](install-powershell.md)
 # [Az ügyfél telepítése és használata](/rights-management/rms-client/use-client)
 # [Alkalmazások fejlesztése és testreszabása](/rights-management/develop/developers-guide)
+# [Azure Information Protection (előzetes verzió)](/rights-management/information-protection/what-is-information-protection)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

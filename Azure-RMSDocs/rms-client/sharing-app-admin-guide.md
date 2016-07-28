@@ -4,7 +4,7 @@ description:
 keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 07/21/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -13,8 +13,8 @@ ms.assetid: d9992e30-f3d1-48d5-aedc-4e721f7d7c25
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f7dd88d90357c99c69fe4fdde67c1544595e02f8
-ms.openlocfilehash: e67d0ab5537aa7444940a5e7ce3a653cc6e66993
+ms.sourcegitcommit: a58d50b33db95570b43fe1ec0f76bdf490ddd024
+ms.openlocfilehash: 164df467632b38f179d1c1192835f919641331a5
 
 
 ---
@@ -28,6 +28,8 @@ ms.openlocfilehash: e67d0ab5537aa7444940a5e7ce3a653cc6e66993
 Ha a Microsoft Rights Management megosztóalkalmazás vállalati hálózaton való telepítésért felelős, vagy ha több technikai információt szeretne elérni, mint amennyi a [Rights Management megosztóalkalmazás felhasználói útmutatója](sharing-app-user-guide.md) vagy [A Microsoft Rights Management megosztóalkalmazás Windowsra kiadott verziójával kapcsolatos gyakori kérdések](http://go.microsoft.com/fwlink/?LinkId=303971) szakaszban található, használja az alábbi információkat.
 
 Az RMS megosztóalkalmazás legjobban az Azure RMS szolgáltatással működik, mert ez az üzembe helyezési konfiguráció támogatja a védett mellékletek küldését más szervezethez tartozó felhasználók számára, valamint egyéb lehetőségeket is, mint az e-mail értesítések, a dokumentumkövetés és a visszahívás.  Bizonyos korlátozások mellett azonban az alkalmazás működik a helyszíni verzióval, az AD RMS-sel is. Az Azure RMS és az AD RMS által támogatott szolgáltatások átfogó összehasonlításával kapcsolatban lásd: [Az Azure Rights Management és az AD RMS összehasonlítása](../understand-explore/compare-azure-rms-ad-rms.md). Ha az AD RMS-ről szeretne áttérni az Azure RMS-re, lásd: [Áttelepítés AD RMS-ről Azure Rights Managementre](../plan-design/migrate-from-ad-rms-to-azure-rms.md).
+
+A Rights Management megosztóalkalmazás technikai ismertetését, valamint a natív és általános védelemről, a támogatott fájltípusokról, a fájlnévkiterjesztésekről, illetve az alapértelmezett védelmi szint módosításáról szóló információkat a [Technical overview and protection details for the Rights Management sharing application](sharing-app-admin-guide-technical.md) (A Rights Management megosztóalkalmazás technikai áttekintése és védelmi adatai) című témakörben találja. 
 
 ## A Microsoft Rights Management megosztóalkalmazás automatikus központi telepítése
 Az RMS-megosztó alkalmazás Windows verziója támogatja a parancsfájlból történő telepítést, épp ezért kiválóan alkalmas a vállalati központi telepítéshez.
@@ -116,13 +118,13 @@ A sikeresség ellenőrzéséhez tekintse meg jelen cikk [A telepítés sikeress�
         > [!NOTE]
         > Ez a parancs kérheti az Azure hitelesítő adatok megadását. Ha a számítógép nem kapcsolódik tartományhoz, akkor kérni fogja ezeket az adatokat. Ha a számítógép egy tartomány tagja, akkor lehetséges, hogy az eszköz fel tudja használni a gyorsítótárazott hitelesítő adatokat.
 
-2.  Minden számítógépen, amelyre telepíti az RMS megosztóalkalmazást, futtassa a következő parancsot megemelt jogosultságokkal:
+2.  Minden számítógépen, amelyre telepíti az RMS megosztóalkalmazást, futtassa egyszer a következő parancsot emelt szintű rendszerjogosultságokkal:
 
     ```
     setup.exe /s /configureO2010Admin /certificationUrl <certification_url>
     ```
 
-3.  Minden számítógépen, amelyre telepíti az RMS megosztóalkalmazást, a felhasználóknak futtatniuk kell a következő parancsot (nem szükségesek hozzá megemelt jogosultságok). Ez többféleképpen is megvalósítható: meg lehet kérni a felhasználókat, hogy futtassák a parancsot (például egy e-mailbe ágyazott vagy az ügyfélszolgálati portálon közzétett hivatkozásra kattintva), vagy felveheti Ön is a parancsot a felhasználók bejelentkezési parancsfájljába:
+3.  Minden számítógépen, amelyre telepíti az RMS megosztóalkalmazást, az összes felhasználónak futtatnia kell a következő parancsot (nem szükségesek hozzá emelt szintű jogosultságok). Ez többféleképpen is megvalósítható: meg lehet kérni a felhasználókat, hogy futtassák a parancsot (például egy e-mailbe ágyazott vagy az ügyfélszolgálati portálon közzétett hivatkozásra kattintva), vagy felveheti Ön is a parancsot a felhasználók bejelentkezési parancsfájljába:
 
     ```
     bin\RMSSetup.exe /configureO2010Only
@@ -367,6 +369,6 @@ A védelmi szintek (natív és általános) közötti különbségeket, a támog
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

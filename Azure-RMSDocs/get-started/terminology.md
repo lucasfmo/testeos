@@ -4,7 +4,7 @@ description:
 keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 07/13/2016
 ms.topic: get-started-article
 ms.prod: azure
 ms.service: rights-management
@@ -13,8 +13,8 @@ ms.assetid: 742877bf-26f5-40e3-b1f7-8475e7c3ce11
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ed50d87138c428fadfd22cd5b3ef3c7f7e421848
-ms.openlocfilehash: 7d6e1d818c8eb4f6d2e4e7d320e44c7f159eabb4
+ms.sourcegitcommit: 0e9551db57cc1295f20368535267ca5a901ae9f2
+ms.openlocfilehash: a95b9679578f6786bd883884cd5c5f84cb6db739
 
 
 ---
@@ -31,6 +31,7 @@ Nem biztos egy, a Microsoft [!INCLUDE[aad_rightsmanagement_1](../includes/aad_ri
 |aktiválás|Az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] szolgáltatás engedélyezése, aminek köszönhetően egy szervezet adatvédelemmel láthatja el a dokumentumait és e-mail-üzeneteit. Ez a művelet az Exchange Online-ban és a SharePoint Online-ban is engedélyezi a tartalomvédelmi funkciókat.|
 |Active Directory tartalomvédelmi szolgáltatások|Gyakori rövidítése az *AD RMS*.<br /><br />Olyan Windows Server-szerepkör, amely titkosítás és házirend segítségével biztosítja a dokumentumok, fájlok és e-mailek adatvédelmét.|
 |AD RMS|Lásd: *Active Directory tartalomvédelmi szolgáltatások*|
+|Azure Information Protection|A jelenleg előzetes verzióban elérhető szolgáltatás besorolással, címkézéssel és védelemmel biztosítja a dokumentumok és e-mailek biztonságát. Az Azure Rights Management titkosítási, identitási és engedélyezési szabályzatok segítségével szolgáltatja a megfelelő védelmet.|
 |Azure Rights Management|Gyakori rövidítése az *Azure RMS*.<br /><br />Olyan Azure-szolgáltatás, amely titkosítás és házirend segítségével biztosítja a dokumentumok, fájlok és e-mailek adatvédelmét.  Más néven: *Azure Rights Management szolgáltatás*. Korábbi nevén:<br /><br />*Windows Azure Active Directory Rights Management:* Gyakori rövidítése a Windows Azure AD Rights Management szolgáltatás.<br /><br />*RMS Online:* Az eredetileg javasolt név, amely esetenként hibaüzenetekben és naplófájlbejegyzésekben jelenik meg.|
 |Azure RMS|Lásd: *Azure Rights Management*|
 |BYOK|Lásd: *saját kulcs használata*.|
@@ -71,6 +72,6 @@ Nem biztos egy, a Microsoft [!INCLUDE[aad_rightsmanagement_1](../includes/aad_ri
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

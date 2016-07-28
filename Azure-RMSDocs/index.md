@@ -1,9 +1,9 @@
 ---
 asset_id: 78022852-1541-4194-bd6b-2f5fd5d94b77
 layout: HubPage
-title: "Az Azure Rights Management dokumentációja"
+title: "Az Azure Rights Management dokumentációja – RMS-dokumentáció | Microsoft Docs"
 description: "Az Azure Rights Management technikai dokumentációja"
-keywords: rights management documentation, rms documentation, Azure RMS documentation
+keywords: "rights management-dokumentáció, rms-dokumentáció, Azure RMS-dokumentáció"
 author: msmbaldwin
 manager: mbaldwin
 ms.date: 04/28/2016
@@ -14,15 +14,15 @@ ms.technology: techgroup-identity
 ms.suite: ems
 ms.assetid: 78022852-1541-4194-bd6b-2f5fd5d94b77
 translationtype: Human Translation
-ms.sourcegitcommit: 80de3ab273c090f466fc381390d84b8f7b90f6f4
-ms.openlocfilehash: 6ba6e7b208c0b53a5cc6f38811f6845234bf7983
+ms.sourcegitcommit: e5a1860afff2682cce093523b33c9e99b93d446d
+ms.openlocfilehash: 57b04bccfd2f650c24875d20baf89040c69ab0f6
 
 
 ---
-# Az Azure Rights Management dokumentációja
+# Az Azure Rights Management (RMS) dokumentációja
 <article id="main">
     <section id="hero-content">
-      <h1>Az Azure Rights Management dokumentációja</h1>
+      <h1>Az Azure Rights Management (RMS) dokumentációja</h1>
       <h2>Megtudhatja, hogyan helyezheti üzembe és felügyelheti az Azure Rights Managementet (Azure RMS). Gyorsan megkezdheti a Rights Management használatát: információvédelmet alkalmazhat az e-mailekre, a dokumentumokra és az egyéb bizalmas adatokra.</h2>
       <h3>Új Azure RMS-felhasználó? <a href="http://go.microsoft.com/fwlink/?LinkId=816857" target="_blank">Keresse fel a termék webhelyét &rarr;</a></h3>
     </section>
@@ -36,11 +36,12 @@ ms.openlocfilehash: 6ba6e7b208c0b53a5cc6f38811f6845234bf7983
       <h2 class="section-heading"><span class="icon icon-warning"></span> Kiemelt tartalom</h2>
       <div class="features row">
         <ul class="column column-half">
+          <li><mark><b>ÚJ</b></mark> <a href="./information-protection/what-is-information-protection.md">Azure Information Protection (előzetes verzió)</a></li>
           <li><a href="./understand-explore/what-is-azure-rms.md">Mi az az Azure Rights Management?</a></li>
           <li><a href="./get-started/quick-start-tutorial.md">Azure RMS gyors üzembe helyezési útmutató</a></li>
-          <li><a href="./get-started/rapid-deployment-guide.md">Gyors üzembe helyezési útmutató az Azure RMS szolgáltatáshoz</a></li>
         </ul>
         <ul class="column column-half">
+          <li><a href="./get-started/rapid-deployment-guide.md">Gyors üzembe helyezési útmutató az Azure RMS szolgáltatáshoz</a></li>
           <li><a href="./plan-design/deployment-roadmap.md">Azure RMS üzembe helyezési ütemterv</a></li>
           <li><a href="./develop/developers-guide.md">Alkalmazások integrálása az Azure RMS segítségével</a></li>
         </ul>
@@ -214,6 +215,39 @@ ms.openlocfilehash: 6ba6e7b208c0b53a5cc6f38811f6845234bf7983
                 </li>
               </ul>
             </section>
+          <li class="journey-step">
+            <header class="journey-step-header row">
+              <a href="./information-protection/what-is-information-protection.md">
+                <div class="title column-third">
+                  <span class="step-number"> 6</span>
+                  <p>Azure Information Protection (előzetes verzió)</p>
+                </div>
+                <p class="description column-two-thirds">Az előzetes verzióként elérhető Azure Information Protection szolgáltatással besorolhatja, címkézheti és megvédheti adatait.
+                </p>
+              </a>
+            </header>
+            <section class="journey-step-elements content">
+              <ul class="row">
+                <li class="column-third">
+                  <a href="./information-protection/what-is-information-protection.md">
+                    <h3>Mi az az Azure Information Protection?</h3>
+                    <p>Tudnivalók az Azure Information Protection szolgáltatásról, amely egyesíti az Azure Rights Management (RMS) szolgáltatást és a Secure Islands által kínált besorolási és címkézési technológiákat.</p>
+                  </a>
+                </li>
+                <li class="column-third">
+                  <a href="./information-protection/infoprotect-quick-start-tutorial.md">
+                    <h3>Azure Information Protection – gyors üzembe helyezési útmutató</h3>
+                    <p>Ismerkedjen meg az Azure Information Protection használatával négy lépésben.</p>
+                  </a>
+                </li>
+                <li class="column-third">
+                  <a href="./information-protection/faq.md">
+                    <h3>Azure Information Protection – gyakori kérdések</h3>
+                    <p>Választ találhat az Azure Information Protection szolgáltatással kapcsolatban feltett gyakori kérdésekre.</p>
+                  </a>
+                </li>
+              </ul>
+            </section>
           </li>
         </ul>
       </section>
@@ -228,6 +262,6 @@ ms.openlocfilehash: 6ba6e7b208c0b53a5cc6f38811f6845234bf7983
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 
