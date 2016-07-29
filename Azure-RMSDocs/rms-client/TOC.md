@@ -21,11 +21,10 @@
 ##### [Védelem eltávolítása](sharing-app-remove-protection.md)
 ##### [Billentyűparancsok használata](sharing-app-keyboard-shortcuts.md)
 ##### [A párbeszédpanel beállításai](sharing-app-dialog-box.md)
-### [Az RMS-kompatibilis alkalmazásokban használt Microsoft Rights Management adatvédelmi nyilatkozata](privacy-statement-rms-enlightened-applications.md)
 # [Alkalmazások fejlesztése és testreszabása](/rights-management/develop/developers-guide)
 # [Azure Information Protection (előzetes verzió)](/rights-management/information-protection/what-is-information-protection)
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

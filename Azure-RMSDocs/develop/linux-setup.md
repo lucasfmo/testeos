@@ -14,8 +14,8 @@ audience: developer
 ms.reviewer: shubhamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6b5bc9612ac17a2d6905200383d9b8df4c504efe
-ms.openlocfilehash: d6920b8ce09b39d98da9e9c197b17a1f13d21c8e
+ms.sourcegitcommit: 79397c82d9478cbd55630a376fe2d12f3873ebc4
+ms.openlocfilehash: 310ee66374157f946df6876b31859313f74275ae
 
 
 ---
@@ -25,9 +25,9 @@ ms.openlocfilehash: d6920b8ce09b39d98da9e9c197b17a1f13d21c8e
 
 Mostanra a Linux több típusa is képes használni a Microsoft Rights Management SDK 4.2-t, hogy integrált adatvédelmet alkalmazzon az alkalmazásokban az Azure Active Directory Rights Management (AAD RM) segítségével.
 
--   [Támogatott operációs rendszerek](#supported_operating_systems)
--   [Létrehozás és használat](#how_to_build_and_use)
--   [Lásd még:](#see_also)
+-   [Támogatott operációs rendszerek](#supported-operating-systems)
+-   [Létrehozás és használat](#how-to-build-and-use)
+-   [Lásd még:](#see-also)
 
 ## Támogatott operációs rendszerek
 
@@ -60,6 +60,6 @@ A GitHub-on két útmutató témakör található ehhez az SDK-hoz, amelyek alap
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO4-->
 
 
