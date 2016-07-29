@@ -14,8 +14,8 @@ audience: developer
 ms.reviewer: shubhamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f7dd88d90357c99c69fe4fdde67c1544595e02f8
-ms.openlocfilehash: eccc0ba9c13e0c35c8d0c8877ce92f9b99e83835
+ms.sourcegitcommit: 79397c82d9478cbd55630a376fe2d12f3873ebc4
+ms.openlocfilehash: 8de1886adf322439721274e23452af75b4db2e00
 
 
 ---
@@ -25,15 +25,15 @@ ms.openlocfilehash: eccc0ba9c13e0c35c8d0c8877ce92f9b99e83835
 ## Újdonságok
 A Microsoft Rights Management SDK 4.2-es verziója az egyszerűség és rugalmasság új szintjére emeli az alkalmazásfejlesztés RMS általi támogatását. A jelen témakör ismerteti az RMS SDK ezen új verziójával kapcsolatos fontos változtatásokat és szolgáltatásokat.
 
--   [2016. júniusi újdonságok](#new_for_June_2016)
--   [2015. decemberi frissítés](#december_2015_update)
--   [2015. júliusi frissítés – Linux-/C++-fejlesztés támogatása](#july_2015_update_-_adds_support_for_linux___c___development)
--   [2015. májusi frissítés – Naplózás vezérlésének hozzáadása](#may_2015_update_-_adds_logging_control)
--   [2015. februári frissítés – Windows Áruházbeli alkalmazások támogatása](#february_2015_update_-_adds_windows_store_application_support)
--   [2015. januári frissítés – WinPhone platform támogatása](#january_2015_update_-_adds_winphone_platform_support)
--   [2014. októberi frissítés – Frissítés a Microsoft RMS SDK 4.1-es verziójára](#october_2014_update_-_upgrade_to_microsoft_rms_sdk_4.1)
+-   [2016. júniusi újdonságok](#new-for-June-2016)
+-   [2015. decemberi frissítés](#december-2015-update)
+-   [2015. júliusi frissítés – Linux-/C++-fejlesztés támogatása](#july-2015-update-adds-support-for-linux-c-developm)
+-   [2015. májusi frissítés – Naplózás vezérlésének hozzáadása](#may-2015-update-adds-logging-control)
+-   [2015. februári frissítés – Windows Áruházbeli alkalmazások támogatása](#february-2015-update-adds-windows-store-application-support)
+-   [2015. januári frissítés – WinPhone platform támogatása](#january-2015-update-adds-winphone-platform-support)
+-   [2014. októberi frissítés – Frissítés a Microsoft RMS SDK 4.1-es verziójára](#october-2014-update-upgrade-to-microsoft-rms-sdk-4-1)
 -   [Kibocsátási megjegyzések](#release-notes)
--   [Gyakori kérdések](#frequently_asked_questions)
+-   [Gyakori kérdések](#frequently-asked-questions)
 
 ### 2016. júniusi újdonságok
 
@@ -109,7 +109,7 @@ Ez a kiadás a Windows Áruházbeli alkalmazások támogatásával bővült, tov
 
 Ez a kiadás a Windows Phone operációs rendszer támogatásával bővült, továbbá egyenértékű funkciókat biztosít az RMS SDK 4.1 Android és iOS/OS X számára készült kiadásával.
 
-## 2014. októberi frissítés – Frissítés a Microsoft RMS SDK 4.1-es verziójára
+### 2014. októberi frissítés – Frissítés a Microsoft RMS SDK 4.1-es verziójára
 
 Az RMS SDK 4.1-es verziójú kiadásában az alábbi új szolgáltatások érhetők el a Google Android és az Apple iOS/OS X operációs rendszeréhez.
 
@@ -233,6 +233,6 @@ Ez a szakasz olyan információkat ismertet a Microsoft Rights Management SDK 4.
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO4-->
 
 

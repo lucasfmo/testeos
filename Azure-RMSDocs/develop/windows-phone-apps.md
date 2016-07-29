@@ -14,8 +14,8 @@ audience: developer
 ms.reviewer: shubhamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 90552435666b8f25c893fcffe8c8cf3355a5942d
-ms.openlocfilehash: 136d6e9d0c45a9779f87e32eed8288fe8ee3a622
+ms.sourcegitcommit: 79397c82d9478cbd55630a376fe2d12f3873ebc4
+ms.openlocfilehash: 1728a094dfaa869ae490e86d10ffe5ebcf4bfa5d
 
 
 ---
@@ -28,8 +28,8 @@ A Windows Phone rendszerre készült alkalmazások a Microsoft Rights Management
 Ez a témakör végigvezeti egy környezet felépítésének lépésein a saját új alkalmazásai létrehozásához.
 
 -   [Előfeltételek](#prerequisites)
--   [A fejlesztési környezet konfigurálása](#configuring_your_development_environment)
--   [Lásd még:](#see_also)
+-   [A fejlesztési környezet konfigurálása](#configuring-your-development-environment)
+-   [Lásd még:](#see-also)
 
 ## Előfeltételek
 
@@ -93,6 +93,6 @@ Most már készen áll a saját új Windows Phone-alkalmazásai létrehozására
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 
