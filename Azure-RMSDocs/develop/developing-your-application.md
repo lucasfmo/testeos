@@ -14,8 +14,8 @@ audience: developer
 ms.reviewer: shubhamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: cb1a4dfa4465e8f4798866c95d8965eec1b68f6b
-ms.openlocfilehash: 5dcb3fe88cced7945591a08c492b32bdc8895162
+ms.sourcegitcommit: 79397c82d9478cbd55630a376fe2d12f3873ebc4
+ms.openlocfilehash: e00af9b9b0a5f2d917ac96812e980505d4cfd347
 
 
 ---
@@ -56,7 +56,7 @@ Az alábbi kódrészlet számba veszi az alapértelmezett RMS-kiszolgálóról e
         goto exit;
       }
 
-A hívás lekéri az alapértelmezett kiszolgálóra telepített RMS-sablonokat, és betölti az eredményeket a *pcTil* változó által mutatott [IPC_TIL](/rights-management/sdk/2.1/api/win/functions#msipc_ipctil) szerkezetbe, majd megjeleníti a sablonokat.
+A hívás lekéri az alapértelmezett kiszolgálón telepített RMS-sablonokat, és betölti az eredményeket a *pcTil* változó által mutatott [IPC_TIL](/rights-management/sdk/2.1/api/win/ipc_til#msipc_ipc_til) szerkezetbe, majd megjeleníti a sablonokat.
 
       C++
       if (0 == pcTil->cTi) {
@@ -180,11 +180,11 @@ A befejezés előtt fel kell szabadítania a lefoglalt erőforrásokat.
 - [IpcGetKey](/rights-management/sdk/2.1/api/win/functions#msipc_ipcgetkey)
 - [IpcGetTemplateList](/rights-management/sdk/2.1/api/win/functions#msipc_ipcgettemplatelist)
 - [IpcInitialize](/rights-management/sdk/2.1/api/win/functions#msipc_ipcinitialize)
-- [IPC_TIL](/rights-management/sdk/2.1/api/win/functions#msipc_ipctil)
+- [IPC_TIL](/rights-management/sdk/2.1/api/win/ipc_til#msipc_ipc_til)
 - [Webinar_Collateral.zip](https://connect.microsoft.com/site1170/Downloads/DownloadDetails.aspx?DownloadID=42440)
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

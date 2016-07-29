@@ -4,7 +4,7 @@ description: "A Rights Management szolgáltatás által védetté tett fájlok e
 keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 07/20/2016
+ms.date: 07/27/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -13,8 +13,8 @@ ms.assetid: 5ac121b3-d7a0-40e4-8fe7-90bf4cf796f1
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 51050497fe128d94e069d0ac010435bea5623af2
-ms.openlocfilehash: 985d3d2f1151b50fcde8f8bb916e984e1de71b00
+ms.sourcegitcommit: e65fe3e6994352296cdf58d4b53de421389790f7
+ms.openlocfilehash: 492f651f9234a8428a0f39da93b332a552894993
 
 
 ---
@@ -32,7 +32,7 @@ A Rights Management szolgáltatás által védetté tett fájlok engedélyeit az
 >
 > Hasonlóképpen, ha hozzá szeretne adni vagy el szeretne távolítani egy engedélyt, nem elég csak a hozzáadni vagy eltávolítani kívánt engedélyt meghatározni, hanem az adott személyekhez tartozó összes engedélyt meg kell adnia.
 
-Ha az ismételt védelemmel ellátni kívánt fájlnak Ön a tulajdonosa (például Ön látta el eredetileg védelemmel a megosztóalkalmazással), automatikusan rendelkezik az új védelem beállításához szükséges engedélyekkel. Ha nem Ön a fájl tulajdonosa, előfordulhat, hogy nem rendelkezik a szükséges engedélyekkel. Ez a védett fájlhoz aktuálisan beállított engedélyektől függ. 
+Ha az ismételt védelemmel ellátni kívánt fájlnak Ön a tulajdonosa (például Ön látta el eredetileg védelemmel a megosztóalkalmazással), automatikusan rendelkezik az új védelem beállításához szükséges engedélyekkel. Ha nem Ön a fájl tulajdonosa, előfordulhat, hogy nem rendelkezik a szükséges engedélyekkel. Ez a védett fájlhoz aktuálisan beállított engedélyektől függ. A fájlok védelmének újbóli beállításához [Teljes hozzáférés](../deploy-use/configure-usage-rights.md#usage-rights-and-descriptions) használati jog szükséges.
 
 Ha például valaki a Rights Management megosztóalkalmazás segítségével védelemmel látta el a fájlt, valamint engedélyt állított be egy olyan csoporthoz, amelynek Ön is a tagja, és a csoporthoz rendelte a **Társtulajdonos** egyéni engedélyt, akkor ismételten védetté teheti a fájlt. Ha azonban a fájl tulajdonosa nem állított be engedélyt Önhöz vagy a csoportjához, illetve a **Felülvizsgáló – Megtekintés és szerkesztés** egyéni engedélyt adta meg vagy egy olyan sablont, amely nem engedélyezi az engedélyek eltávolítását, akkor nem tudja új védelemmel ellátni a fájlt. Ha szeretné gyorsan megállapítani, hogy rendelkezik-e engedéllyel egy fájl ismételt védelméhez, próbálja végrehajtani a műveletet.
 
@@ -96,6 +96,6 @@ A Rights Management megosztóalkalmazás használatát szemléltető egyéb pél
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

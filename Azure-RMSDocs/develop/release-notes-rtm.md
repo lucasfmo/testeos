@@ -14,8 +14,8 @@ audience: developer
 ms.reviewer: shubhamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 56d0538243af49580f24c701ad5097b30f3059b0
-ms.openlocfilehash: 61df64691ac3f4d7e871043767444ea64dfe1ef3
+ms.sourcegitcommit: 79397c82d9478cbd55630a376fe2d12f3873ebc4
+ms.openlocfilehash: 2892bc8242c3b6a90352829bf251b7044a919ed3
 
 
 ---
@@ -52,7 +52,7 @@ Ez a témakör fontos információkat tartalmaz az RMS SDK 2.1 jelenlegi és kor
 
 ## 2015. májusi frissítés
 
--   **Szolgáltatásalkalmazások és felhőalapú RMS** - [Az **IPC\_CREDENTIAL\_SYMMETRIC\_KEY**](/rights-management/sdk/2.1/api/win/ipc_credential#msipc_ipc_credential_symmetric_key) három információt igényel: szimmetrikus kulcs, **AppPrincipalId** és a **TenantBposId**. Az erre vonatkozó témakör frissítve lett, hogy útmutatást biztosítson a szükséges információ beszerzésének feldolgozásáról. A frissítéssel kapcsolatban tekintse meg az [Enable your service application to work with cloud based RMS](how-to-use-file-api-with-aadrm-cloud.md) (A szolgáltatásalkalmazás alkalmassá tétele a felhőalapú RMS használatára) című témakör frissített verzióját.
+-   **Szolgáltatásalkalmazások és felhőalapú RMS** - [Az **IPC\_CREDENTIAL\_SYMMETRIC\_KEY**](/rights-management/sdk/2.1/api/win/ipc_credential_symmetric_key#msipc_ipc_credential_symmetric_key) három információt igényel: szimmetrikus kulcs, **AppPrincipalId** és a **TenantBposId**. Az erre vonatkozó témakör frissítve lett, hogy útmutatást biztosítson a szükséges információ beszerzésének feldolgozásáról. A frissítéssel kapcsolatban tekintse meg az [Enable your service application to work with cloud based RMS](how-to-use-file-api-with-aadrm-cloud.md) (A szolgáltatásalkalmazás alkalmassá tétele a felhőalapú RMS használatára) című témakör frissített verzióját.
 
 ## 2015. áprilisi frissítés
 
@@ -178,6 +178,6 @@ Ha nem kérhető le név és leírás, a rendszer hibát jelez. Egy adott LCID a
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO4-->
 
 
