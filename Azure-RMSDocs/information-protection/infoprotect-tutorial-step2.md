@@ -3,15 +3,15 @@ title: "Azure Information Protection – gyors üzembe helyezési útmutató –
 description: "Egy bevezető oktatóanyag 2. lépése, amellyel gyorsan kipróbálhatja a szervezetnél a Microsoft Azure Information Protection szolgáltatást csupán 4, 15 percnél gyorsabban végrehajtható lépésben."
 author: cabailey
 manager: mbaldwin
-ms.date: 07/20/2016
+ms.date: 07/22/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 3bc193c2-0be0-4c8e-8910-5d2cee5b14f7
 translationtype: Human Translation
-ms.sourcegitcommit: 463c0bc1fa86f73e2623faf5a624afeabcadeedb
-ms.openlocfilehash: c6ecf22b72d862c605f8be2ab1f75fd2126f8575
+ms.sourcegitcommit: 3bf9fe837c7bb268361b8004352192f0540604b9
+ms.openlocfilehash: af2f5eadf3a4993c590f72a8f44e4fea03982505
 
 
 ---
@@ -44,7 +44,7 @@ Most a **Confidential** (Bizalmas) címke beállításait módosítjuk:
 
 2. A **Label: Confidential** (Címke: Bizalmas) panelen láthatók az egyes címkékhez elérhető beállítások. Hajtsa végre az alábbi módosításokat:
 
-    a. Ha a **Select RMS template** (RMS-sablon kiválasztása) területen aktiválta az Azure Rights Managementet: Kattintson a legördülő listára, és alapértelmezett sablonként válassza **\<a szervezet neve> - Confidential** lehetőséget. Ha a szervezet neve például VanArsdel, Ltd, keresse meg és válassza a **VanArsdel, Ltd - Confidential** elemet. Ha letiltotta ezt az alapértelmezett Azure Rights Management-sablont, válasszon egy másikat. Ha azonban részlegszintű sablont választ, győződjön meg arról, hogy az Ön fiókja is megtalálható a hatókörben.
+    a. Ha aktiválta az Azure Rights Managmentet, a **Set RMS template for protecting documents and emails containing this label** (RMS-sablon beállítása az ezt a címkét tartalmazó dokumentumok és e-mailek védelméhez) beállításnál ügyeljen arra, hogy az **Azure RMS** lehetőség legyen kiválasztva, majd kattintson a legördülő menüre, és válassza ki az alapértelmezett sablont: **\<szervezet neve> - Confidential**. Ha a szervezet neve például VanArsdel, Ltd, keresse meg és válassza a **VanArsdel, Ltd - Confidential** elemet. Ha letiltotta ezt az alapértelmezett Azure Rights Management-sablont, válasszon egy másikat. Ha azonban részlegszintű sablont választ, győződjön meg arról, hogy az Ön fiókja is megtalálható a hatókörben.
 
     Ha nem aktiválta az Azure Rights Managementet, ez a beállítás nem érhető el.
 
@@ -82,6 +82,6 @@ Az útmutató második lépéseként megtekintette az alapértelmezett szabályz
 [3. lépés &#187;](infoprotect-tutorial-step3.md)
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 
