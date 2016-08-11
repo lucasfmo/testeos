@@ -13,8 +13,18 @@
 ### [3. lépés: Az ügyfél telepítése](infoprotect-tutorial-step3.md)
 ### [4. lépés: A működés ellenőrzése](infoprotect-tutorial-step4.md)
 ## [Gyakori kérdések](faq.md)
+## [Házirend konfigurálása](configure-policy.md)
+### [Az alapértelmezett házirend](configure-policy-default.md)
+### [A globális beállítások konfigurálása](configure-policy-settings.md)
+### [Új címke létrehozása](configure-policy-new-label.md)
+### [Címkék törlése és átrendezése](configure-policy-delete-reorder.md)
+### [Címke módosítása](configure-policy-change-label.md)
+### [Adatvédelem](configure-policy-protection.md)
+### [A vizuális megjelölések konfigurálása](configure-policy-markings.md)
+### [A feltételek konfigurálása](configure-policy-classification.md)
+## [Az ügyfél telepítése](info-protect-client.md)
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO5-->
 
 

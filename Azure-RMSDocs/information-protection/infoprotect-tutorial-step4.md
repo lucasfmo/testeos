@@ -3,22 +3,24 @@ title: "Azure Information Protection gyors üzembe helyezési útmutató – 4. 
 description: "Egy bevezető oktatóanyag 4. lépése, amellyel gyorsan kipróbálhatja a szervezeténél a Microsoft Azure Information Protection szolgáltatást csupán 4, 15 percnél gyorsabban végrehajtható lépésben."
 author: cabailey
 manager: mbaldwin
-ms.date: 07/15/2016
+ms.date: 07/29/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 468748c1-49d6-4c3e-a612-9c584acdc782
 translationtype: Human Translation
-ms.sourcegitcommit: e80ea074fb1f6e571b846969b15c08cf7108b11c
-ms.openlocfilehash: dcb34eb8bfee6232d32245634dc56f717257b644
+ms.sourcegitcommit: 93444affe94b280db2c9e4e2960c6902e491dec6
+ms.openlocfilehash: cdd8dee1837c34caaeb0f8a1947dea37504e422a
 
 
 ---
 
 # 4. lépés: A besorolás, címkézés és védelem használata 
 
-*A következőkre vonatkozik: Azure Information Protection előzetes kiadása*
+>*A következőkre vonatkozik: az Azure Information Protection előzetes verziója*
+
+**[ Előzetes információ, a tartalma változhat. ]**
 
 Az előző lépés során telepítette az Azure Information Protection-ügyfelet és megnyitott egy Word-dokumentumot. Az alábbiakban bemutatjuk, hogy a konfigurált szabályzattal milyen egyszerűen elvégezheti a dokumentum címkézését és védelmét.
 
@@ -75,6 +77,6 @@ Amikor elkészült a teszteléssel, javasoljuk, hogy tekintse át [az Azure Info
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO5-->
 
 

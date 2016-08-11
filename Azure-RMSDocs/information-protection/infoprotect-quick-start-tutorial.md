@@ -3,22 +3,24 @@ title: "Azure Information Protection – gyors üzembe helyezési útmutató | A
 description: "Egy bevezető oktatóanyag, amellyel gyorsan kipróbálhatja a szervezetnél a Microsoft Azure Information Protection szolgáltatást csupán 4, 15 percnél gyorsabban végrehajtható lépésben."
 author: cabailey
 manager: mbaldwin
-ms.date: 07/16/2016
+ms.date: 07/29/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 1260b9e5-dba1-41de-84fd-609076587842
 translationtype: Human Translation
-ms.sourcegitcommit: cac95dec84f99d2e6caa3458dc8284defe2324bc
-ms.openlocfilehash: 7dc988365c1fa86827d1a7edc33c0a2eb6180f0e
+ms.sourcegitcommit: 93444affe94b280db2c9e4e2960c6902e491dec6
+ms.openlocfilehash: 17670eadc7cbf6111ab7fd0a9322e51d401b86e1
 
 
 ---
 
 # Azure Information Protection – gyors üzembe helyezési útmutató 
 
-*A következőkre vonatkozik: az Azure Information Protection előzetes verziója*
+>*A következőkre vonatkozik: az Azure Information Protection előzetes verziója*
+
+**[ Előzetes információ, a tartalma változhat. ]**
 
 Az alábbi oktatóanyag segítségével gyorsan kipróbálhatja a szervezetnél az Azure Information Protection előzetes verzióját csupán 4, 15 percnél gyorsabban végrehajtható lépésben. Az útmutató során aktiválhatja az Azure Rights Management szolgáltatást, megtekintheti és módosíthatja az alapértelmezett Azure Information Protection-szabályzatot, telepítheti az Azure Information Protection-ügyfelet, valamint egy Word-dokumentumban kipróbálhatja a besorolási, címkézési és védelmi műveleteket.
 
@@ -38,7 +40,7 @@ Az oktatóanyag elvégzéséhez a következőkre lesz szüksége:
 
 - Egy globális rendszergazdai fiók az Office 365 felügyeleti központjába vagy a klasszikus Azure portálra történő belépéshez, hogy szükség esetén aktiválhassa a Rights Management szolgáltatást. Ennek a fióknak egy e-mail-címmel és egy működő levelezőszolgáltatással is rendelkeznie kell (például az Exchange Online vagy az Exchange Server használatával).
 
-- Egy Windows (legalább Windows 7 SP1) rendszert futtató számítógép, amelyen telepítve van az Office 2016, az Office 2013 SP1 vagy az Office 2010. 
+- Egy Windows (legalább Windows 7 SP1) rendszert futtató számítógép, amelyen telepítve van az Office Professional Plus 2016, az Office Professional Plus 2013 a Service Pack 1 csomaggal, vagy az Office Professional Plus 2010. 
 
 - Ha a szervezetnél az Active Directory Rights Management Services (AD RMS) van telepítve, olyan munkacsoporthoz tartozó számítógépet kell használni, amelyen korábban még nem használták az AD RMS szolgáltatást. Erre a dokumentumok védelmekor van szükség, emellett biztosítja, hogy a számítógép csak Azure Rights Management-sablonokat töltsön le. A számítógép nem kapcsolódhat egyszerre az AD RMS és az Azure RMS szolgáltatáshoz. A migrálásról további információt az [Áttelepítés AD RMS-ről Azure Rights Managementre](../plan-design/migrate-from-ad-rms-to-azure-rms.md) című témakörben talál.   
 
@@ -51,6 +53,6 @@ Lássunk neki!
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO5-->
 
 

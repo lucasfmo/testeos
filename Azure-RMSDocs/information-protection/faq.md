@@ -4,7 +4,7 @@ description:
 keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 07/20/2016
+ms.date: 07/29/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -13,15 +13,17 @@ ms.assetid: 4b595b6a-7eb0-4438-b49a-686431f95ddd
 ms.reviewer: adhall
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e60cd910a8e995a2681d7eb87a13f815183d9124
-ms.openlocfilehash: 846578a84df383821a64d32ce6dd69290a5fdee9
+ms.sourcegitcommit: 93444affe94b280db2c9e4e2960c6902e491dec6
+ms.openlocfilehash: 7d5b58efb4b789ba4f3d897ae3a475cbd2c679e5
 
 
 ---
 
 # Gyakori kérdések az Azure Information Protection előzetes kiadásáról
 
-*A következőkre vonatkozik: Azure Information Protection előzetes kiadása*
+>*A következőkre vonatkozik: az Azure Information Protection előzetes verziója*
+
+**[ Előzetes információ, a tartalma változhat. ]**
 
 Kérdése van az Azure Information Protection előzetes kiadásával kapcsolatban?  Itt választ kaphat rá. 
 
@@ -61,12 +63,6 @@ Rendelkeznie kell Azure-előfizetéssel ahhoz, hogy konfigurálni tudja az Azure
 
 Az előfizetés követelményeinek esetleges változásairól szóló bejelentések a [nagyvállalati mobilitással és biztonsággal foglalkozó blogban](https://blogs.technet.microsoft.com/enterprisemobility/?product=azure-rights-management-services) jelennek meg.
 
-## Ha az Azure Information Protection előzetes kiadása most nyilvánosan elérhető, miért nem található az Azure-portálon?
-
-Jelenleg az alábbi hivatkozást kell megnyitnia az Azure Information Protection megjelenítéséhez a portálon: https://portal.azure.com/?Microsoft_Azure_InformationProtection=true
-
-Ezután a menüben kattintson a **Tallózás** gombra, és kezdje el begépelni az "Information Protection" szöveget a Szűrő mezőbe. A találatokban kattintson az **Azure Information Protection** elemre.
-
 ## Szükséges-e globális rendszergazda az Azure Information Protection előzetes kiadásának kipróbálásához?
 
 Az előzetes kiadásban, és csakis abban az Azure által hitelesített bármely felhasználó láthatja és konfigurálhatja a bérlőjének Azure Information Protection-házirendjét az Azure-portálon.
@@ -89,7 +85,7 @@ Ez már dokumentált, és frissülni fog az [Azure Information Protection követ
 
 Minden alkalommal, amikor a felhasználó megnyit egy Office-alkalmazást, az Azure Information Protection-ügyfél ellenőrzi, hogy elérhető-e az Azure Information Protection-házirend újabb verziója. Ha van újabb verzió, az ügyfél letölti, mégpedig az adatvédelem érdekében HTTPS-kapcsolat használatával. 
 
-Ha az alkalmazás már be van töltve az Azure Information Protection-házirend frissítésekor, be kell zárnia, és újra meg kell nyitnia az alkalmazást a házirend a legújabb verziójának beolvasásához.
+Ha egy új Azure Information Protection-házirend megjelenésekor több Office-alkalmazás is meg van nyitva, azokat be kell zárnia az új házirend letöltéséhez. Például ha megnyitott két Word-dokumentumot, de az Azure Information Protection-házirendet csak az egyiken szeretné kipróbálni, zárja be mindkét dokumentumot, majd nyissa meg újra azt, amelyiken alkalmazni szeretné az új házirendet.
 
 ## Hol tárolhatók fájlok az Azure Information Protectionben? 
 
@@ -113,7 +109,7 @@ Az Azure-portálon előre meghatározott mintákat használhat, ilyen például 
 
 Az [Azure Information Protection gyors üzembe helyezési oktatóanyagában](infoprotect-quick-start-tutorial.md) talál példákat. 
 
-A besorolás pontossága attól függ, hogyan konfigurálja a besorolási szabályt, amely feltételeken alapul. A feltételekben jelenleg szövegminták és reguláris kifejezések adhatók meg. Az előzetes kiadásban elérhető egyes beállítások ismertetése és a teszteléshez ajánlott példák a [Description of content matching for our pre-define Information types](https://www.yammer.com/askipteam/#/Threads/show?threadId=737163344) (Az előre megadott adattípusokhoz tartozó tartalom megfeleltetésének ismertetése) című Yammer-bejegyzésben találhatók. A vizsgálat a dokumentum mentésekor, illetve az e-mail elküldésekor történik.
+A besorolás pontossága attól függ, hogyan konfigurálja a besorolási szabályt, amely feltételeken alapul. A feltételekben jelenleg szövegminták és reguláris kifejezések adhatók meg. Az előzetesben elérhető beállításokról további információt és példákat a [How to configure conditions for automatic and recommended classification for Azure Information Protection](configure-policy-classification.md) (Az Azure Information Protection automatikus és javasolt besorolási feltételeinek konfigurálása) című témakörben találhat. A vizsgálat a dokumentum mentésekor, illetve az e-mail elküldésekor történik.
 
 A legjobb felhasználói élmény és az üzletmenet folytonosságának biztosítása érdekében javasoljuk, hogy ne a teljesen automatikus műveletekkel kezdjen, hanem adjon javaslatokat a felhasználóknak. Ekkor eldönthetik, hogy elfogadják-e a címkézési vagy adatvédelmi műveletet, vagy felülbírálják a javaslatot.   
 
@@ -121,7 +117,7 @@ A legjobb felhasználói élmény és az üzletmenet folytonosságának biztosí
 
 Igen. Az Azure-portálon állíthatja be, hogy automatikus besorolást szeretne használni, vagy javaslatot szeretne adni a felhasználóknak. Ez utóbbihoz a **Select how this label is applied: automatically or recommended to user** (Válassza ki, hogyan legyen alkalmazva a címke: automatikusan vagy a felhasználónak javasolva) beállításban válassza a **Recommended ** (Javasolt) értéket.
 
-Az [Azure Information Protection gyors üzembe helyezési oktatóanyagában](infoprotect-quick-start-tutorial.md) talál példákat.
+Az [Azure Information Protection gyors üzembe helyezési oktatóanyagában](infoprotect-quick-start-tutorial.md) talál példákat.  
 
 ## Kötelezővé lehet-e tenni az összes dokumentum besorolását?
 
@@ -140,7 +136,7 @@ Igen. Ha azt szeretné, hogy a felhasználók indokolják meg a besorolás módo
 
 Az Azure-portálon választhat egy Azure Rights Management-sablont a tartalom automatikusan védelméhez a megadott besorolási szintnek megfelelően.
 
-Az [Azure Information Protection gyors üzembe helyezési oktatóanyagában](infoprotect-quick-start-tutorial.md) talál példákat.
+Az [Azure Information Protection gyors üzembe helyezési oktatóanyagában](infoprotect-quick-start-tutorial.md) talál példákat. További információ: [How to configure a label to apply Rights Management protection](configure-policy-protection.md) (Címkék konfigurálása a Rights Management-védelem aktiválásához).
 
 ## Rendelkezhet-e egy fájl két különböző besorolással?
 
@@ -188,6 +184,6 @@ Ezután a [Yammer-helyen](https://www.yammer.com/askipteam/#/threads/inGroup?typ
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO5-->
 
 

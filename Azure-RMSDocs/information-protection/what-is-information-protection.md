@@ -3,22 +3,24 @@ title: Mi az az Azure Information Protection? | Azure Rights Management
 description: "Áttekintés a mostantól előzetes verzióként elérhető Azure Information Protection szolgáltatásról"
 author: cabailey
 manager: mbaldwin
-ms.date: 07/14/2016
+ms.date: 07/29/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: cd8a88e2-3555-4be2-9637-3cdee992f2c8
 translationtype: Human Translation
-ms.sourcegitcommit: 0db303b01361b3220c2e9334f84594ac86c5b069
-ms.openlocfilehash: bfb56fd4994a358d366d94b40f6c5fc889330303
+ms.sourcegitcommit: 93444affe94b280db2c9e4e2960c6902e491dec6
+ms.openlocfilehash: d3d63a778bff62649341227b65212722e285a6be
 
 
 ---
 
 # Mi az az Azure Information Protection (előzetes verzió)?
 
-*A következőkre vonatkozik: az Azure Information Protection előzetes verziója*
+>*A következőkre vonatkozik: az Azure Information Protection előzetes verziója*
+
+**[ Előzetes információ, a tartalma változhat. ]**
 
 Az Azure Information Protection szolgáltatással besorolhatja, címkézheti és megvédheti a dokumentumokat és az e-maileket. Az adatok besorolásakor a szolgáltatás állandó címkéket alkalmaz rájuk. Ezáltal a besorolás mindenkor azonosítható lesz, függetlenül attól, hogy hol tárolja vagy kikkel osztja meg az adatokat. Az állandó címkékhez vizuális jelölések (például fejlécek, láblécek vagy vízjelek) is tartoznak. A legbizalmasabb adatokat az Azure Rights Management titkosítási, engedélyezési és identitási szabályzataival is védetté teheti, így megelőzheti az adatok elvesztését. 
 
@@ -42,6 +44,6 @@ Az Office-alkalmazásokhoz hozzáadható Information Protection menüsávval a v
 Ismerkedjen meg az Azure Information Protection használatával négy egyszerű lépésben: [Azure Information Protection – gyors üzembe helyezési útmutató](infoprotect-quick-start-tutorial.md).
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO5-->
 
 
