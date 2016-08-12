@@ -3,15 +3,15 @@ title: "Azure Information Protection gyors üzembe helyezési útmutató – 3. 
 description: "Egy bevezető oktatóanyag 3. lépése, amellyel gyorsan kipróbálhatja a szervezeténél a Microsoft Azure Information Protection szolgáltatást csupán 4, 15 percnél gyorsabban végrehajtható lépésben."
 author: cabailey
 manager: mbaldwin
-ms.date: 07/29/2016
+ms.date: 08/10/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 209815b9-81c9-430c-a82f-32cac991449b
 translationtype: Human Translation
-ms.sourcegitcommit: 93444affe94b280db2c9e4e2960c6902e491dec6
-ms.openlocfilehash: 65596a71b07e830377c55dc04b7187251315a634
+ms.sourcegitcommit: 264f2be6c62dc7fa670171493941332fe7ff20e5
+ms.openlocfilehash: 42649148e58a8ea1baab6317d181c24e6a21d709
 
 
 ---
@@ -37,9 +37,8 @@ E lépés során telepíteni kell az Azure Information Protection-ügyfelet, hog
         Kattintson a **Protect** > **Help and feedback** (Védelem > Súgó és visszajelzés) lehetőségre, és a megnyíló **Microsoft Azure Information Protection** párbeszédpanelen erősítse meg ügyfélállapotát. Ekkor megjelenik **Information Protection policy is installed** (Az Information Protection-szabályzat telepítése befejeződött) üzenet, és a legutóbbi kapcsolat ideje. Győződjön meg arról, hogy a megfelelő bérlő felhasználóneve jelenik meg.
 
     - A menüszalag alatt megjelenik az Information Protection menüsávja. A sávon található a **Sensitivity** (Érzékenység) címe és az alapértelmezett címke (ebben az esetben az **Internal** (Belső) címke). 
-
-
-![Azure Information Protection gyors üzembe helyezési útmutató – 3. lépés: A telepített ügyfél](../media/word2013-callouts.png)
+    
+        ![Azure Information Protection gyors üzembe helyezési útmutató – 3. lépés: A telepített ügyfél](../media/word2013-callouts2.png)
 
 Most már elvégezheti az utolsó lépést, a besorolás, a címkézés és a védelem működésének ellenőrzését.
 
@@ -53,6 +52,6 @@ Most már elvégezheti az utolsó lépést, a besorolás, a címkézés és a v�
 [4. lépés &#187;](infoprotect-tutorial-step4.md)
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Aug16_HO2-->
 
 
