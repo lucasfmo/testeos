@@ -3,15 +3,15 @@ title: "Azure Information Protection – gyors üzembe helyezési útmutató –
 description: "Egy bevezető oktatóanyag 2. lépése, amellyel gyorsan kipróbálhatja a szervezetnél a Microsoft Azure Information Protection szolgáltatást csupán 4, 15 percnél gyorsabban végrehajtható lépésben."
 author: cabailey
 manager: mbaldwin
-ms.date: 07/29/2016
+ms.date: 08/08/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 3bc193c2-0be0-4c8e-8910-5d2cee5b14f7
 translationtype: Human Translation
-ms.sourcegitcommit: cab45baf19af4ab548f5f112946d168d93a95d49
-ms.openlocfilehash: fa17a5b18162ca7ca1ac0cf9a1052dd01d2057aa
+ms.sourcegitcommit: 09cb56aaa0d7d97073623c518aa331d591a376e3
+ms.openlocfilehash: 65d758635b77ee7d6c423a1400a7621e8e05b14d
 
 
 ---
@@ -24,13 +24,20 @@ ms.openlocfilehash: fa17a5b18162ca7ca1ac0cf9a1052dd01d2057aa
 
 Bár az Azure Information Protection alapértelmezett szabályzata konfiguráció nélkül is használható, az oktatóanyagban módosítjuk majd.
 
-1. Jelentkezzen be az [Azure portálra](https://portal.azure.com).
+1. Jelentkezzen be az [Azure portálra](https://portal.azure.com). Ha az osztályozás és a címkézés mellett a védelmet is szeretné kipróbálni, jelentkezzen be globális rendszergazdaként, hogy lekérhesse az Azure Rights Management-sablonokat.
  
-2. A menüben kattintson a **Tallózás** gombra, és kezdje el begépelni az **Information** szót a Szűrő mezőbe. Válassza az **Azure Information Protection** lehetőséget.
+2. A Központ menüben kattintson a **New (Új)** > **Security + Identity (Biztonság + identitás)** > **Azure Information Protection (preview) (Azure Information Protection (előzetes verzió))** > **Create (Létrehozás)** elemekre.
 
-- A megjelenő fő **Azure Information Protection** panelen található az automatikusan létrejött alapértelmezett Information Protection-szabályzat. Az alapértelmezett szabályzat a következő besorolási címkéket tartalmazza: **Personal** (Személyes), **Public** (Nyilvános), **Internal** (Belső), **Confidential** (Bizalmas) és **Secret** (Titkos). A címkék használatáról olvassa el a hozzájuk tartozó elemleírásokat. A **Secret** címkéhez két alárendelt címke is tartozik: **All-Employees** (Minden alkalmazott) és **My-Group** (Saját csoport). Ez jól szemlélteti, hogy egy besorolásnak alkategóriái is lehetnek.
+    Ezzel létrehozza az **Azure Information Protection** panelt, vagyis amikor legközelebb bejelentkezik, a szolgáltatást kiválaszthatja a központi **Browse (Tallózás)** listából. 
 
-- Az **Internal**, **Confidential** és **Secret** címkéhez alapértelmezés szerint vizuális jelölések tartoznak (például lábléc, fejléc vagy vízjel), azonban egyik címkéhez sincs beállítva védelem. Emellett nincs megadva a három globális beállítás, így nem szükséges minden dokumentumhoz és e-mailhez címkét adni. Nincs alapértelmezett címke sem, a felhasználóknak pedig nem kell megindokolniuk az érzékenységi szint csökkentését.
+    > [!TIP] 
+    > Válassza a **Rögzítés az irányítópulton** lehetőséget; ezzel létrehozza az **Azure Information Protection** csempét az irányítópulton, így ha legközelebb bejelentkezik a portálra, már kihagyhatja a Tallózás-lépést.
+
+3.  A megjelenő fő **Azure Information Protection** panelen található az automatikusan létrehozott, alapértelmezés szerinti Information Protection-szabályzat:
+    
+    - Ez a következő besorolási címkéket tartalmazza: **Personal** (Személyes), **Public** (Nyilvános), **Internal** (Belső), **Confidential** (Bizalmas) és **Secret** (Titkos). A címkék használatáról olvassa el a hozzájuk tartozó elemleírásokat. A **Secret** címkéhez két alárendelt címke is tartozik: **All-Employees** (Minden alkalmazott) és **My-Group** (Saját csoport). Ez jól szemlélteti, hogy egy besorolásnak alkategóriái is lehetnek.
+
+    - Az **Internal**, a **Confidential** és a **Secret** címkéhez alapértelmezés szerint vizuális jelölések tartoznak (például lábléc, fejléc vagy vízjel), és egyik címkéhez sincs beállítva védelem. Emellett nincs megadva a három globális beállítás, így nem szükséges minden dokumentumhoz és e-mailhez címkét adni. Nincs alapértelmezett címke sem, a felhasználóknak pedig nem kell megindokolniuk az érzékenységi szint csökkentését.
 
     ![Azure Information Protection – gyors üzembe helyezési útmutató – 3. lépés: Alapértelmezett szabályzat](../media/info-protect-policy.png)
 
@@ -42,7 +49,7 @@ A jelen oktatóanyagban módosítani fogjuk a globális beállítások némelyik
 
 Most a **Confidential** (Bizalmas) címke beállításait módosítjuk:
 
-1. Kattintson a **Confidential** címkebejegyzésre.
+1. Kattintson a **Confidential** címkére.
 
 2. A **Label: Confidential** (Címke: Bizalmas) panelen láthatók az egyes címkékhez elérhető beállítások. Hajtsa végre az alábbi módosításokat:
 
@@ -90,6 +97,6 @@ Az útmutató második lépéseként megtekintette az alapértelmezett szabályz
 [3. lépés &#187;](infoprotect-tutorial-step3.md)
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Aug16_HO2-->
 
 

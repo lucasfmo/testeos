@@ -3,15 +3,15 @@ title: "Címkék törlése és átrendezése az Azure Information Protectionben 
 description: 
 author: cabailey
 manager: mbaldwin
-ms.date: 07/29/2016
+ms.date: 08/10/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: ae0f603f-a632-4ac5-a3f7-6358d4255eff
 translationtype: Human Translation
-ms.sourcegitcommit: 93444affe94b280db2c9e4e2960c6902e491dec6
-ms.openlocfilehash: 50a60f8a0f8cb92aba7453e6c1dedacbe004a5ed
+ms.sourcegitcommit: b2263c212a1b869b778767493645f10ad821828f
+ms.openlocfilehash: 3b4066c8e5770e6f4a502ecaebfd961400e9df2d
 
 
 ---
@@ -36,11 +36,11 @@ A címkéket célszerű logikai sorrendben rendezni az Information Protection me
 
 A módosítások végrehajtásához kövesse az alábbi utasításokat.
 
-1. Jelentkezzen be az [Azure portálra](https://portal.azure.com).
+1. Ha még nem tette meg, jelentkezzen be az [Azure Portalra](https://portal.azure.com), majd lépjen az **Azure Information Protection** panelre. 
+    
+    A Központ menüben kattintson a **Tallózás** gombra, és kezdje el begépelni az **Information** szót a Szűrő mezőbe. Válassza az **Azure Information Protection** lehetőséget.
 
-2. A menüben kattintson a **Tallózás** gombra, és kezdje el begépelni az **Information** szót a Szűrő mezőbe. Válassza az **Azure Information Protection** lehetőséget.
-
-3. Az **Azure Information Protection** panelen végezze el az alábbi műveletek egyikét attól függően, hogy törölni, letiltani vagy átrendezni szeretné a címkéket:
+2. Az **Azure Information Protection** panelen végezze el az alábbi műveletek egyikét attól függően, hogy törölni, letiltani vagy átrendezni szeretné a címkéket:
 
     - Címke törlése: Kattintson a jobb gombbal a törölni kívánt címkére, vagy válassza ki a helyi menüt (**...**), majd kattintson a **Delete this label** (Címke törlése), végül pedig a **Yes** (Igen) lehetőségre. Ezután kattintson a **Save** (Mentés) gombra. 
 
@@ -48,7 +48,7 @@ A módosítások végrehajtásához kövesse az alábbi utasításokat.
 
     - Címke átrendezése: Kattintson a jobb gombbal az átrendezni kívánt címkére, vagy válassza ki a helyi menüt (**...**), majd kattintson többször a **Move up** (Eltolás felfelé) vagy a **Move down** (Eltolás lefelé) lehetőségre, amíg a címke a megfelelő helyre nem kerül. Ezután kattintson a **Save** (Mentés) gombra. 
 
-4. A módosításokat az **Azure Information Protection** panel **Publish** (Közzététel) lehetőségével teheti elérhetővé a felhasználóknak.
+3. A módosításokat az **Azure Information Protection** panel **Publish** (Közzététel) lehetőségével teheti elérhetővé a felhasználóknak.
 
 ## További lépések
 
@@ -58,6 +58,6 @@ További információt az Azure Information Protection-házirend konfigurálás�
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Aug16_HO2-->
 
 

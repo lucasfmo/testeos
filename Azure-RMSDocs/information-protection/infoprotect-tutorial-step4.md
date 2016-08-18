@@ -3,15 +3,15 @@ title: "Azure Information Protection gyors üzembe helyezési útmutató – 4. 
 description: "Egy bevezető oktatóanyag 4. lépése, amellyel gyorsan kipróbálhatja a szervezeténél a Microsoft Azure Information Protection szolgáltatást csupán 4, 15 percnél gyorsabban végrehajtható lépésben."
 author: cabailey
 manager: mbaldwin
-ms.date: 07/29/2016
+ms.date: 08/10/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 468748c1-49d6-4c3e-a612-9c584acdc782
 translationtype: Human Translation
-ms.sourcegitcommit: 93444affe94b280db2c9e4e2960c6902e491dec6
-ms.openlocfilehash: cdd8dee1837c34caaeb0f8a1947dea37504e422a
+ms.sourcegitcommit: d17bacf8e148622db0e2393f40d3fd37c8f086eb
+ms.openlocfilehash: a36433167462275e91059f9eb3a2141ffa2797d5
 
 
 ---
@@ -28,7 +28,7 @@ A besorolás és a védelem a dokumentum mentésekor lép érvénybe, de előtte
 
 ### Az alapértelmezett címke manuális módosítása:
 
-- Az Information Protection menüsávon kattintson az **Internal** (Belső) elem melletti Edit label (Címke szerkesztése) ikonra. Ekkor megjelennek az elérhető címkék. Válassza a **Personal** (Személyes) lehetőséget. Ekkor a rendszer felkéri, hogy adja meg a besorolási szint csökkentésének okát. Válassza **This file no longer requires that classification** (A fájlnak már nincs szüksége erre a besorolásra) lehetőséget, majd kattintson a **Confirm** (Megerősítés) gombra.  
+- Az Information Protection menüsávon válassza a **Personal (Személyes)** címkét. Ekkor a rendszer felkéri, hogy adja meg a besorolási szint csökkentésének okát. Válassza **This file no longer requires that classification** (A fájlnak már nincs szüksége erre a besorolásra) lehetőséget, majd kattintson a **Confirm** (Megerősítés) gombra.  
 
     A **Sensitivity** (Érzékenység) ekkor **Personal** (Személyes) értékre módosul.
 
@@ -36,7 +36,7 @@ A besorolás és a védelem a dokumentum mentésekor lép érvénybe, de előtte
 
 ### A besorolás teljes eltávolítása:
 
-- Az Information Protection menüsávon kattintson a **Personal** (Személyes) elem melletti Edit label (Címke szerkesztése) ikonra. Ekkor megjelennek az elérhető címkék. Ezúttal valamelyik címke helyett válassza a Remove label (Címke eltávolítása) ikont. Az eltávolítás megerősítéséhez kattintson az **OK** gombra, majd adja meg a művelet okát.  
+- Az Information Protection menüsávon kattintson a **Personal** elem mellett található **Edit label** (Címke szerkesztése) ikonra. Ekkor megjelennek az elérhető címkék. Ezúttal valamelyik címke helyett válassza a **Remove label** (Címke eltávolítása) ikont. A művelet megerősítéséhez kattintson az **OK** gombra, majd adja meg a művelet indokát.  
 
     A **Sensitivity** (Érzékenység) ezután **Not set** (Nincs beállítva) értékre módosul. Ez jelenik meg a felhasználók számára, ha nem állít be alapértelmezett címkét.
 
@@ -77,6 +77,6 @@ Amikor elkészült a teszteléssel, javasoljuk, hogy tekintse át [az Azure Info
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Aug16_HO2-->
 
 

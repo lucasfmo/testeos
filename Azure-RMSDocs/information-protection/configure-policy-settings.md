@@ -3,15 +3,15 @@ title: "Az Azure Information Protection globális házirendbeállításainak kon
 description: 
 author: cabailey
 manager: mbaldwin
-ms.date: 07/29/2016
+ms.date: 08/08/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 629815c0-457d-4697-a4cc-df0e6cc0c1a6
 translationtype: Human Translation
-ms.sourcegitcommit: 93444affe94b280db2c9e4e2960c6902e491dec6
-ms.openlocfilehash: 3b22cf76f03a4d36281db7e705359402dcbbde0e
+ms.sourcegitcommit: b2263c212a1b869b778767493645f10ad821828f
+ms.openlocfilehash: 508161474bf6fd7406668de3976206947de254de
 
 
 ---
@@ -29,11 +29,11 @@ Az Azure Information Protection-házirend három, minden felhasználóra és esz
 
 A beállítások konfigurálása:
 
-1. Jelentkezzen be az [Azure portálra](https://portal.azure.com).
- 
-2. A menüben kattintson a **Tallózás** gombra, és kezdje el begépelni az **Information** szót a Szűrő mezőbe. Válassza az **Azure Information Protection** lehetőséget.
+1. Ha még nem tette meg, jelentkezzen be az [Azure Portalra](https://portal.azure.com), majd lépjen az **Azure Information Protection** panelre. 
+    
+    A Központ menüben kattintson a **Tallózás** gombra, és kezdje el begépelni az **Information** szót a Szűrő mezőbe. Válassza az **Azure Information Protection** lehetőséget.
 
-3. Az a **Azure Information Protection** panelen konfigurálja az alábbi globális beállításokat:
+2. Az a **Azure Information Protection** panelen konfigurálja az alábbi globális beállításokat:
 
     - **All documents and emails must have a label** (Minden dokumentumnak és e-mailnek rendelkeznie kell egy címkével): Ha a beállítás **be van kapcsolva**, minden mentett dokumentumot és elküldött e-mailt kötelező címkével ellátni. A címkék a felhasználók által manuálisan, a [feltételek](configure-policy-classification.md) által automatikusan, vagy alapértelmezés szerint hozzárendelhetők a dokumentumokhoz (a **Select the default label** (Alapértelmezett címke kiválasztása) beállítással). 
 
@@ -49,9 +49,9 @@ A beállítások konfigurálása:
 
     Ez a beállítás nem alkalmazható az alcímkékre.
 
-4. A módosítások mentéséhez kattintson a **Save** (Mentés) gombra.
+3. A módosítások mentéséhez kattintson a **Save** (Mentés) gombra.
 
-5. A módosításokat a **Publish** lehetőséggel teheti elérhetővé a felhasználók számára.
+4. A módosításokat a **Publish** lehetőséggel teheti elérhetővé a felhasználók számára.
 
 ## További lépések
 
@@ -68,6 +68,6 @@ További információt az Azure Information Protection-házirend konfigurálás�
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Aug16_HO2-->
 
 

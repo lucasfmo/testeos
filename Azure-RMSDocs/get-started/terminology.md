@@ -4,7 +4,7 @@ description:
 keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 07/13/2016
+ms.date: 08/10/2016
 ms.topic: get-started-article
 ms.prod: azure
 ms.service: rights-management
@@ -13,8 +13,8 @@ ms.assetid: 742877bf-26f5-40e3-b1f7-8475e7c3ce11
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0e9551db57cc1295f20368535267ca5a901ae9f2
-ms.openlocfilehash: a95b9679578f6786bd883884cd5c5f84cb6db739
+ms.sourcegitcommit: 75f868c4428e7b434e6a115a3e70508c3ff7f93d
+ms.openlocfilehash: 1a45457548d8cba6424e92bc18ef085d095742f3
 
 
 ---
@@ -32,10 +32,10 @@ Nem biztos egy, a Microsoft [!INCLUDE[aad_rightsmanagement_1](../includes/aad_ri
 |Active Directory tartalomvédelmi szolgáltatások|Gyakori rövidítése az *AD RMS*.<br /><br />Olyan Windows Server-szerepkör, amely titkosítás és házirend segítségével biztosítja a dokumentumok, fájlok és e-mailek adatvédelmét.|
 |AD RMS|Lásd: *Active Directory tartalomvédelmi szolgáltatások*|
 |Azure Information Protection|A jelenleg előzetes verzióban elérhető szolgáltatás besorolással, címkézéssel és védelemmel biztosítja a dokumentumok és e-mailek biztonságát. Az Azure Rights Management titkosítási, identitási és engedélyezési szabályzatok segítségével szolgáltatja a megfelelő védelmet.|
-|Azure Rights Management|Gyakori rövidítése az *Azure RMS*.<br /><br />Olyan Azure-szolgáltatás, amely titkosítás és házirend segítségével biztosítja a dokumentumok, fájlok és e-mailek adatvédelmét.  Más néven: *Azure Rights Management szolgáltatás*. Korábbi nevén:<br /><br />*Windows Azure Active Directory Rights Management:* Gyakori rövidítése a Windows Azure AD Rights Management szolgáltatás.<br /><br />*RMS Online:* Az eredetileg javasolt név, amely esetenként hibaüzenetekben és naplófájlbejegyzésekben jelenik meg.|
+|Azure Rights Management|Gyakori rövidítése az *Azure RMS*.<br /><br />Olyan Azure-szolgáltatás, amely titkosítás és házirend segítségével biztosítja a dokumentumok, fájlok és e-mailek adatvédelmét.  Más néven: *Azure Rights Management szolgáltatás*. Korábbi nevén:<br /><br />- *Windows Azure Active Directory Rights Management:* Gyakori rövidítése a Windows Azure AD Rights Management szolgáltatás.<br /><br />- *RMS Online:* Az eredetileg javasolt név, amely esetenként hibaüzenetekben és naplófájlbejegyzésekben jelenik meg.|
 |Azure RMS|Lásd: *Azure Rights Management*|
 |BYOK|Lásd: *saját kulcs használata*.|
-|saját kulcs használata|Gyakori rövidítése a *BYOK*.<br /><br />Olyan szervezetek által választott konfigurációs beállítás, amelyek saját kezűleg szeretnék létrehozni és felügyelni az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] szolgáltatáshoz tartozó bérlőkulcsukat.|
+|saját kulcs használata|Gyakori rövidítése a *BYOK*.<br /><br />Olyan szervezetek által választott konfigurációs és topológiabeállítás, amelyek saját kezűleg szeretnék létrehozni és felügyelni az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] szolgáltatáshoz tartozó bérlőkulcsukat.|
 |tartalomkulcs|Az RMS-kompatibilis alkalmazások által létrehozott egyedi kulcs, ami a [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] használatával védett egyes dokumentumokhoz vagy e-mailekhez tartozik, és hozzájárul az információfelfedés kockázatának csökkentéséhez.|
 |felhasználás|Egy fájl zárolásának feloldása olvasásra vagy használatra, ha a fájl [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)]-védelemmel van ellátva.|
 |inaktiválás|A tartalomvédelmi szolgáltatás letiltása, hogy a szervezet többé ne használhassa az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] szolgáltatást.|
@@ -44,6 +44,8 @@ Nem biztos egy, a Microsoft [!INCLUDE[aad_rightsmanagement_1](../includes/aad_ri
 |vállalati szintű tartalomvédelem|Iparági szabványnak megfelelő, általános kifejezés, amelyet olyan termékekre és megoldásokra használnak, amelyek a szervezetek számára lehetővé teszik a bizalmas vagy értékes információk titkosítási és házirend-alapú engedélyezési eszközök együttes alkalmazásával történő védelmét. A Microsoft Rights Management például egy vállalati szintű tartalomvédelmi (ERM) megoldás.|
 |ERM|Lásd: *vállalati szintű tartalomvédelem*.|
 |általános védelem|A védelem olyan szintje, amely bármilyen fájltípust titkosít, és meggátolja a jogosulatlan személyeket a fájl megnyitásában. A fájl a megnyitás után titkosítatlan, és használható a [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] szolgáltatást natív módon támogató alkalmazásban.|
+|HYOK|Lásd: *saját tulajdonú kulcs*.|
+|saját tulajdonú kulcs|Gyakori rövidítése a *HYOK* (hold your own key).<br /><br />Olyan szervezetek által választott konfigurációs és topológiabeállítás, amelyek saját kezűleg szeretnék létrehozni és a helyszínen tárolni a kulcsot, általában szabályozási vagy megfelelőségi előírások miatt.|
 |adatvédelem|Időnként előforduló rövidítése az *IP*.<br /><br />Iparági szabványnak megfelelő, általános kifejezés, amely az adatok és fájlok jogosulatlan hozzáférés elleni védelmére vonatkozik, ami azután is érvényes, hogy e-mail vagy megosztás útján az adatok és fájlok a szervezet határain kívülre kerülnek. A Microsoft Rights Management például egy adatvédelmi (IP) megoldás.|
 |Tartalomvédelmi szolgáltatás|Gyakori rövidítése az *IRM*.<br /><br />Office-szolgáltatásokkal (pl. Exchange-kiszolgáló, Word és SharePoint Online) kapcsolatban használt kifejezés, amely a tartalomvédelem támogatásának képességére utal.|
 |IRM|Lásd: *tartalomvédelmi szolgáltatás*.|
@@ -72,6 +74,6 @@ Nem biztos egy, a Microsoft [!INCLUDE[aad_rightsmanagement_1](../includes/aad_ri
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO2-->
 
 

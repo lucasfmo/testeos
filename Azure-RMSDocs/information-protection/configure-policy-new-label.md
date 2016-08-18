@@ -3,15 +3,15 @@ title: "Új címke létrehozása az Azure Information Protection szolgáltatásh
 description: 
 author: cabailey
 manager: mbaldwin
-ms.date: 07/29/2016
+ms.date: 08/10/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 1b45faa5-0c9c-40d6-910a-f117e7b6e8a3
 translationtype: Human Translation
-ms.sourcegitcommit: 93444affe94b280db2c9e4e2960c6902e491dec6
-ms.openlocfilehash: 26f22fb616f66332abf87501f782f1f8e8f0c013
+ms.sourcegitcommit: b2263c212a1b869b778767493645f10ad821828f
+ms.openlocfilehash: c2f8f3204e3d5947137e7e9111ba4eba2628293b
 
 
 ---
@@ -28,22 +28,22 @@ Ha nagyobb szintű besorolást szeretne, új címkét vagy új alcímkét is hoz
 
 Új címke az Azure Information Protection-házirendhez való hozzáadásához kövesse az alábbi utasításokat.
 
-1. Jelentkezzen be az [Azure portálra](https://portal.azure.com).
- 
-2. A menüben kattintson a **Tallózás** gombra, és kezdje el begépelni az **Information** szót a Szűrő mezőbe. Válassza az **Azure Information Protection** lehetőséget.
+1. Ha még nem tette meg, jelentkezzen be az [Azure Portalra](https://portal.azure.com), majd lépjen az **Azure Information Protection** panelre. 
+    
+    A Központ menüben kattintson a **Tallózás** gombra, és kezdje el begépelni az **Information** szót a Szűrő mezőbe. Válassza az **Azure Information Protection** lehetőséget.
 
-3. Az **Azure Information Protection** panelen tegye a következők valamelyikét:
+2. Az **Azure Information Protection** panelen tegye a következők valamelyikét:
 
     - Új címke létrehozásához kattintson az **Add a new label** (Új címke hozzáadása) lehetőségre.
 
     - Új alcímke létrehozásához kattintson a jobb gombbal az alcímkével ellátni kívánt címkére, vagy válassza ki a helyi menüt (**...**), majd kattintson az **Add a sub-label** (Alcímke hozzáadása) lehetőségre.
 
-4. A **Label** (Címke) vagy a **Sub-label** (Alcímke) panelen adja meg a kívánt beállításokat, majd kattintson a **Save** (Mentés) gombra.
+3. A **Label** (Címke) vagy a **Sub-label** (Alcímke) panelen adja meg a kívánt beállításokat, majd kattintson a **Save** (Mentés) gombra.
 
     > [!NOTE]
     >További információ a védelem beállításáról: [How to configure a label to apply protection](configure-policy-protection.md) (Címkék konfigurálása a védelem aktiválásához).
 
-5. A módosításokat az **Azure Information Protection** panelt a **Publish** (Közzététel) lehetőségével teheti elérhetővé a felhasználóknak.
+4. A módosításokat az **Azure Information Protection** panelt a **Publish** (Közzététel) lehetőségével teheti elérhetővé a felhasználóknak.
 
 ## További lépések
 
@@ -53,6 +53,6 @@ További információt az Azure Information Protection-házirend konfigurálás�
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Aug16_HO2-->
 
 

@@ -4,7 +4,7 @@ description:
 keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 07/21/2016
+ms.date: 08/05/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -13,8 +13,8 @@ ms.assetid: d9992e30-f3d1-48d5-aedc-4e721f7d7c25
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0ac4264f20208f999c9ad9bdd2c4759e65ae021b
-ms.openlocfilehash: 5344c38a31aa0ceb894f330f363442bd2c0d9375
+ms.sourcegitcommit: f7cf74355aa39928fd66a4be13a9b65428da7480
+ms.openlocfilehash: 08226cd930f90bc7c9cda4c65315ee6472fbcf52
 
 
 ---
@@ -351,6 +351,33 @@ Az alábbi URL-címek a dokumentumkövetés során használatosak, és engedély
 
 -   https://&#42;.microsoftonline-p.com
 
+### Dokumentumok nyomon követése és visszavonása a felhasználók számára
+
+Amikor a felhasználók bejelentkeznek a dokumentumkövetési webhelyre, nyomon követhetik és visszavonhatják azokat a dokumentumokat, amelyeket az RMS-megosztó alkalmazás segítségével megosztottak. Ha Azure RMS-rendszergazdaként (globális rendszergazdaként) jelentkezik be, és az oldal jobb felső sarkában található Rendszergazda ikonra kattint, felügyeleti üzemmódra vált, így megtekintheti a szervezete felhasználói által megosztott dokumentumokat.
+
+A felügyeleti üzemmódban végrehajtott műveleteket a rendszer ellenőrzi, és a használati naplófájlokban naplózza. A folytatáshoz ezt el kell fogadnia. További információt a naplózásról a következő szakaszban talál.
+
+Felügyeleti üzemmódban felhasználók vagy dokumentumok szerint is kereshet. Ha felhasználó alapján keres, megtekintheti az adott felhasználó által megosztott valamennyi dokumentumot. Ha dokumentum alapján keres, akkor a szervezete azon felhasználói jelennek meg, akik az adott dokumentumot megosztották. Ezután a keresési találatok részletes vizsgálatával nyomon követheti, és szükség esetén visszavonhatja a felhasználók által megosztott dokumentumokat. 
+
+A rendszergazda-üzemmódból való kilépéshez kattintson a **Kilépés a rendszergazdai módból** felirat melletti **X**-re.
+
+A dokumentumkövetési hely használatáról a felhasználói útmutató [Dokumentumok nyomon követése és visszavonása](sharing-app-track-revoke.md) című részében tájékozódhat.
+
+
+
+### A dokumentumkövetési hely használatának naplózása
+
+A használati naplófájlokban két mező vonatkozik a dokumentumkövetésre: **AdminAction** és **ActingAsUser**.
+
+**AdminAction** - Ez a mező az igaz értéket veszi fel, ha egy rendszergazda rendszergazda-üzemmódban használja a dokumentumkövetési helyet, például azért, hogy egy felhasználó nevében visszavonjon egy dokumentumot, vagy hogy megállapítsa a dokumentum megosztásának időpontját. Ha felhasználó jelentkezik be a dokumentumkövetési webhelyre, ez a mező üres.
+
+**ActingAsUser** - Ha az AdminAction mező értéke igaz, akkor ez a mező annak a felhasználónak a felhasználónevét tartalmazza, akinek mint a keresett felhasználónak vagy dokumentumtulajdonosnak a nevében a rendszergazda eljár. Ha felhasználó jelentkezik be a dokumentumkövetési webhelyre, ez a mező üres. 
+
+Léteznek olyan kéréstípusok is, amelyek azt naplózzák, hogy a felhasználók és a rendszergazdák hogyan használják a dokumentumkövetési helyet. A **RevokeAccess** kéréstípus például arra vonatkozik, hogy egy felhasználó vagy felhasználó nevében eljáró rendszergazda visszavont egy dokumentumot a dokumentumkövetési webhelyen. Az AdminAction mezővel együttesen használva ezzel a kéréstípussal határozható meg, hogy a felhasználó vonta-e vissza saját dokumentumát (ebben az esetben az AdminAction mező üres) vagy a dokumentumot egy rendszergazda vonta vissza egy felhasználó nevében (ebben az esetben az AdminAction mező értéke igaz).
+
+
+További információ a használati naplózásról: [Az Azure Rights Management használatának naplózása és elemzése](../deploy-use/log-analyze-usage.md).
+
 ## Csak AD RMS esetén: Több e-mail tartomány támogatása a szervezeten belül
 Ha vállalata AD RMS alkalmazást használ, és a felhasználók több e-mail tartományban vannak, például egy összeolvadást vagy felvásárlást követően, végezze el a beállításjegyzékben a következő módosítást:
 
@@ -369,6 +396,6 @@ A védelmi szintek (natív és általános) közötti különbségeket, a támog
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

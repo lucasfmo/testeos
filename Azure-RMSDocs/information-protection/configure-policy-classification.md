@@ -3,15 +3,15 @@ title: "Az Azure Information Protection automatikus és javasolt besorolási fel
 description: 
 author: cabailey
 manager: mbaldwin
-ms.date: 07/29/2016
+ms.date: 08/10/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: e915f959-eafb-4375-8d2c-2f312edf2d29
 translationtype: Human Translation
-ms.sourcegitcommit: 93444affe94b280db2c9e4e2960c6902e491dec6
-ms.openlocfilehash: 9da6bf3687242793002976c3514bda068effd8d7
+ms.sourcegitcommit: b2263c212a1b869b778767493645f10ad821828f
+ms.openlocfilehash: 80c201dcf316a5aa5e123645d47c6741f8b61f05
 
 
 ---
@@ -49,15 +49,15 @@ Ebben a példában a felhasználó a **Change now** (Módosítás) gombra kattin
 
 ## Címkék javasolt és automatikus besorolásainak konfigurálása
 
-1. Az Azure Information Protection eléréséhez jelentkezzen be az Azure portálra a következő hivatkozásra kattintva: https://portal.azure.com/?microsoft_azure_informationprotection=true
- 
-2. A menüben kattintson a **Tallózás** gombra, és kezdje el begépelni az **Information** szót a Szűrő mezőbe. Válassza az **Azure Information Protection** lehetőséget.
+1. Ha még nem tette meg, jelentkezzen be az [Azure Portalra](https://portal.azure.com), majd lépjen az **Azure Information Protection** panelre. 
+    
+    A Központ menüben kattintson a **Tallózás** gombra, és kezdje el begépelni az **Information** szót a Szűrő mezőbe. Válassza az **Azure Information Protection** lehetőséget.
 
-3. Az **Azure Information Protection** panelen jelölje ki a javasolt vagy automatikus besorolásra konfigurálni kívánt címkét.
+2. Az **Azure Information Protection** panelen jelölje ki a javasolt vagy automatikus besorolásra konfigurálni kívánt címkét.
 
-4. A **Label** (Címke) panel **Configure conditions for automatically applying this label** (A címke automatikus alkalmazásához kapcsolódó feltételek konfigurálása) részén kattintson az **Add a new condition** (Új feltétel hozzáadása) elemre.
+3. A **Label** (Címke) panel **Configure conditions for automatically applying this label** (A címke automatikus alkalmazásához kapcsolódó feltételek konfigurálása) részén kattintson az **Add a new condition** (Új feltétel hozzáadása) elemre.
 
-5. A **Condition** (Feltétel) panelen válassza a **Built-in** (Beépített) lehetőséget, ha egy előre meghatározott feltételt szeretne alkalmazni, vagy a **Custom** (Egyéni) lehetőséget, ha saját feltételt szeretne megszabni, majd kattintson a **Save** (Mentés) gombra:
+4. A **Condition** (Feltétel) panelen válassza a **Built-in** (Beépített) lehetőséget, ha egy előre meghatározott feltételt szeretne alkalmazni, vagy a **Custom** (Egyéni) lehetőséget, ha saját feltételt szeretne megszabni, majd kattintson a **Save** (Mentés) gombra:
 
     - A **Built-in** (Beépített) lehetőség esetében: Válasszon az elérhető feltételek közül, és adja meg az előfordulások minimális számát, valamint azt, hogy az egyedi értékekkel ellátott előfordulások is beleszámítsanak-e a számolásba.
         
@@ -67,13 +67,13 @@ Ebben a példában a felhasználó a **Change now** (Módosítás) gombra kattin
         
     **Példa az előfordulási beállításokra**: Tegyük fel, hogy Ön a beépített, TAJ szám beállítást választja, az előfordulások minimális számának 2-t ad meg, és az egyik dokumentumban kétszer szerepel ugyanaz a TAJ szám: Ha a **Count occurrences with unique values only** (Csak az egyéni értékkel ellátott előfordulások száma) beállítást **bekapcsolja**, a feltétel nem teljesül; azonban ha ezt a beállítást **kikapcsolja**, a feltétel teljesül.
 
-6. A **Label** (Címke) panelen konfigurálja a következő beállításokat, és kattintson **Save** (Mentés) gombra:
+5. A **Label** (Címke) panelen konfigurálja a következő beállításokat, és kattintson **Save** (Mentés) gombra:
 
     - Az automatikus vagy javasolt besorolás kiválasztása: A **Select how this label is applied: automatically or recommended to user** (Válassza ki a címke alkalmazási módját: automatikus vagy a felhasználónak javasolt) résznél válassza az **Automatic** (Automatikus) vagy a **Recommended** (Javasolt) lehetőséget.
 
     - A felhasználónak megjelenített üzenet vagy házirendtipp szövegének megadása: Tartsa meg az alapértelmezett szöveget, vagy írjon be egy újat.
 
-7. A módosításokat az **Azure Information Protection** panel **Publish** (Közzététel) lehetőségével teheti elérhetővé a felhasználóknak.
+6. A módosításokat az **Azure Information Protection** panel **Publish** (Közzététel) lehetőségével teheti elérhetővé a felhasználóknak.
 
 ## Tájékoztatás a beépített feltételekről
 
@@ -225,6 +225,6 @@ További információt az Azure Information Protection-házirend konfigurálás�
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Aug16_HO2-->
 
 

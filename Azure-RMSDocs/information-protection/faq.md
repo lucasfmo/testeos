@@ -4,7 +4,7 @@ description:
 keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 07/29/2016
+ms.date: 08/10/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -13,8 +13,8 @@ ms.assetid: 4b595b6a-7eb0-4438-b49a-686431f95ddd
 ms.reviewer: adhall
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 93444affe94b280db2c9e4e2960c6902e491dec6
-ms.openlocfilehash: 7d5b58efb4b789ba4f3d897ae3a475cbd2c679e5
+ms.sourcegitcommit: d17bacf8e148622db0e2393f40d3fd37c8f086eb
+ms.openlocfilehash: c61e299cac50069afc119d37fd461cda88a2afd3
 
 
 ---
@@ -39,11 +39,11 @@ Tekintse meg a gyors üzembe helyezési oktatóanyag néhány perces gyakorlati 
 
 Ne feledje, hogy az előzetes kiadásban kipróbálhatja az új **Premium P2 szolgáltatáscsomagot**, és néhány speciális funkció, például az automatikus és az ajánlott címkézés nem feltétlenül érhető el magától értetődően a jelenlegi csomagjában. A különböző szolgáltatáscsomagokkal (Azure Information Protection Premium P1 és Azure Information Protection Premium P2) kapcsolatos információ a következő blogbejegyzésben található: [Introducing Enterprise Mobility + Security](https://blogs.technet.microsoft.com/enterprisemobility/2016/07/07/introducing-enterprise-mobility-security/) (A nagyvállalati mobilitás és adatvédelem bevezetése).
 
-Erre az előzetes kiadásra az alábbi korlátozások vonatkoznak. Kövesse figyelemmel a [nagyvállalati mobilitással és biztonsággal foglalkozó blogot](https://blogs.technet.microsoft.com/enterprisemobility/?product=azure-rights-management-services) és a [Yammer-helyet](https://www.yammer.com/askipteam/#/threads/inGroup?type=in_group&feedId=8652489&view=all), mert itt jelentjük be a további funkciók és képességek elérhetővé válásának időpontját:
+Erre az előzetes kiadásra az alábbi korlátozások vonatkoznak. Kövesse a [nagyvállalati mobilitással és biztonsággal foglalkozó blogot](https://blogs.technet.microsoft.com/enterprisemobility/?product=azure-information-protection) és a [Yammer webhelyét](https://www.yammer.com/askipteam/#/threads/inGroup?type=in_group&feedId=8652489&view=all), mert ezek segítségével jelentjük be a további funkciók és képességek elérhetővé válásának időpontját:
 
 - A besorolás és a címkézés nincs központilag naplózva.
 
-- Csak angol nyelvű címkenevek és elemleírások adhatók meg.
+- A címkenevek és elemleírások csak egy nyelven adhatók meg.
 
 - Az automatikus besorolás feltételei csak kifejezések vagy minták lehetnek.
 
@@ -61,11 +61,11 @@ Az előzetes kiadáshoz bármelyik előfizetést használhatja, amennyiben az ta
 
 Rendelkeznie kell Azure-előfizetéssel ahhoz, hogy konfigurálni tudja az Azure Information Protection-házirendeket az Azure-portálon. Ha a szervezete még nem rendelkezik Azure-előfizetéssel, akkor igényelhet egy ingyenes próbaverziót: Keresse fel az [Ismerkedés az Azure szolgáltatással](https://account.windowsazure.com/organization) oldalt, és kövesse az utasításokat.
 
-Az előfizetés követelményeinek esetleges változásairól szóló bejelentések a [nagyvállalati mobilitással és biztonsággal foglalkozó blogban](https://blogs.technet.microsoft.com/enterprisemobility/?product=azure-rights-management-services) jelennek meg.
+Az előfizetéssel kapcsolatos előírások esetleges változásaival kapcsolatos bejelentések a [nagyvállalati mobilitással és biztonsággal foglalkozó blogban](https://blogs.technet.microsoft.com/enterprisemobility/?product=azure-information-protection) jelennek meg.
 
 ## Szükséges-e globális rendszergazda az Azure Information Protection előzetes kiadásának kipróbálásához?
 
-Az előzetes kiadásban, és csakis abban az Azure által hitelesített bármely felhasználó láthatja és konfigurálhatja a bérlőjének Azure Information Protection-házirendjét az Azure-portálon.
+Kizárólag az előzetes kiadásban az Azure által hitelesített bármely felhasználó láthatja és konfigurálhatja a bérlője Azure Information Protection-házirendjét az Azure portálon. Ahhoz azonban, hogy egy címkét egy Azure Rights Management-sablon alkalmazására konfigurálhasson, globális rendszergazdaként be kell jelentkeznie az Azure Active Directory-ba.
 
 Ha a bemutató házirend telepítését választja az [Azure Information Protection-ügyfél](https://www.microsoft.com/en-us/download/details.aspx?id=53018) telepítésekor, akkor még a portálra sem kell bejelentkeznie az előzetes kiadás kipróbálásához. A bemutató házirend helyileg telepíteni az Azure Information Protection alapértelmezett házirendjét, így kipróbálhatja a dokumentumok és e-mailek címkézését, a címkék módosításához vagy újak hozzáadásához azonban be kell jelentkeznie az Azure-portálon. 
 
@@ -74,7 +74,7 @@ Ha védelemmel szeretné ellátni a besorolt és címkézett dokumentumokat és 
 
 ## Helyi és hibrid környezetekben támogatott az Azure Information Protection?
 
-Az Azure Information Protection egy felhőalapú megoldás. Ha a hibrid környezetek iránt érdeklődik, lépjen kapcsolatba az Information Protection-csapattal az askipteam@microsoft.com e-mail címen.
+Az Azure Information Protection egy felhőalapú megoldás. Ha az Azure Information Protection hibrid megoldásként történő üzembe helyezése iránt érdeklődik, forduljon az Information Protection fejlesztői csapatához az askipteam@microsoft.com e-mail címen.
 
 ## Milyen ügyfélplatformokat és az alkalmazásokat támogat az Azure Information Protection?
 
@@ -85,7 +85,7 @@ Ez már dokumentált, és frissülni fog az [Azure Information Protection követ
 
 Minden alkalommal, amikor a felhasználó megnyit egy Office-alkalmazást, az Azure Information Protection-ügyfél ellenőrzi, hogy elérhető-e az Azure Information Protection-házirend újabb verziója. Ha van újabb verzió, az ügyfél letölti, mégpedig az adatvédelem érdekében HTTPS-kapcsolat használatával. 
 
-Ha egy új Azure Information Protection-házirend megjelenésekor több Office-alkalmazás is meg van nyitva, azokat be kell zárnia az új házirend letöltéséhez. Például ha megnyitott két Word-dokumentumot, de az Azure Information Protection-házirendet csak az egyiken szeretné kipróbálni, zárja be mindkét dokumentumot, majd nyissa meg újra azt, amelyiken alkalmazni szeretné az új házirendet.
+Ha egy új Azure Information Protection-házirend megjelenésekor az Office-alkalmazás több példánya is meg van nyitva, azokat be kell zárnia az új házirend letöltéséhez. Például ha megnyitott két Word-dokumentumot, de az Azure Information Protection-házirendet csak az egyiken szeretné kipróbálni, zárja be mindkét dokumentumot, majd nyissa meg újra azt, amelyiken alkalmazni szeretné az új házirendet.
 
 ## Hol tárolhatók fájlok az Azure Information Protectionben? 
 
@@ -150,7 +150,11 @@ Mivel Azure Information Protection állandó metaadatokat használ a besorolásh
 
 ## Hogyan működik a dokumentumkövetés és a visszavonás az Azure Information Protection esetében?
 
-Az Azure Information Protection használatával besorolt és védett fájlok esetén a dokumentumkövetés ugyanúgy működik, mint jelenleg az Azure Rights Managementnél. További információ: [Dokumentumok nyomon követése és visszavonása az RMS-megosztó alkalmazás használatakor](../rms-client/sharing-app-track-revoke.md).
+Az Azure Information Protection használatával besorolt és védett fájlok esetében a dokumentumkövetés ugyanúgy működik, mint jelenleg az Azure Rights Management és az RMS-megosztó alkalmazás esetében. Az Azure Information Protection-ügyfél 1.0.233-as vagy későbbi verziójával is elérheti a dokumentumkövetési webhelyet: 
+
+- Az Office-alkalmazásokban a **Kezdőlap** **Védelem** csoportjában kattintson a **Védelem** > **Használat követése** lehetőségre. 
+
+További információ: [Dokumentumok nyomon követése és visszavonása az RMS-megosztó alkalmazás használatakor](../rms-client/sharing-app-track-revoke.md).
 
 ## Hogyan kényszeríti ki az Azure Information Protection beállított házirendeket?
 
@@ -184,6 +188,6 @@ Ezután a [Yammer-helyen](https://www.yammer.com/askipteam/#/threads/inGroup?typ
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Aug16_HO2-->
 
 

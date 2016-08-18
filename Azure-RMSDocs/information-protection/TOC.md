@@ -20,11 +20,12 @@
 ### [Címkék törlése és átrendezése](configure-policy-delete-reorder.md)
 ### [Címke módosítása](configure-policy-change-label.md)
 ### [Adatvédelem](configure-policy-protection.md)
+#### [HYOK-korlátozások](configure-adrms-restrictions.md)
 ### [A vizuális megjelölések konfigurálása](configure-policy-markings.md)
 ### [A feltételek konfigurálása](configure-policy-classification.md)
 ## [Az ügyfél telepítése](info-protect-client.md)
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Aug16_HO2-->
 
 

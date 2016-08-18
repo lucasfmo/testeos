@@ -3,15 +3,15 @@ title: "Az alapértelmezett Azure Information Protection-házirend | Azure Right
 description: 
 author: cabailey
 manager: mbaldwin
-ms.date: 07/21/2016
+ms.date: 08/08/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 671281c8-f0d1-42b6-aae3-681d1821e2cf
 translationtype: Human Translation
-ms.sourcegitcommit: 93444affe94b280db2c9e4e2960c6902e491dec6
-ms.openlocfilehash: 977cbf2f45cab75aaca9c2a16dd1564c2af2fe4a
+ms.sourcegitcommit: 0e02a3f78f1c5986d61f73e57265b944e9d03552
+ms.openlocfilehash: 4abce96c4e1215f92211a231a187bd2de4ad3845
 
 
 ---
@@ -26,120 +26,36 @@ Az alábbi információk segítségével megismerkedhet az alapértelmezett Azur
 
 ## Information Protection-menüsáv
 
-Cím: **Bizalmasság**
-
-Elemleírás: **Az adatok bizalmassága négy szintre osztható (Nyilvános, Belső, Bizalmas, Titkos), a felhasználók így felmérhetik az adatok illetéktelen belső vagy külső felhasználók számára történő nyilvánosságra hozásának kockázatait.**
-
+|Beállítás|Érték|
+|-------------------------------|---------------------------|
+|Cím|Érzékenység|
+|Elemleírás|Az adatok a bizalmasság szempontjából négy kategóriába sorolhatók (Nyilvános, Belső, Bizalmas, Titkos); a felhasználók ennek alapján felmérhetik az adatok illetéktelen belső vagy külső felhasználók számára történő átadásának kockázatait.|
 
 ## Címkék
 
-Öt alapértelmezett címke közül választhat, amelyek az alábbi beállításokkal rendelkeznek:
-
-### **Személyes eszközök**
-
-Elemleírás: **Csak személyes használatra. Ezeket az adatokat nem figyeli a szervezete. A személyes adatok között nem tárolhatók üzleti adatok.**
-
-Szín: világoszöld
-
-Vizuális megjelölés: nincs
-
-Feltétel: nincs
-
-Védelem: nincs
-
-----
-
-
-### **Nyilvános**
-
-Elemleírás: **Belső adatok, amelyek a cégen belüli és kívüli felhasználók által is használhatók.**
-
-Szín: zöld
-
-Vizuális megjelölés: nincs
-
-Feltétel: nincs
-
-Védelem: nincs
-
-----
-
-### **Belső**
-
-Elemleírás: ** Belső üzleti adatok széles skálája, amely minden alkalmazott, valamint jogosult ügyfél és üzlettárs által használható. Belső adat például a vállalati szabályzatok és a belső kommunikáció nagy része.**
-
-Szín: kék
-
-Vizuális megjelölés: élőláb (dokumentumokban és e-mailekben)
-
-Feltétel: nincs
-
-Védelem: nincs
-
-----
-
-### **Bizalmas**
-
-Elemleírás: **Bizalmas üzleti adatok. Az ilyen adatok illetéktelen felhasználókkal való megosztása kárt okozhat a szervezetnek. Bizalmas adatok többek között az alkalmazottakkal kapcsolatos információk, az egyéni ügyfélprojektek vagy -szerződések, valamint az értékesítési fiók adatai.**
-
-Szín: narancssárga
-
-Vizuális megjelölés: élőláb (dokumentumokban és e-mailekben)
-
-Feltétel: nincs
-
-Védelem: nincs
-
-----
-
-### **Titkos**
-
-Elemleírás: **Szigorúan bizalmas üzleti adatok, amelyeket védelem alá kell helyezni. Az ilyen adatok illetéktelen felhasználókkal való megosztása komoly kárt okozhat a szervezetnek. Titkos adatok, például a személyes azonosító adatok, az ügyfélrekordok, a forráskódok és az előre bejelentett pénzügyi jelentések.**
-
-Szín: piros
-
-Vizuális megjelölés: élőláb (dokumentumokban és e-mailekben)
-
-Feltétel: nincs
-
-Védelem: nincs
-
-----
-
+|Címke|Elemleírás|Beállítások|
+|-------------------------------|---------------------------|-----------------|
+|Személyes eszközök|Csak személyes használatra. Ezeket az adatokat nem figyeli a szervezete. A személyes adatok között nem tárolhatók üzleti adatok.|**Engedélyezve**: Igen <br /><br />**Szín**: Világoszöld<br /><br />**Vizuális megjelölés**: Nincs <br /><br />**Feltétel**: Nincs<br /><br />**Védelem**: Nincs|
+|Nyilvános|Belső információ, amely bárki által felhasználható a cégen belül vagy kívül.|**Engedélyezve**: Igen <br /><br />**Szín**: Zöld<br /><br />**Vizuális megjelölés**: Nincs<br /><br />**Feltétel**: Nincs<br /><br />**Védelem**: Nincs|
+|Belső|Belső üzleti adatok tág köre, amelyet minden alkalmazott használhat, és amely megosztható a jogosult ügyfelekkel és üzleti partnerekkel. Belső adatnak minősülnek például a vállalati szabályzatok és a belső kommunikáció nagy része.|**Engedélyezve**: Igen <br /><br />**Szín**: Kék <br /><br />**Vizuális megjelölés**: élőláb (dokumentumokban és e-mailekben)<br /><br />**Feltétel**: Nincs<br /><br />**Védelem**: Nincs|
+|Bizalmas|Ezek az adatok bizalmas üzleti információkat tartalmaznak. Az ilyen adatok illetéktelen felhasználókkal való megosztása kárt okozhat a szervezetnek. Bizalmas adatok többek között az alkalmazottakkal kapcsolatos információk, az egyedi ügyfélprojektek vagy -szerződések, valamint az értékesítési adatok.|**Engedélyezve**: Igen <br /><br />**Szín**: narancssárga<br /><br />**Vizuális megjelölés**: élőláb (dokumentumokban és e-mailekben)<br /><br />**Feltétel**: Nincs<br /><br />**Védelem**: Nincs|
+|Titkos|Szigorúan bizalmas üzleti adatok, amelyek védelmet igényelnek. Az ilyen adatok illetéktelen felhasználókkal való megosztása komoly kárt okozhat a szervezetnek. Titkosak például a személyes azonosító adatok, az ügyfélrekordok, a forráskódok és a még nem nyilvánosságra hozott pénzügyi jelentések.|**Engedélyezve**: Igen <br /><br />**Szín**: piros<br /><br />**Vizuális megjelölés**: élőláb (dokumentumokban és e-mailekben)<br /><br />**Feltétel**: Nincs<br /><br />**Védelem**: Nincs|
 
 ## Alcímkék
 
-Két alapértelmezett alcímke közül választhat, amelyek az alábbi beállításokkal rendelkeznek:
-
-### Titkos > **A teljes cég**
-
-Elemleírás: **Bizalmas üzleti adatok, amelyekhez minden céges alkalmazott hozzáférhet.**
-
-Vizuális megjelölés: nincs
-
-Feltétel: nincs
-
-Védelem: nincs
-
-----
-
-### Titkos > **Saját csoport**
-
-Elemleírás: **Bizalmas üzleti adatok, amelyekhez csak az alkalmazotti csoportok férhetnek hozzá.**
-
-Vizuális megjelölés: nincs
-
-Feltétel: nincs
-
-Védelem: nincs
+|Címke|Elemleírás|Beállítások|
+|-------------------------------|---------------------------|-----------------|
+|*Titkos* > A teljes cég|Bizalmas üzleti adatok, amelyekhez minden céges alkalmazott hozzáférhet.|**Engedélyezve**: Igen <br /><br />**Vizuális megjelölés**: Nincs<br /><br />**Feltétel**: Nincs<br /><br />**Védelem**: Nincs|
+|*Secret* > Saját csoport|Bizalmas üzleti adatok, amelyekhez csak az alkalmazotti csoportok férhetnek hozzá.|**Engedélyezve**: Igen <br /><br />**Vizuális megjelölés**: Nincs<br /><br />**Feltétel**: Nincs<br /><br />**Védelem**: Nincs|
 
 ## Globális beállítások
 
-**All documents and emails must have a label (applied automatically or by users)** (Minden dokumentumnak és e-mailnek rendelkeznie kell (automatikusan vagy a felhasználók által megadott) címkével): Kikapcsolva
+|Beállítás|Érték|
+|-------------------------------|---------------------------|
+|Minden dokumentumnak és e-mailnek rendelkeznie kell (automatikusan vagy a felhasználók által megadott) címkével|Ki|
+|Alapértelmezett címke kiválasztása|Nincsenek|
+|A felhasználóknak meg kell indokolniuk a bizalmassági szint csökkentését (például Bizalmasról Nyilvánosra)|Ki|
 
-**Select the default label** (Alapértelmezett címke kiválasztása): Nincs
-
-**Users must provide justification when lowering the sensitivity level** (A felhasználóknak meg kell indokolniuk a bizalmassági szint csökkentését): Kikapcsolva
 
 ## További lépések
 
@@ -147,6 +63,6 @@ További információt az Azure Information Protection-házirend konfigurálás�
 
 
 
-<!--HONumber=Jul16_HO5-->
+<!--HONumber=Aug16_HO2-->
 
 
