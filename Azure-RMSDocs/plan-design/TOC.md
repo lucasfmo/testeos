@@ -12,9 +12,6 @@
 ### [Áttelepítés utáni feladatok](migrate-from-ad-rms-phase4.md)
 ## [Planning and implementing your tenant key (A bérlőkulcs tervezése és megvalósítása)](plan-implement-tenant-key.md)
 ### [A BYOK díjszabása és korlátozásai](byok-price-restrictions.md)
-### [Információk Thales HSM-ekről](thales-hsm.md)
-### [Az interneten keresztül](generate-tenant-key-internet.md)
-### [Személyesen](generate-tenant-key-in-person.md)
 ## [Előkészítés az Azure RMS-hez](prepare.md)
 # [A szolgáltatás telepítése és használata](/rights-management/deploy-use/activate-service)
 # [Az ügyfélprogram telepítése és használata](/rights-management/rms-client/use-client)
@@ -22,6 +19,6 @@
 # [Azure Information Protection (előzetes verzió)](/rights-management/information-protection/what-is-information-protection)
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO3-->
 
 
