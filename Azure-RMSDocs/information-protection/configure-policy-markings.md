@@ -3,15 +3,15 @@ title: "A címkék vizuális megjelöléseinek konfigurálása az Azure Informat
 description: 
 author: cabailey
 manager: mbaldwin
-ms.date: 08/10/2016
+ms.date: 08/17/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: df2676eeb062-f25a-4cf8-a782-e59664427d54
 translationtype: Human Translation
-ms.sourcegitcommit: b2263c212a1b869b778767493645f10ad821828f
-ms.openlocfilehash: 78b68c7a502776c6492437e9b8a5c3f1ebf27f95
+ms.sourcegitcommit: b5e7fecca7aeb61221dc1f61aa3e202936b8c042
+ms.openlocfilehash: 2b4f464fa51e0743cb1ce0726c7feb31146b5128
 
 
 ---
@@ -60,17 +60,19 @@ A címkék vizuális jeleinek konfigurálásához kövesse az alábbi utasítás
 
 Az élőfej, élőláb vagy vízjel létrehozását szolgáló karakterláncban a következő változókat használhatja:
 
-- `${Item.Label}` a kiválasztott címkéhez
+- `${Item.Label}` a kiválasztott címkéhez. Például: Belső
 
-- `${Item.Name}` a fájlnévhez vagy az e-mail tárgyához
+- `${Item.Name}` a fájlnévhez vagy az e-mail tárgyához. Például: ErtekesitesJulius.docx
 
-- `${Item.Location}` a fájl elérési útvonalához
+- `${Item.Location}` a dokumentumok elérési útjához vagy nevéhez, illetve az e-mailek tárgyához. Például: \\\Ertekesites\2016\Q3\JuliusiJelentes.docx
 
-- `${User.Name}` a dokumentum vagy e-mail tulajdonosához
+- `${User.Name}` a dokumentum vagy e-mail tulajdonosához, a Windowsba történő bejelentkezéshez használt felhasználónév alapján. Például: rsimon
 
-- `${Event.DateTime}` a kiválasztott címke beállításának dátumához és időpontjához 
+- `${User.PrincipalName}` a dokumentum vagy e-mail tulajdonosához, az Azure Information Protection-ügyfélbe történő bejelentkezéshez használt e-mail-cím (UPN) alapján. Például: rsimone@vanarsdelltd.com
+
+- `${Event.DateTime}` a kiválasztott címke beállításának dátumához és időpontjához. Például: 2016.08.16., 13:30
     
-Példa: ha a `Document: ${item.name} Sensitivity: ${item.label}` karakterláncot adja meg titkos címke élőlábként, akkor a project.docx nevű dokumentum élőlába a következő lesz: **Dokumentum: project.docx Sensitivity: Secret**.
+Példa: ha a `Document: ${item.name}  Classification: ${item.label}` karakterláncot adja meg titkos címke élőlábként, akkor a project.docx nevű dokumentum élőlába a következő lesz: **Dokumentum: project.docx Classification: Secret**.
 
 ## További lépések
 
@@ -80,6 +82,6 @@ További információt az Azure Information Protection-házirend konfigurálás�
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Aug16_HO3-->
 
 

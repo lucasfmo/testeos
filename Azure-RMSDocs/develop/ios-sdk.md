@@ -14,15 +14,15 @@ audience: developer
 ms.reviewer: shubhamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 79397c82d9478cbd55630a376fe2d12f3873ebc4
-ms.openlocfilehash: ae1af4a1cddc904fd4800f1a3900e3c7c4d073ed
+ms.sourcegitcommit: a0659fda129f6de5e7b52c89f4d1f9d73d11df45
+ms.openlocfilehash: bdc173fb9cb9b749d75b08df3cc9554acd6f6386
 
 
 ---
 
 # iOS- és OS X-beállítás
 
-Az iOS- és OS X-alkalmazások a Microsoft Rights Management SDK 4.2-t használva képesek integrált adatvédelmet alkalmazni az alkalmazásokban az Azure Active Directory Rights Management (AAD RM) segítségével.
+Az iOS- és OS X-alkalmazások a Microsoft Rights Management SDK 4.2-t használva képesek integrált adatvédelmet alkalmazni az alkalmazásokban az Azure Rights Management (Azure RMS) segítségével.
 
 Ez a témakör végigvezeti egy környezet felépítésének lépésein a saját új alkalmazásai létrehozásához.
 
@@ -119,6 +119,6 @@ A felhasználói felületi kódtár újrahasznosítható felhasználói felület
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO3-->
 
 

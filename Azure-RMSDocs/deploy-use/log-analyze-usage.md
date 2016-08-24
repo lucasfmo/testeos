@@ -4,7 +4,7 @@ description:
 keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 08/05/2016
+ms.date: 08/17/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -13,8 +13,8 @@ ms.assetid: a735f3f7-6eb2-4901-9084-8c3cd3a9087e
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2082620eb152aa88af4141b88985adce22769168
-ms.openlocfilehash: fbf614bf7b30165a78f6312267243ad6fdb81435
+ms.sourcegitcommit: 437afd88efebd9719a3db98f8ab0ae07403053f7
+ms.openlocfilehash: 28fed61b674112d2ebeb30a15a6f6217647e0b5f
 
 
 ---
@@ -179,13 +179,13 @@ Az Azure Rights Management esetében számos kéréstípus létezik; az alábbi 
 |BECreateEndUserLicenseV1|Végfelhasználói licenc létrehozását kezdeményezték egy mobileszközről.|
 |BEGetAllTemplatesV1|Az összes sablon beszerzését kezdeményezték (a háttérben) egy mobileszközről.|
 |Certify|Az ügyfél védelmi hitelesítést végez az adott tartalmon.|
-|KMSPDecrypt|Az ügyfél az RMS-védelemmel ellátott tartalom visszafejtésére tesz kísérletet. Csak az ügyfél által felügyelt bérlői kulcsra (BYOK) érvényes.|
 |DeleteTemplateById|Sablon törlését kezdeményezték a klasszikus Azure-portálról egy sablonazonosító alapján.|
 |DocumentEventsCsv|A dokumentumkövetési webhelyről kérés érkezett egyetlen dokumentum .CSV-fájljának letöltésére.|
 |ExportTemplateById|Sablon exportálását kezdeményezték a klasszikus Azure-portálról egy sablonazonosító alapján.|
 |FECreateEndUserLicenseV1|Az AcquireLicense kéréshez hasonló tartalommal bír, de mobileszközökről.|
 |FECreatePublishingLicenseV1|Megfelel a Certify és a GetClientLicensorCert kérések kombinációjának egy mobileszközről küldve.|
 |FEGetAllTemplates|A sablonok beszerzését kezdeményezték (az előtérben) egy mobileszközről.|
+|FindServiceLocationsForUser|URL-címek lekérdezését kezdeményezték a Certify vagy az AcquireLicense kéréshez.|
 |GetAllDocs|A dokumentumkövetési webhelyről kérés érkezett a **Minden dokumentum** lap betöltésére egy felhasználó számára, vagy az összes dokumentumban való keresésre a bérlő számára. Ez az érték a felügyeleti tevékenység és a felügyeleti szerep mezőknél használható:<br /><br />- a felügyeleti tevékenység értéke üres: Egy felhasználó a saját dokumentumaihoz tartozó **Minden dokumentum** lapot tekinti meg.<br /><br />- a felügyeleti tevékenység értéke igaz, a felhasználói szerep értéke üres: Egy rendszergazda megtekinti a bérlő minden dokumentumát.<br /><br />- a felügyeleti tevékenység értéke igaz, a felhasználói szerep értéke nem üres: Egy rendszergazda egy felhasználó **Minden dokumentum** lapját tekinti meg.|
 |GetAllTemplates|Az összes sablon beszerzését kezdeményezték a klasszikus Azure-portálról.|
 |GetClientLicensorCert|Az ügyfél (később tartalomvédelmi céllal felhasználni kívánt) közzétételi tanúsítványt kér le egy Windows-alapú számítógépről.|
@@ -195,8 +195,11 @@ Az Azure Rights Management esetében számos kéréstípus létezik; az alábbi 
 |GetSingle|A dokumentumkövetési webhelyről kérés érkezett **egyetlen dokumentum** oldalának megnyitására.|
 |GetTenantFunctionalState|A klasszikus Azure-portál ellenőrzi, hogy az Azure RMS aktiválva van-e.|
 |GetTemplateById|Egy sablon beszerzését kezdeményezték a klasszikus Azure-portálról egy sablonazonosító megadásával.|
-|ExportTemplateById|Egy sablon exportálását kezdeményezték a klasszikus Azure-portálról egy sablonazonosító megadásával.|
-|FindServiceLocationsForUser|URL-címek lekérdezését kezdeményezték a Certify vagy az AcquireLicense kéréshez.|
+|KeyVaultDecryptRequest|Az ügyfél az RMS-védelemmel ellátott tartalom visszafejtésére tesz kísérletet. Csak az ügyfél által az Azure Key Vaultban felügyelt bérlői kulcsra (BYOK) érvényes.|
+|KeyVaultGetKeyInfoRequest|Ellenőrzi, hogy az Azure Key Vaultban az Azure RMS-bérlőkulcshoz megadott kulcs elérhető-e és nincs-e még használatban.|
+|KeyVaultSignDigest|Ha az ügyfél által az Azure Key Vaultban felügyelt bérlői kulcsot (BYOK) aláírásra használják, a rendszer hívást kezdeményez. Ennek meghívása az AcquireLicence (vagy a FECreateEndUserLicenseV1), a Certify és a GetClientLicensorCert (vagy FECreatePublishingLicenseV1) kérések használatakor jellemzően egyszer történik meg.|
+|KMSPDecrypt|Az ügyfél az RMS-védelemmel ellátott tartalom visszafejtésére tesz kísérletet. Csak az örökölt, ügyfél által felügyelt bérlői kulcsra (BYOK) érvényes.|
+|KMSPSignDigest|Ha az örökölt, ügyfél által felügyelt bérlői kulcsot (BYOK) aláírásra használják, a rendszer hívást kezdeményez. Ennek meghívása az AcquireLicence (vagy a FECreateEndUserLicenseV1), a Certify és a GetClientLicensorCert (vagy FECreatePublishingLicenseV1) kérések használatakor jellemzően egyszer történik meg.|
 |LoadEventsForMap|A dokumentumkövetési webhelyről kérés érkezett egyetlen dokumentum térképnézetének megnyitására.|
 |LoadEventsForSummary|A dokumentumkövetési webhelyről kérés érkezett egyetlen dokumentum idősor nézetének megnyitására.|
 |LoadEventsForTimeline|A dokumentumkövetési webhelyről kérés érkezett egyetlen dokumentum térképnézetének megnyitására.|
@@ -206,10 +209,8 @@ Az Azure Rights Management esetében számos kéréstípus létezik; az alábbi 
 |ServerCertify|A kiszolgáló hitelesítését kezdeményezték egy RMS-kompatibilis ügyfélről (például SharePointról).|
 |SetUsageLogFeatureState|A használatnaplózás engedélyezését kezdeményezték.|
 |SetUsageLogStorageAccount|Az Azure RMS-naplók helyének megadását kezdeményezték.|
-|SignDigest|Az aláíráshoz használt kulcs alkalmazásakor hívást kezdeményeztek. Ennek meghívása az AcquireLicence (vagy a FECreateEndUserLicenseV1), a Certify és a GetClientLicensorCert (vagy FECreatePublishingLicenseV1) kérések használatakor jellemzően egyszer történik meg.|
 |UpdateNotificationSettings|A dokumentumkövetési webhelyről kérés érkezett egy dokumentum értesítési beállításainak módosítására.|
 |UpdateTemplate|Egy meglévő sablon frissítését kezdeményezték a klasszikus Azure-portálról.|
-
 
 
 ## Referencia a Windows PowerShellhez
@@ -240,6 +241,6 @@ További információ az Azure Rights Managementhez készült Windows PowerShell
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Aug16_HO3-->
 
 

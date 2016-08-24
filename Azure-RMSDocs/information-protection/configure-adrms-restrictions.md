@@ -3,15 +3,15 @@ title: "HYOK-korlátozások | Azure Rights Management"
 description: 
 author: cabailey
 manager: mbaldwin
-ms.date: 08/11/2016
+ms.date: 08/18/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 7667b5b0-c2e9-4fcf-970f-05577ba51126
 translationtype: Human Translation
-ms.sourcegitcommit: cfab76a97034b58eec8dfdbdc82cc1037a647d11
-ms.openlocfilehash: 95f64c00c28fb52a0bd7d78a997705f7ed515557
+ms.sourcegitcommit: a80866576dc7d6400bcebc2fc1c37bc0367bcdf3
+ms.openlocfilehash: 1cbf6bd6c209a8aafd1db61422ce03b628aaec07
 
 
 ---
@@ -51,9 +51,13 @@ Ellenőrizze, hogy az AD RMS üzemelő példánya megfelel-e az alábbi követel
 
 - Az Active Directory tartalomvédelmi szolgáltatások konfigurációi:
     
+    - A Windows Server 2012 R2 minimális verziója: Az éles környezetekhez szükséges, azonban tesztelési és értékelési célokra az 1. szervizcsomaggal frissített Windows Server 2008 R2 is használható.
+    
     - Egyetlen Active Directory tartalomvédelmi szolgáltatások-gyökérfürt.
     
-    - [Titkosítási mód 2](https://technet.microsoft.com/library/hh867439.aspx).
+    - [2. titkosítási mód](https://technet.microsoft.com/library/hh867439.aspx): Az AD RMS-fürt titkosítási módjának verzióját és általános állapotát az [RMS Analyzer eszközzel](https://www.microsoft.com/en-us/download/details.aspx?id=46437) ellenőrizheti.   
+    
+    - Az AD RMS-kiszolgálók a csatlakozó ügyfelek által biztonságosnak ítélt, érvényes x.509 tanúsítvánnyal rendelkező SSL/TLS használatára vannak konfigurálva: Ez az éles környezetekben szükséges, teszteléskor és értékeléskor azonban elhagyható.
     
     - Konfigurált tartalomvédelmi sablonok.
 
@@ -66,7 +70,9 @@ Ellenőrizze, hogy az AD RMS üzemelő példánya megfelel-e az alábbi követel
 - Az [Azure Information Protection-ügyfél](info-protect-client.md) **1.0.233.0** vagy későbbi verziója.
 
 > [!IMPORTANT]
-> Az itt elérhető magas szintű megbízhatóság igénybevételéhez azt javasoljuk, az AD RMS-kiszolgálók ne a DMZ zónában legyenek és csak jól felügyelt számítógépek használják (ne például mobileszközöket vagy munkacsoporthoz tartozó számítógépet).
+> Az itt elérhető magas szintű megbízhatóság igénybevételéhez azt javasoljuk, az AD RMS-kiszolgálók ne a DMZ zónában legyenek és csak jól felügyelt számítógépek használják (ne például mobileszközöket vagy munkacsoporthoz tartozó számítógépet). 
+> 
+> Javasoljuk továbbá, hogy az AD RMS-fürt esetében használjon hardveres biztonsági modult (HSM-et), így az AD RMS üzemelő példányába való esetleges behatolás vagy a biztonságának sérülése esetén elkerülhető, hogy a Kiszolgálólicenc-tanúsítvány (SLC) titkos kulcsa nyilvánosságra vagy azt ellopják. 
 
 Az Active Directory tartalomvédelmi szolgáltatások telepítési információi és útmutatója [Active Directory Rights Management Services](https://technet.microsoft.com/library/hh831364.aspx) menüpont alatt található a Windows Server könyvtárában. 
 
@@ -89,6 +95,6 @@ Az AD RMS tartalomvédelem konfigurálásáról lásd: [How to configure a label
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Aug16_HO3-->
 
 

@@ -4,7 +4,7 @@ description:
 keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 06/23/2016
+ms.date: 08/17/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -13,8 +13,8 @@ ms.assetid: e3fd9bd9-3638-444a-a773-e1d5101b1793
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a9dc45fb5146b0a4d2f013bff9d090723ce95ee5
-ms.openlocfilehash: 1016ecdd77e818840f2a2cfab8212e908291bb89
+ms.sourcegitcommit: 437afd88efebd9719a3db98f8ab0ae07403053f7
+ms.openlocfilehash: ca2dae71dceae4c59d12243c386eaded8ebb11f9
 
 
 ---
@@ -28,7 +28,7 @@ Az alábbi, 2. fázisra vonatkozó információk segítséget nyújtanak az AD R
 ## 5. lépés. Ügyfelek újrakonfigurálása az Azure RMS használatára
 Windows rendszerű ügyfelek:
 
-1.  [Töltse le a következő áttelepítési parancsfájlokat](http://go.microsoft.com/fwlink/?LinkId=524619):
+1.  [Töltse le a következő áttelepítési parancsfájlokat](https://go.microsoft.com/fwlink/?LinkId=524619):
 
     -   CleanUpRMS_RUN_Elevated.cmd
 
@@ -132,6 +132,6 @@ Redirect_OnPrem.cmd:
 Az áttelepítés folytatásához ugorjon a [3. fázis: Támogatási szolgáltatások konfigurálása](migrate-from-ad-rms-phase3.md) című szakaszra.
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Aug16_HO3-->
 
 

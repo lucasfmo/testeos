@@ -3,15 +3,15 @@ title: "Címkék konfigurálása a Rights Management-védelem aktiválásához |
 description: 
 author: cabailey
 manager: mbaldwin
-ms.date: 08/10/2016
+ms.date: 08/15/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: df26430b-315a-4012-93b5-8f5f42e049cc
 translationtype: Human Translation
-ms.sourcegitcommit: b2263c212a1b869b778767493645f10ad821828f
-ms.openlocfilehash: 798fb423ff8dab3e9777a33e7b2c483bceb81016
+ms.sourcegitcommit: e11a5a836d6a410ba49ac17cfe95d8530ecb785f
+ms.openlocfilehash: 60738c310a3e7c734bfe3e48e16535ed3be05bb4
 
 
 ---
@@ -63,11 +63,15 @@ További információt az Azure Rights Managementről és annak működéséről
     > [!NOTE] 
     > Ha a **Label** (Címke) panel megnyitása után új sablont hoz létre, zárja be a panelt és térjen vissza a 2. lépéshez, így az újonnan létrehozott sablon is megjelenik a választható lehetőségek között.
     
-5. Ha az AD RMS-t választotta: adja meg a sablon GUID-azonosítóját és az Ön AD RMS-fürtjének licencelési URL-címét.
+    Ha részlegszintű sablont választ vagy [regisztrációs vezérlőket](../deploy-use/activate-service.md#configuring-onboarding-controls-for-a-phased-deployment) konfigurált, a következőket kell figyelembe vennie:
+    
+    - A sablon konfigurált hatókörén kívül lévő vagy az Azure Rights Management-védelemből kizárt felhasználók továbbra is látni fogják a címkét, azonban nem alkalmazhatják azt. Ha mégis rákattintanak a címkére, egy üzenet értesíti őket arról, hogy **az Azure Information Protection nem tudja alkalmazni a címkét, és ha a probléma nem oldódik meg, forduljanak a rendszergazdához.**
+    
+5. Ha az AD RMS-t választotta: adja meg a sablon GUID-azonosítóját és az Ön AD RMS-fürtjének licencelési URL-címét. [További információ](configure-adrms-restrictions.md#locating-the-information-to-specify-ad-rms-protection-with-an-azure-information-protection-label)
 
-5. Kattintson a **Mentés**gombra.
+6. Kattintson a **Mentés**gombra.
 
-6. A módosításokat az **Azure Information Protection** panel **Publish** (Közzététel) lehetőségével teheti elérhetővé a felhasználóknak.
+7. A módosításokat az **Azure Information Protection** panel **Publish** (Közzététel) lehetőségével teheti elérhetővé a felhasználóknak.
 
 ## További lépések
 
@@ -75,6 +79,6 @@ További információt az Azure Information Protection-házirend konfigurálás�
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Aug16_HO3-->
 
 

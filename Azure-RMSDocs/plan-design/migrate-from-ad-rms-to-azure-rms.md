@@ -4,7 +4,7 @@ description:
 keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 07/13/2016
+ms.date: 08/17/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -13,8 +13,8 @@ ms.assetid: 828cf1f7-d0e7-4edf-8525-91896dbe3172
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 67129d6cdac124947fc07aa4d42523686227752e
-ms.openlocfilehash: 8ef46d68594a6e559e050f846a844f566ff8770d
+ms.sourcegitcommit: 437afd88efebd9719a3db98f8ab0ae07403053f7
+ms.openlocfilehash: 65371b9a3b210743fc160dbad38333ccb12671e6
 
 
 ---
@@ -35,30 +35,31 @@ Nem biztos benne, hogy az AD RMS áttelepítés megfelel-e az adott szervezetnek
 Mielőtt megkezdi az áttelepítést az Azure RMS-re, győződjön meg arról, hogy a következő feltételek biztosítottak, és megértette a fennálló korlátozásokat.
 
 
-- **Egy támogatott RMS telepítés**
+- **Az RMS egy támogatott telepítése:**
+    
+    - Az AD RMS alábbi kiadásai támogatják az Azure RMS-be történő áttelepítést:
+    
+        - Windows Server 2008 R2 (x64)
+        
+        - Windows Server 2012 (x64)
+        
+        - Windows Server 2012 R2 (x64)
+        
+    - 2. titkosítási mód:
+    
+        - Az AD RMS-kiszolgálóknak és -ügyfeleknek 2. titkosítási módban kell futniuk az Azure RMS-be történő áttelepítés megkezdéséhez. További információt az [AD RMS Cryptographic Modes](https://technet.microsoft.com/library/hh867439(v=ws.10).aspx) (AZ AD RMS titkosítási módjai) című témakörben talál.
+        
+    - Az összes érvényes AD RMS topológia támogatott:
+    
+        - Egyetlen erdő, egyetlen RMS-fürt
+        
+        - Egyetlen erdő, több csak licencelési RMS-fürt
+        
+        - Több erdő, több RMS-fürt
+        
+    Megjegyzés: Alapértelmezés szerint a több RMS-fürt egyetlen Azure RMS-bérlőhöz települ át. Ha különálló Azure RMS-bérlőket szeretne használni, ezeket külön áttelepítésekként kell kezelnie. Az egyetlen RMS-fürtből származó kulcsok nem importálhatók egynél több Azure RMS-bérlőhöz.
 
-    Az Azure RMS-re való áttelepítést az AD RMS összes kiadása támogatja a Windows Server 2008-től a Windows Server 2012 R2-ig:
-
-    - Windows Server 2008 (x86 vagy x64)
-
-    - Windows Server 2008 R2 (x64)
-
-    - Windows Server 2012 (x64)
-
-    - Windows Server 2012 R2 (x64)
-
-    Az összes érvényes AD RMS topológia támogatott:
-
-    - Egyetlen erdő, egyetlen RMS-fürt
-
-    - Egyetlen erdő, több csak licencelési RMS-fürt
-
-    - Több erdő, több RMS-fürt
-
-    **Megjegyzés**: Alapértelmezés szerint a több RMS-fürt egyetlen Azure RMS-bérlőhöz települ át. Ha más RMS-bérlőket szeretne, ezeket külön áttelepítésekként kell kezelnie. Az egyetlen RMS-fürtből származó kulcsok nem importálhatók egynél több Azure RMS-bérlőhöz.
-
-
-- **Az Azure RMS futtatásához szükséges összes követelmény, köztük az Azure RMS-bérlő (nincs aktiválva)**
+- **Az Azure RMS futtatásához szükséges összes követelmény, köztük az Azure RMS-bérlő (nincs aktiválva):**
 
     Lásd: [Az Azure Rights Management követelményei](../get-started/requirements-azure-rms.md).
 
@@ -82,6 +83,10 @@ Mielőtt megkezdi az áttelepítést az Azure RMS-re, győződjön meg arról, h
 
     Ez az egyetlen időszak, amikor szolgáltatás nem érhető el az áttelepítés során.
 
+- **Ha egy HSM-védelemmel ellátott kulcs használatával szeretné kezelni a saját Azure RMS-bérlőkulcsát**:
+
+    - Ehhez a választható beállításhoz Azure Key Vault-hozzáférésre és egy HSM által védett kulcsokkal rendelkező Key Vaultot támogató Azure-előfizetésre van szükség. További információt az [Azure Key Vault díjszabását ismertető weblapon](https://azure.microsoft.com/en-us/pricing/details/key-vault/) talál. 
+
 
 Korlátozások:
 
@@ -100,7 +105,7 @@ Korlátozások:
 ## Az AD RMS Azure RMS-re való áttelepítésének lépéseinek áttekintése
 
 
-A 9 áttelepítési lépés felosztható 4 fázisra. Ezeket elvégezhetik különböző rendszergazdák, különböző időpontokban.
+Az áttelepítési lépések 4 fázisra oszthatók. Ezeket különböző rendszergazdák is elvégezhetik, különböző időpontokban.
 
 [**1. FÁZIS: AZ AD RMS KISZOLGÁLÓOLDALI KONFIGURÁCIÓJA**](migrate-from-ad-rms-phase1.md)
 
@@ -118,11 +123,11 @@ A 9 áttelepítési lépés felosztható 4 fázisra. Ezeket elvégezhetik külö
 
     - **HSM által védett kulcs áttelepítése HSM által védett kulccsá**:
 
-        Az AD RMS-hez HSM által tárolt kulcsokból ügyfél által felügyelt Azure RMS-bérlői kulccsá (a „saját kulcs használata” vagy BYOK forgatókönyv). Ez további lépéseket igényel, hogy a helyszíni Thales HSM-ből áttelepítse a kulcsot az Azure RMS HSM-be. A meglévő HSM által védett kulcsot modul által védetté kell tenni; az OCS által védett kulcsok nem támogatottak a BYOK eszközkészletben.
+        Az AD RMS-hez HSM által tárolt kulcsokból ügyfél által felügyelt Azure RMS-bérlői kulccsá (a „saját kulcs használata” vagy BYOK forgatókönyv). Ez további lépéseket igényel, hogy a helyszíni Thales HSM-ből áttelepítse a kulcsot az Azure Key Vaultba és engedélyezhesse a kulcs használatát az Azure RMS számára. A meglévő HSM által védett kulcsot modul által védetté kell tenni; az OCS által védett kulcsok nem támogatottak a Rights Management Services szolgáltatásban.
 
     - **Szoftveres védelemmel ellátott kulcs áttelepítése HSM által védett kulccsá**:
 
-        Központilag felügyelt, jelszóalapú kulcsokból ügyfél által felügyelt Azure RMS bérlői kulccsá (a „saját kulcs használata” vagy BYOK forgatókönyv). Ez igényli a legtöbb konfigurációt, mert ekkor először ki kell nyerni a szoftverkulcsot és importálni egy helyszíni HSM-be, majd el kell végezni a további lépéseket a kulcs áttelepítéséhez a helyszíni Thales HSM-ből az Azure RMS HSM-be.
+        Központilag felügyelt, jelszóalapú kulcsokból ügyfél által felügyelt Azure RMS bérlői kulccsá (a „saját kulcs használata” vagy BYOK forgatókönyv). Ez igényli a legtöbb konfigurációt, mert ekkor először ki kell nyerni a szoftverkulcsot és importálni kell egy helyszíni HSM-be, majd el kell végezni a további lépéseket a kulcs a helyszíni Thales HSM-ből az Azure Key Vault HSM-be való átviteléhez, valamint a kulcsot tartalmazó kulcstartó használatának engedélyezéséhez az Azure RMS számára.
 
 - **3. lépés. Az Azure RMS-bérlő aktiválása**
 
@@ -171,7 +176,7 @@ A 9 áttelepítési lépés felosztható 4 fázisra. Ezeket elvégezhetik külö
 
 - **9. lépés: Kulcsismétlés végrehajtása az Azure RMS-bérlőkulcs esetében**
 
-    Ez a lépés akkor szükséges, ha nem a 2. titkosítási módban futtatta a programot az áttelepítés előtt, valamint opcionális de ajánlott az összes áttelepítéshez az Azure RMS-bérlőkulcs biztonsága érdekében.
+    Ez a lépés nem kötelező, de ajánlott abban az esetben, ha a 2. lépés során a Microsoft által felügyelt Azure RMS bérlőkulcs-topológiát választotta. A lépés nem alkalmazható, ha az ügyfél által felügyelt (BYOK) Azure RMS bérlőkulcs-topológiát választotta.
 
 
 ## További lépések
@@ -180,6 +185,6 @@ Az áttelepítés megkezdéséhez lépjen az [1. fázis – kiszolgálóoldali k
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO3-->
 
 

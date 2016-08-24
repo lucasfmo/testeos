@@ -4,7 +4,7 @@ description:
 keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/17/2016
 ms.topic: article
 ms.prod: azure
 ms.service: rights-management
@@ -13,8 +13,8 @@ ms.assetid: 1284d0ee-0a72-45ba-a64c-3dcb25846c3d
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
-ms.openlocfilehash: 44408fd8f9da73d8050e0938aa1cc9bc76688bed
+ms.sourcegitcommit: 437afd88efebd9719a3db98f8ab0ae07403053f7
+ms.openlocfilehash: 19cae6be4de2eec65414596976062736af4b63b2
 
 
 ---
@@ -25,13 +25,13 @@ ms.openlocfilehash: 44408fd8f9da73d8050e0938aa1cc9bc76688bed
 
 A Microsoft Azure Rights Management (Azure RMS) bérlőkulcs megvalósítása után az irányítás és a felelősség szintje a bérlőkulcs topológiájától függően (Microsoft által felügyelt vagy felhasználó által felügyelt) eltérő lehet.
 
-Ha saját maga felügyeli a bérlőkulcsát, azt a saját kulcs használatának (BYOK) nevezik. További információk erről a forgatókönyvről és arról, hogy melyik bérlőkulcs-topológiát válassza: [Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása](../plan-design/plan-implement-tenant-key.md).
+Ha saját maga felügyeli a bérlőkulcsát az Azure Key Vaultban, azt általában a saját kulcs használatának (BYOK) nevezik. További információk erről a forgatókönyvről és arról, hogy melyik bérlőkulcs-topológiát válassza: [Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása](../plan-design/plan-implement-tenant-key.md).
 
 Az alábbi táblázat tartalmazza azokat a műveleteket, amelyeket végrehajthat, attól függően, hogy melyik topológiát választotta az Azure RMS-bérlőkulcshoz.
 
 |Életciklushoz kapcsolódó művelet|Microsoft által felügyelt (alapértelmezett)|Felhasználó által felügyelt (BYOK)|
 |-----------------------|-------------------------------|---------------------------|
-|A bérlőkulcs visszavonása|Nem (automatikus)|Nem (automatikus)|
+|A bérlőkulcs visszavonása|Nem (automatikus)|Igen|
 |A bérlőkulcs kulcsismétlése|Igen|Igen|
 |A bérlőkulcs biztonsági mentése és helyreállítása|Nem|Igen|
 |A bérlőkulcs exportálása|Igen|Nem|
@@ -49,6 +49,6 @@ Miután azonosította, hogy melyik topológiát valósította meg, válasszon eg
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO3-->
 
 
