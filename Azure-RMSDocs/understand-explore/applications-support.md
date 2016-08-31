@@ -1,27 +1,26 @@
 ---
 title: "Hogyan támogatják a különböző alkalmazások az Azure Rights Managementet? | Azure RMS"
-description: 
-keywords: 
+description: "Az alábbi információk segítségével megismerheti, hogyan biztosíthatnak védelmet a szervezet adatai számára a leggyakoribb végfelhasználói alkalmazások (például az Office-alkalmazások: Word, Excel, PowerPoint és Outlook) és szolgáltatások (például Exchange és SharePoint) a Microsoft Azure Rights Management használatával."
 author: cabailey
 manager: mbaldwin
-ms.date: 05/13/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 2cdc7bde-4044-4021-b887-11476f99afd9
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 16c2dbbce4234f41941bd3fd92d264df0ae685e2
-ms.openlocfilehash: 15167c4e7dbe0fd401e198c80524b39e4ded250d
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: df66b53238acecd4173b7d1bc57a611c403ec256
 
 
 ---
 
 # Hogyan támogatják a különböző alkalmazások az Azure Rights Managementet?
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Az alábbi információk segítségével megismerheti, hogyan biztosíthatnak védelmet a szervezet adatai számára a leggyakoribb végfelhasználói alkalmazások (például az Office-alkalmazások: Word, Excel, PowerPoint és Outlook) és szolgáltatások (például Exchange és SharePoint) a Microsoft [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] használatával. 
 > [!NOTE]
@@ -63,6 +62,6 @@ Tudjon meg többet arról, hogyan támogatják a következők az Azure RMS-t:
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

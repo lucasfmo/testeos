@@ -1,27 +1,26 @@
 ---
 title: "A Rights Management megosztóalkalmazás letöltése és telepítése | Azure RMS"
-description: 
-keywords: 
+description: "Az RMS-megosztó alkalmazás telepítéséhez nem kell helyi rendszergazdának lennie, azonban ha nem az, és az Office 2010-et használja, akkor korlátozásokba ütközhet. További információért tekintse meg a jelen oldal Ha Ön nem helyi rendszergazda, és Office 2010-et használ című szakaszát."
 author: cabailey
 manager: mbaldwin
-ms.date: 05/09/2016
+ms.date: 07/13/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 2bf09690-9dba-43b7-9e0a-0110915d4081
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c611fa8a846612fed238e59e5077be67f6f9531a
-ms.openlocfilehash: 5ec740b4de63c90c9713916dcf104316e727498b
+ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
+ms.openlocfilehash: bda09df1ff51565a4bbf501161c7a4f8cdbbfe22
 
 
 ---
 
 # A Rights Management megosztóalkalmazás letöltése és telepítése
 
-*A következőkre vonatkozik: Active Directory tartalomvédelmi szolgáltatások, Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
+>*A következőkre vonatkozik: Active Directory tartalomvédelmi szolgáltatások, Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
 
 Az RMS-megosztó alkalmazás telepítéséhez nem kell helyi rendszergazdának lennie, azonban ha nem az, és az Office 2010-et használja, akkor korlátozásokba ütközhet. További információért tekintse meg a jelen oldal [Ha Ön nem helyi rendszergazda, és Office 2010-et használ](#if-you-are-not-a-local-administrator-and-use-office-2010) című szakaszát.
 
@@ -62,7 +61,7 @@ A Rights Management megosztóalkalmazás használatát szemléltető egyéb pél
 
 -   [Példák az RMS-megosztó alkalmazás használatára](sharing-app-user-guide.md#examples-for-using-the-rms-sharing-application)
 
--   [Művelet](sharing-app-user-guide.md#what-do-you-want-to-do-)
+-   [Művelet](sharing-app-user-guide.md#what-do-you-want-to-do)
 
 ## Lásd még:
 [A Rights Management megosztóalkalmazás felhasználói útmutatója](sharing-app-user-guide.md)
@@ -70,6 +69,6 @@ A Rights Management megosztóalkalmazás használatát szemléltető egyéb pél
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

@@ -1,27 +1,26 @@
 ---
 title: "Windows PowerShell-parancsfájl az Azure RMS védelemhez a Fájlkiszolgálói erőforrás-kezelő FCI használatával | Azure RMS"
-description: 
-keywords: 
+description: "Ez az oldal az RMS-védelem és Windows Server fájlbesorolási infrastruktúra című témakörben ismertetett másolandó és szerkesztendő parancsfájlpéldát tartalmazza."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: ae6d8d0f-4ebc-43fe-a1f6-26b690fd83d0
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
-ms.openlocfilehash: a1771c37bffa2af60773a5befdd35c14f684c942
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: 567280a3992d8964d4112e597ebda8cf65f5ec9a
 
 
 ---
 
 # Windows PowerShell-parancsfájl az Azure RMS védelemhez a Fájlkiszolgálói erőforrás-kezelő FCI használatával
 
-*A következőkre vonatkozik: Azure Rights Management, Windows Server 2012, Windows Server 2012 R2*
+>*A következőkre vonatkozik: Azure Rights Management, Windows Server 2012, Windows Server 2012 R2*
 
 Ez az oldal az [RMS-védelem és Windows Server fájlbesorolási infrastruktúra](configure-fci.md) című témakörben ismertetett másolandó és szerkesztendő parancsfájlpéldát tartalmazza.
 
@@ -175,6 +174,6 @@ Vissza az [RMS-védelem és Windows Server fájlbesorolási infrastruktúra](con
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

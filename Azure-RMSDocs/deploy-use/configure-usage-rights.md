@@ -1,27 +1,26 @@
 ---
 title: "Használati jogosultságok konfigurálása az Azure Rights Managementhez | Azure RMS"
-description: 
-keywords: 
+description: "Amikor az Azure Rights Management (Azure RMS) segítségével lát el védelemmel fájlokat vagy e-maileket, és nem használ sablont, saját magának kell konfigurálnia a használati jogosultságokat. Továbbá, amikor egyéni sablonokat konfigurál az Azure RMS számára, ki kell választania a használati jogosultságokat, amelyeket a rendszer automatikusan alkalmazni fog, amikor a felhasználók, a rendszergazdák vagy a konfigurált szolgáltatások kiválasztják a sablont."
 author: cabailey
 manager: mbaldwin
-ms.date: 08/09/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 97ddde38-b91b-42a5-8eb4-3ce6ce15393d
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 60f25cdcdabbfbb61072a95e39f84fed79cad871
-ms.openlocfilehash: e656729fa9ea926681e560f40c4f43ce320a0d5e
+ms.sourcegitcommit: e1f1bef9ce87dcffb8d3da920f19198aa253e8e6
+ms.openlocfilehash: bbfb00822a03609f5b81808e1e1c4cad8c02be0b
 
 
 ---
 
 # Használati jogosultságok konfigurálása az Azure Rights Managementhez
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Amikor az Azure Rights Management (Azure RMS) segítségével lát el védelemmel fájlokat vagy e-maileket, és nem használ sablont, saját magának kell konfigurálnia a használati jogosultságokat. Továbbá, amikor egyéni sablonokat konfigurál az Azure RMS számára, ki kell választania a használati jogosultságokat, amelyeket a rendszer automatikusan alkalmazni fog, amikor a felhasználók, a rendszergazdák vagy a konfigurált szolgáltatások kiválasztják a sablont. A klasszikus Azure-portálon kiválaszthat például olyan szerepköröket, amelyek a használati jogosultságok logikus csoportját konfigurálják, illetve konfigurálhatja külön az egyes jogosultságokat.
 
@@ -40,7 +39,7 @@ Az alábbi táblázat felsorolja és ismerteti a Rights Management által támog
 |Köznapi név: **Továbbítás** <br /><br />Kódolás a házirendben: **FORWARD**|Lehetővé teszi az e-mail üzenetek továbbítását és a címzettek hozzáadását a **Címzett** és a **Másolatot kap** sorban. Ez a jogosultság nem érvényes a dokumentumokra, kizárólag az e-mailekre.<br /><br />Nem engedélyezi a továbbító számára, hogy jogosultságokat adjon más felhasználóknak a továbbítási művelet részeként.|Egyéni Office-jogosultságok: A rendszer megtagadja a **Nem továbbítandó** normál házirend használata esetén.<br /><br />Neve a klasszikus Azure portálon: **Továbbítás**<br /><br />Neve az AD RMS-sablonokban: **Továbbítás** <br /><br />API-állandó vagy -érték: `IPC_EMAIL_FORWARD L"FORWARD"`|
 |Köznapi név: **Teljes hozzáférés** <br /><br />Kódolás a házirendben: **OWNER**|Megadja az összes jogosultságot a dokumentumhoz, így minden elérhető művelet elvégezhető.<br /><br />Lehetővé teszi a védelem eltávolítását és a dokumentum védelmének újbóli beállítását.|Egyéni Office-jogosultságok: A **Teljes hozzáférés** egyéni beállításként.<br /><br />Neve a klasszikus Azure portálon: **Teljes hozzáférés**<br /><br />Neve az AD RMS-sablonokban: **Teljes hozzáférés** <br /><br />API-állandó vagy -érték: `IPC_GENERIC_ALL L"OWNER"`|
 |Köznapi név: **Nyomtatás** <br /><br />Kódolás a házirendben: **PRINT**|Lehetővé teszi a tartalom nyomtatását.|Egyéni Office-jogosultságok: A **Tartalom nyomtatása** beállításként az egyéni engedélyek között. Nem címzettenkénti beállítás.<br /><br />Neve a klasszikus Azure portálon: **Nyomtatás**<br /><br />Neve az AD RMS-sablonokban: **Nyomtatás** <br /><br />API-állandó vagy -érték: `IPC_GENERIC_PRINT L"PRINT"`|
-|Köznapi név: **Válasz** <br /><br />Kódolás a házirendben: **PRINT**|Engedélyezi a **Válasz** lehetőséget az e-mail ügyfélprogramokban, de nem engedélyezi a **Címzett** és a **Másolatot** kap sor módosítását.|Egyéni Office-jogosultságok: Nincs alkalmazható.<br /><br />Neve a klasszikus Azure portálon: **Válasz**<br /><br />Neve az AD RMS-sablonokban: **Válasz** <br /><br />API-állandó vagy -érték: `IPC_EMAIL_REPLY`|
+|Köznapi név: **Válasz** <br /><br />Kódolás a házirendben: **REPLY**|Engedélyezi a **Válasz** lehetőséget az e-mail ügyfélprogramokban, de nem engedélyezi a **Címzett** és a **Másolatot** kap sor módosítását.|Egyéni Office-jogosultságok: Nincs alkalmazható.<br /><br />Neve a klasszikus Azure portálon: **Válasz**<br /><br />Neve az AD RMS-sablonokban: **Válasz** <br /><br />API-állandó vagy -érték: `IPC_EMAIL_REPLY`|
 |Köznapi név: **Válasz mindenkinek** <br /><br />Kódolás a házirendben: **REPLYALL**|Engedélyezi a **Válasz mindenkinek** lehetőséget az e-mail ügyfélprogramokban, de nem engedélyezi a címzettek hozzáadását a **Címzett** és a **Másolatot kap** sorokban.|Egyéni Office-jogosultságok: Nincs alkalmazható.<br /><br />Neve a klasszikus Azure portálon: **Válasz mindenkinek**<br /><br />Neve az AD RMS-sablonokban: **Válasz mindenkinek** <br /><br />API-állandó vagy -érték: `IPC_EMAIL_REPLYALL L"REPLYALL"`|
 |Köznapi név: **Megtekintés, Megnyitás, Olvasás** <br /><br />Kódolás a házirendben: **VIEW**|Lehetővé teszi a felhasználó számára a dokumentum megnyitását és a tartalom megtekintését.|Egyéni Office-jogosultságok: Az **Olvasás** egyéni házirend **Megtekintés** beállításaként.<br /><br />Neve a klasszikus Azure portálon: **Megtekintés**<br /><br />Neve az AD RMS-sablonokban: **Válasz mindenkinek** <br /><br />API-állandó vagy -érték: `IPC_GENERIC_READ L"VIEW"`|
 |Köznapi név: **Másolás** <br /><br />Kódolás a házirendben: **EXTRACT**|Lehetővé teszi az adatok (ideértve a képernyőfelvételek) másolását a dokumentumból ugyanazon a dokumentumon belülre, vagy egy másik dokumentumba.<br /><br />Egyes alkalmazásokban a teljes dokumentum mentését is lehetővé teszi nem védett állapotban.|Egyéni Office-jogosultságok: Az **olvasási joggal rendelkező felhasználók másolhatják a tartalmat** egyéni házirend-beállításként.<br /><br />Neve a klasszikus Azure portálon: **Tartalom másolása és kinyerése**<br /><br />Neve az AD RMS-sablonokban: **Kinyerés** <br /><br />API-állandó vagy -érték: `IPC_GENERIC_EXTRACT L"EXTRACT"`|
@@ -102,6 +101,6 @@ Egy felhasználó e-mailben el szeretne küldeni bizonyos, másokra nem tartozó
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Aug16_HO4-->
 
 

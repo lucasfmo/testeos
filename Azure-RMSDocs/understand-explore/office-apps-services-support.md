@@ -1,20 +1,19 @@
 ---
 title: "Office-alkalmazások és -szolgáltatások | Azure RMS"
-description: 
-keywords: 
+description: "A végfelhasználói Office-alkalmazások (például Word, Excel, PowerPoint és Outlook) és az Office-szolgáltatások (például Exchange és SharePoint) a Microsoft Azure Rights Management segítségével védelmet biztosíthatnak a szervezet adatai számára."
 author: cabailey
 manager: mbaldwin
 ms.date: 06/30/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 388e67cd-c16f-4fa0-a7bb-ffe0def2be81
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 99eb67f6296ad1782c787aabb73a28458c02f367
-ms.openlocfilehash: affb37cc3b991609f5de51370485b10fed932421
+ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
+ms.openlocfilehash: 93dde9494a430526ebd26e1d5123ad44901ffcbb
 
 
 ---
@@ -22,7 +21,7 @@ ms.openlocfilehash: affb37cc3b991609f5de51370485b10fed932421
 
 # Office-alkalmazások és -szolgáltatások
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 A végfelhasználói Office-alkalmazások (például Word, Excel, PowerPoint és Outlook) és az Office-szolgáltatások (például Exchange és SharePoint) a Microsoft Azure Rights Management segítségével védelmet biztosíthatnak a szervezet adatai számára.
 
@@ -55,7 +54,7 @@ Listák és könyvtárak esetében az adatvédelmi beállításokat mindig a ren
 
 Először az IRM szolgáltatást engedélyezni kell a SharePointhoz. Ezt követően tartalomvédelmi szolgáltatásokat alkalmazhat az adott könyvtáron. A SharePoint Online és a OneDrive vállalati verziójának esetében a felhasználók OneDrive vállalati verziójú könyvtáraikra is alkalmazhatnak tartalomvédelmi szolgáltatásokat. A SharePoint nem használ jogmegadási sablonokat, bár egyes SharePoint konfigurációs beállítások megadása közel hasonlóan működik a sablonokban megadott beállításokhoz.
 
-SharePoint Server használata esetén az RMS-összekötő telepítésével alkalmazhatóvá válnak az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] adatvédelmi funkciói, amely a helyszíni kiszolgálók és az RMS-felhőszolgáltatás közötti közvetítőként működik. További információk: [Deploying the Azure Rights Management connector](../deploy-use/deploy-rms-connector.md) (Az Azure Rights Management-összekötő telepítése).
+SharePoint Server használata esetén az RMS-összekötő telepítésével alkalmazhatóvá válnak az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] adatvédelmi funkciói, amely a helyszíni kiszolgálók és az RMS-felhőszolgáltatás közötti közvetítőként működik. További információk: [Az Azure Rights Management-összekötő telepítése](../deploy-use/deploy-rms-connector.md).
 
 > [!NOTE]
 > Az IRM SharePointtal való alkalmazása esetében jelenleg bizonyos korlátozások érvényesek:
@@ -73,6 +72,6 @@ Az Azure RMS SharePointtal való alkalmazásáról bővebben az Office blogjána
 Információk az egyéb alkalmazások és szolgáltatások Azure Rights Management-támogatásáról: [Hogyan támogatják a különböző alkalmazások az Azure Rights Managementet?](applications-support.md)
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Aug16_HO4-->
 
 

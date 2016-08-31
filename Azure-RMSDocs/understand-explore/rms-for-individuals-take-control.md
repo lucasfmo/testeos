@@ -1,20 +1,19 @@
 ---
 title: "RMS egyéni felhasználók számára létrehozott szolgáltatásfiókok rendszergazdai felügyelete | Azure RMS"
-description: 
-keywords: 
+description: "Ha nem szeretné a szervezeténél levő RMS egyéni felhasználók számára előfizetést fizetős előfizetéssé alakítani, akkor az alábbi módokon felügyelheti az Azure címtárban levő felhasználói fiókokat, amelyeket a szervezeténél hoztak létre."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: a83880d0-f0f9-4a32-9e00-2f6635d7cc8d
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
-ms.openlocfilehash: df006a27c97884c47c9bb5fb04bfa181a13b7443
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: a900622fcce4a0a1431f47647709584e404a7f8c
 
 
 ---
@@ -23,7 +22,7 @@ ms.openlocfilehash: df006a27c97884c47c9bb5fb04bfa181a13b7443
 
 # How administrators can control the accounts created for RMS for individuals (RMS egyéni felhasználók számára szolgáltatásfiókok rendszergazdai felügyelete)
 
-*A következőkre vonatkozik: Azure Rights Management*
+>*A következőkre vonatkozik: Azure Rights Management*
 
 
 Ha nem szeretné a szervezeténél levő RMS egyéni felhasználók számára előfizetést fizetős előfizetéssé alakítani, akkor az alábbi módokon felügyelheti az Azure címtárban levő felhasználói fiókokat, amelyeket a szervezeténél hoztak létre:
@@ -47,6 +46,6 @@ Ha a felhasználók létre tudják hozni a rendszergazdák helyett a fiókjaikat
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

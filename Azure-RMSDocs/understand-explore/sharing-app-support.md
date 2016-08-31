@@ -1,20 +1,19 @@
 ---
 title: "RMS megosztóalkalmazás Windows rendszerhez és mobil platformokhoz | Azure RMS"
-description: 
-keywords: 
+description: "Az RMS megosztóalkalmazás egy ingyenes, letölthető alkalmazás, amely az Office 2010 támogatásához szükséges, de a használata ajánlott Windows rendszerű számítógépek, Mac számítógépek és mobileszközök esetén is. Az egyik előnye, hogy általános védelemmel láthat el olyan alkalmazásokat és fájlokat, amelyek nem támogatják natív módon a Rights Management szolgáltatást, ami azt jelenti, hogy minden fájl ellátható védelemmel."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 1da6e372-2b3f-4af7-80f7-6b9073dff7f5
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
-ms.openlocfilehash: 02f1cf60bdafe748f16d9defa1c8b0cc8a61efb0
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: 6304c5c29e2dab176fb9d5a617e1467af00ab504
 
 
 ---
@@ -22,7 +21,7 @@ ms.openlocfilehash: 02f1cf60bdafe748f16d9defa1c8b0cc8a61efb0
 
 # RMS-megosztóalkalmazás Windows és mobil platformokra
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Az RMS megosztóalkalmazás egy ingyenes, letölthető alkalmazás, amely az Office 2010 támogatásához szükséges, de a használata ajánlott Windows rendszerű számítógépek, Mac számítógépek és mobileszközök esetén is. Az egyik előnye, hogy általános védelemmel láthat el olyan alkalmazásokat és fájlokat, amelyek nem támogatják natív módon a [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] szolgáltatást, ami azt jelenti, hogy minden fájl ellátható védelemmel. A különböző védelmi szintekről a [Rights Management megosztóalkalmazás rendszergazdai kézikönyvének](../rms-client/sharing-app-admin-guide.md) [Védelmi szintek – natív és általános](../rms-client/sharing-app-admin-guide-technical.md#levels-of-protection-native-and-generic) című szakaszában talál további információt.
 
@@ -59,6 +58,6 @@ Információk az egyéb alkalmazások és szolgáltatások Azure Rights Manageme
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

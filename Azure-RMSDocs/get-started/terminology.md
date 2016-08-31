@@ -1,27 +1,26 @@
 ---
 title: "Az Azure Rights Management terminológiája | Azure RMS"
-description: 
-keywords: 
+description: "Nem biztos egy, a Microsoft Azure RMS szolgáltatással összefüggésben használt szó, kifejezés vagy mozaikszó jelentésében? Itt megtalálhatja a kifejezetten az Azure RMS szolgáltatással kapcsolatos, illetve a Rights Management szolgáltatás kontextusában saját jelentéssel bíró kifejezések és rövidítések meghatározását."
 author: cabailey
 manager: mbaldwin
 ms.date: 08/10/2016
 ms.topic: get-started-article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 742877bf-26f5-40e3-b1f7-8475e7c3ce11
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 75f868c4428e7b434e6a115a3e70508c3ff7f93d
-ms.openlocfilehash: 1a45457548d8cba6424e92bc18ef085d095742f3
+ms.sourcegitcommit: c7b194493073bcd76fa7a7d06bb31a7811e8cc3e
+ms.openlocfilehash: cb30347efd062b0f1c74a029efc747d277c817f3
 
 
 ---
 
 # Az Azure Rights Management terminológiája
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Nem biztos egy, a Microsoft [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] (Azure RMS) szolgáltatással összefüggésben használt szó, kifejezés vagy mozaikszó jelentésében? Itt megtalálhatja a kifejezetten az Azure RMS szolgáltatással kapcsolatos, illetve az [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] szolgáltatás kontextusában saját jelentéssel bíró kifejezések és rövidítések meghatározását.
 
@@ -74,6 +73,6 @@ Nem biztos egy, a Microsoft [!INCLUDE[aad_rightsmanagement_1](../includes/aad_ri
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Aug16_HO4-->
 
 

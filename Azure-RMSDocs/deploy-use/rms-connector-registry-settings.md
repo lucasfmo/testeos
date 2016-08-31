@@ -1,20 +1,19 @@
 ---
 title: "Az RMS-összekötő beállításjegyzékbeli beállításai | Azure RMS"
-description: 
-keywords: 
+description: "Az alábbi szakaszokban található táblázatokat csak akkor használja, ha az Exchange-et, SharePointot vagy Windows Servert futtató kiszolgálókhoz manuálisan szeretne olyan beállításjegyzék-beállításokat hozzáadni, illetve ellenőrizni, amelyek az RMS-összekötő használatára konfigurálják a kiszolgálókat. A kiszolgálók konfigurálásának javasolt módja a Microsoft RMS-összekötő kiszolgálókonfiguráló eszközének használata."
 author: cabailey
 manager: mbaldwin
 ms.date: 07/13/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: ed3e9a3d-0f7c-4abc-9d0b-aa3b18403d39
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 935c354f9bcd3be23a953cdeb08c7860257637d6
-ms.openlocfilehash: 5099a10a183f1c78595794511654226265e740c8
+ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
+ms.openlocfilehash: 49fff7c2e0c06d26751136b681022f221f80d6cd
 
 
 ---
@@ -22,7 +21,7 @@ ms.openlocfilehash: 5099a10a183f1c78595794511654226265e740c8
 
 # A Rights Management-összekötő beállításjegyzékbeli beállításai
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 
 Az alábbi szakaszokban található táblázatokat csak akkor használja, ha az Exchange-et, SharePointot vagy Windows Servert futtató kiszolgálókhoz manuálisan szeretne olyan beállításjegyzék-beállításokat hozzáadni, illetve ellenőrizni, amelyek az [RMS-összekötő](deploy-rms-connector.md) használatára konfigurálják a kiszolgálókat. A kiszolgálók konfigurálásának javasolt módja a Microsoft RMS-összekötő kiszolgálókonfiguráló eszközének használata.
@@ -217,6 +216,6 @@ Utasítások a beállítások használatához:
 Vissza a [Deploying the Azure Rights Management connector](deploy-rms-connector.md) (Az Azure Rights Management-összekötő üzembe helyezése) című témakörhöz
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

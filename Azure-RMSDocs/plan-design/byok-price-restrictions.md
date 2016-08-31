@@ -1,27 +1,26 @@
 ---
 title: "A BYOK díjszabása és korlátozásai | Azure RMS"
-description: 
-keywords: 
+description: "Az Azure Rights Managementet tartalmazó előfizetéssel rendelkező szervezetek külön díjfizetés nélkül használhatnak ügyfél által felügyelt kulcsokat (BYOK) az Azure Key Vaultban, és naplózhatják annak használatát. Az Azure Key Vault használatához azonban a HSM által védett kulcsokkal rendelkező Key Vaultot támogató Azure-előfizetés szükséges. A kulcsok használata az Azure Key Vaultban havi díjfizetési kötelezettséggel jár. További információt az Azure Key Vault díjszabását ismertető weblapon talál."
 author: cabailey
 manager: mbaldwin
 ms.date: 08/17/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: f5930ed3-a6cf-4eac-b2ec-fcf63aa4e809
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 437afd88efebd9719a3db98f8ab0ae07403053f7
-ms.openlocfilehash: ece615912d69eda78107c60245620ed36c0affd2
+ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
+ms.openlocfilehash: 8505032a2a12f84c245e834e71d0b7b0d12e894f
 
 
 ---
 
 # A BYOK díjszabása és korlátozásai
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 
 Az Azure Rights Managementet tartalmazó előfizetéssel rendelkező szervezetek külön díjfizetés nélkül használhatnak ügyfél által felügyelt kulcsokat (BYOK) az Azure Key Vaultban, és naplózhatják annak használatát. Az Azure Key Vault használatához azonban a HSM által védett kulcsokkal rendelkező Key Vaultot támogató Azure-előfizetés szükséges. A kulcsok használata az Azure Key Vaultban havi díjfizetési kötelezettséggel jár. További információt az [Azure Key Vault díjszabását ismertető weblapon](https://azure.microsoft.com/en-us/pricing/details/key-vault/) talál.
@@ -63,6 +62,6 @@ Ha úgy döntött, hogy marad az alapértelmezett konfigurációnál, ahol a Mic
 
 
 
-<!--HONumber=Aug16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

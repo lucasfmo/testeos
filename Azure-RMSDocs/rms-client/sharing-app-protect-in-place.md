@@ -1,27 +1,26 @@
 ---
 title: "Fájl védelme egy eszközön (helyi védelem) a Rights Management megosztóalkalmazással | Azure RMS"
-description: 
-keywords: 
+description: "Ha helyileg tesz védetté egy fájlt, azzal lecseréli az eredeti, nem védett fájlt. Ha ezután a helyén hagyja a fájlt, egy másik mappába vagy eszközre másolja, vagy megosztja azt a mappát, amelyikben a fájl található, a fájl akkor is védett marad. A védett fájlt e-mailhez is csatolhatja, azonban a védett fájlt ajánlott közvetlenül a Fájlkezelőből vagy egy Office-alkalmazásból megosztani."
 author: cabailey
 manager: mbaldwin
 ms.date: 07/15/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 33920329-5247-4f6c-8651-6227afb4a1fa
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 638c2f27c8d552653dcf3f41d8fad6d44cb08887
-ms.openlocfilehash: 5150351ec6772b95d77698dc39a1f69105c02d2c
+ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
+ms.openlocfilehash: 55f5f9dd0dd90bfa98798b4fc0b4cb4bd3c90076
 
 
 ---
 
 # Készüléken lévő fájlok védelme (helyben történő védelem) a Rights Management
 
-*A következőkre vonatkozik: Active Directory tartalomvédelmi szolgáltatások, Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
+>*A következőkre vonatkozik: Active Directory tartalomvédelmi szolgáltatások, Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
 
 Ha helyileg tesz védetté egy fájlt, azzal lecseréli az eredeti, nem védett fájlt. Ha ezután a helyén hagyja a fájlt, egy másik mappába vagy eszközre másolja, vagy megosztja azt a mappát, amelyikben a fájl található, a fájl akkor is védett marad. A védett fájlt emellett csatolhatja e-mail-üzenethez, jóllehet a védett fájlokat ajánlott közvetlenül a Fájlkezelőből vagy egy Office-alkalmazásból megosztani e-mailben (lásd: [E-mailben megosztott fájl védelme a Rights Management megosztóalkalmazással](sharing-app-protect-by-email.md)).
 
@@ -67,6 +66,6 @@ A Rights Management megosztóalkalmazás használatát szemléltető egyéb pél
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

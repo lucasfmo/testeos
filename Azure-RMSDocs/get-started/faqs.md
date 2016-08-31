@@ -1,27 +1,26 @@
 ---
 title: "Gyakori kérdések az Azure Rights Management szolgáltatásról | Azure RMS"
-description: 
-keywords: 
+description: "Néhány gyakran feltett kérdés a Microsoft Azure Rights Management (más néven Azure RMS) termékről."
 author: cabailey
 manager: mbaldwin
 ms.date: 07/13/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 71ce491f-41c1-4d15-9646-455a6eaa157d
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e89c59716eef7fbdea415b41b1adfa54b0c16689
-ms.openlocfilehash: bd53b73452f444ac8529a8b8b613e76d8cc234a1
+ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
+ms.openlocfilehash: 906e544cc3c9be6ba475502e3cdb93f2e047da7f
 
 
 ---
 
 # Gyakori kérdések az Azure Rights Management szolgáltatásról
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Néhány gyakran feltett kérdés a Microsoft [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] (más néven Azure RMS) termékről:
 
@@ -224,6 +223,6 @@ Ez a gyakori kérdéseket tartalmazó oldal rendszeresen frissül. Az új elemek
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

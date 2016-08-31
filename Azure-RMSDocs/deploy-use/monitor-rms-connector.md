@@ -1,27 +1,26 @@
 ---
 title: "Az Azure Rights Management-összekötő megfigyelése | Azure RMS"
-description: 
-keywords: 
+description: "Az RMS-összekötő telepítése és konfigurálása után az alábbi módszerekkel és információkkal megfigyelheti az összekötőt és a vállalati Azure RMS-használatot."
 author: cabailey
 manager: mbaldwin
 ms.date: 07/08/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 8a1b3e54-f788-4f84-b9d7-5d5079e50b4e
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f8e23e8bcbfb25092cb31f7af76d17239f3063a7
-ms.openlocfilehash: 32c3c93d55bd82f45fa7a081e55ae7ebe8f5956f
+ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
+ms.openlocfilehash: 11079a491cf9feade86713ef02ccdce79019577a
 
 
 ---
 
 # Az Azure Rights Management-összekötő megfigyelése
 
-*A következőkre vonatkozik: Azure Rights Management, Windows Server 2012, Windows Server 2012 R2*
+>*A következőkre vonatkozik: Azure Rights Management, Windows Server 2012, Windows Server 2012 R2*
 
 Az RMS-összekötő telepítése és konfigurálása után az alábbi módszerekkel és információkkal megfigyelheti az összekötőt és a vállalati Azure RMS-használatot.
 
@@ -195,6 +194,6 @@ Ha részletesebb naplózást kíván végezni diagnosztikai célokkal, használj
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Aug16_HO4-->
 
 

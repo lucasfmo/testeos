@@ -1,27 +1,26 @@
 ---
 title: "A Rights Management megosztóalkalmazás felhasználói útmutatója | Azure RMS"
-description: 
-keywords: 
+description: "A Windowshoz készült Microsoft Rights Management (RMS) megosztóalkalmazás segítségével megakadályozhatja fontos dokumentumainak és képeinek jogosulatlan megtekintését, még akkor is, ha elküldi őket e-mailben, vagy egy másik eszközre menti. Ezenkívül az alkalmazás lehetővé teszi azoknak a fájloknak a megnyitását és használatát is, amelyeket mások ugyanezzel a tartalomvédelmi technológiával tettek védetté."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: eaf6d02c-aa36-4915-856e-49bb71ab1484
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 384a58f32aae8c7d908392e7fd9a1629bc05cdff
-ms.openlocfilehash: d3727eb963532e03137aea2140293fa9c5821db2
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: 0e9ec1074f5305c12f436336520d7a6703ed0cfa
 
 
 ---
 
 # A Rights Management megosztóalkalmazás felhasználói útmutatója
 
-*A következőkre vonatkozik: Active Directory tartalomvédelmi szolgáltatások, Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
+>*A következőkre vonatkozik: Active Directory tartalomvédelmi szolgáltatások, Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
 
 A Windowshoz készült Microsoft Rights Management (RMS) megosztóalkalmazás segítségével megakadályozhatja fontos dokumentumainak és képeinek jogosulatlan megtekintését, még akkor is, ha elküldi őket e-mailben, vagy egy másik eszközre menti. Ezenkívül az alkalmazás lehetővé teszi azoknak a fájloknak a megnyitását és használatát is, amelyeket mások ugyanezzel a tartalomvédelmi technológiával tettek védetté.
 
@@ -68,6 +67,6 @@ Ha olyan kérdései merülnek fel, amelyekre a jelen útmutató nem ad választ,
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

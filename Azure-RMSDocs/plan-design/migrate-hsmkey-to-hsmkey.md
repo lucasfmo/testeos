@@ -1,27 +1,26 @@
 ---
 title: "2. lépés&colon; HSM által védett kulcs áttelepítése HSM által védett kulccsá | Azure RMS"
-description: 
-keywords: 
+description: "Ezek az utasítások az AD RMS-ről az Azure Rights Managementre történő áttelepítés részét képezik, és csak akkor alkalmazandók, ha az AD RMS-kulcs HSM-védelemmel van ellátva, és HSM-védelemmel ellátott bérlőkulccsal rendelkező Azure Rights Management-környezetbe kíván áttelepítést végezni az Azure Key Vaultban."
 author: cabailey
 manager: mbaldwin
-ms.date: 08/17/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: c5bbf37e-f1bf-4010-a60f-37177c9e9b39
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 437afd88efebd9719a3db98f8ab0ae07403053f7
-ms.openlocfilehash: 86f7bd025824b23c8eecdb05b62d83204ae1ccb4
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: 690729d16358b7b997d9cd1fd8cabed22ce78df4
 
 
 ---
 
 # 2. lépés: HSM által védett kulcs áttelepítése HSM által védett kulccsá
 
-*A következőkre vonatkozik: Active Directory Rights Management Services, Azure Rights Management*
+>*A következőkre vonatkozik: Active Directory Rights Management Services, Azure Rights Management*
 
 
 Ezek az utasítások az [AD RMS-ről az Azure Rights Managementre történő áttelepítés](migrate-from-ad-rms-to-azure-rms.md) részét képezik, és csak akkor alkalmazandók, ha az AD RMS-kulcs HSM-védelemmel van ellátva, és HSM-védelemmel ellátott bérlőkulccsal rendelkező Azure Rights Management-környezetbe kívánt áttelepítést végezni az Azure Key Vaultban. 
@@ -95,6 +94,6 @@ Folytassa a következővel: [3. lépés: Az RMS-bérlő aktiválása](migrate-fr
 
 
 
-<!--HONumber=Aug16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

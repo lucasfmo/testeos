@@ -1,20 +1,19 @@
 ---
 title: "Egyéni sablonok létrehozása, konfigurálása és közzététele | Azure RMS"
-description: 
-keywords: 
+description: "Az egyéni sablonok létrehozása és kezelése a klasszikus Azure-portálon történik. Ezt megteheti közvetlenül a klasszikus Azure-portálról, vagy beléphet az Office 365 felügyeleti központjába, és kiválaszthatja a Rights Management speciális szolgáltatásait, ami után a rendszer átirányítja Önt a klasszikus Azure-portálra."
 author: cabailey
 manager: mbaldwin
 ms.date: 07/15/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: d6e9aa0c-1694-4a53-8898-4939f31cc13f
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5737594c679be0702761014425e104e5eade59f3
-ms.openlocfilehash: c240502f2e88ec61bcbee6be778e77a0d5aee66b
+ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
+ms.openlocfilehash: 64beb891fda54da3718a322f6628a2987ff35111
 
 
 ---
@@ -22,7 +21,7 @@ ms.openlocfilehash: c240502f2e88ec61bcbee6be778e77a0d5aee66b
 
 # Egyéni sablonok létrehozása, konfigurálása és közzététele
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 
 Az egyéni sablonok létrehozása és kezelése a klasszikus Azure-portálon történik. Ezt megteheti közvetlenül a klasszikus Azure-portálról, vagy beléphet az Office 365 felügyeleti központjába, és kiválaszthatja a Rights Managementre vonatkozó **Speciális szolgáltatások** lehetőséget, amely azután átirányítja Önt a klasszikus Azure-portálra.
@@ -163,10 +162,10 @@ A sablon módosításához válassza ki a sablont, és hajtsa végre újra az el
 > [!WARNING]
 > Ha egy korábban mentett sablont módosít, az ügyfeleknél csak akkor jelennek meg ezek a módosítások, ha a sablonok frissítése megtörtént a számítógépeken. További információk: [Sablonok frissítése a felhasználók számára](refresh-templates.md).
 
-## Lásd még:
+## Lásd még
 [Egyéni sablonok konfigurálása az Azure Rights Management szolgáltatáshoz](configure-custom-templates.md)
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

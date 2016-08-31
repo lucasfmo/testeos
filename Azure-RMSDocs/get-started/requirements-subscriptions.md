@@ -1,20 +1,19 @@
 ---
 title: "Azure RMS-követelmények&#58; Felhőalapú előfizetések | Azure RMS"
-description: 
-keywords: 
+description: "Az Azure Rights Management (Azure RMS) használatához a szervezetének legalább egy, az alábbiakban felsorolt előfizetéssel, valamint megfelelő számú licenccel kell rendelkeznie a felhasználók, illetve a fájlokat és e-mail-üzeneteket védő szolgáltatások számára. Ha rendelkezik olyan szolgáltatással, amely védelmet biztosít a felhasználók (a fájlok vagy e-mail üzenetek tulajdonosai) számára, akkor a felhasználóknak szükségük van ezen licencek egyikére. Azoknak a felhasználóknak, akik csak felhasználják (pl. olvassák vagy szerkesztik) a védett adatokat, nincs szükségük licencre."
 author: cabailey
 manager: mbaldwin
-ms.date: 06/09/2016
+ms.date: 08/22/2016
 ms.topic: get-started-article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 6a16e890-3c3e-4f47-80ca-176a34bdf8bc
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b6dcd8bb1091e9c484e02042adbf993381581a9d
-ms.openlocfilehash: 5e68ba6942b479e9dcbf0e9ac0a3bed0c2d1869d
+ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
+ms.openlocfilehash: 4cac0f039e69e31943bb8773d0761f7e654cc940
 
 
 ---
@@ -22,11 +21,11 @@ ms.openlocfilehash: 5e68ba6942b479e9dcbf0e9ac0a3bed0c2d1869d
 
 # Azure RMS-követelmények: Az Azure RMS-t támogató felhőalapú előfizetések
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Az Azure Rights Management (Azure RMS) használatához a szervezetének legalább egy, az alábbiakban felsorolt előfizetéssel, valamint megfelelő számú licenccel kell rendelkeznie a felhasználók, illetve a fájlokat és e-mail-üzeneteket védő szolgáltatások számára. Ha rendelkezik olyan szolgáltatással, amely védelmet biztosít a felhasználók (a fájlok vagy e-mail üzenetek tulajdonosai) számára, akkor a felhasználóknak szükségük van ezen licencek egyikére. Azoknak a felhasználóknak, akik csak felhasználják (pl. olvassák vagy szerkesztik) a védett adatokat, nincs szükségük licencre.
 
--   Office 365
+-   Office 365 (meghatározott előfizetések)
 
 -   Azure Rights Management Premium (korábban Azure RMS Standalone)
 
@@ -95,6 +94,6 @@ További információ: [RMS for Individuals and Azure Rights Management](../unde
 Az egyéb követelményeket [Az Azure Rights Management követelményei](requirements-azure-rms.md) című témakörben tekintheti meg.
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

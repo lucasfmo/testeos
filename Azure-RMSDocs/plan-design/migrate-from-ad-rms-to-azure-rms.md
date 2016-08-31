@@ -1,27 +1,26 @@
 ---
 title: "Áttelepítés AD RMS-ről Azure Rights Managementre | Azure RMS"
-description: 
-keywords: 
+description: "A következő útmutatók használatával áttelepítheti Active Directory tartalomvédelmi szolgáltatásainak (AD RMS) telepítését az Azure Rights Management (Azure RMS) rendszerbe. Az áttelepítés után a felhasználók továbbra is hozzáférhetnek a dokumentumokhoz és e-mailekhez, amelyeket a szervezete az AD RMS használatával védett. Az újonnan védett tartalom az Azure RMS-t fogja használni."
 author: cabailey
 manager: mbaldwin
 ms.date: 08/17/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 828cf1f7-d0e7-4edf-8525-91896dbe3172
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 437afd88efebd9719a3db98f8ab0ae07403053f7
-ms.openlocfilehash: 65371b9a3b210743fc160dbad38333ccb12671e6
+ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
+ms.openlocfilehash: bead12db04e6fcf2f9e4af5148d3f8a4ef4089da
 
 
 ---
 
 # Áttelepítés AD RMS-ről Azure Rights Managementre
 
-*A következőkre vonatkozik: Active Directory Rights Management Services, Azure Rights Management*
+>*A következőkre vonatkozik: Active Directory Rights Management Services, Azure Rights Management*
 
 A következő útmutatók használatával áttelepítheti Active Directory tartalomvédelmi szolgáltatásainak (AD RMS) telepítését az Azure Rights Management (Azure RMS) rendszerbe. Az áttelepítés után a felhasználók továbbra is hozzáférhetnek a dokumentumokhoz és e-mailekhez, amelyeket a szervezete az AD RMS használatával védett. Az újonnan védett tartalom az Azure RMS-t fogja használni.
 
@@ -185,6 +184,6 @@ Az áttelepítés megkezdéséhez lépjen az [1. fázis – kiszolgálóoldali k
 
 
 
-<!--HONumber=Aug16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

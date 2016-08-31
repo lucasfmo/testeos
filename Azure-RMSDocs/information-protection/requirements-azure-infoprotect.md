@@ -1,20 +1,19 @@
 ---
 title: "Az Azure Information Protection használati követelményei | Azure RMS"
-description: 
-keywords: 
+description: "Ha ki szeretné próbálni az Azure Information Protection előzetes kiadását, győződjön meg arról, hogy teljesíti az alábbi előfeltételeket."
 author: cabailey
 manager: mbaldwin
-ms.date: 08/10/2016
+ms.date: 08/22/2016
 ms.topic: get-started-article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: aa4353e5-c5b0-47f6-a6f9-87d13e8f075f
 ms.reviewer: eymanor
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c0652e05576ab28d7b77380ab1b8aa0ca2d3e479
-ms.openlocfilehash: e3eb845af4e2cfec43c63c9625163f62c83cf954
+ms.sourcegitcommit: c9f9211e7c1dcf293caf81475515114b5433d6a7
+ms.openlocfilehash: cc1ec2b2544ac368821155b7e0c3c0e179982d1d
 
 
 ---
@@ -29,7 +28,7 @@ Ha ki szeretné próbálni az Azure Information Protection előzetes kiadását,
 
 |Követelmény|További információ|
 |---------------|--------------------|
-|Azure RMS-t tartalmazó felhőalapú előfizetés|A szervezetnek rendelkeznie kell egy, a Rights Managementet támogató felhőalapú előfizetéssel.<br /><br />További információt és az ingyenes próbaverzió hivatkozásait [Az Azure RMS-t támogató felhőalapú előfizetések](../get-started/requirements-subscriptions.md) című témakörben találja.|
+|Az Azure Rights Managementet tartalmazó Office 365-előfizetés|Például Office 365 E3, E4 vagy E5 előfizetés.<br /><br />Az előfizetési lehetőségekről további információt és az ingyenes próbaverziók hivatkozásait az Azure RMS-követelmények dokumentációjának [Office 365-előfizetések](../get-started/requirements-subscriptions.md#office-365-subscription) című szakaszában találja.|
 |Azure AD-címtár|A szervezetnek rendelkeznie kell egy Azure Active Directory-címtárral, amely támogatja az Azure RMS és az Azure Information Protection felhasználóhitelesítését. Emellett, ha felhasználói fiókjait a helyszíni címtárából (AD DS) kívánja használni, a címtár-integrációt is be kell állítania.<br /><br />Az Azure RMS a többtényezős hitelesítést (MFA) is támogatja, ha Ön rendelkezik a szükséges ügyfélszoftverrel és a megfelelően konfigurált, MFA-kompatibilis infrastruktúrával.<br /><br />További információt az [Azure AD-címtár](../get-started/requirements-azure-ad.md) című témakörben talál. Az itt található, Azure RMS-re vonatkozó adatok az Azure Information Protection szolgáltatásra is érvényesek.|
 |Ügyféleszközök|Az előzetes verzió a következő ügyféleszközökön támogatott:<br /><br />- Windows 10 (x86, x64)<br /><br />- Windows 8.1 (x86, x64)<br /><br />- Windows 8 (x86, x64)<br /><br />- Windows 7 SP 1 (x86, x64)<br /><br />Az adatok védelmekor használhatja ugyanazokat az Azure Rights Managementet támogató eszközöket (Windows, Mac, iOS, Android). Ezekről az eszközökről és a támogatott verziókról további információt az [Azure RMS-követelmények: Az Azure RMS-t támogató ügyféleszközök](../get-started/requirements-client-devices.md) című témakörben talál.|
 |Alkalmazások|Az Azure Information Protection előzetes és általánosan rendelkezésre álló verziója is támogatja a következő Office-alkalmazásokban létrehozott fájlok és e-mailek címkézését és védelmét: **Word**, **Excel**, **PowerPoint** és **Outlook**. Az alábbi Office-csomagok támogatottak:<br /><br />- Office Professional Plus 2016<br /><br />- Office Professional Plus 2013 az 1. szervizcsomaggal<br /><br />- Office Professional Plus 2010<br /><br />Az általánosan rendelkezésre álló verzió megjelenése után a [nagyvállalati mobilitással és biztonsággal foglalkozó blogban](https://blogs.technet.microsoft.com/enterprisemobility/?product=azure-rights-management-services) közzétesszük majd az Azure Information Protection által támogatott további fájltípusokat (például PDF-, illetve hang-, videó- és képfájlok).|
@@ -42,6 +41,6 @@ Ha megfelel a fenti követelményeknek, próbálja ki az Azure Information Prote
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Aug16_HO4-->
 
 

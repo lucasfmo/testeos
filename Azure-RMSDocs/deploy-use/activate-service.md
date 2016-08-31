@@ -1,27 +1,26 @@
 ---
 title: "Az Azure Rights Management aktiválása | Azure RMS"
-description: 
-keywords: 
+description: "Az (Azure RMS) aktiválásakor a szervezete megkezdheti a fontos adatok védelmét az ezen adatvédelmi megoldást támogató alkalmazások és szolgáltatások használatával. A rendszergazdák ezenkívül kezelhetik és megfigyelhetik a szervezete tulajdonában lévő védett fájlokat és e-maileket. Az Office, a SharePoint és az Exchange szoftverekben lévő tartalomvédelmi szolgáltatások (IRM) használatának és az érzékeny vagy bizalmas fájlok védelmének megkezdéséhez engedélyezni kell a szolgáltatást."
 author: cabailey
 manager: mbaldwin
-ms.date: 05/16/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: f8707e01-b239-4d1a-a1ea-0d1cf9a8d214
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bf5e3561ef24d8f44e791ff7bdc8450a73f79705
-ms.openlocfilehash: d66e4e6bca253bc2bf9d12ba22ed0202cba2edaf
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: d8ec823553934442ecb1e0a0b288eaa6d9c21ea6
 
 
 ---
 
 # Az Azure Rights Management aktiválása
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] (Azure RMS) aktiválásakor a szervezete megkezdheti a fontos adatok védelmét az ezen adatvédelmi megoldást támogató alkalmazások és szolgáltatások használatával. A rendszergazdák ezenkívül kezelhetik és megfigyelhetik a szervezete tulajdonában lévő védett fájlokat és e-maileket. Az Office, a SharePoint és az Exchange szoftverekben lévő tartalomvédelmi szolgáltatások használatának és az érzékeny vagy bizalmas fájlok védelmének megkezdéséhez engedélyezni kell a [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] szolgáltatást.
 
@@ -82,6 +81,6 @@ Az Office-szolgáltatások, például az Exchange Online és a SharePoint Online
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

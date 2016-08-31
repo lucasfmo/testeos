@@ -1,20 +1,19 @@
 ---
 title: "File servers that run Windows Server and use File Classification Infrastructure (FCI) (A Windows Server rendszert futtató és a fájlbesorolási infrastruktúrát (FCI) használó fájlkiszolgálók) | Azure RMS"
-description: 
-keywords: 
+description: "Amikor konfigurálja a Windows Server rendszert a fájlbesorolási infrastruktúra használatára, ez a Fájlkiszolgálói erőforrás-kezelő funkció képes megvizsgálni a helyi fájlokat, és meghatározni, hogy tartalmaznak-e azok érzékeny adatokat. Az ezen feltételeknek megfelelő fájlokat a rendszergazda által meghatározott besorolási tulajdonságoknak megfelelő címkékkel látja el a program. Ezek után a fájlbesorolási infrastruktúra automatikus műveleteket végez a besorolásnak megfelelően. Az egyik ilyen művelet az információvédelem biztosítása az Azure Rights Management használatával, és a Rights Management-összekötő (más néven RMS-összekötő) üzembe helyezése. Ezek után az Azure RMS automatikusan védelmet biztosít az Office-fájlok számára."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 8fdad425-5daf-4ce1-822f-9d2fb0b87df1
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
-ms.openlocfilehash: 839be5a8a45c2322127694dc0bdc306ff445c314
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: 3ba4230674d387c100752f2e8698010afc8773b2
 
 
 ---
@@ -22,7 +21,7 @@ ms.openlocfilehash: 839be5a8a45c2322127694dc0bdc306ff445c314
 
 # File servers that run Windows Server and use File Classification Infrastructure (FCI) (A Windows Server rendszert futtató és a fájlbesorolási infrastruktúrát (FCI) használó fájlkiszolgálók)
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 
 Amikor konfigurálja a Windows Server rendszert a fájlbesorolási infrastruktúra használatára, ez a Fájlkiszolgálói erőforrás-kezelő funkció képes megvizsgálni a helyi fájlokat, és meghatározni, hogy tartalmaznak-e azok érzékeny adatokat. Az ezen feltételeknek megfelelő fájlokat a rendszergazda által meghatározott besorolási tulajdonságoknak megfelelő címkékkel látja el a program. Ezek után a fájlbesorolási infrastruktúra automatikus műveleteket végez a besorolásnak megfelelően. Az egyik ilyen művelet az információvédelem biztosítása az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] használatával, és a Rights Management-összekötő (más néven RMS-összekötő) üzembe helyezése. Ezek után az Azure RMS automatikusan védelmet biztosít az Office-fájlok számára.
@@ -44,6 +43,6 @@ Most, hogy már érti, hogyan támogatják az alkalmazások és a szolgáltatás
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

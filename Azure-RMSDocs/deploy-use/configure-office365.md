@@ -1,27 +1,26 @@
 ---
 title: "Office 365&colon; Konfigurálás ügyfelek és online szolgáltatások számára | Azure RMS"
-description: 
-keywords: 
+description: "Mivel az Office 365 natívan támogatja az Azure RMS-t, az olyan alkalmazásokhoz, mint a Word, az Excel, a PowerPoint, az Outlook és az Outlook Web App, nincs szükség az ügyfélszámítógép konfigurálására a tartalomvédelmi szolgáltatások (IRM) funkcióinak támogatásához. A felhasználóknak egyszerűen be kell jelentkezniük az Office-alkalmazásaikba a Microsoft Office 365 hitelesítő adataikkal, és máris levédhetik a fájljaikat, valamint használhatják a mások által levédett fájlokat és e-maileket."
 author: cabailey
 manager: mbaldwin
 ms.date: 07/13/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 0a6ce612-1b6b-4e21-b7fd-bcf79e492c3b
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 67129d6cdac124947fc07aa4d42523686227752e
-ms.openlocfilehash: 3592fb7c386eaeddc839c11a494f94d9b7564472
+ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
+ms.openlocfilehash: 09f152ef910cf9c08c9a693f79c40f491263c5d3
 
 
 ---
 
 # Office 365: Konfigurálás ügyfelek és online szolgáltatások számára
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Mivel az Office 365 natívan támogatja az Azure RMS-t, az olyan alkalmazásokhoz, mint a Word, az Excel, a PowerPoint, az Outlook és az Outlook Web App, nincs szükség az ügyfélszámítógép konfigurálására a tartalomvédelmi szolgáltatások (IRM) funkcióinak támogatásához. A felhasználóknak egyszerűen be kell jelentkezniük az Office-alkalmazásaikba [!INCLUDE[o365_1](../includes/o365_1_md.md)] hitelesítő adataikkal, és máris levédhetik a fájljaikat, valamint használhatják a mások által levédett fájlokat és e-maileket.
 
@@ -1106,6 +1105,6 @@ Disconnect-SPOService -ErrorAction SilentlyContinue
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

@@ -1,27 +1,26 @@
 ---
 title: "Egyéni sablonok konfigurálása az Azure Rights Management szolgáltatáshoz | Azure RMS"
-description: 
-keywords: 
+description: "Miután aktiválta az Azure Rights Management (Azure RMS) szolgáltatást, a felhasználók automatikusan két alapértelmezett sablont használhatnak, amelyek megkönnyítik számukra, hogy olyan házirendeket alkalmazzanak az érzékeny fájlokra, amelyek a fájlokhoz való hozzáférést a szervezeten belüli jogosult felhasználókra korlátozzák. Ez a két sablon a következő jogmegadási korlátozást biztosítja."
 author: cabailey
 manager: mbaldwin
 ms.date: 06/03/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 1775d8d0-9a59-42c8-914f-ce285b71ac1c
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 8e72b68c03ee7da58adaff96f3f4611a227214b0
-ms.openlocfilehash: 26afa04c5041d0b8c952d3d6b3da5a2215acda87
+ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
+ms.openlocfilehash: 83db5e11a4603523d7c4a86921fbdafb5f6fbfb5
 
 
 ---
 
 # Az Azure Rights Management egyéni sablonok konfigurálása
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Miután [aktiválta az Azure Rights Management](activate-service.md) (Azure RMS) szolgáltatást, a felhasználók automatikusan két alapértelmezett sablont használhatnak, amelyek megkönnyítik számukra, hogy olyan házirendeket alkalmazzanak az érzékeny fájlokra, amelyek a fájlokhoz való hozzáférést a szervezeten belüli jogosult felhasználókra korlátozzák. Ez a két sablon a következő jogmegadási korlátozást biztosítja:
 
@@ -67,6 +66,6 @@ A következő információk segítséget nyújtanak az egyéni sablonok konfigur
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

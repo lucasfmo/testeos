@@ -1,27 +1,26 @@
 ---
 title: "Az Azure Rights Management-összekötő telepítése és konfigurálása | Azure RMS"
-description: 
-keywords: 
+description: "Az Azure Rights Management (RMS)-összekötő telepítésekor és konfigurálásakor vegye figyelembe a következőket. Ezek az eljárások egybevágnak Az Azure Rights Management-összekötő üzembe helyezése című témakör 1-4. lépésével."
 author: cabailey
 manager: mbaldwin
 ms.date: 06/27/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 4fed9d4f-e420-4a7f-9667-569690e0d733
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ea4b7539ab311d782c3987a8fd74940aad72e65b
-ms.openlocfilehash: 165292482349e4a233ab4030f49a297f57b041ac
+ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
+ms.openlocfilehash: 9160188f6e905db7ef95365a0cc5cfbcb7522101
 
 
 ---
 
 # Az Azure Rights Management-összekötő telepítése és konfigurálása
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Az Azure Rights Management (RMS)-összekötő telepítésekor és konfigurálásakor vegye figyelembe a következőket. Ezek az eljárások egybevágnak [Az Azure Rights Management-összekötő üzembe helyezése](deploy-rms-connector.md) című témakör 1-4. lépésével.
 
@@ -241,6 +240,6 @@ Ha még nem töltötte le ezeket a fájlokat, a [Microsoft letöltőközpontból
 Az RMS-összekötő telepítését és konfigurálását követően készen áll, hogy a helyszíni kiszolgálókat annak használatára konfigurálja. Ugorjon a következő témakörre: [Kiszolgálók konfigurálása az Azure Rights Management-összekötő használatához](configure-servers-rms-connector.md).
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

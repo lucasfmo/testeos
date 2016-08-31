@@ -1,27 +1,26 @@
 ---
 title: "Az Azure Rights Management követelményei | Azure RMS"
-description: 
-keywords: 
+description: "Mielőtt a szervezetében üzembe helyezi a Microsoft Azure Rights Managementet (Azure RMS), győződjön meg róla, hogy rendelkezik a következő előfeltételekkel. Ezután az Azure Rights Management deployment roadmap (Azure Rights Management üzembe helyezési menetrend) használatával elvégezheti a Rights Management központi telepítését a szervezete számára."
 author: cabailey
 manager: mbaldwin
 ms.date: 07/15/2016
 ms.topic: get-started-article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: dc78321d-d759-4653-8818-80da74b6cdeb
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2fab331a26e18730e9cc64a24c0501b7ae21aa1b
-ms.openlocfilehash: f225d8579e2440d2eb00a4f821a78727b6442fdd
+ms.sourcegitcommit: c7b194493073bcd76fa7a7d06bb31a7811e8cc3e
+ms.openlocfilehash: d56eb077ef76e1869c7d90141f1b35c1bdbfe9fa
 
 
 ---
 
 # Az Azure Rights Management követelményei
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 
 Mielőtt a szervezetében üzembe helyezi a Microsoft Azure Rights Managementet (Azure RMS), győződjön meg róla, hogy rendelkezik a következő előfeltételekkel. Ezután az [Azure Rights Management deployment roadmap](../plan-design/deployment-roadmap.md) (Azure Rights Management üzembe helyezési menetrend) használatával elvégezheti a Rights Management központi telepítését a szervezete számára.
@@ -56,6 +55,6 @@ A forgatókönyv további Azure RMS-követelményeivel kapcsolatos tudnivalókat
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

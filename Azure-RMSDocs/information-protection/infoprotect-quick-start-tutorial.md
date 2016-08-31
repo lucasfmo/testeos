@@ -3,15 +3,15 @@ title: "Azure Information Protection – gyors üzembe helyezési útmutató | A
 description: "Egy bevezető oktatóanyag, amellyel gyorsan kipróbálhatja a szervezetnél a Microsoft Azure Information Protection szolgáltatást csupán 4, 15 percnél gyorsabban végrehajtható lépésben."
 author: cabailey
 manager: mbaldwin
-ms.date: 08/10/2016
+ms.date: 08/22/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 1260b9e5-dba1-41de-84fd-609076587842
 translationtype: Human Translation
-ms.sourcegitcommit: 7d599aef75272eff5527294141bb0eb98d041b1b
-ms.openlocfilehash: 419bfcde6915bd6c8db9cf5ddb268f6d70c83768
+ms.sourcegitcommit: c9f9211e7c1dcf293caf81475515114b5433d6a7
+ms.openlocfilehash: 6fbe4bd32f1aef57b3bf42aeedea46f618fb5540
 
 
 ---
@@ -31,7 +31,7 @@ Ha problémát tapasztal az oktatóanyag elvégzésekor vagy az Azure Informatio
 ## Előfeltételek 
 Az oktatóanyag elvégzéséhez a következőkre lesz szüksége:
 
-- Az Azure Rights Management szolgáltatást tartalmazó előfizetés. Erre azért van szükség, hogy hozzáférhessen az Azure Information Protection előzetes kiadásához. Az Azure Information Protection minden olyan régióban elérhető, ahol támogatott az Azure Rights Management használata. Az előfizetési lehetőségekkel kapcsolatos további információkat és az ingyenes próbaverzió hivatkozásait az [Azure RMS-követelmények: Az Azure RMS-t támogató felhőalapú előfizetések](../get-started/requirements-subscriptions.md) című cikkben találja.
+- Az Office-dokumentumok és e-mailek Azure RMS segítségével történő védelmét tartalmazó Office 365-előfizetés Az előfizetési lehetőségekkel kapcsolatos további információkat és az ingyenes próbaverziók hivatkozásait az Azure RMS-követelmények dokumentációjának [Office 365-előfizetések](../get-started/requirements-subscriptions.md#office-365-subscription) című szakaszában találja.
 
 - Azure-előfizetés ahhoz, hogy hozzáférhessen az Azure portálhoz és konfigurálhassa az Azure Information Protection-szabályzatot. Ha a szervezete még nem rendelkezik Azure-előfizetéssel, akkor igényelhet egy ingyenes próbaverziót: keresse fel az [Azure Get started](https://account.windowsazure.com/organization) (Ismerkedés az Azure-ral) oldalt, és kövesse az utasításokat.
 
@@ -51,6 +51,6 @@ Lássunk neki!
 
 
 
-<!--HONumber=Aug16_HO2-->
+<!--HONumber=Aug16_HO4-->
 
 

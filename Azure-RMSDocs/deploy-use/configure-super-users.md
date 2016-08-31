@@ -1,27 +1,26 @@
 ---
 title: "Felügyelők konfigurálása az Azure Rights Management és a felderítési szolgáltatások vagy adat-helyreállítás számára | Azure RMS"
-description: 
-keywords: 
+description: "A Microsoft Azure RMS felügyelői funkciója biztosítja, hogy a jogosult személyek és szolgáltatások mindig hozzáférjenek és vizsgálhassák az Azure RMS-védelemmel ellátott szervezeti adatokat. Ezenkívül, szükség esetén eltávolítja a védelmet, vagy módosítja az előzőleg alkalmazott védelmet. A felügyelők teljes tulajdonosi jogokat kapnak minden, a szervezet RMS-bérlője által biztosított összes használati licenchez. Ez a képesség más néven az „adatok indoklása”, és lényeges elem a szervezet adatai feletti irányítás megőrzéséhez."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: acb4c00b-d3a9-4d74-94fe-91eeb481f7e3
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
-ms.openlocfilehash: 0ca9b8d9643f5489c100fa3aa614e89cd396df52
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: 32da3f280b7dc8fa0655ae65d904864d80b9a035
 
 
 ---
 
 # Felügyelők konfigurálása az Azure Rights Management és a felderítési szolgáltatások vagy adat-helyreállítás számára
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 A Microsoft [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] (Azure RMS) felügyelői funkciója biztosítja, hogy a jogosult személyek és szolgáltatások mindig hozzáférjenek és vizsgálhassák az Azure RMS-védelemmel ellátott szervezeti adatokat. Ezenkívül, szükség esetén eltávolítja a védelmet, vagy módosítja az előzőleg alkalmazott védelmet. A felügyelők teljes tulajdonosi jogokat kapnak minden, a szervezet RMS-bérlője által biztosított összes használati licenchez. Ez a képesség más néven az „adatok indoklása”, és lényeges elem a szervezet adatai feletti irányítás megőrzéséhez. Az alábbi példahelyzetekben használhatja ezt a funkciót:
 
@@ -72,6 +71,6 @@ További információk ezekről a parancsmagokról: [RMS Protection parancsmagok
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

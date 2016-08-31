@@ -1,20 +1,19 @@
 ---
 title: "Azure Rights Management – más néven | Azure RMS"
-description: 
-keywords: 
+description: "Az Azure Rights Management Azure Rights Management Service néven is ismert, de mivel szolgáltatásként fut az Azure-ban, a „Service” (szolgáltatás) szó gyakran kimarad a nevéből. A szolgáltatás az elsőként Windows tartalomvédelmi szolgáltatások (Windows RMS) néven kiadott Active Directory Rights Management Services (AD RMS) felhőalapú verziója."
 author: cabailey
 manager: mbaldwin
-ms.date: 05/09/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 0af1b2ff-46a7-4a38-803c-5a730e4ff56d
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bf8629651780438c8a2ededbe1e761455cfce94a
-ms.openlocfilehash: 45e5660703efdbbc298fb08cc15db176500549e7
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: 3e9ecf77ec3e8e5c1246f587cdb583b7631d634e
 
 
 ---
@@ -22,7 +21,7 @@ ms.openlocfilehash: 45e5660703efdbbc298fb08cc15db176500549e7
 
 # Azure Rights Management – más néven...
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 
 Az Azure Rights Management *Azure Rights Management Service* néven is ismert, de mivel szolgáltatásként fut az Azure-ban, a „Service” (szolgáltatás) szó gyakran kimarad a nevéből. A szolgáltatás az elsőként *Windows tartalomvédelmi szolgáltatások* (Windows RMS) néven kiadott *Active Directory Rights Management Services* (AD RMS) felhőalapú verziója.
@@ -43,6 +42,6 @@ Vállalati információvédelmi megoldásként a Microsoft Rights Management szo
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

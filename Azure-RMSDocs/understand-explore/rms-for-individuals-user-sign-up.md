@@ -1,27 +1,26 @@
 ---
 title: "Felhasználói regisztrálás módja az RMS egyéni felhasználók számára szolgáltatásban | Azure RMS"
-description: 
-keywords: 
+description: "Az ingyenes fiók regisztrálásához a felhasználóknak meg kell adniuk a munkahelyi vagy iskolai e-mail címüket a Microsoft Rights Management oldalon."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: a60731bd-f78d-4f00-bb3e-354637b312ab
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
-ms.openlocfilehash: 19252180802c69d6e5d6bf22c71ff3bcba96fb36
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: a31005f3dce927db917cb0f2851916b8946da4ee
 
 
 ---
 
 # Felhasználói regisztrálás módja az RMS egyéni felhasználók számára szolgáltatásban
 
-*A következőkre vonatkozik: Azure Rights Management*
+>*A következőkre vonatkozik: Azure Rights Management*
 
 Az ingyenes fiók regisztrálásához a felhasználóknak meg kell adniuk a munkahelyi vagy iskolai e-mail címüket a [Microsoft Rights Management oldalon](https://portal.aadrm.com/). 
 
@@ -102,6 +101,6 @@ Lásd: [Egyéni RMS-felhasználók számára készült fiókok rendszergazdai fe
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 
