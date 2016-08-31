@@ -4,9 +4,9 @@ description: "Az RMS SDK 2.1 platform lehetővé teszi a fejlesztők számára a
 keywords: 
 author: bruceperlerms
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 44D3EB62-7A60-45D9-BA7E-45A06E7D598F
@@ -14,8 +14,8 @@ audience: developer
 ms.reviewer: shubhamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: cbdb969e9910142f49b078069fc578059f9d8785
-ms.openlocfilehash: bbe381054648a6b68818f3964f6cfefd5da0829c
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: ba0b6c3835bb5e1c67f1df3095e6e5f1f474b977
 
 
 ---
@@ -40,11 +40,11 @@ Egy konkrét programozási elem futtatási követelményeiről az adott elemhez 
 
 |Témakör|Leírás|
 |-----|--------|
-|[Áttekintés](ad-rms-overview.md)|A Rights Management Services (RMS) információvédelmi technológia, amelynek segítségével megakadályozhatja a digitális adatok jogosulatlan használatát.|
+|[Áttekintés](ad-rms-overview.md)|A Rights Management Services (RMS) egy információvédelmi technológia, amely segítségével megakadályozhatja a digitális adatok jogosulatlan használatát.|
 |[Első lépések](getting-started-with-ad-rms-2-0.md)|Az RMS SDK 2.1 platform segítségével a fejlesztők olyan alkalmazásokat készíthetnek, amelyek az RMS adatvédelmét használják.|
 |[Kibocsátási megjegyzések](release-notes-rtm.md)|Ez a témakör fontos információkat tartalmaz az RMS SDK 2.1 jelenlegi és korábbi kiadásaival kapcsolatban.|
 |[Megjegyzések fejlesztők számára](developer-notes.md)|Ez a szakasz ismertet néhány fontos fejlesztési forgatókönyvre vonatkozó konkrét útmutatást.|
-|[API-hivatkozás](api-reference-2-1.md)|Ez a szakasz az összes API elemre vonatkozó referenciaanyagot ismerteti.|
+|[Referencia az API-hoz](api-reference-2-1.md)|Ez a szakasz az összes API elemre vonatkozó referenciaanyagot ismerteti.|
 
  
 
@@ -59,6 +59,6 @@ Egy konkrét programozási elem futtatási követelményeiről az adott elemhez 
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Aug16_HO4-->
 
 

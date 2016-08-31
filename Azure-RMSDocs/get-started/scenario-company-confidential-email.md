@@ -1,33 +1,26 @@
 ---
-# required metadata
-
-title: Forgatókönyv – Bizalmas vállalati e-mail küldése | Azure RMS
-description:
-keywords:
+title: "Forgatókönyv – Bizalmas vállalati e-mail küldése | Azure RMS"
+description: "Ez a forgatókönyv és a kiegészítő felhasználói dokumentáció az Azure Rights Managementet használja arra hogy a szervezet bármely felhasználója biztonságosan küldhessen a szervezeten kívül nem olvasható e-mail üzeneteket. Például akkor, ha valaki egy másik szervezethez tartozó személy számára vagy egy személyes e-mail fiókra továbbít egy üzenetet. Az e-mailt és a mellékleteit az Azure Rights Management és a felhasználó által az e-mail ügyfélprogramból kiválasztott sablon látja el védelemmel."
 author: cabailey
 manager: mbaldwin
-ms.date: 05/20/2016
+ms.date: 08/24/2016
 ms.topic: get-started-article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 950799e9-2289-48c7-b95a-f54a8ead520a
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: 4bda209d2f66bb3a3ca1639a7ddfcfc3bccf51b1
+
 
 ---
 
 # Forgatókönyv – Bizalmas vállalati e-mail küldése
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Ez a forgatókönyv és a kiegészítő felhasználói dokumentáció az Azure Rights Managementet használja arra hogy a szervezet bármely felhasználója biztonságosan küldhessen a szervezeten kívül nem olvasható e-mail üzeneteket. Például akkor, ha valaki egy másik szervezethez tartozó személy számára vagy egy személyes e-mail fiókra továbbít egy üzenetet. Az e-mailt és a mellékleteit az Azure Rights Management és a felhasználó által az e-mail ügyfélprogramból kiválasztott sablon látja el védelemmel.
 
@@ -163,6 +156,7 @@ Az e-mail címzettjei továbbküldhetik az üzenetet másoknak, de csak a VanArs
 
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Aug16_HO4-->
 
 

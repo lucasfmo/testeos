@@ -1,27 +1,26 @@
 ---
 title: "Forgatókönyv – A SharePointban tárolt dokumentumok feletti ellenőrzés megtartása | Azure RMS"
-description: 
-keywords: 
+description: "Ez a forgatókönyv és a kiegészítő felhasználói dokumentáció az Azure Rights Management használatával biztosítja a SharePointban tárolt Office-dokumentumok feletti ellenőrzés megtartását védett könyvtárak segítségével. A dokumentumok például automatikus védelmet élveznek a felhasználók általi véletlen vagy szándékos kiszivárogtatással szemben, a tartalmakhoz való hozzáférést pedig azok letöltését vagy szinkronizálását követően is letilthatja. A védelemmel ellátni kívánt fájlok a tervezési dokumentumokhoz, tervekhez vagy más termékekhez kapcsolódó belső együttműködés megteremtését szolgálhatják. Amikor védett könyvtárakat konfigurál a SharePoint számára, a könyvtárakban tárolt Office-fájlokat az Azure Rights Management fogja ellátni védelemmel."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: get-started-article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 1b6244c7-5ab9-4881-bc8f-6fa960390d89
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ed50d87138c428fadfd22cd5b3ef3c7f7e421848
-ms.openlocfilehash: cb028afcbfd9b59f134539c434f4f49efc5e9092
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: f0dfe895820d33eab1d3a69c92e881287072f554
 
 
 ---
 
 # Forgatókönyv – A SharePointban tárolt dokumentumok feletti ellenőrzés megtartása
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Ez a forgatókönyv és a kiegészítő felhasználói dokumentáció az Azure Rights Management használatával biztosítja a SharePointban tárolt Office-dokumentumok feletti ellenőrzés megtartását védett könyvtárak segítségével. A dokumentumok például automatikus védelmet élveznek a felhasználók általi véletlen vagy szándékos kiszivárogtatással szemben, a tartalmakhoz való hozzáférést pedig azok letöltését vagy szinkronizálását követően is letilthatja. A védelemmel ellátni kívánt fájlok a tervezési dokumentumokhoz, tervekhez vagy más termékekhez kapcsolódó belső együttműködés megteremtését szolgálhatják. Amikor védett könyvtárakat konfigurál a SharePoint számára, a könyvtárakban tárolt Office-fájlokat az Azure Rights Management fogja ellátni védelemmel.
 
@@ -106,6 +105,6 @@ Nem tölthet fel dokumentumokat az Értékesítési előrejelzések és jelenté
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

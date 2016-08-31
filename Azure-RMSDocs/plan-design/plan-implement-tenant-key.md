@@ -1,27 +1,26 @@
 ---
 title: "Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása | Azure RMS"
-description: 
-keywords: 
+description: "A jelen cikkben található információk segítségével megtervezheti és kezelheti a tartalomvédelmi szolgáltatásbeli (RMS-) bérlőkulcsát az Azure RMS szolgáltatáshoz. Például ahelyett, hogy a Microsoft felügyelné a bérlőkulcsát (alapértelmezett beállítás), Ön is felügyelheti a saját bérlőkulcsát, hogy az megfeleljen a szervezetére vonatkozó speciális szabályozásoknak. A saját bérlőkulcs felügyelete más néven a saját kulcs használata (BYOK)."
 author: cabailey
 manager: mbaldwin
 ms.date: 08/17/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: f0d33c5f-a6a6-44a1-bdec-5be1bc8e1e14
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a80866576dc7d6400bcebc2fc1c37bc0367bcdf3
-ms.openlocfilehash: ee7b9b5f251856f102651f1e8f379f7bbacea77e
+ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
+ms.openlocfilehash: 3a45a12cba766fed074d8b5fcf861164802d2441
 
 
 ---
 
 # Planning and implementing your Azure Rights Management tenant key (Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása)
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 A jelen cikkben található információk segítségével megtervezheti és kezelheti a tartalomvédelmi szolgáltatásbeli (RMS-) bérlőkulcsát az Azure RMS szolgáltatáshoz. Például ahelyett, hogy a Microsoft felügyelné a bérlőkulcsát (alapértelmezett beállítás), Ön is felügyelheti a saját bérlőkulcsát, hogy az megfeleljen a szervezetére vonatkozó speciális szabályozásoknak.  A saját bérlőkulcs felügyelete más néven a saját kulcs használata (BYOK).
 
@@ -137,6 +136,6 @@ Miután megtervezte, és ha szükséges, létrehozta a bérlőkulcsot, tegye az 
 
 
 
-<!--HONumber=Aug16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

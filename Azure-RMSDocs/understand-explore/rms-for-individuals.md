@@ -1,27 +1,26 @@
 ---
 title: "RMS egyéni felhasználók számára és Azure Rights Management | Azure RMS"
-description: 
-keywords: 
+description: "Az RMS egyéni felhasználók számára olyan szervezeti felhasználóknak készült ingyenes önkiszolgáló előfizetés, akik a Microsoft Azure Rights Management (Azure RMS) által védett bizalmas fájlokat kaptak, de nem hitelesíthetők, mert az informatikai részlegük nem tart fenn fiókot a számukra az Azure-ban. Az informatikai részleg például nem rendelkezik az Office 365-tel, vagy nem használja az Azure-szolgáltatásokat."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 2efcb440-fefd-45e9-872b-f471573aadf2
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
-ms.openlocfilehash: 6a27d5a2a1bad24521a551465fd9324f2a826376
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: 2e80c1e02e47d07678b38f6d6cb229a9db8307d4
 
 
 ---
 
 # RMS egyéni felhasználók számára és Azure Rights Management
 
-*A következőkre vonatkozik: Azure Rights Management*
+>*A következőkre vonatkozik: Azure Rights Management*
 
 Az RMS egyéni felhasználók számára olyan szervezeti felhasználóknak készült ingyenes önkiszolgáló előfizetés, akik a Microsoft Azure Rights Management (Azure RMS) által védett bizalmas fájlokat kaptak, de nem hitelesíthetők, mert az informatikai részlegük nem tart fenn fiókot a számukra az Azure-ban. Az informatikai részleg például nem rendelkezik az Office 365-tel, vagy nem használja az Azure-szolgáltatásokat.
 
@@ -42,6 +41,6 @@ A [Felhasználói regisztrálás módja az RMS egyéni felhasználók számára 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

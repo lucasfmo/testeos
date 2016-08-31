@@ -4,9 +4,9 @@ description: "Mostantól a Linux több verziója is használhatja a Microsoft Ri
 keywords: 
 author: bruceperlerms
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: A348541C-17E0-4024-BF97-84B0099B0E69
@@ -14,8 +14,8 @@ audience: developer
 ms.reviewer: shubhamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 79397c82d9478cbd55630a376fe2d12f3873ebc4
-ms.openlocfilehash: 310ee66374157f946df6876b31859313f74275ae
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: 74bd74f1db92c97740b4031b726a0396ecbfb93f
 
 
 ---
@@ -27,7 +27,7 @@ Mostanra a Linux több típusa is képes használni a Microsoft Rights Managemen
 
 -   [Támogatott operációs rendszerek](#supported-operating-systems)
 -   [Létrehozás és használat](#how-to-build-and-use)
--   [Lásd még:](#see-also)
+-   [Lásd még](#see-also)
 
 ## Támogatott operációs rendszerek
 
@@ -43,7 +43,7 @@ A GitHub-on két útmutató témakör található ehhez az SDK-hoz, amelyek alap
 -   [Függvénytárak és mintaalkalmazások létrehozása](https://github.com/AzureAD/rms-sdk-for-cpp/blob/master/docs/how_to_build_it.md)
 -   [Az alkalmazás telepítése és használata felhasználói rendszereken](https://github.com/AzureAD/rms-sdk-for-cpp/blob/master/docs/how_to_use_it.md)
 
-## Lásd még:
+## Lásd még
 
 * [Első lépések](get-started.md)
 
@@ -60,6 +60,6 @@ A GitHub-on két útmutató témakör található ehhez az SDK-hoz, amelyek alap
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

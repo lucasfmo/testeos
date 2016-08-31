@@ -4,17 +4,17 @@ description: "A harmadik lépése annak az oktatóanyagnak, amellyel gyorsan kip
 keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: get-started-article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: c604e749-8918-40e8-8148-6bd000cb2be2
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ed50d87138c428fadfd22cd5b3ef3c7f7e421848
-ms.openlocfilehash: efe389db839f3f70e9cdb9138f6749e2bd2e029f
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: 62b2303074ccf2b23e29a5770f51b003c8f97780
 
 
 ---
@@ -22,7 +22,7 @@ ms.openlocfilehash: efe389db839f3f70e9cdb9138f6749e2bd2e029f
 
 # Azure RMS gyors üzembe helyezés – 3. lépés: Küldje el e-mailben a dokumentumot, amelyet védelemmel szeretne ellátni
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 
 Ugrás ide: 
@@ -82,6 +82,6 @@ Miután elküldte a védett dokumentumot, megkérheti a címzetteket, hogy várj
 [4. lépés »](tutorial-step4.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

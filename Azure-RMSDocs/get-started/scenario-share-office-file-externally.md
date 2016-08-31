@@ -1,27 +1,26 @@
 ---
 title: "Forgatókönyv – Office-fájl megosztása egy másik szervezet felhasználóival | Azure RMS"
-description: 
-keywords: 
+description: "Ez a forgatókönyv és a kiegészítő felhasználói dokumentáció az Azure Rights Managementet használja, hogy a felhasználók biztonságosan küldhessenek e-mailen keresztül Office-fájlokat más szervezet felhasználóinak. Az Office-fájl például lehet Word-dokumentum, Excel-táblázat vagy PowerPoint-bemutató, amely egy partnereknek szóló árlistát, viszonteladók terméklistáját vagy potenciális vevők szállítási határidőinek listáját tartalmazza. Ha a felhasználók követik az utasításokat, az e-mail-üzenethez csatolt fájlt az Azure Rights Management védelemmel látja el."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: get-started-article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: c10a4d7b-f57a-4a43-b66e-477777be59cc
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ed50d87138c428fadfd22cd5b3ef3c7f7e421848
-ms.openlocfilehash: 6a6f9d8c0a98752413a99d30926f2b5bc8af193d
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: 9615e41666a08a1d66f4e0dbdedb06f02a8efd3e
 
 
 ---
 
 # Forgatókönyv – Office-fájl megosztása egy másik szervezet felhasználóival
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Ez a forgatókönyv és a kiegészítő felhasználói dokumentáció az Azure Rights Managementet használja, hogy a felhasználók biztonságosan küldhessenek e-mailen keresztül Office-fájlokat más szervezet felhasználóinak. Az Office-fájl például lehet Word-dokumentum, Excel-táblázat vagy PowerPoint-bemutató, amely egy partnereknek szóló árlistát, viszonteladók terméklistáját vagy potenciális vevők szállítási határidőinek listáját tartalmazza. Ha a felhasználók követik az utasításokat, az e-mail-üzenethez csatolt fájlt az Azure Rights Management védelemmel látja el.
 
@@ -155,6 +154,6 @@ A [dokumentumkövetési portál](https://track.azurerms.com/) használatával k�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

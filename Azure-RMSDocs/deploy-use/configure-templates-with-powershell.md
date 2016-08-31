@@ -1,20 +1,19 @@
 ---
 title: "PowerShell-referencia az egyéni sablonokhoz | Azure RMS"
-description: 
-keywords: 
+description: "A klasszikus Azure-portál sablonok létrehozására vagy módosítására szolgáló műveleteinek mindegyikét a parancssorból is végrehajthatja a PowerShell segítségével. Továbbá exportálhat és importálhat sablonokat, így a bérlők között másolhatja a sablonokat, vagy tömegesen szerkesztheti a sablonok összetett tulajdonságait, mint például a többnyelvű neveket és leírásokat."
 author: cabailey
 manager: mbaldwin
-ms.date: 05/20/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 30ee2f77-ce16-4113-bcda-6089131849ec
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 332e102cb27854314b93a71bfeae82a95c9a7812
-ms.openlocfilehash: 645f9ed4080e3b38fcda9afe148923c021046724
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: 4874e6061bb9b8781fc2ad02c80dba38084f4747
 
 
 ---
@@ -23,7 +22,7 @@ ms.openlocfilehash: 645f9ed4080e3b38fcda9afe148923c021046724
 
 # PowerShell-referencia az egyéni sablonokhoz
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 A klasszikus Azure-portál sablonok létrehozására vagy módosítására szolgáló műveleteinek mindegyikét a parancssorból is végrehajthatja a PowerShell segítségével. Továbbá exportálhat és importálhat sablonokat, így a bérlők között másolhatja a sablonokat, vagy tömegesen szerkesztheti a sablonok összetett tulajdonságait, mint például a többnyelvű neveket és leírásokat.
 
@@ -56,10 +55,10 @@ A sablonok létrehozását és kezelését támogató parancsmagok:
 
 
 
-## Lásd még:
+## Lásd még
 [Egyéni sablonok konfigurálása az Azure Rights Management szolgáltatáshoz](configure-custom-templates.md)
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

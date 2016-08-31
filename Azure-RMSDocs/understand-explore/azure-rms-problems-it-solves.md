@@ -1,20 +1,19 @@
 ---
 title: "Milyen problémákat képes megoldani az Azure RMS? | Azure RMS"
-description: 
-keywords: 
+description: "A következő táblázat segítségével azonosíthatja az üzleti követelményeit, vagy a szervezeténél esetleg felmerülő problémákat, illetve hogy miként kezelheti ezeket az RMS."
 author: cabailey
 manager: mbaldwin
 ms.date: 07/13/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: b551c62d-5ac6-4359-85b3-90693e77b37f
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 06f615c993d54ab1e8e4a94d7414302481d919b4
-ms.openlocfilehash: 17756d4e641c10c0522f7a849634ae67630b363b
+ms.sourcegitcommit: c7b194493073bcd76fa7a7d06bb31a7811e8cc3e
+ms.openlocfilehash: 7aec5c26acb78cd85eee614a603745f3ee5938a2
 
 
 ---
@@ -22,7 +21,7 @@ ms.openlocfilehash: 17756d4e641c10c0522f7a849634ae67630b363b
 
 # Milyen problémákat képes megoldani az Azure RMS?
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 A következő táblázat segítségével azonosíthatja az üzleti követelményeit, vagy a szervezeténél esetleg felmerülő problémákat, illetve hogy miként kezelheti ezeket az RMS.
 
@@ -73,6 +72,6 @@ Az Azure RMS működését – akár rendszergazdák, akár a felhasználók sze
 Az Azure RMS működésével kapcsolatos további műszaki információkat [Az Azure RMS működése](how-does-it-work.md) című cikkben találja. 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

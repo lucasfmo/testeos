@@ -1,26 +1,22 @@
 ---
-# required metadata
-
 title: "Útmutató: telepítés, konfigurálás és tesztelés az RMS-kiszolgálóval | Azure RMS"
-description: Telepítse és konfigurálja az RMS-kiszolgálót a tartalomvédelemmel kompatibilis alkalmazás teszteléséhez.
-keywords:
+description: "Telepítse és konfigurálja az RMS-kiszolgálót a tartalomvédelemmel kompatibilis alkalmazás teszteléséhez."
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 06/28/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 32C7F387-CF7E-4CE0-AFC9-4C63FE1E134A
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5d2339ece646fc51410186d43facdea28ac8fdfe
+ms.openlocfilehash: d046e7f6bbe867b6bc867483441bb0cc5c20df82
+
 
 ---
 
@@ -65,12 +61,13 @@ A következő lépések segítségével beállíthatja az RMS-kiszolgálót:
 
     Az RMS-kiszolgálóval való teszteléshez konfigurálja a kiszolgálóoldali vagy az ügyféloldali észlelést, hogy a Rights Management Service ügyfélprogram 2.1-es verziója felderítse és létrehozza a kommunikációt az RMS-kiszolgálóval.
 
-    > [!Note] Az Azure RMS-szel való tesztelés nem igényel felderítési konfigurációt.
+    > [!Note]
+    > Az Azure RMS-szel való tesztelés nem igényel felderítési konfigurációt.
 
   - A kiszolgálóoldali felderítés során egy rendszergazda regisztrál egy szolgáltatáskapcsolati pontot (SCP) az Active Directoryban az RMS-gyökérfürthöz, az ügyfél pedig az Active Directoryt lekérdezve észlelheti az SCP-t és hozhat létre kapcsolatot a kiszolgálóval.
   - Ügyféloldali felderítés esetén annak a számítógépnek a beállításjegyzékben kell konfigurálni az RMS szolgáltatásészlelés beállításait, ahol az RMS-ügyfélprogram 2.1-es verziója fut. Ezek a beállítások adják meg az RMS-kiszolgáló számára, hogy az RMS-ügyfélprogram 2.1-es verzióját használja. Ha ezek meg vannak adva, a rendszer nem végez kiszolgálóoldali felderítést.
 
-  Az ügyféloldali felderítés konfigurálásához beállíthatja a következő beállításkulcsokat, hogy azok az éles az RMS-kiszolgálóra mutassanak. A kiszolgálóoldali felderítés konfigurálásáról további információt [Az RMS 2.0-s ügyfelének üzembe helyezésével kapcsolatos megjegyzések](https://technet.microsoft.com/en-us/library/jj159267(WS.10).aspx) című témakörben találhat.
+  Az ügyféloldali felderítés konfigurálásához beállíthatja a következő beállításkulcsokat, hogy azok az éles az RMS-kiszolgálóra mutassanak. A kiszolgálóoldali felderítés konfigurálásáról további információt [Az RMS 2.0-s ügyfelének üzembe helyezésével kapcsolatos megjegyzések](https://technet.microsoft.com/library/jj159267(WS.10).aspx) című témakörben találhat.
 
 1. **EnterpriseCertification**
         HKEY_LOCAL_MACHINE        SOFTWARE          Microsoft            MSIPC              ServiceLocation                EnterpriseCertification
@@ -80,9 +77,11 @@ A következő lépések segítségével beállíthatja az RMS-kiszolgálót:
 2. **EnterprisePublishing**
         HKEY_LOCAL_MACHINE        SOFTWARE          Microsoft            MSIPC              ServiceLocation                EnterprisePublishing **Érték**: (alapértelmezett): [**http|https**]://RMSClusterName/**_wmcs/Licensing**
 
->[!NOTE] Alapértelmezés szerint ezek a kulcsok nem szerepelnek a beállításjegyzékben, és létre kell őket hozni.
+>[!NOTE] 
+> Alapértelmezés szerint ezek a kulcsok nem szerepelnek a beállításjegyzékben, és létre kell őket hozni.
 
->[!IMPORTANT] Ha egy 32 bites alkalmazást futtat egy 64 bites Windows-verzión, meg kell adnia ezeket a kulcsokat a következő kulcshelyen:<p>
+>[!IMPORTANT] 
+> Ha egy 32 bites alkalmazást futtat egy 64 bites Windows-verzión, meg kell adnia ezeket a kulcsokat a következő kulcshelyen:<p>
   ```    
   HKEY_LOCAL_MACHINE
     SOFTWARE
@@ -96,6 +95,7 @@ A következő lépések segítségével beállíthatja az RMS-kiszolgálót:
  
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Aug16_HO4-->
 
 

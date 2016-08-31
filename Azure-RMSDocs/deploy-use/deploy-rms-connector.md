@@ -1,27 +1,26 @@
 ---
 title: "Az Azure Rights Management-összekötő központi telepítése | Azure RMS"
-description: 
-keywords: 
+description: "Az alábbi információkból többet megtudhat az Azure Rights Management- (RMS-) összekötőről, és hogy az miként használható adatvédelem biztosítására Microsoft Exchange Servert, Microsoft SharePoint Servert vagy Windows Servert és a Fájlkiszolgálói erőforrás-kezelő Fájlbesorolási infrastruktúra (FCI) képességét használó fájlkiszolgálókat használó meglévő helyszíni telepítésekkel."
 author: cabailey
 manager: mbaldwin
-ms.date: 05/20/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 90e7e33f-9ecc-497b-89c5-09205ffc5066
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e31656e417a0861d33deb2436d2e4b596a7512a7
-ms.openlocfilehash: 6b9b3b039ba2de0de174a134768afd763d26b5dd
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: 003dcc6a000d303fc42204d61145cf067dc16d32
 
 
 ---
 
 # Deploying the Azure Rights Management connector (Az Azure Rights Management-összekötő üzembe helyezése)
 
-*A következőkre vonatkozik: Azure Rights Management, Windows Server 2012, Windows Server 2012 R2*
+>*A következőkre vonatkozik: Azure Rights Management, Windows Server 2012, Windows Server 2012 R2*
 
 Az alábbi információkból többet megtudhat az Azure Rights Management- (RMS-) összekötőről, és hogy az miként használható adatvédelem biztosítására Microsoft Exchange Servert, Microsoft SharePoint Servert vagy Windows Servert és a Fájlkiszolgálói erőforrás-kezelő Fájlbesorolási infrastruktúra (FCI) képességét használó fájlkiszolgálókat használó meglévő helyszíni telepítésekkel.
 
@@ -84,6 +83,6 @@ Az RMS-összekötő telepítése előtt ellenőrizze, hogy az alábbi követelm�
 Olvassa el a következőt: [Az Azure Rights Management-összekötő telepítése és konfigurálása](install-configure-rms-connector.md).
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

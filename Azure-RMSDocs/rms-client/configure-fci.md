@@ -1,27 +1,26 @@
 ---
 title: "RMS-védelem és Windows Server fájlbesorolási infrastruktúra (FCI) | Azure RMS"
-description: 
-keywords: 
+description: "A cikk utasításokat és egy parancsfájlt tartalmaz a Rights Management (RMS)-ügyfél RMS Protection eszközzel való használatához, amellyel konfigurálható a Fájlkiszolgálói erőforrás-kezelő és a fájlbesorolási infrastruktúra (FCI)."
 author: cabailey
 manager: mbaldwin
 ms.date: 06/14/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 9aa693db-9727-4284-9f64-867681e114c9
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1fc1835b60c4c75b81f106011849940ba2e77164
-ms.openlocfilehash: afb00e010df25dea5f3c3cad23824f773de59b18
+ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
+ms.openlocfilehash: 431eb994070391a78b0b8e34b1afb668f0981f0f
 
 
 ---
 
 # RMS-védelem és Windows Server fájlbesorolási infrastruktúra (FCI)
 
-*A következőkre vonatkozik: Azure Rights Management, Windows Server 2012, Windows Server 2012 R2*
+>*A következőkre vonatkozik: Azure Rights Management, Windows Server 2012, Windows Server 2012 R2*
 
 A cikk utasításokat és egy parancsfájlt tartalmaz a Rights Management (RMS)-ügyfél RMS Protection eszközzel való használatához, amellyel konfigurálható a Fájlkiszolgálói erőforrás-kezelő és a fájlbesorolási infrastruktúra (FCI).
 
@@ -303,6 +302,6 @@ Most már csak annyit kell tennie, hogy létrehoz egy új fájlkezelési feladat
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO4-->
 
 

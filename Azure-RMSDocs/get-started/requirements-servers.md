@@ -1,34 +1,27 @@
 ---
-# required metadata
-
 title: "Azure RMS-követelmények: Az Azure Rights Managementet támogató helyszíni kiszolgálók | Azure RMS"
-description:
-keywords:
+description: "Az alábbi helyszíni kiszolgálótermékek támogatják az Azure RMS-t az Azure RMS-összekötő használatával, amely kommunikációs illesztőfelületként (továbbítóként) működik a helyszíni kiszolgálók és az Azure RMS között. Ez a konfiguráció emellett a címtár-szinkronizálás konfigurálását igényli az Active Directory-erdő és az Azure Active Directory között."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: get-started-article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: e7d91f2d-d6a7-4c7e-821f-c94e4be9967d
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: cd8b8d18e146fcc0864565a603b47b2b074af2b2
+
 
 ---
 
 
 # Azure RMS-követelmények: Az Azure RMS-t támogató helyszíni kiszolgálók
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Az alábbi helyszíni kiszolgálótermékek támogatják az Azure RMS-t az Azure RMS-összekötő használatával, amely kommunikációs illesztőfelületként (továbbítóként) működik a helyszíni kiszolgálók és az Azure RMS között. Ez a konfiguráció emellett a címtár-szinkronizálás konfigurálását igényli az Active Directory-erdő és az Azure Active Directory között.
 
@@ -67,6 +60,7 @@ Az RMS-összekötő helyszíni kiszolgálókon való konfigurálásával kapcsol
 Az egyéb követelményeket [Az Azure Rights Management követelményei](requirements-azure-rms.md) című témakörben tekintheti meg.
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Aug16_HO4-->
 
 

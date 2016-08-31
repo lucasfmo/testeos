@@ -1,27 +1,26 @@
 ---
 title: "Forgatókönyv – A legértékesebb fájlok védelmének biztosítása | Azure RMS"
-description: 
-keywords: 
+description: "Ez a forgatókönyv és támogatási felhasználói dokumentáció az Azure Rights Management használatával manuális és egyéni, a jogosulatlan hozzáférések elleni legmagasabb szintű védelmet valósít meg a legértékesebbeknek minősített fájlok számára. Ezek általában olyan fájlok, amelyekhez csak néhány személy férhet hozzá. A fájlok például a vállalat legfontosabb élelmiszertermékének receptjét vagy olyan felvásárlási terveket tartalmazhatnak, amelyek nem hozhatók nyilvánosságra egy adott időpont előtt."
 author: cabailey
 manager: mbaldwin
-ms.date: 05/20/2016
+ms.date: 08/24/2016
 ms.topic: get-started-article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 95f1844a-612c-4e67-bbe6-4b6b92295221
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 332e102cb27854314b93a71bfeae82a95c9a7812
-ms.openlocfilehash: d4325fb8a0b27d0a8d4fd7451b9d11d10153ed8d
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: 5db916bc9eef927dc7d6a628808e9af79363e480
 
 
 ---
 
 # Forgatókönyv – A legértékesebb fájlok védelmének biztosítása
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Ez a forgatókönyv és támogatási felhasználói dokumentáció az Azure Rights Management használatával manuális és egyéni, a jogosulatlan hozzáférések elleni legmagasabb szintű védelmet valósít meg a legértékesebbeknek minősített fájlok számára. Ezek általában olyan fájlok, amelyekhez csak néhány személy férhet hozzá. A fájlok például a vállalat legfontosabb élelmiszertermékének receptjét vagy olyan felvásárlási terveket tartalmazhatnak, amelyek nem hozhatók nyilvánosságra egy adott időpont előtt.
 
@@ -148,6 +147,6 @@ Az alábbi fájlokat nagyon magas szintű védelemmel látták el, ezért csak a
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 
