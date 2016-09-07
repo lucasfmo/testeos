@@ -1,9 +1,9 @@
 ---
 title: "Forgatókönyv – Bizalmas vállalati e-mail küldése | Azure RMS"
-description: "Ez a forgatókönyv és a kiegészítő felhasználói dokumentáció az Azure Rights Managementet használja arra hogy a szervezet bármely felhasználója biztonságosan küldhessen a szervezeten kívül nem olvasható e-mail üzeneteket. Például akkor, ha valaki egy másik szervezethez tartozó személy számára vagy egy személyes e-mail fiókra továbbít egy üzenetet. Az e-mailt és a mellékleteit az Azure Rights Management és a felhasználó által az e-mail ügyfélprogramból kiválasztott sablon látja el védelemmel."
+description: "Ez a forgatókönyv és a kiegészítő felhasználói dokumentáció az Azure Rights Managementet használja arra hogy a szervezet bármely felhasználója biztonságosan küldhessen a szervezeten kívül nem olvasható e-mail üzeneteket."
 author: cabailey
 manager: mbaldwin
-ms.date: 08/24/2016
+ms.date: 08/25/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: 950799e9-2289-48c7-b95a-f54a8ead520a
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
-ms.openlocfilehash: 4bda209d2f66bb3a3ca1639a7ddfcfc3bccf51b1
+ms.sourcegitcommit: 81426cf43f31625c6e83d443fa925f6426eb89da
+ms.openlocfilehash: e3245f7fb15f7081dbe4552eb9734a4915d1b6f1
 
 
 ---

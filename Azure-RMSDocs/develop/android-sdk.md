@@ -14,8 +14,8 @@ audience: developer
 ms.reviewer: shubhamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
-ms.openlocfilehash: 72196edd630a1934f2c0b6e755771039fceaa795
+ms.sourcegitcommit: de012d0d85bff0e33fef0b4c53291a997d4b4e89
+ms.openlocfilehash: f89ed307eae4ee14f2e463f7fb6d7e2bd07eccd0
 
 
 ---
@@ -28,7 +28,7 @@ Ez a témakör végigvezeti egy környezet felépítésének lépésein a saját
 
 -   [Előfeltételek](#prerequisites)
 -   [Nem kötelező megadni](#optional)
--   [A fejlesztési környezet konfigurálása](#configuring-your-development-environment_)
+-   [A fejlesztési környezet konfigurálása](#configuring-your-development-environment)
 -   [Lásd még:](#see-also)
 
 ## Előfeltételek
@@ -150,6 +150,6 @@ A felhasználói felületi kódtár újrahasznosítható felhasználói felület
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Sep16_HO1-->
 
 

@@ -1,9 +1,9 @@
 ---
 title: "A Rights Management megosztóalkalmazás felhasználói útmutatója | Azure RMS"
-description: "A Windowshoz készült Microsoft Rights Management (RMS) megosztóalkalmazás segítségével megakadályozhatja fontos dokumentumainak és képeinek jogosulatlan megtekintését, még akkor is, ha elküldi őket e-mailben, vagy egy másik eszközre menti. Ezenkívül az alkalmazás lehetővé teszi azoknak a fájloknak a megnyitását és használatát is, amelyeket mások ugyanezzel a tartalomvédelmi technológiával tettek védetté."
+description: "A Windowshoz készült Microsoft Rights Management (RMS) megosztóalkalmazás segítségével megakadályozhatja fontos dokumentumainak és képeinek jogosulatlan megtekintését, még akkor is, ha elküldi őket e-mailben, vagy egy másik eszközre menti."
 author: cabailey
 manager: mbaldwin
-ms.date: 08/24/2016
+ms.date: 08/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: eaf6d02c-aa36-4915-856e-49bb71ab1484
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
-ms.openlocfilehash: 0e9ec1074f5305c12f436336520d7a6703ed0cfa
+ms.sourcegitcommit: 035c9eb6cb630cafd5bd7fc7e2371340043ddc5e
+ms.openlocfilehash: c39e311e8247938cf44068106a9771d2ad7a56e0
 
 
 ---

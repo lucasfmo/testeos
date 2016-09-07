@@ -1,9 +1,9 @@
 ---
 title: "Forgatókönyv – Office-fájl megosztása egy másik szervezet felhasználóival | Azure RMS"
-description: "Ez a forgatókönyv és a kiegészítő felhasználói dokumentáció az Azure Rights Managementet használja, hogy a felhasználók biztonságosan küldhessenek e-mailen keresztül Office-fájlokat más szervezet felhasználóinak. Az Office-fájl például lehet Word-dokumentum, Excel-táblázat vagy PowerPoint-bemutató, amely egy partnereknek szóló árlistát, viszonteladók terméklistáját vagy potenciális vevők szállítási határidőinek listáját tartalmazza. Ha a felhasználók követik az utasításokat, az e-mail-üzenethez csatolt fájlt az Azure Rights Management védelemmel látja el."
+description: "Ez a forgatókönyv és a kiegészítő felhasználói dokumentáció az Azure Rights Managementet használja, hogy a felhasználók biztonságosan küldhessenek e-mailen keresztül Office-fájlokat más szervezet felhasználóinak."
 author: cabailey
 manager: mbaldwin
-ms.date: 08/24/2016
+ms.date: 08/25/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: c10a4d7b-f57a-4a43-b66e-477777be59cc
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
-ms.openlocfilehash: 9615e41666a08a1d66f4e0dbdedb06f02a8efd3e
+ms.sourcegitcommit: 81426cf43f31625c6e83d443fa925f6426eb89da
+ms.openlocfilehash: 26e81330c58057aac9629690f1d4fe85e56a64f8
 
 
 ---
