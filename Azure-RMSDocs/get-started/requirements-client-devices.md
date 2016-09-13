@@ -1,9 +1,9 @@
 ---
 title: "Azure RMS-követelmények&#58; Ügyféleszköz | Azure RMS"
-description: "Az alábbi szakaszok segítségével eldöntheti, hogy mely eszközök támogatják az Azure Rights Management (RMS) szolgáltatást."
+description: "Határozza meg, mely eszközök támogatják az Azure Rights Management (RMS) szolgáltatást."
 author: cabailey
 manager: mbaldwin
-ms.date: 08/24/2016
+ms.date: 08/25/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: 93f8021d-43c5-47fe-ad63-8a1bacff9971
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
-ms.openlocfilehash: 5fe3470fd7a05d8c2c72312e73e2a773c704ad0f
+ms.sourcegitcommit: 81426cf43f31625c6e83d443fa925f6426eb89da
+ms.openlocfilehash: e52720c09e3541a16c2e234bbd336cc7916ccfe1
 
 
 ---

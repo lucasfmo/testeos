@@ -1,9 +1,9 @@
 ---
 title: "Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása | Azure RMS"
-description: "A jelen cikkben található információk segítségével megtervezheti és kezelheti a tartalomvédelmi szolgáltatásbeli (RMS-) bérlőkulcsát az Azure RMS szolgáltatáshoz. Például ahelyett, hogy a Microsoft felügyelné a bérlőkulcsát (alapértelmezett beállítás), Ön is felügyelheti a saját bérlőkulcsát, hogy az megfeleljen a szervezetére vonatkozó speciális szabályozásoknak. A saját bérlőkulcs felügyelete más néven a saját kulcs használata (BYOK)."
+description: "Az alábbi információ segítségével megtervezheti és kezelheti a tartalomvédelmi szolgáltatásbeli (RMS-) bérlőkulcsát az Azure RMS szolgáltatáshoz. Például ahelyett, hogy a Microsoft felügyelné a bérlőkulcsát (alapértelmezett beállítás), Ön is felügyelheti a saját bérlőkulcsát, hogy az megfeleljen a szervezetére vonatkozó speciális szabályozásoknak. A saját bérlőkulcs felügyelete más néven a saját kulcs használata (BYOK)."
 author: cabailey
 manager: mbaldwin
-ms.date: 08/17/2016
+ms.date: 09/01/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: f0d33c5f-a6a6-44a1-bdec-5be1bc8e1e14
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
-ms.openlocfilehash: 3a45a12cba766fed074d8b5fcf861164802d2441
+ms.sourcegitcommit: eec7cc8b20435df11d7b8f89c4b9e9d0f039dc55
+ms.openlocfilehash: 25d47ab488474ed756b3139bb9d42d420cea25f7
 
 
 ---
@@ -64,7 +64,7 @@ A második ábra azt mutatja, milyen további lépések szükségesek abban az e
 
 ![Azure RMS-bérlőkulcs életciklusa – a felhasználó felügyeli, saját kulcs használata](../media/RMS_BYOK_onprem4.png)
 
-Ha úgy dönt, hogy a bérlőkulcsát a Microsoft felügyelje, a kulcs létrehozásához semmilyen további műveletet nem kell elvégeznie, és rögtön a [További lépések](plan-implement-tenant-key.md#next-steps) című szakasszal folytathatja.
+Ha úgy dönt, hogy a bérlőkulcsát a Microsoft felügyelje, a kulcs létrehozásához semmilyen további műveletet nem kell elvégeznie, és rögtön a [További lépések](plan-implement-tenant-key.md#next-steps) című szakasszal folytathatja.  
 
 Ha úgy dönt, hogy a bérlőkulcsot Ön felügyeli, további információkért olvassa el a következő szakaszokat.
 
@@ -74,7 +74,7 @@ Az ebben a szakaszban található információkat és eljárásokat akkor haszn�
 
 
 > [!IMPORTANT]
-> Ha már használatba vette az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] szolgáltatást (tehát a szolgáltatás aktiválva van), és egyes felhasználók az Office 2010-et használják, a következő eljárások futtatása előtt [lépjen kapcsolatba a Microsoft támogatási szolgálatával](../get-started/information-support.md#to-contact-microsoft-support). A forgatókönyvtől és a követelményektől függően így is használhatja a BYOK-t, de csak bizonyos korlátozásokkal vagy további lépések végrehajtása után.
+> Ha olyan bérlőkulccsal kezdte meg az Azure RMS használatát, amelyet a Microsoft kezel, de most mégis ön akarja kezelni ezt a bérlőkulcsot (váltás BYOK-re), egy archivált kulcs segítségével továbbra is elérheti a korábban levédett dokumentumait és e-mailjeit. Ha azonban Office 2010-et futtató felhasználókkal rendelkezik, a lépések megkezdése előtt [forduljon a Microsoft támogatási szolgálatához](../get-started/information-support.md#to-contact-microsoft-support). Ezekhez a számítógépekhez további konfigurációs lépések szükségesek.
 > 
 > Akkor is [lépjen kapcsolatba a Microsoft támogatási szolgálatával](../get-started/information-support.md#to-contact-microsoft-support), ha a szervezete speciális kulcskezelési szabályzatokat használ.
 
@@ -136,6 +136,6 @@ Miután megtervezte, és ha szükséges, létrehozta a bérlőkulcsot, tegye az 
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Sep16_HO1-->
 
 

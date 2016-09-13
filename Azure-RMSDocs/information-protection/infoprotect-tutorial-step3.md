@@ -3,15 +3,15 @@ title: "Azure Information Protection gyors üzembe helyezési útmutató – 3. 
 description: "Egy bevezető oktatóanyag 3. lépése, amellyel gyorsan kipróbálhatja a szervezeténél a Microsoft Azure Information Protection szolgáltatást csupán 4, 15 percnél gyorsabban végrehajtható lépésben."
 author: cabailey
 manager: mbaldwin
-ms.date: 08/10/2016
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 209815b9-81c9-430c-a82f-32cac991449b
 translationtype: Human Translation
-ms.sourcegitcommit: c9f9211e7c1dcf293caf81475515114b5433d6a7
-ms.openlocfilehash: 320cd688ba5aabcb966009907d568033149953e3
+ms.sourcegitcommit: ba6887a5c9bab18867d07cfc98e8416bf102c211
+ms.openlocfilehash: 83ee0eef8262cc1fe4d18e9d183509847adddd97
 
 
 ---
@@ -26,7 +26,7 @@ E lépés során telepíteni kell az Azure Information Protection-ügyfelet, hog
 
 1. [Töltse le az Azure Information Protection-ügyfelet](https://www.microsoft.com/en-us/download/details.aspx?id=53018) a Microsoft letöltőközpontból egy olyan számítógépre, melyen telepítve van az Office (de nincs megnyitva a Word). 
 
-2. Futtassa az **AZInfoProtection.exe** fájlt, és kövesse az ügyfél telepítéséhez szükséges lépéseket.
+2. Futtassa az **AzInfoProtection_v233.exe** fájlt, és kövesse az ügyfél telepítéséhez szükséges lépéseket.
 
     Ebben az oktatóanyagban nem számít, ha egy bemutató szabályzatot telepít, mivel az előző lépés során létrehozott házirend az Azure-portálról letöltve felülírja a most telepített bemutató szabályzatot. Akkor is érdemes a bemutató szabályzatot telepíteni, ha csak szeretné kipróbálni az alapértelmezett címkéket anélkül, hogy kapcsolódna az Azure Information Protection szolgáltatáshoz. 
 
@@ -52,6 +52,6 @@ Most már elvégezheti az utolsó lépést, a besorolás, a címkézés és a v�
 [4. lépés &#187;](infoprotect-tutorial-step4.md)
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

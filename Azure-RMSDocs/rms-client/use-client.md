@@ -1,9 +1,9 @@
 ---
 title: "Rights Management (RMS) ügyfél | Azure RMS"
-description: "A Microsoft Rights Management-szolgáltatások olyan ügyfélkiszolgálói megoldások, ahol az RMS-ügyfél integrálva van a számítógépeken és mobileszközökön futtatott alkalmazásokba, az RMS-szolgáltatás pedig a felhőben (Azure RMS) vagy a helyszínen (AD RMS) található. Bizonyos alkalmazások (például az Office-alkalmazások, az RMS-megosztóalkalmazás, illetve a szoftverszállítóktól származó RMS-kompatibilis alkalmazások) esetében az RMS-ügyfél automatikusan telepítve van. Önmagában is telepíthető azonban, így képes például olyan forgatókönyvek támogatására, amikor a fejlesztők üzletági alkalmazásaiba kívánják integrálni az RMS-védelmet, illetve amikor a rendszergazdák vagy egyes kiemelt felhasználók tömegesen kívánják védelemmel ellátni a fájlokat az RMS Protection eszköz használatával."
+description: "A Microsoft Rights Management-szolgáltatások olyan ügyfélkiszolgálói megoldások, amelyek segítenek megvédeni szervezete adatait. Az RMS-ügyfél integrálva van a számítógépeken és mobileszközökön futtatott alkalmazásokba, az RMS-szolgáltatás pedig a felhőben (Azure RMS) vagy a helyszínen (AD RMS) található."
 author: cabailey
 manager: mbaldwin
-ms.date: 08/24/2016
+ms.date: 08/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
@@ -13,8 +13,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
-ms.openlocfilehash: 234095a733633462ba1a221a5ac6e1e1d47df12b
+ms.sourcegitcommit: 44541b6fe2567d23174b26cb42fec0731f5d3f58
+ms.openlocfilehash: 4561f392abb50fbebcd82a8764ec831b2fbfa746
 
 
 ---

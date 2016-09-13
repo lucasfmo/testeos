@@ -1,9 +1,9 @@
 ---
 title: "Az Azure Rights Management leszerelése és inaktiválása | Azure RMS"
-description: "Mindig ellenőrizni tudja, hogy a szervezete az (Azure RMS) használatával védi-e a tartalmakat, és ha nem kívánja tovább használni ezt az adatvédelmi megoldást, akkor biztos lehet benne, hogy továbbra is hozzáférhet a korábban védett tartalmakhoz. Ha nincs szüksége folyamatos hozzáférésre a korábban védett tartalomhoz, egyszerűen inaktiválja a szolgáltatást, és hagyja lejárni az Azure Rights Management-előfizetést. Ez például akkor lehet megfelelő, ha még az éles környezetben történő üzembe helyezés előtt elvégzi a tesztelést."
+description: "Tájékoztatások és utasítások arra az esetre, ha úgy döntene, hogy nem kívánja többé igénybe venni ezt az információvédelmi megoldást."
 author: cabailey
 manager: mbaldwin
-ms.date: 08/24/2016
+ms.date: 08/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: 0b1c2064-0d01-45ae-a541-cebd7fd762ad
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
-ms.openlocfilehash: 40e4997f67a078ec781f1e7800599554858777a8
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: 275cc46ba34eae246ccc52682073f1f4f90cb8a7
 
 
 ---

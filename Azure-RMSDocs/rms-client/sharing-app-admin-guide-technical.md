@@ -1,9 +1,9 @@
 ---
 title: "A Rights Management megosztóalkalmazás műszaki áttekintése | Azure RMS"
-description: "A Microsoft Rights Management megosztóalkalmazás a Microsoft Windows rendszerre és más platformokra opcionálisan letölthető alkalmazás, amely a következő funkciókkal rendelkezik."
+description: "Technikai információ a vállalati hálózatok rendszergazdái számára, akik a Windows RMS megosztóalkalmazás telepítéséért felelnek."
 author: cabailey
 manager: mbaldwin
-ms.date: 07/15/2016
+ms.date: 08/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: f7b13fa4-4f8e-489a-ba46-713d7a79f901
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
-ms.openlocfilehash: d5e1c7969d2125c4f66d6dcea3bde0c81a7de1f3
+ms.sourcegitcommit: 035c9eb6cb630cafd5bd7fc7e2371340043ddc5e
+ms.openlocfilehash: 2a3640590ca2729da71e847c03823719e92bcb0f
 
 
 ---

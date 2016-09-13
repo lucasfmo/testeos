@@ -1,9 +1,9 @@
 ---
 title: "Fájl védelme egy eszközön (helyi védelem) a Rights Management megosztóalkalmazással | Azure RMS"
-description: "Ha helyileg tesz védetté egy fájlt, azzal lecseréli az eredeti, nem védett fájlt. Ha ezután a helyén hagyja a fájlt, egy másik mappába vagy eszközre másolja, vagy megosztja azt a mappát, amelyikben a fájl található, a fájl akkor is védett marad. A védett fájlt e-mailhez is csatolhatja, azonban a védett fájlt ajánlott közvetlenül a Fájlkezelőből vagy egy Office-alkalmazásból megosztani."
+description: "Utasítások, hogy miként tároljon biztonságosan adatot számítógépén, egy szerveren vagy más tárolóeszközön."
 author: cabailey
 manager: mbaldwin
-ms.date: 07/15/2016
+ms.date: 08/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: 33920329-5247-4f6c-8651-6227afb4a1fa
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
-ms.openlocfilehash: 55f5f9dd0dd90bfa98798b4fc0b4cb4bd3c90076
+ms.sourcegitcommit: 035c9eb6cb630cafd5bd7fc7e2371340043ddc5e
+ms.openlocfilehash: 1d719bcce253dea465be7250806385bca3c23a01
 
 
 ---

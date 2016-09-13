@@ -1,9 +1,9 @@
 ---
 title: "Dokumentumok nyomon követése és visszavonása az RMS megosztóalkalmazás használata során | Azure RMS"
-description: "Miután az RMS megosztóalkalmazás használatával ellátta védelemmel a dokumentumokat, és a szervezet az Azure Rights Managementet használja az Active Directory tartalomvédelmi szolgáltatások helyett, nyomon követheti, hogy a felhasználók hogyan használják a védett dokumentumokat. Ha szükséges, visszavonhatja a dokumentumokhoz való hozzáférést, ha meg szeretné szüntetni a megosztásukat. Ehhez használja a dokumentumkövetési webhelyet, amelyhez Windows rendszerű számítógépekről, Mac számítógépekről, sőt táblagépekről és mobiltelefonokról is hozzáférhet."
+description: "Miután az RMS-megosztó alkalmazással védetté tette dokumentumait, nyomon követheti, hogy a felhasználók hogyan használják a védett dokumentumokat. Ha szükséges, visszavonhatja a dokumentumokhoz való hozzáférést, ha meg szeretné szüntetni a megosztásukat."
 author: cabailey
 manager: mbaldwin
-ms.date: 08/10/2016
+ms.date: 08/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: 61f349ce-bdd2-45c1-acc5-bc83937fb187
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
-ms.openlocfilehash: d27a516339a9687cb5ce117b6a2aa93730863c2d
+ms.sourcegitcommit: 44541b6fe2567d23174b26cb42fec0731f5d3f58
+ms.openlocfilehash: 2117291a7204dae86b3a6d378ab6af4d84435417
 
 
 ---

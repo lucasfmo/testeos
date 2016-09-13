@@ -1,9 +1,9 @@
 ---
 title: "Az RMS-összekötő beállításjegyzékbeli beállításai | Azure RMS"
-description: "Az alábbi szakaszokban található táblázatokat csak akkor használja, ha az Exchange-et, SharePointot vagy Windows Servert futtató kiszolgálókhoz manuálisan szeretne olyan beállításjegyzék-beállításokat hozzáadni, illetve ellenőrizni, amelyek az RMS-összekötő használatára konfigurálják a kiszolgálókat. A kiszolgálók konfigurálásának javasolt módja a Microsoft RMS-összekötő kiszolgálókonfiguráló eszközének használata."
+description: "Információ a RMS-összekötőt használó kiszolgálók beállításjegyzék-beállításairól. A beállítások konfigurálásának javasolt módja a Microsoft RMS-összekötő kiszolgálókonfiguráló eszközének használata."
 author: cabailey
 manager: mbaldwin
-ms.date: 07/13/2016
+ms.date: 08/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: ed3e9a3d-0f7c-4abc-9d0b-aa3b18403d39
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
-ms.openlocfilehash: 49fff7c2e0c06d26751136b681022f221f80d6cd
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: 5ff109543685049be5e89a12ea037de941736547
 
 
 ---

@@ -1,9 +1,9 @@
 ---
 title: "Az Azure Rights Management-összekötő megfigyelése | Azure RMS"
-description: "Az RMS-összekötő telepítése és konfigurálása után az alábbi módszerekkel és információkkal megfigyelheti az összekötőt és a vállalati Azure RMS-használatot."
+description: "Az összekötő figyelésével és szervezete Azure RMS használatával kapcsolatos információ."
 author: cabailey
 manager: mbaldwin
-ms.date: 07/08/2016
+ms.date: 08/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: 8a1b3e54-f788-4f84-b9d7-5d5079e50b4e
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
-ms.openlocfilehash: 11079a491cf9feade86713ef02ccdce79019577a
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: 97b8107e1529271376c21837b3ac357dba9235d2
 
 
 ---

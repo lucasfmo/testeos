@@ -1,6 +1,6 @@
 ---
 title: "Áttelepítés AD RMS-ről Azure Rights Managementre – 3. fázis | Azure RMS"
-description: "Az alábbi, 3. fázisra vonatkozó információk segítséget nyújtanak az AD RMS-ről az Azure Rights Managementre (Azure RMS) való áttelepítésben. Ezek az eljárások megfelelnek az Áttelepítés AD RMS-ről Azure Rights Managementre című cikk 6–7. lépésének."
+description: "Az AD RMS-ről Azure Rights Managementre (Azure RMS) történő áttelepítés 3. szakasza, benne az AD RMS-ről Azure Rights Managementre történő áttelepítés 6-7. lépése."
 author: cabailey
 manager: mbaldwin
 ms.date: 08/17/2016
@@ -12,8 +12,8 @@ ms.assetid: 8b039ad5-95a6-4c73-9c22-78c7b0e12cb7
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
-ms.openlocfilehash: cc605ff22c205846186f7e3ec819ecd826dba4a6
+ms.sourcegitcommit: ada00b6f6298e7d359c73eb38dfdac169eacb708
+ms.openlocfilehash: 5d707e1fac410e5ff959071507044420dbd8cde7
 
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: "RMS megosztóalkalmazás Windows rendszerhez és mobil platformokhoz | Azure RMS"
-description: "Az RMS megosztóalkalmazás egy ingyenes, letölthető alkalmazás, amely az Office 2010 támogatásához szükséges, de a használata ajánlott Windows rendszerű számítógépek, Mac számítógépek és mobileszközök esetén is. Az egyik előnye, hogy általános védelemmel láthat el olyan alkalmazásokat és fájlokat, amelyek nem támogatják natív módon a Rights Management szolgáltatást, ami azt jelenti, hogy minden fájl ellátható védelemmel."
+description: "Az Azure RMS-t támogató RMS megosztóalkalmazás egy ingyenes, letölthető alkalmazás, amely az Office 2010 támogatásához szükséges, de a használata ajánlott Windows rendszerű számítógépek, Mac számítógépek és mobileszközök esetén is."
 author: cabailey
 manager: mbaldwin
 ms.date: 08/24/2016
@@ -12,8 +12,8 @@ ms.assetid: 1da6e372-2b3f-4af7-80f7-6b9073dff7f5
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
-ms.openlocfilehash: 6304c5c29e2dab176fb9d5a617e1467af00ab504
+ms.sourcegitcommit: 43429b44c019144744f39a1f92f144d315c2024c
+ms.openlocfilehash: 21bdcae9432e2edbecaa6eafb35ccefbd3ca372c
 
 
 ---

@@ -1,9 +1,9 @@
 ---
 title: "Gyors üzembe helyezési útmutató az Azure Rights Management szolgáltatáshoz | Azure RMS"
-description: "A jelen útmutatóban foglaltak és az Üzembe helyezés és használat szakasz konfigurációs információinak figyelembevételével még gyorsabban helyezheti üzembe és veheti használatba az Azure Rights Management (Azure RMS) szolgáltatást, meghatározott forgatókönyvek listájából kiválasztva a megvalósítandó változatot."
+description: "Útmutató az Azure Rights Management(Azure RMS) gyors telepítéséhez és használatához, amellyel védheti vállalata adatait. Kezdésképpen a meghatározott forgatókönyvek listájából válassza ki a megvalósítandó változatot."
 author: cabailey
 manager: mbaldwin
-ms.date: 08/24/2016
+ms.date: 08/25/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: c994d616-cff6-4930-9228-a7f7d198a160
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
-ms.openlocfilehash: 93ef6397be2cd4799bd72975de72028ee6a898ed
+ms.sourcegitcommit: 81426cf43f31625c6e83d443fa925f6426eb89da
+ms.openlocfilehash: 715290d2417df3b386d8e5b8a784e964355d4e15
 
 
 ---

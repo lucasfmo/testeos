@@ -1,9 +1,9 @@
 ---
 title: "RMS-védelem és Windows Server fájlbesorolási infrastruktúra (FCI) | Azure RMS"
-description: "A cikk utasításokat és egy parancsfájlt tartalmaz a Rights Management (RMS)-ügyfél RMS Protection eszközzel való használatához, amellyel konfigurálható a Fájlkiszolgálói erőforrás-kezelő és a fájlbesorolási infrastruktúra (FCI)."
+description: "Utasítások a Rights Management- (RMS-) ügyfélnek a RMS Protection eszközzel a Fájlkiszolgálói erőforrás-kezelő és a fájlbesorolási infrastruktúra (FCI) konfigurálására való használatához."
 author: cabailey
 manager: mbaldwin
-ms.date: 06/14/2016
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: 9aa693db-9727-4284-9f64-867681e114c9
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
-ms.openlocfilehash: 431eb994070391a78b0b8e34b1afb668f0981f0f
+ms.sourcegitcommit: b8a7a433652e76ff1069f0f0a7465483b13c065c
+ms.openlocfilehash: b350a35d44e743de94446409b1bba4256ca38728
 
 
 ---
@@ -126,7 +126,7 @@ Az utasítások végrehajtása után a kijelölt mappa összes fájlja az RMS eg
 
     További információkat a Windows PowerShell-parancsfájlokról a PowerShell dokumentációs könyvtárban talál: [about_Signing](https://technet.microsoft.com/library/hh847874.aspx).
 
-4.  Mentse a fájlokat helyileg az összes olyan fájlkiszolgálón, amely a fájlbesorolási infrastruktúrával fogja futtatni a Fájlerőforrás-kezelőt. Például mentse a fájlt a következő helyre: **C:\RMS-Protection**. Biztosítsa a fájlt NTFS-engedélyek használatával, hogy illetéktelen felhasználók ne módosíthassák a fájlt.
+4.  Mentse a fájlokat helyileg az összes olyan fájlkiszolgálón, amely a fájlbesorolási infrastruktúrával fogja futtatni a Fájlerőforrás-kezelőt. Például mentse a fájlt a következő helyre: **C:\RMS-Protection**. Ha más elérési utat vagy mappanevet választ, ne legyen benne szóköz. Biztosítsa a fájlt NTFS-engedélyek használatával, hogy illetéktelen felhasználók ne módosíthassák a fájlt.
 
 Most már készen áll a Fájlkiszolgálói erőforrás-kezelő konfigurálására.
 
@@ -302,6 +302,6 @@ Most már csak annyit kell tennie, hogy létrehoz egy új fájlkezelési feladat
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

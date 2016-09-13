@@ -2,15 +2,15 @@
 title: "Az Azure Information Protection automatikus és javasolt besorolási feltételeinek konfigurálása | Azure Rights Management"
 description: "A címkék feltételeinek konfigurálásakor automatikusan elláthat egy dokumentumot vagy e-mailt egy címkével,  vagy megkérheti a felhasználókat, hogy az Ön által javasolt címkét használják."
 manager: mbaldwin
-ms.date: 08/10/2016
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: e915f959-eafb-4375-8d2c-2f312edf2d29
 translationtype: Human Translation
-ms.sourcegitcommit: c9f9211e7c1dcf293caf81475515114b5433d6a7
-ms.openlocfilehash: 0e6baca43c7a4f2e91f45222f5f6f233b3eeb438
+ms.sourcegitcommit: 87069b73e5f8959955b9967070bd3bcb5e7dc196
+ms.openlocfilehash: 357b012bd8679d7e24bfe3ae40c3160e4b69c01f
 
 
 ---
@@ -27,7 +27,7 @@ A címkék feltételeinek konfigurálásakor automatikusan elláthat egy dokumen
  
 - A javasolt besorolás az elmentett Word-, Excel- és PowerPoint-fájlokra vonatkozik.
 
-A feltételek konfigurálásakor előre meghatározott mintákat használhat, ilyen például a „Credit card numbers” (Bankkártyaszámok) vagy az „USA Social Security Number” (USA-beli társadalombiztosítási szám). Egyéni karakterláncot vagy mintát is megadhat az automatikus besorolás feltételeként. A feltételekről további információt az [Tájékoztatás a beépített feltételekről](#information-about-the-built-in-conditions) szakaszban találhat.
+A feltételek konfigurálásakor előre meghatározott mintákat használhat, ilyen például a „Credit card numbers” (Bankkártyaszámok) vagy az „USA Social Security Number” (USA-beli társadalombiztosítási szám). Egyéni karakterláncot vagy mintát is megadhat az automatikus besorolás feltételeként. Ezek a feltételek a dokumentumok és e-mailek szövegtörzsére, fejlécére és láblécére vonatkoznak. A feltételekről további információt az [Tájékoztatás a beépített feltételekről](#information-about-the-built-in-conditions) szakaszban találhat.
 
 A több címkére vonatkozó feltételek értékelésének módja:
 
@@ -224,6 +224,6 @@ További információt az Azure Information Protection-házirend konfigurálás�
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

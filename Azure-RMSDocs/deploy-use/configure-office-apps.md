@@ -1,6 +1,6 @@
 ---
 title: "Office-alkalmazások; Konfigurálás az ügyfelekhez | Azure RMS"
-description: "Ezen információk alapján eldöntheti, mit kell tennie, hogy a végfelhasználói által használt Office-alkalmazások működjenek az Azure Rights Managementtel (Azure RMS)."
+description: "Tájékoztatás és utasítások rendszergazdák részére az Office-alkalmazások az Azure Rights Managementtel (Azure RMS) való konfigurálásához."
 author: cabailey
 manager: mbaldwin
 ms.date: 08/24/2016
@@ -12,8 +12,8 @@ ms.assetid: ec269afe-4e87-4cc1-9144-5fbb594b412e
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
-ms.openlocfilehash: 562ecbd04ef988130205de06e5dd76084822ca7a
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: a2f4bac460586723ea3d88ecb8fb777a214bacb9
 
 
 ---

@@ -1,16 +1,16 @@
 ---
 title: "Az Azure Information Protection-ügyfél telepítése | Azure Rights Management"
-description: "A dokumentumok és e-mailek az Azure Information Protection-nel való besorolásához először telepítenie kell az Azure Information Protection-ügyfelet. A telepítés után az Office-alkalmazások felületén (Word, Excel, PowerPoint, Outlook) megjelenik az Information Protection-sáv , amely megjeleníti a szervezet besorolási címkéit, valamint az új Protection (Védelem) csoportot és a Protect (Védelem) gombot a Kezdőlapon (Word, Excel, PowerPoint)."
+description: "Útmutató az ügyfél telepítéséhez, amely Information Protection-menüsávot ad az Office-alkalmazásokhoz, így kiválaszthatja dokumentumai és e-mailjei besorolási címkéit."
 manager: mbaldwin
-ms.date: 07/29/2016
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 4445adff-4c5a-450f-aff8-88bf5bd4ca78
 translationtype: Human Translation
-ms.sourcegitcommit: c9f9211e7c1dcf293caf81475515114b5433d6a7
-ms.openlocfilehash: ab8388e03803d32a6891785f905a1ddef796bc25
+ms.sourcegitcommit: 15ca59f34847d20413fbfa7973567cf5ca66db96
+ms.openlocfilehash: c245d542d237216c84941f8718cb9a0cafb44a70
 
 
 ---
@@ -34,7 +34,7 @@ Az ügyfél telepítése előtt ellenőrizze, hogy megfelel-e az operációs ren
 
 ## Az Azure Information Protection-ügyfél manuális telepítése
 
-1. Az [ügyfél letöltése után](https://www.microsoft.com/en-us/download/details.aspx?id=53018) futtassa az **AZInfoProtection.exe** fájlt, és kövesse az ügyfél telepítéséhez szükséges lépéseket. A telepítéshez helyi rendszergazdai engedély szükséges.
+1. Az [ügyfél letöltése után](https://www.microsoft.com/en-us/download/details.aspx?id=53018) futtassa az **AzInfoProtection_v233.exe** fájlt, és kövesse az ügyfél telepítéséhez szükséges lépéseket. A telepítéshez helyi rendszergazdai engedély szükséges.
 
     Ha nem tud csatlakozni az Office 365 vagy az Azure Active Directory szolgáltatásaihoz, de egy helyi, bemutató jellegű házirenddel szeretné megismerni az Azure Information Protection ügyféloldalát, válassza a bemutató házirend telepítését. Amikor az ügyfél egy Azure Information Protection-szolgáltatáshoz csatlakozik, a bemutató házirendet helyére a szervezeti Azure Information Protection-házirend kerül. 
 
@@ -42,9 +42,9 @@ Az ügyfél telepítése előtt ellenőrizze, hogy megfelel-e az operációs ren
 
 ## Az Azure Information Protection-ügyfél telepítése felhasználók számára
 
-- Az Azure Information Protection-ügyfél telepítését parancsfájlokkal automatizálhatja az AZInfoProtection.exe becsomagolásával és a szabványos [Windows Installer (msiexec.exe) parancssori beállításokkal](https://technet.microsoft.com/library/cc759262(v=ws.10).aspx).
+- A parancssori kapcsolók használatával parancsot adhat és automatizálhatja Azure Information Protection-ügyfél telepítését. A telepítés opciók megjelenítéséhez futtassa a `AzInfoProtection_v233.exe /help`-t.
 
-    Ha például a létrehozott becsomagolt verzió neve InfoProtect.msi, és csendes telepítést szeretne: `msiexec /qn InfoProtection.msi`
+    Például az ügyfél csendes telepítése: `AzInfoProtection_v233.exe /passive | quiet`
 
 
 ## Az Azure Information Protection-ügyfél eltávolítása
@@ -88,6 +88,6 @@ Az alapértelmezett házirend testreszabásáról és az Office-alkalmazásokban
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Használati jogosultságok konfigurálása az Azure Rights Managementhez | Azure RMS"
-description: "Amikor az Azure Rights Management (Azure RMS) segítségével lát el védelemmel fájlokat vagy e-maileket, és nem használ sablont, saját magának kell konfigurálnia a használati jogosultságokat. Továbbá, amikor egyéni sablonokat konfigurál az Azure RMS számára, ki kell választania a használati jogosultságokat, amelyeket a rendszer automatikusan alkalmazni fog, amikor a felhasználók, a rendszergazdák vagy a konfigurált szolgáltatások kiválasztják a sablont."
+description: "Ismerje meg és határozza meg azokat a különleges jogokat, amikkel az Azure Rights Management (Azure RMS) használatakor védjük dokumentumait és e-mailjeit."
 author: cabailey
 manager: mbaldwin
 ms.date: 08/25/2016
@@ -12,8 +12,8 @@ ms.assetid: 97ddde38-b91b-42a5-8eb4-3ce6ce15393d
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e1f1bef9ce87dcffb8d3da920f19198aa253e8e6
-ms.openlocfilehash: bbfb00822a03609f5b81808e1e1c4cad8c02be0b
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: ab1b2f652d34183e1d95fd0a387abb10c3aff9b1
 
 
 ---

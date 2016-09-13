@@ -1,9 +1,9 @@
 ---
 title: "Az Azure Rights Management aktiválása | Azure RMS"
-description: "Az (Azure RMS) aktiválásakor a szervezete megkezdheti a fontos adatok védelmét az ezen adatvédelmi megoldást támogató alkalmazások és szolgáltatások használatával. A rendszergazdák ezenkívül kezelhetik és megfigyelhetik a szervezete tulajdonában lévő védett fájlokat és e-maileket. Az Office, a SharePoint és az Exchange szoftverekben lévő tartalomvédelmi szolgáltatások (IRM) használatának és az érzékeny vagy bizalmas fájlok védelmének megkezdéséhez engedélyezni kell a szolgáltatást."
+description: "Aktiválnia kell az (Azure RMS-t), mielőtt szervezete megkezdheti a fontos adatok védelmét az ezen adatvédelmi megoldást támogató alkalmazások és szolgáltatások használatával."
 author: cabailey
 manager: mbaldwin
-ms.date: 08/24/2016
+ms.date: 08/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: f8707e01-b239-4d1a-a1ea-0d1cf9a8d214
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
-ms.openlocfilehash: d8ec823553934442ecb1e0a0b288eaa6d9c21ea6
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: 2a0e1984e76ae355bfab099e0aced956ef93a7de
 
 
 ---

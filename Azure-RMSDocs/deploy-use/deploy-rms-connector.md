@@ -1,9 +1,9 @@
 ---
 title: "Az Azure Rights Management-összekötő központi telepítése | Azure RMS"
-description: "Az alábbi információkból többet megtudhat az Azure Rights Management- (RMS-) összekötőről, és hogy az miként használható adatvédelem biztosítására Microsoft Exchange Servert, Microsoft SharePoint Servert vagy Windows Servert és a Fájlkiszolgálói erőforrás-kezelő Fájlbesorolási infrastruktúra (FCI) képességét használó fájlkiszolgálókat használó meglévő helyszíni telepítésekkel."
+description: "Információ az Azure Rights Management- (RMS-) összekötő telepítéséről, amely adatvédelmet biztosít a Microsoft Exchange Servert, Microsoft SharePoint Servert vagy Windows Servert és a Fájlkiszolgálói erőforrás-kezelő Fájlbesorolási infrastruktúra (FCI) képességét használó fájlkiszolgálókat használó meglévő helyszíni telepítéseknek."
 author: cabailey
 manager: mbaldwin
-ms.date: 08/24/2016
+ms.date: 08/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: 90e7e33f-9ecc-497b-89c5-09205ffc5066
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
-ms.openlocfilehash: 003dcc6a000d303fc42204d61145cf067dc16d32
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: 7569a53f035e3333ee7ee00cb83b83b3126a6eb1
 
 
 ---
@@ -22,21 +22,23 @@ ms.openlocfilehash: 003dcc6a000d303fc42204d61145cf067dc16d32
 
 >*A következőkre vonatkozik: Azure Rights Management, Windows Server 2012, Windows Server 2012 R2*
 
-Az alábbi információkból többet megtudhat az Azure Rights Management- (RMS-) összekötőről, és hogy az miként használható adatvédelem biztosítására Microsoft Exchange Servert, Microsoft SharePoint Servert vagy Windows Servert és a Fájlkiszolgálói erőforrás-kezelő Fájlbesorolási infrastruktúra (FCI) képességét használó fájlkiszolgálókat használó meglévő helyszíni telepítésekkel.
+Ezzel az információval és útmutatóval telepítheti Az Azure Rights Management (RMS)-összekötőt. Ez az összekötő adatvédelmet biztosít a Microsoft Exchange Servert, Microsoft SharePoint Servert vagy Windows Servert és a Fájlkiszolgálói erőforrás-kezelő Fájlbesorolási infrastruktúra (FCI) képességét használó fájlkiszolgálókat használó meglévő helyszíni telepítéseknek.
 
 > [!TIP]
 > Képernyőképeket tartalmazó magas szintű példáért olvassa el [Az Azure RMS működés közben](../understand-explore/what-admins-users-see.md) című cikk [Fájlok automatikus védelme a Windows Server rendszert és a Fájlbesorolási infrastruktúrát futtató fájlkiszolgálókon](../understand-explore/what-admins-users-see.md#automatically-protecting-files-on-file-servers-running-windows-server-and-file-classification-infrastructure) szakaszát.
 
 ## A Microsoft Rights Management-összekötő áttekintése
-A Microsoft Rights Management- (RMS-) összekötő segítségével gyorsan engedélyezheti a helyszíni kiszolgálók számára a tartalomvédelmi szolgáltatások (IRM) használatát a felhőalapú Microsoft Rights Management szolgáltatással (Azure RMS). Ezzel a funkcióval az informatikai részleg és a felhasználók egyszerűen védhetik a dokumentumokat és a képeket a szervezeten belül és kívül is, és nem kell további infrastruktúrát üzembe helyezniük, vagy megbízhatósági kapcsolatot létesíteniük más szervezetekkel. Akkor is használhatja ezt az összekötőt, ha a felhasználói egy része online szolgáltatásokhoz csatlakozik egy hibrid forgatókönyvben. Vegyük például, hogy a felhasználók egy részének postafiókja Exchange Online-t, egy másik részének postafiókja pedig Exchange Servert használ. Az RMS-összekötő telepítése után az összes felhasználó védheti és használhatja az e-maileket és a mellékleteket az Azure RMS segítségével, és az adatvédelem hibátlanul működik a két telepítési konfiguráció között.
+A Microsoft Rights Management- (RMS-) összekötő segítségével gyorsan engedélyezheti a helyszíni kiszolgálók számára a tartalomvédelmi szolgáltatások (IRM) használatát a felhőalapú Microsoft Rights Management szolgáltatással (Azure RMS). Ezzel a funkcióval az informatikai részleg és a felhasználók egyszerűen védhetik a dokumentumokat és a képeket a szervezeten belül és kívül is, és nem kell további infrastruktúrát üzembe helyezniük, vagy megbízhatósági kapcsolatot létesíteniük más szervezetekkel. 
+
+Akkor is használhatja ezt az összekötőt, ha a felhasználói egy része online szolgáltatásokhoz csatlakozik egy hibrid forgatókönyvben. Vegyük például, hogy a felhasználók egy részének postafiókja Exchange Online-t, egy másik részének postafiókja pedig Exchange Servert használ. Az RMS-összekötő telepítése után az összes felhasználó védheti és használhatja az e-maileket és a mellékleteket az Azure RMS segítségével, és az adatvédelem hibátlanul működik a két telepítési konfiguráció között.
 
 Az RMS-összekötő egy kis erőforrásigénnyel rendelkező szolgáltatás, amely Windows Server 2012 R2, Windows Server 2012 vagy Windows Server 2008 R2 rendszert futtató helyszíni kiszolgálókon telepíthető. Az összekötőt fizikai számítógépeken kívül futtathatja virtuális gépeken is, beleértve az Azure IaaS virtuális gépeket. Az összekötő a telepítés és a konfigurálás után úgy működik, mint egy kommunikációs interfész (továbbító) a helyszíni kiszolgálók és a felhőszolgáltatás között.
 
-Ha saját bérlőkulcsa van az Azure RMS-hez („saját kulcs használata” vagy BYOK forgatókönyv), az RMS-összekötő és az azt használó helyszíni kiszolgálók nem férnek hozzá a biztonsági kulcsot tartalmazó hardveres biztonsági modulhoz (HSM). Ennek az az oka, hogy az összes bérlőkulcsot használó kriptográfiai művelet az Azure RMS-en, és nem a helyszíni kiszolgálókon zajlik.
+Ha saját bérlőkulcsa van az Azure RMS-hez („saját kulcs használata” vagy BYOK-forgatókönyv), az RMS-összekötő és az azt használó helyszíni kiszolgálók nem férnek hozzá a biztonsági kulcsot tartalmazó hardveres biztonsági modulhoz (HSM). Ennek az az oka, hogy az összes bérlőkulcsot használó kriptográfiai művelet az Azure RMS-en, és nem a helyszíni kiszolgálókon zajlik.
 
 ![Az RMS-összekötő architektúrájának áttekintése](../media/RMS_connector.png)
 
-Az RMS-összekötő az alábbi helyszíni kiszolgálókat támogatja: az Exchange Server, a SharePoint Server, valamint a Windows Servert futtató és egy mappa Office-dokumentumainak besorolásához és a vonatkozó házirendek alkalmazásához fájlbesorolási infrastruktúrát (FCI) használó fájlkiszolgálók. Ha az összes fájlt a fájlbesorolás segítségével szeretné védeni, ne használja az RMS-összekötőt. Helyette [tartalomvédelmi parancsmagokat](https://msdn.microsoft.com/library/azure/mt433195.aspx) használjon.
+Az RMS-összekötő az alábbi helyszíni kiszolgálókat támogatja: az Exchange Server, a SharePoint Server, valamint a Windows Servert futtató és egy mappa Office-dokumentumainak besorolásához és a vonatkozó házirendek alkalmazásához fájlbesorolási infrastruktúrát (FCI) használó fájlkiszolgálók. Ha az összes fájlt a fájlbesorolási infrastruktúra segítségével szeretné védeni, ne használja az RMS-összekötőt. Helyette [tartalomvédelmi parancsmagokat](https://msdn.microsoft.com/library/azure/mt433195.aspx) használjon.
 
 > [!NOTE]
 > Ezen helyszíni kiszolgálók támogatott verzióiért lásd: [Az Azure RMS-t támogató helyszíni kiszolgálók](..\get-started\requirements-servers.md).

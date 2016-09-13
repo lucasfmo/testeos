@@ -1,16 +1,16 @@
 ---
 title: "HYOK-korlátozások | Azure Rights Management"
-description: "Amikor a legbizalmasabb dokumentumok és e-mailek védelméről van szó, rendszerint az Azure Rights Management alkalmazása szükséges, hogy az alábbiakban felsorolt szolgáltatások elérhetőek legyenek."
+description: "Ha az AD RMS védelmi szolgáltatásokat választja Azure Information Protectionnel, határozza meg a korlátozásokat, előfeltételeket és javaslatokat. Ezt olykor a „hold your own key - HYOK” (saját tulajdonú kulcs)-módszerének nevezik."
 manager: mbaldwin
-ms.date: 08/18/2016
+ms.date: 08/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 7667b5b0-c2e9-4fcf-970f-05577ba51126
 translationtype: Human Translation
-ms.sourcegitcommit: c9f9211e7c1dcf293caf81475515114b5433d6a7
-ms.openlocfilehash: cb12abb4dfe96135317facf4284c0eae7ef38196
+ms.sourcegitcommit: da0145444a7d0abb6407ed2ccbb581d4dcdd10d6
+ms.openlocfilehash: 0d6a5013f953931a6bffa28e1c3c1f282a2c668b
 
 
 ---

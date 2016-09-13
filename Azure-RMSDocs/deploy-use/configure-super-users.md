@@ -1,9 +1,9 @@
 ---
 title: "Felügyelők konfigurálása az Azure Rights Management és a felderítési szolgáltatások vagy adat-helyreállítás számára | Azure RMS"
-description: "A Microsoft Azure RMS felügyelői funkciója biztosítja, hogy a jogosult személyek és szolgáltatások mindig hozzáférjenek és vizsgálhassák az Azure RMS-védelemmel ellátott szervezeti adatokat. Ezenkívül, szükség esetén eltávolítja a védelmet, vagy módosítja az előzőleg alkalmazott védelmet. A felügyelők teljes tulajdonosi jogokat kapnak minden, a szervezet RMS-bérlője által biztosított összes használati licenchez. Ez a képesség más néven az „adatok indoklása”, és lényeges elem a szervezet adatai feletti irányítás megőrzéséhez."
+description: "Ismerje meg és hajtsa végre a Microsoft Azure RMS felügyelői funkcióját, amely biztosítja, hogy a jogosult személyek és szolgáltatások mindig hozzáférjenek és vizsgálhassák az Azure RMS-védelemmel ellátott szervezeti adatokat. Ez a képesség más néven az „adatok indoklása”, és lényeges elem a szervezet adatai feletti irányítás megőrzéséhez."
 author: cabailey
 manager: mbaldwin
-ms.date: 08/24/2016
+ms.date: 08/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: acb4c00b-d3a9-4d74-94fe-91eeb481f7e3
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
-ms.openlocfilehash: 32da3f280b7dc8fa0655ae65d904864d80b9a035
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: ac0d2c991bdd13c31c46a9579ac1a6d2150557b6
 
 
 ---

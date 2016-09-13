@@ -1,9 +1,9 @@
 ---
 title: "A BYOK díjszabása és korlátozásai | Azure RMS"
-description: "Az Azure Rights Managementet tartalmazó előfizetéssel rendelkező szervezetek külön díjfizetés nélkül használhatnak ügyfél által felügyelt kulcsokat (BYOK) az Azure Key Vaultban, és naplózhatják annak használatát. Az Azure Key Vault használatához azonban a HSM által védett kulcsokkal rendelkező Key Vaultot támogató Azure-előfizetés szükséges. A kulcsok használata az Azure Key Vaultban havi díjfizetési kötelezettséggel jár. További információt az Azure Key Vault díjszabását ismertető weblapon talál."
+description: "Ismerje meg a korlátozásokat, ha ügyfél által felügyelt kulcsokat („bring your own key” azaz BYOK) használ az Azure RMS-szel."
 author: cabailey
 manager: mbaldwin
-ms.date: 08/17/2016
+ms.date: 08/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: f5930ed3-a6cf-4eac-b2ec-fcf63aa4e809
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
-ms.openlocfilehash: 8505032a2a12f84c245e834e71d0b7b0d12e894f
+ms.sourcegitcommit: ada00b6f6298e7d359c73eb38dfdac169eacb708
+ms.openlocfilehash: d704f3d9357993bdb01a38cda6f434ab1583b627
 
 
 ---

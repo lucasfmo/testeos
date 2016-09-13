@@ -1,9 +1,9 @@
 ---
 title: "Az Azure Rights Management ellenőrzése | Azure RMS"
-description: "Az Azure RMS rendszer aktiválását, illetve a szervezet által megkövetelt konfigurációs lépések végrehajtását követően a szolgáltatás elvárt működésének ellenőrzését egy fájl vagy e-mail-üzenet védelemmel történő ellátásával teheti meg egy adott felhasználói fiókból, majd a védett tartalom megnyitásának és használatának megkísérlésével egy másik felhasználói fiókból."
+description: "Utasítások annak ellenőrzésére, hogy a szolgáltatás rendeltetésszerűen működik. Úgy védi a fájlt vagy az e-mail szövegét, hogy egy felhasználói fiókot használ, majd ezen védett tartalom megnyitása és felhasználása egy másik felhasználói fiókból történik."
 author: cabailey
 manager: mbaldwin
-ms.date: 08/24/2016
+ms.date: 08/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: 08664a01-81a5-4fa5-884c-7306ee55dba0
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
-ms.openlocfilehash: b24fa3540e4e9b9cc02ba3bcd83f5864ce8674d6
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: aed609eb3562f670fd85ca8138bcd89cdc7800fd
 
 
 ---

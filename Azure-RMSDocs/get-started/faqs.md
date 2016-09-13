@@ -3,7 +3,7 @@ title: "Gyakori kérdések az Azure Rights Management szolgáltatásról | Azure
 description: "Néhány gyakran feltett kérdés a Microsoft Azure Rights Management (más néven Azure RMS) termékről."
 author: cabailey
 manager: mbaldwin
-ms.date: 07/13/2016
+ms.date: 09/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: 71ce491f-41c1-4d15-9646-455a6eaa157d
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
-ms.openlocfilehash: 906e544cc3c9be6ba475502e3cdb93f2e047da7f
+ms.sourcegitcommit: 47328bc0c3cc66e99a98b7c8abc553f25d956404
+ms.openlocfilehash: e485286a0bd42bbcfb46a8aabe4d2ee66d65b4a1
 
 
 ---
@@ -121,7 +121,7 @@ Az Azure RMS eredetileg nem támogatta a Rights Management helyszíni telepíté
 További információ: [Áttelepítés AD RMS-ről Azure Rights Managementre](../plan-design/migrate-from-ad-rms-to-azure-rms.md).
 
 ## Nagyon szeretnénk az Azure RMS-sel használni a BYOK-t, de megtudtuk, hogy nem kompatibilis az Exchange Online-nal. Mit tanácsolnak?
-Emiatt a jelenlegi korlátozás miatt ne halassza el az Azure RMS bevezetését. Ha rendelkezik Exchange Online-nal, és saját kulcsot szeretne használni (BYOK), javasoljuk, hogy az Azure RMS-t az alapértelmezett kulcsfelügyeleti módban helyezze üzembe, amelyben a kulcsát a Microsoft állítja elő és kezeli. Így azonnal élhet a fontos fájlok és e-mailek védelmének összes előnyével, és később még mindig átválthat BYOK használatra (például, ha az Exchange Online már támogatni fogja a BYOK-t).
+Emiatt a jelenlegi korlátozás miatt ne halassza el az Azure RMS bevezetését. Ha rendelkezik Exchange Online-nal, és saját kulcsot szeretne használni (BYOK), javasoljuk, hogy az Azure RMS-t az alapértelmezett kulcsfelügyeleti módban helyezze üzembe, amelyben a kulcsát a Microsoft állítja elő és kezeli. Így azonnal élhet a fontos fájlok és e-mailek védelmének összes előnyével, és később még mindig átválthat BYOK használatra (például, ha az Exchange Online már támogatni fogja a BYOK-t). Ha a BYOK-ra vált, továbbra is elérheti a korábban védetté tett dokumentumait és e-mailjeit archivált kulcs segítségével.
 
 Ha viszont a vállalata házirendje előírja, hogy hardveres biztonsági modult (HSM) használjon, és az másképp blokkolná az Azure RMS bevezetését, egy másik lehetőség, hogy telepíti az Azure RMS-t BYOK-val most, az Exchange-hez korlátozott RMS-funkciókkal. További információt [Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása](../plan-design/plan-implement-tenant-key.md) című cikk [A BYOK díjszabása és korlátozásai](../plan-design/byok-price-restrictions.md) című szakaszában találhat.
 
@@ -223,6 +223,6 @@ Ez a gyakori kérdéseket tartalmazó oldal rendszeresen frissül. Az új elemek
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 

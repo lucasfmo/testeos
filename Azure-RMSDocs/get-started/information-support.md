@@ -1,9 +1,9 @@
 ---
 title: "Információk és támogatás az Azure Rights Managementhez | Azure RMS"
-description: "A Microsoft Azure RMS termékre vonatkozó további információkat az alábbi forrásokban találja."
+description: "A Microsoft Azure RMS termékre vonatkozó további információkat az alábbi forrásokban találja. Információt találhat a termékcsoport blogjáról, a támogatási lehetőségekről, valamint arról is, hogy miként léphet kapcsolatba a Microsofttal a probléma jelentése érdekében."
 author: cabailey
 manager: mbaldwin
-ms.date: 06/29/2016
+ms.date: 08/25/2016
 ms.topic: get-started-article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: 7cc73d92-27d6-49ff-a8ab-2fae73519b4b
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
-ms.openlocfilehash: 9084d8eab83e0be8f545575f12d70d2338c4763d
+ms.sourcegitcommit: 81426cf43f31625c6e83d443fa925f6426eb89da
+ms.openlocfilehash: 86a5948b12be69998fb9f2d9ee7f736cc70efd84
 
 
 ---

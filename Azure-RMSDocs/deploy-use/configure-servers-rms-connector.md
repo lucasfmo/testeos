@@ -1,9 +1,9 @@
 ---
 title: "Kiszolgálók konfigurálása az Azure Rights Management-összekötő használatához | Azure RMS"
-description: "Az alábbi információk segítségével konfigurálhatja a helyszíni kiszolgálókat az Azure Rights Management- (RMS-) összekötő használatához. Ezeket az eljárásokat a Deploying the Azure Rights Management connector (Az Azure Rights Management-összekötő üzembe helyezése) című témakör 5. lépése is ismerteti."
+description: "A helyszíni kiszolgálóknak az Azure Rights Management- (RMS-) összekötő használatához való konfigurálásához szükséges tudnivalók. Ezeket az eljárásokat a Deploying the Azure Rights Management connector (Az Azure Rights Management-összekötő üzembe helyezése) című témakör 5. lépése is ismerteti."
 author: cabailey
 manager: mbaldwin
-ms.date: 06/08/2016
+ms.date: 06/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: 75846ee1-2370-4360-81ad-e2b6afe3ebc9
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
-ms.openlocfilehash: d2b15dac1f2b2163ff72d80c97ca0d5da44fd13c
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: 67bf5f7b5a550e723ac16707c341f6b3af054b9a
 
 
 ---

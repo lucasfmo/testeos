@@ -1,9 +1,9 @@
 ---
 title: "Egyéni sablonok konfigurálása az Azure Rights Management szolgáltatáshoz | Azure RMS"
-description: "Miután aktiválta az Azure Rights Management (Azure RMS) szolgáltatást, a felhasználók automatikusan két alapértelmezett sablont használhatnak, amelyek megkönnyítik számukra, hogy olyan házirendeket alkalmazzanak az érzékeny fájlokra, amelyek a fájlokhoz való hozzáférést a szervezeten belüli jogosult felhasználókra korlátozzák. Ez a két sablon a következő jogmegadási korlátozást biztosítja."
+description: "Tájékoztatás és utasítások rendszergazdák részére a használati jogosultságok sablonjainak konfigurálásához és felügyeletéhez. Olyan sablonokat használhat, amelyekkel könnyedén alkalmazhat házirendeket az érzékeny fájlokra, amelyek a fájlokhoz való hozzáférést a jogosult felhasználókra korlátozzák."
 author: cabailey
 manager: mbaldwin
-ms.date: 06/03/2016
+ms.date: 08/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: 1775d8d0-9a59-42c8-914f-ce285b71ac1c
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
-ms.openlocfilehash: 83db5e11a4603523d7c4a86921fbdafb5f6fbfb5
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: 4f04a8b892cfb1f1ab62d1810fae172ad8bc9747
 
 
 ---

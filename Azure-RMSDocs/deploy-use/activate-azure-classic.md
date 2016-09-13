@@ -1,9 +1,9 @@
 ---
 title: "Az Azure Rights Management aktiválása a klasszikus Azure-portálról | Azure RMS"
-description: "Akkor használja ezeket az utasításokat, ha hozzáfér az Azure-portálhoz. Például Nagyvállalati mobilitási csomaggal vagy prémium szintű Azure Rights Management-előfizetéssel rendelkezik."
+description: "Az Azure RMS aktiválásának utasításai, amennyiben rendelkezik Azure-portálhoz való hozzáféréssel. Például Nagyvállalati mobilitási csomaggal vagy prémium szintű Azure Rights Management-előfizetéssel rendelkezik."
 author: cabailey
 manager: mbaldwin
-ms.date: 06/27/2016
+ms.date: 08/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: 9b0a0227-88ce-44b8-ba3f-31eeaab27ff7
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
-ms.openlocfilehash: 573aa437d8449212bd2f22b532342e4c7e3a1be6
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: ab3b5d71e8cee2ece7fad4c9c3017de7d6eca979
 
 
 ---

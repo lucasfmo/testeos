@@ -1,9 +1,9 @@
 ---
 title: "Áttelepítés AD RMS-ről Azure Rights Managementre | Azure RMS"
-description: "A következő útmutatók használatával áttelepítheti Active Directory tartalomvédelmi szolgáltatásainak (AD RMS) telepítését az Azure Rights Management (Azure RMS) rendszerbe. Az áttelepítés után a felhasználók továbbra is hozzáférhetnek a dokumentumokhoz és e-mailekhez, amelyeket a szervezete az AD RMS használatával védett. Az újonnan védett tartalom az Azure RMS-t fogja használni."
+description: "Útmutató áttelepítéshez: az Active Directory tartalomvédelmi szolgáltatásainak (AD RMS) telepítése az Azure Rights Management (Azure RMS) rendszerbe. Az áttelepítés után a felhasználók továbbra is hozzáférhetnek a dokumentumokhoz és e-mailekhez, amelyeket a szervezete az AD RMS használatával védett. Az újonnan védett tartalom az Azure RMS-t fogja használni."
 author: cabailey
 manager: mbaldwin
-ms.date: 08/17/2016
+ms.date: 08/25/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: 828cf1f7-d0e7-4edf-8525-91896dbe3172
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
-ms.openlocfilehash: bead12db04e6fcf2f9e4af5148d3f8a4ef4089da
+ms.sourcegitcommit: ada00b6f6298e7d359c73eb38dfdac169eacb708
+ms.openlocfilehash: 6aa75f5e6b326068951b3d4d65f337c15a475029
 
 
 ---

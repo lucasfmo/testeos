@@ -1,9 +1,9 @@
 ---
 title: "Rendszergazdai útmutató a Rights Management megosztóalkalmazáshoz | Azure RMS"
-description: "Ha a Microsoft Rights Management megosztóalkalmazás vállalati hálózaton való telepítéséért felelős, vagy ha több technikai információt szeretne elérni, mint amennyi a Rights Management megosztóalkalmazás felhasználói útmutatója vagy A Microsoft Rights Management megosztóalkalmazás Windowsra kiadott verziójával kapcsolatos gyakori kérdések szakaszban található, használja az alábbi információkat."
+description: "Útmutató és információ vállalati hálózatok rendszergazdái számára, akik a Windows Microsoft Rights Management megosztóalkalmazás telepítéséért felelősek."
 author: cabailey
 manager: mbaldwin
-ms.date: 08/05/2016
+ms.date: 08/29/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: d9992e30-f3d1-48d5-aedc-4e721f7d7c25
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
-ms.openlocfilehash: 9b0c608ac30e2a93b898dcc1de9ccfa4cdeedcb4
+ms.sourcegitcommit: 575d52efb788956b0a711e908a730b677e1f7f9c
+ms.openlocfilehash: 113a49586b4582ec984678df6730c6b554ff6a75
 
 
 ---
@@ -26,7 +26,7 @@ ms.openlocfilehash: 9b0c608ac30e2a93b898dcc1de9ccfa4cdeedcb4
 
 Ha a Microsoft Rights Management megosztóalkalmazás vállalati hálózaton való telepítésért felelős, vagy ha több technikai információt szeretne elérni, mint amennyi a [Rights Management megosztóalkalmazás felhasználói útmutatója](sharing-app-user-guide.md) vagy [A Microsoft Rights Management megosztóalkalmazás Windowsra kiadott verziójával kapcsolatos gyakori kérdések](http://go.microsoft.com/fwlink/?LinkId=303971) szakaszban található, használja az alábbi információkat.
 
-Az RMS megosztóalkalmazás legjobban az Azure RMS szolgáltatással működik, mert ez az üzembe helyezési konfiguráció támogatja a védett mellékletek küldését más szervezethez tartozó felhasználók számára, valamint egyéb lehetőségeket is, mint az e-mail értesítések, a dokumentumkövetés és a visszahívás.  Bizonyos korlátozások mellett azonban az alkalmazás működik a helyszíni verzióval, az AD RMS-sel is. Az Azure RMS és az AD RMS által támogatott szolgáltatások átfogó összehasonlításával kapcsolatban lásd: [Az Azure Rights Management és az AD RMS összehasonlítása](../understand-explore/compare-azure-rms-ad-rms.md). Ha az AD RMS-ről szeretne áttérni az Azure RMS-re, lásd: [Áttelepítés AD RMS-ről Azure Rights Managementre](../plan-design/migrate-from-ad-rms-to-azure-rms.md).
+Az RMS megosztóalkalmazás legjobban az Azure RMS szolgáltatással működik, mert ez az üzembe helyezési konfiguráció támogatja a védett mellékletek küldését más szervezethez tartozó felhasználók számára, valamint egyéb lehetőségeket is, mint az e-mail értesítések, a dokumentumkövetés és a visszahívás. Bizonyos korlátozások mellett azonban az alkalmazás működik a helyszíni verzióval, az AD RMS-sel is. Az Azure RMS és az AD RMS által támogatott szolgáltatások átfogó összehasonlításával kapcsolatban lásd: [Az Azure Rights Management és az AD RMS összehasonlítása](../understand-explore/compare-azure-rms-ad-rms.md). Ha az AD RMS-ről szeretne áttérni az Azure RMS-re, lásd: [Áttelepítés AD RMS-ről Azure Rights Managementre](../plan-design/migrate-from-ad-rms-to-azure-rms.md).
 
 A Rights Management megosztóalkalmazás technikai ismertetését, valamint a natív és általános védelemről, a támogatott fájltípusokról, a fájlnévkiterjesztésekről, illetve az alapértelmezett védelmi szint módosításáról szóló információkat a [Technical overview and protection details for the Rights Management sharing application](sharing-app-admin-guide-technical.md) (A Rights Management megosztóalkalmazás technikai áttekintése és védelmi adatai) című témakörben találja. 
 
@@ -155,9 +155,16 @@ A sikeresség ellenőrzéséhez tekintse meg jelen cikk [A telepítés sikeress�
 
     -   64 bites Windows 7 esetén:
 
-        ```
-        x64\win7\aadrmpep.exe /configureO2010
-        ```
+            pushd x64\win7
+            aadrmpep.exe /configureO2010
+            popd
+
+    -   32 bites Windows 7 esetén:
+
+            pushd x86\win7
+            aadrmpep.exe /configureO2010
+            popd
+
 
 A sikeresség ellenőrzéséhez tekintse meg jelen cikk [A telepítés sikerességének ellenőrzése](#verifying-installation-success) szakaszát.
 
@@ -395,6 +402,6 @@ A védelmi szintek (natív és általános) közötti különbségeket, a támog
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Aug16_HO5-->
 
 
