@@ -3,7 +3,7 @@ title: "Office-alkalmazások és -szolgáltatások | Azure RMS"
 description: "A végfelhasználói Office-alkalmazások (például Word, Excel, PowerPoint és Outlook) és az Office-szolgáltatások (például Exchange és SharePoint) a Microsoft Azure Rights Management segítségével védelmet biztosíthatnak a szervezet adatai számára."
 author: cabailey
 manager: mbaldwin
-ms.date: 08/25/2016
+ms.date: 09/06/2016
 ms.topic: article
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: 388e67cd-c16f-4fa0-a7bb-ffe0def2be81
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 43429b44c019144744f39a1f92f144d315c2024c
-ms.openlocfilehash: 76200a27b31bc9a7afaea4ab6b2083beb3c85256
+ms.sourcegitcommit: f0871436caef79187349d700d190564b08cc9e46
+ms.openlocfilehash: 1e1a52e637671d857fac22c51a635e726fa99b01
 
 
 ---
@@ -61,7 +61,6 @@ SharePoint Server használata esetén az RMS-összekötő telepítésével alkal
 > 
 > -   A klasszikus Azure-portálon kezelt, alapértelmezett vagy egyéni sablonok nem használhatók.
 > -   A védett PDF-fájlokhoz tartozó, .PPDF fájlnév-kiterjesztésű fájlok nem támogatottak. A .PDF fájlnév-kiterjesztésű és natív RMS-védelemmel ellátott fájlok a natív RMS-támogatással ellátott PDF-olvasók használata esetén támogatottak.
-> -   Mivel az Office a mobileszközök esetében még nem támogatja az RMS alkalmazását, az RMS-védelemmel ellátott fájlok megtekintése ezeken az eszközökön böngészőben lehetséges, és a fájlok írásvédettek.
 
 Az Azure RMS használati korlátozásokat és adattitkosítást alkalmaz a dokumentumokra azok SharePointról történő letöltésekor, a dokumentumok SharePointban történő első létrehozásakor vagy a könyvtárba történő feltöltésekor azonban nem. A dokumentumok letöltés előtt alkalmazott védelméről a SharePoint dokumentációjának [Data Encryption in OneDrive for Business and SharePoint Online](https://technet.microsoft.com/library/dn905447.aspx) (Adattitkosítás a OneDrive vállalati verzió és a SharePoint Online esetében) fejezetében olvashat.
 
@@ -72,6 +71,6 @@ Az Azure RMS SharePointtal való alkalmazásáról bővebben az Office blogjána
 Információk az egyéb alkalmazások és szolgáltatások Azure Rights Management-támogatásáról: [Hogyan támogatják a különböző alkalmazások az Azure Rights Managementet?](applications-support.md)
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Sep16_HO1-->
 
 

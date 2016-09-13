@@ -12,8 +12,8 @@ ms.assetid: 2efcb440-fefd-45e9-872b-f471573aadf2
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 43429b44c019144744f39a1f92f144d315c2024c
-ms.openlocfilehash: 52a76105b182c7fe6aa9a648d1a5d7ae4e4a1a20
+ms.sourcegitcommit: 79d098e47cdfe608bc62ed385a5c8236fb7c6d3c
+ms.openlocfilehash: 15be32e029637321bf8e4f7c1a53f918efda7f23
 
 
 ---
@@ -29,7 +29,7 @@ Ezek a felhasználók ingyenes munkahelyi vagy iskolai fiókot regisztrálhatnak
 A Rights Management megosztóalkalmazást Windows rendszerű számítógépeken használva ezek a felhasználók helyben is védhetik a fájlokat, és a védett fájlokat elküldhetik e-mailen keresztül a szervezeten belüli vagy kívüli személyeknek is. Ha az általuk küldött e-mail címzettjei olyan szervezetben vannak, amely szintén nem az Azure használatával felügyeli a felhasználói fiókokat, ők is regisztrálhatnak egy fiókot az RMS egyéni felhasználók számára előfizetés választásával a védett e-mail-melléklet elolvasása érdekében.
 
 > [!IMPORTANT]
-> Ez az ingyenes előfizetés biztosítja, hogy a jogosult személyek mindig elolvashassák a védett fájlokat. Jelenleg ezzel az ingyenes előfizetéssel dokumentumokat is védelemmel láthat el, és új védett e-mail-üzeneteket hozhat létre, de az új védett tartalmak készítésének képessége csak próbaverziós funkcióként használható, és később lehet, hogy el lesz távolítva az előfizetésből. További információt a [Microsoft Rights Management szolgáltatási feltételeiben](https://portal.aadrm.com/Legal/Service) talál, és ugyanebben a dokumentumban tájékozódhat az RMS egyéni felhasználók által tartalomvédelmi célból történő használatával kapcsolatos változásokról is.
+> Ez az ingyenes előfizetés biztosítja, hogy a jogosult személyek mindig elolvashassák a védett fájlokat. Jelenleg ezzel az ingyenes előfizetéssel dokumentumokat is védelemmel láthat el, és új védett e-mail-üzeneteket hozhat létre, de az új védett tartalmak készítésének képessége csak próbaverziós funkcióként használható, és később lehet, hogy el lesz távolítva az előfizetésből. 
 
 A fájlok ingyenes Rights Management megosztóalkalmazással történő védelméről további információt a [Rights Management megosztóalkalmazás felhasználói útmutatója](../rms-client/sharing-app-user-guide.md) tartalmaz.
 
@@ -41,6 +41,6 @@ A [Felhasználói regisztrálás módja az RMS egyéni felhasználók számára 
 
 
 
-<!--HONumber=Aug16_HO4-->
+<!--HONumber=Sep16_HO1-->
 
 
