@@ -1,0 +1,31 @@
+# [Megismerés és felfedezés](/rights-management/understand-explore/azure-rights-management)
+# [Első lépések](/rights-management/get-started/requirements-azure-rms)
+# [Tervezés és kialakítás](/rights-management/plan-design/deployment-roadmap)
+# [A szolgáltatás telepítése és használata](/rights-management/deploy-use/activate-service)
+# [Az ügyfél telepítése és használata](/rights-management/rms-client/use-client)
+# [Alkalmazások fejlesztése és testreszabása](/rights-management/develop/developers-guide)
+# [Azure Information Protection (előzetes verzió)](what-is-information-protection.md)
+## [Mi az az Azure Information Protection?](what-is-information-protection.md)
+## [Követelmények](requirements-azure-infoprotect.md)
+## [Gyors üzembe helyezési oktatóanyag](infoprotect-quick-start-tutorial.md)
+### [1. lépés: A Rights Management szolgáltatás aktiválása](infoprotect-tutorial-step1.md)
+### [2. lépés: Szabályzatok konfigurálása és közzététele](infoprotect-tutorial-step2.md)
+### [3. lépés: Az ügyfél telepítése](infoprotect-tutorial-step3.md)
+### [4. lépés: A működés ellenőrzése](infoprotect-tutorial-step4.md)
+## [Gyakori kérdések](faq.md)
+## [Házirend konfigurálása](configure-policy.md)
+### [Az alapértelmezett házirend](configure-policy-default.md)
+### [A globális beállítások konfigurálása](configure-policy-settings.md)
+### [Új címke létrehozása](configure-policy-new-label.md)
+### [Címkék törlése és átrendezése](configure-policy-delete-reorder.md)
+### [Címke módosítása](configure-policy-change-label.md)
+### [Adatvédelem](configure-policy-protection.md)
+#### [HYOK-korlátozások](configure-adrms-restrictions.md)
+### [A vizuális megjelölések konfigurálása](configure-policy-markings.md)
+### [A feltételek konfigurálása](configure-policy-classification.md)
+## [Az ügyfél telepítése](info-protect-client.md)
+
+
+<!--HONumber=Aug16_HO2-->
+
+
