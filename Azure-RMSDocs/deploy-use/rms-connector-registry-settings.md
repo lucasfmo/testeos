@@ -1,20 +1,19 @@
 ---
 title: "Az RMS-összekötő beállításjegyzékbeli beállításai | Azure RMS"
-description: 
-keywords: 
+description: "Információ a RMS-összekötőt használó kiszolgálók beállításjegyzék-beállításairól. A beállítások konfigurálásának javasolt módja a Microsoft RMS-összekötő kiszolgálókonfiguráló eszközének használata."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: ed3e9a3d-0f7c-4abc-9d0b-aa3b18403d39
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
-ms.openlocfilehash: ff90f009f9fda90171bbeeb2a7bb421376d4695c
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: 5ff109543685049be5e89a12ea037de941736547
 
 
 ---
@@ -22,7 +21,7 @@ ms.openlocfilehash: ff90f009f9fda90171bbeeb2a7bb421376d4695c
 
 # A Rights Management-összekötő beállításjegyzékbeli beállításai
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 
 Az alábbi szakaszokban található táblázatokat csak akkor használja, ha az Exchange-et, SharePointot vagy Windows Servert futtató kiszolgálókhoz manuálisan szeretne olyan beállításjegyzék-beállításokat hozzáadni, illetve ellenőrizni, amelyek az [RMS-összekötő](deploy-rms-connector.md) használatára konfigurálják a kiszolgálókat. A kiszolgálók konfigurálásának javasolt módja a Microsoft RMS-összekötő kiszolgálókonfiguráló eszközének használata.
@@ -43,7 +42,7 @@ Utasítások a beállítások használatához:
 
 -   Az *összekötőFQDN* karaktersor a terheléselosztó név, amelyet a DNS-ben megadott az összekötőnek. Például: **rmsconnector.contoso.com**.
 
--   Az összekötő URL-címéhez HTTPS protokollt használjon, ha az összekötő és a helyszíni kiszolgálók közti kommunikációhoz HTTPS protokollt konfigurált. További információkat a jelen témakör [Az RMS-összekötő konfigurálása HTTPS használatára](deploy-rms-connector.md#BKMK_ConfiguringHTTPS) című szakaszában találhat. A Microsoft RMS URL-címek mindig HTTPS protokollt használnak.
+-   Az összekötő URL-címéhez HTTPS protokollt használjon, ha az összekötő és a helyszíni kiszolgálók közti kommunikációhoz HTTPS protokollt konfigurált. További információkat a fő útmutató [Az RMS-összekötő konfigurálása HTTPS használatára](install-configure-rms-connector.md#configuring-the-rms-connector-to-use-https) című szakaszában találhat. A Microsoft RMS URL-címek mindig HTTPS protokollt használnak.
 
 
 ## Az Exchange 2016 vagy az Exchange 2013 beállításjegyzék-beállításai
@@ -217,6 +216,6 @@ Utasítások a beállítások használatához:
 Vissza a [Deploying the Azure Rights Management connector](deploy-rms-connector.md) (Az Azure Rights Management-összekötő üzembe helyezése) című témakörhöz
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

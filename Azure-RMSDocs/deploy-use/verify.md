@@ -1,27 +1,26 @@
 ---
 title: "Az Azure Rights Management ellenőrzése | Azure RMS"
-description: 
-keywords: 
+description: "Utasítások annak ellenőrzésére, hogy a szolgáltatás rendeltetésszerűen működik. Úgy védi a fájlt vagy az e-mail szövegét, hogy egy felhasználói fiókot használ, majd ezen védett tartalom megnyitása és felhasználása egy másik felhasználói fiókból történik."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 08664a01-81a5-4fa5-884c-7306ee55dba0
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bb152f428c8e0b9a065035aaad2de6353265a562
-ms.openlocfilehash: afa1fb35110918b9b97f91534616e1933e13b149
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: aed609eb3562f670fd85ca8138bcd89cdc7800fd
 
 
 ---
 
 # Verifying Azure Rights Management (Az Azure Rights Management ellenőrzése)
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] (Azure RMS) rendszer aktiválását, illetve a szervezet által megkövetelt konfigurációs lépések végrehajtását követően a szolgáltatás elvárt működésének ellenőrzését egy fájl vagy e-mail-üzenet védelemmel történő ellátásával teheti meg egy adott felhasználói fiókból, majd a védett tartalom megnyitásának és használatának megkísérlésével egy másik felhasználói fiókból.
 
@@ -41,6 +40,6 @@ A használatnaplózás segítségével nyomon követheti szervezete adatvédelmi
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

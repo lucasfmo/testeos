@@ -1,20 +1,19 @@
 ---
 title: "A Microsoft által felügyelt megoldás – a bérlői kulcs életciklusához kapcsolódó műveletek | Azure RMS"
-description: 
-keywords: 
+description: "Az életciklus-műveletekhez kapcsolódó információ, ha a Microsoft kezeli az Azure Rights Management bérlői kulcsát (ez az alapértelmezés)."
 author: cabailey
 manager: mbaldwin
-ms.date: 06/14/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 3c48cda6-e004-4bbd-adcf-589815c56c55
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7a9c8b531ec342e7d5daf0cbcacd6597a79e6a55
-ms.openlocfilehash: feb41356a2ef074679e60ce4bb7b1d6ee910371c
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: e2a26c25148e62f9cebf570a15478fdf041c9198
 
 
 ---
@@ -22,7 +21,7 @@ ms.openlocfilehash: feb41356a2ef074679e60ce4bb7b1d6ee910371c
 
 # A Microsoft által felügyelt megoldás – a bérlői kulcs életciklusához kapcsolódó műveletek
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Ha a Microsoft kezeli az Azure Rights Management bérlői kulcsát (ez az alapértelmezés), az alábbi szakaszok áttekintésével további információhoz juthat azon életciklus-műveletekkel kapcsolatban, amelyek ehhez a topológiához kapcsolódnak.
 
@@ -34,7 +33,7 @@ A kulcsismétlést kulcsváltásnak is nevezik. Csak akkor hajtsa végre a bérl
 
 -   A vállalatot kettő vagy több vállalatra osztották fel. A bérlői kulcs kulcsismétlésekor az új vállalat nem fog hozzáférni az alkalmazottak által közzétett új tartalmakhoz. A régi tartalmakat továbbra is elérheti, ha rendelkezik a régi bérlői kulcs másolatával.
 
--   Úgy véli, hogy a bérlői kulcs főpéldányát (az Ön birtokában lévő példányt) feltörték.
+-   Úgy véli, hogy a bérlőkulcs főpéldányát (az Ön birtokában lévő példányt) feltörték.
 
 A bérlői kulcs kulcsismétléséhez [lépjen kapcsolatba a Microsoft támogatási szolgálatával](../get-started/information-support.md#to-contact-microsoft-support), és nyisson egy **Azure Rights Management támogatási esetet, amelyben kéri az Azure RMS-bérlőkulcs kulcsismétlését**. Igazolja, hogy Ön az Azure RMS bérlői rendszergazdája. A folyamat jóváhagyása több napig is eltarthat. A szolgáltatásra a szabványos támogatási díjak vonatkoznak; a bérlői kulcs kulcsismétlése nem ingyenes szolgáltatás.
 
@@ -99,6 +98,6 @@ Ha megsértették a biztonsági szabályokat, az Ön vagy a Microsoft által vé
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

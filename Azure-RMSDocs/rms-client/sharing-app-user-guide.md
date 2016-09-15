@@ -1,27 +1,26 @@
 ---
 title: "A Rights Management megosztóalkalmazás felhasználói útmutatója | Azure RMS"
-description: 
-keywords: 
+description: "A Windowshoz készült Microsoft Rights Management (RMS) megosztóalkalmazás segítségével megakadályozhatja fontos dokumentumainak és képeinek jogosulatlan megtekintését, még akkor is, ha elküldi őket e-mailben, vagy egy másik eszközre menti."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: eaf6d02c-aa36-4915-856e-49bb71ab1484
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
-ms.openlocfilehash: 46e5d3c9ea001d2fa157187a8b78c2dc3e6516f3
+ms.sourcegitcommit: 035c9eb6cb630cafd5bd7fc7e2371340043ddc5e
+ms.openlocfilehash: c39e311e8247938cf44068106a9771d2ad7a56e0
 
 
 ---
 
 # A Rights Management megosztóalkalmazás felhasználói útmutatója
 
-*A következőkre vonatkozik: Active Directory tartalomvédelmi szolgáltatások, Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
+>*A következőkre vonatkozik: Active Directory tartalomvédelmi szolgáltatások, Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
 
 A Windowshoz készült Microsoft Rights Management (RMS) megosztóalkalmazás segítségével megakadályozhatja fontos dokumentumainak és képeinek jogosulatlan megtekintését, még akkor is, ha elküldi őket e-mailben, vagy egy másik eszközre menti. Ezenkívül az alkalmazás lehetővé teszi azoknak a fájloknak a megnyitását és használatát is, amelyeket mások ugyanezzel a tartalomvédelmi technológiával tettek védetté.
 
@@ -43,29 +42,31 @@ Ha olyan kérdései merülnek fel, amelyekre a jelen útmutató nem ad választ,
 
 ## Művelet
 > [!NOTE]
-> További műszaki információt (például a támogatott fájltípusokkal és az alkalmazás vállalati hálózatra történő telepítésével kapcsolatban) a [Rights Management sharing application administrator guide](sharing-app-admin-guide.md) (A Rights Management megosztóalkalmazás rendszergazdai kézikönyve) című témakörben tekinthet meg.
+> További műszaki információt (például a [támogatott fájltípusokkal](sharing-app-admin-guide-technical.md#supported-file-types-and-file-name-extensions) és az [alkalmazás vállalati hálózatra történő telepítésével](sharing-app-admin-guide.md#automatic-deployment-for-the-microsoft-rights-management-sharing-application) kapcsolatban) [a Rights Management megosztóalkalmazás rendszergazdai útmutatójában](sharing-app-admin-guide.md) talál.
 
--   [A megosztóalkalmazás letöltése és telepítése](install-sharing-app.md)
+- [A megosztóalkalmazás letöltése és telepítése](install-sharing-app.md)
 
--   [Eszközön lévő fájl védelme (helyi védelem)](sharing-app-protect-in-place.md)
+- [Eszközön lévő fájl védelme (helyi védelem)](sharing-app-protect-in-place.md)
 
--   [E-mailben megosztott fájl védelme](sharing-app-protect-by-email.md)
+- [E-mailben megosztott fájl védelme](sharing-app-protect-by-email.md)
 
--   [Dokumentumok nyomon követése és visszavonása](sharing-app-track-revoke.md)
+- [A védett fájlok engedélyeinek módosítása](sharing-app-reprotect-files.md)
 
--   [Védett fájlok megtekintése és használata](sharing-app-view-use-files.md)
+- [Dokumentumok nyomon követése és visszavonása](sharing-app-track-revoke.md)
 
--   [Fájl védelmének eltávolítása](sharing-app-remove-protection.md)
+- [Védett fájlok megtekintése és használata](sharing-app-view-use-files.md)
 
--   [Billentyűparancsok használata](sharing-app-keyboard-shortcuts.md)
+- [Fájl védelmének eltávolítása](sharing-app-remove-protection.md)
 
--   [Beállítások megadása a párbeszédpanelen](sharing-app-dialog-box.md)
+- [Billentyűparancsok használata](sharing-app-keyboard-shortcuts.md)
 
-
-
-
+- [Beállítások megadása a párbeszédpanelen](sharing-app-dialog-box.md)
 
 
-<!--HONumber=Jun16_HO4-->
+
+
+
+
+<!--HONumber=Aug16_HO4-->
 
 

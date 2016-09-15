@@ -1,27 +1,26 @@
 ---
 title: "Áttelepítés AD RMS-ről Azure Rights Managementre | Azure RMS"
-description: 
-keywords: 
+description: "Útmutató áttelepítéshez: az Active Directory tartalomvédelmi szolgáltatásainak (AD RMS) telepítése az Azure Rights Management (Azure RMS) rendszerbe. Az áttelepítés után a felhasználók továbbra is hozzáférhetnek a dokumentumokhoz és e-mailekhez, amelyeket a szervezete az AD RMS használatával védett. Az újonnan védett tartalom az Azure RMS-t fogja használni."
 author: cabailey
 manager: mbaldwin
-ms.date: 06/29/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 828cf1f7-d0e7-4edf-8525-91896dbe3172
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ea4dd88ed749092fd02135d8ca25b621f74fe72f
-ms.openlocfilehash: b33839ff5ce0d30082f58ff96eb81215b716e46d
+ms.sourcegitcommit: ada00b6f6298e7d359c73eb38dfdac169eacb708
+ms.openlocfilehash: 6aa75f5e6b326068951b3d4d65f337c15a475029
 
 
 ---
 
 # Áttelepítés AD RMS-ről Azure Rights Managementre
 
-*A következőkre vonatkozik: Active Directory Rights Management Services, Azure Rights Management*
+>*A következőkre vonatkozik: Active Directory Rights Management Services, Azure Rights Management*
 
 A következő útmutatók használatával áttelepítheti Active Directory tartalomvédelmi szolgáltatásainak (AD RMS) telepítését az Azure Rights Management (Azure RMS) rendszerbe. Az áttelepítés után a felhasználók továbbra is hozzáférhetnek a dokumentumokhoz és e-mailekhez, amelyeket a szervezete az AD RMS használatával védett. Az újonnan védett tartalom az Azure RMS-t fogja használni.
 
@@ -35,30 +34,31 @@ Nem biztos benne, hogy az AD RMS áttelepítés megfelel-e az adott szervezetnek
 Mielőtt megkezdi az áttelepítést az Azure RMS-re, győződjön meg arról, hogy a következő feltételek biztosítottak, és megértette a fennálló korlátozásokat.
 
 
-- **Egy támogatott RMS telepítés**
+- **Az RMS egy támogatott telepítése:**
+    
+    - Az AD RMS alábbi kiadásai támogatják az Azure RMS-be történő áttelepítést:
+    
+        - Windows Server 2008 R2 (x64)
+        
+        - Windows Server 2012 (x64)
+        
+        - Windows Server 2012 R2 (x64)
+        
+    - 2. titkosítási mód:
+    
+        - Az AD RMS-kiszolgálóknak és -ügyfeleknek 2. titkosítási módban kell futniuk az Azure RMS-be történő áttelepítés megkezdéséhez. További információt az [AD RMS Cryptographic Modes](https://technet.microsoft.com/library/hh867439(v=ws.10).aspx) (AZ AD RMS titkosítási módjai) című témakörben talál.
+        
+    - Az összes érvényes AD RMS topológia támogatott:
+    
+        - Egyetlen erdő, egyetlen RMS-fürt
+        
+        - Egyetlen erdő, több csak licencelési RMS-fürt
+        
+        - Több erdő, több RMS-fürt
+        
+    Megjegyzés: Alapértelmezés szerint a több RMS-fürt egyetlen Azure RMS-bérlőhöz települ át. Ha különálló Azure RMS-bérlőket szeretne használni, ezeket külön áttelepítésekként kell kezelnie. Az egyetlen RMS-fürtből származó kulcsok nem importálhatók egynél több Azure RMS-bérlőhöz.
 
-    Az Azure RMS-re való áttelepítést az AD RMS összes kiadása támogatja a Windows Server 2008-től a Windows Server 2012 R2-ig:
-
-    - Windows Server 2008 (x86 vagy x64)
-
-    - Windows Server 2008 R2 (x64)
-
-    - Windows Server 2012 (x64)
-
-    - Windows Server 2012 R2 (x64)
-
-    Az összes érvényes AD RMS topológia támogatott:
-
-    - Egyetlen erdő, egyetlen RMS-fürt
-
-    - Egyetlen erdő, több csak licencelési RMS-fürt
-
-    - Több erdő, több RMS-fürt
-
-    **Megjegyzés**: Alapértelmezés szerint a több RMS-fürt egyetlen Azure RMS-bérlőhöz települ át. Ha más RMS-bérlőket szeretne, ezeket külön áttelepítésekként kell kezelnie. Az egyetlen RMS-fürtből származó kulcsok nem importálhatók egynél több Azure RMS-bérlőhöz.
-
-
-- **Az Azure RMS futtatásához szükséges összes követelmény, köztük az Azure RMS-bérlő (nincs aktiválva)**
+- **Az Azure RMS futtatásához szükséges összes követelmény, köztük az Azure RMS-bérlő (nincs aktiválva):**
 
     Lásd: [Az Azure Rights Management követelményei](../get-started/requirements-azure-rms.md).
 
@@ -82,10 +82,14 @@ Mielőtt megkezdi az áttelepítést az Azure RMS-re, győződjön meg arról, h
 
     Ez az egyetlen időszak, amikor szolgáltatás nem érhető el az áttelepítés során.
 
+- **Ha egy HSM-védelemmel ellátott kulcs használatával szeretné kezelni a saját Azure RMS-bérlőkulcsát**:
+
+    - Ehhez a választható beállításhoz Azure Key Vault-hozzáférésre és egy HSM által védett kulcsokkal rendelkező Key Vaultot támogató Azure-előfizetésre van szükség. További információt az [Azure Key Vault díjszabását ismertető weblapon](https://azure.microsoft.com/en-us/pricing/details/key-vault/) talál. 
+
 
 Korlátozások:
 
--   Ugyan az áttelepítési folyamat támogatja a kiszolgálólicencelési tanúsítványkulcs (SLC-kulcs) áttelepítését egy hardveres biztonsági modulra (HMS) az Azure RMS-hez, az Exchange Online jelenleg nem támogatja ezt a konfigurációt. Ha az összes IRM-funkciót használni kívánja az Exchange Online-nal az Azure RMS-re való áttelepítés után, az Azure RMS-bérlőkulcsot [a Microsoftnak kell kezelnie](../plan-design/plan-implement-tenant-key.md#choose-your-tenant-key-topology-managed-by-microsoft-the-default-or-managed-by-you-byok-). Alternatív megoldásként futtathatja az IRM-et az Exchange Online-ban korlátozott funkciókkal is, ha az Azure RMS-bérlőt Ön kezeli (BYOK). További információk az Exchange Online használatáról az Azure RMS-ben: [6. lépés. IRM-integráció konfigurálása Exchange Online-ban](migrate-from-ad-rms-phase3.md#step-6-configure-irm-integration-for-exchange-online) az itt látható áttelepítési útmutató alapján.
+-   Ugyan az áttelepítési folyamat támogatja a kiszolgálólicencelési tanúsítványkulcs (SLC-kulcs) áttelepítését egy hardveres biztonsági modulra (HMS) az Azure RMS-hez, az Exchange Online jelenleg nem támogatja ezt a konfigurációt. Ha az összes IRM-funkciót használni kívánja az Exchange Online-nal az Azure RMS-be való migrálás után, az Azure RMS-bérlőkulcsot [a Microsoftnak kell kezelnie](../plan-design/plan-implement-tenant-key.md#choose-your-tenant-key-topology-managed-by-microsoft-the-default-or-managed-by-you-byok). Alternatív megoldásként futtathatja az IRM-et az Exchange Online-ban korlátozott funkciókkal is, ha az Azure RMS-bérlőt Ön kezeli (BYOK). További információk az Exchange Online használatáról az Azure RMS-ben: [6. lépés. IRM-integráció konfigurálása Exchange Online-ban](migrate-from-ad-rms-phase3.md#step-6-configure-irm-integration-for-exchange-online) az itt látható áttelepítési útmutató alapján.
 
 -   Ha az Azure RMS-ben nem támogatott szoftverrel és ügyfelekkel rendelkezik, ezek/ők nem védhetik le vagy fogyaszthatják az Azure RMS által védett tartalmakat. Ellenőrizze a támogatott alkalmazások és ügyfelek szakaszokat [Requirements for Azure Rights Management](../get-started/requirements-azure-rms.md) (Az Azure Rights Management követelményei) című cikkben.
 
@@ -100,7 +104,7 @@ Korlátozások:
 ## Az AD RMS Azure RMS-re való áttelepítésének lépéseinek áttekintése
 
 
-A 9 áttelepítési lépés felosztható 4 fázisra. Ezeket elvégezhetik különböző rendszergazdák, különböző időpontokban.
+Az áttelepítési lépések 4 fázisra oszthatók. Ezeket különböző rendszergazdák is elvégezhetik, különböző időpontokban.
 
 [**1. FÁZIS: AZ AD RMS KISZOLGÁLÓOLDALI KONFIGURÁCIÓJA**](migrate-from-ad-rms-phase1.md)
 
@@ -118,11 +122,11 @@ A 9 áttelepítési lépés felosztható 4 fázisra. Ezeket elvégezhetik külö
 
     - **HSM által védett kulcs áttelepítése HSM által védett kulccsá**:
 
-        Az AD RMS-hez HSM által tárolt kulcsokból ügyfél által felügyelt Azure RMS-bérlői kulccsá (a „saját kulcs használata” vagy BYOK forgatókönyv). Ez további lépéseket igényel, hogy a helyszíni Thales HSM-ből áttelepítse a kulcsot az Azure RMS HSM-be. A meglévő HSM által védett kulcsot modul által védetté kell tenni; az OCS által védett kulcsok nem támogatottak a BYOK eszközkészletben.
+        Az AD RMS-hez HSM által tárolt kulcsokból ügyfél által felügyelt Azure RMS-bérlői kulccsá (a „saját kulcs használata” vagy BYOK forgatókönyv). Ez további lépéseket igényel, hogy a helyszíni Thales HSM-ből áttelepítse a kulcsot az Azure Key Vaultba és engedélyezhesse a kulcs használatát az Azure RMS számára. A meglévő HSM által védett kulcsot modul által védetté kell tenni; az OCS által védett kulcsok nem támogatottak a Rights Management Services szolgáltatásban.
 
     - **Szoftveres védelemmel ellátott kulcs áttelepítése HSM által védett kulccsá**:
 
-        Központilag felügyelt, jelszóalapú kulcsokból ügyfél által felügyelt Azure RMS bérlői kulccsá (a „saját kulcs használata” vagy BYOK forgatókönyv). Ez igényli a legtöbb konfigurációt, mert ekkor először ki kell nyerni a szoftverkulcsot és importálni egy helyszíni HSM-be, majd el kell végezni a további lépéseket a kulcs áttelepítéséhez a helyszíni Thales HSM-ből az Azure RMS HSM-be.
+        Központilag felügyelt, jelszóalapú kulcsokból ügyfél által felügyelt Azure RMS bérlői kulccsá (a „saját kulcs használata” vagy BYOK forgatókönyv). Ez igényli a legtöbb konfigurációt, mert ekkor először ki kell nyerni a szoftverkulcsot és importálni kell egy helyszíni HSM-be, majd el kell végezni a további lépéseket a kulcs a helyszíni Thales HSM-ből az Azure Key Vault HSM-be való átviteléhez, valamint a kulcsot tartalmazó kulcstartó használatának engedélyezéséhez az Azure RMS számára.
 
 - **3. lépés. Az Azure RMS-bérlő aktiválása**
 
@@ -171,7 +175,7 @@ A 9 áttelepítési lépés felosztható 4 fázisra. Ezeket elvégezhetik külö
 
 - **9. lépés: Kulcsismétlés végrehajtása az Azure RMS-bérlőkulcs esetében**
 
-    Ez a lépés akkor szükséges, ha nem a 2. titkosítási módban futtatta a programot az áttelepítés előtt, valamint opcionális de ajánlott az összes áttelepítéshez az Azure RMS-bérlőkulcs biztonsága érdekében.
+    Ez a lépés nem kötelező, de ajánlott abban az esetben, ha a 2. lépés során a Microsoft által felügyelt Azure RMS bérlőkulcs-topológiát választotta. A lépés nem alkalmazható, ha az ügyfél által felügyelt (BYOK) Azure RMS bérlőkulcs-topológiát választotta.
 
 
 ## További lépések
@@ -180,6 +184,6 @@ Az áttelepítés megkezdéséhez lépjen az [1. fázis – kiszolgálóoldali k
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Aug16_HO4-->
 
 

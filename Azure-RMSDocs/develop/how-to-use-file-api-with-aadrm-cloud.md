@@ -1,12 +1,12 @@
 ---
 title: "A szolgáltatásalkalmazás alkalmassá tétele a felhőalapú RMS használatára | Azure RMS"
-description: "Ez a témakör a szolgáltatásalkalmazás Azure Rights Management használatához végzett beállításának lépéseit ismerteti."
+description: "Ez a témakör a szolgáltatásalkalmazásnak az Azure Rights Management használatához végzett beállításának lépéseit ismerteti."
 keywords: 
 author: bruceperlerms
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: EA1457D1-282F-4CF3-A23C-46793D2C2F32
@@ -14,8 +14,8 @@ audience: developer
 ms.reviewer: shubhamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4c3625676c7e794ef133c75881f666bae80e0513
-ms.openlocfilehash: ad8c41c9f3f3515a817d508d8f5a8953daf4b440
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: b41c7fb422689086a76c004e9f80999178590f3d
 
 
 ---
@@ -46,7 +46,7 @@ A Rights Management Services SDK 2.1 segítségével készített szolgáltatása
 
      
 -   A következő lépésekkel beállíthatja az [**IPC\_PROMPT\_CTX**](/rights-management/sdk/2.1/api/win/ipc_prompt_ctx#msipc_ipc_prompt_ctx) struktúra példányát az Azure Rights Management Service csatlakozási adataival kitöltött **pcCredential** ([**IPC\_CREDENTIAL**](/rights-management/sdk/2.1/api/win/ipc_credential#msipc_ipc_credential)) tag használatával.
--   A szimmetrikus kulcs szolgáltatásidentitás létrehozásának információival (lásd a témakör korábbi szakaszában lévő előfeltételeket) állítsa be a **wszServicePrincipal**, **wszBposTenantId** és **cbKey** paramétereket az [**IPC\_CREDENTIAL\_SYMMETRIC\_KEY**](/rights-management/sdk/2.1/api/win/ipc_credential#msipc_ipc_credential_symmetric_key) struktúra példányának létrehozásakor.
+-   A szimmetrikus kulcsos szolgáltatásidentitás létrehozásának információival (lásd a témakör korábbi szakaszában lévő előfeltételeket) állítsa be a **wszServicePrincipal**, **wszBposTenantId** és **cbKey** paramétert az [**IPC\_CREDENTIAL\_SYMMETRIC\_KEY**](/rights-management/sdk/2.1/api/win/ipc_credential_symmetric_key#msipc_ipc_credential_symmetric_key) struktúra példányának létrehozásakor.
 
 **Megjegyzés:** Az észlelési szolgáltatás jelenlegi feltételei miatt Észak-Amerikán kívül a szimmetrikus kulcs hitelesítő adatai nem fogadhatók el más régiókból, így közvetlenül kell megadnia a bérlői URL-címeket. Ezt az [**IpcGetTemplateList**](/rights-management/sdk/2.1/api/win/functions#msipc_ipcgettemplatelist) vagy az [**IpcGetTemplateIssuerList**](/rights-management/sdk/2.1/api/win/functions#msipc_ipcgettemplateissuerlist) [**IPC\_CONNECTION\_INFO**](/rights-management/sdk/2.1/api/win/ipc_connection_info#msipc_ipc_connection_info) paraméterével teheti meg.
 
@@ -81,7 +81,7 @@ A Rights Management Services SDK 2.1 segítségével készített szolgáltatása
     `Get-AadrmConfiguration`
 
 
--   Hozza létre az [**IPC\_CREDENTIAL\_SYMMETRIC\_KEY**](/rights-management/sdk/2.1/api/win/ipc_credential#msipc_ipc_credential_symmetric_key) példányát, és állítson be néhány tagot.
+-   Hozza létre az [**IPC\_CREDENTIAL\_SYMMETRIC\_KEY**](/rights-management/sdk/2.1/api/win/ipc_credential_symmetric_key#msipc_ipc_credential_symmetric_key) példányát, és állítson be néhány tagot.
 
     // Hozzon létre egy kulcsstruktúrát.
     IPC_CREDENTIAL_SYMMETRIC_KEY symKey = {0};
@@ -90,9 +90,9 @@ A Rights Management Services SDK 2.1 segítségével készített szolgáltatása
     symKey.wszBase64Key = "a szolgáltatás egyszerű nevének kulcsa"; symKey.wszAppPrincipalId = "az alkalmazás egyszerű nevének azonosítója"; symKey.wszBposTenantId = "a bérlő azonosítója";
 
 
-További információ: [**IPC\_CREDENTIAL\_SYMMETRIC\_KEY**](/rights-management/sdk/2.1/api/win/ipc_credential#msipc_ipc_credential_symmetric_key).
+További információ: [**IPC\_CREDENTIAL\_SYMMETRIC\_KEY**](/rights-management/sdk/2.1/api/win/ipc_credential_symmetric_key#msipc_ipc_credential_symmetric_key).
 
--   Hozza létre az [**IPC\_CREDENTIAL\_SYMMETRIC\_KEY**](/rights-management/sdk/2.1/api/win/ipc_credential#msipc_ipc_credential_symmetric_key) példányt tartalmazó [**IPC\_CREDENTIAL**](/rights-management/sdk/2.1/api/win/ipc_credential#msipc_ipc_credential) struktúra példányát.
+-   Hozza létre az [**IPC\_CREDENTIAL\_SYMMETRIC\_KEY**](/rights-management/sdk/2.1/api/win/ipc_credential_symmetric_key#msipc_ipc_credential_symmetric_key) példányt tartalmazó [**IPC\_CREDENTIAL**](/rights-management/sdk/2.1/api/win/ipc_credential#msipc_ipc_credential) struktúra példányát.
 
 **Megjegyzés:** A *connectionInfo* tagok a `Get-AadrmConfiguration` előző hívásából származó URL-ekkel vannak beállítva, és itt láthatók ezekkel a mezőnevekkel.
 
@@ -160,7 +160,7 @@ Most elvégezte azon lépéseket, amelyekkel az alkalmazás használhatja az Azu
 * [**IpcInitialize**](/rights-management/sdk/2.1/api/win/functions#msipc_ipcinitialize)
 * [**IPC\_PROMPT\_CTX**](/rights-management/sdk/2.1/api/win/ipc_prompt_ctx#msipc_ipc_prompt_ctx)
 * [**IPC\_CREDENTIAL**](/rights-management/sdk/2.1/api/win/ipc_credential#msipc_ipc_credential)
-* [**IPC\_CREDENTIAL\_SYMMETRIC\_KEY**](/rights-management/sdk/2.1/api/win/ipc_credential#msipc_ipc_credential_symmetric_key)
+* [**IPC\_CREDENTIAL\_SYMMETRIC\_KEY**](/rights-management/sdk/2.1/api/win/ipc_credential_symmetric_key#msipc_ipc_credential_symmetric_key)
 * [**IpcGetTemplateIssuerList**](/rights-management/sdk/2.1/api/win/functions#msipc_ipcgettemplateissuerlist)
 * [**IpcGetTemplateList**](/rights-management/sdk/2.1/api/win/functions#msipc_ipcgettemplatelist)
 * [**IpcfDecryptFile**](/rights-management/sdk/2.1/api/win/functions#msipc_ipcfdecryptfile)
@@ -173,6 +173,6 @@ Most elvégezte azon lépéseket, amelyekkel az alkalmazás használhatja az Azu
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Aug16_HO4-->
 
 

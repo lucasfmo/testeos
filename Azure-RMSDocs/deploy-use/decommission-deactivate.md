@@ -1,27 +1,26 @@
 ---
 title: "Az Azure Rights Management leszerelése és inaktiválása | Azure RMS"
-description: 
-keywords: 
+description: "Tájékoztatások és utasítások arra az esetre, ha úgy döntene, hogy nem kívánja többé igénybe venni ezt az információvédelmi megoldást."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 0b1c2064-0d01-45ae-a541-cebd7fd762ad
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
-ms.openlocfilehash: 8c114336551417fdbf1503ffc8350e3fc28e9c95
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: 275cc46ba34eae246ccc52682073f1f4f90cb8a7
 
 
 ---
 
 # Az Azure Rights Management leszerelése és deaktiválása
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Mindig ellenőrizni tudja, hogy a szervezete az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] (Azure RMS) használatával védi-e a tartalmakat, és ha nem kívánja tovább használni ezt az adatvédelmi megoldást, akkor biztos lehet benne, hogy továbbra is hozzáférhet a korábban védett tartalmakhoz. Ha nincs szüksége folyamatos hozzáférésre a korábban védett tartalomhoz, egyszerűen inaktiválja a szolgáltatást, és hagyja lejárni az Azure Rights Management-előfizetést. Ez például akkor lehet megfelelő, ha még az éles környezetben történő üzembe helyezés előtt elvégzi az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] tesztelését.
 
@@ -92,6 +91,6 @@ A **RIGHTS MANAGEMENT STATUS** (RIGHTS MANAGEMENT-ÁLLAPOT) értékének **Inact
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

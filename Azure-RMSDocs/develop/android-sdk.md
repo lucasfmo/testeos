@@ -4,9 +4,9 @@ description: "Az Android rendszerre készült alkalmazások a Microsoft Rights M
 keywords: 
 author: bruceperlerms
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 986f6932-159b-4791-bd1a-7640a83ee792
@@ -14,8 +14,8 @@ audience: developer
 ms.reviewer: shubhamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f7dd88d90357c99c69fe4fdde67c1544595e02f8
-ms.openlocfilehash: 30fad88ff664e2df935c8f2cfd28f8b1fe251f67
+ms.sourcegitcommit: de012d0d85bff0e33fef0b4c53291a997d4b4e89
+ms.openlocfilehash: f89ed307eae4ee14f2e463f7fb6d7e2bd07eccd0
 
 
 ---
@@ -28,8 +28,8 @@ Ez a témakör végigvezeti egy környezet felépítésének lépésein a saját
 
 -   [Előfeltételek](#prerequisites)
 -   [Nem kötelező megadni](#optional)
--   [A fejlesztési környezet konfigurálása](#configuring_your_development_environment_)
--   [Lásd még:](#see_also)
+-   [A fejlesztési környezet konfigurálása](#configuring-your-development-environment)
+-   [Lásd még:](#see-also)
 
 ## Előfeltételek
 
@@ -150,6 +150,6 @@ A felhasználói felületi kódtár újrahasznosítható felhasználói felület
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Sep16_HO1-->
 
 

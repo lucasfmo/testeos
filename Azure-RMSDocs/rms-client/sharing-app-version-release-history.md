@@ -1,27 +1,26 @@
 ---
 title: "A Rights Management megosztóalkalmazás&colon; Verziókiadások | Azure RMS"
-description: 
-keywords: 
+description: "Tekintse meg, mi az újdonság vagy mi változott a Windows Rights Management megosztóalkalmazás kiadásában."
 author: cabailey
 manager: mbaldwin
-ms.date: 06/17/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 6751bd90-959f-4eba-91ed-6588ac983762
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b19eadd408837ebcd77b3ae2f9520f5286fcf41f
-ms.openlocfilehash: cad9d01735d8e649875bc6bba73d29573891e1d8
+ms.sourcegitcommit: 035c9eb6cb630cafd5bd7fc7e2371340043ddc5e
+ms.openlocfilehash: 361fde97756c24fa46df6eda16d7506b4b8aaa3a
 
 
 ---
 
 # A Rights Management megosztóalkalmazás: Verziókiadások
 
-*A következőkre vonatkozik: Active Directory tartalomvédelmi szolgáltatások, Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
+>*A következőkre vonatkozik: Active Directory tartalomvédelmi szolgáltatások, Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
 
 A Rights Management csapata a javítások és új funkciók bevezetéséhez rendszeresen frissíti a Rights Management megosztóalkalmazást. Az alábbi információkból megismerheti a kiadás újdonságait és módosításait. A legújabb kiadás a lista tetején található.
 
@@ -29,6 +28,16 @@ A 2015. január 1. előtt kiadott verziók nem szerepelnek a listán.
 
 > [!NOTE]
 > Ha kérdése van, vagy visszajelzést szeretne küldeni az RMS-megosztó alkalmazásról, küldjön e-mailt az [AskIPTeam](mailto:AskIPTeam@microsoft.com?subject=RMS%20sharing%20app:%20Feedback%20or%20question) címre.
+
+## 1.0.2217.0-s verzió
+
+**Kiadás dátuma**: 2016.07.13.
+
+**Javítások**:
+
+- Már nem jelenik meg a 0x800704DC hibakód, amikor az összevonást és többtényezős hitelesítést használó vállalati ügyfelek védetté szeretnének tenni bizonyos tartalmakat.
+
+
 
 ## Verzió: 1.0.2191.0.
 **Kiadás dátuma**: 2016. 06. 16.
@@ -117,11 +126,11 @@ A 2015. január 1. előtt kiadott verziók nem szerepelnek a listán.
 
 **Új funkciók**:
 
--   **Több e-mail-tartomány támogatása a szervezeten belül**: Ha az AD RMS-t használja, és a szervezet felhasználói több e-mail-tartománnyal rendelkeznek, ez a frissítés lehetővé teszi a felhasználók számára olyan tartalmak felhasználását, amelyet a szervezet más tartományait használó felhasználók láttak el védelemmel. További információt a [Rights Management megosztóalkalmazás rendszergazdai kézikönyvének ](sharing-app-admin-guide.md) [Csak AD RMS esetén: Több e-mail-tartomány támogatása a szervezeten belül](sharing-app-admin-guide.md#ad-rms-only-support-for-multiple-email-domains-within-your-organization) című szakaszában talál.
+-   **Több e-mail-tartomány támogatása a szervezeten belül**: Ha az AD RMS-t használja, és a szervezet felhasználói több e-mail-tartománnyal rendelkeznek, ez a frissítés lehetővé teszi a felhasználók számára olyan tartalmak felhasználását, amelyet a szervezet más tartományait használó felhasználók láttak el védelemmel. További információt a [Rendszergazdai útmutató a Rights Management megosztóalkalmazáshoz](sharing-app-admin-guide.md) témakör [Csak AD RMS esetén: Több e-mail-tartomány támogatása a szervezeten belül](sharing-app-admin-guide.md#ad-rms-only-support-for-multiple-email-domains-within-your-organization) című szakaszában talál.
 
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Aug16_HO4-->
 
 

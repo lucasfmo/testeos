@@ -1,20 +1,19 @@
 ---
 title: "Milyen problémákat képes megoldani az Azure RMS? | Azure RMS"
-description: 
-keywords: 
+description: "Azonosítsa az üzleti követelményeit, vagy a szervezeténél esetleg felmerülő problémákat, és tudja meg, miként kezelheti ezeket az Azure RMS."
 author: cabailey
 manager: mbaldwin
-ms.date: 06/02/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: b551c62d-5ac6-4359-85b3-90693e77b37f
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e84de6afd80196d4237499718af45c64788c408d
-ms.openlocfilehash: 2863c98390b8fda528c4fe3a1b2ebce3510763b4
+ms.sourcegitcommit: 43429b44c019144744f39a1f92f144d315c2024c
+ms.openlocfilehash: bc25d2ee7224983d70a23177666c1a72b3db1a17
 
 
 ---
@@ -22,13 +21,13 @@ ms.openlocfilehash: 2863c98390b8fda528c4fe3a1b2ebce3510763b4
 
 # Milyen problémákat képes megoldani az Azure RMS?
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 A következő táblázat segítségével azonosíthatja az üzleti követelményeit, vagy a szervezeténél esetleg felmerülő problémákat, illetve hogy miként kezelheti ezeket az RMS.
 
 |Követelmény vagy probléma|Az Azure RMS általi megoldás|
 |--------------------------|-----------------------|
-|Az összes fájltípus védelme|√ A Rights Management korábbi implementációiban csak az Office-fájlok voltak védhetők, natív védelemmel. Mostantól az [általános védelem](../rms-client/sharing-app-dialog-box.md#what-s-the-difference-between-generic-protection-and-built-in-native-protection-) azt jelenti, hogy minden fájltípus támogatott.|
+|Az összes fájltípus védelme|√ A Rights Management korábbi implementációiban csak az Office-fájlok voltak védhetők, natív védelemmel. Mostantól az [általános védelem](../rms-client/sharing-app-dialog-box.md#what-s-the-difference-between-generic-protection-and-built-in-native-protection) azt jelenti, hogy minden fájltípus támogatott.|
 |Bárhol megvédheti a fájljait|√ Ha egy fájlt ment egy helyre ([védelem helyben](../rms-client/sharing-app-protect-in-place.md)), a fájl védett marad akkor is, ha egy informatikai felügyelet nélküli helyre, például egy felhőalapú tárolási szolgáltatásba lett másolva.|
 |Fájlok biztonságos megosztása e-mailben|√ Ha egy fájlt e-mailben oszt meg, ([védett megosztás](../rms-client/sharing-app-protect-by-email.md)), a fájl egy e-mail-üzenethez csatolt mellékletként kap védelmet, az e-mailben a védett mellékletek megnyitására vonatkozó utasításokkal. Az e-mail szövege nincs titkosítva, így a címzett mindig el tudja olvasni az utasításokat. Viszont mivel a mellékelt dokumentum védett, csak a jogosult felhasználók nyithatják meg, még akkor is, ha továbbítják a dokumentumot másoknak.|
 |Naplózás és figyelés|√ [Naplózhatja és figyelheti](../deploy-use/log-analyze-usage.md) a védett fájlokat még akkor is, ha a fájlok kívül kerülnek a szervezet határain.<br /><br />Tegyük fel, hogy a Contoso, Ltd. munkatársa. A Fabrikam, Inc. három munkatársával dolgozik közös projekten. Elküld ennek a három személynek egy védett, írásvédelemmel ellátott dokumentumot. Az Azure RMS naplózása a következő információkat biztosítja:<br /><br />- Megnyitották-e a Fabrikam kijelölt alkalmazottai a dokumentumot, és mikor?<br /><br />- Megpróbálták-e (sikertelenül) megnyitni a dokumentumot nem kijelölt személyek? Például azért, mert olyan megosztott helyre lett továbbítva vagy mentve, amelyhez mások is hozzáférhetnek.<br /><br />- Megpróbálták-e (sikertelenül) a kijelölt személyek kinyomtatni vagy módosítani a dokumentumot?|
@@ -73,6 +72,6 @@ Az Azure RMS működését – akár rendszergazdák, akár a felhasználók sze
 Az Azure RMS működésével kapcsolatos további műszaki információkat [Az Azure RMS működése](how-does-it-work.md) című cikkben találja. 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

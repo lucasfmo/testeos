@@ -4,9 +4,9 @@ description: "A Windows Phone rendszerre készült alkalmazások a Microsoft Rig
 keywords: 
 author: bruceperlerms
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: e25a446e-b977-4736-9c65-7711171fb0e1
@@ -14,8 +14,8 @@ audience: developer
 ms.reviewer: shubhamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 90552435666b8f25c893fcffe8c8cf3355a5942d
-ms.openlocfilehash: 136d6e9d0c45a9779f87e32eed8288fe8ee3a622
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: b2f7233b91852dae0fe619720b84bd395547a05c
 
 
 ---
@@ -28,8 +28,8 @@ A Windows Phone rendszerre készült alkalmazások a Microsoft Rights Management
 Ez a témakör végigvezeti egy környezet felépítésének lépésein a saját új alkalmazásai létrehozásához.
 
 -   [Előfeltételek](#prerequisites)
--   [A fejlesztési környezet konfigurálása](#configuring_your_development_environment)
--   [Lásd még:](#see_also)
+-   [A fejlesztési környezet konfigurálása](#configuring-your-development-environment)
+-   [Lásd még:](#see-also)
 
 ## Előfeltételek
 
@@ -93,6 +93,6 @@ Most már készen áll a saját új Windows Phone-alkalmazásai létrehozására
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

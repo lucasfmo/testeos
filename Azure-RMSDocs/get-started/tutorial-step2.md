@@ -4,17 +4,17 @@ description: "A második lépése annak az oktatóanyagnak, amellyel gyorsan kip
 keywords: 
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 07/13/2016
 ms.topic: get-started-article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: f32cf2f3-29e2-429c-a0fd-b16cc482484a
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ed50d87138c428fadfd22cd5b3ef3c7f7e421848
-ms.openlocfilehash: da706bcaf52d0519706898501c563a9a03231dd9
+ms.sourcegitcommit: 26b043f1f9e7a1e0cd00c2f31c28f7d6685f0232
+ms.openlocfilehash: 19eb18599d9d084b40cfe746f01eb8ce463c47ab
 
 
 ---
@@ -23,7 +23,7 @@ ms.openlocfilehash: da706bcaf52d0519706898501c563a9a03231dd9
 
 # Azure RMS gyors üzembe helyezés – 2. lépés: A Rights Management megosztóalkalmazás telepítése
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 
 Ugrás ide: 
@@ -62,7 +62,7 @@ Mostantól készen áll a csak az adott személyekkel megosztani kívánt inform
 |--------------------------------|--------------------------|
 |A Windows Rights Management megosztóalkalmazás helyi telepítésének információi és felhasználói utasítások|[A Rights Management megosztóalkalmazás felhasználói útmutatója](../rms-client/sharing-app-user-guide.md)|
 |A Windows Rights Management megosztóalkalmazás parancsfájlalapú telepítésének információi és további műszaki adatok|[Rendszergazdai útmutató a Rights Management megosztóalkalmazáshoz](../rms-client/sharing-app-admin-guide.md)|
-|A natív védelem és a általános védelem közötti különbségek megértése|[Mi a különbség az általános védelem és a beépített (natív) védelem között?](../rms-client/sharing-app-dialog-box.md#what-s-the-difference-between-generic-protection-and-built-in-native-protection-)|
+|A natív védelem és a általános védelem közötti különbségek megértése|[Mi a különbség az általános védelem és a beépített (natív) védelem között?](../rms-client/sharing-app-dialog-box.md#what-s-the-difference-between-generic-protection-and-built-in-native-protection)|
 
 
 >[!div class="step-by-step"]
@@ -70,6 +70,6 @@ Mostantól készen áll a csak az adott személyekkel megosztani kívánt inform
 [3. lépés »](tutorial-step3.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

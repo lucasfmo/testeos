@@ -65,8 +65,9 @@
 #### [Függvény](https://docs.microsoft.com/en-us/rights-management/sdk/2.1/api/win/functions)
 #### [Struktúrák](https://docs.microsoft.com/en-us/rights-management/sdk/2.1/api/win/structures)
 #### [Hibakódok](https://docs.microsoft.com/en-us/rights-management/sdk/2.1/api/win/Error codes)
+# [Azure Information Protection (előzetes verzió)](/rights-management/information-protection/what-is-information-protection)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

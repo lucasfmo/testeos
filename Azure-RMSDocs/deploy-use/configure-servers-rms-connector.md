@@ -1,27 +1,26 @@
 ---
 title: "Kiszolgálók konfigurálása az Azure Rights Management-összekötő használatához | Azure RMS"
-description: 
-keywords: 
+description: "A helyszíni kiszolgálóknak az Azure Rights Management- (RMS-) összekötő használatához való konfigurálásához szükséges tudnivalók. Ezeket az eljárásokat a Deploying the Azure Rights Management connector (Az Azure Rights Management-összekötő üzembe helyezése) című témakör 5. lépése is ismerteti."
 author: cabailey
 manager: mbaldwin
-ms.date: 06/08/2016
+ms.date: 06/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 75846ee1-2370-4360-81ad-e2b6afe3ebc9
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0b07ecc88b1d2d344f0984d4a805cc033996cc4d
-ms.openlocfilehash: 79171b5931b69ca18d2a2cbe321d5d5887903da2
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: 67bf5f7b5a550e723ac16707c341f6b3af054b9a
 
 
 ---
 
 # Kiszolgálók konfigurálása az Azure Rights Management-összekötő használatához
 
-*A következőkre vonatkozik: Azure Rights Management, Windows Server 2012, Windows Server 2012 R2*
+>*A következőkre vonatkozik: Azure Rights Management, Windows Server 2012, Windows Server 2012 R2*
 
 
 Az alábbi információk segítségével konfigurálhatja a helyszíni kiszolgálókat az Azure Rights Management- (RMS-) összekötő használatához. Ezeket az eljárásokat a [Deploying the Azure Rights Management connector](deploy-rms-connector.md) (Az Azure Rights Management-összekötő üzembe helyezése) című témakör 5. lépése is ismerteti.
@@ -250,6 +249,6 @@ Az RMS-összekötő megfigyelése: [Az Azure Rights Management-összekötő megf
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

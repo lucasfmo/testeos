@@ -1,27 +1,26 @@
 ---
 title: "Információk és támogatás az Azure Rights Managementhez | Azure RMS"
-description: 
-keywords: 
+description: "A Microsoft Azure RMS termékre vonatkozó további információkat az alábbi forrásokban találja. Információt találhat a termékcsoport blogjáról, a támogatási lehetőségekről, valamint arról is, hogy miként léphet kapcsolatba a Microsofttal a probléma jelentése érdekében."
 author: cabailey
 manager: mbaldwin
-ms.date: 06/29/2016
+ms.date: 08/25/2016
 ms.topic: get-started-article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 7cc73d92-27d6-49ff-a8ab-2fae73519b4b
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6052afabe4894f8129e9eebc93705b219e6ed875
-ms.openlocfilehash: a8f5852d965abe2f2654aa236bfd9ea49a62aa84
+ms.sourcegitcommit: 81426cf43f31625c6e83d443fa925f6426eb89da
+ms.openlocfilehash: 86a5948b12be69998fb9f2d9ee7f736cc70efd84
 
 
 ---
 
 # Információk és támogatás az Azure Rights Managementhez
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 A Microsoft [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] (Azure RMS) termékre vonatkozó további információkat az alábbi forrásokban találja.
 
@@ -87,6 +86,6 @@ Hibaelhárítás:
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Aug16_HO4-->
 
 

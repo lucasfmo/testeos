@@ -1,27 +1,26 @@
 ---
 title: "Office-alkalmazások; Konfigurálás az ügyfelekhez | Azure RMS"
-description: 
-keywords: 
+description: "Tájékoztatás és utasítások rendszergazdák részére az Office-alkalmazások az Azure Rights Managementtel (Azure RMS) való konfigurálásához."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: ec269afe-4e87-4cc1-9144-5fbb594b412e
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
-ms.openlocfilehash: 607de5e4699d654a4b7895bacde8f18a9707f8a1
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: a2f4bac460586723ea3d88ecb8fb777a214bacb9
 
 
 ---
 
 # Office-alkalmazások: Konfigurálás az ügyfelekhez
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 
 Ezen információk alapján eldöntheti, mit kell tennie, hogy a végfelhasználói által használt Office-alkalmazások működjenek az Azure Rights Managementtel (Azure RMS).
@@ -39,6 +38,6 @@ További információk a Rights Management megosztóalkalmazásról: [Rights Man
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

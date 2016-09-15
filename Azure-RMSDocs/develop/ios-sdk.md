@@ -4,9 +4,9 @@ description: "Az iOS- és OS X-alkalmazások az RMS SDK 4.2-t használva képese
 keywords: 
 author: bruceperlerms
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: b31e5b72-e65e-450a-b1b8-d46e81e9fb34
@@ -14,15 +14,15 @@ audience: developer
 ms.reviewer: shubhamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f7dd88d90357c99c69fe4fdde67c1544595e02f8
-ms.openlocfilehash: 821fe1c361dc38b1e33ac66208122de165d02020
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: 65c5b290278405152d0377a686886ff5be14b52b
 
 
 ---
 
 # iOS- és OS X-beállítás
 
-Az iOS- és OS X-alkalmazások a Microsoft Rights Management SDK 4.2-t használva képesek integrált adatvédelmet alkalmazni az alkalmazásokban az Azure Active Directory Rights Management (AAD RM) segítségével.
+Az iOS- és OS X-alkalmazások a Microsoft Rights Management SDK 4.2-t használva képesek integrált adatvédelmet alkalmazni az alkalmazásokban az Azure Rights Management (Azure RMS) segítségével.
 
 Ez a témakör végigvezeti egy környezet felépítésének lépésein a saját új alkalmazásai létrehozásához.
 
@@ -31,8 +31,8 @@ Ez a témakör végigvezeti egy környezet felépítésének lépésein a saját
 
 -   [Előfeltételek](#prerequisites)
 -   [Nem kötelező megadni](#optional)
--   [A fejlesztési környezet konfigurálása](#configuring_your_development_environment)
--   [Lásd még:](#see_also)
+-   [A fejlesztési környezet konfigurálása](#configuring-your-development-environment)
+-   [Lásd még:](#see-also)
 
 ## Előfeltételek
 
@@ -119,6 +119,6 @@ A felhasználói felületi kódtár újrahasznosítható felhasználói felület
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Aug16_HO4-->
 
 

@@ -1,26 +1,25 @@
 ---
 title: "Áttelepítés AD RMS-ről Azure Rights Managementre – 2. fázis | Azure RMS"
-description: 
-keywords: 
+description: "Az AD RMS-ről Azure Rights Managementre (Azure RMS) történő áttelepítés 2. szakasza, benne az AD RMS-ről Azure Rights Managementre történő áttelepítés 5. lépése."
 author: cabailey
 manager: mbaldwin
-ms.date: 06/23/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: e3fd9bd9-3638-444a-a773-e1d5101b1793
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a9dc45fb5146b0a4d2f013bff9d090723ce95ee5
-ms.openlocfilehash: 1016ecdd77e818840f2a2cfab8212e908291bb89
+ms.sourcegitcommit: ada00b6f6298e7d359c73eb38dfdac169eacb708
+ms.openlocfilehash: d03c61ae5a2b0f74259e177d0f15dd2262465754
 
 
 ---
 # 2. áttelepítési fázis: Ügyféloldali konfiguráció
 
-*A következőkre vonatkozik: Active Directory Rights Management Services, Azure Rights Management*
+>*A következőkre vonatkozik: Active Directory Rights Management Services, Azure Rights Management*
 
 Az alábbi, 2. fázisra vonatkozó információk segítséget nyújtanak az AD RMS-ről az Azure Rights Managementre (Azure RMS) való áttelepítésben. Ezek az eljárások megfelelnek az [Áttelepítés AD RMS-ről Azure Rights Managementre](migrate-from-ad-rms-to-azure-rms.md) 5. lépésének.
 
@@ -28,7 +27,7 @@ Az alábbi, 2. fázisra vonatkozó információk segítséget nyújtanak az AD R
 ## 5. lépés. Ügyfelek újrakonfigurálása az Azure RMS használatára
 Windows rendszerű ügyfelek:
 
-1.  [Töltse le a következő áttelepítési parancsfájlokat](http://go.microsoft.com/fwlink/?LinkId=524619):
+1.  [Töltse le a következő áttelepítési parancsfájlokat](https://go.microsoft.com/fwlink/?LinkId=524619):
 
     -   CleanUpRMS_RUN_Elevated.cmd
 
@@ -132,6 +131,6 @@ Redirect_OnPrem.cmd:
 Az áttelepítés folytatásához ugorjon a [3. fázis: Támogatási szolgáltatások konfigurálása](migrate-from-ad-rms-phase3.md) című szakaszra.
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Aug16_HO4-->
 
 

@@ -1,27 +1,26 @@
 ---
 title: "RMS egyéni felhasználók számára és Azure Rights Management | Azure RMS"
-description: 
-keywords: 
+description: "Információ az RMS egyéni felhasználók számára: olyan szervezeti felhasználóknak készült ingyenes önkiszolgáló előfizetés, akik a Microsoft Azure Rights Management (Azure RMS) által védett bizalmas fájlokat kaptak, de nem hitelesíthetők, mert az informatikai részlegük nem tart fenn fiókot a számukra az Azure-ban."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 2efcb440-fefd-45e9-872b-f471573aadf2
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
-ms.openlocfilehash: 6a27d5a2a1bad24521a551465fd9324f2a826376
+ms.sourcegitcommit: 79d098e47cdfe608bc62ed385a5c8236fb7c6d3c
+ms.openlocfilehash: 15be32e029637321bf8e4f7c1a53f918efda7f23
 
 
 ---
 
 # RMS egyéni felhasználók számára és Azure Rights Management
 
-*A következőkre vonatkozik: Azure Rights Management*
+>*A következőkre vonatkozik: Azure Rights Management*
 
 Az RMS egyéni felhasználók számára olyan szervezeti felhasználóknak készült ingyenes önkiszolgáló előfizetés, akik a Microsoft Azure Rights Management (Azure RMS) által védett bizalmas fájlokat kaptak, de nem hitelesíthetők, mert az informatikai részlegük nem tart fenn fiókot a számukra az Azure-ban. Az informatikai részleg például nem rendelkezik az Office 365-tel, vagy nem használja az Azure-szolgáltatásokat.
 
@@ -30,7 +29,7 @@ Ezek a felhasználók ingyenes munkahelyi vagy iskolai fiókot regisztrálhatnak
 A Rights Management megosztóalkalmazást Windows rendszerű számítógépeken használva ezek a felhasználók helyben is védhetik a fájlokat, és a védett fájlokat elküldhetik e-mailen keresztül a szervezeten belüli vagy kívüli személyeknek is. Ha az általuk küldött e-mail címzettjei olyan szervezetben vannak, amely szintén nem az Azure használatával felügyeli a felhasználói fiókokat, ők is regisztrálhatnak egy fiókot az RMS egyéni felhasználók számára előfizetés választásával a védett e-mail-melléklet elolvasása érdekében.
 
 > [!IMPORTANT]
-> Ez az ingyenes előfizetés biztosítja, hogy a jogosult személyek mindig elolvashassák a védett fájlokat. Jelenleg ezzel az ingyenes előfizetéssel dokumentumokat is védelemmel láthat el, és új védett e-mail-üzeneteket hozhat létre, de az új védett tartalmak készítésének képessége csak próbaverziós funkcióként használható, és később lehet, hogy el lesz távolítva az előfizetésből. További információt a [Microsoft Rights Management szolgáltatási feltételeiben](https://portal.aadrm.com/Legal/Service) talál, és ugyanebben a dokumentumban tájékozódhat az RMS egyéni felhasználók által tartalomvédelmi célból történő használatával kapcsolatos változásokról is.
+> Ez az ingyenes előfizetés biztosítja, hogy a jogosult személyek mindig elolvashassák a védett fájlokat. Jelenleg ezzel az ingyenes előfizetéssel dokumentumokat is védelemmel láthat el, és új védett e-mail-üzeneteket hozhat létre, de az új védett tartalmak készítésének képessége csak próbaverziós funkcióként használható, és később lehet, hogy el lesz távolítva az előfizetésből. 
 
 A fájlok ingyenes Rights Management megosztóalkalmazással történő védelméről további információt a [Rights Management megosztóalkalmazás felhasználói útmutatója](../rms-client/sharing-app-user-guide.md) tartalmaz.
 
@@ -42,6 +41,6 @@ A [Felhasználói regisztrálás módja az RMS egyéni felhasználók számára 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Sep16_HO1-->
 
 

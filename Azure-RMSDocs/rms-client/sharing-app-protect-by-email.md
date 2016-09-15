@@ -1,27 +1,26 @@
 ---
 title: "E-mailben megosztott fájlok védelmének biztosítása a Rights Management megosztóalkalmazással | Azure RMS"
-description: 
-keywords: 
+description: "Útmutató, miként osszon meg biztonságosan e-mailben egy dokumentumot."
 author: cabailey
 manager: mbaldwin
-ms.date: 05/09/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 4c1cd1d3-78dd-4f90-8b37-dcc9205a6736
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c611fa8a846612fed238e59e5077be67f6f9531a
-ms.openlocfilehash: ea7f186e01606ca5e487bdfaab87d1eb0f2f41d3
+ms.sourcegitcommit: 035c9eb6cb630cafd5bd7fc7e2371340043ddc5e
+ms.openlocfilehash: ff5dd6afaa454c20f35c237e94947dcec9e737f6
 
 
 ---
 
 # E-mailben megosztott fájl védelme a Rights Management megosztóalkalmazással
 
-*A következőkre vonatkozik: Active Directory tartalomvédelmi szolgáltatások, Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
+>*A következőkre vonatkozik: Active Directory tartalomvédelmi szolgáltatások, Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
 
 Amikor védetté tesz egy e-mailben megosztott fájlt, az alkalmazás létrehozza az eredeti fájl egy új verzióját. Az eredeti fájl védelem nélküli marad, az új verzió pedig védett lesz, és a rendszer automatikusan csatolja az elküldendő e-mailhez.
 
@@ -72,7 +71,7 @@ A védett fájlok Outlookkal történő megosztása mellett a következő altern
 
     ![E-mail-üzenet az Azure RMS-hez](../media/ADRMS_MSRMSApp_EmailMessage.PNG)
 
-    Szeretné megtudni, hogy [Mi az az automatikusan létrehozott .ppdf-fájl?](sharing-app-dialog-box.md#what-s-the-ppdf-file-that-s-automatically-created-)
+    Szeretné megtudni, hogy [Mi az az automatikusan létrehozott .ppdf-fájl?](sharing-app-dialog-box.md#what-s-the-ppdf-file-that-s-automatically-created)
 
 4.  Választható: Bármit módosíthat ebben az e-mail-üzenetben. Például hozzáadhatja vagy módosíthatja az üzenet tárgyát vagy szövegét.
 
@@ -86,13 +85,13 @@ A Rights Management megosztóalkalmazás használatát szemléltető egyéb pél
 
 -   [Példák az RMS-megosztó alkalmazás használatára](sharing-app-user-guide.md#examples-for-using-the-rms-sharing-application)
 
--   [Művelet](sharing-app-user-guide.md#what-do-you-want-to-do-)
+-   [Művelet](sharing-app-user-guide.md#what-do-you-want-to-do)
 
 ## Lásd még:
 [A Rights Management megosztóalkalmazás felhasználói útmutatója](sharing-app-user-guide.md)
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

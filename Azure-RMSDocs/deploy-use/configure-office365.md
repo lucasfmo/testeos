@@ -1,27 +1,26 @@
 ---
 title: "Office 365&colon; Konfigurálás ügyfelek és online szolgáltatások számára | Azure RMS"
-description: 
-keywords: 
+description: "Tájékoztatás és utasítások rendszergazdák részére az Office 365 az Azure Rights Managementtel (Azure RMS) való működésének konfigurálásához."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 0a6ce612-1b6b-4e21-b7fd-bcf79e492c3b
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
-ms.openlocfilehash: 7a2436a6ebb17e4336f1321b8f3742e34ea59689
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: 5e9ecbdef4adb4995199b059903902df078471e5
 
 
 ---
 
 # Office 365: Konfigurálás ügyfelek és online szolgáltatások számára
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Mivel az Office 365 natívan támogatja az Azure RMS-t, az olyan alkalmazásokhoz, mint a Word, az Excel, a PowerPoint, az Outlook és az Outlook Web App, nincs szükség az ügyfélszámítógép konfigurálására a tartalomvédelmi szolgáltatások (IRM) funkcióinak támogatásához. A felhasználóknak egyszerűen be kell jelentkezniük az Office-alkalmazásaikba [!INCLUDE[o365_1](../includes/o365_1_md.md)] hitelesítő adataikkal, és máris levédhetik a fájljaikat, valamint használhatják a mások által levédett fájlokat és e-maileket.
 
@@ -559,7 +558,7 @@ Noha nem konfigurálhatja az IRM-et a felhasználók OneDrive Vállalati verzió
 
     3.  Keresse meg a következőt: `$webUrls`, és cserélje le a példában szereplő értékeket a felhasználók OneDrive Vállalati verziójához tartozó webes URL-címre. Annyi bejegyzést adhat hozzá vagy törölhet, amennyit csak szeretne.
 
-        Másik megoldásként nézze meg a parancsfájlhoz tartozó megjegyzéseknél, hogy miként cserélheti le ezt a tömböt egy, az összes konfigurálni kívánt URL-címet tartalmazó .CSV fájlt importálva.  Biztosítottunk egy másik parancsfájlpéldát is, amellyel automatikusan megkeresheti és kinyerheti az URL-címeket a .CSV fájl adatokkal való feltöltéséhez. Ha készen áll erre, nyissa meg a közvetlenül ezeket a lépéseket alatti, [Kiegészítő parancsfájl az összes OneDrive Vállalati verzió URL-címének .CSV fájlba való küldéséhez](#BKMK_Script_OD4B_URLS) című szakaszt.
+        Másik megoldásként nézze meg a parancsfájlhoz tartozó megjegyzéseknél, hogy miként cserélheti le ezt a tömböt egy, az összes konfigurálni kívánt URL-címet tartalmazó .CSV fájlt importálva.  Biztosítottunk egy másik parancsfájlpéldát is, amellyel automatikusan megkeresheti és kinyerheti az URL-címeket a .CSV fájl adatokkal való feltöltéséhez. Ha készen áll erre, tekintse át a közvetlenül ezek után a lépések után következő, [Kiegészítő szkript az összes OneDrive Vállalati verzióbeli URL-cím .CSV-fájlba való küldéséhez](#additional-script-to-output-all-onedrive-for-business-urls-to-a-csv-file) című szakaszt.
 
         A felhasználó OneDrive Vállalati verziójához tartozó URL-cím formátuma a következő: https://*&lt;bérlő neve&gt;*-my.sharepoint.com/personal/*&lt;felhasználónév&gt;*_*&lt;bérlő neve&gt;*_com
 
@@ -582,7 +581,7 @@ Noha nem konfigurálhatja az IRM-et a felhasználók OneDrive Vállalati verzió
 
 Ha le kell tiltania az IRM-et a felhasználói OneDrive Vállalati verzió könyvtáraihoz, tekintse meg [Az IRM-et letiltó parancsfájl a OneDrive Vállalati verzióhoz](#script-to-disable-irm-for-onedrive-for-business) című szakaszt.
 
-##### Kiegészítő parancsfájl az összes OneDrive Vállalati verzió URL-címének .CSV fájlba való küldéséhez
+##### Kiegészítő szkript az összes OneDrive Vállalati verzióbeli URL-cím .CSV-fájlba való küldéséhez
 A fenti 4c lépésnél a következő Windows PowerShell-parancsfájl segítségével nyerheti ki az összes felhasználó OneDrive Vállalati verziójának könyvtárához tartozó URL-címeket. Ezeket aztán ellenőrizheti, szükség esetén szerkesztheti, majd importálhatja a fő parancsfájlba.
 
 Ehhez a parancsfájlhoz szükséges a [SharePoint Online ügyféloldali összetevők SDK-ja](http://www.microsoft.com/en-us/download/details.aspx?id=42038) és a [SharePoint Online felügyeleti rendszerhéj](http://www.microsoft.com/en-us/download/details.aspx?id=35588) is. Ugyanezeket az utasításokat követve másolja, majd illessze be, végül mentse helyben a fájlt (például: „Report-OneDriveForBusinessSiteInfo.ps1”), módosítsa a `$sharepointAdminCenterUrl` és a `$tenantAdmin` értéket a korábbihoz hasonlóan, majd futtassa a parancsfájlt.
@@ -1106,6 +1105,6 @@ Disconnect-SPOService -ErrorAction SilentlyContinue
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

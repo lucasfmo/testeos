@@ -1,27 +1,26 @@
 ---
 title: "Az Azure Rights Management és az AD RMS összehasonlítása | Azure RMS"
-description: 
-keywords: 
+description: "Ha ismeri vagy korábban már telepítette az Active Directory tartalomvédelmi szolgáltatásokat (AD RMS), talán kíváncsi, hogyan viszonyul ahhoz az Azure RMS a funkciók és a követelmények tekintetében."
 author: cabailey
 manager: mbaldwin
-ms.date: 05/20/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 8123bd62-1814-4d79-b306-e20c1a00e264
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 332e102cb27854314b93a71bfeae82a95c9a7812
-ms.openlocfilehash: 8635402989db0f83017151910013ca460011b392
+ms.sourcegitcommit: 43429b44c019144744f39a1f92f144d315c2024c
+ms.openlocfilehash: 2de89be11a45e3d1e53afc667a6cf65fcb69c690
 
 
 ---
 
 # Az Azure Rights Management és az AD RMS összehasonlítása
 
-*A következőkre vonatkozik: Active Directory Rights Management Services, Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Active Directory Rights Management Services, Azure Rights Management, Office 365*
 
 Ha ismeri vagy korábban már telepítette az Active Directory tartalomvédelmi szolgáltatásokat (AD RMS), talán kíváncsi, hogyan viszonyul ahhoz az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] (Azure RMS) a funkciók és a követelmények tekintetében. 
 
@@ -54,7 +53,7 @@ A további részletek és eltérések megismeréséhez használja az alábbi tá
 |Két alapvető jogosultsági házirendsablont biztosít, amelyek korlátozzák a saját szervezete tartalmainak elérését. Az egyik sablon a védett tartalmak esetében csak olvasási jogosultságot biztosít, a másik pedig írási vagy módosítási jogosultságot is.<br /><br />Létrehozhatók saját egyéni sablonok, köztük csak a felhasználók egy része számára látható részlegszintű sablonok is. További információ: [Configuring custom templates for Azure Rights Management](../deploy-use/configure-custom-templates.md) (Egyéni sablonok konfigurálása az Azure Rights Management szolgáltatáshoz).<br /><br />Emellett, amennyiben a sablonok nem elegendőek, a felhasználók meghatározhatják a saját engedélykészleteiket is.|Alapértelmezett jogosultsági házirendsablonok nincsenek. Ezeket Önnek kell létrehoznia és közzétennie. További információ: [AD RMS Policy Template Considerations](http://go.microsoft.com/fwlink/?LinkId=154765) (Az AD RMS házirendsablonjainak szempontjai).<br /><br />Emellett, amennyiben a sablonok nem elegendőek, a felhasználók meghatározhatják a saját engedélykészleteiket is.|
 |A Microsoft Office minimális támogatott verziója az Office 2010, amelyhez az [RMS megosztóalkalmazás](../rms-client/sharing-app-windows.md) szükséges.<br /><br />Mac Microsoft Office:<br /><br />– Mac Microsoft Office 2016: Támogatott<br /><br />– Mac Microsoft Office 2011: Nem támogatott|A Microsoft Office minimális támogatott verziója az Office 2007.<br /><br />Mac Microsoft Office:<br /><br />– Mac Microsoft Office 2016: Támogatott<br /><br />– Mac Microsoft Office 2011: Támogatott|
 |Támogatja az [RMS megosztóalkalmazást](../rms-client/sharing-app-windows.md) windowsos és Mac számítógépeken, valamint mobileszközökön.<br /><br />Emellett az RMS megosztóalkalmazás a következőket támogatja:<br /><br />– Megosztás másik szervezethez tartozó személyekkel.<br /><br />– E-mail-értesítések, amelyek jelzik a küldőnek, ha valaki megpróbál megnyitni egy védett mellékletet.<br /><br />– Dokumentumkövető oldal, amely lehetőséget nyújt a felhasználóknak a dokumentumok visszavonására.|Támogatja az [RMS megosztóalkalmazást](../rms-client/sharing-app-windows.md) windowsos és Mac számítógépeken, valamint mobileszközökön. Mindazonáltal a megosztás nem támogatja a másik szervezet tagjaival való megosztást, az e-mail-értesítéseket, a dokumentumkövető oldalt és a dokumentumok felhasználók általi visszavonásának lehetőségét.|
-|Az RMS megosztóalkalmazás használatával minden fájltípus ellátható [natív vagy általános védelemmel](../rms-client/sharing-app-admin-guide-technical.md#levels-of-protection-native-and-generic).<br /><br />Az egyéb alkalmazásokra vonatkozóan lásd az [ügyféleszköz-képességek táblázatát](../get-started/requirements-client-devices.md#client-device-capabilities).|Az RMS megosztóalkalmazás használatával minden fájltípus ellátható [natív vagy általános védelemmel](../rms-client/sharing-app-admin-guide-technical.md#levels-of-protection-native-and-generic).<br /><br />Az egyéb alkalmazásokra vonatkozóan lásd az [ügyféleszköz-képességek táblázatát](../get-started/requirements-client-devices.md#client-device-capabilities).|
+|Az RMS megosztóalkalmazás használatával minden fájltípus ellátható [natív vagy általános védelemmel](../rms-client/sharing-app-admin-guide-technical.md#levels-of-protection-native-and-generic).<br /><br />Más alkalmazások esetén tanulmányozza át az [Azure RMS-követelmények: Alkalmazások](../get-started/requirements-applications.md) című témakörben található táblázatot.|Az RMS megosztóalkalmazás használatával minden fájltípus ellátható [natív vagy általános védelemmel](../rms-client/sharing-app-admin-guide-technical.md#levels-of-protection-native-and-generic).<br /><br />Más alkalmazások esetén tanulmányozza át az [Azure RMS-követelmények: Alkalmazások](../get-started/requirements-applications.md) című témakörben található táblázatot.|
 |A Windows-ügyfél minimális támogatott verziója a Windows 7.|A Windows-ügyfél minimális támogatott verziója a Windows Vista Service Pack 2.|
 |A mobileszköz-támogatás kiterjed a Windows Phone, Android, iOS és Windows RT rendszerű készülékekre.<br /><br />Szintén támogatott az Exchange ActiveSync IRM-jét használó e-mailes támogatás minden olyan mobileszköz-platformon, amely támogatja ezt a protokollt.|A mobileszköz-támogatás kiterjed a Windows Phone, Android, iOS és Windows RT rendszerű készülékekre, és az [Active Directory Rights Management Services mobileszköz-bővítmény](http://technet.microsoft.com/library/dn673574.aspx) szükséges hozzá.<br /><br />Az Exchange ActiveSync IRM-jét használó e-mailes támogatás minden olyan mobileszköz-platformon támogatott, amely támogatja ezt a protokollt.|
 |Támogatja a többtényezős hitelesítést (MFA) számítógépeken és mobileszközökön.<br /><br />További információ: [Multi-factor authentication (MFA) and Azure RMS](../get-started/requirements-azure-ad.md#multi-factor-authentication-mfa-and-azure-rms) (Többtényezős hitelesítés (MFA) és az Azure RMS).|Támogatja az intelligens kártyás hitelesítést, ha az IIS konfigurálva van a tanúsítványok kérésére.|
@@ -76,6 +75,6 @@ Ha az AD RMS-ről Azure RMS-re szeretne áttelepítést végezni, olvassa el a k
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

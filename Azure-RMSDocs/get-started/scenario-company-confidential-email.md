@@ -1,33 +1,26 @@
 ---
-# required metadata
-
-title: Forgatókönyv – Bizalmas vállalati e-mail küldése | Azure RMS
-description:
-keywords:
+title: "Forgatókönyv – Bizalmas vállalati e-mail küldése | Azure RMS"
+description: "Ez a forgatókönyv és a kiegészítő felhasználói dokumentáció az Azure Rights Managementet használja arra hogy a szervezet bármely felhasználója biztonságosan küldhessen a szervezeten kívül nem olvasható e-mail üzeneteket."
 author: cabailey
 manager: mbaldwin
-ms.date: 05/20/2016
+ms.date: 08/25/2016
 ms.topic: get-started-article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 950799e9-2289-48c7-b95a-f54a8ead520a
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: esaggese
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 81426cf43f31625c6e83d443fa925f6426eb89da
+ms.openlocfilehash: e3245f7fb15f7081dbe4552eb9734a4915d1b6f1
+
 
 ---
 
 # Forgatókönyv – Bizalmas vállalati e-mail küldése
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Ez a forgatókönyv és a kiegészítő felhasználói dokumentáció az Azure Rights Managementet használja arra hogy a szervezet bármely felhasználója biztonságosan küldhessen a szervezeten kívül nem olvasható e-mail üzeneteket. Például akkor, ha valaki egy másik szervezethez tartozó személy számára vagy egy személyes e-mail fiókra továbbít egy üzenetet. Az e-mailt és a mellékleteit az Azure Rights Management és a felhasználó által az e-mail ügyfélprogramból kiválasztott sablon látja el védelemmel.
 
@@ -163,6 +156,7 @@ Az e-mail címzettjei továbbküldhetik az üzenetet másoknak, de csak a VanArs
 
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Aug16_HO4-->
 
 

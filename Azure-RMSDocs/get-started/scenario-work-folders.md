@@ -1,27 +1,26 @@
 ---
 title: "Forgatókönyv – Munkahelyi mappák konfigurálása az állandó védelemhez | Azure RMS"
-description: 
-keywords: 
+description: "Ez a forgatókönyv és a kiegészítő felhasználói dokumentáció az Azure Rights Managementet használja a Munkahelyi mappákban lévő Office-dokumentumok állandó védelemmel történő ellátására."
 author: cabailey
 manager: mbaldwin
-ms.date: 05/20/2016
+ms.date: 08/25/2016
 ms.topic: get-started-article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 1f189345-a69e-4bf5-8a45-eb0fe5bb542b
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 332e102cb27854314b93a71bfeae82a95c9a7812
-ms.openlocfilehash: 35ad445e229eac3feeca5522a41b9e3b25fd1180
+ms.sourcegitcommit: 81426cf43f31625c6e83d443fa925f6426eb89da
+ms.openlocfilehash: 1fdb62af06a3011e1102df0df3f9b61bcdc67edd
 
 
 ---
 
 # Forgatókönyv – Munkahelyi mappák konfigurálása az állandó védelemhez
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Ez a forgatókönyv és a kiegészítő felhasználói dokumentáció az Azure Rights Managementet használja a [Munkahelyi mappákban](https://technet.microsoft.com/library/dn265974.aspx) lévő Office-dokumentumok állandó védelemmel történő ellátására. A Munkahelyi mappák szerepkör-szolgáltatást használ a Windows Server rendszert futtató fájlkiszolgálók esetében, amely egységes módon biztosít a felhasználók számára hozzáférést a munkahelyi fájlokhoz személyes számítógépükről vagy eszközükről. Bár a Munkahelyi mappák saját titkosítást alkalmaz a fájlok védelmére, ez a védelem megszűnik, ha fájlokat áthelyezik a Munkahelyi mappák környezetén kívülre. A felhasználók például másolatot készítenek a szinkronizált fájlokról, és egy olyan tárolóra mentik, amelyet nem az Ön informatikai részlege felügyel, vagy elküldik azokat másoknak.
 
@@ -123,6 +122,6 @@ Ha a forgatókönyvben leírtak szerint konfigurálta az egyéni sablont, akkor 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

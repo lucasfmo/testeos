@@ -1,33 +1,28 @@
 ---
-# required metadata
-
 title: "Útmutató: A dokumentumkövetés és -visszavonás engedélyezése | Azure RMS"
-description: A dokumentumok nyomon követésének bevezetésére szolgáló alapvető útmutatás
-keywords:
+description: "A dokumentumok nyomon követésének bevezetésére szolgáló alapvető útmutatás"
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: F5089765-9D94-452B-85E0-00D22675D847
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+experimental: true
+experiment_id: priyamo-test-20160729
+translationtype: Human Translation
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: 156ffcc021fee129557d485cb80bf9c3fcb8950b
+
 
 ---
-<<<<<<< HEAD
 
 # Tartalom nyomon követése
-=======
->>>>>>> 81ec5ddf5acf3de78d77c01ed95631e44d37fe6e
 
 # Útmutató: A dokumentumkövetés és -visszavonás engedélyezése
 
@@ -170,6 +165,7 @@ Az ügyfélnek egyszerűen meg kell nyitnia egy böngészőt a megfelelő URL-le
  
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Aug16_HO4-->
 
 

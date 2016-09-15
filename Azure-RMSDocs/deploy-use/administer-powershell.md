@@ -1,27 +1,26 @@
 ---
 title: "Administering Azure Rights Management by Using Windows PowerShell (Az Azure Rights Management felügyelete a Windows PowerShell használatával) | Azure RMS"
-description: 
-keywords: 
+description: "Ismerje meg, miként használhatja az Azure RMS-hez való Windows PowerShell-modult (AADRM), hogy felügyelhesse szervezete számára ezt a szolgáltatást."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: a890e04a-4b70-41b5-8d5f-3c210a669faa
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
-ms.openlocfilehash: bf1f684bc394ec3a1025f8c9ed3e57d07c598125
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: 1660fa08af036267094784cb729215836208a9a1
 
 
 ---
 
 # Administering Azure Rights Management by Using Windows PowerShell (Az Azure Rights Management felügyelete a Windows PowerShell használatával)
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Bár aktiválhatja a Microsoft [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] (Azure RMS) szolgáltatást az [!INCLUDE[o365_2](../includes/o365_2_md.md)] felügyeleti központja vagy a klasszikus Azure-portál használatával, használhatja az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] (AADRM) Windows PowerShell-modulját is erre a célra.
 
@@ -36,7 +35,7 @@ Létezik továbbá egy kiegészítő Windows PowerShell-modul is, az **RMSProtec
 |-------------------|------------------------------|
 |Áttelepíteni a helyszíni Rights Management (AD RMS vagy Windows RMS) rendszerből az [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)]-be.|[Import-AadrmTpd](http://msdn.microsoft.com/library/azure/dn857523.aspx)|
 |Csatlakozni vagy a kapcsolatot bontani a [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] szolgáltatással szervezete számára.|[Connect-AadrmService](http://msdn.microsoft.com/library/azure/dn629415.aspx)<br /><br />[Disconnect-AadrmService](http://msdn.microsoft.com/library/azure/dn629416.aspx)|
-|Létrehozni és felügyelni saját bérlőkulcsát – azaz a BYOK forgatókönyv mellett döntött.|[Add-AadrmKey](http://msdn.microsoft.com/library/azure/dn629418.aspx)<br /><br />[Get-AadrmKeys](http://msdn.microsoft.com/library/azure/dn629420.aspx)|
+|Létrehozni és felügyelni saját bérlőkulcsát – azaz a BYOK forgatókönyv mellett döntött.|[Use-AadrmKeyVaultKey](https://msdn.microsoft.com/library/azure/mt759829.aspx)<br /><br />[Get-AadrmKeys](http://msdn.microsoft.com/library/azure/dn629420.aspx)|
 |Aktiválni vagy inaktiválni a [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] szolgáltatást szervezete számára.|[Enable-Aadrm](http://msdn.microsoft.com/library/azure/dn629412.aspx)<br /><br />[Disable-Aadrm](http://msdn.microsoft.com/library/azure/dn629422.aspx)|
 |Letiltani vagy engedélyezni a dokumentumkövető oldalt az Azure Rights Management számára.|[Disable-AadrmDocumentTrackingFeature](https://msdn.microsoft.com/library/azure/mt548471.aspx)<br /><br />[Enable-AadrmDocumentTrackingFeature](https://msdn.microsoft.com/library/azure/mt548469.aspx)<br /><br />[Get-AadrmDocumentTrackingFeature](https://msdn.microsoft.com/library/azure/mt548470.aspx)|
 |Regisztrációs vezérlőket konfigurálni az Azure Rights Management szakaszos bevezetéshez.|[Get-AadrmOnboardingControlPolicy](http://msdn.microsoft.com/library/azure/dn857522.aspx)<br /><br />[Set-AadrmOnboardingControlPolicy](http://msdn.microsoft.com/library/azure/dn857521.aspx)|
@@ -54,6 +53,6 @@ Létezik továbbá egy kiegészítő Windows PowerShell-modul is, az **RMSProtec
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

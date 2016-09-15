@@ -1,27 +1,26 @@
 ---
 title: "Gyakori kérdések az Azure Rights Management szolgáltatásról | Azure RMS"
-description: 
-keywords: 
+description: "Néhány gyakran feltett kérdés a Microsoft Azure Rights Management (más néven Azure RMS) termékről."
 author: cabailey
 manager: mbaldwin
-ms.date: 06/30/2016
+ms.date: 09/29/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 71ce491f-41c1-4d15-9646-455a6eaa157d
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b73c83b91a6b00e44ff6c8fe7f8e954bd9713e34
-ms.openlocfilehash: a3ed9e8de496741fae8904481edb1177762a12c0
+ms.sourcegitcommit: 47328bc0c3cc66e99a98b7c8abc553f25d956404
+ms.openlocfilehash: e485286a0bd42bbcfb46a8aabe4d2ee66d65b4a1
 
 
 ---
 
 # Gyakori kérdések az Azure Rights Management szolgáltatásról
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Néhány gyakran feltett kérdés a Microsoft [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] (más néven Azure RMS) termékről:
 
@@ -122,7 +121,7 @@ Az Azure RMS eredetileg nem támogatta a Rights Management helyszíni telepíté
 További információ: [Áttelepítés AD RMS-ről Azure Rights Managementre](../plan-design/migrate-from-ad-rms-to-azure-rms.md).
 
 ## Nagyon szeretnénk az Azure RMS-sel használni a BYOK-t, de megtudtuk, hogy nem kompatibilis az Exchange Online-nal. Mit tanácsolnak?
-Emiatt a jelenlegi korlátozás miatt ne halassza el az Azure RMS bevezetését. Ha rendelkezik Exchange Online-nal, és saját kulcsot szeretne használni (BYOK), javasoljuk, hogy az Azure RMS-t az alapértelmezett kulcsfelügyeleti módban helyezze üzembe, amelyben a kulcsát a Microsoft állítja elő és kezeli. Így azonnal élhet a fontos fájlok és e-mailek védelmének összes előnyével, és később még mindig átválthat BYOK használatra (például, ha az Exchange Online már támogatni fogja a BYOK-t).
+Emiatt a jelenlegi korlátozás miatt ne halassza el az Azure RMS bevezetését. Ha rendelkezik Exchange Online-nal, és saját kulcsot szeretne használni (BYOK), javasoljuk, hogy az Azure RMS-t az alapértelmezett kulcsfelügyeleti módban helyezze üzembe, amelyben a kulcsát a Microsoft állítja elő és kezeli. Így azonnal élhet a fontos fájlok és e-mailek védelmének összes előnyével, és később még mindig átválthat BYOK használatra (például, ha az Exchange Online már támogatni fogja a BYOK-t). Ha a BYOK-ra vált, továbbra is elérheti a korábban védetté tett dokumentumait és e-mailjeit archivált kulcs segítségével.
 
 Ha viszont a vállalata házirendje előírja, hogy hardveres biztonsági modult (HSM) használjon, és az másképp blokkolná az Azure RMS bevezetését, egy másik lehetőség, hogy telepíti az Azure RMS-t BYOK-val most, az Exchange-hez korlátozott RMS-funkciókkal. További információt [Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása](../plan-design/plan-implement-tenant-key.md) című cikk [A BYOK díjszabása és korlátozásai](../plan-design/byok-price-restrictions.md) című szakaszában találhat.
 
@@ -198,9 +197,14 @@ Lásd a [Milyen problémákat képes megoldani az Azure RMS?](../understand-expl
 
 -   Office 365-könyvtár: [Office 365](http://technet.microsoft.com/library/dn127064%28v=office.14%29.aspx)
 
+## Mik a legújabb fejlemények az új besorolási és címkézési funkció kapcsán?
+
+Ezek a funkciók már elérhetők az Azure Information Protection nyilvános előzetes verziójában. Próbálja ki, és tekintse meg az elérhető erőforrások listáját a [What is Azure Information Protection preview?](../information-protection/what-is-information-protection.md) (Mi az az Azure Information Protection előzetes verziója?) című témakörben.
+
+
 ## Úgy hallottam, nemsokára megjelenik az Azure RMS új verziója. Mikorra várható?
 
-A műszaki dokumentáció nem tartalmaz a jövőbeli verziókkal kapcsolatos információkat. Az ilyen jellegű információkért és közelményekért érdemes ellenőrizni a [nagyvállalati mobilitási és biztonsági blogot](https://blogs.technet.microsoft.com/enterprisemobility/?product=azure-rights-management-services), és beszerezni a legújabb frissítéseket a [Dan Plastina @TheRMSGuy](https://twitter.com/TheRMSGuy) helyről a Twitteren. Ha egy Office-verzió érdekli, okvetlenül ellenőrizze a [Office blogot [(https://blogs.office.com/) is.
+A műszaki dokumentáció nem tartalmaz a jövőbeli verziókkal kapcsolatos információkat. Az ilyen jellegű információkért és közleményekért érdemes ellenőrizni a [nagyvállalati mobilitási és biztonsági blogot](https://blogs.technet.microsoft.com/enterprisemobility/?product=azure-rights-management-services), és beszerezni a legújabb frissítéseket a [Dan Plastina @TheRMSGuy](https://twitter.com/TheRMSGuy) helyről a Twitteren. Ha egy Office-verzió érdekli, feltétlenül nézze meg az [Office-blogot](https://blogs.office.com/) is.
 
 ## Mit tehetek, ha a fentiekben nem szerepel a kérdésem?
 Használja az [Information and support for Azure Rights Management](information-support.md) (Azure Rights Management – információ és támogatás) című szakaszban található hivatkozásokat és forrásanyagokat.
@@ -219,6 +223,6 @@ Ez a gyakori kérdéseket tartalmazó oldal rendszeresen frissül. Az új elemek
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Aug16_HO5-->
 
 

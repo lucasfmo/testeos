@@ -1,27 +1,26 @@
 ---
 title: "Alkalmazások konfigurálása az Azure Rights Managementhez | Azure RMS"
-description: 
-keywords: 
+description: "Utasítások rendszergazdáknak alkalmazások és szolgáltatások konfigurálásához az Azure RMS támogatásához. Például az Office alkalmazások, mint a Word 2013 és a Word 2010, valamint olyan szolgáltatások, mint az Exchange Online (átviteli szabályok, adatveszteség-megelőzés, nem továbbítandó és üzenettitkosítás) és a SharePoint Online (védett könyvtárak)."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: ea09cbc5-b98b-444e-8b60-5bc3cb199c36
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
-ms.openlocfilehash: 8fe934c51e852791d19fbb336deaf9cd7be9817b
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: e2958a2b76880025ad46421163a15d2bad5ec81c
 
 
 ---
 
 # Alkalmazások konfigurálása az Azure Rights Managementhez
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 > [!NOTE]
 > Ez az információ azon informatikai rendszergazdáknak és tanácsadóknak szól, akik üzembe helyezték az Azure Rights Management eszközt. Ha a Rights Management adott használati módjáról vagy a védett fájlok megnyitásáról keres felhasználóknak szóló segítséget és információt, használja az alkalmazáshoz kapott súgót és útmutatást.
@@ -75,6 +74,6 @@ Az Azure Rights Management eszközt támogató alkalmazások konfigurálása ut�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

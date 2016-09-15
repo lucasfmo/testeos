@@ -17,6 +17,6 @@ Az oktatóanyag elvégzéséhez a következőkre lesz szüksége:
 Lássunk hozzá!
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,238 +1,50 @@
 ---
 title: "Használati jogosultságok konfigurálása az Azure Rights Managementhez | Azure RMS"
-description: 
-keywords: 
+description: "Ismerje meg és határozza meg azokat a különleges jogokat, amikkel az Azure Rights Management (Azure RMS) használatakor védjük dokumentumait és e-mailjeit."
 author: cabailey
 manager: mbaldwin
-ms.date: 06/16/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 97ddde38-b91b-42a5-8eb4-3ce6ce15393d
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 3883a46440f016138dd50d061a58089253721719
-ms.openlocfilehash: 21b92fae5fd00d80f9afd2e80d21c08bfa47b7b2
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: ab1b2f652d34183e1d95fd0a387abb10c3aff9b1
 
 
 ---
 
 # Használati jogosultságok konfigurálása az Azure Rights Managementhez
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Amikor az Azure Rights Management (Azure RMS) segítségével lát el védelemmel fájlokat vagy e-maileket, és nem használ sablont, saját magának kell konfigurálnia a használati jogosultságokat. Továbbá, amikor egyéni sablonokat konfigurál az Azure RMS számára, ki kell választania a használati jogosultságokat, amelyeket a rendszer automatikusan alkalmazni fog, amikor a felhasználók, a rendszergazdák vagy a konfigurált szolgáltatások kiválasztják a sablont. A klasszikus Azure-portálon kiválaszthat például olyan szerepköröket, amelyek a használati jogosultságok logikus csoportját konfigurálják, illetve konfigurálhatja külön az egyes jogosultságokat.
 
 Ez a cikk segítséget nyújt a használt alkalmazáshoz kapcsolódó kívánt használati jogosultságok konfigurálására, és segít megérteni, hogy az alkalmazások hogyan értelmezik ezeket a jogosultságokat.
 
 ## Használati jogosultságok és leírások
-Az alábbi szakaszok felsorolják és leírják a Rights Management által támogatott használati jogosultságokat, valamint a használatuk és az értelmezésük módját. **Köznapi név** alapján vannak listázva, ez azt a nevet jelenti, ahogy a használati jogosultság vagy az arra való hivatkozás általában megjelenik, a kódban használt egyszavas értéknek (a **Kódolás a házirendben** értéke) a felhasználók számára könnyebben értelmezhető verziójaként. Az **API-állandó vagy -érték** az MSIPC API-hívások SDK-neve, amely a használati jogosultságokat ellenőrző vagy a használati jogosultságot egy házirendhez hozzáadó RMS-kompatibilis alkalmazás írásakor használatos.
+Az alábbi táblázat felsorolja és ismerteti a Rights Management által támogatott használati jogosultságokat, valamint ezek használatát és jelentését. **Köznapi név** alapján vannak listázva, ez azt a nevet jelenti, ahogy a használati jogosultság vagy az arra való hivatkozás általában megjelenik, a kódban használt egyszavas értéknek (a **Kódolás a házirendben** értéke) a felhasználók számára könnyebben értelmezhető verziójaként. Az **API-állandó vagy -érték** az MSIPC API-hívások SDK-neve, amely a használati jogosultságokat ellenőrző vagy a használati jogosultságot egy házirendhez hozzáadó RMS-kompatibilis alkalmazás írásakor használatos.
+
+
+|Jobb oldali|Leírás|Megvalósítás|
+|-------------------------------|---------------------------|-----------------|
+|Köznapi név: **Tartalom szerkesztése, Szerkesztés** <br /><br />Kódolás a házirendben: **DOCEDIT**|Lehetővé teszi a felhasználó számára az alkalmazáson belüli tartalom módosítását, átrendezését, formázását vagy szűrését. A módosított tartalom mentéséhez szükséges jogosultságot nem biztosítja.|Egyéni Office-jogosultságok: a **Módosítás** és a **Teljes hozzáférés** beállítások részeként. <br /><br />Neve a klasszikus Azure portálon: **Tartalom szerkesztése**<br /><br />Neve az AD RMS-sablonokban: **Szerkesztés** <br /><br />API-állandó vagy érték: Nem alkalmazható.|
+|Köznapi név: **Mentés** <br /><br />Kódolás a házirendben:** EDIT**|Lehetővé teszi a felhasználó számára a dokumentum mentését az aktuális helyén.<br /><br />Az Office-alkalmazásokban ez a jogosultság a dokumentum módosítását is lehetővé teszi.|Egyéni Office-jogosultságok: a **Módosítás** és a **Teljes hozzáférés** beállítások részeként. <br /><br />Neve a klasszikus Azure portálon: **Fájl mentése**<br /><br />Neve az AD RMS-sablonokban: **Mentés** <br /><br />API-állandó vagy -érték: `IPC_GENERIC_WRITE L"EDIT"`|
+|Köznapi név: **Megjegyzés** <br /><br />Kódolás a házirendben: **COMMENT**|Engedélyezi jegyzetek és megjegyzések hozzáadását a tartalomhoz.<br /><br />Ez a jogosultság elérhető az SDK-ban, valamint alkalmi házirendként Windows PowerShell RMS Protection moduljában, és egyes szoftverszállítói alkalmazásokban is implementálva lett. Ennek ellenére a használata nem elterjedt, és az Office-alkalmazások jelenleg nem támogatják.|Egyéni Office-jogosultságok: Nincs implementálva. <br /><br />Neve a klasszikus Azure portálon: Nincs implementálva.<br /><br />Neve az AD RMS-sablonokban: Nincs implementálva. <br /><br />API-állandó vagy -érték: `IPC_GENERIC_COMMENT L"COMMENT`|
+|Köznapi név: **Mentés másként, Exportálás** <br /><br />Kódolás a házirendben: **EXPORT**|Lehetővé teszi a tartalom mentését másik fájlnévvel (Save As (Mentés másként)). Office-dokumentumok esetében a fájl védelem nélkül is menthető.<br /><br />Ez a jogosultság lehetővé teszi a felhasználónak az alkalmazásokon belüli egyéb exportálási lehetőségek használatát (például **Küldés a OneNote-ba**).|Egyéni Office-jogosultságok: a **Módosítás** és a **Teljes hozzáférés** beállítások részeként. <br /><br />Neve a klasszikus Azure portálon: **Tartalom exportálása (Mentés másként)**<br /><br />Neve az AD RMS-sablonokban: **Exportálás (Mentés másként)** <br /><br />API-állandó vagy -érték: `IPC_GENERIC_EXPORT L"EXPORT"`|
+|Köznapi név: **Továbbítás** <br /><br />Kódolás a házirendben: **FORWARD**|Lehetővé teszi az e-mail üzenetek továbbítását és a címzettek hozzáadását a **Címzett** és a **Másolatot kap** sorban. Ez a jogosultság nem érvényes a dokumentumokra, kizárólag az e-mailekre.<br /><br />Nem engedélyezi a továbbító számára, hogy jogosultságokat adjon más felhasználóknak a továbbítási művelet részeként.|Egyéni Office-jogosultságok: A rendszer megtagadja a **Nem továbbítandó** normál házirend használata esetén.<br /><br />Neve a klasszikus Azure portálon: **Továbbítás**<br /><br />Neve az AD RMS-sablonokban: **Továbbítás** <br /><br />API-állandó vagy -érték: `IPC_EMAIL_FORWARD L"FORWARD"`|
+|Köznapi név: **Teljes hozzáférés** <br /><br />Kódolás a házirendben: **OWNER**|Megadja az összes jogosultságot a dokumentumhoz, így minden elérhető művelet elvégezhető.<br /><br />Lehetővé teszi a védelem eltávolítását és a dokumentum védelmének újbóli beállítását.|Egyéni Office-jogosultságok: A **Teljes hozzáférés** egyéni beállításként.<br /><br />Neve a klasszikus Azure portálon: **Teljes hozzáférés**<br /><br />Neve az AD RMS-sablonokban: **Teljes hozzáférés** <br /><br />API-állandó vagy -érték: `IPC_GENERIC_ALL L"OWNER"`|
+|Köznapi név: **Nyomtatás** <br /><br />Kódolás a házirendben: **PRINT**|Lehetővé teszi a tartalom nyomtatását.|Egyéni Office-jogosultságok: A **Tartalom nyomtatása** beállításként az egyéni engedélyek között. Nem címzettenkénti beállítás.<br /><br />Neve a klasszikus Azure portálon: **Nyomtatás**<br /><br />Neve az AD RMS-sablonokban: **Nyomtatás** <br /><br />API-állandó vagy -érték: `IPC_GENERIC_PRINT L"PRINT"`|
+|Köznapi név: **Válasz** <br /><br />Kódolás a házirendben: **REPLY**|Engedélyezi a **Válasz** lehetőséget az e-mail ügyfélprogramokban, de nem engedélyezi a **Címzett** és a **Másolatot** kap sor módosítását.|Egyéni Office-jogosultságok: Nincs alkalmazható.<br /><br />Neve a klasszikus Azure portálon: **Válasz**<br /><br />Neve az AD RMS-sablonokban: **Válasz** <br /><br />API-állandó vagy -érték: `IPC_EMAIL_REPLY`|
+|Köznapi név: **Válasz mindenkinek** <br /><br />Kódolás a házirendben: **REPLYALL**|Engedélyezi a **Válasz mindenkinek** lehetőséget az e-mail ügyfélprogramokban, de nem engedélyezi a címzettek hozzáadását a **Címzett** és a **Másolatot kap** sorokban.|Egyéni Office-jogosultságok: Nincs alkalmazható.<br /><br />Neve a klasszikus Azure portálon: **Válasz mindenkinek**<br /><br />Neve az AD RMS-sablonokban: **Válasz mindenkinek** <br /><br />API-állandó vagy -érték: `IPC_EMAIL_REPLYALL L"REPLYALL"`|
+|Köznapi név: **Megtekintés, Megnyitás, Olvasás** <br /><br />Kódolás a házirendben: **VIEW**|Lehetővé teszi a felhasználó számára a dokumentum megnyitását és a tartalom megtekintését.|Egyéni Office-jogosultságok: Az **Olvasás** egyéni házirend **Megtekintés** beállításaként.<br /><br />Neve a klasszikus Azure portálon: **Megtekintés**<br /><br />Neve az AD RMS-sablonokban: **Válasz mindenkinek** <br /><br />API-állandó vagy -érték: `IPC_GENERIC_READ L"VIEW"`|
+|Köznapi név: **Másolás** <br /><br />Kódolás a házirendben: **EXTRACT**|Lehetővé teszi az adatok (ideértve a képernyőfelvételek) másolását a dokumentumból ugyanazon a dokumentumon belülre, vagy egy másik dokumentumba.<br /><br />Egyes alkalmazásokban a teljes dokumentum mentését is lehetővé teszi nem védett állapotban.|Egyéni Office-jogosultságok: Az **olvasási joggal rendelkező felhasználók másolhatják a tartalmat** egyéni házirend-beállításként.<br /><br />Neve a klasszikus Azure portálon: **Tartalom másolása és kinyerése**<br /><br />Neve az AD RMS-sablonokban: **Kinyerés** <br /><br />API-állandó vagy -érték: `IPC_GENERIC_EXTRACT L"EXTRACT"`|
+|Köznapi név: **Makrók engedélyezése** <br /><br />Kódolás a házirendben: **OBJMODEL**|Engedélyezi a makrók futtatását, valamint az egyéb programozott vagy távelérési műveletek végzését a dokumentumok tartalmán.|Egyéni Office-jogosultságok: A **Programozott hozzáférés engedélyezése** egyéni házirend-beállításként. Nem címzettenkénti beállítás.<br /><br />Neve a klasszikus Azure portálon: **Makrók engedélyezése**<br /><br />Neve az AD RMS-sablonokban: **Makrók engedélyezése** <br /><br />API-állandó vagy érték: Nem implementált.|
 
-
-### Tartalom szerkesztése, Szerkesztés
-
-Lehetővé teszi a felhasználó számára az alkalmazáson belüli tartalom módosítását, átrendezését, formázását vagy szűrését. A módosított tartalom mentéséhez szükséges jogosultságot nem biztosítja.
-
-**Kódolás a házirendben**: DOCEDIT
-
-**Implementáció az Office egyéni jogosultságai között**: A *Módosítás* és a *Teljes hozzáférés* beállítások részeként.
-
-**Neve a klasszikus Azure-portálon**: *Tartalom szerkesztése*
-
-**Neve az Active Directory tartalomvédelmi szolgáltatásokban**: *Szerkesztés*
-
-**API-állandó vagy érték**: *Nem alkalmazható*
-
----
-
-### Mentés
-
-Lehetővé teszi a felhasználó számára a dokumentum mentését az aktuális helyén.
-
-**Kódolás a házirendben**: EDIT
-
-**Implementáció az Office egyéni jogosultságai között**: A *Módosítás* és a *Teljes hozzáférés* beállítások részeként.
-
-**Neve a klasszikus Azure-portálon**: *Fájl mentése*
-
-**Neve az Active Directory tartalomvédelmi szolgáltatásokban**: *Mentés*
-
-**API-állandó vagy érték**: IPC_GENERIC_WRITE L"EDIT"
-
-Az Office-alkalmazásokban ez a jogosultság a dokumentum módosítását is lehetővé teszi.
-
----
-
-### Megjegyzés
-
-Engedélyezi jegyzetek és megjegyzések hozzáadását a tartalomhoz.
-
-**Kódolás a házirendben**: COMMENT
-
-**Implementáció az Office egyéni jogosultságai között**: Nincs implementálva.
-
-**Neve a klasszikus Azure-portálon**: Nincs implementálva.
-
-**Neve az Active Directory tartalomvédelmi szolgáltatásokban:** Nincs implementálva.
-
-**API-állandó vagy érték**: IPC_GENERIC_COMMENT L"COMMENT
-
-Ez a jogosultság elérhető az SDK-ban, valamint alkalmi házirendként Windows PowerShell RMS Protection moduljában, és egyes szoftverszállítói alkalmazásokban is implementálva lett. Ennek ellenére a használata nem elterjedt, és az Office-alkalmazások jelenleg nem támogatják.
-
----
-
-### Mentés másként, Exportálás
-
-Lehetővé teszi a tartalom mentését másik fájlnévvel (Save As (Mentés másként)). Office-dokumentumok esetében a fájl védelem nélkül is menthető.
-
-**Kódolás a házirendben:** EXPORT
-
-**Implementáció az Office egyéni jogosultságai között**: A *Módosítás* és a *Teljes hozzáférés* beállítások részeként.
-
-**Neve a klasszikus Azure-portálon:** *Tartalom exportálása (Mentés másként)*
-
-**Neve az Active Directory tartalomvédelmi szolgáltatásokban:** *Exportálás (Mentés másként)*
-
-**API-állandó vagy érték:** IPC_GENERIC_EXPORT L"EXPORT"
-
-Ez a jogosultság lehetővé teszi a felhasználónak az alkalmazásokon belüli egyéb exportálási lehetőségek használatát (például *Küldés a OneNote-ba*).
-
----
-
-### Továbbítás
-
-Lehetővé teszi az e-mail üzenetek továbbítását és a címzettek hozzáadását a *Címzett* és a *Másolatot kap* sorban. Ez a jogosultság nem érvényes a dokumentumokra, kizárólag az e-mailekre.
-
-**Kódolás a házirendben:** FORWARD
-
-**Implementáció az Office egyéni jogosultságai között:** A rendszer megtagadja a *Nem továbbítandó* normál házirend használata esetén.
-
-**Neve a klasszikus Azure-portálon:** *Továbbítás*
-
-**Neve az Active Directory tartalomvédelmi szolgáltatásokban:** *Továbbítás*
-
-**API-állandó vagy érték:** IPC_EMAIL_FORWARD L"FORWARD"
-
-Nem engedélyezi a továbbító számára, hogy jogosultságokat adjon más felhasználóknak a továbbítási művelet részeként.
-
----
-
-### Teljes hozzáférés
-
-Megadja az összes jogosultságot a dokumentumhoz, így minden elérhető művelet elvégezhető.
-
-**Kódolás a házirendben:** OWNER
-
-**Implementáció az Office egyéni jogosultságai között:** A *Teljes hozzáférés* egyéni beállításként.
-
-**Neve a klasszikus Azure-portálon:** *Teljes hozzáférés*
-
-**Neve az Active Directory tartalomvédelmi szolgáltatásokban:** *Teljes hozzáférés*
-
-**API-állandó vagy érték:** IPC_GENERIC_ALL L"OWNER"
-
-Lehetővé teszi a védelem eltávolítását.
-
----
-
-### Nyomtatás
-
-Lehetővé teszi a tartalom nyomtatását.
-
-**Kódolás a házirendben:** PRINT
-
-**Implementáció az Office egyéni jogosultságai között:** A *Tartalom nyomtatása* beállításként az egyéni engedélyek között. Nem címzettenkénti beállítás.
-
-**Neve a klasszikus Azure-portálon:** *Nyomtatás*
-
-**Neve az Active Directory tartalomvédelmi szolgáltatásokban:** *Nyomtatás*
-
-**API-állandó vagy érték:** IPC_GENERIC_PRINT L"PRINT
-
----
-
-### Válasz
-
-Engedélyezi a Válasz lehetőséget az e-mail ügyfélprogramokban, de nem engedélyezi a *Címzett* és a *Másolatot kap* sor módosítását.
-
-**Kódolás a házirendben:** REPLY
-
-**Implementáció az Office egyéni jogosultságai között**: Nem alkalmazható
-
-**Neve a klasszikus Azure-portálon:** *Válasz*
-
-**Neve az Active Directory tartalomvédelmi szolgáltatásokban**: *Válasz*
-
-**API-állandó vagy érték:** IPC_EMAIL_REPLY
-
----
-
-### Válasz mindenkinek
-
-Engedélyezi a *Válasz mindenkinek* lehetőséget az e-mail ügyfélprogramokban, de nem engedélyezi a címzettek hozzáadását a *Címzett* és a *Másolatot kap* sorokban.
-
-**Kódolás a házirendben:** REPLYALL
-
-**Implementáció az Office egyéni jogosultságai között**: Nem alkalmazható
-
-**Neve a klasszikus Azure-portálon:** *Válasz mindenkinek*
-
-**Neve az Active Directory tartalomvédelmi szolgáltatásokban:** *Válasz mindenkinek*
-
-**API-állandó vagy érték:** IPC_EMAIL_REPLYALL L"REPLYALL"
-
----
-
-### Megtekintés, Megnyitás, Olvasás
-
-Lehetővé teszi a felhasználó számára a dokumentum megnyitását és a tartalom megtekintését.
-
-**Kódolás a házirendben:** VIEW
-
-**Implementáció az Office egyéni jogosultságai között:** Az *Olvasás* egyéni házirend *Megtekintés* beállításaként.
-
-**Neve a klasszikus Azure-portálon:** *Tartalom megtekintése*
-
-**Neve az Active Directory tartalomvédelmi szolgáltatásokban**: *Megtekintés*
-
-**API-állandó vagy érték:** IPC_GENERIC_READ L"VIEW"
-
----
-
-### Másolás
-
-Lehetővé teszi az adatok (ideértve a képernyőfelvételek) másolását a dokumentumból ugyanazon a dokumentumon belülre, vagy egy másik dokumentumba.
-
-**Kódolás a házirendben:** EXTRACT
-
-**Implementáció az Office egyéni jogosultságai között:** *Az olvasási joggal rendelkező felhasználók másolhatják a tartalmat* egyéni házirend-beállításként.
-
-**Neve a klasszikus Azure-portálon**: *Tartalom másolása és kinyerése*
-
-**Neve az Active Directory tartalomvédelmi szolgáltatásokban**: *Kinyerés*
-
-**API-állandó vagy érték:** IPC_GENERIC_EXTRACT L"EXTRACT"
-
-Egyes alkalmazásokban a teljes dokumentum mentését is lehetővé teszi nem védett állapotban.
-
----
-
-
-### Allow Macros (Makrók engedélyezése)
-
-Engedélyezi a makrók futtatását, valamint az egyéb programozott vagy távelérési műveletek végzését a dokumentumok tartalmán.
-
-**Kódolás a házirendben:** OBJMODEL
-
-**Implementáció az Office egyéni jogosultságai között:** *Programozott hozzáférés engedélyezése* egyéni házirend-beállításként. Nem címzettenkénti beállítás.
-
-**Neve a klasszikus Azure-portálon:** *Makrók engedélyezése*
-
-**Neve az Active Directory tartalomvédelmi szolgáltatásokban:** *Makrók engedélyezése*
-
-**API-állandó vagy érték:** Nem alkalmazható
 
 
 ## Jogosultságok az engedélyszintekben
@@ -245,8 +57,8 @@ A következő táblázatban láthatja az engedélyszinteket és az ezek által t
 |---------------------|----------------|---------------------------------|
 |Megtekintő|Klasszikus Azure-portál<br /><br />A Windows Microsoft Rights Management megosztóalkalmazás|Megtekintés, Megnyitás, Olvasás; Válasz; Válasz mindenkinek|
 |Felülvizsgáló|Klasszikus Azure-portál<br /><br />A Windows Microsoft Rights Management megosztóalkalmazás|Megtekintés, Megnyitás, Olvasás; Mentés; Tartalom szerkesztése, Szerkesztés; Válasz [[1]](#footnote-1); Válasz mindenkinek [[1]](#footnote-1); Továbbítás [[1]](#footnote-1)|
-|Társszerző|Klasszikus Azure-portál<br /><br />A Windows Microsoft Rights Management megosztóalkalmazás|Megtekintés, Megnyitás, Olvasás; Mentés; Tartalom szerkesztése, Szerkesztés; Másolás; Jogosultságok megtekintése; Jogosultságok módosítása; Makrók engedélyezése; Mentés másként, Exportálás; Nyomtatás; Válasz [[1]](#footnote-1); Válasz mindenkinek [[1]](#footnote-1); Továbbítás [[1]](#footnote-1)|
-|Társtulajdonos|Klasszikus Azure-portál<br /><br />A Windows Microsoft Rights Management megosztóalkalmazás|Megtekintés, Megnyitás, Olvasás; Mentés; Tartalom szerkesztése, Szerkesztés; Másolás; Jogosultságok megtekintése; Jogosultságok módosítása; Makrók engedélyezése; Mentés másként, Exportálás; Nyomtatás; Válasz [[1]](#footnote-1); Válasz mindenkinek [[1]](#footnote-1); Továbbítás [[1]](#footnote-1); Teljes hozzáférés|
+|Társszerző|Klasszikus Azure-portál<br /><br />A Windows Microsoft Rights Management megosztóalkalmazás|Megtekintés, Megnyitás, Olvasás; Mentés; Tartalom szerkesztése, Szerkesztés; Másolás; Jogosultságok megtekintése; Makrók engedélyezése; Mentés másként, Exportálás; Nyomtatás; Válasz [[1]](#footnote-1); Válasz mindenkinek [[1]](#footnote-1); Továbbítás [[1]](#footnote-1)|
+|Társtulajdonos|Klasszikus Azure-portál<br /><br />A Windows Microsoft Rights Management megosztóalkalmazás|Megtekintés, Megnyitás, Olvasás; Mentés; Tartalom szerkesztése, Szerkesztés; Másolás; Jogosultságok megtekintése; Makrók engedélyezése; Mentés másként, Exportálás; Nyomtatás; Válasz [[1]](#footnote-1); Válasz mindenkinek [[1]](#footnote-1); Továbbítás [[1]](#footnote-1); Teljes hozzáférés|
 
 ----
 
@@ -289,6 +101,6 @@ Egy felhasználó e-mailben el szeretne küldeni bizonyos, másokra nem tartozó
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Aug16_HO4-->
 
 

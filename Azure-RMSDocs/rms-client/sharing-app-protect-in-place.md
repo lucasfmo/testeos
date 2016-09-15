@@ -1,27 +1,26 @@
 ---
 title: "Fájl védelme egy eszközön (helyi védelem) a Rights Management megosztóalkalmazással | Azure RMS"
-description: 
-keywords: 
+description: "Utasítások, hogy miként tároljon biztonságosan adatot számítógépén, egy szerveren vagy más tárolóeszközön."
 author: cabailey
 manager: mbaldwin
-ms.date: 05/09/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 33920329-5247-4f6c-8651-6227afb4a1fa
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c611fa8a846612fed238e59e5077be67f6f9531a
-ms.openlocfilehash: 7cf6ecb95374c080b9b2e94f948ec53ea5e6bb46
+ms.sourcegitcommit: 035c9eb6cb630cafd5bd7fc7e2371340043ddc5e
+ms.openlocfilehash: 1d719bcce253dea465be7250806385bca3c23a01
 
 
 ---
 
 # Készüléken lévő fájlok védelme (helyben történő védelem) a Rights Management
 
-*A következőkre vonatkozik: Active Directory tartalomvédelmi szolgáltatások, Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
+>*A következőkre vonatkozik: Active Directory tartalomvédelmi szolgáltatások, Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
 
 Ha helyileg tesz védetté egy fájlt, azzal lecseréli az eredeti, nem védett fájlt. Ha ezután a helyén hagyja a fájlt, egy másik mappába vagy eszközre másolja, vagy megosztja azt a mappát, amelyikben a fájl található, a fájl akkor is védett marad. A védett fájlt emellett csatolhatja e-mail-üzenethez, jóllehet a védett fájlokat ajánlott közvetlenül a Fájlkezelőből vagy egy Office-alkalmazásból megosztani e-mailben (lásd: [E-mailben megosztott fájl védelme a Rights Management megosztóalkalmazással](sharing-app-protect-by-email.md)).
 
@@ -51,6 +50,8 @@ Ha helyileg tesz védetté egy fájlt, azzal lecseréli az eredeti, nem védett 
 
     ![Az RMS megosztóalkalmazás zárolási ikonjával jelölt védett fájl](../media/ADRMS_MSRMSApp_Pfile.png)
 
+Ha visszavonná az engedélyeket, vagy később módosítani szeretné azokat, egyszerűen tegye újból védetté a fájlt.
+
 Ha később el kell távolítania egy fájl védelmét: [Fájl védelmének eltávolítása a Rights Management megosztóalkalmazással](sharing-app-remove-protection.md).
 
 ## Példák és egyéb útmutatók
@@ -58,13 +59,13 @@ A Rights Management megosztóalkalmazás használatát szemléltető egyéb pél
 
 -   [Példák az RMS-megosztó alkalmazás használatára](sharing-app-user-guide.md#examples-for-using-the-rms-sharing-application)
 
--   [Művelet](sharing-app-user-guide.md#what-do-you-want-to-do-)
+-   [Művelet](sharing-app-user-guide.md#what-do-you-want-to-do)
 
 ## Lásd még:
 [A Rights Management megosztóalkalmazás felhasználói útmutatója](sharing-app-user-guide.md)
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

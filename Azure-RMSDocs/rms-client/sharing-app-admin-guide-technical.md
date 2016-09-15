@@ -1,28 +1,27 @@
 ---
 title: "A Rights Management megosztóalkalmazás műszaki áttekintése | Azure RMS"
-description: 
-keywords: 
+description: "Technikai információ a vállalati hálózatok rendszergazdái számára, akik a Windows RMS megosztóalkalmazás telepítéséért felelnek."
 author: cabailey
 manager: mbaldwin
-ms.date: 05/20/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: f7b13fa4-4f8e-489a-ba46-713d7a79f901
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 332e102cb27854314b93a71bfeae82a95c9a7812
-ms.openlocfilehash: 4f63cb7911661104113d19ecd84ef7c80a874408
+ms.sourcegitcommit: 035c9eb6cb630cafd5bd7fc7e2371340043ddc5e
+ms.openlocfilehash: 2a3640590ca2729da71e847c03823719e92bcb0f
 
 
 ---
 
 
-# A Microsoft Rights Management megosztóalkalmazás technikai áttekintése
+# A Microsoft Rights Management megosztóalkalmazás műszaki áttekintése és védelmi adatai
 
-*A következőkre vonatkozik: Active Directory tartalomvédelmi szolgáltatások, Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
+>*A következőkre vonatkozik: Active Directory tartalomvédelmi szolgáltatások, Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
 
 
 A Microsoft Rights Management megosztóalkalmazás a Microsoft Windows rendszerre és más platformokra opcionálisan letölthető alkalmazás, amely a következő funkciókkal rendelkezik:
@@ -140,6 +139,6 @@ Más forgatókönyvek esetében is végrehajthat hasonló beállításjegyzék-m
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Aug16_HO4-->
 
 

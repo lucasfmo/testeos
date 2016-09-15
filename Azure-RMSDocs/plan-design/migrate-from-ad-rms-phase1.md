@@ -1,35 +1,37 @@
 ---
 title: "Áttelepítés AD RMS-ről Azure Rights Managementre – 1. fázis | Azure RMS"
-description: 
-keywords: 
+description: "Az AD RMS-ről Azure Rights Managementre (Azure RMS) történő áttelepítés 1. szakasza, benne az AD RMS-ről Azure Rights Managementre történő áttelepítés 1-4. lépése."
 author: cabailey
 manager: mbaldwin
-ms.date: 06/23/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 5a189695-40a6-4b36-afe6-0823c94993ef
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f7dd88d90357c99c69fe4fdde67c1544595e02f8
-ms.openlocfilehash: defe008a9b78026ccac584bb06762228456a2916
+ms.sourcegitcommit: ada00b6f6298e7d359c73eb38dfdac169eacb708
+ms.openlocfilehash: 6a4b80ed44f149116d22efb7781503f5b157f369
 
 
 ---
 
 # 1. áttelepítési fázis: Az AD RMS kiszolgálóoldali konfigurációja
 
-*A következőkre vonatkozik: Active Directory Rights Management Services, Azure Rights Management*
+>*A következőkre vonatkozik: Active Directory Rights Management Services, Azure Rights Management*
 
 Az alábbi, 1. fázisra vonatkozó információk segítséget nyújtanak az AD RMS-ről az Azure Rights Managementre (Azure RMS) való áttelepítésben. Ezek az eljárások megfelelnek az [Áttelepítés AD RMS-ről Azure Rights Managementre](migrate-from-ad-rms-to-azure-rms.md) 1–4. lépésének.
 
 
 ## 1. lépés: Az Azure RMS kezelésfelügyeleti eszközeinek letöltése
-Nyissa meg a Microsoft letöltőközpontot, és töltse le az [Azure Rights Management Administration Tool](http://go.microsoft.com/fwlink/?LinkId=257721) eszközt, amelynek része az Azure RMS felügyeleti modul a Windows PowerShellhez.
+Nyissa meg a Microsoft letöltőközpontot, és töltse le az [Azure Rights Management Administration Tool](https://go.microsoft.com/fwlink/?LinkId=257721) eszközt, amelynek része az Azure RMS felügyeleti modul a Windows PowerShellhez.
 
 Telepítse az eszközt. Az utasítások itt találhatók: [Az Azure Rights Managementhez készült Windows PowerShell telepítése](../deploy-use/install-powershell.md).
+
+> [!NOTE]
+> Ha a Windows PowerShell-modult már korábban letöltötte, a következő parancs futtatásával ellenőrizze, hogy a verziószáma legalább 2.5.0.0-e: `(Get-Module aadrm -ListAvailable).Version`
 
 ## 2. lépés Konfigurációs adatok exportálása az AD RMS-ből és importálása az AD RMS-be
 Ez a lépés is egy kétlépéses folyamat:
@@ -39,10 +41,20 @@ Ez a lépés is egy kétlépéses folyamat:
 2.  Importálja a konfigurációs adatokat az Azure RMS szolgáltatásba. Ez a lépés többféle folyamattal is végrehajtható attól függően, hogy milyen a jelenlegi AD RMS telepítési konfigurációja és az Azure RMS-bérlőkulcs előnyben részesített topológiája.
 
 ### Konfigurációs adatok exportálása az AD RMS-ből
-Végezze el a következő folyamatot az összes AD RMS-fürthöz az összes megbízható közzétételi tartományhoz, amely a szervezete által használt védett adatokat tartalmaz. A lépést nem szükséges elvégezni a csak licencelési fürtök esetében.
 
-> [!NOTE]
-> Ha a Windows Server 2003 Rights Managementet használja, a fenti útmutató helyett a [Migrating from Windows RMS to AD RMS in a Different Infrastructure (Áttelepítés a Windows RMS-ből az AD RMS-be más infrastruktúrában)](http://technet.microsoft.com/library/jj835767%28v=ws.10%29.aspx) cikk [Export SLC, TUD, TPD and RMS private key (SLC, TUD, TPD és RMS titkos kulcsok exportálása)](http://technet.microsoft.com/library/jj835767%28v=ws.10%29.aspx) pontját használja.
+> [!IMPORTANT]
+> A folyamat elvégzése előtt győződjön meg arról, hogy az AD RMS-kiszolgálók 2. titkosítási módban futnak, ugyanis ez az Azure RMS egyik követelménye.
+> 
+> A titkosítási mód ellenőrzése:
+> 
+> - Windows Server 2012 R2 és Windows 2012 esetében: az AD RMS-fürt tulajdonságai > **Általános** lap. 
+> 
+> - Az AD RMS minden támogatott verzióján: Az [RMS Analyzer](https://www.microsoft.com/en-us/download/details.aspx?id=46437) és az **AD RMS-rendszergazda** lehetőség segítségével megtekintheti a titkosítási módot **az RMS szolgáltatás adatai** között.
+> 
+> Győződjön meg arról, hogy a titkosítási mód a **2** értékre van állítva. Ha az érték nincs megfelelően beállítva, kövesse az [AD RMS Cryptographic Modes](https://technet.microsoft.com/library/hh867439(v=ws.10).aspx) (Az AD RMS titkosítási módjai) című témakör útmutatását.
+
+
+Végezze el a következő folyamatot az összes AD RMS-fürthöz az összes megbízható közzétételi tartományhoz, amely a szervezete által használt védett adatokat tartalmaz. A lépést nem szükséges elvégezni a csak licencelési fürtök esetében.
 
 #### A konfigurációs adatok (megbízható közzétételi tartományok információi) exportálása
 
@@ -60,7 +72,7 @@ Végezze el a következő folyamatot az összes AD RMS-fürthöz az összes megb
 
     -   Ne pipálja be azt a jelölőnégyzetet, amellyel a megbízható tartomány fájlját az RMS 1.0-ás verziójának megfelelő formátumban menti.
 
-Miután exportálta az összes megbízható közzétételi tartományt, megkezdheti az adatok importálását az Azure RMS-be. Thales hardveres biztonsági modul (HSM). További információk: 
+Miután exportálta az összes megbízható közzétételi tartományt, megkezdheti az adatok importálását az Azure RMS-be.
 
 ### Konfigurációs adatok importálása az Azure RMS szolgáltatásba
 Az erre a lépésre vonatkozó pontos eljárások attól függően változnak, hogy milyen a jelenlegi AD RMS telepítési konfigurációja és az Azure RMS-bérlőkulcs előnyben részesített topológiája.
@@ -73,25 +85,25 @@ A jelenlegi AD RMS-telepítés a következő konfigurációk egyikét fogja hasz
 
 -   HSM-es védelem a Thalestől különböző szállítótól származó hardveres biztonsági modul (HSM) használatával.
 
--   Jelszavas védelem külső kriptográfiai szolgáltató használatával.
+-   Jelszavas védelem külső titkosítási szolgáltató használatával.
 
 > [!NOTE]
 > További információk a hardveres védelem AD RMS szolgáltatással történő használatáról: [Using AD RMS with Hardware Security Modules (Az AD RMS használata hardveres biztonsági modulokkal)](http://technet.microsoft.com/library/jj651024.aspx).
 
-A két Azure RMS-bérlőkulcstopológia a következő: Microsoft által felügyelt bérlőkulcs (**Microsoft által felügyelt**) vagy Ön által felügyelt bérlőkulcs (**felhasználó által felügyelt**). Ha Ön kezeli a saját Azure RMS-bérlőkulcsát, ezt „saját kulcs használata” (BYOK) módnak is hívják. Ehhez Thales hardveres biztonsági modul (HSM) szükséges. További információt a [Planning and implementing your Azure Rights Management tenant key](plan-implement-tenant-key.md) (Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása) című cikkben talál.
+A két lehetséges Azure RMS-bérlőkulcstopológia a következő: Microsoft által felügyelt bérlőkulcs (**Microsoft által felügyelt**) vagy Ön által, az Azure Key Vaultban felügyelt bérlőkulcs (**ügyfél által felügyelt**). Ha Ön kezeli a saját Azure RMS-bérlőkulcsát, ezt „saját kulcs használata” (BYOK) módnak is hívják. Ehhez Thales hardveres biztonsági modul (HSM) szükséges. További információt a [Planning and implementing your Azure Rights Management tenant key](plan-implement-tenant-key.md) (Az Azure Rights Management-bérlőkulcs tervezése és megvalósítása) című cikkben talál.
 
 > [!IMPORTANT]
-> Az Exchange Online jelenleg nem kompatibilis a BYOK módú Azure RMS-sel.  Ha BYOK módot szeretne használni az áttelepítés után és az Exchange Online-t is használni kívánja, mindenképpen tájékozódjon arról, hogy ez milyen módon csökkenti az Exchange Online IRM-funkcionalitását. Tekintse át [A BYOK díjszabása és korlátozásai](byok-price-restrictions.md) című szakaszt, amely segítséget nyújt az Ön által végzett áttelepítéshez leginkább megfelelő Azure RMS-bérlőkulcstopológia kiválasztásához.
+> Az Exchange Online jelenleg nem kompatibilis a BYOK használatával az Azure RMS-ben.  Ha BYOK módot szeretne használni az áttelepítés után és az Exchange Online-t is használni kívánja, mindenképpen tájékozódjon arról, hogy ez milyen módon csökkenti az Exchange Online IRM-funkcionalitását. Tekintse át [A BYOK díjszabása és korlátozásai](byok-price-restrictions.md) című szakaszt, amely segítséget nyújt az Ön által végzett áttelepítéshez leginkább megfelelő Azure RMS-bérlőkulcstopológia kiválasztásához.
 
 A következő táblázat segítségével megállapíthatja, melyik eljárást használja az áttelepítéshez. A listában nem szereplő kombinációk nem támogatottak.
 
 |Jelenlegi AD RMS-telepítés|Kiválasztott Azure RMS-bérlőkulcstopológia|Áttelepítési utasítások|
 |-----------------------------|----------------------------------------|--------------------------|
 |Jelszavas védelem az AD RMS adatbázisban|Microsoft által felügyelt|Tekintse meg a **Szoftveres védelemmel ellátott kulcs áttelepítése szoftveres védelemmel rendelkező kulccsá** eljárást a táblázat után.<br /><br />Ez a legegyszerűbb áttelepítési út. Mindössze annyit igényel, hogy átvigye a konfigurációs adatait az Azure RMS-be.|
-|HSM-es védelem Thales nShield hardveres biztonsági modul (HSM) használatával|Felhasználó által felügyelt (BYOK)|Tekintse meg a **HSM által védett kulcs áttelepítése HSM által védett kulccsá** eljárást a táblázat után.<br /><br />Ehhez szükséges a BYOK eszközkészlet, valamint két további lépés a kulcs átviteléhez a helyszíni HSM-ből az Azure RMS HSM-ekbe, majd a konfigurációs adatok átviteléhez az Azure RMS-be.|
-|Jelszavas védelem az AD RMS adatbázisban|Felhasználó által felügyelt (BYOK)|Lásd a **Szoftveres védelemmel ellátott kulcs áttelepítése HSM által védett kulccsá** eljárást a táblázat után.<br /><br />Ehhez szükséges a BYOK eszközkészlet, valamint három további lépés a szoftverkulcs kinyeréséhez és importálásához egy helyszíni HSM-be, a kulcs átviteléhez a helyszíni HSM-ből az Azure RMS HSM-ekbe, majd a konfigurációs adatok átviteléhez az Azure RMS-be.|
-|HSM-es védelem a Thalestől különböző szállítótól származó hardveres biztonsági modul (HSM) használatával|Felhasználó által felügyelt (BYOK)|Lépjen kapcsolatba az Ön által használt HSM szállítójával, hogy megtudja, hogyan viheti át a kulcsát erről a HSM-ről egy Thales nShield hardveres biztonsági modulra (HSM). Ezután kövesse a **HSM által védett kulcs áttelepítése HSM által védett kulccsá** eljárás útmutatóját a táblázat után.|
-|Jelszavas védelem külső kriptográfiai szolgáltató használatával|Felhasználó által felügyelt (BYOK)|Lépjen kapcsolatba az Ön által használt kriptográfiai szolgáltató szállítójával, hogy megtudja, hogyan viheti át a kulcsát egy Thales nShield hardveres biztonsági modulra (HSM). Ezután kövesse a **HSM által védett kulcs áttelepítése HSM által védett kulccsá** eljárás útmutatóját a táblázat után.|
+|HSM-es védelem Thales nShield hardveres biztonsági modul (HSM) használatával|Felhasználó által felügyelt (BYOK)|Tekintse meg a **HSM által védett kulcs áttelepítése HSM által védett kulccsá** eljárást a táblázat után.<br /><br />Az Azure Key Vault BYOK eszközkészletére, valamint három további lépésre lesz szüksége ahhoz, hogy a helyi HSM-ből az Azure Key Vault HSM-ekbe helyezze a kulcsot, engedélyezze a bérlőkulcs elérését az Azure RMS számára, végül pedig átvigye a konfigurálási adatokat Azure RMS-be.|
+|Jelszavas védelem az AD RMS adatbázisban|Felhasználó által felügyelt (BYOK)|Lásd a **Szoftveres védelemmel ellátott kulcs áttelepítése HSM által védett kulccsá** eljárást a táblázat után.<br /><br />Az Azure Vault BYOK eszközkészletére, valamint négy további lépésre lesz szüksége a szoftverkulcs kinyeréséhez és importálásához egy helyszíni HSM-be, a kulcs átviteléhez az helyszíni HSM-ből az Azure RMS HSM-ekbe, a Key Vault adatainak áthelyezéséhez az Azure RMS-be, végül a konfigurációs adatok átviteléhez az Azure RMS-be.|
+|HSM-es védelem a Thalestől különböző szállítótól származó hardveres biztonsági modul (HSM) használatával|Felhasználó által felügyelt (BYOK)|Lépjen kapcsolatba az Ön által használt HSM szállítójával, hogy megtudja, hogyan viheti át a kulcsot erről a HSM-ről egy Thales nShield hardveres biztonsági modulra (HSM). Ezután kövesse a **HSM által védett kulcs áttelepítése HSM által védett kulccsá** eljárás útmutatóját a táblázat után.|
+|Jelszavas védelem külső titkosítási szolgáltató használatával|Felhasználó által felügyelt (BYOK)|Lépjen kapcsolatba az Ön által használt titkosítási szolgáltató szállítójával, hogy megtudja, hogyan viheti át a kulcsát egy Thales nShield hardveres biztonsági modulra (HSM). Ezután kövesse a **HSM által védett kulcs áttelepítése HSM által védett kulccsá** eljárás útmutatóját a táblázat után.|
 Mielőtt megkezdi ezeket az eljárásokat, győződjön meg arról, hogy el tudja érni a korábban, a megbízható közzétételi tartományok exportálásakor létrehozott .xml fájlokat. Ezeket például egy USB-meghajtóra mentheti, amelyet átvisz az AD RMS-kiszolgálóról az internethez kapcsolódó munkaállomásra.
 
 > [!NOTE]
@@ -101,9 +113,9 @@ Mielőtt megkezdi ezeket az eljárásokat, győződjön meg arról, hogy el tudj
 A 2. lépés elvégzéséhez válassza ki az áttelepítési útvonalának megfelelő utasításokat: 
 
 
-- [Szoftverkulcstól szoftverkulcsig](migrate-softwarekey-to-softwarekey.md)
-- [HSM-kulcstól HSM-kulcsig](migrate-hsmkey-to-hsmkey.md)
-- [Szoftverkulcstól HSM-kulcsig](migrate-softwarekey-to-hsmkey.md)
+- [Szoftveres védelemmel ellátott kulcs áttelepítése szoftveres védelemmel rendelkező kulccsá](migrate-softwarekey-to-softwarekey.md)
+- [HSM által védett kulcs áttelepítése HSM által védett kulccsá](migrate-hsmkey-to-hsmkey.md)
+- [Szoftveres védelemmel ellátott kulcs áttelepítése HSM által védett kulccsá](migrate-softwarekey-to-hsmkey.md)
 
 
 ## 3. lépés. Az RMS-bérlő aktiválása
@@ -166,7 +178,7 @@ A szervezete automatikusan létrehozott csoportját úgy tekintheti meg, hogy az
 ### Windows PowerShell-parancsfájlpélda a BÁRKI csoportot tartalmazó AD RMS-sablonok azonosításához
 Ez a szakasz azt a parancsfájlpéldát tartalmazza, amelynek segítségével az előző szakaszban leírtaknak megfelelően azonosíthatja a BÁRKI csoportot tartalmazó AD RMS-sablonokat.
 
-**Jogi nyilatkozat:** Ez a parancsfájlpélda semmilyen standard támogatási program vagy szolgáltatás esetében nem támogatott a Microsoft által. A parancsfájlpéldát „JELEN ÁLLAPOTÁBAN”, bármiféle jótállás vállalása nélkül biztosítjuk.*
+**Jogi nyilatkozat:** Ez a parancsfájlpélda semmilyen standard támogatási program vagy szolgáltatás esetében nem támogatott a Microsoft által. A parancsfájlpéldát „JELEN ÁLLAPOTÁBAN”, bármiféle jótállás vállalása nélkül biztosítjuk.
 
 ```
 import-module adrmsadmin 
@@ -207,6 +219,6 @@ Ugrás ide: [2. fázis: Ügyféloldali konfiguráció](migrate-from-ad-rms-phase
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Aug16_HO4-->
 
 

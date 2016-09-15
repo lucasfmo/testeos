@@ -1,27 +1,26 @@
 ---
 title: "Azure Rights Management üzembe helyezési menetrend | Azure RMS"
-description: 
-keywords: 
+description: "Az alábbi lépésekkel készítheti elő, valósíthatja meg és kezelheti az Azure Rights Management (Azure RMS) rendszert a szervezet számára."
 author: cabailey
 manager: mbaldwin
-ms.date: 05/09/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 086600c2-c5d8-47ec-a4c0-c782e1797486
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7f8a4d53665dd79a6d0e02d340b0e7a09d995e00
-ms.openlocfilehash: 96ee0aa3151ede8b8a263f3ce6c3d2e5b8ec9c81
+ms.sourcegitcommit: ada00b6f6298e7d359c73eb38dfdac169eacb708
+ms.openlocfilehash: 06f07ad5c8c0f0e1f8511051a84af0b1f8e35647
 
 
 ---
 
 # Azure Rights Management üzembe helyezési menetrend
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 A következő lépésekkel készítheti elő, valósíthatja meg és kezelheti az Azure Rights Management (Azure RMS) rendszert a szervezet számára.
 
@@ -75,6 +74,6 @@ Amikor megkezdi a [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanage
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

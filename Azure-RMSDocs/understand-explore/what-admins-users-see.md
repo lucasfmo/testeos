@@ -1,20 +1,19 @@
 ---
 title: "Mit látnak a rendszergazdák és a felhasználók? | Azure RMS"
-description: 
-keywords: 
+description: "Tekintsen meg tipikus példákat arról, hogy a rendszergazdák és a felhasználók hogyan látják és hogyan használhatják az Azure Rights Management (Azure RMS) szolgáltatást a bizalmas vagy titkos információk megvédésének elősegítése érdekében."
 author: cabailey
 manager: mbaldwin
-ms.date: 06/28/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 013e0eb4-49a7-4e81-9e4d-f56c0ceb017f
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7a9c8b531ec342e7d5daf0cbcacd6597a79e6a55
-ms.openlocfilehash: 213d077a65abd5115b7e0491dfc9cd8145752b23
+ms.sourcegitcommit: 43429b44c019144744f39a1f92f144d315c2024c
+ms.openlocfilehash: 6fbe4841ca3ccd684dd78608d023f6d54735bcaf
 
 
 ---
@@ -22,7 +21,7 @@ ms.openlocfilehash: 213d077a65abd5115b7e0491dfc9cd8145752b23
 
 # Az Azure RMS működés közben: Mit látnak a rendszergazdák és a felhasználók?
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Ez a cikk tipikus példákat mutat be arról, hogy a rendszergazdák és a felhasználók hogyan látják és hogyan használhatják az Azure Rights Management (Azure RMS) szolgáltatást a bizalmas vagy titkos információk megvédésének elősegítése érdekében.
 
@@ -242,6 +241,6 @@ Most, hogy a példákon keresztül láthatta, mire képes az Azure RMS, talán a
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

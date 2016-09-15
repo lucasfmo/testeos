@@ -1,20 +1,19 @@
 ---
 title: "Office-alkalmazások és -szolgáltatások | Azure RMS"
-description: 
-keywords: 
+description: "A végfelhasználói Office-alkalmazások (például Word, Excel, PowerPoint és Outlook) és az Office-szolgáltatások (például Exchange és SharePoint) a Microsoft Azure Rights Management segítségével védelmet biztosíthatnak a szervezet adatai számára."
 author: cabailey
 manager: mbaldwin
-ms.date: 06/30/2016
+ms.date: 09/06/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 388e67cd-c16f-4fa0-a7bb-ffe0def2be81
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 99eb67f6296ad1782c787aabb73a28458c02f367
-ms.openlocfilehash: affb37cc3b991609f5de51370485b10fed932421
+ms.sourcegitcommit: f0871436caef79187349d700d190564b08cc9e46
+ms.openlocfilehash: 1e1a52e637671d857fac22c51a635e726fa99b01
 
 
 ---
@@ -22,7 +21,7 @@ ms.openlocfilehash: affb37cc3b991609f5de51370485b10fed932421
 
 # Office-alkalmazások és -szolgáltatások
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 A végfelhasználói Office-alkalmazások (például Word, Excel, PowerPoint és Outlook) és az Office-szolgáltatások (például Exchange és SharePoint) a Microsoft Azure Rights Management segítségével védelmet biztosíthatnak a szervezet adatai számára.
 
@@ -55,14 +54,13 @@ Listák és könyvtárak esetében az adatvédelmi beállításokat mindig a ren
 
 Először az IRM szolgáltatást engedélyezni kell a SharePointhoz. Ezt követően tartalomvédelmi szolgáltatásokat alkalmazhat az adott könyvtáron. A SharePoint Online és a OneDrive vállalati verziójának esetében a felhasználók OneDrive vállalati verziójú könyvtáraikra is alkalmazhatnak tartalomvédelmi szolgáltatásokat. A SharePoint nem használ jogmegadási sablonokat, bár egyes SharePoint konfigurációs beállítások megadása közel hasonlóan működik a sablonokban megadott beállításokhoz.
 
-SharePoint Server használata esetén az RMS-összekötő telepítésével alkalmazhatóvá válnak az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] adatvédelmi funkciói, amely a helyszíni kiszolgálók és az RMS-felhőszolgáltatás közötti közvetítőként működik. További információk: [Deploying the Azure Rights Management connector](../deploy-use/deploy-rms-connector.md) (Az Azure Rights Management-összekötő telepítése).
+SharePoint Server használata esetén az RMS-összekötő telepítésével alkalmazhatóvá válnak az [!INCLUDE[aad_rightsmanagement_1](../includes/aad_rightsmanagement_1_md.md)] adatvédelmi funkciói, amely a helyszíni kiszolgálók és az RMS-felhőszolgáltatás közötti közvetítőként működik. További információk: [Az Azure Rights Management-összekötő telepítése](../deploy-use/deploy-rms-connector.md).
 
 > [!NOTE]
 > Az IRM SharePointtal való alkalmazása esetében jelenleg bizonyos korlátozások érvényesek:
 > 
 > -   A klasszikus Azure-portálon kezelt, alapértelmezett vagy egyéni sablonok nem használhatók.
 > -   A védett PDF-fájlokhoz tartozó, .PPDF fájlnév-kiterjesztésű fájlok nem támogatottak. A .PDF fájlnév-kiterjesztésű és natív RMS-védelemmel ellátott fájlok a natív RMS-támogatással ellátott PDF-olvasók használata esetén támogatottak.
-> -   Mivel az Office a mobileszközök esetében még nem támogatja az RMS alkalmazását, az RMS-védelemmel ellátott fájlok megtekintése ezeken az eszközökön böngészőben lehetséges, és a fájlok írásvédettek.
 
 Az Azure RMS használati korlátozásokat és adattitkosítást alkalmaz a dokumentumokra azok SharePointról történő letöltésekor, a dokumentumok SharePointban történő első létrehozásakor vagy a könyvtárba történő feltöltésekor azonban nem. A dokumentumok letöltés előtt alkalmazott védelméről a SharePoint dokumentációjának [Data Encryption in OneDrive for Business and SharePoint Online](https://technet.microsoft.com/library/dn905447.aspx) (Adattitkosítás a OneDrive vállalati verzió és a SharePoint Online esetében) fejezetében olvashat.
 
@@ -73,6 +71,6 @@ Az Azure RMS SharePointtal való alkalmazásáról bővebben az Office blogjána
 Információk az egyéb alkalmazások és szolgáltatások Azure Rights Management-támogatásáról: [Hogyan támogatják a különböző alkalmazások az Azure Rights Managementet?](applications-support.md)
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Sep16_HO1-->
 
 

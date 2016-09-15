@@ -1,27 +1,26 @@
 ---
 title: Mi az az Azure Rights Management? | Azure RMS
-description: 
-keywords: 
+description: "Az Azure Rights Management (Azure RMS) azon szervezeteknek készült adatvédelmi megoldás, akik meg szeretnék védeni az információikat, függetlenül attól, hol tárolják azokat. Ez a megoldás a népszerű, Windows, Mac OS, iOS, Android és Windows Phone rendszereket futtató végfelhasználói eszközöket támogatja."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: aeeebcd7-6646-4405-addf-ee1cc74df5df
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e2de70fcbe0b284368b1e52c34f42d1cf4554edd
-ms.openlocfilehash: 6fe5759a790a728da7a16453e5b3ab5d523bb9fd
+ms.sourcegitcommit: 43429b44c019144744f39a1f92f144d315c2024c
+ms.openlocfilehash: c206da4a12cb7eb7bdd0386f47953284c96a33f3
 
 
 ---
 
 # Mi az az Azure Rights Management?
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 
 Az Azure Rights Management (Azure RMS) azon szervezeteknek készült adatvédelmi megoldás, amelyek meg szeretnék védeni az információikat a jelenlegi kihívást jelentő munkahelyi környezetben.
@@ -62,6 +61,6 @@ Ugyanakkor, ha készen áll az Azure RMS központi telepítésére a szervezeté
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

@@ -1,27 +1,26 @@
 ---
 title: "Az Azure Rights Management aktiválása az Office 365 Felügyeleti központ előzetes verziójából | Azure RMS"
-description: 
-keywords: 
+description: "Az Azure RMS aktiválására vonatkozó utasítások az Office 365 felügyeleti központjának új, előzetes verziója használata esetén (Office 365 Felügyeleti központ előzetes verziója)."
 author: cabailey
 manager: mbaldwin
-ms.date: 07/03/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: a2b3e1a2-59a0-4191-bf4c-4485ae7a70a9
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6eae63c629ae7cfe2175a655eb4901c1707c0f1d
-ms.openlocfilehash: 1ac96ddb1569483236c4dc61f7bc38c99d43ead2
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: 20217b10451bd18e898eacd82c10358137a6a42f
 
 
 ---
 
 # Az Azure Rights Management aktiválása az Office 365 Felügyeleti központ előzetes verziójából
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 
 Csak abban az esetben kövesse ezeket az utasításokat, ha az Office 365 felügyeleti központjának új, előzetes verzióját használja (**Az Office 365 felügyeleti központjának előzetes verziója**).
@@ -59,6 +58,6 @@ Vissza [Az Azure Rights Management aktiválása](activate-service.md) című té
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Aug16_HO4-->
 
 

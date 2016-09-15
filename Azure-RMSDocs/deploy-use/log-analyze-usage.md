@@ -1,27 +1,26 @@
 ---
 title: "Az Azure Rights Management használatának naplózása és elemzése | Azure RMS"
-description: 
-keywords: 
+description: "Információ és utasítás a használati naplózás az Azure Rights Managementtel (Azure RMS) történő használatról."
 author: cabailey
 manager: mbaldwin
-ms.date: 06/30/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: a735f3f7-6eb2-4901-9084-8c3cd3a9087e
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5ab8d4ef132eec9991c0ff789f2b2dfa7bdf2cd8
-ms.openlocfilehash: 845a47f526754f291c27a3c2bbd80af736b44992
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: c1727f1a5d6747977da7113b6dc0ac37ebefe386
 
 
 ---
 
 # Az Azure Rights Management használatának naplózása és elemzése
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 A témakörben található információk segítségével megértheti az Azure Rights Management (Azure RMS) használatnaplózási szolgáltatásának alkalmazását. Az Azure Rights Management szolgáltatás képes a szervezet felé irányuló minden kérés naplózására, beleértve a felhasználóktól érkező kéréseket, a szervezet Rights Management-rendszergazdái által, valamint a Microsoft munkatársai által az Azure Rights Management telepítése során végrehajtott műveleteket is.
 
@@ -131,7 +130,7 @@ Az elő sor megadja, hogy Azure Rights Management-naplókról van szó. A másod
 
 A harmadik sorban a tabulátorokkal elválasztott mezők nevei szerepelnek:
 
-**#Mezők: dátum            idő            sorazonosító        kéréstípus           felhasználói azonosító       eredmény          korrelációs azonosító          tartalmi azonosító                tulajdonos e-mail címe           kiállító                     sablonazonosító             fájlnév                  kibocsátási dátum      ügyféladatok         ügyfél IP-címe**
+**#Mezők: dátum            idő            sorazonosító        kéréstípus           felhasználói azonosító       eredmény          korrelációs azonosító          tartalmi azonosító                tulajdonos e-mail címe           kiállító                     sablonazonosító             fájlnév                  kibocsátási dátum      ügyféladatok         ügyfél IP-címe            felügyeleti tevékenység            felhasználói szerep**
 
 Az egymás utáni sorok egy-egy naplóbejegyzést képviselnek. A mezőkben szereplő értékek a megelőző sorban lévő értékek sorrendjét követik, és egymástól tabulátorokkal vannak elválasztva. Az egyes mezők értelmezéséhez a következő táblázat nyújt segítséget.
 
@@ -152,6 +151,7 @@ Az egymás utáni sorok egy-egy naplóbejegyzést képviselnek. A mezőkben szer
 |közzététel dátuma|Dátum|A dokumentum védelemmel történő ellátásának dátuma.|2015-10-15T21:37:00|
 |ügyféladatok|Karakterlánc|Információk a kérést küldő ügyfélplatformról.<br /><br />A karakterlánc az alkalmazástól (például az operációs rendszertől vagy a böngészőtől) függően változik.|'MSIPC;version=1.0.623.47;AppName=WINWORD.EXE;AppVersion=15.0.4753.1000;AppArch=x86;OSName=Windows;OSVersion=6.1.7601;OSArch=amd64'|
 |ügyfél IP-címe|Utca, házszám|A kérést küldő ügyfél IP-címe.|64.51.202.144|
+
 
 #### A felhasználói azonosító mező kivételei
 Bár a felhasználói azonosító mező általában meghatározza a kérést küldő felhasználót, két kivétel esetében az érték nem feleltethető meg valós felhasználónak:
@@ -174,29 +174,43 @@ Az Azure Rights Management esetében számos kéréstípus létezik; az alábbi 
 |AcquireTemplates|Sablonok beszerzését kezdeményezték sablonazonosító alapján|
 |AcquireTemplateInformation|A sablon azonosítóinak beszerzését kezdeményezték a szolgáltatásból.|
 |AddTemplate|Sablon hozzáadását kezdeményezték a klasszikus Azure-portálról.|
+|AllDocsCsv|A dokumentumkövetési webhelyről kérés érkezett a CSV-fájl letöltésére a **Minden dokumentum** lapról.|
 |BECreateEndUserLicenseV1|Végfelhasználói licenc létrehozását kezdeményezték egy mobileszközről.|
 |BEGetAllTemplatesV1|Az összes sablon beszerzését kezdeményezték (a háttérben) egy mobileszközről.|
 |Certify|Az ügyfél védelmi hitelesítést végez az adott tartalmon.|
-|KMSPDecrypt|Az ügyfél az RMS-védelemmel ellátott tartalom visszafejtésére tesz kísérletet. Csak az ügyfél által felügyelt bérlői kulcsra (BYOK) érvényes.|
 |DeleteTemplateById|Sablon törlését kezdeményezték a klasszikus Azure-portálról egy sablonazonosító alapján.|
+|DocumentEventsCsv|A dokumentumkövetési webhelyről kérés érkezett egyetlen dokumentum .CSV-fájljának letöltésére.|
 |ExportTemplateById|Sablon exportálását kezdeményezték a klasszikus Azure-portálról egy sablonazonosító alapján.|
 |FECreateEndUserLicenseV1|Az AcquireLicense kéréshez hasonló tartalommal bír, de mobileszközökről.|
 |FECreatePublishingLicenseV1|Megfelel a Certify és a GetClientLicensorCert kérések kombinációjának egy mobileszközről küldve.|
 |FEGetAllTemplates|A sablonok beszerzését kezdeményezték (az előtérben) egy mobileszközről.|
+|FindServiceLocationsForUser|URL-címek lekérdezését kezdeményezték a Certify vagy az AcquireLicense kéréshez.|
+|GetAllDocs|A dokumentumkövetési webhelyről kérés érkezett a **Minden dokumentum** lap betöltésére egy felhasználó számára, vagy az összes dokumentumban való keresésre a bérlő számára. Ez az érték a felügyeleti tevékenység és a felügyeleti szerep mezőknél használható:<br /><br />- a felügyeleti tevékenység értéke üres: Egy felhasználó a saját dokumentumaihoz tartozó **Minden dokumentum** lapot tekinti meg.<br /><br />- a felügyeleti tevékenység értéke igaz, a felhasználói szerep értéke üres: Egy rendszergazda megtekinti a bérlő minden dokumentumát.<br /><br />- a felügyeleti tevékenység értéke igaz, a felhasználói szerep értéke nem üres: Egy rendszergazda egy felhasználó **Minden dokumentum** lapját tekinti meg.|
 |GetAllTemplates|Az összes sablon beszerzését kezdeményezték a klasszikus Azure-portálról.|
 |GetClientLicensorCert|Az ügyfél (később tartalomvédelmi céllal felhasználni kívánt) közzétételi tanúsítványt kér le egy Windows-alapú számítógépről.|
 |GetConfiguration|Azure PowerShell parancsmag beszerzését kezdeményezték az Azure RMS-bérlő konfigurációjának beszerzéséhez.|
 |GetConnectorAuthorizations|Felhőből történő konfiguráció-beszerzési hívás érkezett az RMS-összekötőkről.|
+|GetRecipients|A dokumentumkövetési webhelyről kérés érkezett egyetlen dokumentum listanézetének megnyitására.|
+|GetSingle|A dokumentumkövetési webhelyről kérés érkezett **egyetlen dokumentum** oldalának megnyitására.|
 |GetTenantFunctionalState|A klasszikus Azure-portál ellenőrzi, hogy az Azure RMS aktiválva van-e.|
 |GetTemplateById|Egy sablon beszerzését kezdeményezték a klasszikus Azure-portálról egy sablonazonosító megadásával.|
-|ExportTemplateById|Egy sablon exportálását kezdeményezték a klasszikus Azure-portálról egy sablonazonosító megadásával.|
-|FindServiceLocationsForUser|URL-címek lekérdezését kezdeményezték a Certify vagy az AcquireLicense kéréshez.|
+|KeyVaultDecryptRequest|Az ügyfél az RMS-védelemmel ellátott tartalom visszafejtésére tesz kísérletet. Csak az ügyfél által az Azure Key Vaultban felügyelt bérlői kulcsra (BYOK) érvényes.|
+|KeyVaultGetKeyInfoRequest|Ellenőrzi, hogy az Azure Key Vaultban az Azure RMS-bérlőkulcshoz megadott kulcs elérhető-e és nincs-e még használatban.|
+|KeyVaultSignDigest|Ha az ügyfél által az Azure Key Vaultban felügyelt bérlői kulcsot (BYOK) aláírásra használják, a rendszer hívást kezdeményez. Ennek meghívása az AcquireLicence (vagy a FECreateEndUserLicenseV1), a Certify és a GetClientLicensorCert (vagy FECreatePublishingLicenseV1) kérések használatakor jellemzően egyszer történik meg.|
+|KMSPDecrypt|Az ügyfél az RMS-védelemmel ellátott tartalom visszafejtésére tesz kísérletet. Csak az örökölt, ügyfél által felügyelt bérlői kulcsra (BYOK) érvényes.|
+|KMSPSignDigest|Ha az örökölt, ügyfél által felügyelt bérlői kulcsot (BYOK) aláírásra használják, a rendszer hívást kezdeményez. Ennek meghívása az AcquireLicence (vagy a FECreateEndUserLicenseV1), a Certify és a GetClientLicensorCert (vagy FECreatePublishingLicenseV1) kérések használatakor jellemzően egyszer történik meg.|
+|LoadEventsForMap|A dokumentumkövetési webhelyről kérés érkezett egyetlen dokumentum térképnézetének megnyitására.|
+|LoadEventsForSummary|A dokumentumkövetési webhelyről kérés érkezett egyetlen dokumentum idősor nézetének megnyitására.|
+|LoadEventsForTimeline|A dokumentumkövetési webhelyről kérés érkezett egyetlen dokumentum térképnézetének megnyitására.|
 |ImportTemplate|Egy sablon importálását kezdeményezték a klasszikus Azure-portálról.|
+|RevokeAccess|A dokumentumkövetési webhelyről kérés érkezett egy dokumentum visszavonására.|
+|SearchUsers |A dokumentumkövetési webhelyről kérés érkezett felhasználók keresésére egy bérlőn belül.|
 |ServerCertify|A kiszolgáló hitelesítését kezdeményezték egy RMS-kompatibilis ügyfélről (például SharePointról).|
 |SetUsageLogFeatureState|A használatnaplózás engedélyezését kezdeményezték.|
 |SetUsageLogStorageAccount|Az Azure RMS-naplók helyének megadását kezdeményezték.|
-|KMSPSignDigest|Ha az ügyfél által felügyelt bérlői kulcsot (BYOK) aláírásra használják, a rendszer hívást kezdeményez. Ennek meghívása az AcquireLicence (vagy a FECreateEndUserLicenseV1), a Certify és a GetClientLicensorCert (vagy FECreatePublishingLicenseV1) kérések használatakor jellemzően egyszer történik meg.|
+|UpdateNotificationSettings|A dokumentumkövetési webhelyről kérés érkezett egy dokumentum értesítési beállításainak módosítására.|
 |UpdateTemplate|Egy meglévő sablon frissítését kezdeményezték a klasszikus Azure-portálról.|
+
 
 ## Referencia a Windows PowerShellhez
 2016 februárjától kezdődően az Azure RMS használatnaplózásához szükséges egyetlen Windows PowerShell-parancsmag a [Get-AadrmUserLog](https://msdn.microsoft.com/library/azure/mt653941.aspx). 
@@ -226,6 +240,6 @@ További információ az Azure Rights Managementhez készült Windows PowerShell
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Aug16_HO4-->
 
 

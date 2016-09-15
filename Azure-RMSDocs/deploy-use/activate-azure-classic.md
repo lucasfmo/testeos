@@ -1,27 +1,26 @@
 ---
 title: "Az Azure Rights Management aktiválása a klasszikus Azure-portálról | Azure RMS"
-description: 
-keywords: 
+description: "Az Azure RMS aktiválásának utasításai, amennyiben rendelkezik Azure-portálhoz való hozzáféréssel. Például Nagyvállalati mobilitási csomaggal vagy prémium szintű Azure Rights Management-előfizetéssel rendelkezik."
 author: cabailey
 manager: mbaldwin
-ms.date: 06/27/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 9b0a0227-88ce-44b8-ba3f-31eeaab27ff7
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b214d7951820c8cb98c5d6f81af3325597ea72ec
-ms.openlocfilehash: 9cde79791e8c2b04d1d7622f5aa69d654a70646e
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: ab3b5d71e8cee2ece7fad4c9c3017de7d6eca979
 
 
 ---
 
 # Az Azure Rights Management aktiválása a klasszikus Azure-portálról
 
-*A következőkre vonatkozik: Azure Rights Management*
+>*A következőkre vonatkozik: Azure Rights Management*
 
 
 Akkor használja ezeket az utasításokat, ha hozzáfér az Azure-portálhoz. Például Nagyvállalati mobilitási csomaggal vagy prémium szintű Azure Rights Management-előfizetéssel rendelkezik.
@@ -59,6 +58,6 @@ Az **Active** (Aktív) állapot mellett, amely jelzi, hogy a Rights Management s
 Vissza [Az Azure Rights Management aktiválása](activate-service.md) című témakörhöz.
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

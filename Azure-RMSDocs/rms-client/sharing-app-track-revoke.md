@@ -1,27 +1,26 @@
 ---
 title: "Dokumentumok nyomon követése és visszavonása az RMS megosztóalkalmazás használata során | Azure RMS"
-description: 
-keywords: 
+description: "Miután az RMS-megosztó alkalmazással védetté tette dokumentumait, nyomon követheti, hogy a felhasználók hogyan használják a védett dokumentumokat. Ha szükséges, visszavonhatja a dokumentumokhoz való hozzáférést, ha meg szeretné szüntetni a megosztásukat."
 author: cabailey
 manager: mbaldwin
-ms.date: 05/09/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 61f349ce-bdd2-45c1-acc5-bc83937fb187
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c611fa8a846612fed238e59e5077be67f6f9531a
-ms.openlocfilehash: 9d5c9558e809779940fac095a789730d5e5924e6
+ms.sourcegitcommit: 44541b6fe2567d23174b26cb42fec0731f5d3f58
+ms.openlocfilehash: 2117291a7204dae86b3a6d378ab6af4d84435417
 
 
 ---
 
 # Dokumentumok nyomon követése és visszavonása az RMS-megosztó alkalmazás használata során
 
-*A következőkre vonatkozik: Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
+>*A következőkre vonatkozik: Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
 
 Miután az RMS megosztóalkalmazás használatával ellátta védelemmel a dokumentumokat, és a szervezet az Azure Rights Managementet használja az Active Directory tartalomvédelmi szolgáltatások helyett, nyomon követheti, hogy a felhasználók hogyan használják a védett dokumentumokat. Ha szükséges, visszavonhatja a dokumentumokhoz való hozzáférést, ha meg szeretné szüntetni a megosztásukat. Ehhez használja a **dokumentumkövetési webhelyet**, amelyhez Windows rendszerű számítógépekről, Mac számítógépekről, sőt táblagépekről és mobiltelefonokról is hozzáférhet.
 
@@ -33,9 +32,11 @@ A webhely megnyitását követően jelentkezzen be a dokumentumok nyomon követ�
 
 -   Ha szeretné megszüntetni egy dokumentum megosztását: Kattintson a **Revoke access** (Hozzáférés visszavonása) parancsra, tekintse meg, hogy mennyi ideig lesz még elérhető a dokumentum, és döntse el, hogy tájékoztatja a felhasználókat a korábban megosztott dokumentumhoz történő hozzáférés visszavonásáról, és küld-e nekik egyéni üzenetet. Amikor visszavon egy dokumentumot, az nem törli a megosztott dokumentumot, a jogosultsággal rendelkező felhasználók azonban nem nyithatják meg a továbbiakban.
 
--   Ha az Excelbe szeretne exportálni: Kattintson a **Megnyitás az Excelben** parancsra, így módosíthatja az adatokat és létrehozhat saját nézeteket és diagramokat.
+-   Ha az Excelbe szeretne exportálni: Kattintson az **Exportálás CSV-fájlba** lehetőségre, így módosíthatja az adatokat és létrehozhat saját nézeteket és diagramokat.
 
 -   Ha e-mail-értesítéseket szeretne konfigurálni: Kattintson a **Beállítások** lehetőségre, és adja meg, hogyan és mikor szeretne e-mailt kapni a dokumentumhoz történő hozzáféréskor.
+
+- Ha megosztott dokumentumokat szeretne nyomon követtetni vagy visszavonatni: Az Azure RMS rendszergazdái a Felügyelet ikonra kattintva tudják nyomon követtetni vagy visszavonatni a dokumentumokat. Ez az ikon csak rendszergazdák számára jelenik meg.
 
 -   Ha kérdései vannak, vagy visszajelzést szeretne biztosítani a dokumentumkövetési webhellyel kapcsolatban: Kattintson a Súgó ikonra a [FAQ for Document Tracking](http://go.microsoft.com/fwlink/?LinkId=523977) (Dokumentumkövetéssel kapcsolatos gyakori kérdések) című témakör megnyitásához.
 
@@ -50,6 +51,11 @@ A webhely megnyitását követően jelentkezzen be a dokumentumok nyomon követ�
     ![A Használat követése parancs választása az Outlookban az RMS megosztóalkalmazás használatakor ](../media/ADRMS_MSRMSApp_OutlookTrackUsage.png)
 
 Ha nem látja ezeket az RMS-beállítási lehetőségeket, akkor valószínű, hogy az RMS megosztóalkalmazás nincs telepítve a számítógépre, nem a legújabb változata van telepítve, vagy a számítógépet újra kell indítani a telepítés befejezéséhez. További információ a megosztóalkalmazás telepítésével kapcsolatban: [A Rights Management megosztóalkalmazás letöltése és telepítése](install-sharing-app.md).
+
+> [!NOTE] 
+> Ha az [Azure Information Protection-ügyfél](../information-protection/info-protect-client.md) előzetes verzióját, a 1.0.233-s vagy későbbi verziót telepítette, a dokumentumkövetési webhely a **Védelem** gomb használatával is elérhető: 
+> 
+> - Office-alkalmazásban a **Kezdőlap** **Védelem** csoportjában kattintson a **Védelem** > **Használat követése** lehetőségre. 
 
 ### A dokumentumok nyomon követésének és visszavonásának egyéb módjai
 A Windows rendszerű számítógépen tárolt dokumentumoknak az Office-alkalmazások használatával történő nyomon követése mellett az alábbi lehetőségeket is használhatja:
@@ -93,13 +99,13 @@ A Rights Management megosztóalkalmazás használatát szemléltető egyéb pél
 
 -   [Példák az RMS-megosztó alkalmazás használatára](sharing-app-user-guide.md#examples-for-using-the-rms-sharing-application)
 
--   [Művelet](sharing-app-user-guide.md#what-do-you-want-to-do-)
+-   [Művelet](sharing-app-user-guide.md#what-do-you-want-to-do)
 
 ## Lásd még:
 [A Rights Management megosztóalkalmazás felhasználói útmutatója](sharing-app-user-guide.md)
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

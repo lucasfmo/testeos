@@ -1,20 +1,19 @@
 ---
 title: "2. lépés&colon; Szoftveres védelemmel ellátott kulcs áttelepítése szoftveres védelemmel rendelkező kulccsá | Azure RMS"
-description: 
-keywords: 
+description: "Az utasítások, amik az AD RMS-ről az Azure Rights Managementre történő áttelepítés részét képezik, csak akkor alkalmazandók, ha az AD RMS-kulcs szoftveres védelemmel van ellátva, és szoftveres védelemmel ellátott bérlőkulccsal rendelkező Azure Rights Management-környezetbe kívánt áttelepülni."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 81a5cf4f-c1f3-44a9-ad42-66e95f33ed27
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: bb152f428c8e0b9a065035aaad2de6353265a562
-ms.openlocfilehash: a739da3fbebc8dfa4c6715fd64ccd72f87d2a686
+ms.sourcegitcommit: ada00b6f6298e7d359c73eb38dfdac169eacb708
+ms.openlocfilehash: 5ec3d2b275521807c6fd8f9ccfe1136db97d5d79
 
 
 ---
@@ -22,7 +21,7 @@ ms.openlocfilehash: a739da3fbebc8dfa4c6715fd64ccd72f87d2a686
 
 # 2. lépés: Szoftveres védelemmel ellátott kulcs áttelepítése szoftveres védelemmel rendelkező kulccsá
 
-*A következőkre vonatkozik: Active Directory Rights Management Services, Azure Rights Management*
+>*A következőkre vonatkozik: Active Directory Rights Management Services, Azure Rights Management*
 
 
 Ezek az utasítások az [AD RMS-ről az Azure Rights Managementre történő áttelepítés](migrate-from-ad-rms-to-azure-rms.md) részét képezik, és csak akkor alkalmazandók, ha az AD RMS-kulcs szoftveres védelemmel van ellátva, és szoftveres védelemmel ellátott bérlőkulccsal rendelkező Azure Rights Management-környezetbe kívánt áttelepülni. 
@@ -33,7 +32,7 @@ Az alábbi eljárással importálhatja az AD RMS konfigurációját az Azure RMS
 
 ## Konfigurációs adatok importálása az Azure RMS szolgáltatásba
 
-1.  Egy internethez csatlakoztatott munkaállomáson töltse le és telepítse a Windows PowerShell-modult az Azure RMS-hez (minimális verzió: 2.1.0.0), amelynek része az [Import-AadrmTpd](http://msdn.microsoft.com/library/azure/dn857523.aspx) parancsmag.
+1.  Egy internethez csatlakoztatott munkaállomáson töltse le és telepítse a Windows PowerShell-modult az Azure RMS-hez (minimális verzió: 2.5.0.0), amelynek része az [Import-AadrmTpd](http://msdn.microsoft.com/library/azure/dn857523.aspx) parancsmag.
 
     > [!TIP]
     > Ha már korábban letöltötte és telepítette a modult, ellenőrizze a verziószámot a következő futtatásával: `(Get-Module aadrm -ListAvailable).Version`
@@ -56,7 +55,7 @@ Az alábbi eljárással importálhatja az AD RMS konfigurációját az Azure RMS
 
     Amikor a rendszer kéri, írja be a korábban megadott jelszót, és erősítse meg a művelet végrehajtására vonatkozó szándékát.
 
-4.  A parancs befejeződésekor ismételje meg a 3. lépést a többi .xml fájl esetében, amelyeket a megbízható közzétételi tartományok exportálásával hozott létre. Ezen fájlok esetében azonban az **-Active** esetében **false** értéket kell beállítani az Import parancs futtatásakor. Például: **Import-AadrmTpd -TpdFile E:\contosokey2.xml -ProtectionPassword -Active $false -Verbose**
+4.  A parancs befejezésekor ismételje meg a 3. lépést a többi olyan .xml fájl esetében, amelyet a megbízható közzétételi tartományok exportálásával hozott létre. Ezen fájlok esetében azonban az **-Active** esetében **false** értéket kell beállítani az Import parancs futtatásakor. Például: **Import-AadrmTpd -TpdFile E:\contosokey2.xml -ProtectionPassword -Active $false -Verbose**
 
 5.  A [Disconnect-AadrmService](http://msdn.microsoft.com/library/azure/dn629416.aspx) parancsmagot használva bontsa a kapcsolatot az Azure RMS szolgáltatással:
 
@@ -64,11 +63,13 @@ Az alábbi eljárással importálhatja az AD RMS konfigurációját az Azure RMS
     Disconnect-AadrmService
     ```
 
+
 Folytassa a következővel: [3. lépés: Az RMS-bérlő aktiválása](migrate-from-ad-rms-phase1.md#step-3-activate-your-rms-tenant).
 
 
 
 
-<!--HONumber=Jun16_HO4-->
+
+<!--HONumber=Aug16_HO4-->
 
 

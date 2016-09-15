@@ -1,27 +1,26 @@
 ---
 title: "Forgatókönyv – Jogosultságokhoz kötött információk biztonságos cseréje vezetői szinten | Azure RMS"
-description: 
-keywords: 
+description: "Ez a forgatókönyv és a támogató felhasználói dokumentáció az Azure Rights Managementet használja ahhoz, hogy a vezetők biztonságosan küldhessenek e-maileket és e-mailes mellékleteket egymásnak, és a házirendek automatikusan korlátozzák a vezetők hozzáférését anélkül, hogy speciális műveleteket kellene végezniük."
 author: cabailey
 manager: mbaldwin
-ms.date: 05/20/2016
+ms.date: 08/25/2016
 ms.topic: get-started-article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: e18cf5df-859e-4028-8d19-39b0842df33d
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f7dd88d90357c99c69fe4fdde67c1544595e02f8
-ms.openlocfilehash: def8b7e98fd55a3d028978ffc9f8e41e38a5622c
+ms.sourcegitcommit: 81426cf43f31625c6e83d443fa925f6426eb89da
+ms.openlocfilehash: 1ec54b54197471f8cccaf6ae83ae8e592da30cae
 
 
 ---
 
 # Forgatókönyv – Jogosultságokhoz kötött információk biztonságos cseréje vezetői szinten
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Ez a forgatókönyv és a támogató felhasználói dokumentáció az Azure Rights Managementet használja ahhoz, hogy a vezetők biztonságosan küldhessenek e-maileket és e-mailes mellékleteket egymásnak, és a házirendek automatikusan korlátozzák a vezetők hozzáférését anélkül, hogy speciális műveleteket kellene végezniük. Az e-mailt és a mellékleteit az Azure Rights Management automatikusan védelemmel látja el.
 
@@ -133,6 +132,6 @@ Amikor bizalmas vállalati adatokat küld egy másik VanArsdel-vezetőnek, ne fe
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Aug16_HO4-->
 
 

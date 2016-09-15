@@ -1,27 +1,26 @@
 ---
 title: "Azure RMS-követelmények&#58; Azure AD-címtár | Azure RMS"
-description: 
-keywords: 
+description: "Határozza meg az Azure AD-követelményeket az Azure Rights Management (Azure RMS) használatához, hogy a felhasználók hitelesítve legyenek."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/25/2016
 ms.topic: get-started-article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: ed25aa83-e272-437b-b445-3f01e985860c
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ed50d87138c428fadfd22cd5b3ef3c7f7e421848
-ms.openlocfilehash: 75b2414cc360704deb6107d6c0038f5b0bf7fa70
+ms.sourcegitcommit: 81426cf43f31625c6e83d443fa925f6426eb89da
+ms.openlocfilehash: b4ac71492ba9ad883d481149a248b919973d7386
 
 
 ---
 
 # Azure RMS-követelmények: Azure AD-címtár
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 
 Az Azure Rights Management (Azure RMS) használatához Azure AD-címtárral kell rendelkeznie. A címtárhoz tartozó szervezeti fiók segítségével léphet be a klasszikus Azure portálra, ahol többek között konfigurálhatja és kezelheti a tartalomvédelmi sablonokat.
@@ -76,6 +75,6 @@ Az egyéb követelményeket [Az Azure Rights Management követelményei](require
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

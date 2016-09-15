@@ -1,27 +1,26 @@
 ---
 title: "Áttelepítés AD RMS-ről Azure Rights Managementre – 3. fázis | Azure RMS"
-description: 
-keywords: 
+description: "Az AD RMS-ről Azure Rights Managementre (Azure RMS) történő áttelepítés 3. szakasza, benne az AD RMS-ről Azure Rights Managementre történő áttelepítés 6-7. lépése."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/17/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 8b039ad5-95a6-4c73-9c22-78c7b0e12cb7
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f7dd88d90357c99c69fe4fdde67c1544595e02f8
-ms.openlocfilehash: 75cce1d0e5a1cff0d4f6609d0f084fda1af62951
+ms.sourcegitcommit: ada00b6f6298e7d359c73eb38dfdac169eacb708
+ms.openlocfilehash: 5d707e1fac410e5ff959071507044420dbd8cde7
 
 
 ---
 
 # 3. áttelepítési fázis – támogatási szolgáltatások konfigurációja
 
-*A következőkre vonatkozik: Active Directory Rights Management Services, Azure Rights Management*
+>*A következőkre vonatkozik: Active Directory Rights Management Services, Azure Rights Management*
 
 
 Az alábbi, 3. fázisra vonatkozó információk segítséget nyújtanak az AD RMS-ről az Azure Rights Managementre (Azure RMS) való áttelepítésben. Ezek az eljárások megfelelnek az [Áttelepítés AD RMS-ről Azure Rights Managementre](migrate-from-ad-rms-to-azure-rms.md) című cikk 6–7. lépésének.
@@ -42,7 +41,7 @@ Ha az **ügyfél által felügyelt (BYOK)** Azure RMS bérlőkulcs-topológiát 
 ## 7. lépés Az RMS-összekötő üzembe helyezése
 Ha használta az Exchange-kiszolgáló vagy a SharePoint-kiszolgáló tartalomvédelmi szolgáltatásait (IRM) az AD RMS szolgáltatással, először tiltsa le az IRM-et ezeken a kiszolgálókon, és távolítsa el az AD RMS-konfigurációt. Ezután helyezze üzembe a tartalomvédelmi (RMS) összekötőt, ami kommunikációs interfészként (továbbítóként) működik a helyszíni kiszolgálók és az Azure RMS között.
 
-Ha több, az e-mail-üzenetek védelmére szolgáló TPD-t importált az Azure RMS szolgáltatásba, a lépés végén végezze el beállításjegyzék manuális szerkesztését az Exchange-kiszolgáló számítógépeken az összes TPD URL-címének RMS-összekötőre történő átirányításához.
+Ha több, az e-mail-üzenetek védelmére szolgáló AD RMS-adatkonfigurációs .xml-fájlt importált az Azure RMS szolgáltatásba, a lépés végén végezze el a beállításjegyzék manuális szerkesztését az Exchange-kiszolgáló számítógépeken az összes megbízható közzétételi tartomány URL-címének az RMS-összekötőre történő átirányításához.
 
 > [!NOTE]
 > Mielőtt elkezdi a műveletet, ellenőrizze az Azure RMS által támogatott helyszíni kiszolgálók verzióit [Az Azure RMS-t támogató helyszíni kiszolgálók](../get-started/requirements-servers.md) című cikk útmutatása alapján.
@@ -95,7 +94,7 @@ Ha több, az e-mail-üzenetek védelmére szolgáló TPD-t importált az Azure R
 
 #### Csak Exchange és több TPD esetén: A beállításjegyzék szerkesztése
 
--   Az egyes Exchange-kiszolgálókon adja hozzá manuálisan a további importált TDP-khez tartozó következő beállításkulcsokat a TDP URL-címeinek RMS-összekötőre történő átirányításához. Ezek a beállításjegyzékbeli bejegyzések az áttelepítésre vonatkoznak, és a kiszolgálókonfigurációs eszköz nem végzi el a Microsoft RMS-összekötőre vonatkozó hozzáadásukat.
+-   Az egyes Exchange-kiszolgálókon adja hozzá manuálisan a további importált konfigurációs .xml-adatfájlokhoz tartozó következő beállításkulcsokat a megbízható közzétételi tartomány URL-címeinek az RMS-összekötőre történő átirányításához. Ezek a beállításjegyzékbeli bejegyzések az áttelepítésre vonatkoznak, és a kiszolgálókonfigurációs eszköz nem végzi el a Microsoft RMS-összekötőre vonatkozó hozzáadásukat.
 
     A beállításjegyzék szerkesztésekor kövesse az alábbi utasításokat:
 
@@ -215,6 +214,6 @@ A fenti eljárások végrehajtását követően készen áll arra, hogy elolvass
 Az áttelepítés folytatásához ugorjon a [4. fázis – áttelepítés utáni feladatok](migrate-from-ad-rms-phase4.md) című szakaszra.
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Aug16_HO4-->
 
 

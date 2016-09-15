@@ -1,27 +1,26 @@
 ---
 title: "Az Azure Rights Management áttekintése | Azure RMS"
-description: 
-keywords: 
+description: "A Microsoft Azure Rights Management (Azure RMS) segítségével hatékonyan védheti meg a szervezet bizalmas információit a jogosulatlan hozzáférés ellen, valamint szabályozhatja a használatukat."
 author: cabailey
 manager: mbaldwin
-ms.date: 05/03/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 965581c8-be3c-43b4-8145-5cefd29c7636
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fdedb0f1064e98500d3b4edcee283c514851d446
-ms.openlocfilehash: a8c9a55977a285cd30872beeb160b07ce02edcce
+ms.sourcegitcommit: 43429b44c019144744f39a1f92f144d315c2024c
+ms.openlocfilehash: b6589429693854b73228b2d90de1a787f03663ff
 
 
 ---
 
 # Az Azure Rights Management áttekintése
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 A Microsoft Azure Rights Management (Azure RMS) segítségével hatékonyan védheti meg a szervezet bizalmas információit a jogosulatlan hozzáférés ellen, valamint szabályozhatja a használatukat. Az Azure Rights Management egy felhőszolgáltatás, amely beépül más Microsoft felhőszolgáltatásokba és alkalmazásokba (például Office 365 és Azure Active Directory). Ezenkívül használhatja a saját, szoftverforgalmazóktól származó, akár helyszíni, akár a felhőben található üzletági alkalmazásaival és adatvédelmi megoldásaival is. 
 
@@ -40,6 +39,6 @@ Ha készen áll az Azure RMS üzembe helyezésére a szervezeténél, lásd: [Az
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

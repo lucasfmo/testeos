@@ -1,12 +1,12 @@
 ---
-title: "Áttekintés | Azure RMS"
+title: "Áttekintés – RMS SDK 2.1 | Azure RMS"
 description: "A Rights Management Services (RMS) egy információvédelmi technológia, amely segítségével megakadályozhatja a digitális adatok jogosulatlan használatát."
 keywords: 
 author: bruceperlerms
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 07/11/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: B546B6C1-ADC1-4EBD-95E2-B4A74E4E980B
@@ -14,17 +14,15 @@ audience: developer
 ms.reviewer: shubhamp
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f7dd88d90357c99c69fe4fdde67c1544595e02f8
-ms.openlocfilehash: 37f3bc2308caaa8fd5e5c7fc8c56b6dc4d076b97
+ms.sourcegitcommit: 5d2339ece646fc51410186d43facdea28ac8fdfe
+ms.openlocfilehash: df0ea8669038f458bc3d8fbf1c704bc5b6815e1d
 
 
 ---
 
 # Áttekintés
 
-A Rights Management Services (RMS) egy információvédelmi technológia, amely segítségével megakadályozhatja a digitális adatok jogosulatlan használatát. A tartalomvédelemmel kompatibilis alkalmazás segítségével a tartalmak tulajdonosai meghatározhatják, ki nyithatja meg, szerkesztheti, nyomtathatja ki, továbbíthatja a tartalmaikat, vagy végezhet velük bármilyen más műveletet.
-
-## Áttekintés
+A Rights Management Services SDK 2.1 egy információvédelmi technológia, amelynek segítségével megakadályozható a digitális adatok jogosulatlan használata. A tartalomvédelemmel kompatibilis alkalmazás segítségével a tartalmak tulajdonosai meghatározhatják, ki nyithatja meg, szerkesztheti, nyomtathatja ki, továbbíthatja a tartalmaikat, vagy végezhet velük bármilyen más műveletet.
 
 Az AD RMS [kiszolgáló-](ad-rms-server.md) és [ügyféloldali](ad-rms-client.md) összetevőkből áll. A kiszolgáló Azure vagy Windows Servert futtat, és több webszolgáltatásból áll.
 
@@ -63,6 +61,6 @@ A szakasz többi témaköre az RMS-architektúrával és annak üzembe helyezés
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Aug16_HO4-->
 
 

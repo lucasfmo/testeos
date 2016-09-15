@@ -1,20 +1,19 @@
 ---
 title: "Rendszergazdai útmutató a Rights Management megosztóalkalmazáshoz | Azure RMS"
-description: 
-keywords: 
+description: "Útmutató és információ vállalati hálózatok rendszergazdái számára, akik a Windows Microsoft Rights Management megosztóalkalmazás telepítéséért felelősek."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/29/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: d9992e30-f3d1-48d5-aedc-4e721f7d7c25
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f7dd88d90357c99c69fe4fdde67c1544595e02f8
-ms.openlocfilehash: e67d0ab5537aa7444940a5e7ce3a653cc6e66993
+ms.sourcegitcommit: 575d52efb788956b0a711e908a730b677e1f7f9c
+ms.openlocfilehash: 113a49586b4582ec984678df6730c6b554ff6a75
 
 
 ---
@@ -22,12 +21,14 @@ ms.openlocfilehash: e67d0ab5537aa7444940a5e7ce3a653cc6e66993
 
 # Rendszergazdai útmutató a Rights Management megosztóalkalmazáshoz
 
-*A következőkre vonatkozik: Active Directory tartalomvédelmi szolgáltatások, Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
+>*A következőkre vonatkozik: Active Directory tartalomvédelmi szolgáltatások, Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
 
 
 Ha a Microsoft Rights Management megosztóalkalmazás vállalati hálózaton való telepítésért felelős, vagy ha több technikai információt szeretne elérni, mint amennyi a [Rights Management megosztóalkalmazás felhasználói útmutatója](sharing-app-user-guide.md) vagy [A Microsoft Rights Management megosztóalkalmazás Windowsra kiadott verziójával kapcsolatos gyakori kérdések](http://go.microsoft.com/fwlink/?LinkId=303971) szakaszban található, használja az alábbi információkat.
 
-Az RMS megosztóalkalmazás legjobban az Azure RMS szolgáltatással működik, mert ez az üzembe helyezési konfiguráció támogatja a védett mellékletek küldését más szervezethez tartozó felhasználók számára, valamint egyéb lehetőségeket is, mint az e-mail értesítések, a dokumentumkövetés és a visszahívás.  Bizonyos korlátozások mellett azonban az alkalmazás működik a helyszíni verzióval, az AD RMS-sel is. Az Azure RMS és az AD RMS által támogatott szolgáltatások átfogó összehasonlításával kapcsolatban lásd: [Az Azure Rights Management és az AD RMS összehasonlítása](../understand-explore/compare-azure-rms-ad-rms.md). Ha az AD RMS-ről szeretne áttérni az Azure RMS-re, lásd: [Áttelepítés AD RMS-ről Azure Rights Managementre](../plan-design/migrate-from-ad-rms-to-azure-rms.md).
+Az RMS megosztóalkalmazás legjobban az Azure RMS szolgáltatással működik, mert ez az üzembe helyezési konfiguráció támogatja a védett mellékletek küldését más szervezethez tartozó felhasználók számára, valamint egyéb lehetőségeket is, mint az e-mail értesítések, a dokumentumkövetés és a visszahívás. Bizonyos korlátozások mellett azonban az alkalmazás működik a helyszíni verzióval, az AD RMS-sel is. Az Azure RMS és az AD RMS által támogatott szolgáltatások átfogó összehasonlításával kapcsolatban lásd: [Az Azure Rights Management és az AD RMS összehasonlítása](../understand-explore/compare-azure-rms-ad-rms.md). Ha az AD RMS-ről szeretne áttérni az Azure RMS-re, lásd: [Áttelepítés AD RMS-ről Azure Rights Managementre](../plan-design/migrate-from-ad-rms-to-azure-rms.md).
+
+A Rights Management megosztóalkalmazás technikai ismertetését, valamint a natív és általános védelemről, a támogatott fájltípusokról, a fájlnévkiterjesztésekről, illetve az alapértelmezett védelmi szint módosításáról szóló információkat a [Technical overview and protection details for the Rights Management sharing application](sharing-app-admin-guide-technical.md) (A Rights Management megosztóalkalmazás technikai áttekintése és védelmi adatai) című témakörben találja. 
 
 ## A Microsoft Rights Management megosztóalkalmazás automatikus központi telepítése
 Az RMS-megosztó alkalmazás Windows verziója támogatja a parancsfájlból történő telepítést, épp ezért kiválóan alkalmas a vállalati központi telepítéshez.
@@ -116,13 +117,13 @@ A sikeresség ellenőrzéséhez tekintse meg jelen cikk [A telepítés sikeress�
         > [!NOTE]
         > Ez a parancs kérheti az Azure hitelesítő adatok megadását. Ha a számítógép nem kapcsolódik tartományhoz, akkor kérni fogja ezeket az adatokat. Ha a számítógép egy tartomány tagja, akkor lehetséges, hogy az eszköz fel tudja használni a gyorsítótárazott hitelesítő adatokat.
 
-2.  Minden számítógépen, amelyre telepíti az RMS megosztóalkalmazást, futtassa a következő parancsot megemelt jogosultságokkal:
+2.  Minden számítógépen, amelyre telepíti az RMS megosztóalkalmazást, futtassa egyszer a következő parancsot emelt szintű rendszerjogosultságokkal:
 
     ```
     setup.exe /s /configureO2010Admin /certificationUrl <certification_url>
     ```
 
-3.  Minden számítógépen, amelyre telepíti az RMS megosztóalkalmazást, a felhasználóknak futtatniuk kell a következő parancsot (nem szükségesek hozzá megemelt jogosultságok). Ez többféleképpen is megvalósítható: meg lehet kérni a felhasználókat, hogy futtassák a parancsot (például egy e-mailbe ágyazott vagy az ügyfélszolgálati portálon közzétett hivatkozásra kattintva), vagy felveheti Ön is a parancsot a felhasználók bejelentkezési parancsfájljába:
+3.  Minden számítógépen, amelyen telepíti az RMS megosztóalkalmazást, az összes felhasználónak futtatnia kell a következő parancsot (nem szükségesek hozzá emelt szintű jogosultságok). Ez többféleképpen is megvalósítható: meg lehet kérni a felhasználókat, hogy futtassák a parancsot (például egy e-mailbe ágyazott vagy az ügyfélszolgálati portálon közzétett hivatkozásra kattintva), vagy felveheti Ön is a parancsot a felhasználók bejelentkezési parancsfájljába:
 
     ```
     bin\RMSSetup.exe /configureO2010Only
@@ -154,9 +155,16 @@ A sikeresség ellenőrzéséhez tekintse meg jelen cikk [A telepítés sikeress�
 
     -   64 bites Windows 7 esetén:
 
-        ```
-        x64\win7\aadrmpep.exe /configureO2010
-        ```
+            pushd x64\win7
+            aadrmpep.exe /configureO2010
+            popd
+
+    -   32 bites Windows 7 esetén:
+
+            pushd x86\win7
+            aadrmpep.exe /configureO2010
+            popd
+
 
 A sikeresség ellenőrzéséhez tekintse meg jelen cikk [A telepítés sikerességének ellenőrzése](#verifying-installation-success) szakaszát.
 
@@ -349,6 +357,33 @@ Az alábbi URL-címek a dokumentumkövetés során használatosak, és engedély
 
 -   https://&#42;.microsoftonline-p.com
 
+### Dokumentumok nyomon követése és visszavonása a felhasználók számára
+
+Amikor a felhasználók bejelentkeznek a dokumentumkövetési webhelyre, nyomon követhetik és visszavonhatják azokat a dokumentumokat, amelyeket az RMS-megosztó alkalmazás segítségével megosztottak. Ha Azure RMS-rendszergazdaként (globális rendszergazdaként) jelentkezik be, és az oldal jobb felső sarkában található Rendszergazda ikonra kattint, felügyeleti üzemmódra vált, így megtekintheti a szervezete felhasználói által megosztott dokumentumokat.
+
+A felügyeleti üzemmódban végrehajtott műveleteket a rendszer ellenőrzi, és a használati naplófájlokban naplózza. A folytatáshoz ezt el kell fogadnia. További információt a naplózásról a következő szakaszban talál.
+
+Felügyeleti üzemmódban felhasználók vagy dokumentumok szerint is kereshet. Ha felhasználó alapján keres, megtekintheti az adott felhasználó által megosztott valamennyi dokumentumot. Ha dokumentum alapján keres, akkor a szervezete azon felhasználói jelennek meg, akik az adott dokumentumot megosztották. Ezután a keresési találatok részletes vizsgálatával nyomon követheti, és szükség esetén visszavonhatja a felhasználók által megosztott dokumentumokat. 
+
+A rendszergazda-üzemmódból való kilépéshez kattintson a **Kilépés a rendszergazdai módból** felirat melletti **X**-re.
+
+A dokumentumkövetési hely használatáról a felhasználói útmutató [Dokumentumok nyomon követése és visszavonása](sharing-app-track-revoke.md) című részében tájékozódhat.
+
+
+
+### A dokumentumkövetési hely használatának naplózása
+
+A használati naplófájlokban két mező vonatkozik a dokumentumkövetésre: **AdminAction** és **ActingAsUser**.
+
+**AdminAction** - Ez a mező az igaz értéket veszi fel, ha egy rendszergazda rendszergazda-üzemmódban használja a dokumentumkövetési helyet, például azért, hogy egy felhasználó nevében visszavonjon egy dokumentumot, vagy hogy megállapítsa a dokumentum megosztásának időpontját. Ha felhasználó jelentkezik be a dokumentumkövetési webhelyre, ez a mező üres.
+
+**ActingAsUser** - Ha az AdminAction mező értéke igaz, akkor ez a mező annak a felhasználónak a felhasználónevét tartalmazza, akinek mint a keresett felhasználónak vagy dokumentumtulajdonosnak a nevében a rendszergazda eljár. Ha felhasználó jelentkezik be a dokumentumkövetési webhelyre, ez a mező üres. 
+
+Léteznek olyan kéréstípusok is, amelyek azt naplózzák, hogy a felhasználók és a rendszergazdák hogyan használják a dokumentumkövetési helyet. A **RevokeAccess** kéréstípus például arra vonatkozik, hogy egy felhasználó vagy felhasználó nevében eljáró rendszergazda visszavont egy dokumentumot a dokumentumkövetési webhelyen. Az AdminAction mezővel együttesen használva ezzel a kéréstípussal határozható meg, hogy a felhasználó vonta-e vissza saját dokumentumát (ebben az esetben az AdminAction mező üres) vagy a dokumentumot egy rendszergazda vonta vissza egy felhasználó nevében (ebben az esetben az AdminAction mező értéke igaz).
+
+
+További információ a használati naplózásról: [Az Azure Rights Management használatának naplózása és elemzése](../deploy-use/log-analyze-usage.md).
+
 ## Csak AD RMS esetén: Több e-mail tartomány támogatása a szervezeten belül
 Ha vállalata AD RMS alkalmazást használ, és a felhasználók több e-mail tartományban vannak, például egy összeolvadást vagy felvásárlást követően, végezze el a beállításjegyzékben a következő módosítást:
 
@@ -367,6 +402,6 @@ A védelmi szintek (natív és általános) közötti különbségeket, a támog
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Aug16_HO5-->
 
 

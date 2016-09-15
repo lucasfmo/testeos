@@ -1,27 +1,26 @@
 ---
 title: "Áttelepítés AD RMS-ről Azure Rights Managementre – 4. fázis | Azure RMS"
-description: 
-keywords: 
+description: "Az AD RMS-ről Azure Rights Managementre (Azure RMS) történő áttelepítés 4. szakasza, benne az AD RMS-ről Azure Rights Managementre történő áttelepítés 8-9. lépése."
 author: cabailey
 manager: mbaldwin
-ms.date: 06/29/2016
+ms.date: 08/17/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: d51e7bdd-2e5c-4304-98cc-cf2e7858557d
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ea4dd88ed749092fd02135d8ca25b621f74fe72f
-ms.openlocfilehash: 7ed3569475362272ace055862fe8bb3ee072036a
+ms.sourcegitcommit: ada00b6f6298e7d359c73eb38dfdac169eacb708
+ms.openlocfilehash: 2f9c8d47d6b2eb719659c512ec6302c998e065a6
 
 
 ---
 
 # 4. áttelepítési fázis: Áttelepítés utáni feladatok
 
-*A következőkre vonatkozik: Active Directory Rights Management Services, Azure Rights Management*
+>*A következőkre vonatkozik: Active Directory Rights Management Services, Azure Rights Management*
 
 
 Az alábbi, 4. fázisra vonatkozó információk segítséget nyújtanak az AD RMS-ről az Azure Rights Managementre (Azure RMS) való áttelepítésben. Ezek az eljárások megfelelnek az [Áttelepítés AD RMS-ről Azure Rights Managementre](migrate-from-ad-rms-to-azure-rms.md) 8–9. lépésének.
@@ -36,25 +35,24 @@ Figyelje az AD RMS-kiszolgálók tevékenységeit, például a [rendszerállapot
 Az AD RMS-kiszolgálók leszerelése után érdemes megragadni a lehetőséget a sablonok áttekintésére a klasszikus Azure-portálon. Egyesítheti őket, hogy a felhasználók kevesebb lehetőségből választhassanak, újrakonfigurálhatja őket, sőt, új sablonokat is létrehozhat. Ez az alkalom az alapértelmezett sablonok közzétételére is megfelelő. További információ: [Configuring custom templates for Azure Rights Management](../deploy-use/configure-custom-templates.md) (Egyéni sablonok konfigurálása az Azure Rights Management szolgáltatáshoz).
 
 ## 9. lépés Kulcsismétlés végrehajtása az Azure RMS-bérlőkulcs esetében
-Erre a lépésre akkor van szükség az áttelepítés befejezésekor, ha az AD RMS üzembe helyezése 1. RMS-titkosítási módban történt, mivel a kulcsismétlés egy 2. RMS-titkosítási módot használó új bérlőkulcsot hoz létre. Az Azure RMS 1. titkosítási móddal történő használata csak az áttelepítési folyamat alatt támogatott.
+Ez a lépés csak akkor alkalmazható, ha a Microsoft által felügyelt bérlőkulcs-topológiát választotta az ügyfél által felügyelt topológia (Azure Key Vaulttal használt BYOK) helyett.
 
-Ez a lépés ugyan választható, de akkor is ajánlott az áttelepítés befejezésekor, ha a futtatást 2. RMS-titkosítási módban végezte, mert ez hozzájárul az Azure RMS-bérlőkulcs védelméhez az AD RMS-kulccsal kapcsolatos esetleges biztonsági problémák esetén. Amikor kulcsismétlést (más néven „kulcsváltást”) hajt végre az Azure RMS-bérlőkulcson, a rendszer létrehoz egy új kulcsot, és archiválja az eredetit. Mivel azonban az egyik kulcsról a másikra való áttérés nem azonnal, hanem néhány hét alatt megy végbe, ne várja meg, amíg felmerül az eredeti kulccsal kapcsolatos probléma gyanúja, hanem az áttelepítés befejezésekor egyből végezze el a kulcsismétlést az Azure RMS-bérlőkulcson.
+Ez a lépés nem kötelező, de ajánlott abban az esetben, ha az Azure RMS-bérlőkulcsot a Microsoft felügyeli és az AD RMS-ből telepítette át. Ebben az esetben a kulcsismétlés végrehajtásával megvédheti az Azure RMS-bérlőkulcsot az AD RMS-kulccsal kapcsolatos lehetséges biztonsági problémáktól.
 
-Kulcsismétlés végrehajtása az Azure RMS-bérlőkulcs esetében:
+Amikor kulcsismétlést (más néven „kulcsváltást”) hajt végre az Azure RMS-bérlőkulcson, a rendszer létrehoz egy új kulcsot, és archiválja az eredetit. Mivel azonban az egyik kulcsról a másikra való áttérés nem azonnal, hanem néhány hét alatt megy végbe, ne várja meg, amíg felmerül az eredeti kulccsal kapcsolatos probléma gyanúja, hanem az áttelepítés befejezésekor egyből végezze el a kulcsismétlést az Azure RMS-bérlőkulcson.
 
--   Ha az Azure RMS-bérlőkulcsát a Microsoft kezeli: [Lépjen kapcsolatba a Microsoft támogatási szolgálatával](../get-started/information-support.md#to-contact-microsoft-support), és nyisson egy **Azure Rights Management támogatási esetet, amelyben kéri az Azure RMS-bérlőkulcs kulcsismétlését**. Igazolja, hogy Ön az Azure RMS bérlői rendszergazdája. A folyamat jóváhagyása több napig is eltarthat. A szolgáltatásra a szabványos támogatási díjak vonatkoznak; a bérlői kulcs kulcsismétlése nem ingyenes szolgáltatás.
+Ha kulcsismétlést szeretne végrehajtani a Microsoft által kezelt Azure RMS-bérlőkulcson, [lépjen kapcsolatba a Microsoft támogatási szolgálatával](../get-started/information-support.md#to-contact-microsoft-support), és nyisson egy **Azure Rights Management támogatási esetet, amelyben kéri az Azure RMS-bérlőkulcs AD RMS-ből történő áttelepítése utáni kulcsismétlését**. Igazolja, hogy Ön az Azure RMS bérlői rendszergazdája. A folyamat jóváhagyása több napig is eltarthat. A szolgáltatásra a szabványos támogatási díjak vonatkoznak; a bérlői kulcs kulcsismétlése nem ingyenes szolgáltatás.
 
--   Ha saját maga által felügyelt Azure RMS-bérlőkulccsal (BYOK) rendelkezik: a BYOK-eljárás megismétlésével állítson elő és hozzon létre egy új kulcsot az interneten vagy személyesen.
-
-További információ az Azure RMS-bérlőkulcs felügyeletével kapcsolatban: [Operations for your Azure Rights Management tenant key (Az Azure Rights Management bérlőkulcsával kapcsolatos műveletek)](../deploy-use/operations-tenant-key.md).
 
 ## További lépések
+
+További információk az RMS-bérlőkulcs felügyeletével kapcsolatban: [Operations for Your Azure Rights Management Tenant Key](../deploy-use/operations-tenant-key.md) (Az Azure Rights Management bérlőkulcsával kapcsolatos műveletek).
 
 Most, hogy befejezte az áttelepítést, tekintse át az [üzembe helyezési menetrendet](deployment-roadmap.md) a többi elvégzendő üzembe helyezési feladat beazonosítása érdekében.
 
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Aug16_HO4-->
 
 

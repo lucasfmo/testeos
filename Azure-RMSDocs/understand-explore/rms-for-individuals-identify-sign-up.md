@@ -1,20 +1,19 @@
 ---
 title: "Annak ellenőrzése, hogy a felhasználók regisztráltak-e az RMS egyéni felhasználók számára szolgáltatásra | Azure RMS"
-description: 
-keywords: 
+description: "Honnan tudhatja meg rendszergazdaként, hogy a felhasználók regisztráltak-e az RMS egyéni felhasználók számára szolgáltatásra? Az itt leírt módszereket egyesével vagy akár egymással kombinálva is felhasználhatja."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: a36c3d99-a794-4f7a-aafb-64a950f1fcf9
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
-ms.openlocfilehash: e577366be26f7296079751e72fb6531b9e28c504
+ms.sourcegitcommit: 43429b44c019144744f39a1f92f144d315c2024c
+ms.openlocfilehash: fb9331686f5b04ba7aea8653c412127fd6913033
 
 
 ---
@@ -22,7 +21,7 @@ ms.openlocfilehash: e577366be26f7296079751e72fb6531b9e28c504
 
 # Annak ellenőrzése, hogy a felhasználók regisztráltak-e az RMS egyéni felhasználók számára szolgáltatásra
 
-*A következőkre vonatkozik: Azure Rights Management*
+>*A következőkre vonatkozik: Azure Rights Management*
 
 Honnan tudhatja meg rendszergazdaként, hogy a felhasználók regisztráltak-e az RMS egyéni felhasználók számára szolgáltatásra? Az alábbi módszerek bármelyikét használhatja, vagy kombinálhatja is őket:
 
@@ -37,6 +36,6 @@ Honnan tudhatja meg rendszergazdaként, hogy a felhasználók regisztráltak-e a
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

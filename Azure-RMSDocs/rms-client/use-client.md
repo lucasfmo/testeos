@@ -1,12 +1,11 @@
 ---
 title: "Rights Management (RMS) ügyfél | Azure RMS"
-description: 
-keywords: 
+description: "A Microsoft Rights Management-szolgáltatások olyan ügyfélkiszolgálói megoldások, amelyek segítenek megvédeni szervezete adatait. Az RMS-ügyfél integrálva van a számítógépeken és mobileszközökön futtatott alkalmazásokba, az RMS-szolgáltatás pedig a felhőben (Azure RMS) vagy a helyszínen (AD RMS) található."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: a6fa85be-f92a-4e00-9efc-9dbfd4dfbfcb
@@ -14,15 +13,15 @@ ROBOTS: noindex,nofollow
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
-ms.openlocfilehash: 8c21202793dca90edda943082fcd718bdf7397ca
+ms.sourcegitcommit: 44541b6fe2567d23174b26cb42fec0731f5d3f58
+ms.openlocfilehash: 4561f392abb50fbebcd82a8764ec831b2fbfa746
 
 
 ---
 
 # Rights Management (RMS) ügyfél
 
-*A következőkre vonatkozik: Active Directory Rights Management Services, Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
+>*A következőkre vonatkozik: Active Directory Rights Management Services, Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
 
 A Microsoft Rights Management-szolgáltatások olyan ügyfélkiszolgálói megoldások, ahol az RMS-ügyfél integrálva van a számítógépeken és mobileszközökön futtatott alkalmazásokba, az RMS-szolgáltatás pedig a felhőben (Azure RMS) vagy a helyszínen (AD RMS) található. Bizonyos alkalmazások (például az Office-alkalmazások, az RMS-megosztóalkalmazás, illetve a szoftverszállítóktól származó RMS-kompatibilis alkalmazások) esetében az RMS-ügyfél automatikusan telepítve van. Önmagában is telepíthető azonban, így képes például olyan forgatókönyvek támogatására, amikor a fejlesztők üzletági alkalmazásaiba kívánják integrálni az RMS-védelmet, illetve amikor a rendszergazdák vagy egyes kiemelt felhasználók tömegesen kívánják védelemmel ellátni a fájlokat az RMS Protection eszköz használatával.
 
@@ -44,6 +43,6 @@ További forrásanyagokat (például közösségi és támogatási lehetőségek
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

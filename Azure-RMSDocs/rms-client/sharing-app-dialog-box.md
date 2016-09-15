@@ -1,27 +1,26 @@
 ---
 title: "A Rights Management megosztóalkalmazás párbeszédpanel-beállításai | Azure RMS"
-description: 
-keywords: 
+description: "A jelen témakörben található információk segítségével megadhatja az RMS megosztóalkalmazás Védelem hozzáadása vagy Védett megosztás párbeszédpanelének beállításait. Ez a párbeszédpanel akkor jelenik meg, amikor egy megosztani kívánt fájlt lát el védelemmel, vagy helyben lát el védelemmel egy fájlt, és egyéni engedélyeket állít be."
 author: cabailey
 manager: mbaldwin
-ms.date: 05/09/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 7b91ab30-6363-4929-bcbd-4dfbd05f644a
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c611fa8a846612fed238e59e5077be67f6f9531a
-ms.openlocfilehash: 771a80843ca5ab01cd06bd4e76c827469b0e9f00
+ms.sourcegitcommit: 035c9eb6cb630cafd5bd7fc7e2371340043ddc5e
+ms.openlocfilehash: 5f652b0e75350656f446c05d2464319ba46e06ad
 
 
 ---
 
 # A Rights Management megosztóalkalmazás párbeszédpanel-beállításai
 
-*A következőkre vonatkozik: Active Directory tartalomvédelmi szolgáltatások, Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
+>*A következőkre vonatkozik: Active Directory tartalomvédelmi szolgáltatások, Azure Rights Management, Windows 10, Windows 7 SP1, Windows 8, Windows 8.1*
 
 A jelen témakörben található információk segítségével megadhatja az RMS megosztóalkalmazás **Védelem hozzáadása** vagy **Védett megosztás** párbeszédpanelének beállításait. Ez a párbeszédpanel akkor jelenik meg, amikor [egy megosztani kívánt fájlt lát el védelemmel](sharing-app-protect-by-email.md), vagy [helyben lát el védelemmel egy fájlt](sharing-app-protect-in-place.md), és egyéni engedélyeket állít be.
 
@@ -32,14 +31,14 @@ A jelen témakörben található információk segítségével megadhatja az RMS
 
 A választható beállítások mellett az alábbi kérdések is foglalkoztathatják:
 
--   [Mi az az automatikusan létrehozott .ppdf-fájl?](#what-s-the-ppdf-file-that-s-automatically-created-)
+-   [Mi az az automatikusan létrehozott .ppdf-fájl?](#what-s-the-ppdf-file-that-s-automatically-created)
 
--   [Mi a különbség az általános védelem és a beépített (natív) védelem között?](#what-s-the-difference-between-generic-protection-and-built-in-native-protection-)
+-   [Mi a különbség az általános védelem és a beépített (natív) védelem között?](#what-s-the-difference-between-generic-protection-and-built-in-native-protection)
 
 |Beállítás|Leírás|
 |----------|---------------|
 |**FELHASZNÁLÓK**|Ha még nem adott meg e-mail-címet az Outlookban, írja be azon személyek e-mail-címét, akik számára lehetővé kívánja tenni a fájl megnyitását.<br /><br />Vegye figyelembe, hogy az RMS megosztóalkalmazás nem minden típusú e-mail-címet támogat.<br /><br />Ha a szervezet a Rights Management (AD RMS) helyszíni verzióját használja, a megadható e-mail-címek a szervezethez tartozó személyekre korlátozódnak. Ha ez az eset áll fenn, és külső e-mail-címeket próbál megadni, egy üzenet jelenik meg, amely arról tájékoztatja, hogy a vállalati konfiguráció kizárólag a vállalaton belül engedélyezi a védett tartalmak megosztását. <br /><br /> Ha a szervezet az Azure RMS-t használja, a megadott e-mail-címek tartozhatnak a saját, illetve más szervezetben dolgozó személyekhez is.<br /><br />Például: **janetm@contoso.com; p.dover@fabrikam.com**<br /><br />Az RMS megosztóalkalmazás jelenleg nem támogatja a személyes e-mail-címek használatát.|
-|**Általános védelem**|Ha ezt a beállítást választja, a kijelölt fájl nem látható el natív védelemmel. További információkat itt talál: ennek a cikknek a [Mi a különbség az általános védelem és a beépített (natív) védelem között?](#what-s-the-difference-between-generic-protection-and-built-in-native-protection-) című szakasza.|
+|**Általános védelem**|Ha ezt a beállítást választja, a kijelölt fájl nem látható el natív védelemmel. További információkat itt talál: [Mi a különbség az általános védelem és a beépített (natív) védelem között?](#what-s-the-difference-between-generic-protection-and-built-in-native-protection) (a jelenlegi oldalon).|
 |**Megtekintő – Csak megtekintés**<br /><br />**Felülvizsgáló – Megtekintés és szerkesztés**<br /><br />**Társszerző – Megtekintés, szerkesztés, másolás és nyomtatás**<br /><br />**Társtulajdonos – Minden engedély**<br /><br />Megjegyzés: ezen beállítások neve előtt egy kör ikon látható, amely egy földgömböt jelképez. Az ikon használata azt jelzi, hogy általában ezen beállítások valamelyikét kell választani, amikor a mellékletet egy másik szervezetben dolgozó személy számára küldi el.|Akkor válassza ezen beállítások valamelyikét, ha a védett dokumentumra vonatkozó jogosultságokat szeretne megadni. Az egyes beállításokra kattintva megtekintheti a leírásukat.<br /><br />Valamelyik beállítás kiválasztását követően kizárólag a **FELHASZNÁLÓK** részen meghatározott személyek rendelkeznek majd a dokumentum megnyitásához és használatához megadott jogosultságokkal. Hiába továbbítják például valaki másnak a dokumentumot, az nem fogja tudni megnyitni.|
 |A rendszergazda által konfigurált házirendsablonok.<br /><br />Ha a például a vállalat neve Contoso, Ltd: **Contoso, Ltd – Bizalmas, csak megtekintésre**<br /><br />Megjegyzés: ezen beállítások neve előtt egy négyzet ikon látható, amely egy irodaépületet jelképez. Az ikon használata azt jelzi, hogy általában ezen beállítások valamelyikét kell választani, amikor a mellékletet a saját szervezetén belül dolgozó személy számára küldi el.|Amikor megosztja a dokumentumot a szervezetben dolgozó személyekkel, megjelennek a rendszergazda által konfigurált házirendsablonok. Akkor válassza ki ezen sablonok valamelyikét, ha a dokumentum nem osztható meg a szervezeten kívül.<br /><br />Ha egy ilyen beállítást választ ki, a rendszergazda határozza meg a dokumentumra vonatkozó jogosultságokat, illetve hogy ki nyithatja azt meg.|
 |**A dokumentumok lejárati dátuma**|Ezt a lehetőséget csak időérzékeny fájlok esetében jelölje be, amelyeket a kiválasztott felhasználók a megadott dátumot követően nem fognak tudni megnyitni. Ön továbbra is megnyithatja az eredeti fájlt, azonban a megadott napon éjfél után (az aktuális időzóna szerint) más személyek nem tudják majd megnyitni a fájlt.<br /><br />Ez a beállítás nem érhető el, ha olyan házirendsablont választ, amelyet a rendszergazda konfigurált.|
@@ -55,7 +54,7 @@ A választható beállítások mellett az alábbi kérdések is foglalkoztathatj
 
 -   Ha azonban a Rights Management **beépített (natív) védelmét** használja olyan alkalmazásokkal, amelyek ezt lehetővé teszik (például Office-fájlokkal), a fájl védelme akkor sem szűnik meg, ha elküldik valaki másnak vagy egy másik helyen mentik. E fájlok védetté tételekor korlátozó engedélyeket is használhat, például csak olvashatóvá teheti a fájlokat, vagy engedélyezheti azok szerkesztését, miközben letiltja a nyomtatást vagy a másolást. Választhatja például a **Megtekintő – Csak megtekintés** beállítást, így a tartalom nem lesz szerkeszthető, nyomtatható vagy másolható.
 
-További információt a [Rights Management megosztóalkalmazás rendszergazdai útmutatójának ](sharing-app-admin-guide.md) [Védelmi szintek – natív és általános](sharing-app-admin-guide-technical.md#levels-of-protection-native-and-generic) című szakaszában talál.
+További információt a [Rendszergazdai útmutató a Rights Management megosztóalkalmazáshoz](sharing-app-admin-guide.md) témakör [Védelmi szintek – natív és általános](sharing-app-admin-guide-technical.md#levels-of-protection-native-and-generic) című szakaszában talál.
 
 ## Mi az az automatikusan létrehozott .ppdf-fájl?
 
@@ -71,7 +70,7 @@ A Rights Management megosztóalkalmazás használatát szemléltető egyéb pél
 
 -   [Példák az RMS-megosztó alkalmazás használatára](sharing-app-user-guide.md#examples-for-using-the-rms-sharing-application)
 
--   [Művelet](sharing-app-user-guide.md#what-do-you-want-to-do-)
+-   [Művelet](sharing-app-user-guide.md#what-do-you-want-to-do)
 
 ## Lásd még:
 [A Rights Management megosztóalkalmazás felhasználói útmutatója](sharing-app-user-guide.md)
@@ -79,6 +78,6 @@ A Rights Management megosztóalkalmazás használatát szemléltető egyéb pél
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

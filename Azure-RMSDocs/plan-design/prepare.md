@@ -1,27 +1,26 @@
 ---
 title: "Az Azure Rights Management előkészítése | Azure RMS"
-description: 
-keywords: 
+description: "Ellenőrizze, hogy minden készen áll az Azure RMS telepítésére, beleértve a felhasználói fiókokat és a hitelesítésre váró csoportokat."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: afbca2d6-32a7-4bda-8aaf-9f93f5da5abc
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
-ms.openlocfilehash: 55f092ede1f003c700cb58359bab264772702c39
+ms.sourcegitcommit: ada00b6f6298e7d359c73eb38dfdac169eacb708
+ms.openlocfilehash: c5f22b4050779193042f3e6e059d8ca84e94b390
 
 
 ---
 
 # Az Azure Rights Management előkészítése
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Miután regisztrált egy felhőalapú előfizetésre, és egy fiókon keresztül létrehozta a szervezetét a [!INCLUDE[o365_1](../includes/o365_1_md.md)] vagy az Azure Active Directory számára, máris engedélyezheti a [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rightsmanagement_2_md.md)] szolgáltatást.
 
@@ -43,6 +42,6 @@ Alapértelmezés szerint a [!INCLUDE[aad_rightsmanagement_2](../includes/aad_rig
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

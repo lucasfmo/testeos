@@ -1,27 +1,26 @@
 ---
 title: "Egyéb, az RMS API-kat támogató alkalmazások – Telepítés és konfigurálás | Azure RMS"
-description: 
-keywords: 
+description: "Ismerje meg, hogy az Azure Rights Management (Azure RMS) miként támogat más alkalmazásokat a szervezeti adatok védelme érdekében."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: c50a8cbb-d12f-4a0e-bc29-74c463e6ac3e
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
-ms.openlocfilehash: bb69cda94bf611712eb5b4a74d9ec25d1749da3a
+ms.sourcegitcommit: 43429b44c019144744f39a1f92f144d315c2024c
+ms.openlocfilehash: 5536c23fe8feb8192670cbdb6ec67f6895638427
 
 
 ---
 
 # Other applications that support the RMS APIs (Egyéb, az RMS API-kat támogató alkalmazások)
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 Az alábbi információk segítségével megismerheti, hogy az Azure Rights Management (Azure RMS) miként támogat más alkalmazásokat a szervezeti adatok védelme során.
 
@@ -34,6 +33,6 @@ Számos szoftverszállító kínál hasonló adatvédelmi megoldásokat biztosí
 Információk az egyéb alkalmazások és szolgáltatások Azure Rights Management-támogatásáról: [Hogyan támogatják a különböző alkalmazások az Azure Rights Managementet?](applications-support.md)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 

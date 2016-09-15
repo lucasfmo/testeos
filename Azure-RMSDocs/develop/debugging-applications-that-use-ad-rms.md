@@ -1,26 +1,22 @@
 ---
-# required metadata
-
 title: "Útmutató: Tartalomvédelemmel kompatibilis alkalmazások hibakeresése | Azure RMS"
-description: A következő témakör az alkalmazások hibakeresésének és a Windows Eseménynapló használatának módját ismerteti.
-keywords:
+description: "A következő témakör az alkalmazások hibakeresésének és a Windows Eseménynapló használatának módját ismerteti."
+keywords: 
 author: bruceperlerms
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/24/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 6F6C7651-6A6E-45DD-A0C5-F036F803249B
-# optional metadata
-
-#ROBOTS:
 audience: developer
-#ms.devlang:
 ms.reviewer: shubhamp
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 024a29d7c7db2e4c0578a95c93e22f8e7a5b173e
+ms.openlocfilehash: 31b2fe22bbbb31b991bdf88e408c943e6d2ba685
+
 
 ---
 
@@ -78,6 +74,7 @@ Az alábbi paranccsal például engedélyezhető az MSIPC eseménynaplózás, il
  
 
 
-<!--HONumber=Jun16_HO2-->
+
+<!--HONumber=Aug16_HO4-->
 
 

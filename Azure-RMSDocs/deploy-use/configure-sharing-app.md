@@ -1,27 +1,26 @@
 ---
 title: "Rights Management megosztóalkalmazás&colon; Telepítés és konfigurálás ügyfelek esetén | Azure RMS"
-description: 
-keywords: 
+description: "Információ rendszergazdák részére a Rights Management- (RMS-) megosztóalkalmazás Windows rendszerű számítógépekre és mobileszközökre való telepítéséről."
 author: cabailey
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/25/2016
 ms.topic: article
-ms.prod: azure
+ms.prod: 
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: b9af5dc3-73d4-4147-b7ef-f6803b0d5216
 ms.reviewer: esaggese
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0f355da35dff62ecee111737eb1793ae286dc93e
-ms.openlocfilehash: d3f923cf6f140c2caa75b7b0c8ac90a42be962a7
+ms.sourcegitcommit: ad32910b482ca9d92b4ac8f3f123eda195db29cd
+ms.openlocfilehash: c73529b39f31fc6d819a3123bbdc2416f2d996f4
 
 
 ---
 
 # Rights Management megosztóalkalmazás: Telepítés és konfigurálás ügyfelek esetén
 
-*A következőkre vonatkozik: Azure Rights Management, Office 365*
+>*A következőkre vonatkozik: Azure Rights Management, Office 365*
 
 A Rights Management (RMS) megosztóalkalmazás az Office 2010-zel rendelkező Azure RMS-t használó ügyfélszámítógépek számára szükséges, és javasolt az összes olyan számítógépen és mobileszközözön, amely az Azure RMS szolgáltatást támogatja. Az RMS megosztóalkalmazás az Office alkalmazásokba integrálható egy Office bővítmény telepítésével, hogy a felhasználók könnyedén védhessék meg a fájlokat és e-maileket közvetlenül a szalagról. Általános védelmet nyújt olyan fájltípusokhoz is, amelyeket az Azure RMS nem támogat natív módon, valamint egy dokumentumkövető webhelyet biztosít a felhasználók számára, amelyen követhetik és visszavonhatják a védett fájlokat.
 
@@ -43,6 +42,6 @@ Ha az RMS megosztóalkalmazást mobil platformokhoz szeretné telepíteni, tölt
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Aug16_HO4-->
 
 
