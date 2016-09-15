@@ -1,0 +1,30 @@
+# [Poznawanie i eksplorowanie](/rights-management/understand-explore/azure-rights-management)
+# [Wprowadzenie](/rights-management/get-started/requirements-azure-rms)
+# [Planowanie i projektowanie](/rights-management/plan-design/deployment-roadmap)
+# [Wdrażanie i korzystanie z usługi](/rights-management/deploy-use/activate-service)
+# [Wdrażanie i korzystanie z klienta](use-client.md)
+## [Klient usługi Rights Management](use-client.md)
+### [Uwagi dotyczące wdrażania klienta usługi RMS](client-deployment-notes.md)
+### [Ochrona za pomocą usługi RMS z użyciem infrastruktury FCI w systemie Windows Server](configure-fci.md)
+#### [Skrypt programu PowerShell](fci-script.md)
+### [Aplikacja do udostępniania usługi Rights Management dla systemu Windows](sharing-app-windows.md)
+#### [Aplikacja do udostępniania usługi Rights Management: historia wersji](sharing-app-version-release-history.md)
+#### [Przewodnik administratora aplikacji do udostępniania usługi Rights Management](sharing-app-admin-guide.md)
+##### [Omówienie techniczne i szczegółowe informacje o ochronie](sharing-app-admin-guide-technical.md)
+#### [Podręcznik użytkownika aplikacji do udostępniania usługi Rights Management](sharing-app-user-guide.md)
+##### [Pobieranie i instalowanie](install-sharing-app.md)
+##### [Ochrona pliku na urządzeniu](sharing-app-protect-in-place.md)
+##### [Ochrona pliku udostępnionego pocztą e-mail](sharing-app-protect-by-email.md)
+##### [Zmienianie uprawnień do chronionych plików](sharing-app-reprotect-files.md)
+##### [Śledzenie i odwoływanie dokumentów](sharing-app-track-revoke.md)
+##### [Wyświetlanie i używanie chronionych plików](sharing-app-view-use-files.md)
+##### [Usuwanie ochrony](sharing-app-remove-protection.md)
+##### [Używanie skrótów klawiaturowych](sharing-app-keyboard-shortcuts.md)
+##### [Opcje okien dialogowych](sharing-app-dialog-box.md)
+# [Tworzenie i dostosowywanie aplikacji](/rights-management/develop/developers-guide)
+# [Azure Information Protection (wersja zapoznawcza)](/rights-management/information-protection/what-is-information-protection)
+
+
+<!--HONumber=Jul16_HO4-->
+
+
