@@ -58,7 +58,7 @@ As you see above the push notification content includes the marker ${rebate_code
 ![Personalize2][12]
 
 ### You can further personalize the text your notification
-![Personalize3][13]
+![Personalize3][13]sdasdasdasdasdasdasdasdasda
 
 * Including the title of the notification,
 * And the content of the message.
