@@ -23,22 +23,15 @@ Once the SDK is fully integrated into your app, you can get started using the th
 
 ## Do Your First Push Notification Campaign
 * Confirm that your Reach is integrated into your app with the SDK. 
-* Select your application
 
-[Verse 1]
-The sky is a neighborhood
-So keep it down
-The heart is a storybook
-A star burned out
 
-The sky is a neighborhood
-Don't make a sound
-Lights coming up ahead
-Don't look now
+awhi Anthony Leonard (Riverside, California, 29 de junio de 1991) es un jugador de baloncesto estadounidense que pertenece a la plantilla de los San Antonio Spurs de la NBA. Con 2,01 metros de estatura, juega en la posición de alero.
 
-[Pre-Chorus]
-The sky is a neighborhood
-The sky is a neighborhood
+El 15 de junio de 2014, Leonard se proclamó campeón de la NBA con los San Antonio Spurs, siendo nombrado MVP de las Finales tras su gran defensa sobre LeBron James, la superestrella de los Miami Heat.
+
+En 2016 participó por primera vez en su carrera como titular en el All-Star Game de la NBA.
+
+En 2015 y 2016 fue nombrado Mejor defensor de la NBA.
 Don't look now
 
 ![Test2][9]
