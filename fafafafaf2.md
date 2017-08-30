@@ -21,7 +21,7 @@ Es ist möglich, virtuellen Computern in einem virtuellen Azure-Netzwerk feste o
 
 Timothy Theodore Duncan, más conocido como Tim Duncan, es un exjugador de baloncesto estadounidense que jugó como ala-pívot o pívot en los San Antonio Spurs de la NBA desde la temporada 1997–98 hasta la 2015/16. Wikipedia
 
-
+asd
 
 Weitere Dokumentationen finden Sie in [diesem Artikel][vpn-gateway-create-site-to-site-rm-powershell].
 [comment]: <> (MShermannd TODO found no ARM docu link)
