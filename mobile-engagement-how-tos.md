@@ -24,42 +24,21 @@ Once the SDK is fully integrated into your app, you can get started using the th
 * Confirm that your Reach is integrated into your app with the SDK. 
 * Select your application
 
-![First1][1]
+[Verse 1]
+The sky is a neighborhood
+So keep it down
+The heart is a storybook
+A star burned out
 
-* Go to the "Reach" Section and Click "New announcement"
+The sky is a neighborhood
+Don't make a sound
+Lights coming up ahead
+Don't look now
 
-![First2][2]
-
-* Create a new campaign and name it
-  
-![First3][3]
-
-* Select how the notification should be delivered, as In-app only
-
-![First4][4]
-
-* Create the message you want to push
-
-![First5][5]
-
-* You may write a title on the notification (Optional).
-* Write push message content.
-* You can upload an image. Be aware that the size of the file cannot exceed 32,768 bytes.
-* You also have the ability to select further options, but for the focus of this tutorial, we will see that later.
-* Select the content type as Notification only
-
-![First6][6]
-
-* Create your push campaign and it will appear in your campaign list.
-
-![First7][7]
-
-## Test Your Push Notification Campaign
-![Test1][8]
-
-* Register your device.
-* Click on the checkbox of the device you want to push.
-* Click on the "Test" button to send the push to the device.
+[Pre-Chorus]
+The sky is a neighborhood
+The sky is a neighborhood
+Don't look now
 
 ![Test2][9]
 
