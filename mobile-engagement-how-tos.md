@@ -18,6 +18,7 @@ ms.author: piyushjo
 
 ---
 # How to get started using and managing pushes to reach out to your end users
+### How to get started using and managing pushes to reach out to your end users
 Once the SDK is fully integrated into your app, you can get started using the the Reach section of the UI to Push notifications to the users of your app.  
 
 ## Do Your First Push Notification Campaign
