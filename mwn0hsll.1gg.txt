@@ -1,0 +1,15 @@
+﻿Ammmmmm
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+Author:    Agustin Schiavon <v-agschi@microsoft.com>
+Date:      Wed Aug 30 15:43:26 2017 -0300
+#
+# On branch live
+# Your branch is up-to-date with 'origin/live'.
+#
+# Changes to be committed:
+#	modified:   fafafafa.md
+#
+
