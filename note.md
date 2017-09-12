@@ -158,7 +158,6 @@ En este momento, el proveedor de identidades se ha configurado.  Sin embargo, no
 
 >[!NOTE]
 >If you previously copied the `<UserJourneys>` element from base file of your policy to the extension file (TrustFrameworkExtensions.xml) you can skip this section.
-
 1.  Abra el archivo base de la directiva (por ejemplo, TrustFrameworkBase.xml).
 2.  Busque el elemento `<UserJourneys>` y copie el contenido entero del nodo `<UserJourneys>`.
 3.  Abra el archivo de extensión (por ejemplo, TrustFrameworkExtensions.xml) y busque el elemento `<UserJourneys>`. Si el elemento no existe, agréguelo.
