@@ -156,8 +156,8 @@ Defina la cuenta de ADFS como proveedor de notificaciones; para ello, agregue el
 ## <a name="register-the-adfs-account-claims-provider-to-sign-up-or-sign-in-user-journey"></a>Registro del proveedor de notificaciones de la cuenta de ADFS para el recorrido del usuario de registro o inicio de sesión
 En este momento, el proveedor de identidades se ha configurado.  Sin embargo, no está disponible en ninguna de las pantallas de registro o inicio de sesión. Ahora tiene que agregar el proveedor de identidades de la cuenta de ADFS al recorrido del usuario `SignUpOrSignIn` de su usuario. Para que esté disponible, se crea un duplicado de un recorrido del usuario de plantilla ya existente.  Luego se modifica, de forma que incluya el proveedor de identidades de ADFS:
 
-    >[!NOTE]
-    >If you previously copied the `<UserJourneys>` element from base file of your policy to the extension file (TrustFrameworkExtensions.xml) you can skip this section.
+>[!NOTE]
+>If you previously copied the `<UserJourneys>` element from base file of your policy to the extension file (TrustFrameworkExtensions.xml) you can skip this section.
 
 1.  Abra el archivo base de la directiva (por ejemplo, TrustFrameworkBase.xml).
 2.  Busque el elemento `<UserJourneys>` y copie el contenido entero del nodo `<UserJourneys>`.
