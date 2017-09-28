@@ -70,3 +70,7 @@ Use the **New Guest user** button in the **All users** to add guest users. Just 
 * [Troubleshooting B2B collaboration](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-troubleshooting)
 * [B2B collaboration frequently asked questions (FAQ)](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-faq)
 * [Multi-factor authentication for B2B collaboration users](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)
+
+
+<!--HONumber=Sep17_HO4-->
+
